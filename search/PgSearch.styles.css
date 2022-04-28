@@ -1,4 +1,4 @@
-/* /Layouts/MainLayout.razor.rz.scp.css */
+/* search/Layouts/MainLayout.razor.rz.scp.css */
 @namespace PgSearch
 .page[b-7lyes0qlq0] {
     position: relative;
@@ -10,7 +10,7 @@
     flex: 1;
 }
 
-/* /Shared/DefaultLayout.razor.rz.scp.css */
+/* search/Shared/DefaultLayout.razor.rz.scp.css */
 .page[b-cvc3r5umkc] {
     position: relative;
     display: flex;
