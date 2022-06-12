@@ -1,0 +1,13 @@
+@import '../_content/WpfLayout.Blazor/WpfLayout.Blazor.bundle.scp.css';
+
+/* completionist/Shared/DefaultLayout.razor.rz.scp.css */
+.page[b-qflufe8qnw] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-qflufe8qnw] {
+    flex: 1;
+}
+

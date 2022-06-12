@@ -1,14 +1,4 @@
-/* search/Layouts/MainLayout.razor.rz.scp.css */
-@namespace PgSearch
-.page[b-7lyes0qlq0] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.main[b-7lyes0qlq0] {
-    flex: 1;
-}
+@import '../_content/WpfLayout.Blazor/WpfLayout.Blazor.bundle.scp.css';
 
 /* search/Shared/DefaultLayout.razor.rz.scp.css */
 .page[b-cvc3r5umkc] {
