@@ -57,15 +57,15 @@
     padding-bottom: 2px;
 }
 
-.listbox-item-unselected:hover[b-f8s0mderjm] {
-    cursor: default;
-    padding-left: 4px;
-    padding-top: 1px;
-    padding-right: 4px;
-    padding-bottom: 1px;
-    border: solid 1px #6DA0FAFF;
-    background-color: #DEEFFFFF;
-}
+    .listbox-item-unselected:hover[b-f8s0mderjm] {
+        cursor: default;
+        padding-left: 4px;
+        padding-top: 1px;
+        padding-right: 4px;
+        padding-bottom: 1px;
+        border: solid 1px #6DA0FAFF;
+        background-color: #DEEFFFFF;
+    }
 
 .listbox-item-selected[b-f8s0mderjm] {
     cursor: default;
@@ -124,8 +124,21 @@
 }
 
     .tabcontrol-header-unselected:hover[b-svphlpdlds] {
+        cursor: default;
         border: solid #6DA0FAFF;
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 0;
         background-color: #DEEFFFFF;
+        padding-left: 4px;
+        padding-top: 4px;
+        padding-right: 4px;
+        padding-bottom: 4px;
+        margin-left: 0px;
+        margin-top: 2px;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
 .tabcontrol-header-selected[b-svphlpdlds] {
@@ -184,10 +197,16 @@
     pointer-events: none;
 }
 
-.menuitem-line:hover[b-zndzbc72ld] {
-    border: solid 1px #26A0DAFF;
-    background-color: #C0DDEBFF;
-}
+    .menuitem-line:hover[b-zndzbc72ld] {
+        border: solid 1px #26A0DAFF;
+        background-color: #C0DDEBFF;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-items: start;
+        align-items: stretch;
+        pointer-events: none;
+    }
 
 .menuitem-line-open[b-zndzbc72ld] {
     border: solid 1px #26A0DAFF;
