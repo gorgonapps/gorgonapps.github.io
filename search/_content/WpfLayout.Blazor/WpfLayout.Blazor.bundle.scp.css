@@ -48,34 +48,6 @@
     opacity: 0;
     pointer-events: none;
 }
-/* _content/WpfLayout.Blazor/Controls/ListBox/ListBoxContent.razor.rz.scp.css */
-.listbox-item-unselected[b-f8s0mderjm] {
-    cursor: default;
-    padding-left: 5px;
-    padding-top: 2px;
-    padding-right: 5px;
-    padding-bottom: 2px;
-}
-
-    .listbox-item-unselected[b-f8s0mderjm]:hover {
-        cursor: default;
-        padding-left: 4px;
-        padding-top: 1px;
-        padding-right: 4px;
-        padding-bottom: 1px;
-        border: solid 1px #6DA0FAFF;
-        background-color: #DEEFFFFF;
-    }
-
-.listbox-item-selected[b-f8s0mderjm] {
-    cursor: default;
-    padding-left: 4px;
-    padding-top: 1px;
-    padding-right: 4px;
-    padding-bottom: 1px;
-    border: solid 1px #6DA0FAFF;
-    background-color: #BFDFFFFF;
-}
 /* _content/WpfLayout.Blazor/Controls/ListView/ListViewContent.razor.rz.scp.css */
 .listview-item-unselected[b-j3m85v0he3] {
     cursor: default;

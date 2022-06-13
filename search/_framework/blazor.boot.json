@@ -46,7 +46,7 @@
       "System.Text.Json.dll": "sha256-boUFf2ZjgT8nXXCVPK7dd1oszB8d1OYKwwgr0uQWD3c=",
       "System.Text.RegularExpressions.dll": "sha256-06S7d0VQwZlsDuTwvgH\/ImXaaRb2muAamsZF8Ju8IMk=",
       "System.Threading.dll": "sha256-HbOsHf6ldbphotCpqZpAPHh8fwhhYPEpR1rr+LzbaPg=",
-      "WpfLayout.Blazor.dll": "sha256-VQPEebTA\/q5NvqB+8BQQlet4nJjvNyZZENipRfprs3Y="
+      "WpfLayout.Blazor.dll": "sha256-9AiO+OXglSo0JyyDqgDaBmPGzWchtElmH84IkWVPsHs="
     },
     "extensions": null,
     "lazyAssembly": {
