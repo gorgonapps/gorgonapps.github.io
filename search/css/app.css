@@ -340,11 +340,28 @@ a, .btn-link {
     pointer-events: auto;
 }
 
+.menuitem-header-disabled {
+    border-left: 1px solid white;
+    padding: 0 20px 0 4px;
+    flex: 1;
+    cursor: default;
+    pointer-events: auto;
+    opacity: 0.5;
+}
+
 .menuitem-right-arrow {
     margin-top: 3px;
     font-size: 10px;
     cursor: default;
     pointer-events: auto;
+}
+
+.menuitem-right-arrow-disabled {
+    margin-top: 3px;
+    font-size: 10px;
+    cursor: default;
+    pointer-events: auto;
+    opacity: 0.5;
 }
 
 .itemcollection-menu-nested {

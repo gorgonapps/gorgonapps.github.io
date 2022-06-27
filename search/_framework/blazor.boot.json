@@ -8,8 +8,8 @@
   "resources": {
     "assembly": {
       "Blazored.LocalStorage.dll": "sha256-6RRoYeDP3d0xabXmcCMF66wXeJlXVPem28Trs8sQiis=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-hitat3kJusJaKTk2IFMPY5uEcLZrM9SBDHlBeG74ylM=",
-      "Microsoft.AspNetCore.Components.Web.dll": "sha256-m\/MowAxPafVPW3yqKEgHeqTKjTvD\/XithUEaNJ\/hBPs=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-+Sd\/I+b2uwrWQxyyeS31gMjmCiOq9LcSWiD7uSnR9r0=",
+      "Microsoft.AspNetCore.Components.Web.dll": "sha256-RE0NWArOKiIXRdNRdKcTjFGjb7uxJHCZJpDYpZMS21g=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Hlv3bBXiMrHmFt1QcCk+Xc8gcLyfSvkfw\/qyWNmJI\/U=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-zhFtW4kE16TdrpPne9I1Cu9o0KYzrS50VE9MVSifJg4=",
       "Microsoft.Extensions.Configuration.dll": "sha256-QPR+1IXNcA28b\/gXw3uZ8aRigHIZUJ1KWSH02kkCg7Q=",
@@ -22,8 +22,8 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-YColTWA58whC+8aBjv1O7HgsyYrbHTba601EkNDWAlo=",
       "Microsoft.JSInterop.dll": "sha256-otvWcwJqmp+\/h9brWd17mNGsLBx45IF2LWXZyhPAjw0=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-lGzGmghWC2n88jfdnt\/ZlgOBbU9tjhYhdRO8P4zXTXo=",
-      "PgObjects.dll": "sha256-i+nW+CyhetMHNYiLLHpmZgy3jlKMRG8Y8IpYY6zMGfk=",
-      "PgSearch.dll": "sha256-SRAiu3AK+ISv9YTef82M\/V5p+oZH\/kYGUBVvUrcfiNo=",
+      "PgObjects.dll": "sha256-AXFdxWPWA1cyPB6WMKk2Mj+ZMHN9RdPG5exOlNY0TaU=",
+      "PgSearch.dll": "sha256-8IVyMYbtPmJpO3WWKKoN45g0ZwnKL5irTZ8Rb4jwSTQ=",
       "System.Collections.Concurrent.dll": "sha256-gqVR+FhD0Py0J0nOtpjZv6egm9NOZPLGh+7p2fbOXwA=",
       "System.Collections.dll": "sha256-+k9knl4mpQ2NRB3XG\/MKhWCjGT8GP3WZ6We1bY1dUuE=",
       "System.ComponentModel.dll": "sha256-bcU0gkK0S6nisdG+oEXPi0+TscroE6jDL7kZguQcLZE=",
@@ -32,25 +32,26 @@
       "System.Console.dll": "sha256-JJyqVoa4MYunj\/LUbVXEX\/e89Z\/euFnScpVvbbxtH6w=",
       "System.Diagnostics.Process.dll": "sha256-e0KL36joakQ2bqeKssFkyFqmx1pYXyzte8488v6S83s=",
       "System.dll": "sha256-k4NmjVgc+BBwOvtJrC3ymcR6EjUJh2Dyo3uR7jCQUIc=",
+      "System.IO.FileSystem.Watcher.dll": "sha256-rRtOoKNIFqGMew3EYNuPN1I7Qtmqmc7WGTiGIPvZlsE=",
       "System.Linq.dll": "sha256-JhDaeVTZrc5OeNM7yJGZeUgxr\/cZO\/3lvtS1oOaW\/nI=",
       "System.Memory.dll": "sha256-EZW63vwTjgLixjZnaXqM7JeiuPB16Ojo8DtlNKRKegE=",
       "System.Net.Http.dll": "sha256-DB7lIEUIr67eWALyQpidg7pCCpdkgIPcvkhzka0A8rQ=",
       "System.Net.Primitives.dll": "sha256-DRebmc4xb6NAV2+uzxzyGT0+lt3D0huIvUkW+uuT3PI=",
       "System.ObjectModel.dll": "sha256-R\/kibezmsmdUwxQRoDce7tPVtA2YI4nrQCgFNmYvdNg=",
-      "System.Private.CoreLib.dll": "sha256-IyY4v8zIOAUQzPFDsJRdlZ4Q7O8qSv2MluXm4cr5nrg=",
+      "System.Private.CoreLib.dll": "sha256-Df\/ML+2tfUg8QWHl\/ZMqQSGa9hGz2K7YwPXHoArkfGw=",
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-gM02HgPYtghMuSaam6FG0tDOXU8cUvQ169Iwg6j\/2co=",
       "System.Private.Uri.dll": "sha256-c39m9+cqjxW062+gGEjqy1X+4HLOtk0K1uhlQfEH3Hg=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-Vtux2eGFF4QYVPg9DLWK8fIv8khYOUf2a5aPczdq+O4=",
-      "System.Runtime.dll": "sha256-GJ9XBUe9cq3qekCP9+XmrnIyFtjOndpgDnqrnxaJQ3Y=",
+      "System.Runtime.dll": "sha256-vz7vI\/5b57PTnng1umVeboduprdfRYRipZy1YKuTL+0=",
       "System.Text.Encodings.Web.dll": "sha256-s\/oEg26\/wBNILW2bnAl9Qy7weHwi8bsYjClYUpDgmM0=",
       "System.Text.Json.dll": "sha256-boUFf2ZjgT8nXXCVPK7dd1oszB8d1OYKwwgr0uQWD3c=",
       "System.Text.RegularExpressions.dll": "sha256-06S7d0VQwZlsDuTwvgH\/ImXaaRb2muAamsZF8Ju8IMk=",
       "System.Threading.dll": "sha256-HbOsHf6ldbphotCpqZpAPHh8fwhhYPEpR1rr+LzbaPg=",
-      "WpfLayout.Blazor.dll": "sha256-AN07tfOvFbvofrjjH\/Rac4rFV3yPOLT8LVrGw45iG1U="
+      "WpfLayout.Blazor.dll": "sha256-ePuyZw5\/3uNuc63v6ZZxJlUngjqjjTjSnnEaLjIts\/8="
     },
     "extensions": null,
     "lazyAssembly": {
-      "XamlConverterLibrary.dll": "sha256-hZJfcBI7nWToerc2maEGNBVTAgnOF1DrtMlnqbQHkeM="
+      "XamlConverterLibrary.dll": "sha256-r2kqddEmHhWtmH8vXMTQVmoV4DVFAnosPxrY4Q2QdHY="
     },
     "libraryInitializers": null,
     "pdb": null,
