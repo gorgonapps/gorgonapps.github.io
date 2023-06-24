@@ -1,0 +1,32 @@
+﻿{
+	"Categories": {
+		"Gods": {
+			"SortTitle": "Gods",
+			"SubTitle": "Gods, Myths, and Legends",
+			"Title": "The Gods"
+		},
+		"Misc": {
+			"SortTitle": "zzzMiscellaneous",
+			"Title": "Miscellaneous"
+		},
+		"History": {
+			"SubTitle": "Historical Volumes",
+			"Title": "History"
+		},
+		"Plot": {
+			"SortTitle": "zzzPlot",
+			"SubTitle": "... and stuff",
+			"Title": "Plot Books"
+		},
+		"Stories": {
+			"SubTitle": "With Debatable Real-World Accuracy",
+			"Title": "Stories"
+		},
+		"GuideProgram": {
+			"Title": "Volunteer Guides"
+		},
+		"NotesAndSigns": {
+			"Title": "Notes and Signs"
+		}
+	}
+}

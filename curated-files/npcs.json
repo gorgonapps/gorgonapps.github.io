@@ -1,0 +1,6301 @@
+﻿{
+	"NPC_Gribburn": {
+		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaName": "AreaCave1",
+		"Name": "Gribburn",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Cheesecloth"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_LadyAlethina": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Lady Alethina"
+	},
+	"NPC_RiShinSpirit": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Snowleaf"
+	},
+	"NPC_Cinnamon": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Cinnamon",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Carrot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Vegetable"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"SkillPrereq:Rabbit"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Eleme": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Eleme",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sword",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VegetarianDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"WinterCourtArmor"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Errruka": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Errruka the Benefactor",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"LiveFrog"
+				],
+				"Pref": 5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ScrayStinger"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ScrayLung"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Aralorn": {
+		"AreaFriendlyName": "Gazluk Plateau",
+		"AreaName": "AreaGazluk",
+		"Name": "Aralorn",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Beer"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GlowyYellowCrystal"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Dhakmar": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Dhakmar",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"HardLiquorBarrel"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"WineCask"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"JuniperBerries"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Gerrux": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Gerrux",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sword",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dirk",
+					"Loot"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"FaeRealm1WorkOrderSign": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Work Orders"
+	},
+	"NPC_PaulVaughn": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Paul Vaughn",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PerfectWood"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dessert"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Beer"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"Desert1WorkOrderSign": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Work Orders"
+	},
+	"NPC_Dachak": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Dachak the Digger",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MushroomBox"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FalseAgaric"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Escarole"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Ratuk": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Ratuk the Thinker",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Tsavorite"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Aquamarine"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Amethyst"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Ring",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Citrus"
+				],
+				"Pref": 5
+			}
+		]
+	},
+	"NPC_Gremix": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Gremix"
+	},
+	"NPC_Glajur": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Glajur",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Skull"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brain"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ClothArmor"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_EvelineRastin": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Eveline Rastin",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Artwork"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CardedCotton"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Sirine": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Sirine",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Neutral",
+				"Keywords": [
+					"Cheese"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"SirineCheese"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Skin"
+				],
+				"Pref": 1
+			}
+		]
+	},
+	"NPC_OrcStuff": {
+		"AreaFriendlyName": "Staging Area",
+		"AreaName": "AreaStaging",
+		"Name": "Orc Stuff"
+	},
+	"NPC_RoshunTheTraitor": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Roshun the Traitor",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Staff",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"OrcishCulture"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GurHorta"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Nature"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_DyeMonster": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Dye Golem"
+	},
+	"NPC_Tast": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Tast"
+	},
+	"NPC_Bendith": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Bendith the Banished",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"BrinedCheese"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ChargedMycelium"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"PixieAntler"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_HemmitMagmagrip": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Hemmit Magmagrip",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MushroomBox"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PorciniMushroom"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"BlackFootMorel"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Alravesa": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Alravesa the All-Hunter",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Archery",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Statue"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Edible"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"WerewolfAltar": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Werewolf Altar"
+	},
+	"NPC_Gorvessa": {
+		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaName": "AreaCave1",
+		"Name": "Gorvessa",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PinealJuice"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Furniture"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Spoon"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Sheyna": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Sheyna"
+	},
+	"NPC_Harry": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Harry the Wolf"
+	},
+	"NPC_GloriaStonecurl": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Gloria Stonecurl",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"HolySymbol"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"LapisLazuli"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MummyWrapping"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"BarteredHolySymbol"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_Kelim": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Kelim",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FishDish"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MoldDirt"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Tangle": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Tangle",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"RawRabbitMeat"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Aven": {
+		"AreaFriendlyName": "Gazluk Plateau",
+		"AreaName": "AreaGazluk",
+		"Name": "Aven"
+	},
+	"NPC_CoreyTheCroaker": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Corey The Croaker",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VendorTrash"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ClothArmor"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FairyWing"
+				],
+				"Pref": 3.5
+			}
+		]
+	},
+	"NPC_Sugar": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Sugar",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"SkillPrereq:Deer",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 1.75
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Apple"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Nuts"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Bounceweed"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Merriana": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Merriana",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Druidic"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MagicDust"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Barnaby": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Barnaby",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 1.75
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Carrot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Fashionable",
+					"EquipmentSlot:Head"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Gonchakal": {
+		"AreaFriendlyName": "Existential Planes",
+		"AreaName": "AreaPlanes",
+		"Name": "Gonchakal"
+	},
+	"NPC_MarithFelgard": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Baroness Marith Felgard",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Ring",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fashionable",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Topaz"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Daisy": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Daisy",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AlchemyRecipe"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MagicDust"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_LeonardAllenson": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Leonard Allenson",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:BattleChemistry",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brass"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Citrine"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Fluffikins": {
+		"AreaFriendlyName": "Gazluk Plateau",
+		"AreaName": "AreaGazluk",
+		"Name": "Fluffikins",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EggDish"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GlowyYellowCrystal"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Figurine"
+				],
+				"Pref": 3.5
+			}
+		]
+	},
+	"NPC_Shala": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Shala"
+	},
+	"NPC_SammieGrimspine": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Sammie Grimspine",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CalligraphyBench"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Grapes"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Azalak": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Azalak",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Gem"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Flower"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Book"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Head",
+					"Loot"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Gisli": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Gisli",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fluorite"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AnimalShoes"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"SkillPrereq:AnimalHandling"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_DyePlaceholder": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Dye Maker"
+	},
+	"NPC_JustinFargold": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Justin Fargold"
+	},
+	"NPC_AgrashabGod": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Agrashab"
+	},
+	"NPC_Mythander": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Mythander",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GoblinArmor"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Horseshoes",
+					"Loot"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Nishika": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Nishika",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Vegetable"
+				],
+				"Pref": 6
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bloodstone"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"LeatherArmor",
+					"SkillPrereq:Archery"
+				],
+				"Pref": 4
+			}
+		]
+	},
+	"NPC_Gasuum": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Gasu'um",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Pyrite"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DelicateTackHammer"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Opal"
+				],
+				"Pref": 1.25
+			}
+		]
+	},
+	"NPC_SirJohnson": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Sir Johnson",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Shield",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"OffHandAugment"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Onyx"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Silvia": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Silvia",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Chest",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FruitDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Druid",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"TreantLeaves"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Raina": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Raina",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Artwork"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CalligraphyRecipe"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"Cheese"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_SirCoth": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Sir Coth",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Artwork"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FlawlessSkin"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"IvoryTrophy"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_JanetLews": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Janet Lews",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sword",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Carnelian"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FruitDish"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Agrashab": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Agrashab",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FairyWing"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Club",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AncientCoin"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"TrollFlesh"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Marna": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Marna",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RareRecipe"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VegetarianDish"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": -4
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Skin"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FireStaff",
+					"Loot"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_AriannaFangblade": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Arianna Fangblade",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:AnimalHandling",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"HardLiquorBarrel"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Kohan": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Kohan",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Carpentry"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ExoticPotion"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Trekker": {
+		"AreaFriendlyName": "Gazluk Plateau",
+		"AreaName": "AreaGazluk",
+		"Name": "Trekker",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"IocaineMushroom"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GroxmaxMushroom"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PorciniMushroom"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"BlackFootMorel"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PixiesParasol"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_ChemistryPlaceholder": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Chemist"
+	},
+	"EventNPC_SpiderMode": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Akhisa's Herald"
+	},
+	"NPC_SieAntry": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Sie Antry",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SnailShell"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bloodstone"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"EquipmentSlot:Feet",
+					"Loot"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Fainor": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Fainor",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Milk"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Vegetable"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Crystal"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_SpiderPlaceholder": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Temporary Spider"
+	},
+	"NPC_CleoConyer": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Cleo Conyer",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VendorTrash"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GoblinArmor"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_StephieBlackhammer": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Stephie Blackhammer"
+	},
+	"NPC_Yalox": {
+		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaName": "AreaCave1",
+		"Name": "Yalox",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Favor": "Hated",
+				"Keywords": [
+					"FirstAidKit"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Drug"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Garnet"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"Dessert"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"NightmareFlesh"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"BoneHook"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Syndra": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Syndra",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Wood"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Furniture"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"LeatherRoll"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Malgath": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Malgath",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Shield",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Werewolf",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FireDust"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"LiveNpc_Orran": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Orran"
+	},
+	"TapestryInnChest": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Footlocker"
+	},
+	"NPC_Kalaba": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Kalaba",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Hands",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brass"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Citrus"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Hogan": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Hogan",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Poetry"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Staff",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Jesina": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Jesina",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ClothArmor",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Painting"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"CookingRecipe"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_EnsignCricket": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1Caves",
+		"Name": "Ensign Cricket"
+	},
+	"NPC_Mittens": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Mittens",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Psychology",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bounceweed"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TundraLichen"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_RiShin": {
+		"AreaFriendlyName": "Existential Planes",
+		"AreaName": "AreaPlanes",
+		"Name": "Ri-Shin"
+	},
+	"NPC_Backfat": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Backfat",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RawDeerMeat"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DeerMeat",
+					"MeatDish"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PixiesParasol"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FlyAmanita"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"PigMeat"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_LadyWindsong": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Lady Windsong",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Druid",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EnchantedMistletoe"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Garnet"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Landri": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Landri the Cold",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"IceCore"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FireStaff",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:FireMagic",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"ClothArmor",
+					"Loot"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Gretchen": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Gretchen Salas",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Sittable"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"VegetableDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"MoldDirt"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Yetta": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Yetta",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Amulet"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"LapisLazuli"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"MushroomParts"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"LetterToYetta"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"SirinesBelt"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_Yasinda": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Yasinda",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Necklace",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Onyx"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AncientCoin"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Spleen"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Elaina": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Elaina",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Cloth"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dye"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"CasinoWorkOrderSign": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Work Orders"
+	},
+	"NPC_Kib": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Kib the Unkillable",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sword",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Shield",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FireStaff",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FlawlessSkin"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Placeholder": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Placeholder",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CouncilCertificate"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Cloth"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_FerandDeftwhisper": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Ferand Deftwhisper",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MetalShirt",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MetalGloves",
+					"Loot"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Percussa": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Percussa",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"SkillPrereq:Bard"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Azurite"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SpiderSilk"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Lawara": {
+		"AreaFriendlyName": "Anagoge Island",
+		"AreaName": "AreaNewbieIsland",
+		"Name": "Lawara",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Artwork"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bone"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"BreadDish"
+				],
+				"Pref": 5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"LawaraGift"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_DogEar": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Dog Ear",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"InsectMeat"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Ukorga": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Ukorga",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FlawlessSkin"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"SnailShell"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AncientCoin"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Neutral",
+				"Keywords": [
+					"Citrus"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Jumper": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Jumper",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Deer",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 1.75
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bounceweed"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Snack",
+					"VegetableDish"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_AkhisasRepresentative": {
+		"AreaFriendlyName": "Khyrulek's Crypt",
+		"AreaName": "AreaTomb1",
+		"Name": "Akhisa's Messenger"
+	},
+	"KhyrulekMementoChest": {
+		"AreaFriendlyName": "Khyrulek's Crypt",
+		"AreaName": "AreaTomb1",
+		"Name": "Large chest"
+	},
+	"RahuWorkOrderSign": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Work Orders"
+	},
+	"NPC_Voo": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "AreaMyconianCave",
+		"Name": "Voo",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Alchemy"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_GeorgeMadler": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "George Madler",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CouncilCertificate"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Cloth"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Mandibles": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Mandibles",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CookingRecipe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CookingIngredient"
+				],
+				"Pref": 1.25
+			}
+		]
+	},
+	"NPC_Tavilak": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Tavilak",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Marigold"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PerfectWood"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Jara": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Jara"
+	},
+	"RiShinStorageChest": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Locked Chest"
+	},
+	"NPC_Hirochi": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Hirochi the Booklord",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TextbookForCombatSkill",
+					"Crafted:y"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_DurstinTallow": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Durstin Tallow",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Figurine"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"IvoryTrophy"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CalligraphyRecipe"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Elmetaph": {
+		"AreaFriendlyName": "Anagoge Island",
+		"AreaName": "AreaNewbieIsland",
+		"Name": "Elmetaph"
+	},
+	"NPC_Rohina": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Rohina",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Mentalism",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ClothArmor",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AnimalHorn"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Velkort": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Velkort",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Antique"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"SunValeWorkOrderSign": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Work Orders"
+	},
+	"NPC_LauraNeth": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Laura Neth",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Edible"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dessert"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Painting"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"SnackingBread"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Way": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "AreaMyconianCave",
+		"Name": "Way",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VendorTrash"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"StorageCrate"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Cloth"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Drima": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Drima"
+	},
+	"NPC_Ichin": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Ichin the Ice Master",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:IceMagic",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"IceCore"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TundraLichen"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Felmer": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Felmer",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ElvishJewelry",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ElvishStyle",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TigersEye"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FaeFelt"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Larsan": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Larsan",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Ring",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Gem"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Figurine"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Milton": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Milton",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"SkillPrereq:Warden"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Grass"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Pepper"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Bogaku": {
+		"AreaFriendlyName": "Rahu Sewers",
+		"AreaName": "AreaRahuCaves",
+		"Name": "Bogaku"
+	},
+	"NPC_Makara": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Makara",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MinRarity:Rare"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Dislike",
+				"Keywords": [
+					"Rarity:Common",
+					"Equipment"
+				],
+				"Pref": -1
+			}
+		]
+	},
+	"NPC_Pegast": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Pegast",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dirk",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MetalHelm",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Beer"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"Cheese"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_Rubi": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Rubi",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"RawRabbitMeat"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Wobbuk": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Wobbuk"
+	},
+	"NPC_Otis": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Otis",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Club"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Hammer"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Fazzi": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Fazzi",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"OrangeCrystal"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Flower"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Selphie": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Selphie"
+	},
+	"NPC_SuspiciousCow": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Suspicious Cow",
+		"Preferences": [
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"VendorTrash"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"BodyOrgan"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"GameChip"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Poetry"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MinValue:1000"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Obsidian"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Elahil": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Elahil",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"Bow"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Friends",
+				"Keywords": [
+					"Ring",
+					"Loot"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Drug"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Zhao": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Zhao",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Seed"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Flower"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Paladium"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Pyrite"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Firaki": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Firaki",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Painting"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FishDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Silver"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Ufkar": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Ufkar",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Carpentry"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ExoticPotion"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Solgribue": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Solgribue",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ValuableMetalSlab"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Necklace",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Ring",
+					"Loot"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Preta": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Preta",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Scroll"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Crystal"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Dislike",
+				"Keywords": [
+					"FaeFelt"
+				],
+				"Pref": -1
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Cheese"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_Yoy": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "AreaMyconianCave",
+		"Name": "Yoy"
+	},
+	"NPC_Flia": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Flia",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RareRecipe"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"KhyrulekLore"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Edible"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_Jaw": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "AreaMyconianCave",
+		"Name": "Jaw",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Plant"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Vegetable"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brass"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"IvynsChest": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Ivyn's Chest"
+	},
+	"NPC_Helena": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Helena Veilmoor",
+		"Preferences": [
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"VendorTrash"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"BodyOrgan"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"GameChip"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Poetry"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MinValue:1000"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Obsidian"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_TheWombat": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "The Wombat",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Wood"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Wooden"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Dislike",
+				"Keywords": [
+					"EquipmentSlot:Feet",
+					"Loot"
+				],
+				"Pref": -1
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"MetalArmor"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_JaceSoral": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Jace Soral",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Werewolf",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MaxHealthPotion"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"WardenStorageChest": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Storage"
+	},
+	"GuildAltar": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Guild Roster"
+	},
+	"EltibuleWorkOrderSign": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Work Orders"
+	},
+	"NPC_Amutasa": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Amutasa",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Maximized",
+					"Obsidian"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SnailShell"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Head",
+					"SkillPrereq:Hammer",
+					"Loot"
+				],
+				"Pref": 4
+			}
+		]
+	},
+	"NPC_BriannaWiller": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Brianna Willer",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dahlia"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MossAgate"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Barrel"
+				],
+				"Pref": 1.25
+			}
+		]
+	},
+	"NPC_Bahdba": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Bahdba"
+	},
+	"NPC_Percy": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Percy Evans",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Peridot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FairyWing"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MagicTooth"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FletchingBox"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "CloseFriends",
+				"Keywords": [
+					"MaxHealthPotion10"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Favor": "CloseFriends",
+				"Keywords": [
+					"MemoryInhibitor"
+				],
+				"Pref": 1.25
+			}
+		]
+	},
+	"NPC_Riston": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Riston"
+	},
+	"NPC_Echur": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Echur",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Gem"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Flower"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Book"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"Drug"
+				],
+				"Pref": 4
+			}
+		]
+	},
+	"NPC_Grakelsput": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Grakelsput",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PaleontologyBone"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"NecromancyGem",
+					"Loot"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_MushroomJack": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Mushroom Jack",
+		"Preferences": [
+			{
+				"Desire": "Dislike",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": -1
+			},
+			{
+				"Desire": "Dislike",
+				"Keywords": [
+					"EquipmentSlot:Feet"
+				],
+				"Pref": -1
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"VendorTrash"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"MushroomParts"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"EquipmentSlot:Head",
+					"Loot"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"BodyOrgan"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Nissim": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Nissim",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Skull"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brain"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DragonScale"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"Altar_Druid": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Strange Altar"
+	},
+	"NPC_WintriaIrasce": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Wintria Irasce",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TextbookForNoncombatSkill",
+					"Crafted:y"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Moku": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Moku"
+	},
+	"NPC_DanielMurderdarkPet": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Skeleton Death Shepherd"
+	},
+	"NPC_Poe": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "AreaMyconianCave",
+		"Name": "Poe",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Flower"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Ore"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Lisi": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Lisi",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dagger",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Obsidian"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ThrowingKnife"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Gurki": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Gurki",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RacialJewelry"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"WhiteCrystal"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CraniumGel"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_SpiritFox": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Completely Normal Fox"
+	},
+	"AdminTestNpc": {
+		"AreaFriendlyName": "Existential Planes",
+		"AreaName": "AreaPlanes",
+		"Name": "*Flia",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RareRecipe"
+				],
+				"Pref": 5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Archery",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"KhyrulekLore"
+				],
+				"Pref": 5
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Edible"
+				],
+				"Pref": -3
+			}
+		]
+	},
+	"NPC_Yavazek": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Yavazek",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Racial",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RestorativePotion"
+				],
+				"Pref": 1.1
+			}
+		]
+	},
+	"NPC_NelsonBallard": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Nelson Ballard",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Carpentry"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Drink"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fashionable",
+					"EquipmentSlot:Feet"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Urzab": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Urzab",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Crystal"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Gem"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Jewelry"
+				],
+				"Pref": 1
+			}
+		]
+	},
+	"NPC_Cassie": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Cassie",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"RawRabbitMeat"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Tolerated",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Sem": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Sem",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Heartshroom"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"BlueCrystal"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"CraniumPowder"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_SirArif": {
+		"AreaFriendlyName": "Khyrulek's Crypt",
+		"AreaName": "AreaTomb1",
+		"Name": "Sir Arif",
+		"Preferences": [
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"FishDish"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Error",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Edible"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"EquipmentSlot:Legs",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Staff",
+					"Loot"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Legs": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Legs",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": 1.01
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Stinger"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"BoneHook"
+				],
+				"Pref": 3.5
+			}
+		]
+	},
+	"NPC_MoxWarcut": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Mox Warcut",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:BattleChemistry",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ResistancePotion"
+				],
+				"Pref": 2.2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AlchemyRecipe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MummyWrapping"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Crelpin": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Crelpin",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"SkillPrereq:AnimalHandling"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Lac"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Wool"
+				],
+				"Pref": 1.75
+			}
+		]
+	},
+	"NPC_AuShin": {
+		"AreaFriendlyName": "Existential Planes",
+		"AreaName": "AreaPlanes",
+		"Name": "Au Shin",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Deer",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 1.75
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bounceweed"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Snack",
+					"VegetableDish"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Yogzi": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Yogzi",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Ring",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Skull"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Antique"
+				],
+				"Pref": -3.1
+			}
+		]
+	},
+	"RigersChest": {
+		"AreaFriendlyName": "Anagoge Island",
+		"AreaName": "AreaNewbieIsland",
+		"Name": "Riger's Chest"
+	},
+	"NPC_Qatik": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Qatik",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sittable"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"LeatherRoll"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PerfectWood"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Melandria": {
+		"AreaFriendlyName": "Gazluk Keep",
+		"AreaName": "AreaGazlukKeep",
+		"Name": "Melandria",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GazlukOfficersRing"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GurHorta"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Opal"
+				],
+				"Pref": 1
+			}
+		]
+	},
+	"NPC_Floxie": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Floxie",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VegetarianDish"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bow",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Crossbow",
+					"Loot"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_LeahBowman": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Leah Bowman",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:AnimalHandling",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"StorageCrate"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Poppy"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Selaxi": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Selaxi",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 4
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"IceCore"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bloodstone"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CookingRecipe"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Irkima": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Irkima",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"IvoryTrophy"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillBoostPotion"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_JakeTheBuckler": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Jake the Buckler",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ValuableMetalSlab"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dye"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Rugen": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Rugen",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 7
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Loot",
+					"Dagger"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Painting"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_CharlesThompson": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Charles Thompson",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ChemistryEquipment",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AlchemyRecipe",
+					"RareRecipe"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_JaimeFatholm": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Jaime Fatholm",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Bow",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ValuableMetalSlab"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Gold"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Silver"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sardonyx"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_FalkrinOverstrike": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Falkrin Overstrike",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MossAgate"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Hammer",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"LeatherArmor"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Pickles": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaKurCaves",
+		"Name": "Pickles",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Gear"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Gizmo"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Figurine"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Kodan": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Kodan",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ValuableMetalSlab"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Figurine"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Norbert": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Norbert",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Mushroom"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Necklace",
+					"Loot"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Rappanel": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Rappanel",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PickledFish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AnimalHorn"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"BoarTusk"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FishDish"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Gershok": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Gershok",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MeditationStool"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FishDish"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Squidlips": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Squidlips",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Seashell"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Starfish"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"KurMountainsWorkOrderSign": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Food Work Orders"
+	},
+	"NPC_Red": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Red",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Vegetable"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Egg"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Shirogin": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Shirogin",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Antique"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CardedCotton"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Cinnabar"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_DanielMurderdark": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Daniel Murderdark",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bone"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Ectoplasm"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Serpentine"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_TylerGreen": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Tyler Green",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Shield",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"ArmorPatchKit"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AbilityRecipe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Citrus"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_PuffyBen": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Puffy Ben"
+	},
+	"NPC_Rita": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Rita",
+		"Preferences": [
+			{
+				"Desire": "Dislike",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Food"
+				],
+				"Pref": -1
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Flower"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Slippers",
+					"Loot"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Document",
+					"VendorTrash"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_MidgeTheApothecary": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Midge the Apothecary",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Mercury"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CraniumPowder"
+				],
+				"Pref": 1.2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"InsectWings"
+				],
+				"Pref": 3.5
+			}
+		]
+	},
+	"NPC_Richter": {
+		"AreaFriendlyName": "Existential Planes",
+		"AreaName": "AreaPlanes",
+		"Name": "Richter"
+	},
+	"NPC_DorimirFangblade": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Dorimir Fangblade"
+	},
+	"NPC_Tadion": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Tadion",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"MetalArmor",
+					"Loot"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ValuableMetalSlab"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"SnailShell"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AncientCoin"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Lamashu": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Lamashu",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MagicOil"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Onyx"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Wood"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"SexyClothing"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fashionable",
+					"EquipmentSlot:Feet"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"PovusStorageChest": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Storage"
+	},
+	"LegacyItemHelper": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Legacy Item Helper"
+	},
+	"DalvosChest": {
+		"AreaFriendlyName": "Caves Under Serbule",
+		"AreaName": "AreaSerbuleCaves",
+		"Name": "Dalvos's Chest"
+	},
+	"NPC_Nightshade": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Nightshade",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Topaz"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GurHorta"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GoldenRodDye"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"BodyOrgan"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Raul": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Raul",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Cow",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"VegetarianDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"LeatherRoll"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"Skin"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Dislike",
+				"Favor": "Error",
+				"Keywords": [
+					"LeatherArmor"
+				],
+				"Pref": -1
+			}
+		]
+	},
+	"NPC_NoitaTheGreen": {
+		"AreaFriendlyName": "Fae Realm",
+		"AreaName": "AreaFaeRealm1",
+		"Name": "Noita the Green",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MaxHealthPotion"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FlawlessSkin"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FlawlessSkin",
+					"TigerSkin"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"FlawlessSkin",
+					"PantherSkin"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Ivyn": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Ivyn",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Seed"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Seedling"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Friends",
+				"Keywords": [
+					"CookingRecipe"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Poetry"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_ZhiaLian": {
+		"AreaFriendlyName": "Existential Planes",
+		"AreaName": "AreaPlanes",
+		"Name": "Zhia Lian"
+	},
+	"NPC_RickSnapley": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Rick Snapley",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Poison"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PoisonousDrink"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"PoisonousFood"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Knife",
+					"Loot",
+					"MinRarity:Uncommon"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Joe": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Joeh",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sword",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Shield",
+					"Loot"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Jewelry"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Spot": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Spot",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Crystal"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Mu": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "AreaMyconianCave",
+		"Name": "Mu",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Heartshroom"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"BlueCrystal"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Friends",
+				"Keywords": [
+					"CraniumPowder"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_Sona": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Sona",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ClothArmor",
+					"Loot"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Phlogiston"
+				],
+				"Pref": 1.1
+			}
+		]
+	},
+	"NPC_Furlak": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Furlak",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"UnarmedWeapon",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EggDish"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ExoticPotion"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Jumjab": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Jumjab",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bone"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Heart"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Necromancy",
+					"Loot"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Sanja": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "AreaKurMountains",
+		"Name": "Sanja",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EquipmentSlot:Necklace",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Moonstone"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"CorpseTrophy"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Vegetable"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"VegetableDish"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Ashk": {
+		"AreaFriendlyName": "Rahu",
+		"AreaName": "AreaRahu",
+		"Name": "Ashk",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Mentalism",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AnimalHorn"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Stinger"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Tooth"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Torgan": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Torgan",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MetalSlab7"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"MetalSlab8"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SpruceWood"
+				],
+				"Pref": 2.25
+			}
+		]
+	},
+	"SerbuleWorkOrderSign": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Work Orders"
+	},
+	"NPC_Kleave": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Kleave",
+		"Preferences": [
+			{
+				"Desire": "Hate",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Artwork"
+				],
+				"Pref": -3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Onyx"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Skin"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Potion"
+				],
+				"Pref": 1
+			}
+		]
+	},
+	"NPC_Urglemarg": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Urglemarg"
+	},
+	"NPC_Mope": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Mope",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Heartshroom"
+				],
+				"Pref": 3.5
+			}
+		]
+	},
+	"NPC_Lumpfuzz": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Lumpfuzz",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bounceweed"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Spleen"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Ragabir": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Ragabir",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AlchemyRecipe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Bone"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"AlchemyIngredient"
+				],
+				"Pref": 1.5
+			}
+		]
+	},
+	"NPC_ThimblePete": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Thimble Pete",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Dessert"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TailoringRecipe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SexyClothing"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Spoon"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Brugo": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Brugo the Wise",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PaleontologyBone"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Wood"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Zealo": {
+		"AreaFriendlyName": "Khyrulek's Crypt",
+		"AreaName": "AreaTomb1",
+		"Name": "Zealo",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Ring",
+					"Loot"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Heartshroom"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_Hulon": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Hulon the Hoarder",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"PreparedFood"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Seed"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Seedling"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Friends",
+				"Keywords": [
+					"CookingRecipe"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Poetry"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_WillemFangblade": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "AreaCasino",
+		"Name": "Willem Fangblade",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"GreenCrystal"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brass"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"TutorialChest": {
+		"AreaFriendlyName": "Anagoge Island",
+		"AreaName": "AreaNewbieIsland",
+		"Name": "Large chest"
+	},
+	"NPC_Oritania": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Oritania"
+	},
+	"NPC_Malvol": {
+		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaName": "AreaCave1",
+		"Name": "Malvol",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Sword",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:Sword",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"CalligraphyRecipe"
+				],
+				"Pref": 4
+			}
+		]
+	},
+	"NPC_BellemaDeftwhisper": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Bellema Deftwhisper",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Drink"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Crossbow",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Peridot"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_SandSeer": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "The Sand Seer",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SkillPrereq:FireMagic",
+					"Equipment",
+					"Loot"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ClothArmor",
+					"Loot"
+				],
+				"Pref": 2.5
+			}
+		]
+	},
+	"NPC_Pasha": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Pasha",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Turquoise"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Morganite"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TigersEye"
+				],
+				"Pref": 1.25
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"SaddleBlanket"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Trasen": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Trasen",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"RanalonCulture"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MagicDust"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Blanche": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Blanche",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Crystal"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Antique"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DairyDish"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Error",
+				"Keywords": [
+					"Milk"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Keywords": [
+					"Skin"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"FireStaff",
+					"Loot"
+				],
+				"Pref": 1
+			}
+		]
+	},
+	"NPC_LanaSongtree": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Lana Songtree",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"Wool"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"TailoringRecipe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PinkDye"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"Keywords": [
+					"Drug"
+				],
+				"Pref": -2
+			}
+		]
+	},
+	"NPC_Hiral": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Hiral",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Fruit"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Cheese"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Spoon"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"FaeFelt"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"WinterCourtEntranceChest": {
+		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaName": "AreaCave2",
+		"Name": "Chest"
+	},
+	"NPC_Vughal": {
+		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaName": "AreaGazlukCaves",
+		"Name": "Vughal",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Pyrite"
+				],
+				"Pref": 3.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DelicateTackHammer"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Opal"
+				],
+				"Pref": 1.25
+			}
+		]
+	},
+	"NPC_Yagreet": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "AreaSunVale",
+		"Name": "Yagreet",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Hated",
+				"Keywords": [
+					"MagicOil"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"PinealJuice"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EnchantedMistletoe"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Silver"
+				],
+				"Pref": 1
+			}
+		]
+	},
+	"NPC_Arlan": {
+		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaName": "AreaDesert1",
+		"Name": "Arlan",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Skull"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Brain"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DragonScale"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_JuliusPatton": {
+		"AreaFriendlyName": "Serbule Hills",
+		"AreaName": "AreaSerbule2",
+		"Name": "Julius Patton",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Plant"
+				],
+				"Pref": 1.1
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MoldDirt"
+				],
+				"Pref": 2.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Egg"
+				],
+				"Pref": 3
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"EggDish"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Braigon": {
+		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaName": "AreaEltibule",
+		"Name": "Braigon",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"DairyDish"
+				],
+				"Pref": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Milk"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"MagicOil"
+				],
+				"Pref": 3
+			}
+		]
+	},
+	"NPC_Therese": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Therese",
+		"Preferences": [
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Plant"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Like",
+				"Keywords": [
+					"Seed"
+				],
+				"Pref": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Meat"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"MeatDish"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Dislike",
+				"Favor": "Comfortable",
+				"Keywords": [
+					"Fish"
+				],
+				"Pref": -1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Error",
+				"Keywords": [
+					"FishDish"
+				],
+				"Pref": -2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"Amulet"
+				],
+				"Pref": 2
+			}
+		]
+	},
+	"NPC_TremmondBlackhammer": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "AreaPovus",
+		"Name": "Tremmond Blackhammer",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ArmorStake"
+				],
+				"Pref": 2
+			},
+			{
+				"Desire": "Love",
+				"Keywords": [
+					"ValuableMetalSlab"
+				],
+				"Pref": 1.2
+			}
+		]
+	},
+	"NPC_Zeratak": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "AreaSerbule",
+		"Name": "Zeratak"
+	}
+}
