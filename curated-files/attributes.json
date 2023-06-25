@@ -14596,5 +14596,53 @@
 		],
 		"Label": "Cash Payout From Work Orders %",
 		"Tooltip": "How much money do you make from work orders (as a percentage of what is stated in the order)?"
+	},
+	"COCKATRICEDEBUFF_COST_DELTA": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"LAMIADEBUFF_COST_DELTA": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_MATCH_OWNER_SPEED": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"ARMOR_MITIGATION_RATIO": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_CLEANLINESS_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_COMMUNITY_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_PEACEABLENESS_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_FAIRYENERGY_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"BOOST_ANIMALPETHEAL_SENDER": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_COMBAT_XP_VALUE": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MOD_VAULT_SIZE": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MENTAL_DEFENSE_RATING": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
 	}
 }

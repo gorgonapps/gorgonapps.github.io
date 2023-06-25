@@ -6811,9 +6811,17 @@
 			"NotIncludedInDynamicUsageListings",
 			"DistillSimpleMagicalItem1"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#00FF80,#80FF80)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "00FF80",
+			"SecondaryColor": "80FF80"
+		},
 		"Name": "Distill Simple Magical Item (0-30)",
-		"Particle": "TransmuteFlash(Color=#00FF80,#80FF80)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "00FF80",
+			"SecondaryColor": "80FF80"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -6855,9 +6863,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#00FFFF,#40FFC4)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "00FFFF",
+			"SecondaryColor": "40FFC4"
+		},
 		"Name": "Distill Rare Magical Item (0-30)",
-		"Particle": "TransmuteFlash(Color=#00FFFF,#40FFC4)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "00FFFF",
+			"SecondaryColor": "40FFC4"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -6899,9 +6915,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#FFFE00,#FF00C4)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "FFFE00",
+			"SecondaryColor": "FF00C4"
+		},
 		"Name": "Distill Exceptional or Better Magical Item (0-30)",
-		"Particle": "TransmuteFlash(Color=#FFFE00,#FF00C4)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "FFFE00",
+			"SecondaryColor": "FF00C4"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -6939,7 +6963,9 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteRepairLoop",
+		"LoopParticle": {
+			"ParticleName": "TransmuteRepairLoop"
+		},
 		"Name": "Repair Transmutation Damage 1",
 		"ResultEffects": [
 			"RepairItemDurability(0.3,0.6,94,0,30)"
@@ -6978,7 +7004,9 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteRepairLoop",
+		"LoopParticle": {
+			"ParticleName": "TransmuteRepairLoop"
+		},
 		"Name": "Repair Transmutation Damage 2",
 		"ResultEffects": [
 			"RepairItemDurability(0.6,1.0,140,0,30)"
@@ -7017,7 +7045,9 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteRepairLoop",
+		"LoopParticle": {
+			"ParticleName": "TransmuteRepairLoop"
+		},
 		"Name": "Repair Transmutation Damage 3",
 		"ResultEffects": [
 			"RepairItemDurability(1,2,164,0,30)"
@@ -7056,7 +7086,9 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteRepairLoop",
+		"LoopParticle": {
+			"ParticleName": "TransmuteRepairLoop"
+		},
 		"Name": "Repair Transmutation Damage 4",
 		"ResultEffects": [
 			"RepairItemDurability(1,2,164,31,60)"
@@ -7095,7 +7127,9 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteRepairLoop",
+		"LoopParticle": {
+			"ParticleName": "TransmuteRepairLoop"
+		},
 		"Name": "Repair Transmutation Damage 5",
 		"ResultEffects": [
 			"RepairItemDurability(1,2,164,61,90)"
@@ -7133,7 +7167,9 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteRepairLoop",
+		"LoopParticle": {
+			"ParticleName": "TransmuteRepairLoop"
+		},
 		"Name": "Repair Transmutation Damage: Mastercrafted",
 		"ResultEffects": [
 			"RepairItemDurability(1,2,-1,0,0)"
@@ -7214,9 +7250,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#00FF80,#80FF80)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "00FF80",
+			"SecondaryColor": "80FF80"
+		},
 		"Name": "Distill Simple Magical Item (31-60)",
-		"Particle": "TransmuteFlash(Color=#00FF80,#80FF80)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "00FF80",
+			"SecondaryColor": "80FF80"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7258,9 +7302,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#00FFFF,#40FFC4)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "00FFFF",
+			"SecondaryColor": "40FFC4"
+		},
 		"Name": "Distill Rare Magical Item (31-60)",
-		"Particle": "TransmuteFlash(Color=#00FFFF,#40FFC4)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "00FFFF",
+			"SecondaryColor": "40FFC4"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7302,9 +7354,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#FF0080,#FF8000)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "FF0080",
+			"SecondaryColor": "FF8000"
+		},
 		"Name": "Distill Exceptional Magical Item (31-60)",
-		"Particle": "TransmuteFlash(Color=#FF0080,#FF8000)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "FF0080",
+			"SecondaryColor": "FF8000"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7346,9 +7406,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#FFFF00,#FF00FF)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "FFFF00",
+			"SecondaryColor": "FF00FF"
+		},
 		"Name": "Distill Epic or Legendary Magical Item (31-60)",
-		"Particle": "TransmuteFlash(Color=#FFFF00,#FF00FF)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "FFFF00",
+			"SecondaryColor": "FF00FF"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7428,9 +7496,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#00FF80,#80FF80)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "00FF80",
+			"SecondaryColor": "80FF80"
+		},
 		"Name": "Distill Simple Magical Item (61-90)",
-		"Particle": "TransmuteFlash(Color=#00FF80,#80FF80)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "00FF80",
+			"SecondaryColor": "80FF80"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7472,9 +7548,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#00FFFF,#40FFC4)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "00FFFF",
+			"SecondaryColor": "40FFC4"
+		},
 		"Name": "Distill Rare Magical Item (61-90)",
-		"Particle": "TransmuteFlash(Color=#00FFFF,#40FFC4)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "00FFFF",
+			"SecondaryColor": "40FFC4"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7516,9 +7600,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#FF0080,#FF8000)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "FF0080",
+			"SecondaryColor": "FF8000"
+		},
 		"Name": "Distill Exceptional Magical Item (61-90)",
-		"Particle": "TransmuteFlash(Color=#FF0080,#FF8000)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "FF0080",
+			"SecondaryColor": "FF8000"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -7560,9 +7652,17 @@
 		"Keywords": [
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "TransmuteLoop(Color=#FFFF00,#FF00FF)",
+		"LoopParticle": {
+			"ParticleName": "TransmuteLoop",
+			"PrimaryColor": "FFFF00",
+			"SecondaryColor": "FF00FF"
+		},
 		"Name": "Distill Epic or Legendary Magical Item (61-90)",
-		"Particle": "TransmuteFlash(Color=#FFFF00,#FF00FF)",
+		"Particle": {
+			"ParticleName": "TransmuteFlash",
+			"PrimaryColor": "FFFF00",
+			"SecondaryColor": "FF00FF"
+		},
 		"ResultEffects": [
 			"DecomposeItemIntoPhlogiston"
 		],
@@ -94945,10 +95045,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 2,
 		"Name": "Weather Witching Research Level 1",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching1"
 		],
@@ -94976,10 +95080,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 5",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching5"
 		],
@@ -95007,10 +95115,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 10",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching10"
 		],
@@ -95038,10 +95150,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 15",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching15"
 		],
@@ -95069,10 +95185,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 20",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching20"
 		],
@@ -95100,10 +95220,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Weather Witching Research Level 25",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching25"
 		],
@@ -95131,10 +95255,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 30",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching30"
 		],
@@ -95166,10 +95294,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 35",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching35"
 		],
@@ -95205,10 +95337,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 40",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching40"
 		],
@@ -95244,10 +95380,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 45",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching45"
 		],
@@ -95287,10 +95427,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 50",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching50"
 		],
@@ -95326,10 +95470,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Weather Witching Research Level 55",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching55"
 		],
@@ -95365,10 +95513,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 60",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching60"
 		],
@@ -95408,10 +95560,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 65",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching65"
 		],
@@ -95455,10 +95611,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Weather Witching Research Level 70",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching70"
 		],
@@ -95498,10 +95658,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 75",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching75"
 		],
@@ -95537,10 +95701,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 4,
 		"Name": "Weather Witching Research Level 80",
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchWeatherWitching80"
 		],
@@ -95568,7 +95736,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 10,
 		"Name": "Song of the Sun",
 		"OtherRequirements": [
@@ -95587,7 +95757,9 @@
 				"T": "TimeOfDay"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResetTimeInSeconds": 2700,
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(1)"
@@ -95616,7 +95788,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Litany of Stillness",
 		"OtherRequirements": [
@@ -95635,7 +95809,9 @@
 				"T": "TimeOfDay"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95663,7 +95839,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Trial of Lannasea",
 		"OtherRequirements": [
@@ -95682,7 +95860,9 @@
 				"T": "TimeOfDay"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95710,7 +95890,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Final Rites of Cae-a-Lee",
 		"OtherRequirements": [
@@ -95730,7 +95912,9 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95766,7 +95950,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Mope's Method",
 		"OtherRequirements": [
@@ -95776,7 +95962,9 @@
 				"T": "RecipeUsed"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95812,7 +96000,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "The Flopsy Dance",
 		"OtherRequirements": [
@@ -95827,7 +96017,9 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95855,7 +96047,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Meditation on Water",
 		"OtherRequirements": [
@@ -95871,7 +96065,9 @@
 				"T": "EntityPhysicalState"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95914,7 +96110,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Paullus's Pulsing Reminder",
 		"OtherRequirements": [
@@ -95932,7 +96130,9 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -95960,7 +96160,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Errana's Soliloquy",
 		"OtherRequirements": [
@@ -95974,7 +96176,9 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -96002,7 +96206,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Errana's Lesson To Kirad",
 		"OtherRequirements": [
@@ -96019,7 +96225,9 @@
 				"T": "EntitiesNear"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -96047,7 +96255,9 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "WeatherWitchResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "WeatherWitchResearchLoop"
+		},
 		"MaxUses": 1,
 		"Name": "Lessons of the Swamp",
 		"OtherRequirements": [
@@ -96067,7 +96277,9 @@
 				"T": "EntityPhysicalState"
 			}
 		],
-		"Particle": "WeatherWitchResearchSuccess",
+		"Particle": {
+			"ParticleName": "WeatherWitchResearchSuccess"
+		},
 		"ResultEffects": [
 			"PermanentlyRaiseMaxTempestEnergy(5)"
 		],
@@ -103963,7 +104175,9 @@
 			}
 		],
 		"InternalName": "NecromancyDust",
-		"LoopParticle": "NecroDustLoop",
+		"LoopParticle": {
+			"ParticleName": "NecroDustLoop"
+		},
 		"Name": "Necromancy Dust",
 		"OtherRequirements": [
 			{
@@ -103975,7 +104189,10 @@
 				"T": "TimeOfDay"
 			}
 		],
-		"Particle": "FlashLightHand(LightColor=#450080)",
+		"Particle": {
+			"LightColor": "450080",
+			"ParticleName": "FlashLightHand"
+		},
 		"ProtoResultItems": [
 			{
 				"ItemCode": 1395,
@@ -107823,9 +108040,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Wolf Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadArmor,1)"
 		],
@@ -107865,9 +108086,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Wolf Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadArmor1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadArmor,2)"
@@ -107912,9 +108137,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Wolf Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadArmor2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadArmor,3)"
@@ -107959,9 +108188,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Wolf Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadArmor3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadArmor,4)"
@@ -108002,9 +108235,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Panther Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadBoostSignatureDebuff,1)"
 		],
@@ -108044,9 +108281,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Panther Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadBoostSignatureDebuff1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadBoostSignatureDebuff,2)"
@@ -108091,9 +108332,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Panther Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadBoostSignatureDebuff2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadBoostSignatureDebuff,3)"
@@ -108134,9 +108379,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Scray Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadBoostLungs,1)"
 		],
@@ -108176,9 +108425,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Scray Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadBoostLungs1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadBoostLungs,2)"
@@ -108223,9 +108476,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Scray Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadBoostLungs2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadBoostLungs,3)"
@@ -108266,9 +108523,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Viper Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadRangedAccuracy,1)"
 		],
@@ -108312,9 +108573,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Viper Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadRangedAccuracy1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadRangedAccuracy,2)"
@@ -108359,9 +108624,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Viper Headgear Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHeadRangedAccuracy2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHeadRangedAccuracy,3)"
@@ -108402,9 +108671,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Bear Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestArmor,1)"
 		],
@@ -108444,9 +108717,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Bear Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestArmor1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestArmor,2)"
@@ -108491,9 +108768,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Bear Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestArmor2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestArmor,3)"
@@ -108538,9 +108819,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Bear Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestArmor3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestArmor,4)"
@@ -108581,9 +108866,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Wolf Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestPowerRegen,1)"
 		],
@@ -108623,9 +108912,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Wolf Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestPowerRegen1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestPowerRegen,2)"
@@ -108670,9 +108963,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Wolf Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestPowerRegen2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestPowerRegen,3)"
@@ -108717,9 +109014,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Wolf Chest Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestPowerRegen3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestPowerRegen,4)"
@@ -108760,9 +109061,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Chest Carapace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestCrushingTraumaMitigation,1)"
 		],
@@ -108802,9 +109107,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Chest Carapace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestCrushingTraumaMitigation1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestCrushingTraumaMitigation,2)"
@@ -108849,9 +109158,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Chest Carapace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestCrushingTraumaMitigation2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestCrushingTraumaMitigation,3)"
@@ -108896,9 +109209,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Chest Carapace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestCrushingTraumaMitigation3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestCrushingTraumaMitigation,4)"
@@ -108939,9 +109256,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Viper Core Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestBurstAccuracy,1)"
 		],
@@ -108985,9 +109306,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Viper Core Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestBurstAccuracy1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestBurstAccuracy,2)"
@@ -109032,9 +109357,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Viper Core Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicChestBurstAccuracy2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicChestBurstAccuracy,3)"
@@ -109075,9 +109404,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Tiger Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsArmor,1)"
 		],
@@ -109117,9 +109450,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Tiger Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsArmor1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsArmor,2)"
@@ -109164,9 +109501,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Tiger Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsArmor2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsArmor,3)"
@@ -109211,9 +109552,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Tiger Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsArmor3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsArmor,4)"
@@ -109254,9 +109599,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Bear Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsBoostEpicAttacks,1)"
 		],
@@ -109296,9 +109645,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Bear Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsBoostEpicAttacks1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsBoostEpicAttacks,2)"
@@ -109343,9 +109696,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Bear Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsBoostEpicAttacks2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsBoostEpicAttacks,3)"
@@ -109386,9 +109743,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Arachnid Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsSlashingAcidMitigation,1)"
 		],
@@ -109428,9 +109789,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Arachnid Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsSlashingAcidMitigation1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsSlashingAcidMitigation,2)"
@@ -109475,9 +109840,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Arachnid Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsSlashingAcidMitigation2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsSlashingAcidMitigation,3)"
@@ -109518,9 +109887,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Viper Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsMeleeAccuracy,1)"
 		],
@@ -109564,9 +109937,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Viper Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsMeleeAccuracy1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsMeleeAccuracy,2)"
@@ -109611,9 +109988,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Viper Hands Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicHandsMeleeAccuracy2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicHandsMeleeAccuracy,3)"
@@ -109654,9 +110035,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Deinonychus Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsArmor,1)"
 		],
@@ -109696,9 +110081,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Deinonychus Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsArmor1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsArmor,2)"
@@ -109743,9 +110132,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Deinonychus Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsArmor2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsArmor,3)"
@@ -109790,9 +110183,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Deinonychus Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsArmor3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsArmor,4)"
@@ -109833,9 +110230,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Tiger Pants Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsPowerRegen,1)"
 		],
@@ -109875,9 +110276,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Tiger Pants Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsPowerRegen1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsPowerRegen,2)"
@@ -109922,9 +110327,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Tiger Pants Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsPowerRegen2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsPowerRegen,3)"
@@ -109965,9 +110374,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Scray Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsWaterBoost,1)"
 		],
@@ -110007,9 +110420,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Scray Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsWaterBoost1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsWaterBoost,2)"
@@ -110054,9 +110471,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Scray Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsWaterBoost2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsWaterBoost,3)"
@@ -110097,9 +110518,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Wing-Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsFlySpeed,1)"
 		],
@@ -110139,9 +110564,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Wing-Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsFlySpeed1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsFlySpeed,2)"
@@ -110186,9 +110615,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Wing-Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsFlySpeed2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsFlySpeed,3)"
@@ -110233,9 +110666,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Treant Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsUnarmedBaseDamage,1)"
 		],
@@ -110279,9 +110716,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Treant Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsUnarmedBaseDamage1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsUnarmedBaseDamage,2)"
@@ -110326,9 +110767,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Treant Leg Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicLegsUnarmedBaseDamage2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicLegsUnarmedBaseDamage,3)"
@@ -110369,9 +110814,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Boar Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetArmor,1)"
 		],
@@ -110411,9 +110860,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Boar Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetArmor1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetArmor,2)"
@@ -110458,9 +110911,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Boar Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetArmor2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetArmor,3)"
@@ -110505,9 +110962,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Boar Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetArmor3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetArmor,4)"
@@ -110548,9 +111009,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Deer Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetSpeedAndUnarmed,1)"
 		],
@@ -110590,9 +111055,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Deer Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetSpeedAndUnarmed1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetSpeedAndUnarmed,2)"
@@ -110637,9 +111106,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Deer Foot Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetSpeedAndUnarmed2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetSpeedAndUnarmed,3)"
@@ -110680,9 +111153,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Brain-Kicking Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetPsychologyBaseDmg,1)"
 		],
@@ -110722,9 +111199,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Brain-Kicking Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetPsychologyBaseDmg1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetPsychologyBaseDmg,2)"
@@ -110769,9 +111250,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Brain-Kicking Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicFeetPsychologyBaseDmg2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicFeetPsychologyBaseDmg,3)"
@@ -110812,9 +111297,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Panther Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingHealth,1)"
 		],
@@ -110854,9 +111343,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Panther Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingHealth1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingHealth,2)"
@@ -110901,9 +111394,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Panther Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingHealth2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingHealth,3)"
@@ -110944,9 +111441,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Boar Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingCombatRefreshPower,1)"
 		],
@@ -110986,9 +111487,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Boar Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingCombatRefreshPower1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingCombatRefreshPower,2)"
@@ -111033,9 +111538,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Boar Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingCombatRefreshPower2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingCombatRefreshPower,3)"
@@ -111076,9 +111585,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Mind Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingMentalismBaseDmg,1)"
 		],
@@ -111118,9 +111631,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Mind Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingMentalismBaseDmg1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingMentalismBaseDmg,2)"
@@ -111165,9 +111682,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Mind Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingMentalismBaseDmg2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingMentalismBaseDmg,3)"
@@ -111212,9 +111733,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Fiery Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingFireMagicBaseDmg,1)"
 		],
@@ -111258,9 +111783,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Fiery Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingFireMagicBaseDmg1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingFireMagicBaseDmg,2)"
@@ -111305,9 +111834,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Fiery Ring Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicRingFireMagicBaseDmg2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicRingFireMagicBaseDmg,3)"
@@ -111348,9 +111881,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Deer Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealth,1)"
 		],
@@ -111390,9 +111927,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Deer Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceHealth1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealth,2)"
@@ -111437,9 +111978,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Deer Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceHealth2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealth,3)"
@@ -111484,9 +112029,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Deer Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceHealth3",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealth,4)"
@@ -111527,9 +112076,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Deinonychus Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklacePower,1)"
 		],
@@ -111569,9 +112122,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Deinonychus Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklacePower1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklacePower,2)"
@@ -111616,9 +112173,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Deinonychus Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklacePower2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklacePower,3)"
@@ -111659,9 +112220,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Healthy Neck Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealthWave,1)"
 		],
@@ -111701,9 +112266,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Healthy Neck Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceHealthWave1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealthWave,2)"
@@ -111748,9 +112317,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Healthy Neck Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceHealthWave2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceHealthWave,3)"
@@ -111795,9 +112368,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Treant Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceDruidBaseDmg,1)"
 		],
@@ -111841,9 +112418,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Treant Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceDruidBaseDmg1",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceDruidBaseDmg,2)"
@@ -111888,9 +112469,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Deep Treant Necklace Infusion",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicNecklaceDruidBaseDmg2",
 		"ResultEffects": [
 			"AddItemTSysPower(ShamanicNecklaceDruidBaseDmg,3)"
@@ -111928,9 +112513,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Rat Belt",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultItems": [
 			{
 				"ItemCode": 54320,
@@ -111969,9 +112558,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Rat Belt",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicBeltInventory1",
 		"ResultItems": [
 			{
@@ -112015,9 +112608,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Rat Belt",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicBeltInventory2",
 		"ProtoResultItems": [
 			{
@@ -112061,9 +112658,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Beginner's Dodging Belt",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"ResultItems": [
 			{
 				"ItemCode": 54681,
@@ -112102,9 +112703,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Novice's Dodging Belt",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicBeltEvasion1",
 		"ResultItems": [
 			{
@@ -112148,9 +112753,13 @@
 			"ShamanicInfusion",
 			"NotIncludedInDynamicUsageListings"
 		],
-		"LoopParticle": "InfuseLoop",
+		"LoopParticle": {
+			"ParticleName": "InfuseLoop"
+		},
 		"Name": "Shaman's Dodging Belt",
-		"Particle": "InfuseFinish",
+		"Particle": {
+			"ParticleName": "InfuseFinish"
+		},
 		"PrereqRecipe": "ShamanicBeltEvasion2",
 		"ProtoResultItems": [
 			{
@@ -123423,10 +124032,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 3,
 		"Name": "Introductory Fire Magic Research",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic0"
 		],
@@ -124203,10 +124816,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Fire Magic Research Level 5",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic5"
 		],
@@ -124629,10 +125246,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 6,
 		"Name": "Fire Magic Research Level 10",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic10"
 		],
@@ -125042,10 +125663,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Fire Magic Research Level 15",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic15"
 		],
@@ -125427,10 +126052,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 6,
 		"Name": "Fire Magic Research Level 20",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic20"
 		],
@@ -125636,10 +126265,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 25",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic25"
 		],
@@ -125667,10 +126300,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Fire Magic Research Level 30",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic30"
 		],
@@ -125702,10 +126339,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Fire Magic Research Level 35",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic35"
 		],
@@ -125737,10 +126378,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 6,
 		"Name": "Fire Magic Research Level 40",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic40"
 		],
@@ -125776,10 +126421,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Fire Magic Research Level 45",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic45"
 		],
@@ -125819,10 +126468,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 50",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic50"
 		],
@@ -125858,10 +126511,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 55",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic55"
 		],
@@ -125897,10 +126554,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 60",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic60"
 		],
@@ -125936,10 +126597,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Fire Magic Research Level 65",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic65"
 		],
@@ -125979,10 +126644,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 70",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic70"
 		],
@@ -126018,10 +126687,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 75",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic75"
 		],
@@ -126058,10 +126731,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "FireResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "FireResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Fire Magic Research Level 80",
-		"Particle": "FireResearchSuccess",
+		"Particle": {
+			"ParticleName": "FireResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchFireMagic80"
 		],
@@ -126089,10 +126766,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 3,
 		"Name": "Ice Magic Research Level 1",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic1"
 		],
@@ -126120,10 +126801,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 3,
 		"Name": "Ice Magic Research Level 5",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic5"
 		],
@@ -126151,10 +126836,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Ice Magic Research Level 10",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic10"
 		],
@@ -126182,10 +126871,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Ice Magic Research Level 15",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic15"
 		],
@@ -126213,10 +126906,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Ice Magic Research Level 20",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic20"
 		],
@@ -126244,10 +126941,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 6,
 		"Name": "Ice Magic Research Level 25",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic25"
 		],
@@ -126275,10 +126976,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 6,
 		"Name": "Ice Magic Research Level 30",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic30"
 		],
@@ -126310,10 +127015,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 6,
 		"Name": "Ice Magic Research Level 35",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic35"
 		],
@@ -126345,10 +127054,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Ice Magic Research Level 40",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic40"
 		],
@@ -126384,10 +127097,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Ice Magic Research Level 45",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic45"
 		],
@@ -126427,10 +127144,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Ice Magic Research Level 50",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic50"
 		],
@@ -126470,10 +127191,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Ice Magic Research Level 55",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic55"
 		],
@@ -126513,10 +127238,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 8,
 		"Name": "Ice Magic Research Level 60",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic60"
 		],
@@ -126552,10 +127281,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 5,
 		"Name": "Ice Magic Research Level 65",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic65"
 		],
@@ -126591,10 +127324,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Ice Magic Research Level 70",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic70"
 		],
@@ -126630,10 +127367,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Ice Magic Research Level 75",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic75"
 		],
@@ -126669,10 +127410,14 @@
 		"Keywords": [
 			"Research"
 		],
-		"LoopParticle": "IceResearchLoop",
+		"LoopParticle": {
+			"ParticleName": "IceResearchLoop"
+		},
 		"MaxUses": 7,
 		"Name": "Ice Magic Research Level 80",
-		"Particle": "IceResearchSuccess",
+		"Particle": {
+			"ParticleName": "IceResearchSuccess"
+		},
 		"ResultEffects": [
 			"ResearchIceMagic80"
 		],
@@ -137928,9 +138673,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#6D00FF,#BE8DFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"Name": "Recall Circle",
-		"Particle": "TeleportFlash(Color=#6D00FF,#BE8DFF;LightColor=#BE8DFF)",
+		"Particle": {
+			"LightColor": "BE8DFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"ResultEffects": [
 			"GiveTeleportationXp",
 			"SaveCurrentTeleportCircle",
@@ -137960,9 +138714,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#6D00FF,#BE8DFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"Name": "Recall Circle (Improvised)",
-		"Particle": "TeleportFlash(Color=#6D00FF,#BE8DFF;LightColor=#BE8DFF)",
+		"Particle": {
+			"LightColor": "BE8DFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			"TeleportToBoundTeleportCircle1"
@@ -137992,9 +138755,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#6D00FF,#BE8DFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"Name": "Recall Beginnings",
-		"Particle": "TeleportFlash(Color=#6D00FF,#BE8DFF;LightColor=#BE8DFF)",
+		"Particle": {
+			"LightColor": "BE8DFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"ResultEffects": [
 			"TeleportToEntrypoint"
 		],
@@ -138027,9 +138799,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#0041FF,#00FFFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "0041FF",
+			"SecondaryColor": "00FFFF"
+		},
 		"Name": "Recall Last Recall",
-		"Particle": "TeleportFlash(Color=#0041FF,#00FFFF;LightColor=#00FFFF)",
+		"Particle": {
+			"LightColor": "00FFFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "0041FF",
+			"SecondaryColor": "00FFFF"
+		},
 		"ResultEffects": [
 			"GiveTeleportationXp",
 			"SaveCurrentTeleportCircle",
@@ -138064,9 +138845,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#6D00FF,#BE8DFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"Name": "Recall Somewhere",
-		"Particle": "TeleportFlash(Color=#6D00FF,#BE8DFF;LightColor=#BE8DFF)",
+		"Particle": {
+			"LightColor": "BE8DFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "6D00FF",
+			"SecondaryColor": "BE8DFF"
+		},
 		"ResultEffects": [
 			"GiveTeleportationXp",
 			"SaveCurrentTeleportCircle",
@@ -138103,9 +138893,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#008000,#00FFFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "008000",
+			"SecondaryColor": "00FFFF"
+		},
 		"Name": "Recall Heart's Home",
-		"Particle": "TeleportFlash(Color=#008000,#00FFFF;LightColor=#00FFFF)",
+		"Particle": {
+			"LightColor": "00FFFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "008000",
+			"SecondaryColor": "00FFFF"
+		},
 		"ResultEffects": [
 			"GiveTeleportationXp",
 			"SaveCurrentTeleportCircle",
@@ -138200,9 +138999,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#0041FF,#00FFFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "0041FF",
+			"SecondaryColor": "00FFFF"
+		},
 		"Name": "Recall Alternate Circle",
-		"Particle": "TeleportFlash(Color=#0041FF,#00FFFF;LightColor=#00FFFF)",
+		"Particle": {
+			"LightColor": "00FFFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "0041FF",
+			"SecondaryColor": "00FFFF"
+		},
 		"ResultEffects": [
 			"GiveTeleportationXp",
 			"SaveCurrentTeleportCircle",
@@ -138227,14 +139035,23 @@
 		"Keywords": [
 			"Lint_NoXP"
 		],
-		"LoopParticle": "TeleportLoop(Color=#FF0000,#FF8080)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "FF0000",
+			"SecondaryColor": "FF8080"
+		},
 		"Name": "Recall Beginnings (Hardcore)",
 		"OtherRequirements": [
 			{
 				"T": "IsHardcore"
 			}
 		],
-		"Particle": "TeleportFlash(Color=#FF0000,#FF8080;LightColor=#FF8080)",
+		"Particle": {
+			"LightColor": "FF8080",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "FF0000",
+			"SecondaryColor": "FF8080"
+		},
 		"ResultEffects": [
 			"TeleportToEntrypoint"
 		],
@@ -138291,9 +139108,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#FF0000,#FF8080)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "FF0000",
+			"SecondaryColor": "FF8080"
+		},
 		"Name": "Recall Serbule Docks",
-		"Particle": "TeleportFlash(Color=#FF0000,#FF8080;LightColor=#FF8080)",
+		"Particle": {
+			"LightColor": "FF8080",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "FF0000",
+			"SecondaryColor": "FF8080"
+		},
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			"Teleport(AreaSerbule, Landing_Boat)"
@@ -138322,9 +139148,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#FF0000,#FF8080)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "FF0000",
+			"SecondaryColor": "FF8080"
+		},
 		"Name": "Recall Gazluk Animal Camp",
-		"Particle": "TeleportFlash(Color=#FF0000,#FF8080;LightColor=#FF8080)",
+		"Particle": {
+			"LightColor": "FF8080",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "FF0000",
+			"SecondaryColor": "FF8080"
+		},
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			"Teleport(AreaGazluk, SpecialDestination)"
@@ -138387,9 +139222,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#0041FF,#00FFFF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "0041FF",
+			"SecondaryColor": "00FFFF"
+		},
 		"Name": "Recall Alternate Circle (Improvised)",
-		"Particle": "TeleportFlash(Color=#0041FF,#00FFFF;LightColor=#00FFFF)",
+		"Particle": {
+			"LightColor": "00FFFF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "0041FF",
+			"SecondaryColor": "00FFFF"
+		},
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			"TeleportToBoundTeleportCircle2"
@@ -138423,9 +139267,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#FF8000,#804000)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "FF8000",
+			"SecondaryColor": "804000"
+		},
 		"Name": "Summon Portal",
-		"Particle": "TeleportFlash(Color=#FF8000,#804000;LightColor=#804000)",
+		"Particle": {
+			"LightColor": "804000",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "FF8000",
+			"SecondaryColor": "804000"
+		},
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			"SpawnPlayerPortal1"
@@ -138459,9 +139312,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#FF8000,#804000)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "FF8000",
+			"SecondaryColor": "804000"
+		},
 		"Name": "Summon Alternate Portal",
-		"Particle": "TeleportFlash(Color=#FF8000,#804000;LightColor=#804000)",
+		"Particle": {
+			"LightColor": "804000",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "FF8000",
+			"SecondaryColor": "804000"
+		},
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			"SpawnPlayerPortal2"
@@ -138660,9 +139522,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "(Fae Only) Return to Fae Realm",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 900,
 		"ResultEffects": [
 			"Teleport(AreaFaeRealm1, NewFairySpot)"
@@ -138713,9 +139579,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "(Fae Only) Mushroom-Circle Recall",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 1800,
 		"ResultEffects": [
 			"DeltaCurFairyEnergy(-10)",
@@ -138746,9 +139616,18 @@
 		"Keywords": [
 			"Teleport"
 		],
-		"LoopParticle": "TeleportLoop(Color=#FFFFFF,#FF00FF)",
+		"LoopParticle": {
+			"ParticleName": "TeleportLoop",
+			"PrimaryColor": "FFFFFF",
+			"SecondaryColor": "FF00FF"
+		},
 		"Name": "(Fae Only) Recall Beginnings",
-		"Particle": "TeleportFlash(Color=#FFFFFF,#FF00FF;LightColor=#FF00FF)",
+		"Particle": {
+			"LightColor": "FF00FF",
+			"ParticleName": "TeleportFlash",
+			"PrimaryColor": "FFFFFF",
+			"SecondaryColor": "FF00FF"
+		},
 		"ResultEffects": [
 			"TeleportToEntrypoint"
 		],
@@ -138807,9 +139686,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Mycena)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 172800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -138842,9 +139725,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Mycena)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 172800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -138877,9 +139764,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Boletus)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 144000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -138912,9 +139803,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Boletus)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 144000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -138947,9 +139842,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Field)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 115200,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -138982,9 +139881,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Field)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 115200,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139047,9 +139950,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Blusher)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 86400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139082,9 +139989,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Blusher)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 86400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139117,9 +140028,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Milk Cap)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 64800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139152,9 +140067,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Milk Cap)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 64800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139187,9 +140106,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Blood)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 57600,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139222,9 +140145,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Blood)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 57600,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139257,9 +140184,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Coral)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 50400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139292,9 +140223,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Coral)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 50400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139327,9 +140262,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Iocaine)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 46800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139362,9 +140301,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Iocaine)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 46800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139397,9 +140340,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Groxmax)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 43200,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139432,9 +140379,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Groxmax)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 43200,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139467,9 +140418,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Porcini)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 39600,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139502,9 +140457,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Porcini)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 39600,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139537,9 +140496,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Black Foot)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 36000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139572,9 +140535,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Black Foot)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 36000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139607,9 +140574,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Pixie's Parasol)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 32400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139642,9 +140613,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Pixie's Parasol)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 32400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139677,9 +140652,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Fly Amanita)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 28800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139712,9 +140691,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Fly Amanita)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 28800,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139747,9 +140730,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Charged Mycelium)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 25200,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139782,9 +140769,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Charged Mycelium)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 25200,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139817,9 +140808,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Goblin Puffball)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 144000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139852,9 +140847,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Goblin Puffball)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 144000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139887,9 +140886,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Blastcap Mushroom)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 50400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139922,9 +140925,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Blastcap Mushroom)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 50400,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139957,9 +140964,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (False Agaric)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 36000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -139992,9 +141003,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (False Agaric)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 36000,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -140027,9 +141042,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Recall (Wizard's Mushroom)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 21600,
 		"ResultEffects": [
 			"GiveTeleportationXp",
@@ -140062,9 +141081,13 @@
 			"Teleport",
 			"MushroomTeleport"
 		],
-		"LoopParticle": "TeleportShroomLoop",
+		"LoopParticle": {
+			"ParticleName": "TeleportShroomLoop"
+		},
 		"Name": "Mushroom-Circle Un-Recall (Wizard's Mushroom)",
-		"Particle": "TeleportShroomFlash",
+		"Particle": {
+			"ParticleName": "TeleportShroomFlash"
+		},
 		"ResetTimeInSeconds": 21600,
 		"ResultEffects": [
 			"GiveTeleportationXp",

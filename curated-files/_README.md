@@ -14,6 +14,88 @@ The modified files are made available to simplify JSON deserialization (original
 
 + `SpecialCasterRequirements` is always an array, even if it contains only one object.
 + `SelfEffectsOnCrit` and `SelfEffectOnCrit` are unified as `SelfEffectsOnCrit`.
++ Removed `"Projectile": "0"` assuming it means "None" (this is found in bash-type abilities).
++ Converted `SelfParticle`, `SelfPreParticle` and `TargetParticle` to a new `AbilityParticle` object. Ex:
+```
+"SelfPreParticle": "ChannelHealPre(AoeRange=20;AoeColor=#00FF00)",
+"TargetParticle": "PsiWave(Color=#FFC000,#FFC080)"
+```
+becomes
+```
+"SelfPreParticle": {
+	"AoEColor": "00FF00",
+	"AoERange": 20,
+	"ParticleName": "ChannelHealPre"
+},
+"TargetParticle": {
+	"ParticleName": "PsiWave",
+	"PrimaryColor": "FFC000",
+	"SecondaryColor": "FFC080"
+}
+```
++ The `TargetTypeTagReq` field becomes `TargetTypeTagRequirement` and its content starting with `AnatomyType_` now starts with `Anatomy_` (to match skill names). Ex:
+```
+"TargetTypeTagReq": "AnatomyType_Arthropods"
+```
+becomes
+```
+"TargetTypeTagRequirement": "Anatomy_Arthropods"
+```
++ `InventoryKeywordReqErrorMessage`, `InventoryKeywordReqs`, `ItemKeywordReqErrorMessage`, `ItemKeywordReqs`, `PetTypeTagReq`, `PetTypeTagReqMax`, `SpecialTargetingTypeReq` and `TargetEffectKeywordReq` are renamed to `InventoryKeywordRequirementErrorMessage`, `ItemKeywordRequirementErrorMessage`, `InventoryKeywordRequirements`, `ItemKeywordRequirements`, `PetTypeTagRequirement`, `PetTypeTagRequirementMax`, `SpecialTargetingTypeRequirement` and `TargetEffectKeywordRequirement` respectively.
++ `InternalAbility` is renamed to `IsInternalAbility`.
++ `AoEIsCenteredOnCaster` is renamed to `IsAoECenteredOnCaster`.
++ `Rank` becomes an integer field.
++ A new field is added: `DigitStrippedName`. This field is the `InternalName` field, stripped of digits and with a whitespace before upper-case letters. The following names are also changed to better match category names:
+
+| `InternalName`     | `DigitStrippedName` |
+|--------------------|---------------------|
+| `StabledPetLiving` | `Stabled Pet`       |
+| `TameRat`          | `Tame Animal`       |
+| `TameCat`          | `Tame Animal`       |
+| `TameBear`         | `Tame Animal`       |
+| `TameBee`          | `Tame Animal`       |
+| `BasicShotB`       | `Basic Shot`        |
+| `AimedShotB`       | `Aimed Shot`        |
+| `BlitzShotB`       | `Blitz Shot`        |
+| `ToxinBombB`       | `Mycotoxin Formula` |
+| `ToxinBombC`       | `Acid Bomb`         |
+| `FireWallB`        | `Fire Wall`         |
+| `IceVeinsB`        | `Ice Veins`         |
+| `SliceB`           | `Duelists Slash`    |
+| `WerewolfPounceB`  | `Pouncing Rend`     |
+| `WerewolfPounceBB` | `Pouncing Rend`     |
++ `SelfPreEffects` in `PvE` is converted to an array of new `SelfPreEffect` objects. Ex:
+```
+"SelfPreEffects": [
+	"MambaStrikeLowArmorDmgMod"
+],
+"SelfPreEffects": [
+	"EnhanceZombie(SuperZombie1)"
+],
+"SelfPreEffects": [
+	"ConfigGalvanize(,50)"
+]
+```
+becomes
+```
+"SelfPreEffects": [
+	{
+		"Name": "MambaStrikeLowArmorDmgMod"
+	}
+],
+"SelfPreEffects": [
+	{
+		"Enhancement": "SuperZombie1",
+		"Name": "EnhanceZombie"
+	}
+],
+"SelfPreEffects": [
+	{
+		"Name": "ConfigGalvanize",
+		"Value": 50
+	}
+]
+```
 
 ## advancementtables.json
 
@@ -82,7 +164,19 @@ No change.
 
 ## attributes.json
 
-No change.
++ A bunch of attributes have been added so they can be linked to by other objects. All have `DisplayRule` set to `Never` and `DisplayType` set to `AsBuffDelta`. Here is a (possibly not up-to-date) list:
+    - `COCKATRICEDEBUFF_COST_DELTA`
+    - `LAMIADEBUFF_COST_DELTA`
+    - `MONSTER_MATCH_OWNER_SPEED`
+    - `ARMOR_MITIGATION_RATIO`
+    - `SHOW_CLEANLINESS_INDICATORS`
+    - `SHOW_COMMUNITY_INDICATORS`
+    - `SHOW_PEACEABLENESS_INDICATORS`
+    - `SHOW_FAIRYENERGY_INDICATORS`
+    - `BOOST_ANIMALPETHEAL_SENDER`
+    - `MONSTER_COMBAT_XP_VALUE`
+    - `MOD_VAULT_SIZE`
+    - `MENTAL_DEFENSE_RATING`
 
 ## directedgoals.json
 
@@ -110,8 +204,20 @@ becomes
 
 ## effects.json
 
-+ `Duration` is always an integer (and not sometimes a string).
++ `Duration` is always an integer (and not sometime a string).
 + `Desc` becomes `Description`.
++ Converted `Particle` to a new `EffectParticle` object. Ex:
+```
+"Particle": "ShadowFeintOrigin(AoeRange=20;AoeColor=#FFFFFF)"
+```
+becomes
+```
+"Particle": {
+	"AoEColor": "FFFFFF",
+	"AoERange": 20,
+	"ParticleName": "ShadowFeintOrigin"
+}
+```
 
 ## items.json
 
@@ -146,6 +252,19 @@ No change.
 ## recipes.json
 
 + `OtherRequirements` is always an array, even if it contains only one object.
++ Converted `LoopParticle` and `Particle` to a new `RecipeParticle` object. Ex:
+```
+"Particle": "TeleportFlash(Color=#6D00FF,#BE8DFF;LightColor=#BE8DFF)"
+```
+becomes
+```
+"Particle": {
+	"LightColor": "BE8DFF",
+	"ParticleName": "TeleportFlash",
+	"PrimaryColor": "6D00FF",
+	"SecondaryColor": "BE8DFF"
+}
+```
 
 ## skills.json
 
