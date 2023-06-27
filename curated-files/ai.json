@@ -3798,25 +3798,25 @@
 	"SkeletonIceMage": {
 		"Abilities": {
 			"UndeadFreezeBall": {
-				"MinDistance": 10
+				"MinRange": 10
 			},
 			"UndeadIceBall1": {
-				"MinDistance": 10
+				"MinRange": 10
 			}
 		}
 	},
 	"SkeletonMage": {
 		"Abilities": {
 			"UndeadFireballA": {
-				"MinDistance": 10
+				"MinRange": 10
 			},
 			"UndeadFireballB": {
 				"MaxLevel": 25,
-				"MinDistance": 10
+				"MinRange": 10
 			},
 			"UndeadFireballB2": {
-				"MinDistance": 10,
-				"MinLevel": 26
+				"MinLevel": 26,
+				"MinRange": 10
 			}
 		}
 	},
@@ -3998,11 +3998,11 @@
 		"Abilities": {
 			"AcidBall1": {
 				"MaxLevel": 25,
-				"MinDistance": 10
+				"MinRange": 10
 			},
 			"AcidBall2": {
-				"MinDistance": 10,
-				"MinLevel": 26
+				"MinLevel": 26,
+				"MinRange": 10
 			},
 			"AcidExplosion1": {
 				"MaxLevel": 25

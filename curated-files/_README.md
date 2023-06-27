@@ -1,4 +1,4 @@
-# Curated Project: Gorgon game files
+# Project: Gorgon curated game files
 
 Files in this directory are modified copies of original files available at [this link](https://cdn.projectgorgon.com/).
 The original content of these files is Copyright 2023 Elder Game, LLC.
@@ -9,6 +9,7 @@ The modified files are made available to simplify JSON deserialization (original
 
 + When appropriate, root object keys are not prefixed, and only the key is preserved. For instance, `item_40112` becomes `40112`. With this change, files can be deserialized as dictionaries with `int` keys.
 + `{ }` and `[ ]` become `{}` and `[]` respectively.
++ Colors are normalized to the `RRGGBB` hex format (upper case). Ex: `red` becomes `FF0000`. When present, the alpha part is removed because it's always `FF`.
 
 ## abilities.json
 
@@ -100,7 +101,7 @@ becomes
 ## advancementtables.json
 
 + The creature name is a separate `Name` field.
-+ The file is restructured to use levels as dictionary keys.
++ The file is restructured so that `Levels` are collections of object with a `Level` field.
 + Each level is a collection of attributes names and values.
 
 Before:
@@ -120,8 +121,8 @@ Before:
 After:
 ```
 "1001": {
-	"Levels": {
-		"1": {
+	"Levels": [
+		{
 			"Attributes": [
 				{
 					"Attribute": "VULN_CRUSHING",
@@ -147,9 +148,10 @@ After:
 					"Attribute": "VULN_TRAUMA",
 					"Value": -0.5
 				}
-			]
+			],
+			"Level": 1
 		}
-	},
+	],
 	"Name": "Skeleton"
 }
 ```
@@ -157,6 +159,7 @@ After:
 ## ai.json
 
 + Field names begin with an upper case letter. Ex: `cue` becomes `Cue`.
++ `MinDistance` and `MinRange` are consolidated to just be `MinRange` (they don't seem to be set separately).
 
 ## areas.json
 
@@ -221,7 +224,154 @@ becomes
 
 ## items.json
 
-No change.
++ `FoodDesc` is renamed to `FoodDescription`.
++ `IsSkillReqsDefaults` is renamed to `IsSkillRequirementsDefaults`.
++ `NumUses` is renamed to `NumberOfUses`.
++ `SkillReqs` is renamed to `SkillRequirements`.
++ `DroppedAppearance` is converted to an object with fields like `Skin`, `Cork`, etc. The `^` prefix is removed, both in field names and values. Ex:
+```
+"DroppedAppearance": "LootPotion1(Color=red)",
+"DroppedAppearance": "AlchemyBulb5(^Skin=AlchemyBulbs;^Cork=AlchemyBulbs)",
+"DroppedAppearance": "CookedBrownBreadPlate(^Food=GF-Food;^Plate=GF-Dishes)",
+"DroppedAppearance": "Peach(Skin=^Medieval-Fruits;Skin_Color=FF8E00)"
+```
+become
+```
+"DroppedAppearance": {
+	"Appearance": "LootPotion1",
+	"Color": "FF0000"
+},
+"DroppedAppearance": {
+	"Appearance": "AlchemyBulb5",
+	"Cork": "AlchemyBulbs",
+	"Skin": "AlchemyBulbs"
+},
+"DroppedAppearance": {
+	"Appearance": "CookedBrownBreadPlate",
+	"Food": "GF-Food",
+	"Plate": "GF-Dishes"
+},
+"DroppedAppearance": {
+	"Appearance": "Peach",
+	"Skin": "Medieval-Fruits",
+	"SkinColor": "FF8E00"
+}
+```
++ `EffectDescs` is renamed to `EffectDescriptions` and is converted to an object. For a simple description only the `Description` field is filled, otherwise the `AttributeName` and `AttributeEffect` are filled with the attribute name and value effect respectively. Ex:
+```
+"EffectDescs": [
+	"Death by iocaine poison"
+],
+"EffectDescs": [
+	"{MAX_ARMOR}{6}",
+	"{COMBAT_REFRESH_HEALTH_DELTA}{3}",
+	"{COMBAT_REFRESH_ARMOR_DELTA}{3}",
+	"{COMBAT_REFRESH_POWER_DELTA}{1}"
+]
+```
+become
+```
+"EffectDescriptions": [
+	{
+		"Description": "Death by iocaine poison"
+	}
+],
+"EffectDescriptions": [
+	{
+		"AttributeEffect": 6,
+		"AttributeName": "MAX_ARMOR"
+	},
+	{
+		"AttributeEffect": 3,
+		"AttributeName": "COMBAT_REFRESH_HEALTH_DELTA"
+	},
+	{
+		"AttributeEffect": 3,
+		"AttributeName": "COMBAT_REFRESH_ARMOR_DELTA"
+	},
+	{
+		"AttributeEffect": 1,
+		"AttributeName": "COMBAT_REFRESH_POWER_DELTA"
+	}
+]
+```
++ `Keywords` is converted to an array of objects. The `Keyword` field contains the keyword name, and `Values` the various values that can be listed for this keyword. Note that the order in which keywords and values are listed may not be preserved. For example:
+```
+"Keywords": [
+	"Drink=40",
+	"Edible",
+	"EggDish=30",
+	"Food",
+	"PreparedFood=25",
+	"PreparedFood=30",
+	"Snack",
+	"Snack=40"
+]
+```
+becomes
+```
+"Keywords": [
+	{
+		"Keyword": "Drink",
+		"Values": [
+			40
+		]
+	},
+	{
+		"Keyword": "Edible"
+	},
+	{
+		"Keyword": "EggDish",
+		"Values": [
+			30
+		]
+	},
+	{
+		"Keyword": "Food"
+	},
+	{
+		"Keyword": "PreparedFood",
+		"Values": [
+			25,
+			30
+		]
+	},
+	{
+		"Keyword": "Snack",
+		"Values": [
+			40
+		]
+	}
+]
+```
++ `StockDye` is converted to an object (and is removed if empty). Ex:
+```
+"StockDye": "",
+"StockDye": ";Color1=007777;Color2=0077cc;Color3=cyan",
+"StockDye": ";Color1=FFD872FF;Color2=383223FF;Color3=B0B57DFF",
+"StockDye": ";Color1=333333;Color2=0056ff;Color3=FFFFFF;GlowEnabled=y"
+```
+becomes
+```
+"StockDye": {
+	"Color1": "007777",
+	"Color2": "0077CC",
+	"Color3": "00FFFF",
+	"IsGlowEnabled": false
+},
+"StockDye": {
+	"Color1": "FFD872",
+	"Color2": "383223",
+	"Color3": "B0B57D",
+	"IsGlowEnabled": false
+},
+"StockDye": {
+	"Color1": "333333",
+	"Color2": "0056FF",
+	"Color3": "FFFFFF",
+	"IsGlowEnabled": true
+}
+```
 
 ## itemuses.json
 
