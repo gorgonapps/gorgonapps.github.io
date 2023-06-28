@@ -487,7 +487,7 @@ becomes
   - `DeltaNpcFavor` becomes the `"T": "Favor"` reward with the `Npc` and `Favor` fields.
   - `RaiseSkillToLevel` becomes the `"T": "SkillLevel"` reward with the `Skill` and `Level` fields.
   - `DispelFaeBombSporeBuff` becomes the `"T": "DispelFaeBombSporeBuff"` reward.
-  - Finally, other effects converted to the `"T": "Effect"` reward with an `Effect` field.
+  - Finally, other effects are converted to the `"T": "Effect"` reward with an `Effect` field.
 + Similarily, the `PreGiveEffects` field is converted to an array of effects, as follow.
   - `DeleteWarCacheMapFog` becomes the `"T": "Effect"` effect with a `Description` field.
   - `DeleteWarCacheMapPins` becomes the `"T": "Effect"` effect with a `Description` field.
