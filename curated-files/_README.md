@@ -224,10 +224,7 @@ becomes
 
 ## items.json
 
-+ `FoodDesc` is renamed to `FoodDescription`.
-+ `IsSkillReqsDefaults` is renamed to `IsSkillRequirementsDefaults`.
-+ `NumUses` is renamed to `NumberOfUses`.
-+ `SkillReqs` is renamed to `SkillRequirements`.
++ `FoodDesc`, `IsSkillReqsDefaults`, `NumUses` and `SkillReqs` are renamed to `FoodDescription`, `IsSkillRequirementsDefaults`, `NumberOfUses` and `SkillRequirements` respectively.
 + `DroppedAppearance` is converted to an object with fields like `Skin`, `Cork`, etc. The `^` prefix is removed, both in field names and values. Ex:
 ```
 "DroppedAppearance": "LootPotion1(Color=red)",
@@ -388,16 +385,116 @@ No change.
 ## npcs.json
 
 + Fields are sorted by alphabetical order. Ex: `Name` comes before `Preferences`.
-+ Same in NPC preferences: `Desire` comes before `Keywords`.
++ Fields are also sorted in NPC preferences: `Desire` comes before `Keywords`.
 + The file is formatted in the same pretty format as others.
++ In `AreaName` the `Area` prefix is removed (to match with area names).
++ In NPC preferences, the `Keywords` field is converted to new fields. Ex:
+```
+"Keywords":["MinValue:1000"],
+"Keywords":["EquipmentSlot:Head","SkillPrereq:Hammer","Loot"],
+"Keywords":["Knife","Loot","MinRarity:Uncommon"],
+"Keywords":["Rarity:Common","Equipment"]
+```
+becomes
+```
+{
+	"MinValueRequirement": 1000,
+},
+{
+	"ItemKeywords": [
+		"Loot"
+	],
+	"SlotRequirement": "Head",
+	"SkillRequirement": "Hammer"
+},
+{
+	"ItemKeywords": [
+		"Knife",
+		"Loot"
+	],
+	"MinRarityRequirement": "Uncommon"
+},
+{
+	"ItemKeywords": [
+		"Equipment"
+	],
+	"RarityRequirement": "Common"
+},
+```
++ In NPC preferences, `"Favor": "Error"` is just removed.
++ In NPC preferences, `Pref` is renamed to `PreferenceMultiplier`.
++ NPC preferences are sorted by desire, from love to hate.
 
 ## playertitles.json
 
-No change.
++ If a title is colored, the color is saved in the `Color` field. Ex:
+```
+"Title_1": {
+	"Title": "<color=cyan>Game Admin</color>"
+},
+```
+becomes
+```
+"1": {
+	"Color": "00FFFF",
+	"Title": "Game Admin"
+},
+```
 
 ## quests.json
 
-No change.
++ The `Reward_Favor` and `Rewards_Favor` fields are converted to a favor reward. Ex:
+```
+"Reward_Favor": 50,
+"Rewards_Favor": 100
+```
+becomes
+```
+"Rewards": [
+	{
+		"Favor": 50,
+		"T": "Favor"
+	}
+],
+"Rewards": [
+	{
+		"Favor": 100,
+		"T": "Favor"
+	}
+]
+```
++ The `Rewards_NamedLootProfile` field is converted to a reward as well. Ex:
+```
+"Rewards_NamedLootProfile": "Custom_HelpTheHiveQuest"
+```
+becomes
+```
+"Rewards": [
+	{
+		"NamedLootProfile": "Custom_HelpTheHiveQuest",
+		"T": "NamedLootProfile"
+	}
+]
+```
++ The `Rewards_Effects` field is also converted, in a more complicated way. Each effect is converted to a reward, as follow.
+  - `SetInteractionFlag` becomes the `"T": "InteractionFlag"` reward with an `InteractionFlag` field.
+  - `EnsureLoreBookKnown` becomes the `"T": "LoreBook"` reward with a `LoreBook` field.
+  - `BestowTitle` becomes the `"T": "Title"` reward with a `Title` field and each title identifier is converted to their id (the JSON files don't contain the identifier, making the association difficult).
+  - `BestowRecipe` becomes the `"T": "Recipe"` reward with a `Recipe` field.
+  - `LearnAbility` becomes the `"T": "Ability"` reward with an `Ability` field.
+  - `AdvanceScriptedQuestObjective` becomes the `"T": "ScriptedQuestObjective"` reward with a `Npc` field, and the `_Complete` or `_Done` suffix is removed (to match NPC names).
+  - `GiveXP` becomes the `"T": "SkillXp"` reward with the `Skill` and `Xp` fields.
+  - `DeltaNpcFavor` becomes the `"T": "Favor"` reward with the `Npc` and `Favor` fields.
+  - `RaiseSkillToLevel` becomes the `"T": "SkillLevel"` reward with the `Skill` and `Level` fields.
+  - `DispelFaeBombSporeBuff` becomes the `"T": "DispelFaeBombSporeBuff"` reward.
+  - Finally, other effects converted to the `"T": "Effect"` reward with an `Effect` field.
++ Similarily, the `PreGiveEffects` field is converted to an array of effects, as follow.
+  - `DeleteWarCacheMapFog` becomes the `"T": "Effect"` effect with a `Description` field.
+  - `DeleteWarCacheMapPins` becomes the `"T": "Effect"` effect with a `Description` field.
+  - `CreateIlmariWarCacheMap` becomes the `"T": "Item"` effect with the `Item` and `QuestGroup` fields.
+  - `SetInteractionFlag` becomes the `"T": "SetInteractionFlag"` effect with an `InteractionFlag` field.
+  - `ClearInteractionFlag` becomes the `"T": "ClearInteractionFlag"` effect with an `InteractionFlag` field.
+  - `LearnAbility` becomes the `"T": "Ability"` effect with an `Ability` field.
 
 ## recipes.json
 
