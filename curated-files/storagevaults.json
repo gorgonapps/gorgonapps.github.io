@@ -74,20 +74,24 @@
 		"ID": 303,
 		"NpcFriendlyName": "Ivyn's Chest",
 		"NumSlots": 32,
-		"Requirements": {
-			"InteractionFlag": "Ivyn_Gave_Passcode",
-			"T": "InteractionFlagSet"
-		}
+		"Requirements": [
+			{
+				"InteractionFlag": "Ivyn_Gave_Passcode",
+				"T": "InteractionFlagSet"
+			}
+		]
 	},
 	"KhyrulekMementoChest": {
 		"Area": "AreaTomb1",
 		"ID": 402,
 		"NpcFriendlyName": "Khyrulek's Memento Chest",
 		"NumSlots": 16,
-		"Requirements": {
-			"InteractionFlag": "Tomb1_StoryPuzzleComplete_Looted",
-			"T": "InteractionFlagSet"
-		}
+		"Requirements": [
+			{
+				"InteractionFlag": "Tomb1_StoryPuzzleComplete_Looted",
+				"T": "InteractionFlagSet"
+			}
+		]
 	},
 	"NPC_Agrashab": {
 		"Area": "AreaSunVale",
@@ -283,9 +287,11 @@
 			"SoulMates": 56
 		},
 		"NpcFriendlyName": "Jumper",
-		"Requirements": {
-			"T": "IsLongtimeAnimal"
-		}
+		"Requirements": [
+			{
+				"T": "IsLongtimeAnimal"
+			}
+		]
 	},
 	"NPC_Kib": {
 		"Area": "AreaCasino",
@@ -496,9 +502,11 @@
 			"SoulMates": 56
 		},
 		"NpcFriendlyName": "Norbert",
-		"Requirements": {
-			"T": "IsLongtimeAnimal"
-		}
+		"Requirements": [
+			{
+				"T": "IsLongtimeAnimal"
+			}
+		]
 	},
 	"NPC_Otis": {
 		"Area": "AreaCasino",
@@ -571,9 +579,11 @@
 			"SoulMates": 56
 		},
 		"NpcFriendlyName": "Raul",
-		"Requirements": {
-			"T": "IsLongtimeAnimal"
-		}
+		"Requirements": [
+			{
+				"T": "IsLongtimeAnimal"
+			}
+		]
 	},
 	"NPC_Red": {
 		"Area": "AreaKurMountains",
@@ -838,10 +848,12 @@
 		"ID": 703,
 		"NpcFriendlyName": "Tapestry Inn Footlocker",
 		"NumSlots": 32,
-		"Requirements": {
-			"InteractionFlag": "Serbule2_TapestryInnChest",
-			"T": "InteractionFlagSet"
-		}
+		"Requirements": [
+			{
+				"InteractionFlag": "Serbule2_TapestryInnChest",
+				"T": "InteractionFlagSet"
+			}
+		]
 	},
 	"TutorialChest": {
 		"Area": "AreaNewbieIsland",
@@ -860,9 +872,11 @@
 		"Grouping": "AreaKurMountains",
 		"ID": 1701,
 		"NpcFriendlyName": "Warden Storage Chest",
-		"Requirements": {
-			"T": "IsWarden"
-		},
+		"Requirements": [
+			{
+				"T": "IsWarden"
+			}
+		],
 		"SlotAttribute": "MAX_WARDEN_VAULT_SIZE"
 	},
 	"WerewolfAltar": {

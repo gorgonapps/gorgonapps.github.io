@@ -11,7 +11,9 @@
 		],
 		"Rewards": [
 			{
-				"Ability": "PoisonBlade1",
+				"Abilities": [
+					"PoisonBlade1"
+				],
 				"Level": 10
 			},
 			{
@@ -19,7 +21,9 @@
 				"Level": 15
 			},
 			{
-				"Ability": "PoisonBlade2",
+				"Abilities": [
+					"PoisonBlade2"
+				],
 				"Level": 20
 			},
 			{
@@ -27,7 +31,9 @@
 				"Level": 25
 			},
 			{
-				"Ability": "PoisonBlade3",
+				"Abilities": [
+					"PoisonBlade3"
+				],
 				"Level": 30
 			},
 			{
@@ -35,7 +41,9 @@
 				"Level": 35
 			},
 			{
-				"Ability": "PoisonBlade4",
+				"Abilities": [
+					"PoisonBlade4"
+				],
 				"Level": 40
 			},
 			{
@@ -47,7 +55,9 @@
 				"Level": 45
 			},
 			{
-				"Ability": "PoisonBlade5",
+				"Abilities": [
+					"PoisonBlade5"
+				],
 				"Level": 50
 			}
 		],
@@ -2910,7 +2920,7 @@
 		],
 		"Rewards": [
 			{
-				"Ability": [
+				"Abilities": [
 					"GoFish1",
 					"FishReel1",
 					"FishJuke1",
@@ -3017,79 +3027,115 @@
 		"Name": "Animal Handling",
 		"Rewards": [
 			{
-				"Ability": "TameRat",
+				"Abilities": [
+					"TameRat"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "StabledPet1",
+				"Abilities": [
+					"StabledPet1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "FeedPet1",
+				"Abilities": [
+					"FeedPet1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "ThatllDo1",
+				"Abilities": [
+					"ThatllDo1"
+				],
 				"Level": 5,
 				"Notes": "Can See Stabled Pet's Enthusiasm"
 			},
 			{
-				"Ability": "GetItOffMe1",
+				"Abilities": [
+					"GetItOffMe1"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "MonstrousRage1",
+				"Abilities": [
+					"MonstrousRage1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "ShrillCommand1",
+				"Abilities": [
+					"ShrillCommand1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "SicEm1",
+				"Abilities": [
+					"SicEm1"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "CleverTrick1",
+				"Abilities": [
+					"CleverTrick1"
+				],
 				"Level": 10,
 				"Notes": "Can See Stabled Pet's Friendliness"
 			},
 			{
-				"Ability": "ThatllDo2",
+				"Abilities": [
+					"ThatllDo2"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "FeedPet2",
+				"Abilities": [
+					"FeedPet2"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "StabledPet2",
+				"Abilities": [
+					"StabledPet2"
+				],
 				"Level": 15,
 				"Notes": "Can See Stabled Pet's Intelligence"
 			},
 			{
-				"Ability": "GetItOffMe2",
+				"Abilities": [
+					"GetItOffMe2"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "MonstrousRage2",
+				"Abilities": [
+					"MonstrousRage2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "ShrillCommand2",
+				"Abilities": [
+					"ShrillCommand2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "SicEm2",
+				"Abilities": [
+					"SicEm2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "NimbleLimbs1",
+				"Abilities": [
+					"NimbleLimbs1"
+				],
 				"Level": 20,
 				"Notes": "Can See Stabled Pet's Ferocity"
 			},
 			{
-				"Ability": "ThatllDo3",
+				"Abilities": [
+					"ThatllDo3"
+				],
 				"Level": 21
 			},
 			{
@@ -3097,7 +3143,9 @@
 				"Level": 22
 			},
 			{
-				"Ability": "FeedPet3",
+				"Abilities": [
+					"FeedPet3"
+				],
 				"Level": 23
 			},
 			{
@@ -3105,35 +3153,49 @@
 				"Level": 24
 			},
 			{
-				"Ability": "CleverTrick2",
+				"Abilities": [
+					"CleverTrick2"
+				],
 				"BonusToSkill": "Riding",
 				"Level": 25,
 				"Notes": "Can See Stabled Pet's Toughness"
 			},
 			{
-				"Ability": "GetItOffMe3",
+				"Abilities": [
+					"GetItOffMe3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "MonstrousRage3",
+				"Abilities": [
+					"MonstrousRage3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "ShrillCommand3",
+				"Abilities": [
+					"ShrillCommand3"
+				],
 				"BonusToSkill": "Rabbit",
 				"Level": 28
 			},
 			{
-				"Ability": "SicEm3",
+				"Abilities": [
+					"SicEm3"
+				],
 				"Level": 29
 			},
 			{
-				"Ability": "NimbleLimbs2",
+				"Abilities": [
+					"NimbleLimbs2"
+				],
 				"Level": 30,
 				"Notes": "Can See Stabled Pet's Ruggedness"
 			},
 			{
-				"Ability": "ThatllDo4",
+				"Abilities": [
+					"ThatllDo4"
+				],
 				"Level": 31
 			},
 			{
@@ -3141,11 +3203,15 @@
 				"Level": 32
 			},
 			{
-				"Ability": "FeedPet4",
+				"Abilities": [
+					"FeedPet4"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "StabledPet3",
+				"Abilities": [
+					"StabledPet3"
+				],
 				"Level": 34
 			},
 			{
@@ -3156,28 +3222,40 @@
 				]
 			},
 			{
-				"Ability": "GetItOffMe4",
+				"Abilities": [
+					"GetItOffMe4"
+				],
 				"Level": 36,
 				"Notes": "Can See Stabled Pet's Virility"
 			},
 			{
-				"Ability": "MonstrousRage4",
+				"Abilities": [
+					"MonstrousRage4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "ShrillCommand4",
+				"Abilities": [
+					"ShrillCommand4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "SicEm4",
+				"Abilities": [
+					"SicEm4"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "NimbleLimbs3",
+				"Abilities": [
+					"NimbleLimbs3"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "ThatllDo5",
+				"Abilities": [
+					"ThatllDo5"
+				],
 				"Level": 41
 			},
 			{
@@ -3185,36 +3263,52 @@
 				"Level": 42
 			},
 			{
-				"Ability": "FeedPet5",
+				"Abilities": [
+					"FeedPet5"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "CleverTrick3",
+				"Abilities": [
+					"CleverTrick3"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "StabledPet4",
+				"Abilities": [
+					"StabledPet4"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "GetItOffMe5",
+				"Abilities": [
+					"GetItOffMe5"
+				],
 				"BonusToSkill": "GiantBat",
 				"Level": 46
 			},
 			{
-				"Ability": "MonstrousRage5",
+				"Abilities": [
+					"MonstrousRage5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "ShrillCommand5",
+				"Abilities": [
+					"ShrillCommand5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "SicEm5",
+				"Abilities": [
+					"SicEm5"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "NimbleLimbs4",
+				"Abilities": [
+					"NimbleLimbs4"
+				],
 				"BonusToSkill": "Spider",
 				"Level": 50
 			},
@@ -3463,7 +3557,9 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "BlitzShot2",
+				"Abilities": [
+					"BlitzShot2"
+				],
 				"Level": 10,
 				"Races": [
 					"Human",
@@ -3474,14 +3570,18 @@
 				]
 			},
 			{
-				"Ability": "OrcBlitzShot2",
+				"Abilities": [
+					"OrcBlitzShot2"
+				],
 				"Level": 10,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "LongShot1",
+				"Abilities": [
+					"LongShot1"
+				],
 				"Level": 13,
 				"Races": [
 					"Human",
@@ -3492,14 +3592,18 @@
 				]
 			},
 			{
-				"Ability": "OrcLongShot1",
+				"Abilities": [
+					"OrcLongShot1"
+				],
 				"Level": 13,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BowBash2",
+				"Abilities": [
+					"BowBash2"
+				],
 				"Level": 16,
 				"Races": [
 					"Human",
@@ -3510,14 +3614,18 @@
 				]
 			},
 			{
-				"Ability": "OrcBowBash2",
+				"Abilities": [
+					"OrcBowBash2"
+				],
 				"Level": 16,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "AimedShot2",
+				"Abilities": [
+					"AimedShot2"
+				],
 				"Level": 18,
 				"Races": [
 					"Human",
@@ -3528,14 +3636,18 @@
 				]
 			},
 			{
-				"Ability": "OrcAimedShot2",
+				"Abilities": [
+					"OrcAimedShot2"
+				],
 				"Level": 18,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BlitzShot1",
+				"Abilities": [
+					"BlitzShot1"
+				],
 				"Level": 1,
 				"Races": [
 					"Human",
@@ -3546,7 +3658,9 @@
 				]
 			},
 			{
-				"Ability": "OrcBlitzShot1",
+				"Abilities": [
+					"OrcBlitzShot1"
+				],
 				"Level": 1,
 				"Races": [
 					"Orc"
@@ -3557,7 +3671,9 @@
 				"Level": 19
 			},
 			{
-				"Ability": "HookShot2",
+				"Abilities": [
+					"HookShot2"
+				],
 				"Level": 20,
 				"Races": [
 					"Human",
@@ -3568,14 +3684,18 @@
 				]
 			},
 			{
-				"Ability": "OrcHookShot2",
+				"Abilities": [
+					"OrcHookShot2"
+				],
 				"Level": 20,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BlitzShot3",
+				"Abilities": [
+					"BlitzShot3"
+				],
 				"Level": 21,
 				"Races": [
 					"Human",
@@ -3586,14 +3706,18 @@
 				]
 			},
 			{
-				"Ability": "OrcBlitzShot3",
+				"Abilities": [
+					"OrcBlitzShot3"
+				],
 				"Level": 21,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "MultiShot2",
+				"Abilities": [
+					"MultiShot2"
+				],
 				"Level": 23,
 				"Races": [
 					"Human",
@@ -3604,14 +3728,18 @@
 				]
 			},
 			{
-				"Ability": "OrcMultiShot2",
+				"Abilities": [
+					"OrcMultiShot2"
+				],
 				"Level": 23,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "LongShot2",
+				"Abilities": [
+					"LongShot2"
+				],
 				"Level": 26,
 				"Races": [
 					"Human",
@@ -3622,14 +3750,18 @@
 				]
 			},
 			{
-				"Ability": "OrcLongShot2",
+				"Abilities": [
+					"OrcLongShot2"
+				],
 				"Level": 26,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BowBash1",
+				"Abilities": [
+					"BowBash1"
+				],
 				"Level": 2,
 				"Races": [
 					"Human",
@@ -3640,14 +3772,18 @@
 				]
 			},
 			{
-				"Ability": "OrcBowBash1",
+				"Abilities": [
+					"OrcBowBash1"
+				],
 				"Level": 2,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BlitzShot4",
+				"Abilities": [
+					"BlitzShot4"
+				],
 				"Level": 30,
 				"Races": [
 					"Human",
@@ -3658,7 +3794,9 @@
 				]
 			},
 			{
-				"Ability": "OrcBlitzShot4",
+				"Abilities": [
+					"OrcBlitzShot4"
+				],
 				"Level": 30,
 				"Races": [
 					"Orc"
@@ -3669,7 +3807,9 @@
 				"Level": 32
 			},
 			{
-				"Ability": "BowBash3",
+				"Abilities": [
+					"BowBash3"
+				],
 				"Level": 33,
 				"Races": [
 					"Human",
@@ -3680,14 +3820,18 @@
 				]
 			},
 			{
-				"Ability": "OrcBowBash3",
+				"Abilities": [
+					"OrcBowBash3"
+				],
 				"Level": 33,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "AimedShot3",
+				"Abilities": [
+					"AimedShot3"
+				],
 				"Level": 35,
 				"Races": [
 					"Human",
@@ -3698,14 +3842,18 @@
 				]
 			},
 			{
-				"Ability": "OrcAimedShot3",
+				"Abilities": [
+					"OrcAimedShot3"
+				],
 				"Level": 35,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "HookShot3",
+				"Abilities": [
+					"HookShot3"
+				],
 				"Level": 38,
 				"Races": [
 					"Human",
@@ -3716,14 +3864,18 @@
 				]
 			},
 			{
-				"Ability": "OrcHookShot3",
+				"Abilities": [
+					"OrcHookShot3"
+				],
 				"Level": 38,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "MultiShot3",
+				"Abilities": [
+					"MultiShot3"
+				],
 				"Level": 40,
 				"Races": [
 					"Human",
@@ -3734,14 +3886,18 @@
 				]
 			},
 			{
-				"Ability": "OrcMultiShot3",
+				"Abilities": [
+					"OrcMultiShot3"
+				],
 				"Level": 40,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BlitzShot5",
+				"Abilities": [
+					"BlitzShot5"
+				],
 				"Level": 42,
 				"Races": [
 					"Human",
@@ -3752,14 +3908,18 @@
 				]
 			},
 			{
-				"Ability": "OrcBlitzShot5",
+				"Abilities": [
+					"OrcBlitzShot5"
+				],
 				"Level": 42,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "LongShot3",
+				"Abilities": [
+					"LongShot3"
+				],
 				"Level": 45,
 				"Races": [
 					"Human",
@@ -3770,14 +3930,18 @@
 				]
 			},
 			{
-				"Ability": "OrcLongShot3",
+				"Abilities": [
+					"OrcLongShot3"
+				],
 				"Level": 45,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "BowBash4",
+				"Abilities": [
+					"BowBash4"
+				],
 				"Level": 49,
 				"Races": [
 					"Human",
@@ -3788,7 +3952,9 @@
 				]
 			},
 			{
-				"Ability": "OrcAimedShot1",
+				"Abilities": [
+					"OrcAimedShot1"
+				],
 				"Level": 4,
 				"Races": [
 					"Orc"
@@ -3799,14 +3965,18 @@
 				"Level": 46
 			},
 			{
-				"Ability": "OrcBowBash4",
+				"Abilities": [
+					"OrcBowBash4"
+				],
 				"Level": 49,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "AimedShot1",
+				"Abilities": [
+					"AimedShot1"
+				],
 				"Level": 4,
 				"Races": [
 					"Human",
@@ -3817,7 +3987,9 @@
 				]
 			},
 			{
-				"Ability": "AimedShot4",
+				"Abilities": [
+					"AimedShot4"
+				],
 				"Level": 50,
 				"Races": [
 					"Human",
@@ -3828,14 +4000,18 @@
 				]
 			},
 			{
-				"Ability": "OrcAimedShot4",
+				"Abilities": [
+					"OrcAimedShot4"
+				],
 				"Level": 50,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "HookShot1",
+				"Abilities": [
+					"HookShot1"
+				],
 				"Level": 7,
 				"Races": [
 					"Human",
@@ -3846,14 +4022,18 @@
 				]
 			},
 			{
-				"Ability": "OrcHookShot1",
+				"Abilities": [
+					"OrcHookShot1"
+				],
 				"Level": 7,
 				"Races": [
 					"Orc"
 				]
 			},
 			{
-				"Ability": "MultiShot1",
+				"Abilities": [
+					"MultiShot1"
+				],
 				"Level": 8,
 				"Races": [
 					"Human",
@@ -3864,7 +4044,9 @@
 				]
 			},
 			{
-				"Ability": "OrcMultiShot1",
+				"Abilities": [
+					"OrcMultiShot1"
+				],
 				"Level": 8,
 				"Races": [
 					"Orc"
@@ -4025,15 +4207,21 @@
 		"Parents": [],
 		"Rewards": [
 			{
-				"Ability": "ArmorPatching1",
+				"Abilities": [
+					"ArmorPatching1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "ArmorPatching2",
+				"Abilities": [
+					"ArmorPatching2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "ArmorPatching3",
+				"Abilities": [
+					"ArmorPatching3"
+				],
 				"Level": 20
 			},
 			{
@@ -4041,7 +4229,9 @@
 				"Level": 25
 			},
 			{
-				"Ability": "ArmorPatching4",
+				"Abilities": [
+					"ArmorPatching4"
+				],
 				"Level": 30
 			},
 			{
@@ -4049,7 +4239,9 @@
 				"Level": 35
 			},
 			{
-				"Ability": "ArmorPatching5",
+				"Abilities": [
+					"ArmorPatching5"
+				],
 				"Level": 40
 			},
 			{
@@ -4057,7 +4249,9 @@
 				"Level": 45
 			},
 			{
-				"Ability": "ArmorPatching6",
+				"Abilities": [
+					"ArmorPatching6"
+				],
 				"BonusToSkill": "Blacksmithing",
 				"Level": 50
 			},
@@ -4333,180 +4527,268 @@
 		"Name": "Bard",
 		"Rewards": [
 			{
-				"Ability": "Disharmony1",
+				"Abilities": [
+					"Disharmony1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "SongOfResurgence1",
+				"Abilities": [
+					"SongOfResurgence1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "EntrancingLullaby1",
+				"Abilities": [
+					"EntrancingLullaby1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "BlastOfFury1",
+				"Abilities": [
+					"BlastOfFury1"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Rally1",
+				"Abilities": [
+					"Rally1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "BlastOfDespair1",
+				"Abilities": [
+					"BlastOfDespair1"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "ThunderousNote1",
+				"Abilities": [
+					"ThunderousNote1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "SongOfDiscord1",
+				"Abilities": [
+					"SongOfDiscord1"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "MomentOfResolve1",
+				"Abilities": [
+					"MomentOfResolve1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "Disharmony2",
+				"Abilities": [
+					"Disharmony2"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "SongOfResurgence2",
+				"Abilities": [
+					"SongOfResurgence2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "BlastOfFury2",
+				"Abilities": [
+					"BlastOfFury2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "Rally2",
+				"Abilities": [
+					"Rally2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "ThunderousNote2",
+				"Abilities": [
+					"ThunderousNote2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "BlastOfDespair2",
+				"Abilities": [
+					"BlastOfDespair2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "SongOfDiscord2",
+				"Abilities": [
+					"SongOfDiscord2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "VirtuososBallad1",
+				"Abilities": [
+					"VirtuososBallad1"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "MomentOfResolve2",
+				"Abilities": [
+					"MomentOfResolve2"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "Disharmony3",
+				"Abilities": [
+					"Disharmony3"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "EntrancingLullaby2",
+				"Abilities": [
+					"EntrancingLullaby2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "BlastOfFury3",
+				"Abilities": [
+					"BlastOfFury3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "SongOfResurgence3",
+				"Abilities": [
+					"SongOfResurgence3"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "Rally3",
+				"Abilities": [
+					"Rally3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "ThunderousNote3",
+				"Abilities": [
+					"ThunderousNote3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "SongOfDiscord3",
+				"Abilities": [
+					"SongOfDiscord3"
+				],
 				"Level": 29
 			},
 			{
-				"Ability": "BlastOfDespair3",
+				"Abilities": [
+					"BlastOfDespair3"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "Disharmony4",
+				"Abilities": [
+					"Disharmony4"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "MomentOfResolve3",
+				"Abilities": [
+					"MomentOfResolve3"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "SongOfResurgence4",
+				"Abilities": [
+					"SongOfResurgence4"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "BlastOfFury4",
+				"Abilities": [
+					"BlastOfFury4"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "VirtuososBallad2",
+				"Abilities": [
+					"VirtuososBallad2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Rally4",
+				"Abilities": [
+					"Rally4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "ThunderousNote4",
+				"Abilities": [
+					"ThunderousNote4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "SongOfDiscord4",
+				"Abilities": [
+					"SongOfDiscord4"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "MomentOfResolve4",
+				"Abilities": [
+					"MomentOfResolve4"
+				],
 				"BonusToSkill": "GiantBat",
 				"Level": 40
 			},
 			{
-				"Ability": "Disharmony5",
+				"Abilities": [
+					"Disharmony5"
+				],
 				"Level": 41
 			},
 			{
-				"Ability": "BlastOfDespair4",
+				"Abilities": [
+					"BlastOfDespair4"
+				],
 				"Level": 42
 			},
 			{
-				"Ability": "EntrancingLullaby3",
+				"Abilities": [
+					"EntrancingLullaby3"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "BlastOfFury5",
+				"Abilities": [
+					"BlastOfFury5"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "SongOfResurgence5",
+				"Abilities": [
+					"SongOfResurgence5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "Rally5",
+				"Abilities": [
+					"Rally5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "ThunderousNote5",
+				"Abilities": [
+					"ThunderousNote5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "SongOfDiscord5",
+				"Abilities": [
+					"SongOfDiscord5"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "VirtuososBallad3",
+				"Abilities": [
+					"VirtuososBallad3"
+				],
 				"Level": 50
 			}
 		],
@@ -4589,7 +4871,9 @@
 		"Name": "Battle Chemistry",
 		"Rewards": [
 			{
-				"Ability": "ToxinBomb1",
+				"Abilities": [
+					"ToxinBomb1"
+				],
 				"Level": 1
 			},
 			{
@@ -4605,7 +4889,9 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in First Aid)"
 			},
 			{
-				"Ability": "ToxicIrritant1",
+				"Abilities": [
+					"ToxicIrritant1"
+				],
 				"Level": 5
 			},
 			{
@@ -4621,11 +4907,15 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in Lore)"
 			},
 			{
-				"Ability": "ToxinBomb2",
+				"Abilities": [
+					"ToxinBomb2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "SummonMinigolem1",
+				"Abilities": [
+					"SummonMinigolem1"
+				],
 				"BonusToSkill": "SigilScripting",
 				"Level": 11
 			},
@@ -4642,7 +4932,9 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in First Aid)"
 			},
 			{
-				"Ability": "ToxicIrritant2",
+				"Abilities": [
+					"ToxicIrritant2"
+				],
 				"Level": 15,
 				"Notes": "Access to new cross-discipline chemical concoction (in Meditation)"
 			},
@@ -4659,7 +4951,9 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in Lore)"
 			},
 			{
-				"Ability": "ToxinBomb3",
+				"Abilities": [
+					"ToxinBomb3"
+				],
 				"BonusToSkill": "FireMagic",
 				"Level": 20
 			},
@@ -4680,11 +4974,15 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in First Aid)"
 			},
 			{
-				"Ability": "SummonMinigolem2",
+				"Abilities": [
+					"SummonMinigolem2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "ToxicIrritant3",
+				"Abilities": [
+					"ToxicIrritant3"
+				],
 				"Level": 26,
 				"Notes": "Access to new cross-discipline chemical concoction (in Unarmed)"
 			},
@@ -4697,12 +4995,16 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in Lore)"
 			},
 			{
-				"Ability": "ToxinBomb4",
+				"Abilities": [
+					"ToxinBomb4"
+				],
 				"BonusToSkill": "IceMagic",
 				"Level": 30
 			},
 			{
-				"Ability": "SummonMinigolem3",
+				"Abilities": [
+					"SummonMinigolem3"
+				],
 				"Level": 31
 			},
 			{
@@ -4718,7 +5020,9 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in First Aid)"
 			},
 			{
-				"Ability": "ToxicIrritant4",
+				"Abilities": [
+					"ToxicIrritant4"
+				],
 				"Level": 35,
 				"Notes": "Access to new cross-discipline chemical concoction (in Meditation)"
 			},
@@ -4731,11 +5035,15 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in Cooking)"
 			},
 			{
-				"Ability": "SummonMinigolem4",
+				"Abilities": [
+					"SummonMinigolem4"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "ToxinBomb5",
+				"Abilities": [
+					"ToxinBomb5"
+				],
 				"BonusToSkill": "FireMagic",
 				"Level": 40
 			},
@@ -4756,7 +5064,9 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in First Aid)"
 			},
 			{
-				"Ability": "ToxicIrritant5",
+				"Abilities": [
+					"ToxicIrritant5"
+				],
 				"Level": 45,
 				"Notes": "Access to new cross-discipline chemical concoction (in Meditation)"
 			},
@@ -4773,11 +5083,15 @@
 				"Notes": "Access to new cross-discipline chemical concoction (in Lore)"
 			},
 			{
-				"Ability": "ToxinBomb6",
+				"Abilities": [
+					"ToxinBomb6"
+				],
 				"Level": 50
 			},
 			{
-				"Ability": "SummonMinigolem5",
+				"Abilities": [
+					"SummonMinigolem5"
+				],
 				"Level": 51
 			},
 			{
@@ -6126,43 +6440,63 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "CowStomp1",
+				"Abilities": [
+					"CowStomp1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "CowKick1",
+				"Abilities": [
+					"CowKick1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "CowBash1",
+				"Abilities": [
+					"CowBash1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "Graze1",
+				"Abilities": [
+					"Graze1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "ChewCud1",
+				"Abilities": [
+					"ChewCud1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "CowStomp2",
+				"Abilities": [
+					"CowStomp2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "MooOfDetermination1",
+				"Abilities": [
+					"MooOfDetermination1"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "CowKick2",
+				"Abilities": [
+					"CowKick2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "MooOfCalm1",
+				"Abilities": [
+					"MooOfCalm1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "CollectMilk",
+				"Abilities": [
+					"CollectMilk"
+				],
 				"Level": 18
 			},
 			{
@@ -6170,11 +6504,15 @@
 				"Level": 19
 			},
 			{
-				"Ability": "CowStomp3",
+				"Abilities": [
+					"CowStomp3"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "CowKick3",
+				"Abilities": [
+					"CowKick3"
+				],
 				"Level": 25
 			},
 			{
@@ -6182,15 +6520,21 @@
 				"Level": 26
 			},
 			{
-				"Ability": "ChewCud2",
+				"Abilities": [
+					"ChewCud2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "CowStomp4",
+				"Abilities": [
+					"CowStomp4"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "MooOfDetermination2",
+				"Abilities": [
+					"MooOfDetermination2"
+				],
 				"Level": 31
 			},
 			{
@@ -6198,19 +6542,27 @@
 				"Level": 32
 			},
 			{
-				"Ability": "CowBash2",
+				"Abilities": [
+					"CowBash2"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "MooOfCalm2",
+				"Abilities": [
+					"MooOfCalm2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "CowKick4",
+				"Abilities": [
+					"CowKick4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "CollectMilk2",
+				"Abilities": [
+					"CollectMilk2"
+				],
 				"Level": 37
 			},
 			{
@@ -6218,11 +6570,15 @@
 				"Level": 38
 			},
 			{
-				"Ability": "ChewCud3",
+				"Abilities": [
+					"ChewCud3"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "CowStomp5",
+				"Abilities": [
+					"CowStomp5"
+				],
 				"Level": 40
 			},
 			{
@@ -6230,28 +6586,40 @@
 				"Level": 41
 			},
 			{
-				"Ability": "MooOfDetermination3",
+				"Abilities": [
+					"MooOfDetermination3"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "CowKick5",
+				"Abilities": [
+					"CowKick5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "CowBash3",
+				"Abilities": [
+					"CowBash3"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "MooOfCalm3",
+				"Abilities": [
+					"MooOfCalm3"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "CowStomp6",
+				"Abilities": [
+					"CowStomp6"
+				],
 				"BonusToSkill": "Saddlery",
 				"Level": 50
 			},
 			{
-				"Ability": "CollectMilk3",
+				"Abilities": [
+					"CollectMilk3"
+				],
 				"Level": 52
 			}
 		],
@@ -6327,7 +6695,9 @@
 		"Parents": [],
 		"Rewards": [
 			{
-				"Ability": "ShootCrossbow1",
+				"Abilities": [
+					"ShootCrossbow1"
+				],
 				"Level": 1
 			},
 			{
@@ -6400,27 +6770,39 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "DeerSlash1",
+				"Abilities": [
+					"DeerSlash1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "DeerKick1",
+				"Abilities": [
+					"DeerKick1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "DeerBash1",
+				"Abilities": [
+					"DeerBash1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "DeerPummel1",
+				"Abilities": [
+					"DeerPummel1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "DeerBuff1",
+				"Abilities": [
+					"DeerBuff1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "DeerSlash2",
+				"Abilities": [
+					"DeerSlash2"
+				],
 				"Level": 10
 			},
 			{
@@ -6428,19 +6810,27 @@
 				"Level": 11
 			},
 			{
-				"Ability": "SummonDeer1",
+				"Abilities": [
+					"SummonDeer1"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "KingOfTheForest1",
+				"Abilities": [
+					"KingOfTheForest1"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "DeerBash2",
+				"Abilities": [
+					"DeerBash2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "DeerDash1",
+				"Abilities": [
+					"DeerDash1"
+				],
 				"Level": 15
 			},
 			{
@@ -6448,15 +6838,21 @@
 				"Level": 16
 			},
 			{
-				"Ability": "DeerPummel2",
+				"Abilities": [
+					"DeerPummel2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "DeerKick2",
+				"Abilities": [
+					"DeerKick2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "DeerSlash3",
+				"Abilities": [
+					"DeerSlash3"
+				],
 				"Level": 20
 			},
 			{
@@ -6464,31 +6860,45 @@
 				"Level": 21
 			},
 			{
-				"Ability": "DeerBuff2",
+				"Abilities": [
+					"DeerBuff2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "DeerBash3",
+				"Abilities": [
+					"DeerBash3"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "SummonDeer2",
+				"Abilities": [
+					"SummonDeer2"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "DeerKick3",
+				"Abilities": [
+					"DeerKick3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "DeerBlast1",
+				"Abilities": [
+					"DeerBlast1"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "DeerPummel3",
+				"Abilities": [
+					"DeerPummel3"
+				],
 				"Level": 29
 			},
 			{
-				"Ability": "DeerSlash4",
+				"Abilities": [
+					"DeerSlash4"
+				],
 				"Level": 30
 			},
 			{
@@ -6496,31 +6906,45 @@
 				"Level": 31
 			},
 			{
-				"Ability": "KingOfTheForest2",
+				"Abilities": [
+					"KingOfTheForest2"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "DeerKick4",
+				"Abilities": [
+					"DeerKick4"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "DeerBash4",
+				"Abilities": [
+					"DeerBash4"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "DeerDash2",
+				"Abilities": [
+					"DeerDash2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "DeerBlast2",
+				"Abilities": [
+					"DeerBlast2"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "DeerPummel4",
+				"Abilities": [
+					"DeerPummel4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "DeerBuff3",
+				"Abilities": [
+					"DeerBuff3"
+				],
 				"Level": 38
 			},
 			{
@@ -6528,7 +6952,9 @@
 				"Level": 39
 			},
 			{
-				"Ability": "DeerSlash5",
+				"Abilities": [
+					"DeerSlash5"
+				],
 				"Level": 40
 			},
 			{
@@ -6536,31 +6962,45 @@
 				"Level": 41
 			},
 			{
-				"Ability": "SummonDeer3",
+				"Abilities": [
+					"SummonDeer3"
+				],
 				"Level": 42
 			},
 			{
-				"Ability": "DeerKick5",
+				"Abilities": [
+					"DeerKick5"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "DeerBash5",
+				"Abilities": [
+					"DeerBash5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "KingOfTheForest3",
+				"Abilities": [
+					"KingOfTheForest3"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "DeerPummel5",
+				"Abilities": [
+					"DeerPummel5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "DeerBlast3",
+				"Abilities": [
+					"DeerBlast3"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "DeerSlash6",
+				"Abilities": [
+					"DeerSlash6"
+				],
 				"Level": 50
 			},
 			{
@@ -6638,51 +7078,75 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "HeartThorn1",
+				"Abilities": [
+					"HeartThorn1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "Shillelagh1",
+				"Abilities": [
+					"Shillelagh1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "Brambleskin1",
+				"Abilities": [
+					"Brambleskin1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "Rotskin1",
+				"Abilities": [
+					"Rotskin1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "CosmicStrike1",
+				"Abilities": [
+					"CosmicStrike1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "Delerium1",
+				"Abilities": [
+					"Delerium1"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "Regrowth1",
+				"Abilities": [
+					"Regrowth1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "HeartThorn2",
+				"Abilities": [
+					"HeartThorn2"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "HealingSanctuary1",
+				"Abilities": [
+					"HealingSanctuary1"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "Brambleskin2",
+				"Abilities": [
+					"Brambleskin2"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "HuntersStride1",
+				"Abilities": [
+					"HuntersStride1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "Rotskin2",
+				"Abilities": [
+					"Rotskin2"
+				],
 				"Level": 16
 			},
 			{
@@ -6690,19 +7154,27 @@
 				"Level": 17
 			},
 			{
-				"Ability": "CosmicStrike2",
+				"Abilities": [
+					"CosmicStrike2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Shillelagh2",
+				"Abilities": [
+					"Shillelagh2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "Delerium2",
+				"Abilities": [
+					"Delerium2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "HeartThorn3",
+				"Abilities": [
+					"HeartThorn3"
+				],
 				"Level": 21
 			},
 			{
@@ -6710,36 +7182,52 @@
 				"Level": 22
 			},
 			{
-				"Ability": "Brambleskin3",
+				"Abilities": [
+					"Brambleskin3"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "DeerForm1",
+				"Abilities": [
+					"DeerForm1"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "Rotskin3",
+				"Abilities": [
+					"Rotskin3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "HealingSanctuary2",
+				"Abilities": [
+					"HealingSanctuary2"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "CosmicStrike3",
+				"Abilities": [
+					"CosmicStrike3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "Delerium3",
+				"Abilities": [
+					"Delerium3"
+				],
 				"BonusToSkill": "FirstAid",
 				"Level": 29
 			},
 			{
-				"Ability": "HuntersStride2",
+				"Abilities": [
+					"HuntersStride2"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "HeartThorn4",
+				"Abilities": [
+					"HeartThorn4"
+				],
 				"Level": 31
 			},
 			{
@@ -6747,7 +7235,9 @@
 				"Level": 32
 			},
 			{
-				"Ability": "Brambleskin4",
+				"Abilities": [
+					"Brambleskin4"
+				],
 				"Level": 33
 			},
 			{
@@ -6755,11 +7245,15 @@
 				"Level": 34
 			},
 			{
-				"Ability": "Regrowth2",
+				"Abilities": [
+					"Regrowth2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Rotskin4",
+				"Abilities": [
+					"Rotskin4"
+				],
 				"Level": 36
 			},
 			{
@@ -6767,52 +7261,76 @@
 				"Level": 37
 			},
 			{
-				"Ability": "CosmicStrike4",
+				"Abilities": [
+					"CosmicStrike4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "Delerium4",
+				"Abilities": [
+					"Delerium4"
+				],
 				"BonusToSkill": "WeatherWitching",
 				"Level": 40
 			},
 			{
-				"Ability": "HeartThorn5",
+				"Abilities": [
+					"HeartThorn5"
+				],
 				"Level": 41
 			},
 			{
-				"Ability": "Shillelagh3",
+				"Abilities": [
+					"Shillelagh3"
+				],
 				"Level": 42
 			},
 			{
-				"Ability": "Brambleskin5",
+				"Abilities": [
+					"Brambleskin5"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "HealingSanctuary3",
+				"Abilities": [
+					"HealingSanctuary3"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "Regrowth3",
+				"Abilities": [
+					"Regrowth3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "Rotskin5",
+				"Abilities": [
+					"Rotskin5"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "HuntersStride3",
+				"Abilities": [
+					"HuntersStride3"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "CosmicStrike5",
+				"Abilities": [
+					"CosmicStrike5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "Delerium5",
+				"Abilities": [
+					"Delerium5"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "RavenForm1",
+				"Abilities": [
+					"RavenForm1"
+				],
 				"Level": 50
 			},
 			{
@@ -6986,11 +7504,15 @@
 		"Name": "Endurance",
 		"Rewards": [
 			{
-				"Ability": "DigDeep1",
+				"Abilities": [
+					"DigDeep1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "DigDeep2",
+				"Abilities": [
+					"DigDeep2"
+				],
 				"Level": 17
 			},
 			{
@@ -6998,7 +7520,9 @@
 				"Level": 20
 			},
 			{
-				"Ability": "DigDeep3",
+				"Abilities": [
+					"DigDeep3"
+				],
 				"Level": 25
 			},
 			{
@@ -7010,7 +7534,9 @@
 				"Level": 35
 			},
 			{
-				"Ability": "DigDeep4",
+				"Abilities": [
+					"DigDeep4"
+				],
 				"Level": 38
 			},
 			{
@@ -7018,7 +7544,9 @@
 				"Level": 45
 			},
 			{
-				"Ability": "DigDeep5",
+				"Abilities": [
+					"DigDeep5"
+				],
 				"Level": 50
 			},
 			{
@@ -7093,71 +7621,105 @@
 		],
 		"Rewards": [
 			{
-				"Ability": "FairyFire1",
+				"Abilities": [
+					"FairyFire1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "PixieFlare1",
+				"Abilities": [
+					"PixieFlare1"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "FairyFire2",
+				"Abilities": [
+					"FairyFire2"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "FaeConduit1",
+				"Abilities": [
+					"FaeConduit1"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "PixieFlare2",
+				"Abilities": [
+					"PixieFlare2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "AstralStrike1",
+				"Abilities": [
+					"AstralStrike1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "FairyFire3",
+				"Abilities": [
+					"FairyFire3"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "PixieFlare3",
+				"Abilities": [
+					"PixieFlare3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "FaeConduit2",
+				"Abilities": [
+					"FaeConduit2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "AstralStrike2",
+				"Abilities": [
+					"AstralStrike2"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "FairyFire4",
+				"Abilities": [
+					"FairyFire4"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "PixieFlare4",
+				"Abilities": [
+					"PixieFlare4"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "FaeConduit3",
+				"Abilities": [
+					"FaeConduit3"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "FairyFire5",
+				"Abilities": [
+					"FairyFire5"
+				],
 				"Level": 41
 			},
 			{
-				"Ability": "PixieFlare5",
+				"Abilities": [
+					"PixieFlare5"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "AstralStrike3",
+				"Abilities": [
+					"AstralStrike3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "FaeConduit4",
+				"Abilities": [
+					"FaeConduit4"
+				],
 				"Level": 48
 			}
 		],
@@ -7412,19 +7974,27 @@
 		"Parents": [],
 		"Rewards": [
 			{
-				"Ability": "FirstAid1",
+				"Abilities": [
+					"FirstAid1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "FirstAid2",
+				"Abilities": [
+					"FirstAid2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "TreatDisease1",
+				"Abilities": [
+					"TreatDisease1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "FirstAid3",
+				"Abilities": [
+					"FirstAid3"
+				],
 				"Level": 20
 			},
 			{
@@ -7432,15 +8002,21 @@
 				"Level": 25
 			},
 			{
-				"Ability": "FirstAid4",
+				"Abilities": [
+					"FirstAid4"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "TreatDisease2",
+				"Abilities": [
+					"TreatDisease2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "FirstAid5",
+				"Abilities": [
+					"FirstAid5"
+				],
 				"Level": 40
 			},
 			{
@@ -7448,7 +8024,9 @@
 				"Level": 45
 			},
 			{
-				"Ability": "TreatDisease3",
+				"Abilities": [
+					"TreatDisease3"
+				],
 				"Level": 50
 			}
 		],
@@ -7505,7 +8083,9 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "FishGut1",
+				"Abilities": [
+					"FishGut1"
+				],
 				"Level": 5
 			},
 			{
@@ -7513,7 +8093,9 @@
 				"Level": 10
 			},
 			{
-				"Ability": "FishGut2",
+				"Abilities": [
+					"FishGut2"
+				],
 				"Level": 15
 			},
 			{
@@ -7521,7 +8103,9 @@
 				"Level": 20
 			},
 			{
-				"Ability": "FishGut3",
+				"Abilities": [
+					"FishGut3"
+				],
 				"Level": 25
 			},
 			{
@@ -7545,7 +8129,9 @@
 				"Level": 42
 			},
 			{
-				"Ability": "FishGut4",
+				"Abilities": [
+					"FishGut4"
+				],
 				"Level": 45
 			},
 			{
@@ -7557,7 +8143,9 @@
 				"Level": 55
 			},
 			{
-				"Ability": "FishGut5",
+				"Abilities": [
+					"FishGut5"
+				],
 				"Level": 60
 			},
 			{
@@ -7969,11 +8557,15 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "SeekObjective",
+				"Abilities": [
+					"SeekObjective"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "ObjectiveOrienteering",
+				"Abilities": [
+					"ObjectiveOrienteering"
+				],
 				"Level": 15
 			},
 			{
@@ -8364,7 +8956,9 @@
 				"Level": 45
 			},
 			{
-				"Ability": "AnalyzeArthropodGenes",
+				"Abilities": [
+					"AnalyzeArthropodGenes"
+				],
 				"BonusToSkill": "Genetics",
 				"Level": 50
 			},
@@ -8563,89 +9157,131 @@
 		"Name": "Giant Bat",
 		"Rewards": [
 			{
-				"Ability": "Rip1",
+				"Abilities": [
+					"Rip1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "Tear1",
+				"Abilities": [
+					"Tear1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "Echolocation",
+				"Abilities": [
+					"Echolocation"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "WingVortex1",
+				"Abilities": [
+					"WingVortex1"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Screech1",
+				"Abilities": [
+					"Screech1"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "DrinkBlood1",
+				"Abilities": [
+					"DrinkBlood1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "VirulentBite1",
+				"Abilities": [
+					"VirulentBite1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "Rip2",
+				"Abilities": [
+					"Rip2"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "SonicBurst1",
+				"Abilities": [
+					"SonicBurst1"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "WingVortex2",
+				"Abilities": [
+					"WingVortex2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "Tear2",
+				"Abilities": [
+					"Tear2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "Screech2",
+				"Abilities": [
+					"Screech2"
+				],
 				"BonusToSkill": "Necromancy",
 				"Level": 16
 			},
 			{
-				"Ability": "DrinkBlood2",
+				"Abilities": [
+					"DrinkBlood2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "VirulentBite2",
+				"Abilities": [
+					"VirulentBite2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Rip3",
+				"Abilities": [
+					"Rip3"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "SonicBurst2",
+				"Abilities": [
+					"SonicBurst2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "WingVortex3",
+				"Abilities": [
+					"WingVortex3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "Tear3",
+				"Abilities": [
+					"Tear3"
+				],
 				"BonusToSkill": "Werewolf",
 				"Level": 25
 			},
 			{
-				"Ability": "Screech3",
+				"Abilities": [
+					"Screech3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "DrinkBlood3",
+				"Abilities": [
+					"DrinkBlood3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "VirulentBite3",
+				"Abilities": [
+					"VirulentBite3"
+				],
 				"Level": 28
 			},
 			{
@@ -8653,35 +9289,51 @@
 				"Level": 29
 			},
 			{
-				"Ability": "Rip4",
+				"Abilities": [
+					"Rip4"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "SonicBurst3",
+				"Abilities": [
+					"SonicBurst3"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "WingVortex4",
+				"Abilities": [
+					"WingVortex4"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "Tear4",
+				"Abilities": [
+					"Tear4"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Screech4",
+				"Abilities": [
+					"Screech4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "DrinkBlood4",
+				"Abilities": [
+					"DrinkBlood4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "VirulentBite4",
+				"Abilities": [
+					"VirulentBite4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "Rip5",
+				"Abilities": [
+					"Rip5"
+				],
 				"Level": 41
 			},
 			{
@@ -8689,27 +9341,39 @@
 				"Level": 42
 			},
 			{
-				"Ability": "SonicBurst4",
+				"Abilities": [
+					"SonicBurst4"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "WingVortex5",
+				"Abilities": [
+					"WingVortex5"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "Tear5",
+				"Abilities": [
+					"Tear5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "Screech5",
+				"Abilities": [
+					"Screech5"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "DrinkBlood5",
+				"Abilities": [
+					"DrinkBlood5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "VirulentBite5",
+				"Abilities": [
+					"VirulentBite5"
+				],
 				"Level": 48
 			}
 		],
@@ -8907,31 +9571,45 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "Pound1",
+				"Abilities": [
+					"Pound1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "RecklessSlam1",
+				"Abilities": [
+					"RecklessSlam1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "LeapingSmash1",
+				"Abilities": [
+					"LeapingSmash1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "RibShatter1",
+				"Abilities": [
+					"RibShatter1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "SeismicImpact1",
+				"Abilities": [
+					"SeismicImpact1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "ReverberatingStrike1",
+				"Abilities": [
+					"ReverberatingStrike1"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "LookAtMyHammer1",
+				"Abilities": [
+					"LookAtMyHammer1"
+				],
 				"Level": 10
 			},
 			{
@@ -8939,35 +9617,51 @@
 				"Level": 11
 			},
 			{
-				"Ability": "Pound2",
+				"Abilities": [
+					"Pound2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "RecklessSlam2",
+				"Abilities": [
+					"RecklessSlam2"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "PoundToSlag1",
+				"Abilities": [
+					"PoundToSlag1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "LeapingSmash2",
+				"Abilities": [
+					"LeapingSmash2"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "SeismicImpact2",
+				"Abilities": [
+					"SeismicImpact2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "ReverberatingStrike2",
+				"Abilities": [
+					"ReverberatingStrike2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "LookAtMyHammer2",
+				"Abilities": [
+					"LookAtMyHammer2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "RecklessSlam3",
+				"Abilities": [
+					"RecklessSlam3"
+				],
 				"Level": 22
 			},
 			{
@@ -8975,23 +9669,33 @@
 				"Level": 24
 			},
 			{
-				"Ability": "RibShatter2",
+				"Abilities": [
+					"RibShatter2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "SeismicImpact3",
+				"Abilities": [
+					"SeismicImpact3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "Pound3",
+				"Abilities": [
+					"Pound3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "ReverberatingStrike3",
+				"Abilities": [
+					"ReverberatingStrike3"
+				],
 				"Level": 29
 			},
 			{
-				"Ability": "LookAtMyHammer3",
+				"Abilities": [
+					"LookAtMyHammer3"
+				],
 				"Level": 30
 			},
 			{
@@ -8999,27 +9703,39 @@
 				"Level": 31
 			},
 			{
-				"Ability": "RecklessSlam4",
+				"Abilities": [
+					"RecklessSlam4"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "PoundToSlag2",
+				"Abilities": [
+					"PoundToSlag2"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "LeapingSmash3",
+				"Abilities": [
+					"LeapingSmash3"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "ReverberatingStrike4",
+				"Abilities": [
+					"ReverberatingStrike4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "RibShatter3",
+				"Abilities": [
+					"RibShatter3"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "LookAtMyHammer4",
+				"Abilities": [
+					"LookAtMyHammer4"
+				],
 				"Level": 40
 			},
 			{
@@ -9027,7 +9743,9 @@
 				"Level": 41
 			},
 			{
-				"Ability": "RecklessSlam5",
+				"Abilities": [
+					"RecklessSlam5"
+				],
 				"Level": 42
 			},
 			{
@@ -9035,11 +9753,15 @@
 				"Level": 43
 			},
 			{
-				"Ability": "SeismicImpact4",
+				"Abilities": [
+					"SeismicImpact4"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "PoundToSlag3",
+				"Abilities": [
+					"PoundToSlag3"
+				],
 				"Level": 45
 			},
 			{
@@ -9047,19 +9769,27 @@
 				"Level": 46
 			},
 			{
-				"Ability": "Pound4",
+				"Abilities": [
+					"Pound4"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "LeapingSmash4",
+				"Abilities": [
+					"LeapingSmash4"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "ReverberatingStrike5",
+				"Abilities": [
+					"ReverberatingStrike5"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "LookAtMyHammer5",
+				"Abilities": [
+					"LookAtMyHammer5"
+				],
 				"Level": 50
 			}
 		],
@@ -9240,7 +9970,9 @@
 		"Name": "Ice Magic",
 		"Rewards": [
 			{
-				"Ability": "Ice_ColdProtection2",
+				"Abilities": [
+					"Ice_ColdProtection2"
+				],
 				"Level": 10,
 				"Races": [
 					"Fae"
@@ -9258,21 +9990,27 @@
 				]
 			},
 			{
-				"Ability": "IceSpear2",
+				"Abilities": [
+					"IceSpear2"
+				],
 				"Level": 13,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "FreezeSolid1",
+				"Abilities": [
+					"FreezeSolid1"
+				],
 				"Level": 14,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard1",
+				"Abilities": [
+					"Blizzard1"
+				],
 				"Level": 15,
 				"Races": [
 					"Fae"
@@ -9290,35 +10028,45 @@
 				]
 			},
 			{
-				"Ability": "IceLightning2",
+				"Abilities": [
+					"IceLightning2"
+				],
 				"Level": 16,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes1",
+				"Abilities": [
+					"TundraSpikes1"
+				],
 				"Level": 17,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Frostbite1",
+				"Abilities": [
+					"Frostbite1"
+				],
 				"Level": 18,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceArmor2",
+				"Abilities": [
+					"IceArmor2"
+				],
 				"Level": 19,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Chill1",
+				"Abilities": [
+					"Chill1"
+				],
 				"Level": 1,
 				"Races": [
 					"Fae"
@@ -9337,7 +10085,9 @@
 				"Recipe": "IceMagic1"
 			},
 			{
-				"Ability": "Ice_ColdProtection3",
+				"Abilities": [
+					"Ice_ColdProtection3"
+				],
 				"Level": 20,
 				"Races": [
 					"Fae"
@@ -9355,21 +10105,27 @@
 				]
 			},
 			{
-				"Ability": "IceVeins1",
+				"Abilities": [
+					"IceVeins1"
+				],
 				"Level": 21,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear3",
+				"Abilities": [
+					"IceSpear3"
+				],
 				"Level": 22,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear1",
+				"Abilities": [
+					"IceSpear1"
+				],
 				"Level": 2,
 				"Races": [
 					"Fae"
@@ -9380,14 +10136,18 @@
 				"Level": 23
 			},
 			{
-				"Ability": "FreezeSolid2",
+				"Abilities": [
+					"FreezeSolid2"
+				],
 				"Level": 24,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "CryogenicFreeze1",
+				"Abilities": [
+					"CryogenicFreeze1"
+				],
 				"Level": 25,
 				"Races": [
 					"Fae"
@@ -9405,35 +10165,45 @@
 				]
 			},
 			{
-				"Ability": "Chill2",
+				"Abilities": [
+					"Chill2"
+				],
 				"Level": 26,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceLightning3",
+				"Abilities": [
+					"IceLightning3"
+				],
 				"Level": 27,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard2",
+				"Abilities": [
+					"Blizzard2"
+				],
 				"Level": 28,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes2",
+				"Abilities": [
+					"TundraSpikes2"
+				],
 				"Level": 29,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Ice_ColdProtection4",
+				"Abilities": [
+					"Ice_ColdProtection4"
+				],
 				"Level": 30,
 				"Races": [
 					"Fae"
@@ -9451,35 +10221,45 @@
 				]
 			},
 			{
-				"Ability": "IceArmor3",
+				"Abilities": [
+					"IceArmor3"
+				],
 				"Level": 31,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Frostbite2",
+				"Abilities": [
+					"Frostbite2"
+				],
 				"Level": 32,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear4",
+				"Abilities": [
+					"IceSpear4"
+				],
 				"Level": 33,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "FreezeSolid3",
+				"Abilities": [
+					"FreezeSolid3"
+				],
 				"Level": 34,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard3",
+				"Abilities": [
+					"Blizzard3"
+				],
 				"Level": 35,
 				"Races": [
 					"Fae"
@@ -9497,42 +10277,54 @@
 				]
 			},
 			{
-				"Ability": "IceVeins2",
+				"Abilities": [
+					"IceVeins2"
+				],
 				"Level": 36,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceLightning4",
+				"Abilities": [
+					"IceLightning4"
+				],
 				"Level": 37,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes3",
+				"Abilities": [
+					"TundraSpikes3"
+				],
 				"Level": 38,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceArmor4",
+				"Abilities": [
+					"IceArmor4"
+				],
 				"Level": 39,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Ice_ColdProtection1",
+				"Abilities": [
+					"Ice_ColdProtection1"
+				],
 				"Level": 3,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear5",
+				"Abilities": [
+					"IceSpear5"
+				],
 				"Level": 40,
 				"Races": [
 					"Fae"
@@ -9550,21 +10342,27 @@
 				]
 			},
 			{
-				"Ability": "Ice_ColdProtection5",
+				"Abilities": [
+					"Ice_ColdProtection5"
+				],
 				"Level": 41,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "FreezeSolid4",
+				"Abilities": [
+					"FreezeSolid4"
+				],
 				"Level": 42,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes4",
+				"Abilities": [
+					"TundraSpikes4"
+				],
 				"Level": 45,
 				"Races": [
 					"Fae"
@@ -9582,35 +10380,45 @@
 				]
 			},
 			{
-				"Ability": "Chill3",
+				"Abilities": [
+					"Chill3"
+				],
 				"Level": 46,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceLightning5",
+				"Abilities": [
+					"IceLightning5"
+				],
 				"Level": 47,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard4",
+				"Abilities": [
+					"Blizzard4"
+				],
 				"Level": 48,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Frostbite3",
+				"Abilities": [
+					"Frostbite3"
+				],
 				"Level": 49,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Ice_ColdProtection6",
+				"Abilities": [
+					"Ice_ColdProtection6"
+				],
 				"Level": 50,
 				"Races": [
 					"Fae"
@@ -9628,35 +10436,45 @@
 				]
 			},
 			{
-				"Ability": "IceArmor5",
+				"Abilities": [
+					"IceArmor5"
+				],
 				"Level": 51,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceVeins3",
+				"Abilities": [
+					"IceVeins3"
+				],
 				"Level": 52,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "CryogenicFreeze2",
+				"Abilities": [
+					"CryogenicFreeze2"
+				],
 				"Level": 53,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear6",
+				"Abilities": [
+					"IceSpear6"
+				],
 				"Level": 54,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceLightning6",
+				"Abilities": [
+					"IceLightning6"
+				],
 				"Level": 55,
 				"Races": [
 					"Fae"
@@ -9674,35 +10492,45 @@
 				]
 			},
 			{
-				"Ability": "FreezeSolid5",
+				"Abilities": [
+					"FreezeSolid5"
+				],
 				"Level": 56,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard5",
+				"Abilities": [
+					"Blizzard5"
+				],
 				"Level": 57,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes5",
+				"Abilities": [
+					"TundraSpikes5"
+				],
 				"Level": 58,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceArmor6",
+				"Abilities": [
+					"IceArmor6"
+				],
 				"Level": 59,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceLightning1",
+				"Abilities": [
+					"IceLightning1"
+				],
 				"Level": 5,
 				"Races": [
 					"Fae"
@@ -9720,7 +10548,9 @@
 				]
 			},
 			{
-				"Ability": "Chill4",
+				"Abilities": [
+					"Chill4"
+				],
 				"BonusToSkill": "WeatherWitching",
 				"Level": 60,
 				"Races": [
@@ -9740,35 +10570,45 @@
 				]
 			},
 			{
-				"Ability": "Frostbite4",
+				"Abilities": [
+					"Frostbite4"
+				],
 				"Level": 61,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Ice_ColdProtection7",
+				"Abilities": [
+					"Ice_ColdProtection7"
+				],
 				"Level": 62,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceVeins4",
+				"Abilities": [
+					"IceVeins4"
+				],
 				"Level": 63,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear7",
+				"Abilities": [
+					"IceSpear7"
+				],
 				"Level": 64,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceLightning7",
+				"Abilities": [
+					"IceLightning7"
+				],
 				"Level": 65,
 				"Races": [
 					"Fae"
@@ -9786,35 +10626,45 @@
 				]
 			},
 			{
-				"Ability": "FreezeSolid6",
+				"Abilities": [
+					"FreezeSolid6"
+				],
 				"Level": 66,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard6",
+				"Abilities": [
+					"Blizzard6"
+				],
 				"Level": 67,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes6",
+				"Abilities": [
+					"TundraSpikes6"
+				],
 				"Level": 68,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Frostbite5",
+				"Abilities": [
+					"Frostbite5"
+				],
 				"Level": 69,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceArmor1",
+				"Abilities": [
+					"IceArmor1"
+				],
 				"Level": 6,
 				"Races": [
 					"Fae"
@@ -9825,7 +10675,9 @@
 				"Level": 43
 			},
 			{
-				"Ability": "Ice_ColdProtection8",
+				"Abilities": [
+					"Ice_ColdProtection8"
+				],
 				"Level": 70,
 				"Races": [
 					"Fae"
@@ -9843,35 +10695,45 @@
 				]
 			},
 			{
-				"Ability": "IceArmor7",
+				"Abilities": [
+					"IceArmor7"
+				],
 				"Level": 71,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Chill5",
+				"Abilities": [
+					"Chill5"
+				],
 				"Level": 72,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceVeins5",
+				"Abilities": [
+					"IceVeins5"
+				],
 				"Level": 73,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear8",
+				"Abilities": [
+					"IceSpear8"
+				],
 				"Level": 74,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "CryogenicFreeze3",
+				"Abilities": [
+					"CryogenicFreeze3"
+				],
 				"Level": 75,
 				"Races": [
 					"Fae"
@@ -9889,35 +10751,45 @@
 				]
 			},
 			{
-				"Ability": "IceLightning8",
+				"Abilities": [
+					"IceLightning8"
+				],
 				"Level": 76,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Blizzard7",
+				"Abilities": [
+					"Blizzard7"
+				],
 				"Level": 77,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "TundraSpikes7",
+				"Abilities": [
+					"TundraSpikes7"
+				],
 				"Level": 78,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Frostbite6",
+				"Abilities": [
+					"Frostbite6"
+				],
 				"Level": 79,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Ice_ColdProtection9",
+				"Abilities": [
+					"Ice_ColdProtection9"
+				],
 				"Level": 80,
 				"Races": [
 					"Fae"
@@ -9935,35 +10807,45 @@
 				]
 			},
 			{
-				"Ability": "FreezeSolid7",
+				"Abilities": [
+					"FreezeSolid7"
+				],
 				"Level": 81,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceArmor8",
+				"Abilities": [
+					"IceArmor8"
+				],
 				"Level": 82,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Chill6",
+				"Abilities": [
+					"Chill6"
+				],
 				"Level": 83,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceVeins6",
+				"Abilities": [
+					"IceVeins6"
+				],
 				"Level": 84,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "IceSpear9",
+				"Abilities": [
+					"IceSpear9"
+				],
 				"BonusToSkill": "WeatherWitching",
 				"Level": 85,
 				"Races": [
@@ -10276,36 +11158,52 @@
 		"Name": "Knife Fighting",
 		"Rewards": [
 			{
-				"Ability": "OpeningThrust1",
+				"Abilities": [
+					"OpeningThrust1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "FendingBlade1",
+				"Abilities": [
+					"FendingBlade1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "BlurCut1",
+				"Abilities": [
+					"BlurCut1"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Gut1",
+				"Abilities": [
+					"Gut1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "Venomstrike1",
+				"Abilities": [
+					"Venomstrike1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "MarkingCut1",
+				"Abilities": [
+					"MarkingCut1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "SurgeCut1",
+				"Abilities": [
+					"SurgeCut1"
+				],
 				"BonusToSkill": "Butchering",
 				"Level": 10
 			},
 			{
-				"Ability": "OpeningThrust2",
+				"Abilities": [
+					"OpeningThrust2"
+				],
 				"Level": 11
 			},
 			{
@@ -10313,14 +11211,18 @@
 				"Level": 12
 			},
 			{
-				"Ability": "RangedSlice2",
+				"Abilities": [
+					"RangedSlice2"
+				],
 				"Level": 13,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Slice2",
+				"Abilities": [
+					"Slice2"
+				],
 				"Level": 13,
 				"Races": [
 					"Human",
@@ -10331,14 +11233,18 @@
 				]
 			},
 			{
-				"Ability": "RangedSlice1",
+				"Abilities": [
+					"RangedSlice1"
+				],
 				"Level": 3,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Slice1",
+				"Abilities": [
+					"Slice1"
+				],
 				"Level": 3,
 				"Races": [
 					"Human",
@@ -10349,27 +11255,39 @@
 				]
 			},
 			{
-				"Ability": "BlurCut2",
+				"Abilities": [
+					"BlurCut2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "Gut2",
+				"Abilities": [
+					"Gut2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "FendingBlade2",
+				"Abilities": [
+					"FendingBlade2"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "Venomstrike2",
+				"Abilities": [
+					"Venomstrike2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "SurgeCut2",
+				"Abilities": [
+					"SurgeCut2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "OpeningThrust3",
+				"Abilities": [
+					"OpeningThrust3"
+				],
 				"Level": 21
 			},
 			{
@@ -10377,14 +11295,18 @@
 				"Level": 22
 			},
 			{
-				"Ability": "RangedSlice3",
+				"Abilities": [
+					"RangedSlice3"
+				],
 				"Level": 23,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Slice3",
+				"Abilities": [
+					"Slice3"
+				],
 				"Level": 23,
 				"Races": [
 					"Human",
@@ -10395,42 +11317,60 @@
 				]
 			},
 			{
-				"Ability": "BlurCut3",
+				"Abilities": [
+					"BlurCut3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "Gut3",
+				"Abilities": [
+					"Gut3"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "Venomstrike3",
+				"Abilities": [
+					"Venomstrike3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "MarkingCut2",
+				"Abilities": [
+					"MarkingCut2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "SurgeCut3",
+				"Abilities": [
+					"SurgeCut3"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "OpeningThrust4",
+				"Abilities": [
+					"OpeningThrust4"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "FendingBlade3",
+				"Abilities": [
+					"FendingBlade3"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "RangedSlice4",
+				"Abilities": [
+					"RangedSlice4"
+				],
 				"Level": 33,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Slice4",
+				"Abilities": [
+					"Slice4"
+				],
 				"Level": 33,
 				"Races": [
 					"Human",
@@ -10441,23 +11381,33 @@
 				]
 			},
 			{
-				"Ability": "BlurCut4",
+				"Abilities": [
+					"BlurCut4"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "Gut4",
+				"Abilities": [
+					"Gut4"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Venomstrike4",
+				"Abilities": [
+					"Venomstrike4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "SurgeCut4",
+				"Abilities": [
+					"SurgeCut4"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "OpeningThrust5",
+				"Abilities": [
+					"OpeningThrust5"
+				],
 				"Level": 41
 			},
 			{
@@ -10465,14 +11415,18 @@
 				"Level": 42
 			},
 			{
-				"Ability": "RangedSlice5",
+				"Abilities": [
+					"RangedSlice5"
+				],
 				"Level": 43,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
-				"Ability": "Slice5",
+				"Abilities": [
+					"Slice5"
+				],
 				"Level": 43,
 				"Races": [
 					"Human",
@@ -10483,23 +11437,33 @@
 				]
 			},
 			{
-				"Ability": "BlurCut5",
+				"Abilities": [
+					"BlurCut5"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "Gut5",
+				"Abilities": [
+					"Gut5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "FendingBlade4",
+				"Abilities": [
+					"FendingBlade4"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "Venomstrike5",
+				"Abilities": [
+					"Venomstrike5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "MarkingCut3",
+				"Abilities": [
+					"MarkingCut3"
+				],
 				"Level": 48
 			},
 			{
@@ -10507,7 +11471,9 @@
 				"Level": 49
 			},
 			{
-				"Ability": "SurgeCut5",
+				"Abilities": [
+					"SurgeCut5"
+				],
 				"Level": 50
 			},
 			{
@@ -10980,27 +11946,39 @@
 		"Parents": [],
 		"Rewards": [
 			{
-				"Ability": "HealthWave1",
+				"Abilities": [
+					"HealthWave1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "Mindreave1",
+				"Abilities": [
+					"Mindreave1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "ArmorWave1",
+				"Abilities": [
+					"ArmorWave1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "SystemShock1",
+				"Abilities": [
+					"SystemShock1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "PowerWave1",
+				"Abilities": [
+					"PowerWave1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "Reconstruct1",
+				"Abilities": [
+					"Reconstruct1"
+				],
 				"Level": 13
 			},
 			{
@@ -11008,64 +11986,94 @@
 				"Level": 15
 			},
 			{
-				"Ability": "AdrenalineWave1",
+				"Abilities": [
+					"AdrenalineWave1"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "Mindreave2",
+				"Abilities": [
+					"Mindreave2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "HealthWave2",
+				"Abilities": [
+					"HealthWave2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "Electrify1",
+				"Abilities": [
+					"Electrify1"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "Reconstruct2",
+				"Abilities": [
+					"Reconstruct2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "ArmorWave2",
+				"Abilities": [
+					"ArmorWave2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "PanicCharge1",
+				"Abilities": [
+					"PanicCharge1"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "SystemShock2",
+				"Abilities": [
+					"SystemShock2"
+				],
 				"BonusToSkill": "SpiritFox",
 				"Level": 30
 			},
 			{
-				"Ability": "PowerWave2",
+				"Abilities": [
+					"PowerWave2"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "Mindreave3",
+				"Abilities": [
+					"Mindreave3"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Electrify2",
+				"Abilities": [
+					"Electrify2"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "PanicCharge2",
+				"Abilities": [
+					"PanicCharge2"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "HealthWave3",
+				"Abilities": [
+					"HealthWave3"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "AdrenalineWave2",
+				"Abilities": [
+					"AdrenalineWave2"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "Reconstruct3",
+				"Abilities": [
+					"Reconstruct3"
+				],
 				"Level": 43
 			},
 			{
@@ -11073,23 +12081,33 @@
 				"Level": 44
 			},
 			{
-				"Ability": "ArmorWave3",
+				"Abilities": [
+					"ArmorWave3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "SystemShock3",
+				"Abilities": [
+					"SystemShock3"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "PanicCharge3",
+				"Abilities": [
+					"PanicCharge3"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "PowerWave3",
+				"Abilities": [
+					"PowerWave3"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "Mindreave4",
+				"Abilities": [
+					"Mindreave4"
+				],
 				"Level": 50
 			},
 			{
@@ -11597,44 +12615,64 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "DeathsHold1",
+				"Abilities": [
+					"DeathsHold1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "RaiseSkeletonArcher",
+				"Abilities": [
+					"RaiseSkeletonArcher"
+				],
 				"Level": 2,
 				"Recipe": "NecromancyDust"
 			},
 			{
-				"Ability": "ProvokeUndead1",
+				"Abilities": [
+					"ProvokeUndead1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "LifeCrush",
+				"Abilities": [
+					"LifeCrush"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "SparkOfDeath",
+				"Abilities": [
+					"SparkOfDeath"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "HealUndead",
+				"Abilities": [
+					"HealUndead"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "RaiseSkeletonSwordsman",
+				"Abilities": [
+					"RaiseSkeletonSwordsman"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "LifeSteal",
+				"Abilities": [
+					"LifeSteal"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "RebuildUndead",
+				"Abilities": [
+					"RebuildUndead"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "CreateZombie",
+				"Abilities": [
+					"CreateZombie"
+				],
 				"Level": 10
 			},
 			{
@@ -11642,162 +12680,240 @@
 				"Level": 11
 			},
 			{
-				"Ability": "RaiseSkeletonMage",
+				"Abilities": [
+					"RaiseSkeletonMage"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "Deathgaze",
+				"Abilities": [
+					"Deathgaze"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "SparkOfDeath2",
+				"Abilities": [
+					"SparkOfDeath2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "DeathsHold2",
+				"Abilities": [
+					"DeathsHold2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "HealUndead2",
+				"Abilities": [
+					"HealUndead2"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "LifeCrush2",
+				"Abilities": [
+					"LifeCrush2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "RaiseSkeletonArcher2",
+				"Abilities": [
+					"RaiseSkeletonArcher2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "RebuildUndead2",
+				"Abilities": [
+					"RebuildUndead2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "CreateZombie2",
+				"Abilities": [
+					"CreateZombie2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "ProvokeUndead2",
+				"Abilities": [
+					"ProvokeUndead2"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "RaiseSkeletonSwordsman2",
+				"Abilities": [
+					"RaiseSkeletonSwordsman2"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "LifeSteal2",
+				"Abilities": [
+					"LifeSteal2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "LifeCrush3",
+				"Abilities": [
+					"LifeCrush3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "Deathgaze2",
+				"Abilities": [
+					"Deathgaze2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "HealUndead3",
+				"Abilities": [
+					"HealUndead3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "SparkOfDeath3",
+				"Abilities": [
+					"SparkOfDeath3"
+				],
 				"BonusToSkill": "GiantBat",
 				"Level": 27
 			},
 			{
-				"Ability": "RaiseSkeletonMage2",
+				"Abilities": [
+					"RaiseSkeletonMage2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "RebuildUndead3",
+				"Abilities": [
+					"RebuildUndead3"
+				],
 				"Level": 29
 			},
 			{
-				"Ability": "CreateZombie3",
+				"Abilities": [
+					"CreateZombie3"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "ProvokeUndead3",
+				"Abilities": [
+					"ProvokeUndead3"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "RaiseSkeletonArcher3",
+				"Abilities": [
+					"RaiseSkeletonArcher3"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "DeathsHold3",
+				"Abilities": [
+					"DeathsHold3"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "Deathgaze3",
+				"Abilities": [
+					"Deathgaze3"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "LifeSteal3",
+				"Abilities": [
+					"LifeSteal3"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "HealUndead4",
+				"Abilities": [
+					"HealUndead4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "SparkOfDeath4",
+				"Abilities": [
+					"SparkOfDeath4"
+				],
 				"BonusToSkill": "Dying",
 				"Level": 37
 			},
 			{
-				"Ability": "RaiseSkeletonSwordsman3",
+				"Abilities": [
+					"RaiseSkeletonSwordsman3"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "RebuildUndead4",
+				"Abilities": [
+					"RebuildUndead4"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "CreateZombie4",
+				"Abilities": [
+					"CreateZombie4"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "Deathgaze4",
+				"Abilities": [
+					"Deathgaze4"
+				],
 				"Level": 41
 			},
 			{
-				"Ability": "RaiseSkeletonMage3",
+				"Abilities": [
+					"RaiseSkeletonMage3"
+				],
 				"Level": 42
 			},
 			{
-				"Ability": "DeathsHold4",
+				"Abilities": [
+					"DeathsHold4"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "ProvokeUndead4",
+				"Abilities": [
+					"ProvokeUndead4"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "LifeCrush4",
+				"Abilities": [
+					"LifeCrush4"
+				],
 				"BonusToSkill": "GiantBat",
 				"Level": 45
 			},
 			{
-				"Ability": "HealUndead5",
+				"Abilities": [
+					"HealUndead5"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "RaiseSkeletonArcher4",
+				"Abilities": [
+					"RaiseSkeletonArcher4"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "RebuildUndead5",
+				"Abilities": [
+					"RebuildUndead5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "RaiseSkeletonSwordsman4",
+				"Abilities": [
+					"RaiseSkeletonSwordsman4"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "CreateZombie5",
+				"Abilities": [
+					"CreateZombie5"
+				],
 				"Level": 50
 			},
 			{
@@ -12043,7 +13159,9 @@
 				"Level": 24
 			},
 			{
-				"Ability": "StudySkeleton",
+				"Abilities": [
+					"StudySkeleton"
+				],
 				"Level": 25
 			},
 			{
@@ -12326,24 +13444,34 @@
 		],
 		"Rewards": [
 			{
-				"Ability": "Dance1",
+				"Abilities": [
+					"Dance1"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 1
 			},
 			{
-				"Ability": "Dance2",
+				"Abilities": [
+					"Dance2"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "Dance3",
+				"Abilities": [
+					"Dance3"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Dance4",
+				"Abilities": [
+					"Dance4"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Dance5",
+				"Abilities": [
+					"Dance5"
+				],
 				"Level": 8
 			},
 			{
@@ -12351,7 +13479,9 @@
 				"Level": 9
 			},
 			{
-				"Ability": "Dance6",
+				"Abilities": [
+					"Dance6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 10
 			},
@@ -12432,41 +13562,59 @@
 		],
 		"Rewards": [
 			{
-				"Ability": "Drum1",
+				"Abilities": [
+					"Drum1"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 1
 			},
 			{
-				"Ability": "Drum2",
+				"Abilities": [
+					"Drum2"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "Drum3",
+				"Abilities": [
+					"Drum3"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Drum4",
+				"Abilities": [
+					"Drum4"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Drum5",
+				"Abilities": [
+					"Drum5"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "Drum6",
+				"Abilities": [
+					"Drum6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 10
 			},
 			{
-				"Ability": "Dulcimer1",
+				"Abilities": [
+					"Dulcimer1"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "Dulcimer2",
+				"Abilities": [
+					"Dulcimer2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "Dulcimer3",
+				"Abilities": [
+					"Dulcimer3"
+				],
 				"Level": 14
 			},
 			{
@@ -12474,40 +13622,58 @@
 				"Level": 15
 			},
 			{
-				"Ability": "Dulcimer4",
+				"Abilities": [
+					"Dulcimer4"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "Dulcimer5",
+				"Abilities": [
+					"Dulcimer5"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Dulcimer6",
+				"Abilities": [
+					"Dulcimer6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 20
 			},
 			{
-				"Ability": "FairyChime1",
+				"Abilities": [
+					"FairyChime1"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "FairyChime2",
+				"Abilities": [
+					"FairyChime2"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "FairyChime3",
+				"Abilities": [
+					"FairyChime3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "FairyChime4",
+				"Abilities": [
+					"FairyChime4"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "FairyChime5",
+				"Abilities": [
+					"FairyChime5"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "FairyChime6",
+				"Abilities": [
+					"FairyChime6"
+				],
 				"Level": 30
 			}
 		],
@@ -12547,41 +13713,59 @@
 		],
 		"Rewards": [
 			{
-				"Ability": "Lute1",
+				"Abilities": [
+					"Lute1"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 1
 			},
 			{
-				"Ability": "Lute2",
+				"Abilities": [
+					"Lute2"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "Lute3",
+				"Abilities": [
+					"Lute3"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Lute4",
+				"Abilities": [
+					"Lute4"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Lute5",
+				"Abilities": [
+					"Lute5"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "Lute6",
+				"Abilities": [
+					"Lute6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 10
 			},
 			{
-				"Ability": "Harp1",
+				"Abilities": [
+					"Harp1"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "Harp2",
+				"Abilities": [
+					"Harp2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "Harp3",
+				"Abilities": [
+					"Harp3"
+				],
 				"Level": 14
 			},
 			{
@@ -12589,15 +13773,21 @@
 				"Level": 15
 			},
 			{
-				"Ability": "Harp4",
+				"Abilities": [
+					"Harp4"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "Harp5",
+				"Abilities": [
+					"Harp5"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Harp6",
+				"Abilities": [
+					"Harp6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 20
 			}
@@ -12638,41 +13828,59 @@
 		],
 		"Rewards": [
 			{
-				"Ability": "Ocarina1",
+				"Abilities": [
+					"Ocarina1"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 1
 			},
 			{
-				"Ability": "Ocarina2",
+				"Abilities": [
+					"Ocarina2"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "Ocarina3",
+				"Abilities": [
+					"Ocarina3"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "Ocarina4",
+				"Abilities": [
+					"Ocarina4"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Ocarina5",
+				"Abilities": [
+					"Ocarina5"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "Ocarina6",
+				"Abilities": [
+					"Ocarina6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 10
 			},
 			{
-				"Ability": "Tuba1",
+				"Abilities": [
+					"Tuba1"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "Tuba2",
+				"Abilities": [
+					"Tuba2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "Tuba3",
+				"Abilities": [
+					"Tuba3"
+				],
 				"Level": 14
 			},
 			{
@@ -12680,15 +13888,21 @@
 				"Level": 15
 			},
 			{
-				"Ability": "Tuba4",
+				"Abilities": [
+					"Tuba4"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "Tuba5",
+				"Abilities": [
+					"Tuba5"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Tuba6",
+				"Abilities": [
+					"Tuba6"
+				],
 				"BonusToSkill": "Performance",
 				"Level": 20
 			}
@@ -13603,75 +14817,111 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "PigBite1",
+				"Abilities": [
+					"PigBite1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "PigRend1",
+				"Abilities": [
+					"PigRend1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "TruffleSniff1",
+				"Abilities": [
+					"TruffleSniff1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "PigChomp1",
+				"Abilities": [
+					"PigChomp1"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Mudbath1",
+				"Abilities": [
+					"Mudbath1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "GruntOfAbeyance1",
+				"Abilities": [
+					"GruntOfAbeyance1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "PigBite2",
+				"Abilities": [
+					"PigBite2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "PigFrenzy1",
+				"Abilities": [
+					"PigFrenzy1"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "PigPunt1",
+				"Abilities": [
+					"PigPunt1"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "PigDash1",
+				"Abilities": [
+					"PigDash1"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "TruffleSniff2",
+				"Abilities": [
+					"TruffleSniff2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "GruntOfAbeyance2",
+				"Abilities": [
+					"GruntOfAbeyance2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "PigChomp2",
+				"Abilities": [
+					"PigChomp2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "PigBite3",
+				"Abilities": [
+					"PigBite3"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "Squeal1",
+				"Abilities": [
+					"Squeal1"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "PigFrenzy2",
+				"Abilities": [
+					"PigFrenzy2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "PigRend2",
+				"Abilities": [
+					"PigRend2"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "TruffleSniff3",
+				"Abilities": [
+					"TruffleSniff3"
+				],
 				"Level": 25
 			},
 			{
@@ -13679,15 +14929,21 @@
 				"Level": 26
 			},
 			{
-				"Ability": "Mudbath2",
+				"Abilities": [
+					"Mudbath2"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "GruntOfAbeyance3",
+				"Abilities": [
+					"GruntOfAbeyance3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "PigBite4",
+				"Abilities": [
+					"PigBite4"
+				],
 				"Level": 30
 			},
 			{
@@ -13695,15 +14951,21 @@
 				"Level": 31
 			},
 			{
-				"Ability": "PigPunt2",
+				"Abilities": [
+					"PigPunt2"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "PigFrenzy3",
+				"Abilities": [
+					"PigFrenzy3"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "TruffleSniff4",
+				"Abilities": [
+					"TruffleSniff4"
+				],
 				"Level": 35
 			},
 			{
@@ -13711,19 +14973,27 @@
 				"Level": 36
 			},
 			{
-				"Ability": "PigDash2",
+				"Abilities": [
+					"PigDash2"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "GruntOfAbeyance4",
+				"Abilities": [
+					"GruntOfAbeyance4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "Squeal2",
+				"Abilities": [
+					"Squeal2"
+				],
 				"Level": 39
 			},
 			{
-				"Ability": "PigBite5",
+				"Abilities": [
+					"PigBite5"
+				],
 				"Level": 40
 			},
 			{
@@ -13731,32 +15001,46 @@
 				"Level": 42
 			},
 			{
-				"Ability": "Mudbath3",
+				"Abilities": [
+					"Mudbath3"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "PigFrenzy4",
+				"Abilities": [
+					"PigFrenzy4"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "TruffleSniff5",
+				"Abilities": [
+					"TruffleSniff5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "PigChomp3",
+				"Abilities": [
+					"PigChomp3"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "PigPunt3",
+				"Abilities": [
+					"PigPunt3"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "GruntOfAbeyance5",
+				"Abilities": [
+					"GruntOfAbeyance5"
+				],
 				"BonusToSkill": "Druid",
 				"Level": 48
 			},
 			{
-				"Ability": "PigBite6",
+				"Abilities": [
+					"PigBite6"
+				],
 				"Level": 50
 			},
 			{
@@ -13881,161 +15165,239 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "Admonish1",
+				"Abilities": [
+					"Admonish1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "CorruptHate1",
+				"Abilities": [
+					"CorruptHate1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "Castigate1",
+				"Abilities": [
+					"Castigate1"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "MendFlesh1",
+				"Abilities": [
+					"MendFlesh1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "RighteousFlame1",
+				"Abilities": [
+					"RighteousFlame1"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Exhilarate1",
+				"Abilities": [
+					"Exhilarate1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "Remedy1",
+				"Abilities": [
+					"Remedy1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "Triage1",
+				"Abilities": [
+					"Triage1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "Admonish2",
+				"Abilities": [
+					"Admonish2"
+				],
 				"Level": 11
 			},
 			{
-				"Ability": "CorruptHate2",
+				"Abilities": [
+					"CorruptHate2"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "Castigate2",
+				"Abilities": [
+					"Castigate2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "MendFlesh2",
+				"Abilities": [
+					"MendFlesh2"
+				],
 				"BonusToSkill": "FirstAid",
 				"Level": 15
 			},
 			{
-				"Ability": "RighteousFlame2",
+				"Abilities": [
+					"RighteousFlame2"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "Remedy2",
+				"Abilities": [
+					"Remedy2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Triage2",
+				"Abilities": [
+					"Triage2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "Admonish3",
+				"Abilities": [
+					"Admonish3"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "CorruptHate3",
+				"Abilities": [
+					"CorruptHate3"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "Exhilarate2",
+				"Abilities": [
+					"Exhilarate2"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "Castigate3",
+				"Abilities": [
+					"Castigate3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "MendFlesh3",
+				"Abilities": [
+					"MendFlesh3"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "RighteousFlame3",
+				"Abilities": [
+					"RighteousFlame3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "Unfetter1",
+				"Abilities": [
+					"Unfetter1"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "Remedy3",
+				"Abilities": [
+					"Remedy3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "Triage3",
+				"Abilities": [
+					"Triage3"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "Admonish4",
+				"Abilities": [
+					"Admonish4"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "Castigate4",
+				"Abilities": [
+					"Castigate4"
+				],
 				"Level": 32
 			},
 			{
-				"Ability": "CorruptHate4",
+				"Abilities": [
+					"CorruptHate4"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "MendFlesh4",
+				"Abilities": [
+					"MendFlesh4"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "RighteousFlame4",
+				"Abilities": [
+					"RighteousFlame4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "Exhilarate3",
+				"Abilities": [
+					"Exhilarate3"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "Remedy4",
+				"Abilities": [
+					"Remedy4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "Triage4",
+				"Abilities": [
+					"Triage4"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "Admonish5",
+				"Abilities": [
+					"Admonish5"
+				],
 				"Level": 41
 			},
 			{
-				"Ability": "CorruptHate5",
+				"Abilities": [
+					"CorruptHate5"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "MendFlesh5",
+				"Abilities": [
+					"MendFlesh5"
+				],
 				"BonusToSkill": "FirstAid",
 				"Level": 45
 			},
 			{
-				"Ability": "RighteousFlame5",
+				"Abilities": [
+					"RighteousFlame5"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "Castigate5",
+				"Abilities": [
+					"Castigate5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "Remedy5",
+				"Abilities": [
+					"Remedy5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "Triage5",
+				"Abilities": [
+					"Triage5"
+				],
 				"Level": 50
 			}
 		],
@@ -14141,39 +15503,57 @@
 		"Parents": [],
 		"Rewards": [
 			{
-				"Ability": "Psychoanalyze1",
+				"Abilities": [
+					"Psychoanalyze1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "TellMeAboutYourMother1",
+				"Abilities": [
+					"TellMeAboutYourMother1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "StrikeANerve1",
+				"Abilities": [
+					"StrikeANerve1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "CauseTerror1",
+				"Abilities": [
+					"CauseTerror1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "Soothe1",
+				"Abilities": [
+					"Soothe1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "PepTalk1",
+				"Abilities": [
+					"PepTalk1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "Ridicule1",
+				"Abilities": [
+					"Ridicule1"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "FastTalk1",
+				"Abilities": [
+					"FastTalk1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "Psychoanalyze2",
+				"Abilities": [
+					"Psychoanalyze2"
+				],
 				"Level": 16
 			},
 			{
@@ -14181,7 +15561,9 @@
 				"Level": 17
 			},
 			{
-				"Ability": "PositiveAttitude1",
+				"Abilities": [
+					"PositiveAttitude1"
+				],
 				"Level": 18
 			},
 			{
@@ -14189,7 +15571,9 @@
 				"Level": 19
 			},
 			{
-				"Ability": "TellMeAboutYourMother2",
+				"Abilities": [
+					"TellMeAboutYourMother2"
+				],
 				"Level": 20
 			},
 			{
@@ -14197,11 +15581,15 @@
 				"Level": 22
 			},
 			{
-				"Ability": "InspireConfidence1",
+				"Abilities": [
+					"InspireConfidence1"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "StrikeANerve2",
+				"Abilities": [
+					"StrikeANerve2"
+				],
 				"Level": 25
 			},
 			{
@@ -14209,19 +15597,27 @@
 				"Level": 27
 			},
 			{
-				"Ability": "Soothe2",
+				"Abilities": [
+					"Soothe2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "CauseTerror2",
+				"Abilities": [
+					"CauseTerror2"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "Psychoanalyze3",
+				"Abilities": [
+					"Psychoanalyze3"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "PositiveAttitude2",
+				"Abilities": [
+					"PositiveAttitude2"
+				],
 				"Level": 33
 			},
 			{
@@ -14229,19 +15625,27 @@
 				"Level": 34
 			},
 			{
-				"Ability": "PepTalk2",
+				"Abilities": [
+					"PepTalk2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Ridicule2",
+				"Abilities": [
+					"Ridicule2"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "StrikeANerve3",
+				"Abilities": [
+					"StrikeANerve3"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "TellMeAboutYourMother3",
+				"Abilities": [
+					"TellMeAboutYourMother3"
+				],
 				"Level": 40
 			},
 			{
@@ -14249,11 +15653,15 @@
 				"Level": 41
 			},
 			{
-				"Ability": "InspireConfidence2",
+				"Abilities": [
+					"InspireConfidence2"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "PepTalk3",
+				"Abilities": [
+					"PepTalk3"
+				],
 				"Level": 45
 			},
 			{
@@ -14261,15 +15669,21 @@
 				"Level": 46
 			},
 			{
-				"Ability": "Psychoanalyze4",
+				"Abilities": [
+					"Psychoanalyze4"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "Soothe3",
+				"Abilities": [
+					"Soothe3"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "StrikeANerve4",
+				"Abilities": [
+					"StrikeANerve4"
+				],
 				"Level": 50
 			},
 			{
@@ -14277,7 +15691,9 @@
 				"Level": 51
 			},
 			{
-				"Ability": "Ridicule3",
+				"Abilities": [
+					"Ridicule3"
+				],
 				"Level": 52
 			},
 			{
@@ -14374,71 +15790,105 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "RabbitScratch1",
+				"Abilities": [
+					"RabbitScratch1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "Thump1",
+				"Abilities": [
+					"Thump1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "BunFuKick1",
+				"Abilities": [
+					"BunFuKick1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "RabbitsFoot1",
+				"Abilities": [
+					"RabbitsFoot1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "HareDash1",
+				"Abilities": [
+					"HareDash1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "PlayDead1",
+				"Abilities": [
+					"PlayDead1"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "RabbitScratch2",
+				"Abilities": [
+					"RabbitScratch2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "BunFuKick2",
+				"Abilities": [
+					"BunFuKick2"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "Thump2",
+				"Abilities": [
+					"Thump2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "HareDash2",
+				"Abilities": [
+					"HareDash2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "PlayDead2",
+				"Abilities": [
+					"PlayDead2"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "RabbitScratch3",
+				"Abilities": [
+					"RabbitScratch3"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "RabbitsFoot2",
+				"Abilities": [
+					"RabbitsFoot2"
+				],
 				"Level": 21
 			},
 			{
-				"Ability": "Thump3",
+				"Abilities": [
+					"Thump3"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "HareDash3",
+				"Abilities": [
+					"HareDash3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "BunFuKick3",
+				"Abilities": [
+					"BunFuKick3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "RabbitScratch4",
+				"Abilities": [
+					"RabbitScratch4"
+				],
 				"Level": 30
 			},
 			{
@@ -14446,23 +15896,33 @@
 				"Level": 32
 			},
 			{
-				"Ability": "PlayDead3",
+				"Abilities": [
+					"PlayDead3"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "RabbitsFoot3",
+				"Abilities": [
+					"RabbitsFoot3"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Thump4",
+				"Abilities": [
+					"Thump4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "HareDash4",
+				"Abilities": [
+					"HareDash4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "RabbitScratch5",
+				"Abilities": [
+					"RabbitScratch5"
+				],
 				"Level": 40
 			},
 			{
@@ -14470,27 +15930,39 @@
 				"Level": 42
 			},
 			{
-				"Ability": "BunFuKick4",
+				"Abilities": [
+					"BunFuKick4"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "Thump5",
+				"Abilities": [
+					"Thump5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "HareDash5",
+				"Abilities": [
+					"HareDash5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "PlayDead4",
+				"Abilities": [
+					"PlayDead4"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "RabbitsFoot4",
+				"Abilities": [
+					"RabbitsFoot4"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "RabbitScratch6",
+				"Abilities": [
+					"RabbitScratch6"
+				],
 				"Level": 50
 			}
 		],
@@ -14571,7 +16043,9 @@
 				"Recipe": "IceSkinningKnife1"
 			},
 			{
-				"Ability": "FreeFlutter1",
+				"Abilities": [
+					"FreeFlutter1"
+				],
 				"Level": 15
 			},
 			{
@@ -14663,7 +16137,9 @@
 				"Recipe": "FaeFirstAidKit7"
 			},
 			{
-				"Ability": "FreeFlutter2",
+				"Abilities": [
+					"FreeFlutter2"
+				],
 				"Level": 45
 			},
 			{
@@ -14671,7 +16147,9 @@
 				"Recipe": "StoragePortal3"
 			},
 			{
-				"Ability": "FreeFlutter3",
+				"Abilities": [
+					"FreeFlutter3"
+				],
 				"Level": 50
 			}
 		],
@@ -14808,23 +16286,33 @@
 		"Parents": [],
 		"Rewards": [
 			{
-				"Ability": "Lope1",
+				"Abilities": [
+					"Lope1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "CalmHorse1",
+				"Abilities": [
+					"CalmHorse1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "Coax1",
+				"Abilities": [
+					"Coax1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "Canter1",
+				"Abilities": [
+					"Canter1"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "SootheHorse1",
+				"Abilities": [
+					"SootheHorse1"
+				],
 				"Level": 50
 			},
 			{
@@ -15247,55 +16735,81 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "StunningBash1",
+				"Abilities": [
+					"StunningBash1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "DisruptingBash1",
+				"Abilities": [
+					"DisruptingBash1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "QuickBash1",
+				"Abilities": [
+					"QuickBash1"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "EmergencyBash1",
+				"Abilities": [
+					"EmergencyBash1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "TakeTheLead1",
+				"Abilities": [
+					"TakeTheLead1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "Reinforce1",
+				"Abilities": [
+					"Reinforce1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "StunningBash2",
+				"Abilities": [
+					"StunningBash2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "StrategicPreparation1",
+				"Abilities": [
+					"StrategicPreparation1"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "QuickBash2",
+				"Abilities": [
+					"QuickBash2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "FinishIt1",
+				"Abilities": [
+					"FinishIt1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "DisruptingBash2",
+				"Abilities": [
+					"DisruptingBash2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "EmergencyBash2",
+				"Abilities": [
+					"EmergencyBash2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "Reinforce2",
+				"Abilities": [
+					"Reinforce2"
+				],
 				"Level": 20
 			},
 			{
@@ -15303,59 +16817,87 @@
 				"Level": 21
 			},
 			{
-				"Ability": "StunningBash3",
+				"Abilities": [
+					"StunningBash3"
+				],
 				"Level": 22
 			},
 			{
-				"Ability": "QuickBash3",
+				"Abilities": [
+					"QuickBash3"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "FinishIt2",
+				"Abilities": [
+					"FinishIt2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "EmergencyBash3",
+				"Abilities": [
+					"EmergencyBash3"
+				],
 				"Level": 26
 			},
 			{
-				"Ability": "DisruptingBash3",
+				"Abilities": [
+					"DisruptingBash3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "TakeTheLead2",
+				"Abilities": [
+					"TakeTheLead2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "Reinforce3",
+				"Abilities": [
+					"Reinforce3"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "StunningBash4",
+				"Abilities": [
+					"StunningBash4"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "StrategicPreparation2",
+				"Abilities": [
+					"StrategicPreparation2"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "QuickBash4",
+				"Abilities": [
+					"QuickBash4"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "DisruptingBash4",
+				"Abilities": [
+					"DisruptingBash4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "EmergencyBash4",
+				"Abilities": [
+					"EmergencyBash4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "FinishIt3",
+				"Abilities": [
+					"FinishIt3"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "Reinforce4",
+				"Abilities": [
+					"Reinforce4"
+				],
 				"Level": 40
 			},
 			{
@@ -15363,35 +16905,51 @@
 				"Level": 41
 			},
 			{
-				"Ability": "TakeTheLead3",
+				"Abilities": [
+					"TakeTheLead3"
+				],
 				"Level": 42
 			},
 			{
-				"Ability": "StunningBash5",
+				"Abilities": [
+					"StunningBash5"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "FinishIt4",
+				"Abilities": [
+					"FinishIt4"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "StrategicPreparation3",
+				"Abilities": [
+					"StrategicPreparation3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "QuickBash5",
+				"Abilities": [
+					"QuickBash5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "DisruptingBash5",
+				"Abilities": [
+					"DisruptingBash5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "EmergencyBash5",
+				"Abilities": [
+					"EmergencyBash5"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "Reinforce5",
+				"Abilities": [
+					"Reinforce5"
+				],
 				"Level": 50
 			}
 		],
@@ -15653,43 +17211,63 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "PlayerSpiderBite1",
+				"Abilities": [
+					"PlayerSpiderBite1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "InjectVenom1",
+				"Abilities": [
+					"InjectVenom1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "InfiniteLegs1",
+				"Abilities": [
+					"InfiniteLegs1"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "Gripjaw1",
+				"Abilities": [
+					"Gripjaw1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "PlayerSpiderBite2",
+				"Abilities": [
+					"PlayerSpiderBite2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "WebTrap1",
+				"Abilities": [
+					"WebTrap1"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "SpiderGrapple1",
+				"Abilities": [
+					"SpiderGrapple1"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "InfiniteLegs2",
+				"Abilities": [
+					"InfiniteLegs2"
+				],
 				"Level": 16
 			},
 			{
-				"Ability": "PremeditatedDoom1",
+				"Abilities": [
+					"PremeditatedDoom1"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "PlayerSpiderBite3",
+				"Abilities": [
+					"PlayerSpiderBite3"
+				],
 				"Level": 20
 			},
 			{
@@ -15697,15 +17275,21 @@
 				"Level": 22
 			},
 			{
-				"Ability": "SpiderFear1",
+				"Abilities": [
+					"SpiderFear1"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "Gripjaw2",
+				"Abilities": [
+					"Gripjaw2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "InfiniteLegs3",
+				"Abilities": [
+					"InfiniteLegs3"
+				],
 				"Level": 26
 			},
 			{
@@ -15713,11 +17297,15 @@
 				"Level": 27
 			},
 			{
-				"Ability": "InjectVenom2",
+				"Abilities": [
+					"InjectVenom2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "PlayerSpiderBite4",
+				"Abilities": [
+					"PlayerSpiderBite4"
+				],
 				"Level": 30
 			},
 			{
@@ -15725,23 +17313,33 @@
 				"Level": 32
 			},
 			{
-				"Ability": "PremeditatedDoom2",
+				"Abilities": [
+					"PremeditatedDoom2"
+				],
 				"Level": 34
 			},
 			{
-				"Ability": "SpiderGrapple2",
+				"Abilities": [
+					"SpiderGrapple2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "InfiniteLegs4",
+				"Abilities": [
+					"InfiniteLegs4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "SpiderFear2",
+				"Abilities": [
+					"SpiderFear2"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "PlayerSpiderBite5",
+				"Abilities": [
+					"PlayerSpiderBite5"
+				],
 				"Level": 40
 			},
 			{
@@ -15749,31 +17347,45 @@
 				"Level": 41
 			},
 			{
-				"Ability": "InjectVenom3",
+				"Abilities": [
+					"InjectVenom3"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "SpiderGrapple3",
+				"Abilities": [
+					"SpiderGrapple3"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "Gripjaw3",
+				"Abilities": [
+					"Gripjaw3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "InfiniteLegs5",
+				"Abilities": [
+					"InfiniteLegs5"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "PremeditatedDoom3",
+				"Abilities": [
+					"PremeditatedDoom3"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "SpiderFear3",
+				"Abilities": [
+					"SpiderFear3"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "PlayerSpiderBite6",
+				"Abilities": [
+					"PlayerSpiderBite6"
+				],
 				"Level": 50
 			}
 		],
@@ -15847,75 +17459,111 @@
 		"Name": "Spirit Fox",
 		"Rewards": [
 			{
-				"Ability": "FoxNip1",
+				"Abilities": [
+					"FoxNip1"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "SoulBite1",
+				"Abilities": [
+					"SoulBite1"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "DimensionalSnare1",
+				"Abilities": [
+					"DimensionalSnare1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "PowerGlyph1",
+				"Abilities": [
+					"PowerGlyph1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "SpiritPounce1",
+				"Abilities": [
+					"SpiritPounce1"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "BlurStep1",
+				"Abilities": [
+					"BlurStep1"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "FoxNip2",
+				"Abilities": [
+					"FoxNip2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "DimensionalSnare2",
+				"Abilities": [
+					"DimensionalSnare2"
+				],
 				"Level": 13
 			},
 			{
-				"Ability": "SoulBite2",
+				"Abilities": [
+					"SoulBite2"
+				],
 				"Level": 14
 			},
 			{
-				"Ability": "PowerGlyph2",
+				"Abilities": [
+					"PowerGlyph2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "SpiritPounce2",
+				"Abilities": [
+					"SpiritPounce2"
+				],
 				"Level": 17
 			},
 			{
-				"Ability": "BlurStep2",
+				"Abilities": [
+					"BlurStep2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "FoxNip3",
+				"Abilities": [
+					"FoxNip3"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "DimensionalSnare3",
+				"Abilities": [
+					"DimensionalSnare3"
+				],
 				"Level": 23
 			},
 			{
-				"Ability": "PowerGlyph3",
+				"Abilities": [
+					"PowerGlyph3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "SoulBite3",
+				"Abilities": [
+					"SoulBite3"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "SpiritPounce3",
+				"Abilities": [
+					"SpiritPounce3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "BlurStep3",
+				"Abilities": [
+					"BlurStep3"
+				],
 				"Level": 28
 			},
 			{
@@ -15923,55 +17571,81 @@
 				"Level": 29
 			},
 			{
-				"Ability": "FoxNip4",
+				"Abilities": [
+					"FoxNip4"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "DimensionalSnare4",
+				"Abilities": [
+					"DimensionalSnare4"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "PowerGlyph4",
+				"Abilities": [
+					"PowerGlyph4"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "SoulBite4",
+				"Abilities": [
+					"SoulBite4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "SpiritPounce4",
+				"Abilities": [
+					"SpiritPounce4"
+				],
 				"Level": 37
 			},
 			{
-				"Ability": "BlurStep4",
+				"Abilities": [
+					"BlurStep4"
+				],
 				"Level": 38
 			},
 			{
-				"Ability": "FoxNip5",
+				"Abilities": [
+					"FoxNip5"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "DimensionalSnare5",
+				"Abilities": [
+					"DimensionalSnare5"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "PowerGlyph5",
+				"Abilities": [
+					"PowerGlyph5"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "SoulBite5",
+				"Abilities": [
+					"SoulBite5"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "SpiritPounce5",
+				"Abilities": [
+					"SpiritPounce5"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "BlurStep5",
+				"Abilities": [
+					"BlurStep5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "FoxNip6",
+				"Abilities": [
+					"FoxNip6"
+				],
 				"Level": 50
 			}
 		],
@@ -16044,31 +17718,45 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "StaffSmash",
+				"Abilities": [
+					"StaffSmash"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "StaffDoubleHit",
+				"Abilities": [
+					"StaffDoubleHit"
+				],
 				"Level": 4
 			},
 			{
-				"Ability": "StaffLunge",
+				"Abilities": [
+					"StaffLunge"
+				],
 				"Level": 6
 			},
 			{
-				"Ability": "StrategicThrust",
+				"Abilities": [
+					"StrategicThrust"
+				],
 				"Level": 8
 			},
 			{
-				"Ability": "DeflectiveSpin",
+				"Abilities": [
+					"DeflectiveSpin"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "BlockingStance",
+				"Abilities": [
+					"BlockingStance"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "SafeFall",
+				"Abilities": [
+					"SafeFall"
+				],
 				"Level": 18
 			},
 			{
@@ -16076,23 +17764,33 @@
 				"Level": 19
 			},
 			{
-				"Ability": "StaffSmash2",
+				"Abilities": [
+					"StaffSmash2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "StaffDoubleHit2",
+				"Abilities": [
+					"StaffDoubleHit2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "StrategicThrust2",
+				"Abilities": [
+					"StrategicThrust2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "Redirect",
+				"Abilities": [
+					"Redirect"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "SafeFall2",
+				"Abilities": [
+					"SafeFall2"
+				],
 				"Level": 31
 			},
 			{
@@ -16100,15 +17798,21 @@
 				"Level": 32
 			},
 			{
-				"Ability": "StaffLunge2",
+				"Abilities": [
+					"StaffLunge2"
+				],
 				"Level": 33
 			},
 			{
-				"Ability": "DeflectiveSpin2",
+				"Abilities": [
+					"DeflectiveSpin2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "BlockingStance2",
+				"Abilities": [
+					"BlockingStance2"
+				],
 				"Level": 37
 			},
 			{
@@ -16116,19 +17820,27 @@
 				"Level": 39
 			},
 			{
-				"Ability": "StaffSmash3",
+				"Abilities": [
+					"StaffSmash3"
+				],
 				"Level": 43
 			},
 			{
-				"Ability": "SafeFall3",
+				"Abilities": [
+					"SafeFall3"
+				],
 				"Level": 44
 			},
 			{
-				"Ability": "StaffDoubleHit3",
+				"Abilities": [
+					"StaffDoubleHit3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "Redirect2",
+				"Abilities": [
+					"Redirect2"
+				],
 				"Level": 46
 			},
 			{
@@ -16136,11 +17848,15 @@
 				"Level": 47
 			},
 			{
-				"Ability": "StrategicThrust3",
+				"Abilities": [
+					"StrategicThrust3"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "StaffLunge3",
+				"Abilities": [
+					"StaffLunge3"
+				],
 				"Level": 50
 			},
 			{
@@ -16330,7 +18046,9 @@
 		"Name": "Survival Instincts",
 		"Rewards": [
 			{
-				"Ability": "ToughenUp1",
+				"Abilities": [
+					"ToughenUp1"
+				],
 				"Level": 1
 			},
 			{
@@ -16338,7 +18056,9 @@
 				"Level": 5
 			},
 			{
-				"Ability": "ToughenUp2",
+				"Abilities": [
+					"ToughenUp2"
+				],
 				"Level": 10
 			},
 			{
@@ -16354,7 +18074,9 @@
 				"Level": 18
 			},
 			{
-				"Ability": "ToughenUp3",
+				"Abilities": [
+					"ToughenUp3"
+				],
 				"Level": 20
 			},
 			{
@@ -16362,7 +18084,9 @@
 				"Level": 25
 			},
 			{
-				"Ability": "ToughenUp4",
+				"Abilities": [
+					"ToughenUp4"
+				],
 				"Level": 30
 			},
 			{
@@ -16382,7 +18106,9 @@
 				"Level": 37
 			},
 			{
-				"Ability": "ToughenUp5",
+				"Abilities": [
+					"ToughenUp5"
+				],
 				"Level": 40
 			},
 			{
@@ -16390,7 +18116,9 @@
 				"Level": 45
 			},
 			{
-				"Ability": "ToughenUp6",
+				"Abilities": [
+					"ToughenUp6"
+				],
 				"Level": 50
 			}
 		],
@@ -16478,43 +18206,63 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "SwordParry",
+				"Abilities": [
+					"SwordParry"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "ManyCuts",
+				"Abilities": [
+					"ManyCuts"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "WindStrike",
+				"Abilities": [
+					"WindStrike"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "FinishingBlow",
+				"Abilities": [
+					"FinishingBlow"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "DebilitatingBlow1",
+				"Abilities": [
+					"DebilitatingBlow1"
+				],
 				"Level": 9
 			},
 			{
-				"Ability": "HackingBlade1",
+				"Abilities": [
+					"HackingBlade1"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "SwordSlash2",
+				"Abilities": [
+					"SwordSlash2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "ManyCuts2",
+				"Abilities": [
+					"ManyCuts2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "SwordParry2",
+				"Abilities": [
+					"SwordParry2"
+				],
 				"Level": 18
 			},
 			{
-				"Ability": "WindStrike2",
+				"Abilities": [
+					"WindStrike2"
+				],
 				"Level": 20
 			},
 			{
@@ -16522,23 +18270,33 @@
 				"Level": 25
 			},
 			{
-				"Ability": "ManyCuts3",
+				"Abilities": [
+					"ManyCuts3"
+				],
 				"Level": 27
 			},
 			{
-				"Ability": "DebilitatingBlow2",
+				"Abilities": [
+					"DebilitatingBlow2"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "FinishingBlow2",
+				"Abilities": [
+					"FinishingBlow2"
+				],
 				"Level": 30
 			},
 			{
-				"Ability": "HackingBlade2",
+				"Abilities": [
+					"HackingBlade2"
+				],
 				"Level": 31
 			},
 			{
-				"Ability": "SwordSlash3",
+				"Abilities": [
+					"SwordSlash3"
+				],
 				"Level": 33
 			},
 			{
@@ -16546,15 +18304,21 @@
 				"Level": 34
 			},
 			{
-				"Ability": "SwordParry3",
+				"Abilities": [
+					"SwordParry3"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "WindStrike3",
+				"Abilities": [
+					"WindStrike3"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "ManyCuts4",
+				"Abilities": [
+					"ManyCuts4"
+				],
 				"Level": 40
 			},
 			{
@@ -16562,7 +18326,9 @@
 				"Level": 42
 			},
 			{
-				"Ability": "DebilitatingBlow3",
+				"Abilities": [
+					"DebilitatingBlow3"
+				],
 				"Level": 43
 			},
 			{
@@ -16570,23 +18336,33 @@
 				"Level": 44
 			},
 			{
-				"Ability": "SwordParry4",
+				"Abilities": [
+					"SwordParry4"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "SwordSlash4",
+				"Abilities": [
+					"SwordSlash4"
+				],
 				"Level": 47
 			},
 			{
-				"Ability": "WindStrike4",
+				"Abilities": [
+					"WindStrike4"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "HackingBlade3",
+				"Abilities": [
+					"HackingBlade3"
+				],
 				"Level": 49
 			},
 			{
-				"Ability": "FinishingBlow3",
+				"Abilities": [
+					"FinishingBlow3"
+				],
 				"Level": 50
 			},
 			{
@@ -17111,23 +18887,33 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [
 			{
-				"Ability": "FrontKick",
+				"Abilities": [
+					"FrontKick"
+				],
 				"Level": 1
 			},
 			{
-				"Ability": "Barrage",
+				"Abilities": [
+					"Barrage"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "CobraStrike",
+				"Abilities": [
+					"CobraStrike"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "HipThrow",
+				"Abilities": [
+					"HipThrow"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "Punch2",
+				"Abilities": [
+					"Punch2"
+				],
 				"Level": 9
 			},
 			{
@@ -17135,11 +18921,15 @@
 				"Level": 10
 			},
 			{
-				"Ability": "FrontKick2",
+				"Abilities": [
+					"FrontKick2"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "Barrage2",
+				"Abilities": [
+					"Barrage2"
+				],
 				"Level": 15
 			},
 			{
@@ -17147,11 +18937,15 @@
 				"Level": 16
 			},
 			{
-				"Ability": "Punch3",
+				"Abilities": [
+					"Punch3"
+				],
 				"Level": 19
 			},
 			{
-				"Ability": "CobraStrike2",
+				"Abilities": [
+					"CobraStrike2"
+				],
 				"Level": 20
 			},
 			{
@@ -17163,11 +18957,15 @@
 				"Level": 23
 			},
 			{
-				"Ability": "FrontKick3",
+				"Abilities": [
+					"FrontKick3"
+				],
 				"Level": 24
 			},
 			{
-				"Ability": "HipThrow2",
+				"Abilities": [
+					"HipThrow2"
+				],
 				"Level": 25
 			},
 			{
@@ -17179,7 +18977,9 @@
 				"Level": 27
 			},
 			{
-				"Ability": "Barrage3",
+				"Abilities": [
+					"Barrage3"
+				],
 				"Level": 28
 			},
 			{
@@ -17187,15 +18987,21 @@
 				"Level": 33
 			},
 			{
-				"Ability": "FrontKick4",
+				"Abilities": [
+					"FrontKick4"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "Punch4",
+				"Abilities": [
+					"Punch4"
+				],
 				"Level": 36
 			},
 			{
-				"Ability": "HipThrow3",
+				"Abilities": [
+					"HipThrow3"
+				],
 				"Level": 37
 			},
 			{
@@ -17203,7 +19009,9 @@
 				"Level": 38
 			},
 			{
-				"Ability": "CobraStrike3",
+				"Abilities": [
+					"CobraStrike3"
+				],
 				"Level": 40
 			},
 			{
@@ -17211,7 +19019,9 @@
 				"Level": 43
 			},
 			{
-				"Ability": "Barrage4",
+				"Abilities": [
+					"Barrage4"
+				],
 				"Level": 45
 			},
 			{
@@ -17219,16 +19029,22 @@
 				"Level": 46
 			},
 			{
-				"Ability": "Punch5",
+				"Abilities": [
+					"Punch5"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "FrontKick5",
+				"Abilities": [
+					"FrontKick5"
+				],
 				"BonusToSkill": "SpiritFox",
 				"Level": 49
 			},
 			{
-				"Ability": "HipThrow4",
+				"Abilities": [
+					"HipThrow4"
+				],
 				"Level": 50
 			},
 			{
@@ -17338,7 +19154,9 @@
 		"Name": "Warden",
 		"Rewards": [
 			{
-				"Ability": "WarningJolt1",
+				"Abilities": [
+					"WarningJolt1"
+				],
 				"Level": 30
 			}
 		],
@@ -17573,47 +19391,69 @@
 		"Name": "Lycanthropy",
 		"Rewards": [
 			{
-				"Ability": "WerewolfBite",
+				"Abilities": [
+					"WerewolfBite"
+				],
 				"Level": 2
 			},
 			{
-				"Ability": "PackAttack1",
+				"Abilities": [
+					"PackAttack1"
+				],
 				"Level": 3
 			},
 			{
-				"Ability": "WerewolfPounce1",
+				"Abilities": [
+					"WerewolfPounce1"
+				],
 				"Level": 5
 			},
 			{
-				"Ability": "WerewolfHowlMode",
+				"Abilities": [
+					"WerewolfHowlMode"
+				],
 				"Level": 7
 			},
 			{
-				"Ability": "WerewolfBite2",
+				"Abilities": [
+					"WerewolfBite2"
+				],
 				"Level": 10
 			},
 			{
-				"Ability": "ShadowFeint1",
+				"Abilities": [
+					"ShadowFeint1"
+				],
 				"Level": 12
 			},
 			{
-				"Ability": "WerewolfClaw2",
+				"Abilities": [
+					"WerewolfClaw2"
+				],
 				"Level": 15
 			},
 			{
-				"Ability": "PackAttack2",
+				"Abilities": [
+					"PackAttack2"
+				],
 				"Level": 20
 			},
 			{
-				"Ability": "WerewolfPounce2",
+				"Abilities": [
+					"WerewolfPounce2"
+				],
 				"Level": 25
 			},
 			{
-				"Ability": "WerewolfBite3",
+				"Abilities": [
+					"WerewolfBite3"
+				],
 				"Level": 28
 			},
 			{
-				"Ability": "WerewolfClaw3",
+				"Abilities": [
+					"WerewolfClaw3"
+				],
 				"Level": 30
 			},
 			{
@@ -17621,27 +19461,39 @@
 				"Level": 32
 			},
 			{
-				"Ability": "ShadowFeint2",
+				"Abilities": [
+					"ShadowFeint2"
+				],
 				"Level": 35
 			},
 			{
-				"Ability": "PackAttack3",
+				"Abilities": [
+					"PackAttack3"
+				],
 				"Level": 40
 			},
 			{
-				"Ability": "WerewolfPounce3",
+				"Abilities": [
+					"WerewolfPounce3"
+				],
 				"Level": 45
 			},
 			{
-				"Ability": "WerewolfBite4",
+				"Abilities": [
+					"WerewolfBite4"
+				],
 				"Level": 46
 			},
 			{
-				"Ability": "WerewolfClaw4",
+				"Abilities": [
+					"WerewolfClaw4"
+				],
 				"Level": 48
 			},
 			{
-				"Ability": "ShadowFeint3",
+				"Abilities": [
+					"ShadowFeint3"
+				],
 				"Level": 50
 			}
 		],

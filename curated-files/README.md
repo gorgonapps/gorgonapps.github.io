@@ -208,7 +208,7 @@ becomes
 ## effects.json
 
 + `Duration` is always an integer (and not sometime a string).
-+ `Desc` becomes `Description`.
++ `Desc` is renamed to `Description`.
 + Converted `Particle` to a new `EffectParticle` object. Ex:
 ```
 "Particle": "ShadowFeintOrigin(AoeRange=20;AoeColor=#FFFFFF)"
@@ -348,7 +348,7 @@ becomes
 "StockDye": ";Color1=FFD872FF;Color2=383223FF;Color3=B0B57DFF",
 "StockDye": ";Color1=333333;Color2=0056ff;Color3=FFFFFF;GlowEnabled=y"
 ```
-becomes
+become
 ```
 "StockDye": {
 	"Color1": "007777",
@@ -395,7 +395,7 @@ No change.
 "Keywords":["Knife","Loot","MinRarity:Uncommon"],
 "Keywords":["Rarity:Common","Equipment"]
 ```
-becomes
+become
 ```
 {
 	"MinValueRequirement": 1000,
@@ -433,7 +433,7 @@ becomes
 	"Title": "<color=cyan>Game Admin</color>"
 },
 ```
-becomes
+become
 ```
 "1": {
 	"Color": "00FFFF",
@@ -476,6 +476,34 @@ becomes
 	}
 ]
 ```
++ The `Rewards_Items` field is converted to an array of rewards. Ex:
+```
+"Rewards_Items": [
+	{
+		"Item": "DiscoverWordOfPower1",
+		"StackSize": 1
+	},
+	{
+		"Item": "Potato",
+		"StackSize": 5
+	}
+]
+```
+becomes
+```
+"Rewards": [
+	{
+		"Item": "Potato",
+		"StackSize": 5,
+		"T": "Item"
+	},
+	{
+		"Item": "DiscoverWordOfPower1",
+		"StackSize": 1,
+		"T": "Item"
+	}
+]
+```
 + The `Rewards_Effects` field is also converted, in a more complicated way. Each effect is converted to a reward, as follow.
   - `SetInteractionFlag` becomes the `"T": "InteractionFlag"` reward with an `InteractionFlag` field.
   - `EnsureLoreBookKnown` becomes the `"T": "LoreBook"` reward with a `LoreBook` field.
@@ -495,6 +523,82 @@ becomes
   - `SetInteractionFlag` becomes the `"T": "SetInteractionFlag"` effect with an `InteractionFlag` field.
   - `ClearInteractionFlag` becomes the `"T": "ClearInteractionFlag"` effect with an `InteractionFlag` field.
   - `LearnAbility` becomes the `"T": "Ability"` effect with an `Ability` field.
++ `Requirements` is always an array, even if it contains only one object. Or a nested array of objects. Or a mix of object and array.
++ `RequirementsToSustain` is always an array, even if it contains only one object.
++ `Requirements` **in objectives** is always an array, even if it contains only one object.
++ For any objective of type `Kill`, if `AbilityKeyword` is set this is converted in a new requirement of type `UseAbility`. Ex:
+```
+"Objectives": [
+	{
+		"AbilityKeyword": "Kick",
+		"Description": "Kick Pigs To Death",
+		"Number": 12,
+		"Target": "Pig",
+		"Type": "Kill"
+	}
+]
+```
+becomes
+```
+"Objectives": [
+	{
+		"Description": "Kick Pigs To Death",
+		"Number": 12,
+		"Requirements": [
+			{
+				"AbilityKeyword": "Kick",
+				"T": "UseAbility"
+			}
+		],
+		"Target": "Pig",
+		"Type": "Kill"
+	}
+]
+```
++ For any objective for which the target area is provided in the `Target` field, this is converted in a new requirement of type `AreaEventOff`. Ex:
+```
+"Objectives": [
+	{
+		"Description": "Kill Ratkin in Povus",
+		"Number": 15,
+		"Target": [
+			"Ratkin",
+			"Area:AreaPovus"
+		],
+		"Type": "Kill"
+	}
+]
+```
+becomes
+```
+"Objectives": [
+	{
+		"Description": "Kill Ratkin in Povus",
+		"Number": 15,
+		"Requirements": [
+			{
+				"AreaEvent": "AreaPovus",
+				"T": "AreaEventOff"
+			}
+		],
+		"Target": "Ratkin",
+		"Type": "Kill"
+	}
+]
+```
++ As a consequence of the preceding change, the `Target` field in objectives is no longer an array of string but just one string.
++ `NumExpectedParticipants` is renamed to `NumberOfExpectedParticipants`.
++ `NumToDeliver` in objectives is renamed to `NumberToDeliver` and changed to be an integer.
++ `ReuseTime_Days`, `ReuseTime_Hours` and `ReuseTime_Minutes` are merged into a single object. Ex:
+```
+"ReuseTime_Minutes": 180
+```
+becomes
+```
+"ReuseTime": {
+	"Minutes": 180
+}
+```
 
 ## recipes.json
 
@@ -595,6 +699,7 @@ becomes
 	}
 ]
 ```
++ `Ability` **in rewards** is renamed to `Abilities` and is always an array, even if it contains only one object.
 
 ## sources_abilities.json and sources_recipes.json
 
@@ -602,7 +707,7 @@ becomes
 
 ## storagevaults.json
 
-No change.
++ `Requirements` is always an array, even if it contains only one object (which is currently the case).
 
 ## tsysclientinfo.json
 
