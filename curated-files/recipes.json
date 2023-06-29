@@ -96220,7 +96220,7 @@
 			{
 				"Distance": 20,
 				"EntityTypeTag": "GrowingVegetable",
-				"ErrorMsg": "You need more growing vegetables nearby.",
+				"ErrorMessage": "You need more growing vegetables nearby.",
 				"MinCount": 20,
 				"T": "EntitiesNear"
 			}

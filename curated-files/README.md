@@ -524,6 +524,47 @@ becomes
   - `ClearInteractionFlag` becomes the `"T": "ClearInteractionFlag"` effect with an `InteractionFlag` field.
   - `LearnAbility` becomes the `"T": "Ability"` effect with an `Ability` field.
 + `Requirements` is always an array, even if it contains only one object. Or a nested array of objects. Or a mix of object and array.
++ If `Requirements` contains an `AreaEvent`, the event is splitted as follow:
+  - For `Daytime`, `AreaEvent` is removed and a new field, `Daytime`, is set to true.
+  - For `PovusNightlyQuest`, `AreaEvent` is removed and a new field, `EventQuest`, is set to `PovusNightly`.
+  - For other events, if `AreaEvent` is made of 3 or 4 parts then the last part is saved in a new field, `AreaName`, the last before last part is saved in the `EventQuest` field, the optional middle part is saved in the `EventSkill` field and the remaining text is kept in `AreaEvent`.
+For example
+```
+{
+	"AreaEvent": "Daytime",
+	"T": "AreaEventOff"
+},
+{
+	"AreaEvent": "PovusNightlyQuest",
+	"T": "AreaEventOff"
+},
+{
+	"AreaEvent": "Dee_Warden_GnasherInvasion_Eltibule",
+	"T": "AreaEventOn"
+}
+```
+become
+```
+{
+	"Daytime": true,
+	"T": "AreaEventOff"
+},
+{
+	"EventQuest": "PovusNightly",
+	"T": "AreaEventOff"
+},
+{
+	"AreaEvent": "Dee",
+	"AreaName": "Eltibule",
+	"EventQuest": "GnasherInvasion",
+	"EventSkill": "Warden",
+	"T": "AreaEventOn"
+}
+```
++ In `Requirements`
+  - `Level` is renamed to `FavorLevel` if it's a favor level.
+  - `ErrorMsg` is renamed to `ErrorMessage`.
+  - If `Rule` is `ChristmasQuests` this is changed to `During Christmas Quests`.
 + `RequirementsToSustain` is always an array, even if it contains only one object.
 + `Requirements` **in objectives** is always an array, even if it contains only one object.
 + For any objective of type `Kill`, if `AbilityKeyword` is set this is converted in a new requirement of type `UseAbility`. Ex:
@@ -577,7 +618,7 @@ becomes
 		"Number": 15,
 		"Requirements": [
 			{
-				"AreaEvent": "AreaPovus",
+				"AreaName": "Povus",
 				"T": "AreaEventOff"
 			}
 		],
