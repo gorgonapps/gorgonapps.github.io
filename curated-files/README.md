@@ -97,12 +97,14 @@ becomes
 	}
 ]
 ```
++ In the `Sword Slash` ability the `Lint_NotLearnable` keyword is removed.
 
 ## advancementtables.json
 
 + The creature name is a separate `Name` field.
 + The file is restructured so that `Levels` are collections of object with a `Level` field.
 + Each level is a collection of attributes names and values.
++ Levels are sorted.
 
 Before:
 ```
@@ -657,6 +659,152 @@ becomes
 	"SecondaryColor": "BE8DFF"
 }
 ```
++ `IsItemMenuKeywordReqSufficient`, `ItemMenuKeywordReq`, `NumResultItems` and `SkillLevelReq` are renamed to `IsItemMenuKeywordRequirementSufficient`, `ItemMenuKeywordRequirement`, `NumberOfResultItems` and `SkillLevelRequirement` respectively.
++ `ResultItems` is removed if it's an empty array.
++ In recipe ingredients and resulting items, `Desc` is renamed to `Description`.
++ `ResultEffect` is converted to an object. Some effects are converted by filling additional parameters. See examples below:
+```
+"WhittlingKnifeBuff1",
+"CraftingEnhanceItemPockets(2,12)",
+"PolymorphRabbitPermanentBlue",
+"ExtractTSysPower(MainHandAugment,WeaponAugmentBrewing,0,30)",
+"RepairItemDurability(0.3,0.6,94,0,30)",
+"TSysCraftedEquipment(CraftedClothPants3C)",
+"CraftSimpleTSysItem(Horseshoes4)",
+"AddItemTSysPower(ShamanicHeadArmor,1)",
+"AddItemTSysPowerWax(WaxArmor,4,1250)",
+"BrewItem(2,15,BrewingFruitA4+BrewingMushroomA4=Partying4+SkillSpecificPowerCosts12)",
+"AdjustRecipeReuseTime(-23400,WaxingCrescentMoon)",
+"GiveTSysItem(ArachnidHarness3)",
+"ConsumeItemUses(DrinkableRumBarrel,2)",
+"DeltaCurFairyEnergy(-10)",
+"Teleport(AreaSerbule, Landing_Boat)",
+"CreateMiningSurvey8Y(MiningSurveyPovus8Y)",
+"SpawnPremonition_All_2sec",
+"PermanentlyRaiseMaxTempestEnergy(1)",
+"CraftingResetItem",
+"SendItemToSaddlebag",
+"TransmogItemAppearance"
+```
+become
+```
+{
+	"Keyword": "WhittlingKnifeBuff",
+	"Tier": 1,
+	"Type": "Tiered"
+},
+{
+	"AddedQuantity": 2,
+	"ConsumedEnhancementPoints": 12,
+	"Enhancement": "Pockets",
+	"Type": "CraftingEnhanceItem"
+},
+{
+	"Color": "0000FF",
+	"Type": "PolymorphRabbitPermanent"
+},
+{
+	"Augment": "MainHandAugment",
+	"MaxLevel": 30,
+	"MinLevel": 0,
+	"Skill": "WeaponAugmentBrewing",
+	"Type": "ExtractTSysPower"
+},
+{
+	"MaxLevel": 30,
+	"MinLevel": 0,
+	"RepairCooldown": {
+		"Hours": 94
+	},
+	"RepairMaxEfficiency": 60,
+	"RepairMinEfficiency": 30,
+	"Type": "RepairItemDurability"
+},
+{
+	"Boost": "CraftedClothPants",
+	"BoostLevel": 3,
+	"IsCamouflaged": true,
+	"Type": "TSysCraftedEquipment"
+},
+{
+	"Item": "Horseshoes4",
+	"Type": "CraftSimpleTSysItem"
+},
+{
+	"Slot": "ShamanicHeadArmor",
+	"Tier": 1,
+	"Type": "AddItemTSysPower"
+},
+{
+	"MaxHitCount": 1250,
+	"PowerLevel": 4,
+	"PowerWaxType": "WaxArmor",
+	"Type": "AddItemTSysPowerWax"
+},
+{
+	"BrewLine": 2,
+	"BrewParts": [
+		"BrewingFruitA4",
+		"BrewingMushroomA4"
+	],
+	"BrewResults": [
+		"Partying4",
+		"SkillSpecificPowerCosts12"
+	],
+	"BrewStrength": 15,
+	"Type": "BrewItem"
+},
+{
+	"AdjustedReuseTime": {
+		"Hours": 6,
+		"Minutes": 30
+	},
+	"MoonPhase": "WaxingCrescentMoon",
+	"Type": "AdjustRecipeReuseTime"
+},
+{
+	"Item": "ArachnidHarness3",
+	"Type": "GiveTSysItem"
+},
+{
+	"ConsumedUses": 2,
+	"Keyword": "DrinkableRumBarrel",
+	"Type": "ConsumeItemUses"
+},
+{
+	"Delta": -10,
+	"Type": "DeltaCurFairyEnergy"
+},
+{
+	"Area": "Serbule",
+	"Other": "Landing Boat",
+	"Type": "Teleport"
+},
+{
+	"Effect": "8Y",
+	"Item": "MiningSurveyPovus8Y",
+	"Type": "CreateMiningSurvey"
+},
+{
+	"DurationInSeconds": 2,
+	"Type": "SpawnPremonition"
+},
+{
+	"Delta": 1,
+	"Type": "PermanentlyRaiseMaxTempestEnergy"
+},
+{
+	"Type": "CraftingResetItem"
+},
+{
+	"Type": "SendItemToSaddlebag"
+},
+{
+	"Type": "TransmogItemAppearance"
+}
+```
++ If `ItemMenuCategory` is `TSysExtract` or `TSysDistill` these values are renamed to `Extract` and `Distill` respectively.
++ Changed `ChanceToConsume`, `DurabilityConsumed` and `PercentChance` to integer percentages.
 
 ## skills.json
 
@@ -691,16 +839,24 @@ becomes
 ```
 "AdvancementHints": [
 	{
-		"Hint": "To earn more XP in Ancillary-Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-		"Level": 50
+		"Hint": "To earn more XP in Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
+		"Level": 50,
+		"Npcs": [
+			"NPC_Kohan",
+			"NPC_Ufkar"
+		]
 	},
 	{
-		"Hint": "To earn more XP in Ancillary-Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-		"Level": 60
+		"Hint": "To earn more XP in Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
+		"Level": 60,
+		"Npcs": [
+			"NPC_Kohan",
+			"NPC_Ufkar"
+		]
 	}
 ],
 ```
-+ `InteractionFlagLevelCaps` is restructured and becomes a collection of objects, with the key and value converted to fields. Performance skills are specified as such, with any `performance` prefix removed. Ex:
++ `InteractionFlagLevelCaps` is restructured and becomes a collection of objects, with the key and value converted to fields. Performance skills are specified as such, with any `performance` prefix removed (though Dance is considered a performance skill).  Ex:
 ```
 "LevelCap_AncillaryArmorAugmentBrewing_100": 90,
 "LevelCap_Performance_Percussion20": 10
@@ -741,6 +897,9 @@ becomes
 ]
 ```
 + `Ability` **in rewards** is renamed to `Abilities` and is always an array, even if it contains only one object.
++ `RecipeIngredientKeywords` and `_RecipeIngredientKeywords` are unified as `RecipeIngredientKeywords`.
++ Removed `AdvancementTable` when set to `null`.
++ `AdvancementTable` is sorted in alphabetical order.
 
 ## sources_abilities.json and sources_recipes.json
 
@@ -749,10 +908,119 @@ becomes
 ## storagevaults.json
 
 + `Requirements` is always an array, even if it contains only one object (which is currently the case).
++ `"Area": "*"` is removed, and the `Area` prefix is removed in the `Area` field.
++ `NumSlots` is renamed to `NumberOfSlots`.
 
 ## tsysclientinfo.json
 
-+ In `Tiers`, object keys are not prefixed, and only the key is preserved. For instance, `id_1` becomes `1`. With this change, tiers can be deserialized as dictionaries with `int` keys.
++ The file is restructured so that `Tiers` are collections of object with a `Tier` field (with the `id_` prefix removed), and tiers are sorted.
+
+Before:
+```
+"Tiers": {
+	"id_1": {
+		"EffectDescs": [
+			"{BOOST_SKILL_ARCHERY}{5}"
+		],
+		"MaxLevel": 30,
+		"MinLevel": 10,
+		"MinRarity": "Uncommon",
+		"SkillLevelPrereq": 10
+	},
+	"id_10": {
+		"EffectDescs": [
+			"{MOD_SKILL_ARCHERY}{0.5}"
+		],
+		"MaxLevel": 120,
+		"MinLevel": 100,
+		"MinRarity": "Uncommon",
+		"SkillLevelPrereq": 100
+	},
+	"id_2": {
+		"EffectDescs": [
+			"{MOD_SKILL_ARCHERY}{0.1}"
+		],
+		"MaxLevel": 40,
+		"MinLevel": 20,
+		"MinRarity": "Uncommon",
+		"SkillLevelPrereq": 20
+	},
+```
+After:
+```
+"Tiers": [
+	{
+		"EffectDescriptions": [
+			{
+				"AttributeEffect": 5,
+				"AttributeName": "BOOST_SKILL_ARCHERY"
+			}
+		],
+		"MaxLevel": 30,
+		"MinLevel": 10,
+		"MinRarity": "Uncommon",
+		"SkillLevelPrerequirement": 10,
+		"Tier": 1
+	},
+	{
+		"EffectDescriptions": [
+			{
+				"AttributeEffect": 0.1,
+				"AttributeName": "MOD_SKILL_ARCHERY"
+			}
+		],
+		"MaxLevel": 40,
+		"MinLevel": 20,
+		"MinRarity": "Uncommon",
+		"SkillLevelPrerequirement": 20,
+		"Tier": 2
+	},
+    ...
+```
++ `SkillLevelPrereq` is renamed to `SkillLevelPrerequirement`.
++ `EffectDescs` is renamed to `EffectDescriptions` and is converted to an object. For a simple description only the `Description` and `IconIds` fields are filled, otherwise the `AttributeName`, `AttributeEffect` and `AttributeSkill` are filled with the attribute name, value effect and applicable skill respectively. Ex:
+```
+"EffectDescs": [
+	"<icon=3311><icon=3318>Multishot and Heavy Multishot Damage +16 and Power Cost -1"
+],
+"EffectDescs": [
+	"{MAX_POWER}{10}{Archery}"
+]
+```
+become
+```
+"EffectDescriptions": [
+	{
+		"Description": "Multishot and Heavy Multishot Damage +16 and Power Cost -1",
+		"IconIds": [
+			3311,
+			3318
+		]
+	}
+],
+"EffectDescriptions": [
+	{
+		"AttributeEffect": 10,
+		"AttributeName": "MAX_POWER",
+		"AttributeSkill": "Archery"
+	}
+]
+```
++ Some treasure effects are modified.
+  - `power_24154` the icon with id 3553 is replaced with 3547 (this is a bug fix).
+  - `power_20355` a extra attribute is added (this enables generic attribute parsing):
+```
+"EffectDescriptions": [
+	{
+		"AttributeEffect": <Varies>,
+		"AttributeName": "BOOST_ABILITYDOT_TOUGHHOOF"
+		"Description": "Tough Hoof deals <Varies> Trauma damage to the target each time they attack and damage you (within 8 seconds)",
+		"IconIds": [
+			2253
+		]
+	}
+],
+```
 
 ## xptables.json
 
