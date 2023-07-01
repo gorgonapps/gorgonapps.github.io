@@ -170,7 +170,6 @@
 		"XpTable": "None"
 	},
 	"Anatomy_Aberrations": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of creatures made by mad science or dark chemistry.",
 		"GuestLevelCap": 15,
@@ -243,7 +242,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Arthropods": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of spiders, insects, and scorpions.",
 		"GuestLevelCap": 15,
@@ -381,7 +379,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Bears": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of bears. Bugbears, which are half-goblin and half-bear, are also covered by this skill, as they take after their bear side more than the goblin side.",
 		"GuestLevelCap": 15,
@@ -515,7 +512,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Canines": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of dogs, wolves, and werewolves. Gives bonuses to killing, skinning, and raising these creatures.",
 		"GuestLevelCap": 15,
@@ -658,7 +654,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Cats": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of cats of all types.",
 		"GuestLevelCap": 15,
@@ -792,7 +787,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Constructs": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of constructs such as golems.",
 		"GuestLevelCap": 15,
@@ -865,7 +859,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Crones": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of crones and their ilk, including harpies, hags, and striga.",
 		"GuestLevelCap": 15,
@@ -938,7 +931,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Demons": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of demons.",
 		"GuestLevelCap": 15,
@@ -1011,7 +1003,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Dinosaurs": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of dinosaurs. This skill also covers birds, which are descended from dinosaurs, and dragons, which are descended from birds.",
 		"GuestLevelCap": 15,
@@ -1141,7 +1132,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Dwarves": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of dwarves.",
 		"GuestLevelCap": 15,
@@ -1214,7 +1204,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Elementals": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of elementals.",
 		"GuestLevelCap": 15,
@@ -1288,7 +1277,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Elves": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of elves.",
 		"GuestLevelCap": 15,
@@ -1361,7 +1349,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Fey": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of faeries and fey creatures, including some animals that look mundane but aren't, such as the fey panther.",
 		"GuestLevelCap": 15,
@@ -1442,7 +1429,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Fish": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of fish. Also snails. They're very similar. Really.",
 		"GuestLevelCap": 15,
@@ -1580,7 +1566,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Fungoids": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of fungus people, slime monsters, overgrown bacteria, and ooze beasts.",
 		"GuestLevelCap": 15,
@@ -1653,7 +1638,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Giants": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of giant-kin such as yetis and ogres.",
 		"GuestLevelCap": 15,
@@ -1726,7 +1710,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Goblins": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of goblins.",
 		"GuestLevelCap": 15,
@@ -1799,7 +1782,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Humans": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of humans.",
 		"GuestLevelCap": 15,
@@ -1876,7 +1858,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Incorporeal": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of incorporeal creatures, such as ghosts and shadow illusions.",
 		"GuestLevelCap": 15,
@@ -1957,7 +1938,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Orcs": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of orcs.",
 		"GuestLevelCap": 15,
@@ -2030,7 +2010,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Plants": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of monstrous plants.",
 		"GuestLevelCap": 15,
@@ -2109,7 +2088,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Rakshasa": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of rakshasa.",
 		"GuestLevelCap": 15,
@@ -2182,7 +2160,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Reptiles": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of snakes, snake-people, and generally snakey things.",
 		"GuestLevelCap": 15,
@@ -2312,7 +2289,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Rodents": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of rodents. Also covers the physiology of lagomorphs such as rabbits, despite their anatomical differences.",
 		"GuestLevelCap": 15,
@@ -2450,7 +2426,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Ruminants": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of cud-chewing herbivores such as cows, sheep, deer, and camels.",
 		"GuestLevelCap": 15,
@@ -2584,7 +2559,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Undead": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of undead, such as skeletons, zombies, and liches. This skill doesn't cover undead without bodies, such as ghosts and wraiths.",
 		"GuestLevelCap": 15,
@@ -2665,7 +2639,6 @@
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Ungulates": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of large herbivores that do NOT chew cud, such as pigs, rhinos, and horses. Also covers hippos, which are not ungulates, but which are close enough.",
 		"GuestLevelCap": 15,
@@ -2799,14 +2772,21 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Ancillary-Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Ancillary-Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the techniques for creating Helm Augments and Shoes Augments. (Augments for other types of equipment are covered by other skills.)",
 		"GuestLevelCap": 0,
@@ -2864,18 +2844,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Angling, gain favor with Squidlips in Sun Vale",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Squidlips"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Angling, gain favor with Squidlips in Sun Vale",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Squidlips"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Angling, gain favor with Moku in Povus (note: Povus town's level must be 5+ for Moku to arrive)",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Moku"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": true,
 		"Description": "The exotic art of catching fish with a pole and bait. While primarily an orcish custom, it is catching on among humans as well.",
 		"GuestLevelCap": 15,
@@ -2975,15 +2963,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Animal Handling, gain favor with Gisli in Serbule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Gisli"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Animal Handling, gain favor with Gisli in Serbule.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Gisli"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Animal Handling, gain favor with Crelpin in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Crelpin"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -3330,36 +3327,36 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -3367,15 +3364,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Animal Husbandry, gain favor with Leah Bowman in Povus.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_LeahBowman"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Animal Husbandry, gain favor with Leah Bowman in Povus.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_LeahBowman"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Animal Husbandry, gain favor with Crelpin in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Crelpin"
+				]
 			}
 		],
 		"AdvancementTable": "BonusStableSlots",
@@ -3505,15 +3511,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Archery, gain favor with Alravesa the All-Hunter in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_AlravesatheAll-Hunter"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Archery, gain favor with Alravesa the All-Hunter in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_AlravesatheAll-Hunter"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Archery, gain favor with Floxie in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -4058,25 +4073,25 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Bard",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -4084,14 +4099,21 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Armor Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the techniques for creating Chest-Armor Augments and Leg-Armor Augments. (Augments for other types of equipment are covered by other skills.)",
 		"GuestLevelCap": 0,
@@ -4153,18 +4175,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Armor Patching, gain favor with Arlan in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Arlan"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Armor Patching, gain favor with Arlan in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Arlan"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Armor Patching, gain favor with Pegast in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Pegast"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "Skill in maintaining armor, including the use of repair kits to remove dents and holes.",
@@ -4274,18 +4304,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Armorsmithing, gain favor with Tremmond Blackhammer in Povus.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_TremmondBlackhammer"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Armorsmithing, gain favor with Tremmond Blackhammer in Povus.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_TremmondBlackhammer"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Armorsmithing, gain favor with Tremmond Blackhammer in Povus.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_TremmondBlackhammer"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The art of making metal armor.",
 		"GuestLevelCap": 15,
@@ -4294,31 +4332,31 @@
 			{
 				"IsPerformanceSkill": false,
 				"Level": 90,
-				"Skill": "ArmorSmithing",
+				"Skill": "Armorsmithing",
 				"SkillCap": 100
 			},
 			{
 				"IsPerformanceSkill": false,
 				"Level": 50,
-				"Skill": "ArmorSmithing",
+				"Skill": "Armorsmithing",
 				"SkillCap": 60
 			},
 			{
 				"IsPerformanceSkill": false,
 				"Level": 60,
-				"Skill": "ArmorSmithing",
+				"Skill": "Armorsmithing",
 				"SkillCap": 70
 			},
 			{
 				"IsPerformanceSkill": false,
 				"Level": 70,
-				"Skill": "ArmorSmithing",
+				"Skill": "Armorsmithing",
 				"SkillCap": 80
 			},
 			{
 				"IsPerformanceSkill": false,
 				"Level": 80,
-				"Skill": "ArmorSmithing",
+				"Skill": "Armorsmithing",
 				"SkillCap": 90
 			}
 		],
@@ -4352,7 +4390,6 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"ArtHistory": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Understanding of the rich history of art in Alharth. This skill can help you identify valuable artwork, but more importantly, it helps you to be a well-rounded individual.",
 		"GuestLevelCap": 15,
@@ -4393,7 +4430,6 @@
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Artistry": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in the visual arts, including painting, sculpting, and mosaic creation.",
 		"GuestLevelCap": 15,
@@ -4411,7 +4447,6 @@
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Assessment": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in determining things about somebody based on their visible appearance. A high Assessment skill lets you see more information about other players when you examine them.",
 		"GuestLevelCap": 15,
@@ -4423,7 +4458,6 @@
 		"XpTable": "CivicPride"
 	},
 	"Augmentation": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in creating magical augments. This is an umbrella skill representing your overall knowledge of augmentation.",
 		"GuestLevelCap": 0,
@@ -4435,7 +4469,6 @@
 		"XpTable": "None"
 	},
 	"Autodidacticism": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The ability to learn new skills on your own, just from reading a book.",
 		"GuestLevelCap": 0,
@@ -4456,18 +4489,18 @@
 		"MaxBonusLevels": 25,
 		"Rewards": [],
 		"TSysCompatibleCombatSkills": [
-			"Knife",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
+			"Archery",
+			"Bard",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
-			"Priest"
+			"Knife",
+			"Mentalism",
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Unarmed"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -4475,15 +4508,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Bard, gain favor with Percussa in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Percussa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Bard, gain favor with Percussa in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Percussa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Bard, gain favor with Raina in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Raina"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -4793,25 +4835,25 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"BattleChemistry",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Priest",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic"
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -4819,15 +4861,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Battle Chemistry, gain favor with Mox Warcut in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_MoxWarcut"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Battle Chemistry, gain favor with Mox Warcut in Gazluk.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_MoxWarcut"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Battle Chemistry, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -5104,41 +5155,40 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"BeastSpeech": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in speaking while in the form of an animal or monstrous beast. (You earn XP in Beast Speech by speaking aloud. You can't earn XP more than once per minute.)",
 		"GuestLevelCap": 15,
@@ -5155,15 +5205,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Blacksmithing, gain favor with Falkrin Overstrike in Amulna, or with Kodan in Sun Vale's \"Animal Town.\"",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_FalkrinOverstrike"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Blacksmithing, gain favor with Falkrin Overstrike in Amulna, or with Kodan in Sun Vale's \"Animal Town.\"",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_FalkrinOverstrike"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Blacksmithing, gain favor with Solgribue in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Solgribue"
+				]
 			}
 		],
 		"AdvancementTable": "BonusInventoryFolderAt50",
@@ -5258,14 +5317,19 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Brewing, gain favor with Dhakmar in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Dhakmar"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Brewing, gain favor with Dhakmar in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Dhakmar"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in creating alcoholic beverages of all sorts.",
 		"GuestLevelCap": 15,
@@ -5337,10 +5401,12 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Buckle Artistry, gain favor with Jake the Buckler in Sun Vale.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_JaketheBuckler"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in creating belt buckles with symbolic meanings. Belt buckle artwork is a deeply personal expression which can give hammer warriors a morale boost in battle. However, because they are so personal, crafted belt buckles are only useful to the person who crafts them.",
 		"GuestLevelCap": 15,
@@ -5486,18 +5552,28 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Butchering, gain favor with Nishika or Rugen in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Nishika",
+					"NPC_Rugen"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Butchering, gain favor with Nishika or Rugen in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Nishika",
+					"NPC_Rugen"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Butchering, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in the act of removing meat and useful body organs from a corpse. You need to be carrying a Butcher Knife in order to butcher a corpse. Corpses of sentient creatures, such as goblins and humans, can't be butchered.",
 		"GuestLevelCap": 15,
@@ -5567,10 +5643,12 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Calligraphy, gain favor with Ufkar in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Ufkar"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The art of writing things. Handy for... writing things. It's also a valuable art for swordsmen and other warriors, who can infuse their art with potent additional effects.",
 		"GuestLevelCap": 15,
@@ -5832,18 +5910,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Candle Making, gain favor with Gorvessa in Hogan's Keep, Eltibule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Gorvessa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Candle Making, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Candle Making, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Covers all the skills of the chandler, from rendering various materials into candle wax, to creating the candles themselves, including candles with exotic properties.",
 		"GuestLevelCap": 15,
@@ -5993,18 +6079,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Carpentry, gain favor with Amutasa in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Amutasa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Carpentry, gain favor with Amutasa in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Amutasa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Carpentry, gain favor with Solgribue in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Solgribue"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Preparing and treating lumber, and making things out of wood.",
 		"GuestLevelCap": 15,
@@ -6077,7 +6171,6 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Cartography": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in accurately mapping your surroundings. You earn Cartography XP by clearing the 'fog' from game maps, which happens automatically as you walk around.",
 		"GuestLevelCap": 15,
@@ -6095,7 +6188,6 @@
 		"XpTable": "Cartography"
 	},
 	"ChargedPig": {
-		"AdvancementTable": "null",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "This is a prototype skill that will never appear in the live game. (Charged Pig abilities can be found under the Pig skill. You can place both Pig and Charged Pig abilities on your Pig ability bar.)",
@@ -6107,14 +6199,14 @@
 		"Parents": [],
 		"Rewards": [],
 		"TSysCompatibleCombatSkills": [
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "AuxCombatSkill_FastTo50"
@@ -6123,18 +6215,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Cheesemaking, gain favor with Braigon in Eltibule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Braigon"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Cheesemaking, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Cheesemaking, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Making cheese, butter, and other dairy products. But mostly: cheese.",
 		"GuestLevelCap": 15,
@@ -6229,7 +6329,6 @@
 		"XpTable": "CivicPride"
 	},
 	"Compassion": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The ability to feel empathy, even for creatures not at all like yourself.",
 		"GuestLevelCap": 15,
@@ -6283,15 +6382,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Cooking, gain favor with Selaxi in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Selaxi"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Cooking, gain favor with Floxie in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Cooking, gain favor with Floxie in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			}
 		],
 		"AdvancementTable": "PowerPassive",
@@ -6372,7 +6480,6 @@
 		"XpTable": "Gardening"
 	},
 	"CorpseTalking": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Ability to commune telepathically with nearby dead bodies. Higher skill grants higher chances of persuading recalcitrant spirits, as well as higher comprehension rates when learning from the dead.",
 		"GuestLevelCap": 15,
@@ -6389,15 +6496,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Cow, gain favor with Raul in Sun Vale's \"Animal Town.\"",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Raul"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Cow, gain favor with Raul in Sun Vale's \"Animal Town.\"",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Raul"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Cow, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerCow",
@@ -6624,15 +6740,15 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Druid",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -6641,18 +6757,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Crossbow, gain favor with Bellema Deftwhisper in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_BellemaDeftwhisper"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Crossbow, gain favor with Floxie in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Crossbow, gain favor with Floxie in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "Knowledge of crossbows, including how to fire and reload them, as well as how to maintain them in peak condition.",
@@ -6719,15 +6843,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Deer, gain favor with Jumper in Sun Vale's \"Animal Town.\"",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Jumper"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Deer, gain favor with Jumper in Sun Vale's \"Animal Town.\"",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Jumper"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Deer, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerDeer",
@@ -7009,15 +7142,15 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Druid",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -7026,15 +7159,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Druid, gain favor with Lady Windsong in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_LadyWindsong"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Druid, gain favor with Lady Windsong in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_LadyWindsong"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Druid, gain favor with Raina in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Raina"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -7347,33 +7489,32 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
+			"AnimalHandling",
+			"Archery",
+			"Bard",
+			"BattleChemistry",
+			"Cow",
+			"Deer",
+			"FairyMagic",
 			"FireMagic",
-			"Staff",
+			"GiantBat",
 			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Warden",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Spider",
+			"Staff",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"DyeMaking": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in producing dye. These dyes can be used to color armor.\n\nThis skill covers only the creation of the dye; Textile Creation, Tanning, or Blacksmithing is used to apply the dye, depending on what the armor is made of.",
 		"GuestLevelCap": 15,
@@ -7452,15 +7593,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Endurance, gain favor with Lamashu in Kur Mountains.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Lamashu"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Endurance, gain favor with Lamashu in Kur Mountains.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Lamashu"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Endurance, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
 		"AdvancementTable": "Endurance",
@@ -7565,18 +7715,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Fairy Magic, gain favor with Preta in Sun Vale.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Preta"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Fairy Magic, gain favor with Preta in Sun Vale.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Preta"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Fairy Magic, gain favor with Raina in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Raina"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "A sub-skill of Mentalism that focuses on psychic links to the fae realms.",
@@ -7724,35 +7882,35 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
 			"Necromancy",
-			"FairyMagic",
-			"Priest"
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "AuxCombatSkill"
 	},
@@ -7760,15 +7918,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Fire Magic, gain favor with The Sand Seer in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_TheSandSeer"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Fire Magic, gain favor with The Sand Seer in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_TheSandSeer"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Fire Magic, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			}
 		],
 		"AdvancementTable": "FireMagic",
@@ -7896,23 +8063,23 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"FireMagic",
-			"Staff",
+			"AnimalHandling",
+			"Archery",
+			"Bard",
+			"BattleChemistry",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Staff",
+			"Unarmed",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -7920,18 +8087,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in First Aid, gain favor with Mox Warcut in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_MoxWarcut"
+				]
 			},
 			{
 				"Hint": "To earn more XP in First Aid, gain favor with Mox Warcut in Gazluk.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_MoxWarcut"
+				]
 			},
 			{
 				"Hint": "To earn more XP in First Aid, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "The ability to use first aid kits to heal yourself or others.",
@@ -8036,11 +8211,17 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Fishing, gain favor with Rugen in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Rugen"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Fishing, gain favor with Rugen in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Rugen"
+				]
 			}
 		],
 		"AdvancementTable": "ModestPassive",
@@ -8081,6 +8262,9 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"RecipeIngredientKeywords": [
+			"CookingIngredient"
+		],
 		"Rewards": [
 			{
 				"Abilities": [
@@ -8153,20 +8337,23 @@
 				"Level": 65
 			}
 		],
-		"XpTable": "GatheringSkill",
-		"_RecipeIngredientKeywords": [
-			"CookingIngredient"
-		]
+		"XpTable": "GatheringSkill"
 	},
 	"Fletching": {
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Fletching, gain favor with Bellema Deftwhisper in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_BellemaDeftwhisper"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Fletching, gain favor with Floxie in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			}
 		],
 		"AdvancementTable": "ModestPassive",
@@ -8375,18 +8562,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Flower Arrangement, gain favor with Rohina in Sun Vale.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Rohina"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Flower Arrangement, gain favor with Floxie in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Flower Arrangement, gain favor with Floxie in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The art of arranging flowers so that they evoke strong emotions.",
 		"GuestLevelCap": 0,
@@ -8510,11 +8705,17 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Foraging, gain favor with Jesina the Fairy in Eltibule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_JesinatheFairy"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Foraging, gain favor with Jesina the Fairy in Eltibule.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_JesinatheFairy"
+				]
 			}
 		],
 		"AdvancementTable": "Foraging",
@@ -8628,7 +8829,6 @@
 		"XpTable": "GatheringSkill"
 	},
 	"Gadgeteering": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The ability to create elaborate contraptions that automate complex tasks.",
 		"GuestLevelCap": 0,
@@ -8649,7 +8849,6 @@
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Gaming": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in playing games, especially gambling games.",
 		"GuestLevelCap": 15,
@@ -8725,18 +8924,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Gardening, gain favor with Kelim in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Kelim"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Gardening, gain favor with Kelim in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Kelim"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Gardening, gain favor with Floxie in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Floxie"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Growing things in a garden: herbs, food, and flowers.",
 		"GuestLevelCap": 15,
@@ -8838,7 +9045,6 @@
 		"XpTable": "Gardening"
 	},
 	"GenderStudies": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "A careful exploration of gender roles and sexuality, focusing on Human, Elven, and Rakshasa cultures. This knowledge is not directly applicable to combat or crafting, but it helps you to be a well-rounded individual.",
 		"GuestLevelCap": 15,
@@ -8904,7 +9110,6 @@
 		"XpTable": "None"
 	},
 	"Genetics_Arthropods": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the genetics of spiders, insects, and scorpions.",
 		"GuestLevelCap": 15,
@@ -9006,7 +9211,6 @@
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Genetics_Cats": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the genetics of cats of all types.",
 		"GuestLevelCap": 15,
@@ -9020,7 +9224,6 @@
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Genetics_Ruminants": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the genetics of cud-chewing herbivores such as cows, sheep, deer, and camels.",
 		"GuestLevelCap": 15,
@@ -9035,7 +9238,6 @@
 	},
 	"Geology": {
 		"AdvancementHints": [],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Digging crystals out of the ground, and knowing what they do.",
 		"GuestLevelCap": 15,
@@ -9105,15 +9307,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Giant Bat, gain favor with Yavazek in Sun Vale's Animal Town.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Yavazek"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Giant Bat, gain favor with Yavazek in Sun Vale's Animal Town.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Yavazek"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Giant Bat, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerBat",
@@ -9378,21 +9589,20 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Druid",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Goblinese": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Fluency in the language of goblins.",
 		"GuestLevelCap": 15,
@@ -9441,7 +9651,6 @@
 	},
 	"Golf": {
 		"AdvancementHints": [],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in golf-related games. Covers any game involving the propulsion of an object toward a designated goal on the landscape.",
 		"GuestLevelCap": 15,
@@ -9519,15 +9728,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Hammer, gain favor with Falkrin Overstrike in Amulna.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_FalkrinOverstrike"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Hammer, gain favor with Falkrin Overstrike in Amulna.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_FalkrinOverstrike"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Hammer, gain favor with Solgribue in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Solgribue"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -9794,19 +10012,19 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Druid",
-			"Knife",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
+			"Archery",
+			"Bard",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
-			"Priest"
+			"Knife",
+			"Mentalism",
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Unarmed"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -9883,7 +10101,6 @@
 		"XpTable": "Hoplology"
 	},
 	"Howling": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in howling as a werewolf.",
 		"GuestLevelCap": 15,
@@ -9901,7 +10118,6 @@
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"IceConjuration": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "A sub-skill of Ice Magic dedicated to the creation of delicate ice items. These items tend to melt in hot environments.",
 		"GuestLevelCap": 0,
@@ -9918,15 +10134,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Ice Magic, gain favor with Ichin the Ice Master in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_IchintheIceMaster"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Ice Magic, gain favor with Ichin the Ice Master in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_IchintheIceMaster"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Ice Magic, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			}
 		],
 		"AdvancementTable": "FireMagic",
@@ -10865,24 +11090,24 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"FireMagic",
-			"Staff",
-			"Druid",
-			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
+			"Archery",
+			"Bard",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
+			"FireMagic",
+			"Knife",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Staff",
+			"Unarmed",
 			"Warden",
-			"Rabbit"
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -10890,11 +11115,17 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Industry, speak with Sheyna in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Sheyna"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Industry, speak with Sheyna in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Sheyna"
+				]
 			}
 		],
 		"AdvancementTable": "Industry",
@@ -10954,7 +11185,6 @@
 		"XpTable": "Industry"
 	},
 	"IocaineResistance": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Practiced resistance to the deadly mushroom poison known as Iocaine. (Each point of this skill reduces the damage from Iocaine-based poisons by 1%.)",
 		"GuestLevelCap": 15,
@@ -10985,14 +11215,21 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Jewelry Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Jewelry Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the techniques for creating Necklace Augments and Ring Augments. (Augments for other types of equipment are covered by other skills.)",
 		"GuestLevelCap": 0,
@@ -11054,14 +11291,19 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Jewelry Crafting, gain favor with Solgribue in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Solgribue"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Jewelry Crafting, gain favor with Solgribue in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Solgribue"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The ability to smith and shape raw materials into aesthetically-pleasing rings and necklaces.",
 		"GuestLevelCap": 15,
@@ -11106,15 +11348,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Knife, gain favor with Rick Snapley in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_RickSnapley"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Knife, gain favor with Rick Snapley in Gazluk.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_RickSnapley"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Knife, gain favor with Pegast in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Pegast"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -11490,26 +11741,26 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
 			"Mentalism",
-			"FairyMagic",
 			"Necromancy",
-			"Priest"
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -11517,18 +11768,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Leatherworking, gain favor with Sirine in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Sirine"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Leatherworking, gain favor with Sirine in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Sirine"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Leatherworking, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Turning leathers into armor and goods.",
 		"GuestLevelCap": 15,
@@ -11634,10 +11893,12 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Meditation, gain favor with Ashk in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Ashk"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in centering yourself and creating inner focus. This is especially helpful when using Unarmed combat skill.\n\nTo meditate, you must be near a Meditation Pillar. Each meditation also requires a simple focus item, such as a fruit or flower.",
 		"GuestLevelCap": 15,
@@ -11893,15 +12154,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Mentalism, gain favor with Rohina in Sun Vale.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Rohina"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Mentalism, gain favor with Rohina in Sun Vale.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Rohina"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Mentalism, gain favor with Raina in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Raina"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -12119,35 +12389,35 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"Priest"
+			"Necromancy",
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -12155,18 +12425,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Mining, gain favor with Urzab in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Urzab"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Mining, gain favor with Urzab in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Urzab"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Mining, gain favor with Dachak in Povus.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Dachak"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Digging metals and ores out of the ground.",
 		"GuestLevelCap": 15,
@@ -12240,10 +12518,12 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Mushroom Farming, gain favor with Hemmit Magmagrip in New Prestonbule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_HemmitMagmagrip"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The specialized skill of growing mushrooms in grow-boxes.",
 		"GuestLevelCap": 15,
@@ -12335,15 +12615,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Mycology, gain favor with Hemmit Magmagrip in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_HemmitMagmagrip"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Mycology, gain favor with Hemmit Magmagrip in Gazluk.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_HemmitMagmagrip"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Mycology, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
 		"AdvancementTable": "PowerPassive",
@@ -12424,7 +12713,6 @@
 		"XpTable": "GatheringSkill"
 	},
 	"Myconic": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the secret language of ancient fungus creatures.",
 		"GuestLevelCap": 15,
@@ -12457,18 +12745,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Nature Appreciation, gain favor with Crelpin in the Fae Realm.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Crelpin"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Nature Appreciation, gain favor with Crelpin in the Fae Realm.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Crelpin"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Nature Appreciation, gain favor with Crelpin in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Crelpin"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The ability to study nature and find inner peace and contentment. Even the most hardened warriors need the ability to appreciate nature.",
 		"GuestLevelCap": 15,
@@ -12563,15 +12859,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Necromancy, gain favor with Daniel Murderdark in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_DanielMurderdark"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Necromancy, gain favor with Daniel Murderdark in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_DanielMurderdark"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Necromancy, gain favor with Bendith the Banished in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -12922,35 +13227,35 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic"
+			"Necromancy",
+			"Pig",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -12958,18 +13263,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Non-Fiction Writing, gain favor with Hirochi in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Hirochi"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Non-Fiction Writing, gain favor with Wintria Irasce in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_WintriaIrasce"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Non-Fiction Writing, gain favor with Wintria Irasce in Rahu.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_WintriaIrasce"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in writing non-fiction books, including textbooks.",
 		"GuestLevelCap": 15,
@@ -13040,7 +13353,6 @@
 		"XpTable": "Notoriety"
 	},
 	"Oratory": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The ability to speak in public in a way that moves your audience.",
 		"GuestLevelCap": 15,
@@ -13083,7 +13395,6 @@
 		"XpTable": "Oratory"
 	},
 	"Orcish": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Fluency in Orcish, the ancient language of orcs -- as well as many other races and cultures.",
 		"GuestLevelCap": 15,
@@ -13131,7 +13442,6 @@
 		"XpTable": "Goblinese"
 	},
 	"Paleontology": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Studying the past through old fossilized bones. Infamous for its primay research method: necromantic reanimation. The higher your Paleontology skill, the more bones you are likely to find when excavating a site. Higher skill also gives chances to find fossils in the loot of some monsters.",
 		"GuestLevelCap": 15,
@@ -13187,18 +13497,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Pathology, gain favor with Ashk in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Ashk"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Pathology, gain favor with Ashk in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Ashk"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Pathology, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in figuring out how someone or something died. Higher skill allows more details to be determined and more difficult organisms to be examined.",
 		"GuestLevelCap": 15,
@@ -13259,7 +13577,6 @@
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Performance": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "This umbrella skill represents your ability to entertain with performances of music, acrobatics, dance, art, recitals, and so on.",
 		"GuestLevelCap": 15,
@@ -13321,116 +13638,115 @@
 				"Level": 65
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": true,
 		"Description": "Skill in dancing to music in a way that entertains or moves others.\n\nOnce you reach level 10 in this skill you'll have all the basics. At that point you can learn hidden dance moves, which will increase your level cap.",
 		"GuestLevelCap": 15,
 		"Id": 136,
 		"InteractionFlagLevelCaps": [
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 95,
 				"Skill": "Dance",
 				"SkillCap": 100
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 10,
 				"Skill": "Dance",
 				"SkillCap": 15
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 15,
 				"Skill": "Dance",
 				"SkillCap": 20
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 20,
 				"Skill": "Dance",
 				"SkillCap": 25
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 25,
 				"Skill": "Dance",
 				"SkillCap": 30
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 30,
 				"Skill": "Dance",
 				"SkillCap": 35
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 35,
 				"Skill": "Dance",
 				"SkillCap": 40
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 40,
 				"Skill": "Dance",
 				"SkillCap": 45
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 45,
 				"Skill": "Dance",
 				"SkillCap": 50
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 50,
 				"Skill": "Dance",
 				"SkillCap": 55
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 55,
 				"Skill": "Dance",
 				"SkillCap": 60
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 60,
 				"Skill": "Dance",
 				"SkillCap": 65
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 65,
 				"Skill": "Dance",
 				"SkillCap": 70
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 70,
 				"Skill": "Dance",
 				"SkillCap": 75
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 75,
 				"Skill": "Dance",
 				"SkillCap": 80
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 80,
 				"Skill": "Dance",
 				"SkillCap": 85
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 85,
 				"Skill": "Dance",
 				"SkillCap": 90
 			},
 			{
-				"IsPerformanceSkill": false,
+				"IsPerformanceSkill": true,
 				"Level": 90,
 				"Skill": "Dance",
 				"SkillCap": 95
@@ -13535,7 +13851,6 @@
 				"Level": 20
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": true,
 		"Description": "Skill in performing with percussion instruments such as drums, bells, and dulcimers.",
 		"GuestLevelCap": 0,
@@ -13686,7 +14001,6 @@
 				"Level": 10
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": true,
 		"Description": "Skill in performing with stringed instruments such as harps, lutes, and guitars.",
 		"GuestLevelCap": 0,
@@ -13801,7 +14115,6 @@
 				"Level": 10
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": true,
 		"Description": "Skill in performing with brass and woodwind instruments such as trumpets, ocarinas, and flutes.",
 		"GuestLevelCap": 0,
@@ -13910,7 +14223,6 @@
 		"XpTable": "PerformanceSkill"
 	},
 	"Phrenology": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how sentient creatures think and feel, based on careful study of the shape of their skulls. This umbrella skill represents your overall Phrenological prowess. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -13938,7 +14250,6 @@
 		"XpTable": "None"
 	},
 	"Phrenology_Aberrations": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how sentient aberrations think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14013,7 +14324,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Crones": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how crones think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14088,7 +14398,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Demons": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how demons think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14163,7 +14472,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Dwarves": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how dwarves think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14238,7 +14546,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Elves": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how elves think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14313,7 +14620,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Fae": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how fairies think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14388,7 +14694,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Giants": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how giants think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14463,7 +14768,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Goblins": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how goblins think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14538,7 +14842,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Humans": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how humans think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14613,7 +14916,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Orcs": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how orcs think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14688,7 +14990,6 @@
 		"XpTable": "Phrenology"
 	},
 	"Phrenology_Rakshasa": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "An understanding of how rakshasa think and feel, based on careful study of the shape of their skulls. (Phrenology skills provide critical-hit chances to all Psychology and Mentalism attacks against the corresponding type of creature. Phrenology also has more esoteric uses.)",
 		"GuestLevelCap": 15,
@@ -14766,15 +15067,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Pig, gain favor with Norbert in Sun Vale's \"Animal Town\".",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Norbert"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Pig, gain favor with Norbert in Sun Vale's \"Animal Town\".",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Norbert"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Pig, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerPig",
@@ -15049,20 +15359,19 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"PoetryAppreciation": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in finding the meaning of poems, especially difficult and tedious ones.",
 		"GuestLevelCap": 15,
@@ -15114,15 +15423,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Priest, gain favor with Aralorn in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Aralorn"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Priest, gain favor with Aralorn in Gazluk.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Aralorn"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Priest, gain favor with Raina in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Raina"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -15402,40 +15720,39 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Werewolf",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
 			"Mentalism",
-			"FairyMagic"
+			"Pig",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Productivity": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "(unused)",
 		"GuestLevelCap": 15,
@@ -15450,15 +15767,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Psychology, gain favor with Nissim in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Nissim"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Psychology, gain favor with Nissim in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Nissim"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Psychology, gain favor with Raina in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Raina"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -15702,36 +16028,36 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -15739,15 +16065,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Rabbit, gain favor with Cinnamon in Sun Vale's \"Animal Town\".",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Cinnamon"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Rabbit, gain favor with Cinnamon in Sun Vale's \"Animal Town\".",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Cinnamon"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Rabbit, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerPig",
@@ -15967,21 +16302,20 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"IceMagic",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
+			"IceMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Race_Fae": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in things that only fairies can do.",
 		"GuestLevelCap": 15,
@@ -16156,7 +16490,6 @@
 		"XpTable": "Lore"
 	},
 	"Race_Orc": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in performing uniquely orcish activities, as well as skill in maneuvering orcish society.",
 		"GuestLevelCap": 15,
@@ -16232,15 +16565,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Riding, gain favor with Mythander in Eltibule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Mythander"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Riding, gain favor with Pasha in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Pasha"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Riding, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
 		"AdvancementTable": "Riding",
@@ -16326,18 +16668,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Saddlery, gain favor with Pasha in Amulna, a town in the Ilmari Desert.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Pasha"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Saddlery, gain favor with Pasha in Amulna, a town in the Ilmari Desert.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Pasha"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Saddlery, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Creating tack for horses, including saddles, saddlebags, and reins.",
 		"GuestLevelCap": 15,
@@ -16395,7 +16745,6 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Safecracking": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Expertise in opening safes, vaults, and other physical barriers.",
 		"GuestLevelCap": 15,
@@ -16447,7 +16796,10 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Shamanic Infusion, speak with Bogaku in the Rahu Sewers.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Bogaku"
+				]
 			}
 		],
 		"AdvancementTable": "BonusInventoryFolderAt25",
@@ -16683,15 +17035,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Shield, gain favor with Sir Johnson in Amulna.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_SirJohnson"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Shield, gain favor with Sir Johnson in Amulna.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_SirJohnson"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Shield, gain favor with Pegast in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Pegast"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -16954,25 +17315,25 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -16980,10 +17341,12 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Sigil Scripting, gain favor with Kohan in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Kohan"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "Using magical inks and arcane rituals to create areas of power.",
@@ -17059,18 +17422,28 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Skinning, gain favor with Nishika or Rugen in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Nishika",
+					"NPC_Rugen"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Skinning, gain favor with Nishika or Rugen in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Nishika",
+					"NPC_Rugen"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Skinning, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in the act of removing fur or skin from an animal. You need to be carrying a Skinning Knife in order to skin a corpse. Corpses of sentient creatures, such as goblins and humans, can't be skinned.",
 		"GuestLevelCap": 15,
@@ -17160,15 +17533,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Spider, gain favor with Legs in Sun Vale's \"Animal Town.\"",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Legs"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Spider, gain favor with Legs in Sun Vale's \"Animal Town.\"",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Legs"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Spider, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerSpider",
@@ -17390,15 +17772,15 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Druid",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -17407,15 +17789,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Spirit Fox, gain favor with Mittens in Kur.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Mittens"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Spirit Fox, gain favor with Mittens in Kur.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Mittens"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Spirit Fox, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerPig",
@@ -17650,14 +18041,14 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -17666,15 +18057,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Staff, gain favor with Roshun The Traitor outside of Serbule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_RoshunTheTraitor"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Staff, gain favor with Roshun The Traitor outside of Serbule.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_RoshunTheTraitor"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Staff, gain favor with Pegast in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Pegast"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -17865,27 +18265,26 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"FireMagic",
-			"Druid",
-			"IceMagic",
-			"WeatherWitching",
-			"Knife",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
+			"Archery",
+			"Bard",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"Druid",
 			"FairyMagic",
-			"Priest"
+			"FireMagic",
+			"IceMagic",
+			"Knife",
+			"Mentalism",
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Unarmed",
+			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Stoneworking": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The use of stone in construction and decoration.",
 		"GuestLevelCap": 15,
@@ -17899,15 +18298,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Surveying, gain favor with Urzab in Amulna.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Urzab"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Surveying, gain favor with Urzab in Amulna.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Urzab"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Surveying, gain favor with Dachak in Povus.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Dachak"
+				]
 			}
 		],
 		"AdvancementTable": "Surveying",
@@ -17993,15 +18401,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Survival Instincts, gain favor with Sanja in Kur Mountains.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Sanja"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Survival Instincts, gain favor with Sanja in Kur Mountains.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Sanja"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Survival Instincts, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
 		"AdvancementTable": "BonusInventoryFolderAt50",
@@ -18125,7 +18542,6 @@
 		"XpTable": "AuxCombatSkill"
 	},
 	"SushiPreparation": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "A sub-skill of Cooking used in the creation of delicious fish meals.",
 		"GuestLevelCap": 0,
@@ -18154,15 +18570,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Sword, gain favor with Janet Lews in Kur Mountains.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_JanetLews"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Sword, gain favor with Janet Lews in Kur Mountains.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_JanetLews"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Sword, gain favor with Pegast in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Pegast"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -18371,18 +18796,18 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Knife",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
+			"Archery",
+			"Bard",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
-			"Priest"
+			"Knife",
+			"Mentalism",
+			"Necromancy",
+			"Priest",
+			"Psychology",
+			"Shield",
+			"Unarmed"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -18390,15 +18815,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Tailoring, gain favor with Shirogin in Rahu, or with Elaina in Sun Vale's \"Animal Town.\"",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Shirogin"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Tailoring, gain favor with Shirogin in Rahu, or with Elaina in Sun Vale's \"Animal Town.\"",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Shirogin"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Tailoring, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
 		"AdvancementTable": "BonusInventoryFolderAt50",
@@ -18471,18 +18905,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Tanning, gain favor with Sirine in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Sirine"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Tanning, gain favor with Sirine in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Sirine"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Tanning, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The craft of turning disgusting animal skins, furs, and hides into leather, fleece, and other material ready to be used in clothing and armor.",
 		"GuestLevelCap": 15,
@@ -18605,10 +19047,12 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Textile Creation, gain favor with George Madler in Eltibule.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_GeorgeMadler"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The craft of turning raw ingredients into cloth. Textile creation includes cotton, wool, silk, and many other fiber types. Cloth made from animal hides (e.g. leather) comes from the Tanning skill instead.",
 		"GuestLevelCap": 15,
@@ -18675,18 +19119,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Toolcrafting, gain favor with Amutasa in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Amutasa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Toolcrafting, gain favor with Amutasa in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Amutasa"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Toolcrafting, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Skill in the creation of advanced tools and unusual equipment. Far more than just creating hand tools, an expert Toolcrafter is a master of repurposing found materials, and can create belts, armors, and even weapons from unusual materials. This equipment is usually designed to meet very specialized needs.",
 		"GuestLevelCap": 15,
@@ -18762,14 +19214,19 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Transmutation, speak with Sona in Gazluk.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Sona"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Transmutation, speak with Sona in Gazluk.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Sona"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The science of permanently altering how a magical item works. Also covers manipulation of the basic materials of magic, such as phlogiston.",
 		"GuestLevelCap": 0,
@@ -18835,15 +19292,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Unarmed, gain favor with Furlak in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Furlak"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Unarmed, gain favor with Furlak in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Furlak"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Unarmed, gain favor with Pegast in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Pegast"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -19053,41 +19519,40 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Sword",
+			"AnimalHandling",
+			"Archery",
 			"Axe",
-			"FireMagic",
-			"Staff",
-			"Hammer",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
 			"IceMagic",
 			"Knife",
-			"WeatherWitching",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"Warden",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
-			"Priest"
+			"Necromancy",
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Vocabulary": {
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of many words in the common language.",
 		"GuestLevelCap": 15,
@@ -19102,15 +19567,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Warden, gain favor with Barnaby in the Sacred Grotto.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Barnaby"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Warden, gain favor with Barnaby in the Sacred Grotto.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Barnaby"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Warden, gain favor with Backfat in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Backfat"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -19161,26 +19635,26 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Druid",
-			"IceMagic",
-			"Pig",
-			"ChargedPig",
-			"Deer",
-			"Cow",
-			"Spider",
-			"GiantBat",
-			"Werewolf",
-			"Rabbit",
-			"SpiritFox",
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
+			"ChargedPig",
+			"Cow",
+			"Deer",
+			"Druid",
 			"FairyMagic",
+			"GiantBat",
+			"IceMagic",
+			"Mentalism",
+			"Necromancy",
+			"Pig",
 			"Priest",
-			"WeatherWitching"
+			"Psychology",
+			"Rabbit",
+			"Spider",
+			"SpiritFox",
+			"Unarmed",
+			"WeatherWitching",
+			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -19188,14 +19662,21 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Weapon Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Weapon Augmentation, gain favor with Kohan or Ufkar in Rahu.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Kohan",
+					"NPC_Ufkar"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "Knowledge of the techniques for creating Weapon Augments, Off-Hand Augments, and Glove Augments. (Augments for other types of equipment are covered by other skills.)",
 		"GuestLevelCap": 0,
@@ -19257,15 +19738,24 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Weather Witching, gain favor with Merriana in Serbule Hills.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_Merriana"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Weather Witching, gain favor with Merriana in Serbule Hills.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_Merriana"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Weather Witching, gain favor with Felmer in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_Felmer"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -19315,22 +19805,22 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"FireMagic",
-			"Staff",
+			"AnimalHandling",
+			"Archery",
+			"Bard",
+			"BattleChemistry",
 			"Druid",
+			"FairyMagic",
+			"FireMagic",
 			"IceMagic",
 			"Knife",
-			"Archery",
-			"Shield",
-			"Bard",
-			"Unarmed",
-			"Psychology",
-			"AnimalHandling",
-			"BattleChemistry",
-			"Necromancy",
 			"Mentalism",
-			"FairyMagic",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Shield",
+			"Staff",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -19339,15 +19829,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Lycanthropy, seek out the Altar of Norala during a full moon, or Sanja in Kur Mountains.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_theAltarofNoraladuringafullmoon,",
+					"NPC_Sanja"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Lycanthropy, seek out the Altar of Norala during a full moon, or Sanja in Kur Mountains.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_theAltarofNoraladuringafullmoon,",
+					"NPC_Sanja"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Lycanthropy, gain favor with Noita the Green in the Fae Realm.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_NoitatheGreen"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerWerewolf",
@@ -19498,14 +19999,14 @@
 			}
 		],
 		"TSysCompatibleCombatSkills": [
-			"Unarmed",
-			"Psychology",
 			"AnimalHandling",
 			"BattleChemistry",
-			"Necromancy",
-			"Mentalism",
 			"FairyMagic",
+			"Mentalism",
+			"Necromancy",
 			"Priest",
+			"Psychology",
+			"Unarmed",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -19528,18 +20029,26 @@
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Whittling, gain favor with Brugo the Wise in Povus.",
-				"Level": 50
+				"Level": 50,
+				"Npcs": [
+					"NPC_BrugotheWise"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Whittling, gain favor with Brugo the Wise in Povus.",
-				"Level": 60
+				"Level": 60,
+				"Npcs": [
+					"NPC_BrugotheWise"
+				]
 			},
 			{
 				"Hint": "To earn more XP in Whittling, gain favor with Brugo the Wise in Povus.",
-				"Level": 70
+				"Level": 70,
+				"Npcs": [
+					"NPC_BrugotheWise"
+				]
 			}
 		],
-		"AdvancementTable": "null",
 		"Combat": false,
 		"Description": "The art of turning wood into little artistic thingies.",
 		"GuestLevelCap": 15,
