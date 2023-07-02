@@ -69,7 +69,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Unarmed",
@@ -111,7 +110,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Sword",
@@ -154,7 +152,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -192,7 +189,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -230,7 +226,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -268,7 +263,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Sword",
@@ -401,7 +395,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -447,7 +440,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -485,7 +477,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -568,7 +559,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -606,7 +596,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Mycology",
@@ -654,7 +643,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Mycology",
@@ -697,7 +685,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Fishing",
@@ -845,7 +832,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -893,7 +879,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -941,7 +926,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -985,7 +969,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -1033,7 +1016,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -1071,7 +1053,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -1114,7 +1095,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -1157,7 +1137,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -1200,7 +1179,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "FireMagic",
@@ -1248,7 +1226,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CabbageSoup",
@@ -1295,7 +1272,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Cooking",
@@ -1338,7 +1314,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Cooking",
@@ -1381,7 +1356,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Cooking",
@@ -1429,7 +1403,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -1473,7 +1446,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 400,
@@ -1516,7 +1488,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 600,
@@ -1559,7 +1530,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 400,
@@ -1602,7 +1572,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -1651,7 +1620,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -1694,7 +1662,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -1737,7 +1704,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Lore",
@@ -1793,7 +1759,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -1831,7 +1796,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -1874,7 +1838,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Unarmed",
@@ -1921,7 +1884,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -1963,7 +1925,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -2005,7 +1966,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -2048,7 +2008,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -2086,7 +2045,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -2124,7 +2082,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -2162,7 +2119,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -2210,7 +2166,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "ChickenPsiMantisStyle",
@@ -2256,7 +2211,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -2331,7 +2285,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -2384,7 +2337,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -2433,7 +2385,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -2477,7 +2428,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -2527,7 +2477,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 25,
@@ -2570,7 +2519,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -2613,7 +2561,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -2660,7 +2607,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -2703,7 +2649,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -2747,7 +2692,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -2791,7 +2735,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -2834,7 +2777,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -2877,7 +2819,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -2925,7 +2866,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 300,
@@ -2968,7 +2908,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -3015,7 +2954,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 700,
@@ -3058,7 +2996,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Mycology",
@@ -3106,7 +3043,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3158,7 +3094,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3202,7 +3137,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3246,7 +3180,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -3290,7 +3223,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 200,
@@ -3353,7 +3285,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3397,7 +3328,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3444,7 +3374,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "BuckleArtistry",
@@ -3491,7 +3420,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -3534,7 +3462,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3577,7 +3504,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -3630,7 +3556,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -3674,7 +3599,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3717,7 +3641,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3798,7 +3721,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -3851,7 +3773,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -3898,7 +3819,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -3945,7 +3865,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -3991,7 +3910,6 @@
 				"T": "GeneralShape"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4029,7 +3947,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4072,7 +3989,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4115,7 +4031,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4158,7 +4073,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -4201,7 +4115,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -4244,7 +4157,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4287,7 +4199,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4330,7 +4241,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4373,7 +4283,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -4416,7 +4325,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4459,7 +4367,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 125,
@@ -4487,7 +4394,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"12504": {
@@ -4509,7 +4415,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"12505": {
@@ -4552,7 +4457,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"12506": {
@@ -4567,7 +4471,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"12601": {
@@ -4598,7 +4501,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -4642,7 +4544,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 10,
@@ -4685,7 +4586,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 10,
@@ -4728,7 +4628,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4772,7 +4671,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -4816,7 +4714,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -5018,7 +4915,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -5061,7 +4957,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -5104,7 +4999,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -5147,7 +5041,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -5190,7 +5083,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Textiles",
@@ -5238,7 +5130,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Textiles",
@@ -5286,7 +5177,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Textiles",
@@ -5334,7 +5224,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -5376,7 +5265,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -5419,7 +5307,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -5457,7 +5344,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -5500,7 +5386,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 200,
@@ -5543,7 +5428,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -5591,7 +5475,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -5685,7 +5568,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -5728,7 +5610,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -5772,7 +5653,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -5816,7 +5696,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "GuavaBowl",
@@ -5858,7 +5737,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -5901,7 +5779,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Riding",
@@ -5944,7 +5821,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -5987,7 +5863,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6031,7 +5906,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -6075,7 +5949,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6119,7 +5992,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6163,7 +6035,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -6206,7 +6077,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6242,7 +6112,6 @@
 			}
 		],
 		"PrefaceText": "You rub my feet enough, I might rub yours. Not feet, though - more like bring me some premium candle-quality fat. Then we'll see if I let you in.",
-		"ReuseTime": {},
 		"SuccessText": "Is this premium fat? It looks like shitty fat to me. And it stinks! Ugghh... this is disgusting! This is how you make candles!? Screw this!\n\n",
 		"Version": 1
 	},
@@ -6274,7 +6143,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6317,7 +6185,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -6360,7 +6227,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -6404,7 +6270,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6447,7 +6312,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -6490,7 +6354,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -6576,7 +6439,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6614,7 +6476,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -6652,7 +6513,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -6695,7 +6555,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -6738,7 +6597,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -6781,7 +6639,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 750,
@@ -6824,7 +6681,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1500,
@@ -6872,7 +6728,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -6919,7 +6774,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -6966,7 +6820,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -7009,7 +6862,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -7052,7 +6904,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -7100,7 +6951,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Surveying",
@@ -7153,7 +7003,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Mining",
@@ -7201,7 +7050,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -7252,7 +7100,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -7295,7 +7142,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -7342,7 +7188,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -7389,7 +7234,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 125,
@@ -7433,7 +7277,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -7491,7 +7334,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -7534,7 +7376,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -7587,7 +7428,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -7634,7 +7474,6 @@
 				"T": "HangOutCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2500,
@@ -7708,7 +7547,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -7759,7 +7597,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Ability": "Rotflesh7",
@@ -7814,7 +7651,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -7875,7 +7711,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Transmutation",
@@ -8009,7 +7844,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -8057,7 +7891,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -8095,7 +7928,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -8138,7 +7970,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Tanning",
@@ -8181,7 +8012,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Tanning",
@@ -8224,7 +8054,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Leatherworking",
@@ -8272,7 +8101,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -8315,7 +8143,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -8363,7 +8190,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -8407,7 +8233,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -8454,7 +8279,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "GrapefishAndEggs",
@@ -8496,7 +8320,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -8540,7 +8363,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -8578,7 +8400,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -8621,7 +8442,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 200,
@@ -8665,7 +8485,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -8709,7 +8528,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -8757,7 +8575,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -8800,7 +8617,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -8848,7 +8664,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1200,
@@ -8896,7 +8711,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 750,
@@ -8944,7 +8758,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -8991,7 +8804,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -9034,7 +8846,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -9082,7 +8893,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -9126,7 +8936,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -9177,7 +8986,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -9220,7 +9028,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -9273,7 +9080,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -9325,7 +9131,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -9377,7 +9182,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -9425,7 +9229,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -9468,7 +9271,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -9516,7 +9318,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -9564,7 +9365,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -9612,7 +9412,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -9660,7 +9459,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -9708,7 +9506,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -9756,7 +9553,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -9804,7 +9600,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -9847,7 +9642,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -9890,7 +9684,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1500,
@@ -9933,7 +9726,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1500,
@@ -9976,7 +9768,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Sword",
@@ -10019,7 +9810,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10062,7 +9852,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -10105,7 +9894,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10143,7 +9931,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10181,7 +9968,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "FerocityJuice1",
@@ -10223,7 +10009,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10266,7 +10051,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Cooking",
@@ -10309,7 +10093,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10352,7 +10135,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -10395,7 +10177,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -10437,7 +10218,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"InteractionFlag": "RahuSewer_Opened_SecondDoor",
@@ -10474,7 +10254,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10517,7 +10296,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10560,7 +10338,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10603,7 +10380,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10646,7 +10422,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10689,7 +10464,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10732,7 +10506,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10776,7 +10549,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10819,7 +10591,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10863,7 +10634,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10906,7 +10676,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10953,7 +10722,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -10999,7 +10767,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -11045,7 +10812,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -11799,7 +11565,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Blanche",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Sword",
@@ -11837,7 +11602,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -11880,7 +11644,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -11923,7 +11686,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -11980,7 +11742,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -12052,7 +11813,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "XpEarnedBoost10",
@@ -12096,7 +11856,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "ParasolMushroomFlakes",
@@ -12152,7 +11911,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 15,
@@ -12198,7 +11956,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Race_Fae",
@@ -12255,7 +12012,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12312,7 +12068,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12370,7 +12125,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12474,7 +12228,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"17206": {
@@ -12508,7 +12261,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Race_Fae",
@@ -12573,7 +12325,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12642,7 +12393,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12711,7 +12461,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12780,7 +12529,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -12814,7 +12562,6 @@
 			}
 		],
 		"PrefaceText": "You've awakened in a strange place and you don't remember anything. You get the feeling this has happened to you before... but maybe not as badly as this.\n\nA fairy woman standing nearby waves and flutters more quickly when she sees you. Maybe she can help you.",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"17306": {
@@ -12839,7 +12586,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"17307": {
@@ -12864,7 +12610,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"17308": {
@@ -12889,7 +12634,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"17309": {
@@ -12914,7 +12658,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"17310": {
@@ -13026,7 +12769,6 @@
 			}
 		],
 		"PrefaceText": "You've awakened in a strange place and you don't remember anything. You need to get your feet under you, get your wings flapping, and figure out what happened and where you are.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Item": "CouncilCoinpurse2",
@@ -13078,7 +12820,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13136,7 +12877,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13194,7 +12934,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13252,7 +12991,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13357,7 +13095,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -13414,7 +13151,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13476,7 +13212,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13533,7 +13268,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "LemonPuffs",
@@ -13589,7 +13323,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "MushroomCircleHop",
@@ -13645,7 +13378,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "ToastedSprigganNuts",
@@ -13701,7 +13433,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13758,7 +13489,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -13816,7 +13546,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CavefishSupper",
@@ -13872,7 +13601,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -13930,7 +13658,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "RusticMeatsterpiece",
@@ -13986,7 +13713,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -14097,7 +13823,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -14146,7 +13871,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Race_Fae",
@@ -14195,7 +13919,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Race_Fae",
@@ -14922,7 +14645,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -14980,7 +14702,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -15016,7 +14737,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Fainor",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "BeastSpeech",
@@ -15054,7 +14774,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Alchemy",
@@ -15102,7 +14821,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2500,
@@ -15145,7 +14863,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 4000,
@@ -15193,7 +14910,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 4000,
@@ -15236,7 +14952,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 12000,
@@ -15279,7 +14994,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -15322,7 +15036,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -15365,7 +15078,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -15408,7 +15120,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -15451,7 +15162,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -15494,7 +15204,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 750,
@@ -15541,7 +15250,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -15588,7 +15296,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -15656,7 +15363,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -15699,7 +15405,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 10000,
@@ -15742,7 +15447,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5000,
@@ -15789,7 +15493,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5000,
@@ -15832,7 +15535,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5000,
@@ -15883,7 +15585,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CoatGlowyYellowCrystals",
@@ -15925,7 +15626,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -15977,7 +15677,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -16025,7 +15724,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -16072,7 +15770,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -16125,7 +15822,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -16167,7 +15863,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2172,
@@ -16216,7 +15911,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -16264,7 +15958,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -16307,7 +16000,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 3000,
@@ -16350,7 +16042,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -16393,7 +16084,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "ToxinResistPotion8",
@@ -16440,7 +16130,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -16490,7 +16179,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Harry",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Cow",
@@ -16533,7 +16221,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -16576,7 +16263,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 750,
@@ -16619,7 +16305,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1500,
@@ -16662,7 +16347,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -16705,7 +16389,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -16748,7 +16431,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -16791,7 +16473,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 100,
@@ -16839,7 +16520,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -16881,7 +16561,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 63,
@@ -16929,7 +16608,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -16972,7 +16650,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -17015,7 +16692,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 350,
@@ -17058,7 +16734,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -17109,7 +16784,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 400,
@@ -17183,7 +16857,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 700,
@@ -17226,7 +16899,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -17270,7 +16942,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -17308,7 +16979,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Sword",
@@ -17356,7 +17026,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Calligraphy",
@@ -17399,7 +17068,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "OnionOmelet",
@@ -17441,7 +17109,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Mycology",
@@ -17484,7 +17151,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -17527,7 +17193,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Gardening",
@@ -17581,7 +17246,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -17632,7 +17296,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -17683,7 +17346,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -17738,7 +17400,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -17793,7 +17454,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -17848,7 +17508,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -17900,7 +17559,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -17943,7 +17601,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -18339,7 +17996,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Blanche",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Lore",
@@ -18362,7 +18018,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Cow",
@@ -18450,7 +18105,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -18493,7 +18147,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -18536,7 +18189,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -18579,7 +18231,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -18622,7 +18273,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -18665,7 +18315,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -18708,7 +18357,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Leatherworking",
@@ -18756,7 +18404,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -18799,7 +18446,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -18842,7 +18488,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "LycansporeBomb1",
@@ -18884,7 +18529,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -18988,7 +18632,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2500,
@@ -19031,7 +18674,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -19074,7 +18716,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -19118,7 +18759,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -19161,7 +18801,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -19249,7 +18888,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2500,
@@ -19292,7 +18930,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -19335,7 +18972,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -19378,7 +19014,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -19422,7 +19057,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -19465,7 +19099,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -19516,7 +19149,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -19563,7 +19195,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -19605,7 +19236,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -19648,7 +19278,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -19699,7 +19328,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -19743,7 +19371,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -19786,7 +19413,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -19824,7 +19450,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -19862,7 +19487,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -19900,7 +19524,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -19934,7 +19557,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Level": 5,
@@ -19972,7 +19594,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -20015,7 +19636,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -20059,7 +19679,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -20102,7 +19721,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -20146,7 +19764,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -20189,7 +19806,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1500,
@@ -20232,7 +19848,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 200,
@@ -20275,7 +19890,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -20318,7 +19932,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -20362,7 +19975,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -20405,7 +20017,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -20454,7 +20065,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "JewelryAugmentBrewing",
@@ -20497,7 +20107,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 400,
@@ -20540,7 +20149,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -20588,7 +20196,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Toolcrafting",
@@ -20635,7 +20242,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 200,
@@ -20677,7 +20283,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -20725,7 +20330,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -20772,7 +20376,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -20815,7 +20418,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -20858,7 +20460,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -20905,7 +20506,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -20948,7 +20548,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 600,
@@ -21199,7 +20798,6 @@
 		],
 		"PrefaceText": "Hey, do me a favor, go burn yourself on some of those eldritch candles scattered around the crypt southwest of town. I want to study the burn patterns. Each candle should leave a distinct burn mark. Just go touch four of them and come back.\n\nOh it won't hurt THAT much, you big baby!",
 		"PrerequisiteFavorLevel": "Neutral",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "FirstAid",
@@ -21242,7 +20840,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Myconic",
@@ -21293,7 +20890,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Myconic",
@@ -21336,7 +20932,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -21378,7 +20973,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -21421,7 +21015,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -21473,7 +21066,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -21528,7 +21120,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -21571,7 +21162,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -21614,7 +21204,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -21657,7 +21246,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -21700,7 +21288,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -21743,7 +21330,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Lore",
@@ -21790,7 +21376,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -21837,7 +21422,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -21881,7 +21465,6 @@
 				"Type": "Kill"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 0
 	},
 	"22601": {
@@ -23411,7 +22994,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "ArmorPatching",
@@ -23454,7 +23036,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23497,7 +23078,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23540,7 +23120,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23584,7 +23163,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -23622,7 +23200,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 10000,
@@ -23671,7 +23248,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23714,7 +23290,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23757,7 +23332,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23802,7 +23376,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -23848,7 +23421,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -23891,7 +23463,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -23939,7 +23510,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Toolcrafting",
@@ -23991,7 +23561,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Toolcrafting",
@@ -24043,7 +23612,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Toolcrafting",
@@ -24091,7 +23659,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Toolcrafting",
@@ -24138,7 +23705,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24174,7 +23740,6 @@
 			}
 		],
 		"PrefaceText": "The ocean perch tend to stay away from this area. They know I'll catch 'em! But I don't really want to get up right now. Sitting on the beach just relaxing feels so good. Anyway, can you bring me a passel of perch? The freshest ones are the ones you catch yourself!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -24219,7 +23784,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24265,7 +23829,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24310,7 +23873,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24356,7 +23918,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24443,7 +24004,6 @@
 				"T": "Or"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -24480,7 +24040,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24525,7 +24084,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24571,7 +24129,6 @@
 				"T": "Race"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -24614,7 +24171,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -24661,7 +24217,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -24708,7 +24263,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -24755,7 +24309,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -24804,7 +24357,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 250,
@@ -24851,7 +24403,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -24895,7 +24446,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -24946,7 +24496,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -25001,7 +24550,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -25056,7 +24604,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -25098,7 +24645,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -25141,7 +24687,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -25189,7 +24734,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -25237,7 +24781,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -25285,7 +24828,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2000,
@@ -25325,7 +24867,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Marna",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "PoisonResistPotion5",
@@ -25367,7 +24908,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -25410,7 +24950,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -25454,7 +24993,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 10000,
@@ -25497,7 +25035,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -25540,7 +25077,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -25584,7 +25120,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -25627,7 +25162,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 500,
@@ -25670,7 +25204,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -25713,7 +25246,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1000,
@@ -25756,7 +25288,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 35,
@@ -25800,7 +25331,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -25844,7 +25374,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -25888,7 +25417,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -29322,7 +28850,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Jara",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "FirstAid",
@@ -32970,7 +32497,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "ShowWardenEvents",
@@ -33033,7 +32559,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5,
@@ -33095,7 +32620,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 15,
@@ -33150,7 +32674,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 15,
@@ -33212,7 +32735,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 15,
@@ -33263,7 +32785,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5,
@@ -33325,7 +32846,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 7,
@@ -33394,7 +32914,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 10,
@@ -33449,7 +32968,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 15,
@@ -33500,7 +33018,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5,
@@ -33551,7 +33068,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5,
@@ -33602,7 +33118,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 5,
@@ -33653,7 +33168,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 8,
@@ -33703,7 +33217,6 @@
 			}
 		],
 		"QuestNpc": "AreaEltibule/NPC_Hogan",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Staff",
@@ -34344,7 +33857,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -36518,7 +36030,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -36559,7 +36070,6 @@
 			}
 		],
 		"PrefaceText": "In my spare time I dabble in artistic weapon improvements, and I'm working on a dazzling khopesh. But I need more raw materials!\n\nI'm not a smith, but if I had enough old broken blades, I could probably fulfill my artistic vision.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -36596,7 +36106,6 @@
 			}
 		],
 		"PrefaceText": "In my spare time I work to artistically enhance weapons, and I'm working on a hammer that needs a new wrap. I know just the material! Kuvou tongue! Can you get me some?",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -36646,7 +36155,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -36696,7 +36204,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -36733,7 +36240,6 @@
 			}
 		],
 		"PrefaceText": "If I'm to quickly become a master of paleontology, I need a constant supply of bones to study! But I can't go collect the bones, since that would require me to stop studying. Perhaps you're for hire? I will pay you for 10 good old fossils.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -36821,7 +36327,6 @@
 			}
 		],
 		"PrefaceText": "Perhaps a smoke-break would help me focus. The 'horta here is very mellow. Do you happen to have any? Oh, and I lost my pipe in a recent skirmish with a fish man. I need a new one!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -36863,7 +36368,6 @@
 			}
 		],
 		"PrefaceText": "The ratkin used to be friendly. When I was younger, they would come into town and I'd sell 'em vegetables! But after the fall of Povus they attack on sight. I had to give up mining because of them. I wish somebody would teach 'em a lesson for me! Hint, hint.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -36907,7 +36411,6 @@
 			}
 		],
 		"PrefaceText": "See the giant mushrooms off in the distance? Yeah, those are new. Not even a year old, in fact, and whatever it means, it's definitely bad.\n\nBut you look like the sort who will wander over there anyway. If you do, can you pick some false agaric for me?\n\nYou can find false agaric all around Povus, so if you <i>aren't</i> brave, just look elsewhere.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -36949,7 +36452,6 @@
 			}
 		],
 		"PrefaceText": "If I'm going to run an armor shop again I'll need more grizlark, and Leah's kuvou are dead. But there's still feral kuvou! If you just let them spit on you and collect that into a bottle, I'll pay you.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -37038,7 +36540,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "FireMagic",
@@ -37202,7 +36703,6 @@
 			}
 		],
 		"PrefaceText": "I used to walk the riverbank and collect old fishing nets. I use them for all sorts of crafts! But it's too dangerous to do that these days. If you find some nets, though, I'd like them! I can't pay much, but I'll pay a bit.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -37238,7 +36738,6 @@
 			}
 		],
 		"PrefaceText": "I don't get much work in animal husbandry any more, but I got an order from an old customer, and I would love to fill it! But what he needs is an aphrodesiac for his pet bees! Of all the weird pets, bees are way up there. I do know how to make what he needs... I just need some high-quality tallow. Could I ask you to render some for me?",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -37281,7 +36780,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -37328,7 +36826,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -37366,7 +36863,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -37457,7 +36953,6 @@
 			}
 		],
 		"PrefaceText": "I need new types of fungus to improve my fungal forest. These species do not grow natively here, so I must ask for assistance.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -37596,7 +37091,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -37651,7 +37145,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -37701,7 +37194,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -37744,7 +37236,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -37796,7 +37287,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 25,
@@ -37839,7 +37329,6 @@
 				"T": "MinSkillLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CraftedOrcishPlateShoes6E",
@@ -37921,7 +37410,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CraftedOrcishPlateShoes7E",
@@ -38003,7 +37491,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CraftedOrcishPlateShoes8E",
@@ -38085,7 +37572,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CraftedOrcishPlateShoes9E",
@@ -38171,7 +37657,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "CraftedWerewolfShoes9E",
@@ -38253,7 +37738,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -38295,7 +37779,6 @@
 				"T": "InteractionFlagSet"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -38338,7 +37821,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Goblinese",
@@ -38381,7 +37863,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -38424,7 +37905,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -38467,7 +37947,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -38522,7 +38001,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 75,
@@ -38565,7 +38043,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -38617,7 +38094,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -38669,7 +38145,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -38713,7 +38188,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 100,
@@ -38765,7 +38239,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 150,
@@ -38800,7 +38273,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Lore",
@@ -38835,7 +38307,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Hulon",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "BeastSpeech",
@@ -38864,7 +38335,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_MushroomJack",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Mycology",
@@ -38939,7 +38409,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "FirstAid",
@@ -40834,7 +40303,6 @@
 			}
 		],
 		"QuestNpc": "AreaKurMountains/NPC_JaceSoral",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Werewolf",
@@ -40862,7 +40330,6 @@
 			}
 		],
 		"QuestNpc": "AreaNewbieIsland/NPC_Riger",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Alchemy",
@@ -40898,7 +40365,6 @@
 				"T": "MinFavorLevel"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Favor": 50,
@@ -40933,7 +40399,6 @@
 			}
 		],
 		"QuestNpc": "AreaKurMountains/NPC_Landri",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"35": {
@@ -40956,7 +40421,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_LeonardAllenson",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "BeastSpeech",
@@ -40986,7 +40450,6 @@
 			}
 		],
 		"QuestNpc": "AreaNewbieIsland/NPC_Elmetaph",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"37": {
@@ -41009,7 +40472,6 @@
 			}
 		],
 		"QuestNpc": "AreaNewbieIsland/NPC_Elmetaph",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"38": {
@@ -41037,7 +40499,6 @@
 			}
 		],
 		"QuestNpc": "AreaNewbieIsland/NPC_Elmetaph",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"39": {
@@ -41053,7 +40514,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Yurra",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"4": {
@@ -41076,7 +40536,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Harry",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Item": "WerewolfSpit",
@@ -41099,7 +40558,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Yurra",
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"40001": {
@@ -41628,7 +41086,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Azalak",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Item": "PsychicResistPotion10",
@@ -41656,7 +41113,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"43": {
@@ -41677,7 +41133,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Item": "CouncilCoinpurse1",
@@ -41704,7 +41159,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"44001": {
@@ -41729,7 +41183,6 @@
 			}
 		],
 		"PrefaceText": "Greetings, taker of fish. I cannot tell if you are a friend or foe of nature. If you be a friend, help make my home clean. A surface-walker dumped hundreds of bottles of rancid liquids in here, and then left. They are making fish sick.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Angling",
@@ -41768,7 +41221,6 @@
 			}
 		],
 		"PrefaceText": "You can hear me, can you not? Then you are more than a mere fishmonger! You've taken fish, now can you give back to the sea?\n\nPinfish have invaded this brackish water. They are outcompeting us. It's not fair; it isn't right.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "PanfriedPinfish",
@@ -41809,7 +41261,6 @@
 			}
 		],
 		"PrefaceText": "A non-ranalon! Please help!\n\nThe ranalon are mostly very kind to nature, but their scray are a problem. It's already a very crowded lake, and the scray just laid more eggs! If those eggs hatch, it will be disaster for the native lake fish. Get them out!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Angling",
@@ -41855,7 +41306,6 @@
 			}
 		],
 		"PrefaceText": "Can you hear me? Then you must answer my plea. I am but a humble immortal telepathic fish and I cannot save my home! There are slugs are everywhere! Please remove them!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "AnglingBait1",
@@ -41892,7 +41342,6 @@
 			}
 		],
 		"PrefaceText": "You are a reasonable fisher, I hope. This lake needs your help to remain a fishing paradise! A human dumped fish in this lake a season ago. One of those fish has grown into a cruel, gigantic, horrible death beast! It only comes out at night. Please get it out of here!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "PickledPike",
@@ -41934,7 +41383,6 @@
 			}
 		],
 		"PrefaceText": "Greetings! Are you a druid? Or just psychic? I need your help either way!\n\nDruids used growth magic on the fish here, which was nice at first. But one of the local clownfish managed to get a triple dose of magic and now he's out of control! He's massive! You can catch him when he hunts -- either at dusk or dawn. Please catch him!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "HoneyGlazedMahiMahi",
@@ -41977,7 +41425,6 @@
 			}
 		],
 		"PrefaceText": "You don't seem to be an ice fairy. Can you help us? We fish are dying! The ice fairies let loose horrible unnatural fish in the lake. They're making things cold! Please remove them.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "AnglingBait2",
@@ -42019,7 +41466,6 @@
 			}
 		],
 		"PrefaceText": "Help! The frogs are raising vicious eels that kill everything else! We can't compete! You have to help us! You must!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Angling",
@@ -42057,7 +41503,6 @@
 			}
 		],
 		"PrefaceText": "Grutak! Hello! Viazink? Oh, the second one works! Hello! A moon ago a ship came here. As it was offloading land-dweller junk, one of the crates fell into the sea near the beach. The crate is full of deadly poison! Fortunately, the poison is currently frozen solid. But when summer comes, it will melt, and we'll die! Save us!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "BakedTilapiaWithMushrooms",
@@ -42100,7 +41545,6 @@
 			}
 		],
 		"PrefaceText": "I've done it! I've pierced the veil of your mind! You can hear me! That's great news! So long story short, I was a wizard's familiar back in the day. Now I'm just trying to raise a slug family in safety. The geyser slug is our hero -- keeps us safe from most predators. But we still have a problem. There's a huge and particularly cruel dorado swimming in here. Can you get him out? He only comes out at night. And hurry: he already ate one of my children! I have a lot more, but still.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "AlmondCrustedWalleye",
@@ -42142,7 +41586,6 @@
 			}
 		],
 		"PrefaceText": "Hello... Hello... Hello... Hello... Wait! It finally worked! I've been trying to reach you for a while. You gotta help us, chief! Most of my friends aren't as smart as me and they're eating toxic seaweed and dying. It just flowed in last night, and already we lost Mertie. That's what I called him. He didn't answer to the name, of course. But he was a good cod who didn't deserve to die that way.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "AnglingBait2",
@@ -42184,7 +41627,6 @@
 			}
 		],
 		"PrefaceText": "Welcome to my home, friend of nature. I am a sea treant and you are welcome here. But I could use your help. My homewater is overrun with ghost bass. They eat all the food, and then fade away at dawn, taking the food with them! Even worse, I am psychic and can feel their angst. These fish were maimed and tortured to death! They suffer. You must help them, and us. Please! The ghosts only come out at night.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "SmokedSmallmouthBass",
@@ -42227,7 +41669,6 @@
 			}
 		],
 		"PrefaceText": "Finally! One of you orcs is psychic! Or whatever you are. Look, enough is enough. You orcs have had plenty of time to catch him. You even gave him a name! While Old Dreadtooth might just be a fish story for you, he's a HORRIBLE MONSTER for us! You have to get him out of here! Just wait until midnight when he shows up, then catch him!",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "AnglingBait3",
@@ -42269,7 +41710,6 @@
 			}
 		],
 		"PrefaceText": "They come at night! The froooooggggsss! It's just too much! As a sovereign independent psychic insect lord I demand you aid my swampy kingdom. Please? The frogs come out at dusk and they leave a while after. Come on. Do a bug a favor.",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Recipe": "AnglingBait3",
@@ -42328,7 +41768,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Item": "MacGuffin_BrokenNAMA",
@@ -56428,7 +55867,6 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 2,
@@ -57124,7 +56562,6 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1,
@@ -57178,7 +56615,6 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Amount": 1,
@@ -59006,7 +58442,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 1
 	},
 	"47": {
@@ -59073,7 +58508,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 0
 	},
 	"48": {
@@ -59104,7 +58538,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 2
 	},
 	"49": {
@@ -59139,7 +58572,6 @@
 				"T": "HangOutCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 0
 	},
 	"5": {
@@ -59173,7 +58605,6 @@
 			}
 		],
 		"QuestNpc": "AreaSerbule/NPC_Velkort",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Lore",
@@ -59210,7 +58641,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 0
 	},
 	"50001": {
@@ -83131,7 +82561,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Version": 0
 	},
 	"51001": {
@@ -114273,7 +113702,6 @@
 			}
 		],
 		"QuestNpc": "AreaEltibule/NPC_Oritania",
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Pathology",
@@ -114309,7 +113737,6 @@
 				"T": "QuestCompleted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Pathology",
@@ -114348,7 +113775,6 @@
 				"Type": "Scripted"
 			}
 		],
-		"ReuseTime": {},
 		"Rewards": [
 			{
 				"Skill": "Sword",
