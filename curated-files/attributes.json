@@ -2860,6 +2860,15 @@
 		],
 		"Label": "Spit Acid Health Damage over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT3_HEARTTHORN": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3481
+		],
+		"Label": "Heart Thorn Acid Damage Over Time (Per Tick)"
+	},
 	"BOOST_ABILITYDOT_AGGRESSIONDETERRENT": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -3023,6 +3032,14 @@
 		],
 		"Label": "Debilitating Blow Damage over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_DEERKICK_EGGS": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2152
+		],
+		"Label": "Deer Kick Insect Eggs Damage (Per sec)"
+	},
 	"BOOST_ABILITYDOT_DELUGE": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -3072,6 +3089,14 @@
 		],
 		"Label": "Fiery Bolt Damage Over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_FINISHINGBLOW": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2106
+		],
+		"Label": "Finishing Blow Delayed Damage"
+	},
 	"BOOST_ABILITYDOT_FIREARROW": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -3105,6 +3130,14 @@
 			3739
 		],
 		"Label": "Flamestrike Damage over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_FLASHINGSTRIKE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3443
+		],
+		"Label": "Flashing Strike Undead Damage"
 	},
 	"BOOST_ABILITYDOT_GIANTBAT_SONICNATURE": {
 		"DefaultValue": 0,
@@ -3217,6 +3250,14 @@
 			3630
 		],
 		"Label": "Mangling Shot Damage Over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_MANYCUTS": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2113
+		],
+		"Label": "Many Cuts Damage over Time (Per Tick)"
 	},
 	"BOOST_ABILITYDOT_MOLTENVEINS": {
 		"DefaultValue": 0,
@@ -3710,7 +3751,7 @@
 		"IconIds": [
 			3691
 		],
-		"Label": "Bun-Fu Blitz Damage"
+		"Label": "Bun-Fu Kick Damage"
 	},
 	"BOOST_ABILITY_BUNFUKICK_DELAYED": {
 		"DefaultValue": 0,
@@ -3719,7 +3760,7 @@
 		"IconIds": [
 			3691
 		],
-		"Label": "Bun-Fu Blitz Delayed Trauma Damage"
+		"Label": "Bun-Fu Kick Delayed Trauma Damage"
 	},
 	"BOOST_ABILITY_BUNFUSTRIKE": {
 		"DefaultValue": 0,
@@ -3846,6 +3887,15 @@
 			108
 		],
 		"Label": "Core Attack Damage"
+	},
+	"BOOST_ABILITY_COREPOISONATTACK": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Core Attack Damage (Poison Only)"
 	},
 	"BOOST_ABILITY_CORRUPTHATE": {
 		"DefaultValue": 0,
@@ -4474,6 +4524,15 @@
 		],
 		"Label": "Infinite Legs Damage"
 	},
+	"BOOST_ABILITY_INFINITELEGS_TSYSDMG": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3442
+		],
+		"Label": "Extra Infinite Legs Damage"
+	},
 	"BOOST_ABILITY_INFURIATINGBASH": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4708,6 +4767,15 @@
 		],
 		"Label": "Mycotoxin Bomb Damage"
 	},
+	"BOOST_ABILITY_NICEACIDATTACK": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Nice Attack Damage (Acid Only)"
+	},
 	"BOOST_ABILITY_NICEATTACK": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4716,6 +4784,15 @@
 			108
 		],
 		"Label": "Nice Attack Damage"
+	},
+	"BOOST_ABILITY_NICEPOISONATTACK": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Nice Attack Damage (Poison Only)"
 	},
 	"BOOST_ABILITY_NIP": {
 		"DefaultValue": 0,
@@ -10031,7 +10108,7 @@
 		"IconIds": [
 			3691
 		],
-		"Label": "Bun-Fu Blitz Damage %"
+		"Label": "Bun-Fu Kick Damage %"
 	},
 	"MOD_ABILITY_BUNFUSTRIKE": {
 		"DefaultValue": 1,

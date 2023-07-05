@@ -10,6 +10,34 @@ The modified files are made available to simplify JSON deserialization (original
 + When appropriate, root object keys are not prefixed, and only the key is preserved. For instance, `item_40112` becomes `40112`. With this change, files can be deserialized as dictionaries with `int` keys.
 + `{ }` and `[ ]` become `{}` and `[]` respectively.
 + Colors are normalized to the `RRGGBB` hex format (upper case). Ex: `red` becomes `FF0000`. When present, the alpha part is removed because it's always `FF`.
++ Some area names are normalized across files:
+
+| Original Name    | Normalized Name |
+|------------------|-----------------|
+| Ilmari           | Desert1         |
+| Kur              | KurMountains    |
+| Kur Mountains    | KurMountains    |
+| Khyrulek's Crypt | Tomb1           |
+| Anagoge Island   | NewbieIsland    |
+| Serbule Caves    | SerbuleCaves    |
+| Serbule Hills    | Serbule2        |
+| Ilmari Desert    | Desert1         |
+| Sun Vale         | SunVale         |
+| Hogan's Keep     | Cave1           |
+| Gazluk Dungeons  | GazlukCaves     |
+| Gazluk Plateau   | Gazluk          |
+| Wolf Cave        | Cave2           |
+| Myconian Caverns | MyconianCave    |
+| Gazluk Keep      | GazlukKeep      |
+| Ranalon Den      | RanalonDen      |
+| Red Wing Casino  | Casino          |
+| Rahu Caves       | RahuCaves       |
+| Rahu Sewer       | RahuSewer       |
+| Rahu Sewers      | RahuSewers      |
+| Fae Realm        | FaeRealm        |
+| Sacred Grotto    | SacredGrotto    |
+| A New Life       | ANewLife        |
+| WNS Wintertide   | WNSWintertide   |
 
 ## abilities.json
 
@@ -34,6 +62,7 @@ becomes
 	"SecondaryColor": "FFC080"
 }
 ```
++ In the `ParticleName` field of the `AbilityParticle` object, `Wolf-SeeRed` is replaced by `WolfSeeRed`.
 + The `TargetTypeTagReq` field becomes `TargetTypeTagRequirement` and its content starting with `AnatomyType_` now starts with `Anatomy_` (to match skill names). Ex:
 ```
 "TargetTypeTagReq": "AnatomyType_Arthropods"
@@ -42,7 +71,21 @@ becomes
 ```
 "TargetTypeTagRequirement": "Anatomy_Arthropods"
 ```
-+ `InventoryKeywordReqErrorMessage`, `InventoryKeywordReqs`, `ItemKeywordReqErrorMessage`, `ItemKeywordReqs`, `PetTypeTagReq`, `PetTypeTagReqMax`, `SpecialTargetingTypeReq` and `TargetEffectKeywordReq` are renamed to `InventoryKeywordRequirementErrorMessage`, `ItemKeywordRequirementErrorMessage`, `InventoryKeywordRequirements`, `ItemKeywordRequirements`, `PetTypeTagRequirement`, `PetTypeTagRequirementMax`, `SpecialTargetingTypeRequirement` and `TargetEffectKeywordRequirement` respectively.
++ `InventoryKeywordReqErrorMessage`, `InventoryKeywordReqs`, `ItemKeywordReqErrorMessage`, `PetTypeTagReq`, `PetTypeTagReqMax`, `SpecialTargetingTypeReq` and `TargetEffectKeywordReq` are renamed to `InventoryKeywordRequirementErrorMessage`, `ItemKeywordRequirementErrorMessage`, `InventoryKeywordRequirements`, `PetTypeTagRequirement`, `PetTypeTagRequirementMax`, `SpecialTargetingTypeRequirement` and `TargetEffectKeywordRequirement` respectively.
++ `ItemKeywordReqs` is renamed to `ItemKeywordRequirements` and split in two fields: `FormRequirement` if the original field contains a `form:` keyword, and other keywords remain in `ItemKeywordRequirements`. Ex:
+```
+"ItemKeywordReqs": [
+	"EmptyHand",
+	"form:Deer"
+],
+```
+becomes
+```
+"FormRequirement": "Deer",
+"ItemKeywordRequirements": [
+	"EmptyHand"
+]
+```
 + `InternalAbility` is renamed to `IsInternalAbility`.
 + `AoEIsCenteredOnCaster` is renamed to `IsAoECenteredOnCaster`.
 + `Rank` becomes an integer field.
@@ -223,11 +266,13 @@ becomes
 	"ParticleName": "ShadowFeintOrigin"
 }
 ```
++ In the new `EffectParticle` field `OnFire-Green` is changed to `OnFireGreen`.
++ In `StackingType`, `Lamia's Gaze` and `1` are changed to `LamiasGaze` and `One` respectively.
 
 ## items.json
 
 + `FoodDesc`, `IsSkillReqsDefaults`, `NumUses` and `SkillReqs` are renamed to `FoodDescription`, `IsSkillRequirementsDefaults`, `NumberOfUses` and `SkillRequirements` respectively.
-+ `DroppedAppearance` is converted to an object with fields like `Skin`, `Cork`, etc. The `^` prefix is removed, both in field names and values. Ex:
++ `DroppedAppearance` is converted to an object with fields like `Skin`, `Cork`, etc. The `^` prefix is removed, both in field names and values. Also any hyphen in appearances is replaced with an underscore. Ex:
 ```
 "DroppedAppearance": "LootPotion1(Color=red)",
 "DroppedAppearance": "AlchemyBulb5(^Skin=AlchemyBulbs;^Cork=AlchemyBulbs)",
@@ -425,6 +470,7 @@ become
 ```
 + In NPC preferences, `"Favor": "Error"` is just removed.
 + In NPC preferences, `Pref` is renamed to `PreferenceMultiplier`.
++ In the NPC preferences `Keywords` field, `Crafted:y` is changed to `CraftedYes`.
 + NPC preferences are sorted by desire, from love to hate.
 
 ## playertitles.json
@@ -659,9 +705,11 @@ becomes
 	"SecondaryColor": "BE8DFF"
 }
 ```
-+ `IsItemMenuKeywordReqSufficient`, `ItemMenuKeywordReq`, `NumResultItems` and `SkillLevelReq` are renamed to `IsItemMenuKeywordRequirementSufficient`, `ItemMenuKeywordRequirement`, `NumberOfResultItems` and `SkillLevelRequirement` respectively.
++ `IsItemMenuKeywordReqSufficient`, `NumResultItems` and `SkillLevelReq` are renamed to `IsItemMenuKeywordRequirementSufficient`, `NumberOfResultItems` and `SkillLevelRequirement` respectively.
 + `ResultItems` is removed if it's an empty array.
-+ In recipe ingredients and resulting items, `Desc` is renamed to `Description`.
++ In recipe ingredients and resulting items
+  - `Desc` is renamed to `Description`.
+  - In `ItemKeys` any colon is replaced with an underscore, and the first exclamation mark is replaced with `Not`.
 + `ResultEffect` is converted to an object. Some effects are converted by filling additional parameters. See examples below:
 ```
 "WhittlingKnifeBuff1",
@@ -680,6 +728,7 @@ becomes
 "DeltaCurFairyEnergy(-10)",
 "Teleport(AreaSerbule, Landing_Boat)",
 "CreateMiningSurvey8Y(MiningSurveyPovus8Y)",
+"CreateGeologySurveyRedwall(GeologySurveySerbule0)",
 "SpawnPremonition_All_2sec",
 "PermanentlyRaiseMaxTempestEnergy(1)",
 "CraftingResetItem",
@@ -776,7 +825,7 @@ become
 	"Type": "DeltaCurFairyEnergy"
 },
 {
-	"Area": "Serbule",
+	"AreaName": "Serbule",
 	"Other": "Landing Boat",
 	"Type": "Teleport"
 },
@@ -784,6 +833,11 @@ become
 	"Effect": "8Y",
 	"Item": "MiningSurveyPovus8Y",
 	"Type": "CreateMiningSurvey"
+},
+{
+	"Effect": "Redwall",
+	"Item": "GeologySurveySerbule0",
+	"Type": "CreateGeologySurvey"
 },
 {
 	"DurationInSeconds": 2,
@@ -805,6 +859,7 @@ become
 ```
 + If `ItemMenuCategory` is `TSysExtract` or `TSysDistill` these values are renamed to `Extract` and `Distill` respectively.
 + Changed `ChanceToConsume`, `DurabilityConsumed` and `PercentChance` to integer percentages.
++ `ItemMenuKeywordReq` is renamed to `ItemMenuKeywordRequirement` and the value `MinRarity:Uncommon` is changed to `MinRarity_Uncommon`.
 
 ## skills.json
 
@@ -908,7 +963,7 @@ becomes
 ## storagevaults.json
 
 + `Requirements` is always an array, even if it contains only one object (which is currently the case).
-+ `"Area": "*"` is removed, and the `Area` prefix is removed in the `Area` field.
++ The `Area` field is renamed to `AreaName`, the `Area` prefix is removed and the whole `"Area": "*"` value is removed.
 + `NumSlots` is renamed to `NumberOfSlots`.
 
 ## tsysclientinfo.json
@@ -1021,7 +1076,10 @@ become
 	}
 ],
 ```
++ Some typo are fixed:
+  - `Sic Em` is changed to `Sic 'Em`.
+  - `anf` is changed to `and`.
 
 ## xptables.json
 
-No change.
++ `Cooking-unused` is replaced with `CookingUnused`.

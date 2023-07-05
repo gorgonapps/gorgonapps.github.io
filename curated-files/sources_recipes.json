@@ -16964,7 +16964,7 @@
 	"25622": {
 		"Entries": [
 			{
-				"QuestId": 44062,
+				"QuestId": 44064,
 				"Type": "Quest"
 			},
 			{
@@ -20070,6 +20070,14 @@
 			}
 		]
 	},
+	"52": {
+		"Entries": [
+			{
+				"Npc": "NPC_RoshunTheTraitor",
+				"Type": "Training"
+			}
+		]
+	},
 	"520": {
 		"Entries": [
 			{
@@ -20140,6 +20148,14 @@
 			{
 				"ItemTypeId": 2548,
 				"Type": "Item"
+			}
+		]
+	},
+	"53": {
+		"Entries": [
+			{
+				"Npc": "NPC_RoshunTheTraitor",
+				"Type": "Training"
 			}
 		]
 	},
@@ -20224,6 +20240,14 @@
 			}
 		]
 	},
+	"54": {
+		"Entries": [
+			{
+				"Npc": "NPC_RoshunTheTraitor",
+				"Type": "Training"
+			}
+		]
+	},
 	"540": {
 		"Entries": [
 			{
@@ -20284,6 +20308,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Rugen",
+				"Type": "Training"
+			}
+		]
+	},
+	"55": {
+		"Entries": [
+			{
+				"Npc": "NPC_RoshunTheTraitor",
 				"Type": "Training"
 			}
 		]

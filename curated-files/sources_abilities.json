@@ -1598,7 +1598,7 @@
 	"1312": {
 		"Entries": [
 			{
-				"QuestId": 44062,
+				"QuestId": 44064,
 				"Type": "Quest"
 			}
 		]
@@ -10762,6 +10762,10 @@
 			{
 				"ItemTypeId": 31311,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11098,6 +11102,10 @@
 			{
 				"ItemTypeId": 31301,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11106,6 +11114,10 @@
 			{
 				"ItemTypeId": 31302,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11114,6 +11126,10 @@
 			{
 				"ItemTypeId": 31303,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11122,6 +11138,10 @@
 			{
 				"ItemTypeId": 31316,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11258,6 +11278,10 @@
 			{
 				"ItemTypeId": 31304,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11266,6 +11290,10 @@
 			{
 				"ItemTypeId": 31305,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11274,6 +11302,10 @@
 			{
 				"ItemTypeId": 31312,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11282,6 +11314,10 @@
 			{
 				"ItemTypeId": 31313,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11290,6 +11326,10 @@
 			{
 				"ItemTypeId": 31314,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11298,6 +11338,10 @@
 			{
 				"ItemTypeId": 31315,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11306,6 +11350,10 @@
 			{
 				"ItemTypeId": 31306,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11314,6 +11362,10 @@
 			{
 				"ItemTypeId": 31307,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11322,6 +11374,10 @@
 			{
 				"ItemTypeId": 31308,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11330,6 +11386,10 @@
 			{
 				"ItemTypeId": 31310,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11338,6 +11398,10 @@
 			{
 				"ItemTypeId": 31309,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},
@@ -11346,6 +11410,10 @@
 			{
 				"ItemTypeId": 31317,
 				"Type": "Item"
+			},
+			{
+				"Npc": "EventNPC_GiantBatMode",
+				"Type": "Training"
 			}
 		]
 	},

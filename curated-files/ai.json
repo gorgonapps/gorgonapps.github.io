@@ -1124,7 +1124,12 @@
 	},
 	"Cockatrice": {
 		"Abilities": {
-			"CockatriceParalyze": {},
+			"CockatriceParalyze": {
+				"MaxLevel": 75
+			},
+			"CockatriceParalyze2": {
+				"MinLevel": 76
+			},
 			"CockatricePeck": {},
 			"CockatriceTailWhip": {
 				"Cue": "DontClose"
@@ -2965,7 +2970,10 @@
 		"Abilities": {
 			"OrcFinishingBlowFire": {},
 			"OrcParryFire": {},
-			"OrcSwordSlashFire": {}
+			"OrcSwordSlashFire": {},
+			"OrcThrow": {
+				"Cue": "Slowed"
+			}
 		},
 		"Melee": true,
 		"Swimming": true
@@ -3011,6 +3019,9 @@
 	"OrcKnifer": {
 		"Abilities": {
 			"OrcSlice": {},
+			"OrcThrow": {
+				"Cue": "Slowed"
+			},
 			"OrcVenomstrike0": {}
 		},
 		"Melee": true,
@@ -3020,7 +3031,10 @@
 		"Abilities": {
 			"OrcFinishingBlow": {},
 			"OrcLieutenantDebuffTaunt": {},
-			"OrcSwordSlash": {}
+			"OrcSwordSlash": {},
+			"OrcThrow": {
+				"Cue": "Slowed"
+			}
 		},
 		"Melee": true,
 		"Swimming": true
@@ -3080,7 +3094,10 @@
 		"Abilities": {
 			"OrcFinishingBlow": {},
 			"OrcParry": {},
-			"OrcSwordSlash": {}
+			"OrcSwordSlash": {},
+			"OrcThrow": {
+				"Cue": "Slowed"
+			}
 		},
 		"Melee": true,
 		"Swimming": true
@@ -3089,7 +3106,10 @@
 		"Abilities": {
 			"OrcHipThrow": {},
 			"OrcKneeKick": {},
-			"OrcPunch": {}
+			"OrcPunch": {},
+			"OrcThrow": {
+				"Cue": "Slowed"
+			}
 		},
 		"Melee": true,
 		"Swimming": true
@@ -4128,6 +4148,7 @@
 	},
 	"SummonedDeer_Pet": {
 		"Abilities": {
+			"DeerAntlerSlash": {},
 			"DeerFrontKick": {},
 			"DeerRageKick": {}
 		},

@@ -746,6 +746,10 @@
 						"Value": 0.25
 					},
 					{
+						"Attribute": "IGNORE_CHANCE_SLOW",
+						"Value": 1
+					},
+					{
 						"Attribute": "VULN_BURST",
 						"Value": 0.5
 					},
@@ -1076,6 +1080,10 @@
 			{
 				"Attributes": [
 					{
+						"Attribute": "IGNORE_CHANCE_SLOW",
+						"Value": 1
+					},
+					{
 						"Attribute": "VULN_ACID",
 						"Value": 0.25
 					},
@@ -1124,6 +1132,18 @@
 			{
 				"Attributes": [
 					{
+						"Attribute": "IGNORE_CHANCE_FEAR",
+						"Value": 1
+					},
+					{
+						"Attribute": "IGNORE_CHANCE_MEZ",
+						"Value": 1
+					},
+					{
+						"Attribute": "IGNORE_CHANCE_SLOW",
+						"Value": 1
+					},
+					{
 						"Attribute": "NONCOMBAT_REGEN_HEALTH_MOD",
 						"Value": 0.2
 					},
@@ -1166,6 +1186,18 @@
 			{
 				"Attributes": [
 					{
+						"Attribute": "IGNORE_CHANCE_FEAR",
+						"Value": 1
+					},
+					{
+						"Attribute": "IGNORE_CHANCE_MEZ",
+						"Value": 1
+					},
+					{
+						"Attribute": "IGNORE_CHANCE_SLOW",
+						"Value": 1
+					},
+					{
 						"Attribute": "NONCOMBAT_REGEN_HEALTH_MOD",
 						"Value": 0.2
 					},
@@ -1203,6 +1235,18 @@
 		"Levels": [
 			{
 				"Attributes": [
+					{
+						"Attribute": "IGNORE_CHANCE_FEAR",
+						"Value": 1
+					},
+					{
+						"Attribute": "IGNORE_CHANCE_MEZ",
+						"Value": 1
+					},
+					{
+						"Attribute": "IGNORE_CHANCE_SLOW",
+						"Value": 1
+					},
 					{
 						"Attribute": "VULN_ACID",
 						"Value": -1
@@ -2419,6 +2463,10 @@
 		"Levels": [
 			{
 				"Attributes": [
+					{
+						"Attribute": "IGNORE_CHANCE_SLOW",
+						"Value": 1
+					},
 					{
 						"Attribute": "VULN_COLD",
 						"Value": -0.5
@@ -7952,10 +8000,6 @@
 			{
 				"Attributes": [
 					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
-					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
 					}
@@ -8043,10 +8087,6 @@
 			},
 			{
 				"Attributes": [
-					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
 					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
@@ -8140,10 +8180,6 @@
 			{
 				"Attributes": [
 					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
-					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
 					}
@@ -8231,10 +8267,6 @@
 			},
 			{
 				"Attributes": [
-					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
 					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
@@ -8324,10 +8356,6 @@
 			{
 				"Attributes": [
 					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
-					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
 					}
@@ -8415,10 +8443,6 @@
 			},
 			{
 				"Attributes": [
-					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
 					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
@@ -8537,10 +8561,6 @@
 			},
 			{
 				"Attributes": [
-					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
-					},
 					{
 						"Attribute": "NONCOMBAT_REGEN_ARMOR_DELTA",
 						"Value": 1
@@ -8716,10 +8736,6 @@
 					{
 						"Attribute": "COMBAT_REGEN_ARMOR_DELTA",
 						"Value": 2
-					},
-					{
-						"Attribute": "MAX_INVENTORY_SIZE",
-						"Value": 1
 					}
 				],
 				"Level": 75

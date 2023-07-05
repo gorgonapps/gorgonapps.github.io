@@ -4059,8 +4059,8 @@
 			{
 				"Description": "Main-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:MainHand",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_MainHand",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4094,8 +4094,8 @@
 			{
 				"Description": "Off-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:OffHand",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_OffHand",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4129,8 +4129,8 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Hands",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4164,8 +4164,8 @@
 			{
 				"Description": "Chest Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Chest",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Chest",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4199,8 +4199,8 @@
 			{
 				"Description": "Leg Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Legs",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Legs",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4234,8 +4234,8 @@
 			{
 				"Description": "Head Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Head",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Head",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4269,8 +4269,8 @@
 			{
 				"Description": "Footwear",
 				"ItemKeys": [
-					"EquipmentSlot:Feet",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Feet",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4304,8 +4304,8 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Ring",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4339,8 +4339,8 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace",
-					"MinTSysPrereq:0"
+					"EquipmentSlot_Necklace",
+					"MinTSysPrereq_0"
 				],
 				"StackSize": 1
 			}
@@ -4458,9 +4458,9 @@
 			{
 				"Description": "Main-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:MainHand",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_MainHand",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4510,9 +4510,9 @@
 			{
 				"Description": "Off-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:OffHand",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_OffHand",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4562,9 +4562,9 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Hands",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4614,9 +4614,9 @@
 			{
 				"Description": "Chest Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Chest",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Chest",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4666,9 +4666,9 @@
 			{
 				"Description": "Leg Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Legs",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Legs",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4718,9 +4718,9 @@
 			{
 				"Description": "Head Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Head",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Head",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4770,9 +4770,9 @@
 			{
 				"Description": "Footwear",
 				"ItemKeys": [
-					"EquipmentSlot:Feet",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Feet",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4822,9 +4822,9 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Ring",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4874,9 +4874,9 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"EquipmentSlot_Necklace",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			},
@@ -4964,9 +4964,9 @@
 			{
 				"Description": "Main-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:MainHand",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_MainHand",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5016,9 +5016,9 @@
 			{
 				"Description": "Off-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:OffHand",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_OffHand",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5068,9 +5068,9 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Hands",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5120,9 +5120,9 @@
 			{
 				"Description": "Chest Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Chest",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Chest",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5172,9 +5172,9 @@
 			{
 				"Description": "Leg Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Legs",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Legs",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5224,9 +5224,9 @@
 			{
 				"Description": "Head Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Head",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Head",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5276,9 +5276,9 @@
 			{
 				"Description": "Footwear",
 				"ItemKeys": [
-					"EquipmentSlot:Feet",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Feet",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5328,9 +5328,9 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Ring",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5380,9 +5380,9 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"EquipmentSlot_Necklace",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			},
@@ -5474,7 +5474,7 @@
 			{
 				"Description": "Main-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:MainHand"
+					"EquipmentSlot_MainHand"
 				],
 				"StackSize": 1
 			}
@@ -5511,7 +5511,7 @@
 			{
 				"Description": "Off-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:OffHand"
+					"EquipmentSlot_OffHand"
 				],
 				"StackSize": 1
 			}
@@ -5548,7 +5548,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -5585,7 +5585,7 @@
 			{
 				"Description": "Chest Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -5622,7 +5622,7 @@
 			{
 				"Description": "Leg Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -5659,7 +5659,7 @@
 			{
 				"Description": "Head Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -5696,7 +5696,7 @@
 			{
 				"Description": "Footwear",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -5733,7 +5733,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -5770,7 +5770,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -5844,9 +5844,9 @@
 			{
 				"Description": "Main-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:MainHand",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_MainHand",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -5896,9 +5896,9 @@
 			{
 				"Description": "Off-Hand Item",
 				"ItemKeys": [
-					"EquipmentSlot:OffHand",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_OffHand",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -5948,9 +5948,9 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Hands",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6000,9 +6000,9 @@
 			{
 				"Description": "Chest Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Chest",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Chest",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6052,9 +6052,9 @@
 			{
 				"Description": "Leg Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Legs",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Legs",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6104,9 +6104,9 @@
 			{
 				"Description": "Head Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Head",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Head",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6156,9 +6156,9 @@
 			{
 				"Description": "Footwear",
 				"ItemKeys": [
-					"EquipmentSlot:Feet",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Feet",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6208,9 +6208,9 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Ring",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6260,9 +6260,9 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"EquipmentSlot_Necklace",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			},
@@ -6967,9 +6967,9 @@
 				"Description": "Uncommon Magic Item (Lvl 0-30)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Uncommon",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"Rarity_Uncommon",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			}
@@ -7022,9 +7022,9 @@
 				"Description": "Rare Magic Item (Lvl 0-30)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Rare",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"Rarity_Rare",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			}
@@ -7076,9 +7076,9 @@
 				"Description": "Exceptional or Better Magic Item (Lvl 0-30)",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Exceptional",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"MinRarity_Exceptional",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			}
@@ -7129,9 +7129,9 @@
 				"Description": "Magic Item",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Uncommon",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"MinRarity_Uncommon",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			}
@@ -7178,9 +7178,9 @@
 				"Description": "Magic Item",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Uncommon",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"MinRarity_Uncommon",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			}
@@ -7227,9 +7227,9 @@
 				"Description": "Magic Item",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Uncommon",
-					"MinTSysPrereq:0",
-					"MaxTSysPrereq:30"
+					"MinRarity_Uncommon",
+					"MinTSysPrereq_0",
+					"MaxTSysPrereq_30"
 				],
 				"StackSize": 1
 			}
@@ -7276,9 +7276,9 @@
 				"Description": "Magic Item",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Uncommon",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"MinRarity_Uncommon",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			}
@@ -7325,9 +7325,9 @@
 				"Description": "Magic Item",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Uncommon",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"MinRarity_Uncommon",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			}
@@ -7374,8 +7374,8 @@
 				"Description": "Magic Item",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Legendary",
-					"Special:Mastercrafted"
+					"MinRarity_Legendary",
+					"Special_Mastercrafted"
 				],
 				"StackSize": 1
 			}
@@ -7461,9 +7461,9 @@
 				"Description": "Uncommon Magic Item (Lvl 31-60)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Uncommon",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"Rarity_Uncommon",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			}
@@ -7515,9 +7515,9 @@
 				"Description": "Rare Magic Item (Lvl 31-60)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Rare",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"Rarity_Rare",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			}
@@ -7569,9 +7569,9 @@
 				"Description": "Exceptional Magic Item (Lvl 31-60)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Exceptional",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"Rarity_Exceptional",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			}
@@ -7623,9 +7623,9 @@
 				"Description": "Epic or Legendary Magic Item (Lvl 31-60)",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Epic",
-					"MinTSysPrereq:31",
-					"MaxTSysPrereq:60"
+					"MinRarity_Epic",
+					"MinTSysPrereq_31",
+					"MaxTSysPrereq_60"
 				],
 				"StackSize": 1
 			}
@@ -7715,9 +7715,9 @@
 				"Description": "Uncommon Magic Item (Lvl 61-90)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Uncommon",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"Rarity_Uncommon",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			}
@@ -7769,9 +7769,9 @@
 				"Description": "Rare Magic Item (Lvl 61-90)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Rare",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"Rarity_Rare",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			}
@@ -7823,9 +7823,9 @@
 				"Description": "Exceptional Magic Item (Lvl 61-90)",
 				"ItemKeys": [
 					"Equipment",
-					"Rarity:Exceptional",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"Rarity_Exceptional",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			}
@@ -7877,9 +7877,9 @@
 				"Description": "Epic or Legendary Magic Item (Lvl 61-90)",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Epic",
-					"MinTSysPrereq:61",
-					"MaxTSysPrereq:90"
+					"MinRarity_Epic",
+					"MinTSysPrereq_61",
+					"MaxTSysPrereq_90"
 				],
 				"StackSize": 1
 			}
@@ -40069,7 +40069,7 @@
 	},
 	"141": {
 		"Description": "Creates bland but filling gruel.",
-		"IconId": 5016,
+		"IconId": 5816,
 		"Ingredients": [
 			{
 				"ItemCode": 5002,
@@ -92342,8 +92342,9 @@
 		"Name": "Serbule Rubywall Crystal Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyRedwall(GeologySurveySerbule0)",
-				"Type": "Special"
+				"Effect": "Redwall",
+				"Item": "GeologySurveySerbule0",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92380,8 +92381,9 @@
 		"Name": "Serbule Blue Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyBlue(GeologySurveySerbule1)",
-				"Type": "Special"
+				"Effect": "Blue",
+				"Item": "GeologySurveySerbule1",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92418,8 +92420,9 @@
 		"Name": "Serbule Green Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyGreen(GeologySurveySerbule2)",
-				"Type": "Special"
+				"Effect": "Green",
+				"Item": "GeologySurveySerbule2",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92456,8 +92459,9 @@
 		"Name": "Serbule White Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyWhite(GeologySurveySerbule4)",
-				"Type": "Special"
+				"Effect": "White",
+				"Item": "GeologySurveySerbule4",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92494,8 +92498,9 @@
 		"Name": "Serbule Hills Rubywall Crystal Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyRedwall(GeologySurveySouthSerbule0)",
-				"Type": "Special"
+				"Effect": "Redwall",
+				"Item": "GeologySurveySouthSerbule0",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92532,8 +92537,9 @@
 		"Name": "Serbule Hills Orange Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyOrange(GeologySurveySouthSerbule3)",
-				"Type": "Special"
+				"Effect": "Orange",
+				"Item": "GeologySurveySouthSerbule3",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92570,8 +92576,9 @@
 		"Name": "Serbule Hills White Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyWhite(GeologySurveySouthSerbule4)",
-				"Type": "Special"
+				"Effect": "White",
+				"Item": "GeologySurveySouthSerbule4",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92608,8 +92615,9 @@
 		"Name": "Eltibule Blue Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyBlue(GeologySurveyEltibule1)",
-				"Type": "Special"
+				"Effect": "Blue",
+				"Item": "GeologySurveyEltibule1",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92646,8 +92654,9 @@
 		"Name": "Eltibule Green Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyGreen(GeologySurveyEltibule2)",
-				"Type": "Special"
+				"Effect": "Green",
+				"Item": "GeologySurveyEltibule2",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92684,8 +92693,9 @@
 		"Name": "Eltibule Orange Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyOrange(GeologySurveyEltibule3)",
-				"Type": "Special"
+				"Effect": "Orange",
+				"Item": "GeologySurveyEltibule3",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92722,8 +92732,9 @@
 		"Name": "Kur Mountains Blue Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyBlue(GeologySurveyKurMountains1)",
-				"Type": "Special"
+				"Effect": "Blue",
+				"Item": "GeologySurveyKurMountains1",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92760,8 +92771,9 @@
 		"Name": "Kur Mountains Green Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyGreen(GeologySurveyKurMountains2)",
-				"Type": "Special"
+				"Effect": "Green",
+				"Item": "GeologySurveyKurMountains2",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92798,8 +92810,9 @@
 		"Name": "Kur Mountains Orange Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyOrange(GeologySurveyKurMountains3)",
-				"Type": "Special"
+				"Effect": "Orange",
+				"Item": "GeologySurveyKurMountains3",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -92836,8 +92849,9 @@
 		"Name": "Kur Mountains White Mineral Survey",
 		"ResultEffects": [
 			{
-				"Effect": "CreateGeologySurveyWhite(GeologySurveyKurMountains4)",
-				"Type": "Special"
+				"Effect": "White",
+				"Item": "GeologySurveyKurMountains4",
+				"Type": "CreateGeologySurvey"
 			}
 		],
 		"RewardSkill": "Surveying",
@@ -94754,13 +94768,13 @@
 				"Description": "Equipment",
 				"ItemKeys": [
 					"Equipment",
-					"MinRarity:Uncommon"
+					"MinRarity_Uncommon"
 				],
 				"StackSize": 1
 			}
 		],
 		"InternalName": "TurnEquipmentIntoFairyDust",
-		"ItemMenuKeywordRequirement": "MinRarity:Uncommon",
+		"ItemMenuKeywordRequirement": "MinRarity_Uncommon",
 		"ItemMenuLabel": "Turn Into Fairy Dust",
 		"Name": "Turn Equipment Into Fairy Dust",
 		"ResultEffects": [
@@ -109364,13 +109378,13 @@
 			}
 		],
 		"RewardSkill": "Angling",
-		"RewardSkillXp": 180,
-		"RewardSkillXpDropOffLevel": 55,
+		"RewardSkillXp": 120,
+		"RewardSkillXpDropOffLevel": 40,
 		"RewardSkillXpDropOffPct": 0.1,
 		"RewardSkillXpDropOffRate": 5,
-		"RewardSkillXpFirstTime": 720,
+		"RewardSkillXpFirstTime": 480,
 		"Skill": "Angling",
-		"SkillLevelRequirement": 45
+		"SkillLevelRequirement": 30
 	},
 	"25623": {
 		"ActionLabel": "Cut Bait",
@@ -109572,7 +109586,7 @@
 	},
 	"26003": {
 		"Description": "A stack (20) of pretty explosives for use in celebrations.",
-		"IconId": 5401,
+		"IconId": 6528,
 		"Ingredients": [
 			{
 				"ItemCode": 1002,
@@ -109612,7 +109626,7 @@
 	},
 	"26005": {
 		"Description": "A stack (20) of confetti bombs that can be used in celebrations.",
-		"IconId": 5522,
+		"IconId": 6530,
 		"Ingredients": [
 			{
 				"ItemCode": 1003,
@@ -112727,7 +112741,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -112776,7 +112790,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -112830,7 +112844,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -112884,7 +112898,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -112934,7 +112948,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -112983,7 +112997,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113037,7 +113051,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113087,7 +113101,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113136,7 +113150,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113190,7 +113204,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113240,7 +113254,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113293,7 +113307,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113347,7 +113361,7 @@
 			{
 				"Description": "Headgear",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			}
@@ -113397,7 +113411,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113446,7 +113460,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113500,7 +113514,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113554,7 +113568,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113604,7 +113618,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113653,7 +113667,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113707,7 +113721,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113761,7 +113775,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113811,7 +113825,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113860,7 +113874,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113914,7 +113928,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -113968,7 +113982,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -114018,7 +114032,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -114071,7 +114085,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -114125,7 +114139,7 @@
 			{
 				"Description": "Shirt",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			}
@@ -114175,7 +114189,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114224,7 +114238,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114278,7 +114292,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114332,7 +114346,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114382,7 +114396,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114431,7 +114445,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114485,7 +114499,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114535,7 +114549,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114584,7 +114598,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114638,7 +114652,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114688,7 +114702,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114741,7 +114755,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114795,7 +114809,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			}
@@ -114845,7 +114859,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -114894,7 +114908,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -114948,7 +114962,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115002,7 +115016,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115052,7 +115066,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115101,7 +115115,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115155,7 +115169,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115205,7 +115219,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115254,7 +115268,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115308,7 +115322,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115358,7 +115372,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115407,7 +115421,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115461,7 +115475,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115515,7 +115529,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115568,7 +115582,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115622,7 +115636,7 @@
 			{
 				"Description": "Pants",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			}
@@ -115672,7 +115686,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -115721,7 +115735,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -115775,7 +115789,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -115829,7 +115843,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -115879,7 +115893,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -115928,7 +115942,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -115982,7 +115996,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -116032,7 +116046,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -116081,7 +116095,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -116135,7 +116149,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			}
@@ -116185,7 +116199,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116234,7 +116248,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116288,7 +116302,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116338,7 +116352,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116387,7 +116401,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116441,7 +116455,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116491,7 +116505,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116540,7 +116554,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116594,7 +116608,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116648,7 +116662,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116701,7 +116715,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116755,7 +116769,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			}
@@ -116805,7 +116819,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -116854,7 +116868,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -116908,7 +116922,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -116962,7 +116976,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117012,7 +117026,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117061,7 +117075,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117115,7 +117129,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117165,7 +117179,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117214,7 +117228,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117268,7 +117282,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117322,7 +117336,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117375,7 +117389,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -117429,7 +117443,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			}
@@ -119254,7 +119268,7 @@
 			{
 				"Description": "Shoes",
 				"ItemKeys": [
-					"EquipmentSlot:Feet"
+					"EquipmentSlot_Feet"
 				],
 				"StackSize": 1
 			},
@@ -119297,7 +119311,7 @@
 			{
 				"Description": "Leg Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Legs"
+					"EquipmentSlot_Legs"
 				],
 				"StackSize": 1
 			},
@@ -119340,7 +119354,7 @@
 			{
 				"Description": "Chest Armor",
 				"ItemKeys": [
-					"EquipmentSlot:Chest"
+					"EquipmentSlot_Chest"
 				],
 				"StackSize": 1
 			},
@@ -119383,7 +119397,7 @@
 			{
 				"Description": "Gloves",
 				"ItemKeys": [
-					"EquipmentSlot:Hands"
+					"EquipmentSlot_Hands"
 				],
 				"StackSize": 1
 			},
@@ -119426,7 +119440,7 @@
 			{
 				"Description": "Helm",
 				"ItemKeys": [
-					"EquipmentSlot:Head"
+					"EquipmentSlot_Head"
 				],
 				"StackSize": 1
 			},
@@ -119469,7 +119483,7 @@
 			{
 				"Description": "Necklace",
 				"ItemKeys": [
-					"EquipmentSlot:Necklace"
+					"EquipmentSlot_Necklace"
 				],
 				"StackSize": 1
 			},
@@ -119512,7 +119526,7 @@
 			{
 				"Description": "Ring",
 				"ItemKeys": [
-					"EquipmentSlot:Ring"
+					"EquipmentSlot_Ring"
 				],
 				"StackSize": 1
 			},
@@ -119943,7 +119957,7 @@
 			{
 				"Description": "Item to send",
 				"ItemKeys": [
-					"!NoSendToSaddlebag"
+					"NotNoSendToSaddlebag"
 				],
 				"StackSize": 1
 			}
@@ -126466,6 +126480,41 @@
 		"Skill": "Cooking",
 		"SkillLevelRequirement": 14
 	},
+	"52": {
+		"Description": "Cut and clean a tonguefish.",
+		"IconId": 5036,
+		"Ingredients": [
+			{
+				"ItemCode": 5143,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "TonguefishFillet",
+		"IsItemMenuKeywordRequirementSufficient": true,
+		"ItemMenuKeywordRequirement": "Tonguefish",
+		"ItemMenuLabel": "Fillet Fish",
+		"Name": "Tonguefish Fillet",
+		"ResultItems": [
+			{
+				"ItemCode": 5242,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1004,
+				"PercentChance": 20,
+				"StackSize": 1
+			}
+		],
+		"RewardSkill": "Fishing",
+		"RewardSkillXp": 110,
+		"RewardSkillXpDropOffLevel": 65,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 440,
+		"Skill": "Fishing",
+		"SkillLevelRequirement": 55,
+		"SortSkill": "Cooking"
+	},
 	"520": {
 		"Description": "Creates a drink. Requires a stove or fire pit. There is a 10% chance the Meat Tenderizer will break.",
 		"IconId": 5396,
@@ -126826,6 +126875,41 @@
 		"UsageAnimation": "UseMeditationPillar",
 		"UsageDelay": 15,
 		"UsageDelayMessage": "Meditation"
+	},
+	"53": {
+		"Description": "Cut and clean a mukklo.",
+		"IconId": 5036,
+		"Ingredients": [
+			{
+				"ItemCode": 5144,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "MukkloFillet",
+		"IsItemMenuKeywordRequirementSufficient": true,
+		"ItemMenuKeywordRequirement": "Mukklo",
+		"ItemMenuLabel": "Fillet Fish",
+		"Name": "Mukklo Fillet",
+		"ResultItems": [
+			{
+				"ItemCode": 5243,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1004,
+				"PercentChance": 20,
+				"StackSize": 1
+			}
+		],
+		"RewardSkill": "Fishing",
+		"RewardSkillXp": 120,
+		"RewardSkillXpDropOffLevel": 70,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 480,
+		"Skill": "Fishing",
+		"SkillLevelRequirement": 60,
+		"SortSkill": "Cooking"
 	},
 	"530": {
 		"Description": "Creates a flavored shaved-ice treat. It must be eaten quickly before it melts!",
@@ -127197,6 +127281,41 @@
 		"Skill": "Cooking",
 		"SkillLevelRequirement": 55
 	},
+	"54": {
+		"Description": "Cut and clean a redfish.",
+		"IconId": 5037,
+		"Ingredients": [
+			{
+				"ItemCode": 5145,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "RedfishFillet",
+		"IsItemMenuKeywordRequirementSufficient": true,
+		"ItemMenuKeywordRequirement": "Redfish",
+		"ItemMenuLabel": "Fillet Fish",
+		"Name": "Redfish Fillet",
+		"ResultItems": [
+			{
+				"ItemCode": 5244,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1004,
+				"PercentChance": 20,
+				"StackSize": 1
+			}
+		],
+		"RewardSkill": "Fishing",
+		"RewardSkillXp": 150,
+		"RewardSkillXpDropOffLevel": 85,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 600,
+		"Skill": "Fishing",
+		"SkillLevelRequirement": 75,
+		"SortSkill": "Cooking"
+	},
 	"540": {
 		"Description": "Creates a cold, creamy, strawberry ... thing. It must be eaten quickly before it melts!",
 		"IconId": 5795,
@@ -127530,6 +127649,41 @@
 		"RewardSkillXpFirstTime": 240,
 		"Skill": "SushiPreparation",
 		"SkillLevelRequirement": 15,
+		"SortSkill": "Cooking"
+	},
+	"55": {
+		"Description": "Cut and clean a lake sturgeon.",
+		"IconId": 5037,
+		"Ingredients": [
+			{
+				"ItemCode": 5146,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "LakeSturgeonFillet",
+		"IsItemMenuKeywordRequirementSufficient": true,
+		"ItemMenuKeywordRequirement": "LakeSturgeon",
+		"ItemMenuLabel": "Fillet Fish",
+		"Name": "Lake Sturgeon Fillet",
+		"ResultItems": [
+			{
+				"ItemCode": 5245,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1004,
+				"PercentChance": 20,
+				"StackSize": 1
+			}
+		],
+		"RewardSkill": "Fishing",
+		"RewardSkillXp": 160,
+		"RewardSkillXpDropOffLevel": 90,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 640,
+		"Skill": "Fishing",
+		"SkillLevelRequirement": 80,
 		"SortSkill": "Cooking"
 	},
 	"550": {
@@ -145256,7 +145410,7 @@
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			{
-				"Area": "Serbule",
+				"AreaName": "Serbule",
 				"Other": "Landing Boat",
 				"Type": "Teleport"
 			}
@@ -145299,7 +145453,7 @@
 		"ResetTimeInSeconds": 3600,
 		"ResultEffects": [
 			{
-				"Area": "Gazluk",
+				"AreaName": "Gazluk",
 				"Other": "Special Destination",
 				"Type": "Teleport"
 			}
@@ -145680,7 +145834,7 @@
 		"ResetTimeInSeconds": 900,
 		"ResultEffects": [
 			{
-				"Area": "FaeRealm1",
+				"AreaName": "FaeRealm1",
 				"Other": "New Fairy Spot",
 				"Type": "Teleport"
 			}

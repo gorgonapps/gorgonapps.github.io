@@ -30,6 +30,11 @@
 		"AreaName": "KurMountains",
 		"Name": "Snowleaf"
 	},
+	"EventNPC_GiantBatMode": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Name": "Happy-Go-Lucky Bat"
+	},
 	"NPC_Cinnamon": {
 		"AreaFriendlyName": "Sun Vale",
 		"AreaName": "SunVale",
@@ -2465,7 +2470,7 @@
 				"Desire": "Love",
 				"ItemKeywords": [
 					"TextbookForCombatSkill",
-					"Crafted:y"
+					"CraftedYes"
 				],
 				"PreferenceMultiplier": 2
 			}
@@ -3666,7 +3671,7 @@
 				"Desire": "Love",
 				"ItemKeywords": [
 					"TextbookForNoncombatSkill",
-					"Crafted:y"
+					"CraftedYes"
 				],
 				"PreferenceMultiplier": 2
 			}
