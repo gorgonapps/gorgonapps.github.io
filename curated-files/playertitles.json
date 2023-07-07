@@ -2646,6 +2646,14 @@
 		"Title": "Cautionary Tale in Progress",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
+	"15485": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Slayer of Old Snouty",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
 	"3001": {
 		"Color": "FFFFFF",
 		"Title": "Pre-Alpha 0 Survivor",

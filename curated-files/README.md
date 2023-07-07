@@ -42,7 +42,6 @@ The modified files are made available to simplify JSON deserialization (original
 ## abilities.json
 
 + `SpecialCasterRequirements` is always an array, even if it contains only one object.
-+ `SelfEffectsOnCrit` and `SelfEffectOnCrit` are unified as `SelfEffectsOnCrit`.
 + Removed `"Projectile": "0"` assuming it means "None" (this is found in bash-type abilities).
 + Converted `SelfParticle`, `SelfPreParticle` and `TargetParticle` to a new `AbilityParticle` object. Ex:
 ```
@@ -268,6 +267,7 @@ becomes
 ```
 + In the new `EffectParticle` field `OnFire-Green` is changed to `OnFireGreen`.
 + In `StackingType`, `Lamia's Gaze` and `1` are changed to `LamiasGaze` and `One` respectively.
++ In `effect_56043001` description `Restores 4 Armor` is changed to `Restores 4 Power` (this is a bug fix).
 
 ## items.json
 
