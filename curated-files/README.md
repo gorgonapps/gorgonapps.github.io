@@ -1094,13 +1094,19 @@ This file contains information that associate powers from `tsysclientinfo.json` 
 Each entry in the file use the same identifer as the original power, and in `Tiers` each tier is associated to the same power tier.
 
 + `Effect`: this is the identifier of the corresponding effect in `effects.json`. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to effect `45003001` with description *Restores 5 health*.
++ `Description`: this is a copy of the descrition of the original power or effect.
 + `AbilityKeywords`: this is the list of abilities that are affected by the power. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to abilities with keywords `BlitzShot` or `AimedShot`.
 + `StaticCombatEffects`: this the list of effects that are described by the content of the `Effect` field (see below.)
 + `DynamicCombatEffects`: this the list of effects that are **not** described by the content of the `Effect` field (see below.)
++ `Xtra`: if a power acts on two separate sets of abilities, this field contains the same information for the second set.
 
 Combat effects are described as follow:
 
 + `Keyword`: the formalized effect. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to keywords `RestoreHealth` and `TargetSelf`.
 + `Data`: the effect's value, either as a simple number or as a percentage. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to value `5`.
-+ `DamageType`: when the effect specifies or modifies a damage type, this is indicated in this field. For example, for *Multishot deals +4 damage, and the damage type becomes Fire* `DamageType` is `Fire`.
++ `DamageTypes`: when the effect specifies or modifies a damage type, this is indicated in this field. For example, for *Multishot deals +4 damage, and the damage type becomes Fire* `DamageTypes` is `[ "Fire" ]`, and for *Long Shot increases target's vulnerability to Trauma and Acid +3% for 20 seconds.* `DamageTypes` is `[ "Trauma", "Acid" ]`.
 + `CombatSkill`: when the effect specifies a skill, this is indicated in this field. For example, for *Infinite Legs has a 2% chance to boost Spider Skill Base Damage +10% for 30 seconds* `CombatSkill` is `Spider`.
+
+## buffeffects.json
+
+This file contains information similar to `combateffects.json`. The key is the same effect identifier as in `effects.json` and there is no tier.

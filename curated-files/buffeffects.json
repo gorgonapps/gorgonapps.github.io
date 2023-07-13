@@ -1,0 +1,1567 @@
+{
+  "12091": {
+    "Description": "You gain Accuracy +5 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12092": {
+    "Description": "You gain Accuracy +10 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 10,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12093": {
+    "Description": "You gain Accuracy +15 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 15,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12094": {
+    "Description": "You gain Accuracy +20 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 20,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12095": {
+    "Description": "You gain Accuracy +25 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 25,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12096": {
+    "Description": "You gain Accuracy +30 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 30,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12097": {
+    "Description": "You gain Accuracy +35 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 35,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12098": {
+    "Description": "You gain Accuracy +40 with melee attacks.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddMeleeAccuracy",
+        "Data": {
+          "Value": 40,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "12229": {
+    "Description": "Omens suggest that you will find the enemy's weak spots with ease.\n\n5% of your attacks deal +50% damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "ApplyWithChance",
+        "Data": {
+          "Value": 5,
+          "IsPercent": true
+        }
+      },
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 50,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "12231": {
+    "Description": "Omens suggest that you will find the enemy's weak spots with ease.\n\n10% of your attacks deal +50% damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "ApplyWithChance",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      },
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 50,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "12232": {
+    "Description": "Omens suggest that you will find the enemy's weak spots with ease.\n\n13% of your attacks deal +50% damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "ApplyWithChance",
+        "Data": {
+          "Value": 13,
+          "IsPercent": true
+        }
+      },
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 50,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "12502": {
+    "Description": "That poem made you feel ready to face the world!\n+2% Direct Damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 2,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "12503": {
+    "Description": "That poem made you feel ready to face the world!\n+4% Direct Damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 4,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "12504": {
+    "Description": "That poem made you feel ready to face the world!\n+6% Direct Damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 6,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "12701": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +10",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12702": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +20",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12703": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +30",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 30,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12704": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +45",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 45,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12705": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +60",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 60,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12706": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +75",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 75,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12707": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +90",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 90,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12708": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +105",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 105,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "12709": {
+    "Description": "Your recent whittling practice has honed your Knife skills.\nKnife Damage +120",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 120,
+          "IsPercent": false
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "13067": {
+    "Description": "Cold Damage +10%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Cold"
+        ]
+      }
+    ]
+  },
+  "13068": {
+    "Description": "Cold Damage +15%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 15,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Cold"
+        ]
+      }
+    ]
+  },
+  "13069": {
+    "Description": "Cold Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Cold"
+        ]
+      }
+    ]
+  },
+  "13071": {
+    "Description": "Poison attacks deal +5 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      }
+    ]
+  },
+  "13072": {
+    "Description": "Acid attacks deal +5 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Acid"
+        ]
+      }
+    ]
+  },
+  "13073": {
+    "Description": "Necromancy Base Attack Damage +10%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        },
+        "CombatSkill": "Necromancy"
+      }
+    ]
+  },
+  "13074": {
+    "Description": "Necromancy Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Necromancy"
+      }
+    ]
+  },
+  "13076": {
+    "Description": "Druid Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Druid"
+      }
+    ]
+  },
+  "13101": {
+    "AbilityKeywords": [
+      "FireMagicAttack"
+    ],
+    "Description": "All Fire Magic attacks deal +25 damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 25,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "13105": {
+    "Description": "Critical hits deal +10% damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      },
+      {
+        "Keyword": "ApplyToCrits"
+      }
+    ]
+  },
+  "13108": {
+    "Description": "Direct Damage +10%, Max Power -50",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "13109": {
+    "Description": "Direct Lycanthropy Damage +10%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        },
+        "CombatSkill": "Lycanthropy"
+      }
+    ]
+  },
+  "13110": {
+    "Description": "Direct Lycanthropy Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Lycanthropy"
+      }
+    ]
+  },
+  "13111": {
+    "Description": "Electricity attacks deal +15 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 15,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Electricity"
+        ]
+      }
+    ]
+  },
+  "13116": {
+    "Description": "All Slashing attacks deal +25 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 25,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Slashing"
+        ]
+      }
+    ]
+  },
+  "13125": {
+    "Description": "You're ready to take on any fishy creatures.\n+10% damage vs. Fish-anatomy creatures",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      },
+      {
+        "Keyword": "TargetFishAndSnail"
+      }
+    ]
+  },
+  "13531": {
+    "Description": "Fire Magic Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "FireMagic"
+      }
+    ]
+  },
+  "13532": {
+    "Description": "Ice Magic Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "IceMagic"
+      }
+    ]
+  },
+  "13533": {
+    "Description": "Mentalism Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Mentalism"
+      }
+    ]
+  },
+  "13534": {
+    "Description": "Psychology Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Psychology"
+      }
+    ]
+  },
+  "13535": {
+    "Description": "Priest Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Priest"
+      }
+    ]
+  },
+  "13536": {
+    "Description": "Sword Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Sword"
+      }
+    ]
+  },
+  "13537": {
+    "Description": "Knife Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Knife"
+      }
+    ]
+  },
+  "13538": {
+    "Description": "Unarmed Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Unarmed"
+      }
+    ]
+  },
+  "13539": {
+    "Description": "Staff Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Staff"
+      }
+    ]
+  },
+  "13540": {
+    "Description": "Hammer Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Hammer"
+      }
+    ]
+  },
+  "13544": {
+    "Description": "Battle Chemistry Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "BattleChemistry"
+      }
+    ]
+  },
+  "13545": {
+    "Description": "Archery Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Archery"
+      }
+    ]
+  },
+  "13546": {
+    "Description": "Bard Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Bard"
+      }
+    ]
+  },
+  "13547": {
+    "Description": "Shield Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Shield"
+      }
+    ]
+  },
+  "13548": {
+    "Description": "Animal Handling Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "AnimalHandling"
+      }
+    ]
+  },
+  "13549": {
+    "Description": "Werewolf Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Werewolf"
+      }
+    ]
+  },
+  "13550": {
+    "Description": "Spider Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "13551": {
+    "Description": "Pig Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Pig"
+      }
+    ]
+  },
+  "13552": {
+    "Description": "Deer Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Deer"
+      }
+    ]
+  },
+  "13553": {
+    "Description": "Cow Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Cow"
+      }
+    ]
+  },
+  "13554": {
+    "Description": "Giant Bat Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "GiantBat"
+      }
+    ]
+  },
+  "13555": {
+    "Description": "Rabbit Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Rabbit"
+      }
+    ]
+  },
+  "13556": {
+    "Description": "Warden Base Attack Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Warden"
+      }
+    ]
+  },
+  "13563": {
+    "Description": "You've tapped into a font of undead energy.\n+5 Darkness Damage\n+5 Darkness Mitigation\n+10% Nature Vulnerability",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Darkness"
+        ]
+      },
+      {
+        "Keyword": "AddMitigation",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Darkness"
+        ]
+      }
+    ]
+  },
+  "13735": {
+    "Description": "You can see slightly into the future, allowing your attacks to be more accurate.\n+12 Accuracy",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddAccuracy",
+        "Data": {
+          "Value": 12,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "13978": {
+    "Description": "Recent choreographed dancing has inspired you to take careful aim against Evasive enemies.\n+20 Accuracy",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddAccuracy",
+        "Data": {
+          "Value": 20,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "14643": {
+    "Description": "Spider Base Damage +15%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 15,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "14644": {
+    "Description": "Spider Base Damage +20%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "14645": {
+    "Description": "Spider Base Damage +25%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 25,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "14646": {
+    "Description": "Spider Base Damage +30%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 30,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "14647": {
+    "Description": "Spider Base Damage +35%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 35,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "14648": {
+    "Description": "Spider Base Damage +40%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 40,
+          "IsPercent": true
+        },
+        "CombatSkill": "Spider"
+      }
+    ]
+  },
+  "15329": {
+    "Description": "You're coated in sticky magic spores! They seem to amplify elemental power.\nFire, Cold, and Electricity Direct Damage +35",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 35,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "15896": {
+    "Description": "Your Poison attacks deal +12 direct damage and +1 indirect damage per tick.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 12,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "Keyword": "DealIndirectDamage",
+        "Data": {
+          "Value": 1,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "15897": {
+    "Description": "Your Poison attacks deal +24 direct damage and +2 indirect damage per tick.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 24,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "Keyword": "DealIndirectDamage",
+        "Data": {
+          "Value": 2,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "15898": {
+    "Description": "Your Poison attacks deal +48 direct damage and +4 indirect damage per tick.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 48,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "Keyword": "DealIndirectDamage",
+        "Data": {
+          "Value": 4,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "15899": {
+    "Description": "Your Poison attacks deal +60 direct damage and +5 indirect damage per tick.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 60,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "Keyword": "DealIndirectDamage",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "15900": {
+    "Description": "Your Poison attacks deal +72 direct damage and +6 indirect damage per tick.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 72,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "Keyword": "DealIndirectDamage",
+        "Data": {
+          "Value": 6,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "16052": {
+    "Description": "Your attacks deal +5% damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "16057": {
+    "Description": "Your attacks deal +10% damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "16071": {
+    "AbilityKeywords": [
+      "65535"
+    ],
+    "Description": "All non-basic attacks made with fists, feet, claws, teeth, or similar body parts deal +20 damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "16072": {
+    "AbilityKeywords": [
+      "65535"
+    ],
+    "Description": "All non-basic attacks made with fists, feet, claws, teeth, or similar body parts deal +40 damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 40,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "16073": {
+    "AbilityKeywords": [
+      "65535"
+    ],
+    "Description": "All non-basic attacks made with fists, feet, claws, teeth, or similar body parts deal +80 damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 80,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "16074": {
+    "AbilityKeywords": [
+      "65535"
+    ],
+    "Description": "All non-basic attacks made with fists, feet, claws, teeth, or similar body parts deal +120 damage.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 120,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "16912": {
+    "Description": "Burst Accuracy +10%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "AddBurstAccuracy",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "18751": {
+    "Description": "Deal +1% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 1,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18752": {
+    "Description": "Deal +2% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 2,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18753": {
+    "Description": "Deal +3% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 3,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18754": {
+    "Description": "Deal +4% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 4,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18755": {
+    "Description": "Deal +5% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18756": {
+    "Description": "Deal +6% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 6,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18757": {
+    "Description": "Deal +7% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 7,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "18758": {
+    "Description": "Deal +8% Crushing damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 8,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Crushing"
+        ]
+      }
+    ]
+  },
+  "3552": {
+    "Description": "Speaking this word of power makes boosts Archery Base Damage +50% damage for 5 minutes.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 50,
+          "IsPercent": true
+        },
+        "CombatSkill": "Archery"
+      },
+      {
+        "Keyword": "EffectDurationMinute",
+        "Data": {
+          "Value": 5,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "511": {
+    "AbilityKeywords": [
+      "MentalismAttack",
+      "PsychologyAttack"
+    ],
+    "Description": "All Mentalism and Psychology attacks deal +7 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 7,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "512": {
+    "AbilityKeywords": [
+      "MentalismAttack",
+      "PsychologyAttack"
+    ],
+    "Description": "All Mentalism and Psychology attacks deal +15 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 15,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "513": {
+    "AbilityKeywords": [
+      "MentalismAttack",
+      "PsychologyAttack"
+    ],
+    "Description": "All Mentalism and Psychology attacks deal +23 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 23,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "561": {
+    "Description": "All animal attacks deal +10 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 10,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "562": {
+    "Description": "All animal attacks deal +20 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 20,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "563": {
+    "Description": "All animal attacks deal +30 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 30,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "564": {
+    "Description": "All animal attacks deal +40 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 40,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "595": {
+    "Description": "Max Power +3; Animal attacks deal +2 damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 2,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
+  "611": {
+    "Description": "Melee Attacks deal +25 damage, and Melee Evasion is +5%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 25,
+          "IsPercent": false
+        }
+      },
+      {
+        "Keyword": "MeleeAttack"
+      },
+      {
+        "Keyword": "AddEvasionMelee",
+        "Data": {
+          "Value": 5,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "612": {
+    "Description": "Melee Attacks deal +50 damage, and Melee Evasion is +10%. XP Earned while Peaceable +25%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 50,
+          "IsPercent": false
+        }
+      },
+      {
+        "Keyword": "MeleeAttack"
+      },
+      {
+        "Keyword": "AddEvasionMelee",
+        "Data": {
+          "Value": 10,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "613": {
+    "Description": "Melee Attacks deal +75 damage, and Melee Evasion is +15%. XP Earned while Peaceable +25%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 75,
+          "IsPercent": false
+        }
+      },
+      {
+        "Keyword": "MeleeAttack"
+      },
+      {
+        "Keyword": "AddEvasionMelee",
+        "Data": {
+          "Value": 15,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "614": {
+    "Description": "Melee Attacks deal +100 damage, and Melee Evasion is +20%. XP Earned while Peaceable +33%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 100,
+          "IsPercent": false
+        }
+      },
+      {
+        "Keyword": "MeleeAttack"
+      },
+      {
+        "Keyword": "AddEvasionMelee",
+        "Data": {
+          "Value": 20,
+          "IsPercent": true
+        }
+      }
+    ]
+  },
+  "6201": {
+    "Description": "Raises Sword Base Damage by 3%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 3,
+          "IsPercent": true
+        },
+        "CombatSkill": "Sword"
+      }
+    ]
+  },
+  "6202": {
+    "Description": "Raises Sword Base Damage by 5%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": true
+        },
+        "CombatSkill": "Sword"
+      }
+    ]
+  },
+  "6206": {
+    "Description": "Raises Sword Base Damage by 6%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 6,
+          "IsPercent": true
+        },
+        "CombatSkill": "Sword"
+      }
+    ]
+  },
+  "6207": {
+    "Description": "Raises Sword Base Damage by 7%",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "BaseDamageBoost",
+        "Data": {
+          "Value": 7,
+          "IsPercent": true
+        },
+        "CombatSkill": "Sword"
+      }
+    ]
+  }
+}
