@@ -1095,7 +1095,8 @@ Each entry in the file use the same identifer as the original power, and in `Tie
 
 + `Effect`: this is the identifier of the corresponding effect in `effects.json`. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to effect `45003001` with description *Restores 5 health*.
 + `Description`: this is a copy of the descrition of the original power or effect.
-+ `AbilityKeywords`: this is the list of abilities that are affected by the power. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to abilities with keywords `BlitzShot` or `AimedShot`.
++ `AbilityKeywords`: this is the list of abilities that trigger the power when used. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to abilities with keywords `BlitzShot` or `AimedShot`.
++ `TargetAbilityKeywords`: this is the list of abilities that are affected by the power. For example, *Aimed Shot boosts your Nice Attack Damage +25 for 10 seconds* corresponds to abilities with keywords `NiceAttack`.
 + `StaticCombatEffects`: this the list of effects that are described by the content of the `Effect` field (see below.)
 + `DynamicCombatEffects`: this the list of effects that are **not** described by the content of the `Effect` field (see below.)
 + `Xtra`: if a power acts on two separate sets of abilities, this field contains the same information for the second set.
