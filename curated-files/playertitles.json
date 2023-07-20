@@ -2654,6 +2654,30 @@
 		"Title": "Slayer of Old Snouty",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
+	"15486": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Deadbeat",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15487": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ooh, shiny!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15488": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Mushroom Jill",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
 	"3001": {
 		"Color": "FFFFFF",
 		"Title": "Pre-Alpha 0 Survivor",
@@ -3446,6 +3470,11 @@
 		"Color": "00CC00",
 		"Title": "Steamed 2023",
 		"Tooltip": "A gift to celebrate our 5th anniversary on Steam."
+	},
+	"5228": {
+		"Color": "00CC00",
+		"Title": "Summer's Fairest",
+		"Tooltip": "A reward from the Summer 2023 Add-On backer package."
 	},
 	"53": {
 		"Color": "FFFFFF",

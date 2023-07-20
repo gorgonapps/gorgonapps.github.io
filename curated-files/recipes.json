@@ -81686,7 +81686,7 @@
 	"19020": {
 		"ActionLabel": "Forge",
 		"Description": "A handful of long wood nails.",
-		"IconId": 5096,
+		"IconId": 6532,
 		"Ingredients": [
 			{
 				"ItemCode": 4322,
