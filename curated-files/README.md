@@ -224,6 +224,7 @@ No change.
     - `MONSTER_COMBAT_XP_VALUE`
     - `MOD_VAULT_SIZE`
     - `MENTAL_DEFENSE_RATING`
++ In attributes `BOOST_ABILITY_GRIPJAW` and `MOD_ABILITY_GRIPJAW` the icon with id 3402 is replaced with 3042 (this is a bug fix).
 
 ## directedgoals.json
 
@@ -268,6 +269,8 @@ becomes
 + In the new `EffectParticle` field `OnFire-Green` is changed to `OnFireGreen`.
 + In `StackingType`, `Lamia's Gaze` and `1` are changed to `LamiasGaze` and `One` respectively.
 + In `effect_56043001` description `Restores 4 Armor` is changed to `Restores 4 Power` (this is a bug fix).
++ In effects with name starting with `TSys_BatChemGolemRageAcidTossBoost`, in the description `Self Destruct` is replaced by `Rage Acid Toss` (this is a bug fix).
++ In effects with name starting with `TSys_ForestChallengeEliteProtection`, in the description the first character (single quote) is removed (this is a bug fix).
 
 ## items.json
 
@@ -1063,6 +1066,7 @@ become
 ```
 + Some treasure effects are modified.
   - `power_24154` the icon with id 3553 is replaced with 3547 (this is a bug fix).
+  - `power_23201`, `power_23203`, `power_23205` and `power_23024` the icon with id 3402 is replaced with 3042 (this is a bug fix).
   - `power_20355` a extra attribute is added (this enables generic attribute parsing):
 ```
 "EffectDescriptions": [
@@ -1097,8 +1101,8 @@ Each entry in the file use the same identifer as the original power, and in `Tie
 + `Description`: this is a copy of the descrition of the original power or effect.
 + `AbilityKeywords`: this is the list of abilities that trigger the power when used. For example, *Blitz Shot and Aimed Shot heal you for 5 health* corresponds to abilities with keywords `BlitzShot` or `AimedShot`.
 + `TargetAbilityKeywords`: this is the list of abilities that are affected by the power. For example, *Aimed Shot boosts your Nice Attack Damage +25 for 10 seconds* corresponds to abilities with keywords `NiceAttack`.
-+ `StaticCombatEffects`: this the list of effects that are described by the content of the `Effect` field (see below.)
-+ `DynamicCombatEffects`: this the list of effects that are **not** described by the content of the `Effect` field (see below.)
++ `StaticCombatEffects`: this the list of effects that are applied without activating the ability (see below).
++ `DynamicCombatEffects`: this the list of effects that are applied when activating the ability (see below).
 + `Xtra`: if a power acts on two separate sets of abilities, this field contains the same information for the second set.
 
 Combat effects are described as follow:

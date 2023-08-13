@@ -63865,7 +63865,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50111": {
-		"Description": "Deliver 10 Fae Bee Stingers to Ogamboe in the Fae Realm. Reward: 6,249 councils.",
+		"Description": "Deliver 10 Fae Bee Stingers to Ogamboe in the Fae Realm. Reward: 18,332 councils.",
 		"InternalName": "Unknown_FaeBeeStingers",
 		"IsCancellable": true,
 		"Keywords": [
@@ -63902,7 +63902,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 6249,
+				"Amount": 18332,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -63912,7 +63912,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50112": {
-		"Description": "Deliver 10 Shimmerwing Wings to Ogamboe in the Fae Realm. Reward: 2,624 councils.",
+		"Description": "Deliver 10 Shimmerwing Wings to Ogamboe in the Fae Realm. Reward: 7,457 councils.",
 		"InternalName": "Unknown_ShimmerwingWings",
 		"IsCancellable": true,
 		"Keywords": [
@@ -63949,7 +63949,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 2624,
+				"Amount": 7457,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -63959,7 +63959,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50113": {
-		"Description": "Deliver 10 Crimsonfelt Wings to Ogamboe in the Fae Realm. Reward: 2,865 councils.",
+		"Description": "Deliver 10 Crimsonfelt Wings to Ogamboe in the Fae Realm. Reward: 8,182 councils.",
 		"InternalName": "Unknown_CrimsonfeltWings",
 		"IsCancellable": true,
 		"Keywords": [
@@ -63996,7 +63996,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 2865,
+				"Amount": 8182,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -64006,7 +64006,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50114": {
-		"Description": "Deliver 10 Icebreeze Moth Wings to Ogamboe in the Fae Realm. Reward: 3,107 councils.",
+		"Description": "Deliver 10 Icebreeze Moth Wings to Ogamboe in the Fae Realm. Reward: 8,907 councils.",
 		"InternalName": "Unknown_IcebreezeMothWings",
 		"IsCancellable": true,
 		"Keywords": [
@@ -64043,7 +64043,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 3107,
+				"Amount": 8907,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -64053,7 +64053,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50115": {
-		"Description": "Deliver 10 Fae Honeycombs to Ogamboe in the Fae Realm. Reward: 2,624 councils.",
+		"Description": "Deliver 10 Fae Honeycombs to Ogamboe in the Fae Realm. Reward: 7,457 councils.",
 		"InternalName": "Unknown_FaeHoneycombs",
 		"IsCancellable": true,
 		"Keywords": [
@@ -64090,7 +64090,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 2624,
+				"Amount": 7457,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -64100,7 +64100,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50116": {
-		"Description": "Deliver 10 Huge Fae Honeycombs to Ogamboe in the Fae Realm. Reward: 9,874 councils.",
+		"Description": "Deliver 10 Huge Fae Honeycombs to Ogamboe in the Fae Realm. Reward: 38,874 councils.",
 		"InternalName": "Unknown_HugeFaeHoneycombs",
 		"IsCancellable": true,
 		"Keywords": [
@@ -64137,7 +64137,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 9874,
+				"Amount": 38874,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -64947,16 +64947,16 @@
 		"WorkOrderSkill": "Fishing"
 	},
 	"50212": {
-		"Description": "Deliver 10 Crab Meats to Fitz the Boatman on the Serbule docks. Reward: 206 councils.",
-		"InternalName": "Fishing_CrabMeats",
+		"Description": "Deliver 10 Crab Meat to Fitz the Boatman on the Serbule docks. Reward: 206 councils.",
+		"InternalName": "Fishing_CrabMeat",
 		"IsCancellable": true,
 		"Keywords": [
 			"WorkOrder"
 		],
-		"Name": "Crab Meats",
+		"Name": "Crab Meat",
 		"Objectives": [
 			{
-				"Description": "Obtain Crab Meats",
+				"Description": "Obtain Crab Meat",
 				"ItemName": "CrabMeat",
 				"Number": 10,
 				"Type": "Collect"
@@ -65088,7 +65088,7 @@
 		"WorkOrderSkill": "Fishing"
 	},
 	"50215": {
-		"Description": "Deliver 10 Green Vexfish Fillets to Irkima in Red Wing Casino. Reward: 1,875 councils.",
+		"Description": "Deliver 10 Green Vexfish Fillets to Irkima in Red Wing Casino. Reward: 2,731 councils.",
 		"InternalName": "Fishing_GreenVexfishFillets",
 		"IsCancellable": true,
 		"Keywords": [
@@ -65125,7 +65125,7 @@
 				"Xp": 500
 			},
 			{
-				"Amount": 1875,
+				"Amount": 2731,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -65135,7 +65135,7 @@
 		"WorkOrderSkill": "Fishing"
 	},
 	"50216": {
-		"Description": "Deliver 10 Lungfish Fillets to Irkima in Red Wing Casino. Reward: 569 councils.",
+		"Description": "Deliver 10 Lungfish Fillets to Irkima in Red Wing Casino. Reward: 794 councils.",
 		"InternalName": "Fishing_LungfishFillets",
 		"IsCancellable": true,
 		"Keywords": [
@@ -65172,12 +65172,1610 @@
 				"Xp": 300
 			},
 			{
-				"Amount": 569,
+				"Amount": 794,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
 		],
 		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50217": {
+		"Description": "Deliver 10 Flounder Fillets to Irkima in Red Wing Casino. Reward: 1,470 councils.",
+		"InternalName": "Fishing_FlounderFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Flounder Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Flounder Fillets",
+				"ItemName": "FlounderFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 30,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 400
+			},
+			{
+				"Amount": 1470,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50218": {
+		"Description": "Deliver 10 Amberjack Fillets to Viedesi in Sun Vale. Reward: 3,710 councils.",
+		"InternalName": "Fishing_AmberjackFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Amberjack Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Amberjack Fillets",
+				"ItemName": "AmberjackFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 600
+			},
+			{
+				"Amount": 3710,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50219": {
+		"Description": "Deliver 10 Cleaned Shrimp to Irkima in Red Wing Casino. Reward: 637 councils.",
+		"InternalName": "Fishing_CleanedShrimp",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Cleaned Shrimp",
+		"Objectives": [
+			{
+				"Description": "Obtain Cleaned Shrimp",
+				"ItemName": "CleanedShrimp",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 150
+			},
+			{
+				"Amount": 637,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50220": {
+		"Description": "Deliver 10 Catfish Fillets to Viedesi in Sun Vale. Reward: 3,414 councils.",
+		"InternalName": "Fishing_CatfishFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Catfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Catfish Fillets",
+				"ItemName": "CatfishFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 55,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 650
+			},
+			{
+				"Amount": 3414,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50221": {
+		"Description": "Deliver 10 Yellow Perch Fillets to Viedesi in Sun Vale. Reward: 4,557 councils.",
+		"InternalName": "Fishing_YellowPerchFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Yellow Perch Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Yellow Perch Fillets",
+				"ItemName": "YellowPerchFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 60,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 700
+			},
+			{
+				"Amount": 4557,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50222": {
+		"Description": "Deliver 10 Carp Fillets to Irkima in Red Wing Casino. Reward: 150 councils.",
+		"InternalName": "Fishing_CarpFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Carp Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Carp Fillets",
+				"ItemName": "CarpFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 50
+			},
+			{
+				"Amount": 150,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50223": {
+		"Description": "Deliver 10 Pinfish Fillets to Irkima in Red Wing Casino. Reward: 223 councils.",
+		"InternalName": "Fishing_PinfishFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Pinfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Pinfish Fillets",
+				"ItemName": "PinfishFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 100
+			},
+			{
+				"Amount": 223,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50224": {
+		"Description": "Deliver 10 Bluegill Fillets to Irkima in Red Wing Casino. Reward: 391 councils.",
+		"InternalName": "Fishing_BluegillFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Bluegill Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Bluegill Fillets",
+				"ItemName": "BluegillFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 150
+			},
+			{
+				"Amount": 391,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50225": {
+		"Description": "Deliver 10 Chub Fillets to Irkima in Red Wing Casino. Reward: 391 councils.",
+		"InternalName": "Fishing_ChubFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Chub Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Chub Fillets",
+				"ItemName": "ChubFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 150
+			},
+			{
+				"Amount": 391,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50226": {
+		"Description": "Deliver 10 Oscar Fillets to Irkima in Red Wing Casino. Reward: 564 councils.",
+		"InternalName": "Fishing_OscarFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Oscar Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Oscar Fillets",
+				"ItemName": "OscarFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 10,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 200
+			},
+			{
+				"Amount": 564,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50227": {
+		"Description": "Deliver 10 Papermouth Fillets to Irkima in Red Wing Casino. Reward: 741 councils.",
+		"InternalName": "Fishing_PapermouthFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Papermouth Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Papermouth Fillets",
+				"ItemName": "PapermouthFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 15,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 250
+			},
+			{
+				"Amount": 741,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50228": {
+		"Description": "Deliver 10 Tilapia Fillets to Irkima in Red Wing Casino. Reward: 923 councils.",
+		"InternalName": "Fishing_TilapiaFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tilapia Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tilapia Fillets",
+				"ItemName": "TilapiaFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 20,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 300
+			},
+			{
+				"Amount": 923,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50229": {
+		"Description": "Deliver 10 Trout Fillets to Irkima in Red Wing Casino. Reward: 1,111 councils.",
+		"InternalName": "Fishing_TroutFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Trout Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Trout Fillets",
+				"ItemName": "TroutFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 25,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 350
+			},
+			{
+				"Amount": 1111,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50230": {
+		"Description": "Deliver 10 Pompano Fillets to Irkima in Red Wing Casino. Reward: 1,111 councils.",
+		"InternalName": "Fishing_PompanoFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Pompano Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Pompano Fillets",
+				"ItemName": "PompanoFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 25,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 350
+			},
+			{
+				"Amount": 1111,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for fulfilling the work order. I'll make sure it goes out in the correct teleport delivery.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50231": {
+		"Description": "Deliver 10 Sea Cat Fillets to Viedesi in Sun Vale. Reward: 1,470 councils.",
+		"InternalName": "Fishing_SeaCatFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Sea Cat Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Sea Cat Fillets",
+				"ItemName": "SeaCatFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 30,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 400
+			},
+			{
+				"Amount": 1470,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50232": {
+		"Description": "Deliver 10 Sunfish Fillets to Viedesi in Sun Vale. Reward: 1,470 councils.",
+		"InternalName": "Fishing_SunfishFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Sunfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Sunfish Fillets",
+				"ItemName": "SunfishFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 30,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 400
+			},
+			{
+				"Amount": 1470,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50233": {
+		"Description": "Deliver 10 Pike Fillets to Viedesi in Sun Vale. Reward: 1,501 councils.",
+		"InternalName": "Fishing_PikeFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Pike Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Pike Fillets",
+				"ItemName": "PikeFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 35,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 450
+			},
+			{
+				"Amount": 1501,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50234": {
+		"Description": "Deliver 10 Walleye Fillets to Viedesi in Sun Vale. Reward: 1,875 councils.",
+		"InternalName": "Fishing_WalleyeFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Walleye Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Walleye Fillets",
+				"ItemName": "WalleyeFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 500
+			},
+			{
+				"Amount": 1875,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50235": {
+		"Description": "Deliver 10 Dorado Fillets to Viedesi in Sun Vale. Reward: 1,875 councils.",
+		"InternalName": "Fishing_DoradoFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Dorado Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Dorado Fillets",
+				"ItemName": "DoradoFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 500
+			},
+			{
+				"Amount": 1875,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50236": {
+		"Description": "Deliver 10 Sea Trout Fillets to Viedesi in Sun Vale. Reward: 1,875 councils.",
+		"InternalName": "Fishing_SeaTroutFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Sea Trout Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Sea Trout Fillets",
+				"ItemName": "SeaTroutFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 500
+			},
+			{
+				"Amount": 1875,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50237": {
+		"Description": "Deliver 10 Dock Cod Fillets to Viedesi in Sun Vale. Reward: 1,875 councils.",
+		"InternalName": "Fishing_DockCodFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Dock Cod Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Dock Cod Fillets",
+				"ItemName": "DockCodFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 500
+			},
+			{
+				"Amount": 1875,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50238": {
+		"Description": "Deliver 10 Tench Fillets to Viedesi in Sun Vale. Reward: 2,258 councils.",
+		"InternalName": "Fishing_TenchFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tench Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tench Fillets",
+				"ItemName": "TenchFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 550
+			},
+			{
+				"Amount": 2258,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50239": {
+		"Description": "Deliver 10 Mahi Mahi Fillets to Viedesi in Sun Vale. Reward: 2,258 councils.",
+		"InternalName": "Fishing_MahiMahiFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Mahi Mahi Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Mahi Mahi Fillets",
+				"ItemName": "MahiMahiFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 550
+			},
+			{
+				"Amount": 2258,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50240": {
+		"Description": "Deliver 10 Red Snapper Fillets to Viedesi in Sun Vale. Reward: 2,258 councils.",
+		"InternalName": "Fishing_RedSnapperFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Red Snapper Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Red Snapper Fillets",
+				"ItemName": "RedSnapperFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 550
+			},
+			{
+				"Amount": 2258,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50241": {
+		"Description": "Deliver 10 Smallmouth Bass Fillets to Viedesi in Sun Vale. Reward: 2,829 councils.",
+		"InternalName": "Fishing_SmallmouthBassFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Smallmouth Bass Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Smallmouth Bass Fillets",
+				"ItemName": "SmallmouthBassFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 600
+			},
+			{
+				"Amount": 2829,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50242": {
+		"Description": "Deliver 10 Rock Carp Fillets to Viedesi in Sun Vale. Reward: 3,358 councils.",
+		"InternalName": "Fishing_RockCarpFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Rock Carp Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Rock Carp Fillets",
+				"ItemName": "RockCarpFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 600
+			},
+			{
+				"Amount": 3358,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50243": {
+		"Description": "Deliver 10 Salmon Fillets to Viedesi in Sun Vale. Reward: 3,414 councils.",
+		"InternalName": "Fishing_SalmonFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Salmon Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Salmon Fillets",
+				"ItemName": "SalmonFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 55,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 650
+			},
+			{
+				"Amount": 3414,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50244": {
+		"Description": "Deliver 10 River Salmon Fillets to Viedesi in Sun Vale. Reward: 4,013 councils.",
+		"InternalName": "Fishing_RiverSalmonFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "River Salmon Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain River Salmon Fillets",
+				"ItemName": "RiverSalmonFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 60,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 700
+			},
+			{
+				"Amount": 4013,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50245": {
+		"Description": "Deliver 10 Rainbow Trout Fillets to Viedesi in Sun Vale. Reward: 4,628 councils.",
+		"InternalName": "Fishing_RainbowTroutFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Rainbow Trout Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Rainbow Trout Fillets",
+				"ItemName": "RainbowTroutFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 65,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 750
+			},
+			{
+				"Amount": 4628,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50246": {
+		"Description": "Deliver 10 Tigerfish Fillets to Viedesi in Sun Vale. Reward: 5,259 councils.",
+		"InternalName": "Fishing_TigerfishFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tigerfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tigerfish Fillets",
+				"ItemName": "TigerfishFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 70,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 800
+			},
+			{
+				"Amount": 5259,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50247": {
+		"Description": "Deliver 10 Tonguefish Fillets to Viedesi in Sun Vale. Reward: 2,258 councils.",
+		"InternalName": "Fishing_TonguefishFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tonguefish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tonguefish Fillets",
+				"ItemName": "TonguefishFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 550
+			},
+			{
+				"Amount": 2258,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50248": {
+		"Description": "Deliver 10 Mukklo Fillets to Viedesi in Sun Vale. Reward: 2,829 councils.",
+		"InternalName": "Fishing_MukkloFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Mukklo Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Mukklo Fillets",
+				"ItemName": "MukkloFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 600
+			},
+			{
+				"Amount": 2829,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50249": {
+		"Description": "Deliver 10 Redfish Fillets to Viedesi in Sun Vale. Reward: 4,628 councils.",
+		"InternalName": "Fishing_RedfishFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Redfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Redfish Fillets",
+				"ItemName": "RedfishFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 65,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 750
+			},
+			{
+				"Amount": 4628,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"50250": {
+		"Description": "Deliver 10 Lake Sturgeon Fillets to Viedesi in Sun Vale. Reward: 5,259 councils.",
+		"InternalName": "Fishing_LakeSturgeonFillets",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Lake Sturgeon Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Lake Sturgeon Fillets",
+				"ItemName": "LakeSturgeonFillet",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Viedesi",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 70,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 800
+			},
+			{
+				"Amount": 5259,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Thank you for your delivery!",
 		"Version": 1,
 		"WorkOrderSkill": "Fishing"
 	},
@@ -113667,6 +115265,2027 @@
 		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
 		"Version": 1,
 		"WorkOrderSkill": "Cooking"
+	},
+	"52921": {
+		"Description": "Deliver 99 Clownfish Fillets to Sheyna in Rahu. Reward: 1,828 councils.",
+		"InternalName": "Fishing_ClownfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Clownfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Clownfish Fillets",
+				"ItemName": "ClownfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 495
+			},
+			{
+				"Amount": 1828,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52922": {
+		"Description": "Deliver 99 Perch Fillets to Sheyna in Rahu. Reward: 3,067 councils.",
+		"InternalName": "Fishing_PerchFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Perch Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Perch Fillets",
+				"ItemName": "PerchFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 990
+			},
+			{
+				"Amount": 3067,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52923": {
+		"Description": "Deliver 99 Eel Fillets to Sheyna in Rahu. Reward: 6,172 councils.",
+		"InternalName": "Fishing_EelFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Eel Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Eel Fillets",
+				"ItemName": "EelFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 1485
+			},
+			{
+				"Amount": 6172,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52924": {
+		"Description": "Deliver 99 Shark Fillets to Sheyna in Rahu. Reward: 12,470 councils.",
+		"InternalName": "Fishing_SharkFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Shark Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Shark Fillets",
+				"ItemName": "SharkFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 10,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 1980
+			},
+			{
+				"Amount": 12470,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52925": {
+		"Description": "Deliver 99 Crab Meat to Sheyna in Rahu. Reward: 4,683 councils.",
+		"InternalName": "Fishing_CrabMeatB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Crab Meat",
+		"Objectives": [
+			{
+				"Description": "Obtain Crab Meat",
+				"ItemName": "CrabMeat",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 99
+			},
+			{
+				"Amount": 4683,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52926": {
+		"Description": "Deliver 99 Grapefish Fillets to Sheyna in Rahu. Reward: 12,679 councils.",
+		"InternalName": "Fishing_GrapefishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Grapefish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Grapefish Fillets",
+				"ItemName": "GrapefishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 15,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 2475
+			},
+			{
+				"Amount": 12679,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52927": {
+		"Description": "Deliver 99 Cavefish Fillets to Sheyna in Rahu. Reward: 32,551 councils.",
+		"InternalName": "Fishing_CavefishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Cavefish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Cavefish Fillets",
+				"ItemName": "CavefishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 25,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 3465
+			},
+			{
+				"Amount": 32551,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52928": {
+		"Description": "Deliver 99 Green Vexfish Fillets to Sheyna in Rahu. Reward: 51,023 councils.",
+		"InternalName": "Fishing_GreenVexfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Green Vexfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Green Vexfish Fillets",
+				"ItemName": "GreenVexfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 4950
+			},
+			{
+				"Amount": 51023,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52929": {
+		"Description": "Deliver 99 Lungfish Fillets to Sheyna in Rahu. Reward: 13,527 councils.",
+		"InternalName": "Fishing_LungfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Lungfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Lungfish Fillets",
+				"ItemName": "LungfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 20,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 2970
+			},
+			{
+				"Amount": 13527,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52930": {
+		"Description": "Deliver 99 Flounder Fillets to Sheyna in Rahu. Reward: 26,474 councils.",
+		"InternalName": "Fishing_FlounderFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Flounder Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Flounder Fillets",
+				"ItemName": "FlounderFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 30,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 3960
+			},
+			{
+				"Amount": 26474,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52931": {
+		"Description": "Deliver 99 Amberjack Fillets to Sheyna in Rahu. Reward: 69,980 councils.",
+		"InternalName": "Fishing_AmberjackFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Amberjack Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Amberjack Fillets",
+				"ItemName": "AmberjackFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5940
+			},
+			{
+				"Amount": 69980,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52932": {
+		"Description": "Deliver 99 Cleaned Shrimp to Sheyna in Rahu. Reward: 11,042 councils.",
+		"InternalName": "Fishing_CleanedShrimpB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Cleaned Shrimp",
+		"Objectives": [
+			{
+				"Description": "Obtain Cleaned Shrimp",
+				"ItemName": "CleanedShrimp",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 1485
+			},
+			{
+				"Amount": 11042,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52933": {
+		"Description": "Deliver 99 Catfish Fillets to Sheyna in Rahu. Reward: 63,903 councils.",
+		"InternalName": "Fishing_CatfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Catfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Catfish Fillets",
+				"ItemName": "CatfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 55,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 6435
+			},
+			{
+				"Amount": 63903,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52934": {
+		"Description": "Deliver 99 Yellow Perch Fillets to Sheyna in Rahu. Reward: 86,337 councils.",
+		"InternalName": "Fishing_YellowPerchFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Yellow Perch Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Yellow Perch Fillets",
+				"ItemName": "YellowPerchFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 60,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 6930
+			},
+			{
+				"Amount": 86337,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52935": {
+		"Description": "Deliver 99 Carp Fillets to Sheyna in Rahu. Reward: 1,828 councils.",
+		"InternalName": "Fishing_CarpFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Carp Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Carp Fillets",
+				"ItemName": "CarpFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 495
+			},
+			{
+				"Amount": 1828,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52936": {
+		"Description": "Deliver 99 Pinfish Fillets to Sheyna in Rahu. Reward: 3,067 councils.",
+		"InternalName": "Fishing_PinfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Pinfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Pinfish Fillets",
+				"ItemName": "PinfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 990
+			},
+			{
+				"Amount": 3067,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52937": {
+		"Description": "Deliver 99 Bluegill Fillets to Sheyna in Rahu. Reward: 6,172 councils.",
+		"InternalName": "Fishing_BluegillFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Bluegill Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Bluegill Fillets",
+				"ItemName": "BluegillFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 1485
+			},
+			{
+				"Amount": 6172,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52938": {
+		"Description": "Deliver 99 Chub Fillets to Sheyna in Rahu. Reward: 6,172 councils.",
+		"InternalName": "Fishing_ChubFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Chub Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Chub Fillets",
+				"ItemName": "ChubFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 0,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 1485
+			},
+			{
+				"Amount": 6172,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52939": {
+		"Description": "Deliver 99 Oscar Fillets to Sheyna in Rahu. Reward: 9,376 councils.",
+		"InternalName": "Fishing_OscarFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Oscar Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Oscar Fillets",
+				"ItemName": "OscarFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 10,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 1980
+			},
+			{
+				"Amount": 9376,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52940": {
+		"Description": "Deliver 99 Papermouth Fillets to Sheyna in Rahu. Reward: 12,679 councils.",
+		"InternalName": "Fishing_PapermouthFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Papermouth Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Papermouth Fillets",
+				"ItemName": "PapermouthFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 15,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 2475
+			},
+			{
+				"Amount": 12679,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52941": {
+		"Description": "Deliver 99 Tilapia Fillets to Sheyna in Rahu. Reward: 16,081 councils.",
+		"InternalName": "Fishing_TilapiaFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tilapia Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tilapia Fillets",
+				"ItemName": "TilapiaFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 20,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 2970
+			},
+			{
+				"Amount": 16081,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52942": {
+		"Description": "Deliver 99 Trout Fillets to Sheyna in Rahu. Reward: 19,582 councils.",
+		"InternalName": "Fishing_TroutFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Trout Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Trout Fillets",
+				"ItemName": "TroutFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 25,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 3465
+			},
+			{
+				"Amount": 19582,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52943": {
+		"Description": "Deliver 99 Pompano Fillets to Sheyna in Rahu. Reward: 19,582 councils.",
+		"InternalName": "Fishing_PompanoFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Pompano Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Pompano Fillets",
+				"ItemName": "PompanoFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 25,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 3465
+			},
+			{
+				"Amount": 19582,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52944": {
+		"Description": "Deliver 99 Sea Cat Fillets to Sheyna in Rahu. Reward: 26,474 councils.",
+		"InternalName": "Fishing_SeaCatFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Sea Cat Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Sea Cat Fillets",
+				"ItemName": "SeaCatFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 30,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 3960
+			},
+			{
+				"Amount": 26474,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52945": {
+		"Description": "Deliver 99 Sunfish Fillets to Sheyna in Rahu. Reward: 26,474 councils.",
+		"InternalName": "Fishing_SunfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Sunfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Sunfish Fillets",
+				"ItemName": "SunfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 30,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 3960
+			},
+			{
+				"Amount": 26474,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52946": {
+		"Description": "Deliver 99 Pike Fillets to Sheyna in Rahu. Reward: 26,881 councils.",
+		"InternalName": "Fishing_PikeFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Pike Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Pike Fillets",
+				"ItemName": "PikeFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 35,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 4455
+			},
+			{
+				"Amount": 26881,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52947": {
+		"Description": "Deliver 99 Walleye Fillets to Sheyna in Rahu. Reward: 34,070 councils.",
+		"InternalName": "Fishing_WalleyeFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Walleye Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Walleye Fillets",
+				"ItemName": "WalleyeFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 4950
+			},
+			{
+				"Amount": 34070,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52948": {
+		"Description": "Deliver 99 Dorado Fillets to Sheyna in Rahu. Reward: 34,070 councils.",
+		"InternalName": "Fishing_DoradoFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Dorado Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Dorado Fillets",
+				"ItemName": "DoradoFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 4950
+			},
+			{
+				"Amount": 34070,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52949": {
+		"Description": "Deliver 99 Sea Trout Fillets to Sheyna in Rahu. Reward: 34,070 councils.",
+		"InternalName": "Fishing_SeaTroutFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Sea Trout Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Sea Trout Fillets",
+				"ItemName": "SeaTroutFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 4950
+			},
+			{
+				"Amount": 34070,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52950": {
+		"Description": "Deliver 99 Dock Cod Fillets to Sheyna in Rahu. Reward: 34,070 councils.",
+		"InternalName": "Fishing_DockCodFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Dock Cod Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Dock Cod Fillets",
+				"ItemName": "DockCodFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 40,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 4950
+			},
+			{
+				"Amount": 34070,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52951": {
+		"Description": "Deliver 99 Tench Fillets to Sheyna in Rahu. Reward: 41,456 councils.",
+		"InternalName": "Fishing_TenchFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tench Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tench Fillets",
+				"ItemName": "TenchFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5445
+			},
+			{
+				"Amount": 41456,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52952": {
+		"Description": "Deliver 99 Mahi Mahi Fillets to Sheyna in Rahu. Reward: 41,456 councils.",
+		"InternalName": "Fishing_MahiMahiFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Mahi Mahi Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Mahi Mahi Fillets",
+				"ItemName": "MahiMahiFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5445
+			},
+			{
+				"Amount": 41456,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52953": {
+		"Description": "Deliver 99 Red Snapper Fillets to Sheyna in Rahu. Reward: 41,456 councils.",
+		"InternalName": "Fishing_RedSnapperFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Red Snapper Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Red Snapper Fillets",
+				"ItemName": "RedSnapperFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5445
+			},
+			{
+				"Amount": 41456,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52954": {
+		"Description": "Deliver 99 Smallmouth Bass Fillets to Sheyna in Rahu. Reward: 52,531 councils.",
+		"InternalName": "Fishing_SmallmouthBassFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Smallmouth Bass Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Smallmouth Bass Fillets",
+				"ItemName": "SmallmouthBassFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5940
+			},
+			{
+				"Amount": 52531,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52955": {
+		"Description": "Deliver 99 Rock Carp Fillets to Sheyna in Rahu. Reward: 63,001 councils.",
+		"InternalName": "Fishing_RockCarpFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Rock Carp Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Rock Carp Fillets",
+				"ItemName": "RockCarpFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5940
+			},
+			{
+				"Amount": 63001,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52956": {
+		"Description": "Deliver 99 Salmon Fillets to Sheyna in Rahu. Reward: 63,903 councils.",
+		"InternalName": "Fishing_SalmonFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Salmon Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Salmon Fillets",
+				"ItemName": "SalmonFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 55,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 6435
+			},
+			{
+				"Amount": 63903,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52957": {
+		"Description": "Deliver 99 River Salmon Fillets to Sheyna in Rahu. Reward: 75,571 councils.",
+		"InternalName": "Fishing_RiverSalmonFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "River Salmon Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain River Salmon Fillets",
+				"ItemName": "RiverSalmonFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 60,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 6930
+			},
+			{
+				"Amount": 75571,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52958": {
+		"Description": "Deliver 99 Rainbow Trout Fillets to Sheyna in Rahu. Reward: 87,536 councils.",
+		"InternalName": "Fishing_RainbowTroutFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Rainbow Trout Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Rainbow Trout Fillets",
+				"ItemName": "RainbowTroutFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 65,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 7425
+			},
+			{
+				"Amount": 87536,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52959": {
+		"Description": "Deliver 99 Tigerfish Fillets to Sheyna in Rahu. Reward: 99,799 councils.",
+		"InternalName": "Fishing_TigerfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tigerfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tigerfish Fillets",
+				"ItemName": "TigerfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 70,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 7920
+			},
+			{
+				"Amount": 99799,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52960": {
+		"Description": "Deliver 99 Tonguefish Fillets to Sheyna in Rahu. Reward: 41,456 councils.",
+		"InternalName": "Fishing_TonguefishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Tonguefish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Tonguefish Fillets",
+				"ItemName": "TonguefishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 45,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5445
+			},
+			{
+				"Amount": 41456,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52961": {
+		"Description": "Deliver 99 Mukklo Fillets to Sheyna in Rahu. Reward: 52,531 councils.",
+		"InternalName": "Fishing_MukkloFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Mukklo Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Mukklo Fillets",
+				"ItemName": "MukkloFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 50,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 5940
+			},
+			{
+				"Amount": 52531,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52962": {
+		"Description": "Deliver 99 Redfish Fillets to Sheyna in Rahu. Reward: 87,536 councils.",
+		"InternalName": "Fishing_RedfishFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Redfish Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Redfish Fillets",
+				"ItemName": "RedfishFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 65,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 7425
+			},
+			{
+				"Amount": 87536,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
+	},
+	"52963": {
+		"Description": "Deliver 99 Lake Sturgeon Fillets to Sheyna in Rahu. Reward: 99,799 councils.",
+		"InternalName": "Fishing_LakeSturgeonFilletsB",
+		"IsCancellable": true,
+		"Keywords": [
+			"WorkOrder"
+		],
+		"Name": "Lake Sturgeon Fillets",
+		"Objectives": [
+			{
+				"Description": "Obtain Lake Sturgeon Fillets",
+				"ItemName": "LakeSturgeonFillet",
+				"Number": 99,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Deliver to Sheyna",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Requirements": [
+			{
+				"Level": 70,
+				"Skill": "Industry",
+				"T": "MinSkillLevel"
+			}
+		],
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Skill": "Industry",
+				"T": "SkillXp",
+				"Xp": 7920
+			},
+			{
+				"Amount": 99799,
+				"Currency": "Gold",
+				"T": "WorkOrderCurrency"
+			}
+		],
+		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
+		"Version": 1,
+		"WorkOrderSkill": "Fishing"
 	},
 	"6": {
 		"Description": "Kill 10 deer and return to Marna.",

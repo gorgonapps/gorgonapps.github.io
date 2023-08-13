@@ -3722,54 +3722,6 @@
 			}
 		]
 	},
-	"1752": {
-		"Entries": [
-			{
-				"Npc": "NPC_ChemistryPlaceholder",
-				"Type": "Training"
-			}
-		]
-	},
-	"1753": {
-		"Entries": [
-			{
-				"Npc": "NPC_ChemistryPlaceholder",
-				"Type": "Training"
-			}
-		]
-	},
-	"1754": {
-		"Entries": [
-			{
-				"Npc": "NPC_ChemistryPlaceholder",
-				"Type": "Training"
-			}
-		]
-	},
-	"1755": {
-		"Entries": [
-			{
-				"Npc": "NPC_Yalox",
-				"Type": "Training"
-			}
-		]
-	},
-	"1756": {
-		"Entries": [
-			{
-				"Npc": "NPC_Yalox",
-				"Type": "Training"
-			}
-		]
-	},
-	"1757": {
-		"Entries": [
-			{
-				"Npc": "NPC_Yalox",
-				"Type": "Training"
-			}
-		]
-	},
 	"1758": {
 		"Entries": [
 			{
@@ -3931,22 +3883,6 @@
 		]
 	},
 	"1778": {
-		"Entries": [
-			{
-				"Npc": "NPC_MoxWarcut",
-				"Type": "Training"
-			}
-		]
-	},
-	"1779": {
-		"Entries": [
-			{
-				"Npc": "NPC_MoxWarcut",
-				"Type": "Training"
-			}
-		]
-	},
-	"1780": {
 		"Entries": [
 			{
 				"Npc": "NPC_MoxWarcut",
@@ -4142,14 +4078,6 @@
 		]
 	},
 	"1815": {
-		"Entries": [
-			{
-				"Npc": "NPC_Bendith",
-				"Type": "Training"
-			}
-		]
-	},
-	"1816": {
 		"Entries": [
 			{
 				"Npc": "NPC_Bendith",
@@ -21140,6 +21068,9 @@
 		"Entries": []
 	},
 	"9372": {
+		"Entries": []
+	},
+	"9374": {
 		"Entries": []
 	}
 }

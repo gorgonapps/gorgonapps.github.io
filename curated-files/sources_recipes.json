@@ -11504,6 +11504,70 @@
 			}
 		]
 	},
+	"17166": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17167": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17168": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17169": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17186": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17187": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17188": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
+	"17189": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ufkar",
+				"Type": "Training"
+			}
+		]
+	},
 	"172": {
 		"Entries": [
 			{
@@ -13440,11 +13504,203 @@
 			}
 		]
 	},
+	"19615": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19616": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19617": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19618": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19625": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19626": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19627": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
+	"19628": {
+		"Entries": [
+			{
+				"Npc": "NPC_Backfat",
+				"Type": "Training"
+			}
+		]
+	},
 	"197": {
 		"Entries": [
 			{
 				"ItemTypeId": 3114,
 				"Type": "Item"
+			}
+		]
+	},
+	"19706": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19707": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19708": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19709": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19726": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19727": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19728": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19729": {
+		"Entries": [
+			{
+				"Npc": "NPC_Kohan",
+				"Type": "Training"
+			}
+		]
+	},
+	"19746": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19747": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19748": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19749": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19766": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19767": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19768": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19769": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
 			}
 		]
 	},

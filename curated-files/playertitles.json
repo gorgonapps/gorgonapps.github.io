@@ -2654,14 +2654,6 @@
 		"Title": "Slayer of Old Snouty",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
-	"15486": {
-		"Color": "FFFF00",
-		"Keywords": [
-			"PlayerBestowedTitle"
-		],
-		"Title": "Deadbeat",
-		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
-	},
 	"15487": {
 		"Color": "FFFF00",
 		"Keywords": [
@@ -2676,6 +2668,22 @@
 			"PlayerBestowedTitle"
 		],
 		"Title": "Mushroom Jill",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15489": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Circumspectus",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15490": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Druid of Zoar",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
 	"3001": {
@@ -3475,6 +3483,11 @@
 		"Color": "00CC00",
 		"Title": "Summer's Fairest",
 		"Tooltip": "A reward from the Summer 2023 Add-On backer package."
+	},
+	"5229": {
+		"Color": "00CC00",
+		"Title": "I tried!",
+		"Tooltip": "2023 VIP Challenge participation reward."
 	},
 	"53": {
 		"Color": "FFFFFF",

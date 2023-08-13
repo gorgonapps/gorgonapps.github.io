@@ -1280,6 +1280,15 @@
 		],
 		"Label": "Thunderous Note Range"
 	},
+	"ABILITY_RANGE_DELTA_TOXICIRRITANT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3651
+		],
+		"Label": "Toxic Irritant Range"
+	},
 	"ABILITY_RANGE_DELTA_WARNINGJOLT": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -1559,9 +1568,8 @@
 		"Label": "Doe Eyes Reuse Timer"
 	},
 	"ABILITY_RESETTIME_DELTA_DOUBLECLAW": {
-		"DefaultValue": 0,
-		"DisplayRule": "IfNotDefault",
-		"DisplayType": "AsBuffDelta",
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
 		"IconIds": [
 			2132
 		],
@@ -1619,6 +1627,14 @@
 			3753
 		],
 		"Label": "Forest Challenge Reuse Timer"
+	},
+	"ABILITY_RESETTIME_DELTA_FREEZINGMIST": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			2176
+		],
+		"Label": "Freezing Mist Reuse Timer"
 	},
 	"ABILITY_RESETTIME_DELTA_FROSTBALL": {
 		"DefaultValue": 0,
@@ -2582,10 +2598,6 @@
 		"DisplayType": "AsBuffDelta",
 		"Label": "Current Title"
 	},
-	"ALCOHOL_LIVERPOISONING_LEVEL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"ALCOHOL_LIVER_RECOVERY_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -2596,10 +2608,6 @@
 		"IsHidden": true,
 		"Label": "Alcohol Liver Recovery Rate %"
 	},
-	"ALLOW_NEGATIVE_REGEN_HEALTH": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"ALLOW_SADDLEBAG_TELEPORT": {
 		"DisplayRule": "Always",
 		"DisplayType": "AsBool",
@@ -2607,14 +2615,6 @@
 			108
 		],
 		"Label": "Mystic Saddlebag?"
-	},
-	"ALWAYS_SEND_NPC_SCRIPTING_STATE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"ANATOMY_TYPE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"ANGLING_DELTA_CAPTURETIME": {
 		"DefaultValue": 0,
@@ -2633,14 +2633,6 @@
 			108
 		],
 		"Label": "Angling Hook-Fish Time (secs)"
-	},
-	"ANGLING_FISH_ENTITYID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"ANGLING_PERSONAL_FX": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"ANIMALHANDLING_COST_MOD": {
 		"DefaultValue": 1,
@@ -2686,10 +2678,6 @@
 			108
 		],
 		"Label": "Mitigation When Armor Is Full %"
-	},
-	"ARMOR_MITIGATION_RATIO": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"ATTACK_COST_DELTA": {
 		"DefaultValue": 0,
@@ -2785,22 +2773,6 @@
 		],
 		"Label": "Battle Chemistry Ability Power Cost %"
 	},
-	"BEAST_KILLS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"BODYHEAT_DROP_CHANCE_IN_WATER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"BODYHEAT_DROP_CHANCE_LAND": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"BODYHEAT_DROP_CHANCE_UNDERWATER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"BODYHEAT_DROP_MOD_IN_COMBAT": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -2810,14 +2782,6 @@
 		],
 		"IsHidden": true,
 		"Label": "Body Heat Drop Chance Mod When In Combat"
-	},
-	"BODYHEAT_PROTECTION_DELTA": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"BODYHEAT_REGEN": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"BOND_XP_EARNED_MOD": {
 		"DefaultValue": 1,
@@ -2887,10 +2851,6 @@
 		],
 		"Label": "Fire Arrow Delayed Damage"
 	},
-	"BOOST_ABILITYDOT2_GUT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"BOOST_ABILITYDOT2_HEARTTHORN": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -2924,6 +2884,14 @@
 			3481
 		],
 		"Label": "Heart Thorn Acid Damage Over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_ACIDBOMB": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2184
+		],
+		"Label": "Acid Bomb Damage over Time (Per Tick)"
 	},
 	"BOOST_ABILITYDOT_AGGRESSIONDETERRENT": {
 		"DefaultValue": 0,
@@ -3324,6 +3292,14 @@
 		],
 		"Label": "Molten Veins Damage over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_MYCOTOXINBOMB": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2178
+		],
+		"Label": "Mycotoxin Formula Damage over Time (Per Tick)"
+	},
 	"BOOST_ABILITYDOT_PIGREND": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -3522,6 +3498,14 @@
 			3403
 		],
 		"Label": "Toxinball Damage Over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_TOXINBOMB": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2171
+		],
+		"Label": "Toxin Bomb Damage over Time (Per Tick)"
 	},
 	"BOOST_ABILITYDOT_TSUNAMI": {
 		"DisplayRule": "IfNotZero",
@@ -4406,7 +4390,7 @@
 		"DisplayRule": "IfNotDefault",
 		"DisplayType": "AsBuffDelta",
 		"IconIds": [
-			3402
+			3042
 		],
 		"Label": "Gripjaw Damage"
 	},
@@ -5735,6 +5719,15 @@
 		],
 		"Label": "Tough Hoof Damage"
 	},
+	"BOOST_ABILITY_TOXICIRRITANT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3651
+		],
+		"Label": "Toxic Irritant Damage"
+	},
 	"BOOST_ABILITY_TOXINBALL": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -5886,10 +5879,6 @@
 		],
 		"Label": "Admonish Max Power Recovered"
 	},
-	"BOOST_ANIMALPETHEAL_SENDER": {
-		"DisplayRule": "IfNotZero",
-		"DisplayType": "AsBuffDelta"
-	},
 	"BOOST_ARMORREPAIR_RECEIVER": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -5921,10 +5910,6 @@
 			3328
 		],
 		"Label": "Healing from Sigils"
-	},
-	"BOOST_AURAHEAL_SENDER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"BOOST_AUTOHEAL_ARMOR_SENDER": {
 		"DisplayRule": "IfNotZero",
@@ -6689,6 +6674,22 @@
 		],
 		"Label": "Healing Injection Healing"
 	},
+	"BOOST_HEALINGMIST_TSYS_ARMOR_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2175
+		],
+		"Label": "Healing Mist Armor (Per Tick)"
+	},
+	"BOOST_HEALINGMIST_TSYS_HEALTH_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2175
+		],
+		"Label": "Healing Mist Healing (Per Tick)"
+	},
 	"BOOST_HEALTHWAVE_SENDER": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -6900,6 +6901,14 @@
 			108
 		],
 		"Label": "Animal-Handling Pet Damage-over-Time"
+	},
+	"BOOST_PET_GOLEM_DAMAGE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Golem Minion Damage"
 	},
 	"BOOST_PET_POWERGLYPH_DELAYEDPOWER": {
 		"DefaultValue": 0,
@@ -7727,10 +7736,6 @@
 		],
 		"Label": "Corpse-Eating Power Regeneration"
 	},
-	"BOSS_MUSIC_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"BREATH_COST_PER_SEC": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -7757,14 +7762,6 @@
 			108
 		],
 		"Label": "Breath Recovered Out of Water"
-	},
-	"BREW_CRAFTING_MAX_BONUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"BREW_CRAFTING_MIN_BONUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"BUFF_DELTA_DRUIDAURAHEAL_ACCURACY": {
 		"DisplayRule": "IfNotZero",
@@ -7832,10 +7829,6 @@
 			108
 		],
 		"Label": "Climb Speed"
-	},
-	"COCKATRICEDEBUFF_COST_DELTA": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"COMBAT_REFRESH_ARMOR_DELTA": {
 		"DefaultValue": 0,
@@ -8056,10 +8049,6 @@
 		],
 		"Label": "Cur Fae Energy"
 	},
-	"CUR_FAIRYLIGHT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"CUR_FATIGUE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -8077,10 +8066,6 @@
 		],
 		"Label": "Current Health"
 	},
-	"CUR_HYDRATION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"CUR_METABOLISM": {
 		"DefaultValue": 50,
 		"DisplayRule": "IfNotDefault",
@@ -8097,10 +8082,6 @@
 			108
 		],
 		"Label": "Cur Mount Anxiety"
-	},
-	"CUR_MOUNT_CONFIDENCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"CUR_PEACEABLENESS": {
 		"DefaultValue": 50,
@@ -8163,14 +8144,6 @@
 		],
 		"Label": "Dance Appreciation Extra-Effect Chance Boost %"
 	},
-	"DEATH_PENALTY_MODE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"DEATH_RESPAWN_RANDOM_RANGE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"DEER_COST_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -8179,10 +8152,6 @@
 			108
 		],
 		"Label": "Deer Ability Power Cost %"
-	},
-	"DEFAULT_INTERACTION_DISTANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"DELTA_TEMPESTFLIGHT_COST": {
 		"DisplayRule": "IfNotZero",
@@ -8213,10 +8182,6 @@
 		],
 		"Label": "Druid Ability Power Cost %"
 	},
-	"DRUID_CREDITS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"ENABLE_SUMMONTORNADO_DEBUFF": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -8225,14 +8190,6 @@
 			3844
 		],
 		"Label": "Summoned Tornados Can Debuff?"
-	},
-	"EQUIPMENT_CAP_MASK": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"EQUIPMENT_LEVEL_CAP": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"EVASION_CHANCE": {
 		"DefaultValue": 0,
@@ -8279,10 +8236,6 @@
 		],
 		"Label": "Chance to Evade Ranged %"
 	},
-	"FAIRY_DEATH_PENALTY_MODE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"FALLING_DAMAGE_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -8291,26 +8244,6 @@
 			108
 		],
 		"Label": "Falling Damage %"
-	},
-	"FEAR_HISTORY_EQUIPMENT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FEAR_HISTORY_NECROMANCY": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FEAR_HISTORY_PIG": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FEAR_HISTORY_PSYCHOLOGY": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FEAR_HISTORY_SPIDER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"FIREMAGIC_COST_DELTA": {
 		"DefaultValue": 0,
@@ -8338,10 +8271,6 @@
 			108
 		],
 		"Label": "First Aid Ability Power Cost %"
-	},
-	"FLEE_SPEED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"FLY_COST_PER_SEC": {
 		"DefaultValue": 3,
@@ -8378,22 +8307,6 @@
 			108
 		],
 		"Label": "Flying Cost (Per Second In Combat)"
-	},
-	"FLY_MODE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FLY_SPEED_MOD": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FLY_SPEED_UPDOWN": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"FOOD_LEVEL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"GENETICS_MAX_ARMOR_MOD": {
 		"DefaultValue": 1,
@@ -8701,10 +8614,6 @@
 		],
 		"Label": "Ice Magic Ability Power Cost %"
 	},
-	"IGNORED_BY_ENTITYID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"IGNORE_CHANCE_FEAR": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -8759,14 +8668,6 @@
 		],
 		"Label": "Independence"
 	},
-	"INITIAL_WANDER_CHANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"INTERACTING_WITH_NPC": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"INTERPRETIVE_DANCE_COMPETENCE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -8781,10 +8682,6 @@
 		"DisplayType": "AsBool",
 		"Label": "Is Beast?"
 	},
-	"IS_BOSS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"IS_COMBATREFRESH_READY": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -8795,43 +8692,15 @@
 		"IsHidden": true,
 		"Label": "Combat-Refresh Ready?"
 	},
-	"IS_CORPSE_INTACT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"IS_DANCE_OK": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"IS_DRUID": {
 		"DisplayRule": "Always",
 		"DisplayType": "AsBool",
 		"Label": "Is Druid?"
 	},
-	"IS_ELITE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"IS_FLEEING": {
 		"DisplayRule": "Always",
 		"DisplayType": "AsBool",
 		"Label": "Is Fleeing?"
-	},
-	"IS_HOWLING": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"IS_INTERACTION_QUEUED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"IS_JUMP_ABORTABLE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"IS_JUMP_STEERABLE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"IS_LYCANTHROPE": {
 		"DisplayRule": "Always",
@@ -8843,35 +8712,15 @@
 		"DisplayType": "AsBool",
 		"Label": "Is Male?"
 	},
-	"IS_MEZZED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"IS_MOUNTED": {
 		"DisplayRule": "Always",
 		"DisplayType": "AsBool",
 		"Label": "Is On a Mount?"
 	},
-	"IS_NOLOCK": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"IS_PERFORMANCE_OK": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"IS_SPAWNED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"IS_STUNNED": {
 		"DisplayRule": "Always",
 		"DisplayType": "AsBool",
 		"Label": "Is Stunned?"
-	},
-	"IS_SUMMONED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"IS_UNDEAD": {
 		"DisplayRule": "Always",
@@ -8917,10 +8766,6 @@
 		],
 		"Label": "Knife Ability Power Cost %"
 	},
-	"KNOCKBACK_ANIMATION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"KNOCKBACK_POTENCY_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -8930,18 +8775,6 @@
 		],
 		"IsHidden": true,
 		"Label": "Knockback Efficacy %"
-	},
-	"LAMIADEBUFF_COST_DELTA": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"LIVE_EVENT_CREDITS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"LOCKED_BY_ENTITYID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"LOOT_BOOST_CHANCE_COMMON": {
 		"DefaultValue": 0,
@@ -9083,18 +8916,6 @@
 		"Label": "Chance to Forage Extra Herbs/Seeds %",
 		"Tooltip": "When you collect seeds in the wilderness, this is the chance that you'll get an extra seed"
 	},
-	"LOOT_PERMISSION_MODE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"LOOT_SKILL_GUIDANCE1": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"LOOT_SKILL_GUIDANCE2": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"LOW_CLEANLINESS_XP_EARNED_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -9160,10 +8981,6 @@
 		],
 		"Label": "Max Armor"
 	},
-	"MAX_ARMOR_MITIGATION_RATIO": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"MAX_BODYHEAT": {
 		"DefaultValue": 60,
 		"DisplayRule": "IfNotDefault",
@@ -9226,10 +9043,6 @@
 			108
 		],
 		"Label": "Max Fae Energy"
-	},
-	"MAX_FATIGUE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"MAX_HEALTH": {
 		"DisplayRule": "Always",
@@ -9403,26 +9216,6 @@
 			108
 		],
 		"Label": "Mentalism Ability Power Cost %"
-	},
-	"MENTAL_DEFENSE_RATING": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MEZ_HISTORY_ARCHERY": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MEZ_HISTORY_EQUIPMENT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MEZ_HISTORY_ICEMAGIC": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MEZ_HISTORY_PSYCHOLOGY": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"MISS_CHANCE": {
 		"DefaultValue": 0,
@@ -10969,7 +10762,7 @@
 		"DisplayRule": "IfNotDefault",
 		"DisplayType": "AsBuffMod",
 		"IconIds": [
-			3402
+			3042
 		],
 		"Label": "Gripjaw Damage %"
 	},
@@ -12236,6 +12029,15 @@
 		],
 		"Label": "Tough Hoof Damage %"
 	},
+	"MOD_ABILITY_TOXICIRRITANT": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3651
+		],
+		"Label": "Toxic Irritant Damage %"
+	},
 	"MOD_ABILITY_TOXINBALL": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -12378,10 +12180,6 @@
 			107
 		],
 		"Label": "Indirect Acid Damage %"
-	},
-	"MOD_ANIMALPETHEAL_SENDER": {
-		"DisplayRule": "IfNotZero",
-		"DisplayType": "AsBuffDelta"
 	},
 	"MOD_CALLIGRAPHY_DURATION": {
 		"DefaultValue": 1,
@@ -13199,38 +12997,6 @@
 		],
 		"Label": "All Indirect Damage %"
 	},
-	"MOD_VAULT_SIZE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_AGGRAVATED_CHASE_EXTENSION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_AGGRO_MOD": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_ALWAYS_ALLOW_WANDER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_AUTOPSY_DIFFICULTY": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_AUTO_HELP_SHOUT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_CHASE_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_COMBAT_XP_VALUE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"MONSTER_CRIT_CHANCE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -13239,58 +13005,6 @@
 			108
 		],
 		"Label": "Chance to Critically-Hit %"
-	},
-	"MONSTER_DETACHFROMSPAWNER_ONBIRTH": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_DETACHFROMSPAWNER_ONDEATH": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_DETECTION_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_EMPTYCORPSE_DURATION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_FIND_WANDER_TAG_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_FULLCORPSE_DURATION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_HELP_SHOUT_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_HOME_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_MATCH_OWNER_SPEED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_SKIP_ATTRS_INIT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_SPECIALLOOT_CHANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_TARGET_LEVEL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"MONSTER_VULNERABILITY_CHANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"MOUNTED_ACCELERATION_LAND": {
 		"DisplayRule": "Always",
@@ -13558,14 +13272,6 @@
 		],
 		"Label": "Cost of NPC Training %"
 	},
-	"NPC_PERFORMANCE_SKILL_LEVEL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"NPC_SCRIPTING_STATE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"NUM_INVENTORY_FOLDERS": {
 		"DisplayRule": "IfNotOne",
 		"DisplayType": "AsInt",
@@ -13573,14 +13279,6 @@
 			108
 		],
 		"Label": "Number of Inventory Folders"
-	},
-	"ORIGINAL_OWNER_ACCOUNT_ID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"ORIGINAL_OWNER_PLAYER_ID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"PERCUSSION_INSTRUMENT_COMPETENCE": {
 		"DefaultValue": 0,
@@ -13636,10 +13334,6 @@
 		"DisplayType": "AsInt",
 		"Label": "Intelligence"
 	},
-	"PET_LEVEL_CAP": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"PET_LOYALTY": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -13685,10 +13379,6 @@
 		"DisplayType": "AsInt",
 		"Label": "Virility"
 	},
-	"PHRENOLOGY_TYPE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"PIG_COST_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -13727,10 +13417,6 @@
 		],
 		"Label": "Priest Ability Power Cost %"
 	},
-	"PRIEST_RESURRECT_COUNTER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"PSYCHOLOGY_COST_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -13754,10 +13440,6 @@
 		],
 		"Label": "Rabbit Ability Power Cost %"
 	},
-	"RACIAL_LEVEL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"RADIATION_PROTECTION": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -13767,10 +13449,6 @@
 		],
 		"IsHidden": true,
 		"Label": "Radiation Protection"
-	},
-	"RAGE_INFLICT_DELTA": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"RAGE_INFLICT_MOD": {
 		"DefaultValue": 1,
@@ -13864,14 +13542,6 @@
 		],
 		"Label": "Righteousness"
 	},
-	"SCREEN_FX_BLACKANDWHITE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SCREEN_FX_BLUR": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"SCREEN_FX_FLAGS": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -13880,30 +13550,6 @@
 			108
 		],
 		"Label": "OBSOLETE"
-	},
-	"SCREEN_FX_MOTIONBLUR": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SCREEN_FX_NIGHTVISION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SCREEN_FX_PSYCHEDELIC": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SCREEN_FX_REDFILTER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SCREEN_FX_SUPERBRIGHT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SELFDESTRUCT_HEARTBEATS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"SHIELD_COST_MOD": {
 		"DefaultValue": 1,
@@ -13973,26 +13619,6 @@
 		],
 		"Label": "Is It Cold?"
 	},
-	"SHOW_CLEANLINESS_INDICATORS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SHOW_COMMUNITY_INDICATORS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SHOW_FAIRYENERGY_INDICATORS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SHOW_HYDRATION_INDICATORS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SHOW_MOUNT_ANXIETY_INDICATORS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"SHOW_MOUNT_SPEED_INDICATORS": {
 		"DisplayRule": "Always",
 		"DisplayType": "AsBool",
@@ -14008,10 +13634,6 @@
 			108
 		],
 		"Label": "Show \"Riding Xp Earned\" Checkmark?"
-	},
-	"SHOW_PEACEABLENESS_INDICATORS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"SKILL_COST_DELTA_CROSSBOW": {
 		"DefaultValue": 0,
@@ -14045,14 +13667,6 @@
 			108
 		],
 		"Label": "Bonus Snack Duration (secs)"
-	},
-	"SPAWNED_FOR_ENTITY_ID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"SPAWNER_ENTITY_ID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"SPAWN_VIEW_ABERRATIONS": {
 		"DisplayRule": "IfNotZero",
@@ -14278,10 +13892,6 @@
 		],
 		"Label": "Spawn Premonition (Ungulates)"
 	},
-	"SPECIAL_TARGETING_TYPE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"SPIDER_COST_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -14335,30 +13945,6 @@
 		],
 		"Label": "Staff Ability Power Cost %"
 	},
-	"STATCOUNTER_ATTACKS_MADE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STATCOUNTER_DAMAGE_DEALT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STATCOUNTER_DAMAGE_TAKEN": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STATCOUNTER_MONSTERS_KILLED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STATCOUNTER_RAGEATTACKS_MADE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STATCOUNTER_TIMES_DIED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"STRINGED_INSTRUMENT_COMPETENCE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -14367,114 +13953,6 @@
 			108
 		],
 		"Label": "Stringed Instrument Skill"
-	},
-	"STUN_ANIMATION": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_ALIENDOG": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_BARRAGE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_BOSS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_BOSS2": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_COBRASTRIKE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_ELECTRICITY": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_EQUIPMENT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_FAE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_HEADCRACKER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_KNOCKDOWN": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_MANTIS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_OFFBALANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_OGRE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_OVERALL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_PETSKELETON": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_PLAYERCOW": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_PLAYERDEER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_PLAYERPIG": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_PLAYERSPIDER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_POUNCINGRAKE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_RHINO": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_SHIELD": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_SKELETON": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_SPIDER": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_TROLL": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"STUN_HISTORY_WOLF": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"SWIM_FASTSPEED_BOOST": {
 		"DefaultValue": 3,
@@ -14485,10 +13963,6 @@
 		],
 		"Label": "Sprint-Swimming Speed Boost"
 	},
-	"SWIM_FASTSPEED_COST_PER_SEC": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"SWIM_SPEED_MOD": {
 		"DefaultValue": 0.7,
 		"DisplayRule": "IfNotDefault",
@@ -14497,10 +13971,6 @@
 			108
 		],
 		"Label": "Swimming Speed %"
-	},
-	"SWIM_SPEED_UPDOWN": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"SWORD_COST_MOD": {
 		"DefaultValue": 1,
@@ -14528,10 +13998,6 @@
 			108
 		],
 		"Label": "Unarmed Ability Power Cost %"
-	},
-	"UNATTACKABLE_BY_ENTITYID": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
 	},
 	"UNDERWATER_GRAVITY": {
 		"DefaultValue": 0,
@@ -15224,34 +14690,6 @@
 		],
 		"Label": "Vulnerability to Indirect Damage %"
 	},
-	"WANDER_CHANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"WANDER_MIN_PLAYER_DIST": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"WANDER_RADIUS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"WANDER_SPEED": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"WANDER_STOP_DISTANCE": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"WANDER_TIMEOUT": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
-	"WARDEN_CREDITS": {
-		"DisplayRule": "Never",
-		"DisplayType": "AsBuffDelta"
-	},
 	"WEREWOLF_BUFF_POINTS": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -15317,5 +14755,53 @@
 		],
 		"Label": "Cash Payout From Work Orders %",
 		"Tooltip": "How much money do you make from work orders (as a percentage of what is stated in the order)?"
+	},
+	"COCKATRICEDEBUFF_COST_DELTA": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"LAMIADEBUFF_COST_DELTA": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_MATCH_OWNER_SPEED": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"ARMOR_MITIGATION_RATIO": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_CLEANLINESS_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_COMMUNITY_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_PEACEABLENESS_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"SHOW_FAIRYENERGY_INDICATORS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"BOOST_ANIMALPETHEAL_SENDER": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_COMBAT_XP_VALUE": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MOD_VAULT_SIZE": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MENTAL_DEFENSE_RATING": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
 	}
 }

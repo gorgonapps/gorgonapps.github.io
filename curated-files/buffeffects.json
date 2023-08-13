@@ -458,6 +458,13 @@
           "Value": 10,
           "IsPercent": true
         }
+      },
+      {
+        "Keyword": "AddMaxPower",
+        "Data": {
+          "Value": -50,
+          "IsPercent": false
+        }
       }
     ]
   },
@@ -1296,6 +1303,126 @@
       }
     ]
   },
+  "18766": {
+    "Description": "Deal +1% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 1,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18767": {
+    "Description": "Deal +2% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 2,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18768": {
+    "Description": "Deal +3% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 3,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18769": {
+    "Description": "Deal +4% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 4,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18770": {
+    "Description": "Deal +5% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 5,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18771": {
+    "Description": "Deal +6% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 6,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18772": {
+    "Description": "Deal +7% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 7,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
+  "18773": {
+    "Description": "Deal +8% Direct Nature damage",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 8,
+          "IsPercent": true
+        },
+        "DamageTypes": [
+          "Nature"
+        ]
+      }
+    ]
+  },
   "3552": {
     "Description": "Speaking this word of power makes boosts Archery Base Damage +50% damage for 5 minutes.",
     "StaticCombatEffects": [
@@ -1415,6 +1542,13 @@
   "595": {
     "Description": "Max Power +3; Animal attacks deal +2 damage",
     "StaticCombatEffects": [
+      {
+        "Keyword": "AddMaxPower",
+        "Data": {
+          "Value": 3,
+          "IsPercent": false
+        }
+      },
       {
         "Keyword": "DamageBoost",
         "Data": {

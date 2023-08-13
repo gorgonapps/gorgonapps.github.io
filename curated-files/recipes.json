@@ -9088,7 +9088,7 @@
 	},
 	"11": {
 		"Description": "Cut and clean a clownfish.",
-		"IconId": 5034,
+		"IconId": 5036,
 		"Ingredients": [
 			{
 				"ItemCode": 5101,
@@ -16229,7 +16229,7 @@
 	},
 	"12": {
 		"Description": "Cut and clean a perch.",
-		"IconId": 5034,
+		"IconId": 5037,
 		"Ingredients": [
 			{
 				"ItemCode": 5102,
@@ -26809,7 +26809,7 @@
 	},
 	"13": {
 		"Description": "Cut and clean an eel.",
-		"IconId": 5035,
+		"IconId": 5034,
 		"Ingredients": [
 			{
 				"ItemCode": 5103,
@@ -38136,7 +38136,7 @@
 	},
 	"14": {
 		"Description": "Cut and clean a shark.",
-		"IconId": 5036,
+		"IconId": 5035,
 		"Ingredients": [
 			{
 				"ItemCode": 5104,
@@ -60045,7 +60045,7 @@
 	},
 	"16": {
 		"Description": "Cut and clean a grapefish.",
-		"IconId": 5034,
+		"IconId": 5037,
 		"Ingredients": [
 			{
 				"ItemCode": 5106,
@@ -74768,7 +74768,7 @@
 	},
 	"17": {
 		"Description": "Cut and clean a cavefish.",
-		"IconId": 5036,
+		"IconId": 5034,
 		"Ingredients": [
 			{
 				"ItemCode": 5107,
@@ -79121,6 +79121,626 @@
 		"UsageAnimationEnd": "Idle",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Carving"
+	},
+	"17166": {
+		"ActionLabel": "Craft",
+		"Description": "Level 50 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13103,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17503,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 55,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1289,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff6",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Quality Chemistry Staff (Enchanted)",
+		"PrereqRecipe": "CraftedPriestStaff5E",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47166,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 6,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 224,
+		"RewardSkillXpDropOffLevel": 66,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 896,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 56,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17167": {
+		"ActionLabel": "Craft",
+		"Description": "Level 60 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13104,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17504,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 65,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1290,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff7",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Great Chemistry Staff (Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47167,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 7,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 264,
+		"RewardSkillXpDropOffLevel": 76,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1056,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 66,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17168": {
+		"ActionLabel": "Craft",
+		"Description": "Level 70 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13104,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 17504,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 75,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1273,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff8",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Amazing Chemistry Staff (Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47168,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 8,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 304,
+		"RewardSkillXpDropOffLevel": 86,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1216,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 76,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17169": {
+		"ActionLabel": "Craft",
+		"Description": "Level 80 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13104,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 17505,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 85,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1272,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff9",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Astounding Chemistry Staff (Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47169,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 9,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 344,
+		"RewardSkillXpDropOffLevel": 96,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1376,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 86,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17186": {
+		"ActionLabel": "Craft",
+		"Description": "Level 50 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13103,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17503,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 55,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1289,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff6M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Quality Chemistry Staff (Max-Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47166,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 6,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 232,
+		"RewardSkillXpDropOffLevel": 68,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 928,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 58,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17187": {
+		"ActionLabel": "Craft",
+		"Description": "Level 60 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13104,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17504,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 65,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1290,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff7M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Great Chemistry Staff (Max-Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47167,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 7,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 272,
+		"RewardSkillXpDropOffLevel": 78,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1088,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 68,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17188": {
+		"ActionLabel": "Craft",
+		"Description": "Level 70 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13104,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 17504,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 75,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1273,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff8M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Amazing Chemistry Staff (Max-Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47168,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 8,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 312,
+		"RewardSkillXpDropOffLevel": 88,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1248,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 78,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"17189": {
+		"ActionLabel": "Craft",
+		"Description": "Level 80 magical fighting staff with a complex chemical-dispersal system, allowing it to be used for staff fighting, druidism, fire magic, ice magic, priest magic, and battle chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 18020,
+		"Ingredients": [
+			{
+				"ItemCode": 13104,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 17505,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 15409,
+				"StackSize": 2
+			},
+			{
+				"ChanceToConsume": 85,
+				"ItemCode": 1177,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1272,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedChemistryStaff9M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Astounding Chemistry Staff (Max-Enchanted)",
+		"PrereqRecipe": "CraftedChemistryStaff9",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 47169,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedChemistryStaff",
+				"BoostLevel": 9,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Carpentry",
+		"RewardSkillXp": 352,
+		"RewardSkillXpDropOffLevel": 98,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1408,
+		"Skill": "Carpentry",
+		"SkillLevelRequirement": 88,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
 	},
 	"172": {
 		"Description": "Creates a hearty meal. Requires a stove or fire pit.",
@@ -91703,6 +92323,581 @@
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Crafting"
 	},
+	"19615": {
+		"ActionLabel": "Craft",
+		"Description": "Level 50 PIG-ONLY ring that enables Battle Chemistry.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4325,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4403,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22006,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1273,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser5",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Nice Porcine Blast Disperser (Enchanted)",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49145,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 5,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 196,
+		"RewardSkillXpDropOffLevel": 59,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 784,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 49,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19616": {
+		"ActionLabel": "Craft",
+		"Description": "Level 60 PIG-ONLY ring that enables Battle Chemistry.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4326,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4404,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22009,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1214,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser6",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Quality Porcine Blast Disperser (Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser5",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49146,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 6,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 236,
+		"RewardSkillXpDropOffLevel": 69,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 944,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 59,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19617": {
+		"ActionLabel": "Craft",
+		"Description": "Level 70 PIG-ONLY ring that enables Battle Chemistry.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4327,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4405,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22011,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1274,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser7",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Great Porcine Blast Disperser (Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49147,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 7,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 276,
+		"RewardSkillXpDropOffLevel": 79,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1104,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 69,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19618": {
+		"ActionLabel": "Craft",
+		"Description": "Level 80 PIG-ONLY ring that enables Battle Chemistry.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4328,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4406,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22012,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1361,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser8",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Amazing Porcine Blast Disperser (Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49148,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 8,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 316,
+		"RewardSkillXpDropOffLevel": 89,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1264,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 79,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19625": {
+		"ActionLabel": "Craft",
+		"Description": "Level 50 PIG-ONLY ring that enables Battle Chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4325,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4403,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22006,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1273,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser5M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Nice Porcine Blast Disperser (Max-Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser5",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49145,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 5,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 204,
+		"RewardSkillXpDropOffLevel": 61,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 816,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 51,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19626": {
+		"ActionLabel": "Craft",
+		"Description": "Level 60 PIG-ONLY ring that enables Battle Chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4326,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4404,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22009,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1214,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser6M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Quality Porcine Blast Disperser (Max-Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49146,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 6,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 244,
+		"RewardSkillXpDropOffLevel": 71,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 976,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 61,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19627": {
+		"ActionLabel": "Craft",
+		"Description": "Level 70 PIG-ONLY ring that enables Battle Chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4327,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4405,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22011,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1274,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser7M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Great Porcine Blast Disperser (Max-Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49147,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 7,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 284,
+		"RewardSkillXpDropOffLevel": 81,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1136,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 71,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19628": {
+		"ActionLabel": "Craft",
+		"Description": "Level 80 PIG-ONLY ring that enables Battle Chemistry. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 17002,
+		"Ingredients": [
+			{
+				"ItemCode": 4328,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 4406,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22012,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 1361,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "PorcineBlastDisperser8M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Amazing Porcine Blast Disperser (Max-Enchanted)",
+		"PrereqRecipe": "PorcineBlastDisperser8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 49148,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "PorcineBlastDisperser",
+				"BoostLevel": 8,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "JewelryCrafting",
+		"RewardSkillXp": 324,
+		"RewardSkillXpDropOffLevel": 91,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1296,
+		"Skill": "JewelryCrafting",
+		"SkillLevelRequirement": 81,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
 	"197": {
 		"Description": "Creates a hearty meal. Requires a stove or fire pit.",
 		"IconId": 5313,
@@ -91739,6 +92934,999 @@
 		"RewardSkillXpFirstTime": 896,
 		"Skill": "Cooking",
 		"SkillLevelRequirement": 56
+	},
+	"19706": {
+		"ActionLabel": "Craft",
+		"Description": "Level 50 claw/flask hybrid weapon.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4325,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18027,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1276,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw6",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Quality Alchemist's Claw (Enchanted)",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53606,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 6,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 160,
+		"RewardSkillXpDropOffLevel": 50,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 640,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19707": {
+		"ActionLabel": "Craft",
+		"Description": "Level 60 claw/flask hybrid weapon.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4326,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18032,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1135,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw7",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Great Alchemist's Claw (Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53607,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 7,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 200,
+		"RewardSkillXpDropOffLevel": 60,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 800,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19708": {
+		"ActionLabel": "Craft",
+		"Description": "Level 70 claw/flask hybrid weapon.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4327,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18028,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1272,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw8",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Amazing Alchemist's Claw (Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53608,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 8,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 240,
+		"RewardSkillXpDropOffLevel": 70,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 960,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 60,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19709": {
+		"ActionLabel": "Craft",
+		"Description": "Level 80 claw/flask hybrid weapon.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4328,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18053,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1292,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw9",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Astounding Alchemist's Claw (Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53609,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 9,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 280,
+		"RewardSkillXpDropOffLevel": 80,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1120,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 70,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19726": {
+		"ActionLabel": "Craft",
+		"Description": "Level 50 claw/flask hybrid weapon. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4325,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18027,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1276,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw6M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Quality Alchemist's Claw (Max-Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53606,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 6,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 168,
+		"RewardSkillXpDropOffLevel": 52,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 672,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 42,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19727": {
+		"ActionLabel": "Craft",
+		"Description": "Level 60 claw/flask hybrid weapon. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4326,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18032,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1135,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw7M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Great Alchemist's Claw (Max-Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53607,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 7,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 208,
+		"RewardSkillXpDropOffLevel": 62,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 832,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 52,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19728": {
+		"ActionLabel": "Craft",
+		"Description": "Level 70 claw/flask hybrid weapon. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4327,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18028,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1272,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw8M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Amazing Alchemist's Claw (Max-Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53608,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 8,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 248,
+		"RewardSkillXpDropOffLevel": 72,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 992,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 62,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19729": {
+		"ActionLabel": "Craft",
+		"Description": "Level 80 claw/flask hybrid weapon. Max-Enchanting creates items that are one Rarity level higher than they otherwise would be.",
+		"IconId": 5410,
+		"Ingredients": [
+			{
+				"ItemCode": 4328,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18053,
+				"StackSize": 3
+			},
+			{
+				"ItemCode": 1292,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 4602,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18182,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 18183,
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			},
+			{
+				"Description": "Crystal",
+				"ItemKeys": [
+					"Crystal"
+				],
+				"StackSize": 1
+			}
+		],
+		"InternalName": "CraftedAlchemistsClaw9M",
+		"Keywords": [
+			"NoValueGeneration",
+			"NotIncludedInDynamicUsageListings"
+		],
+		"Name": "Astounding Alchemist's Claw (Max-Enchanted)",
+		"PrereqRecipe": "CraftedAlchemistsClaw9",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 53609,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"AdditionalEnchantments": 1,
+				"Boost": "CraftedAlchemistsClaw",
+				"BoostLevel": 9,
+				"Type": "TSysCraftedEquipment"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 288,
+		"RewardSkillXpDropOffLevel": 82,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1152,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 72,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Crafting"
+	},
+	"19746": {
+		"Description": "Level 50 spider harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 4325,
+				"StackSize": 8
+			},
+			{
+				"ItemCode": 1214,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22507,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22504,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "ArachnidMechaharness6",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Quality Arachnid Mechaharness (Enchanted)",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54726,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "ArachnidMechaharness6",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 220,
+		"RewardSkillXpDropOffLevel": 65,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 880,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 55,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19747": {
+		"Description": "Level 60 spider harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 4326,
+				"StackSize": 8
+			},
+			{
+				"ItemCode": 1214,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1274,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22509,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "ArachnidMechaharness7",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Great Arachnid Mechaharness (Enchanted)",
+		"PrereqRecipe": "ArachnidMechaharness6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54727,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "ArachnidMechaharness7",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 260,
+		"RewardSkillXpDropOffLevel": 75,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1040,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 65,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19748": {
+		"Description": "Level 70 spider harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 4327,
+				"StackSize": 8
+			},
+			{
+				"ItemCode": 1274,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1361,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22509,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "ArachnidMechaharness8",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Amazing Arachnid Mechaharness (Enchanted)",
+		"PrereqRecipe": "ArachnidMechaharness7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54728,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "ArachnidMechaharness8",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 300,
+		"RewardSkillXpDropOffLevel": 85,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1200,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 75,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19749": {
+		"Description": "Level 80 spider harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 4328,
+				"StackSize": 8
+			},
+			{
+				"ItemCode": 1361,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1360,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 22510,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "ArachnidMechaharness9",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Astounding Arachnid Mechaharness (Enchanted)",
+		"PrereqRecipe": "ArachnidMechaharness8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54729,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "ArachnidMechaharness9",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 340,
+		"RewardSkillXpDropOffLevel": 95,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1360,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 85,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19766": {
+		"Description": "Level 50 giant bat harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 12560,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 22506,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17218,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1289,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "AerosolizingBatHarness6",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Quality Aerosolizing Bat Harness (Enchanted)",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54746,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "AerosolizingBatHarness6",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 220,
+		"RewardSkillXpDropOffLevel": 65,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 880,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 55,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19767": {
+		"Description": "Level 60 giant bat harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 12561,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 22506,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17206,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1289,
+				"StackSize": 2
+			}
+		],
+		"InternalName": "AerosolizingBatHarness7",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Great Aerosolizing Bat Harness (Enchanted)",
+		"PrereqRecipe": "AerosolizingBatHarness6",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54747,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "AerosolizingBatHarness7",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 260,
+		"RewardSkillXpDropOffLevel": 75,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1040,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 65,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19768": {
+		"Description": "Level 70 giant bat harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 12562,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 22507,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17208,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1273,
+				"StackSize": 2
+			}
+		],
+		"InternalName": "AerosolizingBatHarness8",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Amazing Aerosolizing Bat Harness (Enchanted)",
+		"PrereqRecipe": "AerosolizingBatHarness7",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54748,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "AerosolizingBatHarness8",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 300,
+		"RewardSkillXpDropOffLevel": 85,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1200,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 75,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
+	},
+	"19769": {
+		"Description": "Level 80 giant bat harness that can disperse chemicals during battle (enabling Battle Chemistry).",
+		"IconId": 20001,
+		"Ingredients": [
+			{
+				"ItemCode": 12568,
+				"StackSize": 4
+			},
+			{
+				"ItemCode": 22507,
+				"StackSize": 2
+			},
+			{
+				"ItemCode": 17211,
+				"StackSize": 1
+			},
+			{
+				"ItemCode": 1361,
+				"StackSize": 1
+			}
+		],
+		"InternalName": "AerosolizingBatHarness9",
+		"Keywords": [
+			"NoValueGeneration"
+		],
+		"Name": "Astounding Aerosolizing Bat Harness (Enchanted)",
+		"PrereqRecipe": "AerosolizingBatHarness8",
+		"ProtoResultItems": [
+			{
+				"ItemCode": 54749,
+				"StackSize": 1
+			}
+		],
+		"ResultEffects": [
+			{
+				"Item": "AerosolizingBatHarness9",
+				"Type": "GiveTSysItem"
+			}
+		],
+		"RewardSkill": "Toolcrafting",
+		"RewardSkillXp": 340,
+		"RewardSkillXpDropOffLevel": 95,
+		"RewardSkillXpDropOffPct": 0.1,
+		"RewardSkillXpDropOffRate": 5,
+		"RewardSkillXpFirstTime": 1360,
+		"Skill": "Toolcrafting",
+		"SkillLevelRequirement": 85,
+		"UsageAnimation": "BlacksmithHammering",
+		"UsageAnimationEnd": "Idle",
+		"UsageDelay": 3,
+		"UsageDelayMessage": "Constructing"
 	},
 	"198": {
 		"Description": "Creates an \"interesting\" snack food. Yields 2. Requires a stove or fire pit.",
@@ -92245,7 +94433,7 @@
 	},
 	"21": {
 		"Description": "Cut and clean an amberjack.",
-		"IconId": 5036,
+		"IconId": 5037,
 		"Ingredients": [
 			{
 				"ItemCode": 5111,
@@ -92352,6 +94540,7 @@
 		"RewardSkillXpFirstTime": 75,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92391,6 +94580,7 @@
 		"RewardSkillXpFirstTime": 210,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92430,6 +94620,7 @@
 		"RewardSkillXpFirstTime": 255,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92469,6 +94660,7 @@
 		"RewardSkillXpFirstTime": 345,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92508,6 +94700,7 @@
 		"RewardSkillXpFirstTime": 75,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92547,6 +94740,7 @@
 		"RewardSkillXpFirstTime": 120,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92586,6 +94780,7 @@
 		"RewardSkillXpFirstTime": 165,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92625,6 +94820,7 @@
 		"RewardSkillXpFirstTime": 390,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92664,6 +94860,7 @@
 		"RewardSkillXpFirstTime": 435,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92703,6 +94900,7 @@
 		"RewardSkillXpFirstTime": 300,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92742,6 +94940,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92781,6 +94980,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92820,6 +95020,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92859,6 +95060,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92902,6 +95104,7 @@
 		"RewardSkillXpFirstTime": 300,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 28,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92945,6 +95148,7 @@
 		"RewardSkillXpFirstTime": 345,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 33,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -92988,6 +95192,7 @@
 		"RewardSkillXpFirstTime": 435,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 43,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93061,6 +95266,7 @@
 		"RewardSkillXpFirstTime": 120,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 7,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93100,6 +95306,7 @@
 		"RewardSkillXpFirstTime": 210,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93139,6 +95346,7 @@
 		"RewardSkillXpFirstTime": 300,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93178,6 +95386,7 @@
 		"RewardSkillXpFirstTime": 390,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93217,6 +95426,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93256,6 +95466,7 @@
 		"RewardSkillXpFirstTime": 525,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93299,6 +95510,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 48,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93342,6 +95554,7 @@
 		"RewardSkillXpFirstTime": 525,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 53,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93384,6 +95597,7 @@
 		"RewardSkillXpFirstTime": 570,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 58,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93426,6 +95640,7 @@
 		"RewardSkillXpFirstTime": 615,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93468,6 +95683,7 @@
 		"RewardSkillXpFirstTime": 615,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93510,6 +95726,7 @@
 		"RewardSkillXpFirstTime": 660,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 65,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93548,6 +95765,7 @@
 		"RewardSkillXpFirstTime": 705,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93586,6 +95804,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93624,6 +95843,7 @@
 		"RewardSkillXpFirstTime": 795,
 		"Skill": "Surveying",
 		"SkillLevelRequirement": 80,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Surveying"
 	},
@@ -93698,6 +95918,7 @@
 		"RewardSkillXpFirstTime": 125,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93738,6 +95959,7 @@
 		"RewardSkillXpFirstTime": 395,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 8,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93778,6 +96000,7 @@
 		"RewardSkillXpFirstTime": 715,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 16,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93818,6 +96041,7 @@
 		"RewardSkillXpFirstTime": 2000,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 24,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93858,6 +96082,7 @@
 		"RewardSkillXpFirstTime": 1750,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 22,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93898,6 +96123,7 @@
 		"RewardSkillXpFirstTime": 3250,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93938,6 +96164,7 @@
 		"RewardSkillXpFirstTime": 4000,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 38,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -93978,6 +96205,7 @@
 		"RewardSkillXpFirstTime": 5000,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 44,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -94018,6 +96246,7 @@
 		"RewardSkillXpFirstTime": 475,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -94058,6 +96287,7 @@
 		"RewardSkillXpFirstTime": 795,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 18,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -94098,6 +96328,7 @@
 		"RewardSkillXpFirstTime": 1115,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 26,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -94138,6 +96369,7 @@
 		"RewardSkillXpFirstTime": 2000,
 		"Skill": "TreasureCartography",
 		"SkillLevelRequirement": 32,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Deciphering Clues"
 	},
@@ -94961,6 +97193,7 @@
 		"RewardSkillXpFirstTime": 96,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 6,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -94993,6 +97226,7 @@
 		"RewardSkillXpFirstTime": 224,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 14,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95029,6 +97263,7 @@
 		"RewardSkillXpFirstTime": 384,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 24,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95065,6 +97300,7 @@
 		"RewardSkillXpFirstTime": 544,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 34,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95101,6 +97337,7 @@
 		"RewardSkillXpFirstTime": 672,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 42,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95137,6 +97374,7 @@
 		"RewardSkillXpFirstTime": 768,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 48,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95173,6 +97411,7 @@
 		"RewardSkillXpFirstTime": 864,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 54,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95209,6 +97448,7 @@
 		"RewardSkillXpFirstTime": 992,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 62,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95249,6 +97489,7 @@
 		"RewardSkillXpFirstTime": 1168,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 73,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95289,6 +97530,7 @@
 		"RewardSkillXpFirstTime": 1344,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 84,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95325,6 +97567,7 @@
 		"RewardSkillXpFirstTime": 64,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 4,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95361,6 +97604,7 @@
 		"RewardSkillXpFirstTime": 192,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 12,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95397,6 +97641,7 @@
 		"RewardSkillXpFirstTime": 352,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 22,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95433,6 +97678,7 @@
 		"RewardSkillXpFirstTime": 512,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 32,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95469,6 +97715,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95505,6 +97752,7 @@
 		"RewardSkillXpFirstTime": 736,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 46,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95537,6 +97785,7 @@
 		"RewardSkillXpFirstTime": 832,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 52,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95573,6 +97822,7 @@
 		"RewardSkillXpFirstTime": 976,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 61,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95613,6 +97863,7 @@
 		"RewardSkillXpFirstTime": 1152,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 72,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95657,6 +97908,7 @@
 		"RewardSkillXpFirstTime": 1296,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 81,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95689,6 +97941,7 @@
 		"RewardSkillXpFirstTime": 40,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 2,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95725,6 +97978,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95761,6 +98015,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95797,6 +98052,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95833,6 +98089,7 @@
 		"RewardSkillXpFirstTime": 608,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 38,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95869,6 +98126,7 @@
 		"RewardSkillXpFirstTime": 704,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 44,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95905,6 +98163,7 @@
 		"RewardSkillXpFirstTime": 800,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95941,6 +98200,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -95977,6 +98237,7 @@
 		"RewardSkillXpFirstTime": 1120,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96013,6 +98274,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 80,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96049,6 +98311,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96085,6 +98348,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96121,6 +98385,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96157,6 +98422,7 @@
 		"RewardSkillXpFirstTime": 800,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 6,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96197,6 +98463,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 6,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96237,6 +98504,7 @@
 		"RewardSkillXpFirstTime": 1120,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 6,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96277,6 +98545,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 80,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 6,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96309,6 +98578,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96345,6 +98615,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 4,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96385,6 +98656,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96425,6 +98697,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 6,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96661,6 +98934,7 @@
 		"RewardSkillXpFirstTime": 48,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 3,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Cutting Dowels..."
 	},
@@ -96689,6 +98963,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Cutting Dowels..."
 	},
@@ -96717,6 +98992,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Cutting Dowels..."
 	},
@@ -96749,6 +99025,7 @@
 		"RewardSkillXpFirstTime": 80,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96777,6 +99054,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Cutting Dowels..."
 	},
@@ -96809,6 +99087,7 @@
 		"RewardSkillXpFirstTime": 80,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Dousing Logs..."
 	},
@@ -96841,6 +99120,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Dousing Logs..."
 	},
@@ -96877,6 +99157,7 @@
 		"RewardSkillXpFirstTime": 80,
 		"Skill": "Foraging",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -96913,6 +99194,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Foraging",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -96941,6 +99223,7 @@
 		"RewardSkillXpFirstTime": 64,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 4,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 2,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96969,6 +99252,7 @@
 		"RewardSkillXpFirstTime": 144,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 9,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 2,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -96997,6 +99281,7 @@
 		"RewardSkillXpFirstTime": 224,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 14,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 2,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97025,6 +99310,7 @@
 		"RewardSkillXpFirstTime": 304,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 19,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 2,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97057,6 +99343,7 @@
 		"RewardSkillXpFirstTime": 240,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 2,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97089,6 +99376,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Carpentry",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 2,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97142,6 +99430,7 @@
 		"RewardSkillXpFirstTime": 200,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97195,6 +99484,7 @@
 		"RewardSkillXpFirstTime": 528,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 11,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97248,6 +99538,7 @@
 		"RewardSkillXpFirstTime": 1008,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 21,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97301,6 +99592,7 @@
 		"RewardSkillXpFirstTime": 1536,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 32,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97354,6 +99646,7 @@
 		"RewardSkillXpFirstTime": 1968,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 41,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97407,6 +99700,7 @@
 		"RewardSkillXpFirstTime": 2448,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 51,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97460,6 +99754,7 @@
 		"RewardSkillXpFirstTime": 2928,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 61,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97513,6 +99808,7 @@
 		"RewardSkillXpFirstTime": 3408,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 71,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97566,6 +99862,7 @@
 		"RewardSkillXpFirstTime": 3888,
 		"Skill": "Whittling",
 		"SkillLevelRequirement": 81,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Whittling..."
 	},
@@ -97602,6 +99899,7 @@
 		"RewardSkillXpFirstTime": 120,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 0,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97638,6 +99936,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97674,6 +99973,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97710,6 +100010,7 @@
 		"RewardSkillXpFirstTime": 1920,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97746,6 +100047,7 @@
 		"RewardSkillXpFirstTime": 2560,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97786,6 +100088,7 @@
 		"RewardSkillXpFirstTime": 3200,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97826,6 +100129,7 @@
 		"RewardSkillXpFirstTime": 120,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 0,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97866,6 +100170,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97902,6 +100207,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97942,6 +100248,7 @@
 		"RewardSkillXpFirstTime": 1920,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -97982,6 +100289,7 @@
 		"RewardSkillXpFirstTime": 2560,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98018,6 +100326,7 @@
 		"RewardSkillXpFirstTime": 3200,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98054,6 +100363,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98097,6 +100407,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98144,6 +100455,7 @@
 		"RewardSkillXpFirstTime": 1920,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98188,6 +100500,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98236,6 +100549,7 @@
 		"RewardSkillXpFirstTime": 2240,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98280,6 +100594,7 @@
 		"RewardSkillXpFirstTime": 3200,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98324,6 +100639,7 @@
 		"RewardSkillXpFirstTime": 1600,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98376,6 +100692,7 @@
 		"RewardSkillXpFirstTime": 3200,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -98424,6 +100741,7 @@
 		"RewardSkillXpFirstTime": 3200,
 		"Skill": "Gadgeteering",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -100877,6 +103195,7 @@
 		"RewardSkillXpFirstTime": 192,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 12,
+		"UsageAnimation": "UseTeleportationCircle",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Tapping..."
 	},
@@ -100934,6 +103253,7 @@
 		"RewardSkillXpFirstTime": 40,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101000,6 +103320,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101076,6 +103397,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101164,6 +103486,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101252,6 +103575,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101340,6 +103664,7 @@
 		"RewardSkillXpFirstTime": 800,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101428,6 +103753,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101516,6 +103842,7 @@
 		"RewardSkillXpFirstTime": 1120,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101607,6 +103934,7 @@
 		"RewardSkillXpFirstTime": 1280,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 80,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101668,6 +103996,7 @@
 		"RewardSkillXpFirstTime": 48,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 3,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101738,6 +104067,7 @@
 		"RewardSkillXpFirstTime": 208,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 13,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101818,6 +104148,7 @@
 		"RewardSkillXpFirstTime": 368,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 23,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -101910,6 +104241,7 @@
 		"RewardSkillXpFirstTime": 528,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 33,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102002,6 +104334,7 @@
 		"RewardSkillXpFirstTime": 688,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 43,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102094,6 +104427,7 @@
 		"RewardSkillXpFirstTime": 848,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 53,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102186,6 +104520,7 @@
 		"RewardSkillXpFirstTime": 1008,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 63,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102281,6 +104616,7 @@
 		"RewardSkillXpFirstTime": 1168,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 73,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102376,6 +104712,7 @@
 		"RewardSkillXpFirstTime": 1328,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 83,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102471,6 +104808,7 @@
 		"RewardSkillXpFirstTime": 1488,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 93,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Brewing..."
 	},
@@ -102508,6 +104846,7 @@
 		"RewardSkillXpFirstTime": 40,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102545,6 +104884,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102582,6 +104922,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102619,6 +104960,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102656,6 +104998,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102701,6 +105044,7 @@
 		"RewardSkillXpFirstTime": 800,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102742,6 +105086,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102783,6 +105128,7 @@
 		"RewardSkillXpFirstTime": 1120,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102872,6 +105218,7 @@
 		"RewardSkillXpFirstTime": 40,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -102961,6 +105308,7 @@
 		"RewardSkillXpFirstTime": 160,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103050,6 +105398,7 @@
 		"RewardSkillXpFirstTime": 320,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103139,6 +105488,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103228,6 +105578,7 @@
 		"RewardSkillXpFirstTime": 640,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103317,6 +105668,7 @@
 		"RewardSkillXpFirstTime": 800,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103406,6 +105758,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103495,6 +105848,7 @@
 		"RewardSkillXpFirstTime": 1120,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103531,6 +105885,7 @@
 		"RewardSkillXpFirstTime": 80,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103563,6 +105918,7 @@
 		"RewardSkillXpFirstTime": 240,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103595,6 +105951,7 @@
 		"RewardSkillXpFirstTime": 400,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103627,6 +105984,7 @@
 		"RewardSkillXpFirstTime": 560,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103659,6 +106017,7 @@
 		"RewardSkillXpFirstTime": 720,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103691,6 +106050,7 @@
 		"RewardSkillXpFirstTime": 880,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 55,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103723,6 +106083,7 @@
 		"RewardSkillXpFirstTime": 1040,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 65,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -103755,6 +106116,7 @@
 		"RewardSkillXpFirstTime": 1200,
 		"Skill": "Brewing",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Preparing..."
 	},
@@ -109475,7 +111837,7 @@
 	},
 	"26": {
 		"Description": "Cut and clean a yellow perch.",
-		"IconId": 5036,
+		"IconId": 5037,
 		"Ingredients": [
 			{
 				"ItemCode": 5116,
@@ -109541,6 +111903,7 @@
 		"RewardSkillXpFirstTime": 80,
 		"Skill": "Artistry",
 		"SkillLevelRequirement": 0,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Carving..."
 	},
@@ -109581,6 +111944,7 @@
 		"RewardSkillXpFirstTime": 200,
 		"Skill": "Artistry",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Carving..."
 	},
@@ -109621,6 +111985,7 @@
 		"RewardSkillXpFirstTime": 60,
 		"Skill": "Artistry",
 		"SkillLevelRequirement": 0,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -109657,6 +112022,7 @@
 		"RewardSkillXpFirstTime": 60,
 		"Skill": "Artistry",
 		"SkillLevelRequirement": 0,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -109698,6 +112064,7 @@
 		"RewardSkillXpFirstTime": 400,
 		"Skill": "Artistry",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Carving..."
 	},
@@ -109727,6 +112094,7 @@
 		"RewardSkillXpFirstTime": 50,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 3,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109756,6 +112124,7 @@
 		"RewardSkillXpFirstTime": 75,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 5,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109785,6 +112154,7 @@
 		"RewardSkillXpFirstTime": 100,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 8,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109814,6 +112184,7 @@
 		"RewardSkillXpFirstTime": 150,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109843,6 +112214,7 @@
 		"RewardSkillXpFirstTime": 300,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 13,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109872,6 +112244,7 @@
 		"RewardSkillXpFirstTime": 325,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109901,6 +112274,7 @@
 		"RewardSkillXpFirstTime": 450,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 17,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109930,6 +112304,7 @@
 		"RewardSkillXpFirstTime": 550,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109959,6 +112334,7 @@
 		"RewardSkillXpFirstTime": 650,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 23,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -109988,6 +112364,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110025,6 +112402,7 @@
 		"RewardSkillXpFirstTime": 300,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 13,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110062,6 +112440,7 @@
 		"RewardSkillXpFirstTime": 325,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110099,6 +112478,7 @@
 		"RewardSkillXpFirstTime": 450,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 18,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110136,6 +112516,7 @@
 		"RewardSkillXpFirstTime": 550,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110173,6 +112554,7 @@
 		"RewardSkillXpFirstTime": 650,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 23,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110210,6 +112592,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110247,6 +112630,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 27,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110284,6 +112668,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110321,6 +112706,7 @@
 		"RewardSkillXpFirstTime": 900,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 33,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110358,6 +112744,7 @@
 		"RewardSkillXpFirstTime": 900,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110395,6 +112782,7 @@
 		"RewardSkillXpFirstTime": 600,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 23,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110432,6 +112820,7 @@
 		"RewardSkillXpFirstTime": 600,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110469,6 +112858,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 28,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110506,6 +112896,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110543,6 +112934,7 @@
 		"RewardSkillXpFirstTime": 900,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 33,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110580,6 +112972,7 @@
 		"RewardSkillXpFirstTime": 900,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110617,6 +113010,7 @@
 		"RewardSkillXpFirstTime": 1000,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 37,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110654,6 +113048,7 @@
 		"RewardSkillXpFirstTime": 1250,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110691,6 +113086,7 @@
 		"RewardSkillXpFirstTime": 1500,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 43,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110728,6 +113124,7 @@
 		"RewardSkillXpFirstTime": 1750,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Forging"
 	},
@@ -110756,6 +113153,7 @@
 		"RewardSkillXpFirstTime": 50,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Rendering..."
 	},
@@ -110784,6 +113182,7 @@
 		"RewardSkillXpFirstTime": 750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Rendering..."
 	},
@@ -110812,6 +113211,7 @@
 		"RewardSkillXpFirstTime": 1750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Rendering..."
 	},
@@ -110840,6 +113240,7 @@
 		"RewardSkillXpFirstTime": 2750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 55,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Rendering..."
 	},
@@ -110872,6 +113273,7 @@
 		"RewardSkillXpFirstTime": 100,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 2,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Wicking..."
 	},
@@ -110904,6 +113306,7 @@
 		"RewardSkillXpFirstTime": 1000,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Wicking..."
 	},
@@ -110940,6 +113343,7 @@
 		"RewardSkillXpFirstTime": 2000,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Wicking..."
 	},
@@ -110972,6 +113376,7 @@
 		"RewardSkillXpFirstTime": 3000,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Wicking..."
 	},
@@ -111004,6 +113409,7 @@
 		"RewardSkillXpFirstTime": 180,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 3,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111040,6 +113446,7 @@
 		"RewardSkillXpFirstTime": 2100,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111076,6 +113483,7 @@
 		"RewardSkillXpFirstTime": 192,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 4,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111112,6 +113520,7 @@
 		"RewardSkillXpFirstTime": 672,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 14,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111148,6 +113557,7 @@
 		"RewardSkillXpFirstTime": 1152,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 24,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111184,6 +113594,7 @@
 		"RewardSkillXpFirstTime": 1632,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 34,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111220,6 +113631,7 @@
 		"RewardSkillXpFirstTime": 2112,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 44,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111256,6 +113668,7 @@
 		"RewardSkillXpFirstTime": 2592,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 54,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111292,6 +113705,7 @@
 		"RewardSkillXpFirstTime": 3072,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 64,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111328,6 +113742,7 @@
 		"RewardSkillXpFirstTime": 3552,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 74,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111364,6 +113779,7 @@
 		"RewardSkillXpFirstTime": 288,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 6,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111400,6 +113816,7 @@
 		"RewardSkillXpFirstTime": 768,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 16,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111436,6 +113853,7 @@
 		"RewardSkillXpFirstTime": 1248,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 26,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111472,6 +113890,7 @@
 		"RewardSkillXpFirstTime": 1728,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 36,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111512,6 +113931,7 @@
 		"RewardSkillXpFirstTime": 2208,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 46,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111552,6 +113972,7 @@
 		"RewardSkillXpFirstTime": 2688,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 56,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111592,6 +114013,7 @@
 		"RewardSkillXpFirstTime": 3168,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 66,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111628,6 +114050,7 @@
 		"RewardSkillXpFirstTime": 3648,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 76,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111664,6 +114087,7 @@
 		"RewardSkillXpFirstTime": 384,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 8,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111700,6 +114124,7 @@
 		"RewardSkillXpFirstTime": 864,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 18,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111740,6 +114165,7 @@
 		"RewardSkillXpFirstTime": 1344,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 28,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111780,6 +114206,7 @@
 		"RewardSkillXpFirstTime": 1824,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 38,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111820,6 +114247,7 @@
 		"RewardSkillXpFirstTime": 2304,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 48,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111860,6 +114288,7 @@
 		"RewardSkillXpFirstTime": 2784,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 58,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111900,6 +114329,7 @@
 		"RewardSkillXpFirstTime": 3264,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 68,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111940,6 +114370,7 @@
 		"RewardSkillXpFirstTime": 3744,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 78,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -111976,6 +114407,7 @@
 		"RewardSkillXpFirstTime": 2625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112016,6 +114448,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112056,6 +114489,7 @@
 		"RewardSkillXpFirstTime": 5625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112092,6 +114526,7 @@
 		"RewardSkillXpFirstTime": 2625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112128,6 +114563,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112164,6 +114600,7 @@
 		"RewardSkillXpFirstTime": 5625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112200,6 +114637,7 @@
 		"RewardSkillXpFirstTime": 2625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112240,6 +114678,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112280,6 +114719,7 @@
 		"RewardSkillXpFirstTime": 5625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112316,6 +114756,7 @@
 		"RewardSkillXpFirstTime": 2625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112352,6 +114793,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112388,6 +114830,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112428,6 +114871,7 @@
 		"RewardSkillXpFirstTime": 5625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112464,6 +114908,7 @@
 		"RewardSkillXpFirstTime": 2625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112504,6 +114949,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112544,6 +114990,7 @@
 		"RewardSkillXpFirstTime": 5625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112591,6 +115038,7 @@
 		"RewardSkillXpFirstTime": 2625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112623,6 +115071,7 @@
 		"RewardSkillXpFirstTime": 1875,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112655,6 +115104,7 @@
 		"RewardSkillXpFirstTime": 3750,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -112687,6 +115137,7 @@
 		"RewardSkillXpFirstTime": 5625,
 		"Skill": "CandleMaking",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Assembling..."
 	},
@@ -117848,6 +120299,7 @@
 		"RewardSkillXpFirstTime": 90,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 15,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -117894,6 +120346,7 @@
 		"RewardSkillXpFirstTime": 150,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -117944,6 +120397,7 @@
 		"RewardSkillXpFirstTime": 210,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -117994,6 +120448,7 @@
 		"RewardSkillXpFirstTime": 270,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118050,6 +120505,7 @@
 		"RewardSkillXpFirstTime": 330,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 55,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118100,6 +120556,7 @@
 		"RewardSkillXpFirstTime": 390,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 65,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118150,6 +120607,7 @@
 		"RewardSkillXpFirstTime": 450,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 75,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118200,6 +120658,7 @@
 		"RewardSkillXpFirstTime": 510,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 85,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118245,6 +120704,7 @@
 		"RewardSkillXpFirstTime": 150,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118290,6 +120750,7 @@
 		"RewardSkillXpFirstTime": 330,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 55,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118339,6 +120800,7 @@
 		"RewardSkillXpFirstTime": 510,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 85,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118384,6 +120846,7 @@
 		"RewardSkillXpFirstTime": 60,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 10,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118430,6 +120893,7 @@
 		"RewardSkillXpFirstTime": 120,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 20,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118480,6 +120944,7 @@
 		"RewardSkillXpFirstTime": 180,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118526,6 +120991,7 @@
 		"RewardSkillXpFirstTime": 240,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 40,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118576,6 +121042,7 @@
 		"RewardSkillXpFirstTime": 300,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118622,6 +121089,7 @@
 		"RewardSkillXpFirstTime": 360,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118668,6 +121136,7 @@
 		"RewardSkillXpFirstTime": 420,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 70,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118714,6 +121183,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "ArmorPatching",
 		"SkillLevelRequirement": 80,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 5,
 		"UsageDelayMessage": "Waxing"
 	},
@@ -118827,6 +121297,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -118870,6 +121341,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -118913,6 +121385,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -118956,6 +121429,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -118999,6 +121473,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119042,6 +121517,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119085,6 +121561,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 3,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119128,6 +121605,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 3,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119171,6 +121649,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 3,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119214,6 +121693,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 3,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119257,6 +121737,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 3,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119300,6 +121781,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 4,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119343,6 +121825,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 4,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119386,6 +121869,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 4,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119429,6 +121913,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 4,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119472,6 +121957,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 4,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119515,6 +122001,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119558,6 +122045,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119601,6 +122089,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 2,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119644,6 +122133,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119687,6 +122177,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119730,6 +122221,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119773,6 +122265,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119816,6 +122309,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 5,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Applying Augment"
 	},
@@ -119886,6 +122380,7 @@
 		"RewardSkillXpFirstTime": 400,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Combining..."
 	},
@@ -119922,6 +122417,7 @@
 		"RewardSkillXpFirstTime": 960,
 		"Skill": "Blacksmithing",
 		"SkillLevelRequirement": 60,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Melting..."
 	},
@@ -119946,6 +122442,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 0,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseMeditationPillar",
 		"UsageDelay": 10,
 		"UsageDelayMessage": "Listening to Psychic Signals..."
 	},
@@ -120022,6 +122519,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 0,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Glamouring"
 	},
@@ -120069,6 +122567,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 0,
 		"SortSkill": "Lore",
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Glamouring"
 	},
@@ -120113,6 +122612,7 @@
 		"Skill": "Lore",
 		"SkillLevelRequirement": 0,
 		"SortSkill": "Lore",
+		"UsageAnimation": "Drink",
 		"UsageDelay": 10,
 		"UsageDelayMessage": "Delicately Sipping Nectar..."
 	},
@@ -120187,6 +122687,7 @@
 		"Skill": "Paleontology",
 		"SkillLevelRequirement": 1,
 		"SortSkill": "Lore",
+		"UsageAnimation": "BlacksmithHammering",
 		"UsageDelay": 10,
 		"UsageDelayMessage": "Assembling and Animating..."
 	},
@@ -144073,6 +146574,7 @@
 		"RewardSkillXpFirstTime": 50,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 1,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 30,
 		"UsageDelayMessage": "Seeding, Cleaning, and Carding Cotton..."
 	},
@@ -144109,6 +146611,7 @@
 		"RewardSkillXpFirstTime": 55,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 2,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Seeding, Cleaning, and Carding Cotton..."
 	},
@@ -144148,6 +146651,7 @@
 		"RewardSkillXpFirstTime": 400,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 25,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Seeding, Cleaning, and Carding Cotton..."
 	},
@@ -144187,6 +146691,7 @@
 		"RewardSkillXpFirstTime": 720,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 45,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Seeding, Cleaning, and Carding Cotton..."
 	},
@@ -144706,6 +147211,7 @@
 		"RewardSkillXpFirstTime": 192,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 12,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Sewing..."
 	},
@@ -144736,6 +147242,7 @@
 		"RewardSkillXpFirstTime": 480,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 30,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Sewing..."
 	},
@@ -144770,6 +147277,7 @@
 		"RewardSkillXpFirstTime": 800,
 		"Skill": "Textiles",
 		"SkillLevelRequirement": 50,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Spinning Slime into Silk on Cotton Gin (?!)"
 	},
@@ -145707,6 +148215,7 @@
 		"RewardSkillXpFirstTime": 150,
 		"Skill": "Gardening",
 		"SkillLevelRequirement": 35,
+		"UsageAnimation": "UseItem",
 		"UsageDelay": 3,
 		"UsageDelayMessage": "Sorting Grass"
 	},
