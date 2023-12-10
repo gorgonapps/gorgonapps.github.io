@@ -756,6 +756,15 @@
 		],
 		"Label": "Triage Power Cost %"
 	},
+	"ABILITY_COST_MOD_TSUNAMI": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3843
+		],
+		"Label": "Tsunami Power Cost %"
+	},
 	"ABILITY_DELAYLOOP_DELTA_EXHILARATE": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsDebuffDelta",
@@ -788,6 +797,14 @@
 			3734
 		],
 		"Label": "Triage Channeling Time"
+	},
+	"ABILITY_DELAYLOOP_DELTA_WEATHERWITCHING": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Weather Witching Channeling Time"
 	},
 	"ABILITY_RAGE_DELTA_ACIDARROW": {
 		"DefaultValue": 0,
@@ -1244,6 +1261,15 @@
 			2118
 		],
 		"Label": "Psychoanalyze Range"
+	},
+	"ABILITY_RANGE_DELTA_RIDICULE": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2220
+		],
+		"Label": "Ridicule Range"
 	},
 	"ABILITY_RANGE_DELTA_SHOCKINGGRASP": {
 		"DisplayRule": "IfNotZero",
@@ -2251,6 +2277,15 @@
 		],
 		"Label": "Heed The Stick Taunt +"
 	},
+	"ABILITY_TAUNT_DELTA_ICESPEAR": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			3499
+		],
+		"Label": "Ice Spear Taunt"
+	},
 	"ABILITY_TAUNT_DELTA_INFURIATINGBASH": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -2605,7 +2640,6 @@
 		"IconIds": [
 			108
 		],
-		"IsHidden": true,
 		"Label": "Alcohol Liver Recovery Rate %"
 	},
 	"ALLOW_SADDLEBAG_TELEPORT": {
@@ -2704,6 +2738,16 @@
 		],
 		"Label": "Auto-Heal Health (Per Sec) %"
 	},
+	"AVOID_DEATH_ARMOR_MOD": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Armor Restored After Death-Avoidance %",
+		"Tooltip": "When you miraculously avoid death, this is the amount of armor you recover."
+	},
 	"AVOID_DEATH_CHANCE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -2712,6 +2756,26 @@
 			108
 		],
 		"Label": "Chance to Miraculously Avoid Death %"
+	},
+	"AVOID_DEATH_HEALTH_MOD": {
+		"DefaultValue": 0.1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Healing After Death-Avoidance %",
+		"Tooltip": "When you miraculously avoid death, this is the amount of health you recover."
+	},
+	"AVOID_DEATH_POWER_MOD": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Power Restored After Death-Avoidance %",
+		"Tooltip": "When you miraculously avoid death, this is the amount of power you recover."
 	},
 	"AVOID_DEATH_RESETTIME": {
 		"DefaultValue": 900,
@@ -6370,6 +6434,14 @@
 			2153
 		],
 		"Label": "Doe Eyes Physical Mitigation"
+	},
+	"BOOST_DOT_FLAMINGSWORD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Flaming Sword Damage over Time (Per Second)"
 	},
 	"BOOST_DRUIDAURAHEAL_ARMOR_SENDER": {
 		"DisplayRule": "IfNotZero",
@@ -13962,6 +14034,15 @@
 			108
 		],
 		"Label": "Sprint-Swimming Speed Boost"
+	},
+	"SWIM_FASTSPEED_COST_PER_SEC": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Sprint-Swimming Cost (Per Second in Combat)"
 	},
 	"SWIM_SPEED_MOD": {
 		"DefaultValue": 0.7,

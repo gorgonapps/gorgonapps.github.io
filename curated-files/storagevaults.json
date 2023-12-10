@@ -818,6 +818,15 @@
 		"NpcFriendlyName": "Saddlebag",
 		"NumberOfSlots": 0
 	},
+	"SerbuleCommunityChest": {
+		"AreaName": "Serbule",
+		"Grouping": "Serbule",
+		"ID": 307,
+		"NpcFriendlyName": "Serbule Community Chest",
+		"NumberOfSlotsScriptAtomic": "SerbuleCommunityChestSize",
+		"NumberOfSlotsScriptAtomicMaxValue": 150,
+		"NumberOfSlotsScriptAtomicMinValue": 0
+	},
 	"StorageCrate": {
 		"HasAssociatedNpc": false,
 		"ID": 103,

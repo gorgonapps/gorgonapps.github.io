@@ -1,6 +1,6 @@
 ﻿{
 	"NPC_Gribburn": {
-		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaFriendlyName": "Hogan's Basement",
 		"AreaName": "Cave1",
 		"Name": "Gribburn",
 		"Preferences": [
@@ -238,34 +238,6 @@
 		"AreaName": "Desert1",
 		"Name": "Work Orders"
 	},
-	"NPC_Dachak": {
-		"AreaFriendlyName": "Povus",
-		"AreaName": "Povus",
-		"Name": "Dachak the Digger",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"MushroomBox"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"FalseAgaric"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Escarole"
-				],
-				"PreferenceMultiplier": 2
-			}
-		]
-	},
 	"NPC_Ratuk": {
 		"AreaFriendlyName": "Kur Mountains",
 		"AreaName": "KurMountains",
@@ -309,13 +281,41 @@
 			}
 		]
 	},
+	"NPC_Dachak": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "Povus",
+		"Name": "Dachak the Digger",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"MushroomBox"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"FalseAgaric"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Escarole"
+				],
+				"PreferenceMultiplier": 2
+			}
+		]
+	},
 	"NPC_Gremix": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Gremix"
 	},
 	"NPC_Glajur": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Kur Tower",
 		"AreaName": "Cave2",
 		"Name": "Glajur",
 		"Preferences": [
@@ -474,7 +474,7 @@
 		]
 	},
 	"NPC_HemmitMagmagrip": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Hemmit Magmagrip",
 		"Preferences": [
@@ -502,7 +502,7 @@
 		]
 	},
 	"NPC_Alravesa": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Alravesa the All-Hunter",
 		"Preferences": [
@@ -531,13 +531,38 @@
 			}
 		]
 	},
+	"NPC_TrainerSphere5": {
+		"AreaFriendlyName": "Povus Caves",
+		"AreaName": "PovusCaves2",
+		"Name": "Sphere"
+	},
+	"NPC_TrainerSphere4": {
+		"AreaFriendlyName": "Povus Caves",
+		"AreaName": "PovusCaves2",
+		"Name": "Sphere"
+	},
+	"NPC_TrainerSphere3": {
+		"AreaFriendlyName": "Povus Caves",
+		"AreaName": "PovusCaves2",
+		"Name": "Sphere"
+	},
 	"WerewolfAltar": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Wolf Cave",
 		"AreaName": "Cave2",
 		"Name": "Werewolf Altar"
 	},
+	"NPC_TrainerSphere2": {
+		"AreaFriendlyName": "Povus Caves",
+		"AreaName": "PovusCaves2",
+		"Name": "Sphere"
+	},
+	"NPC_TrainerSphere1": {
+		"AreaFriendlyName": "Povus Caves",
+		"AreaName": "PovusCaves2",
+		"Name": "Sphere"
+	},
 	"NPC_Gorvessa": {
-		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaFriendlyName": "Hogan's Basement",
 		"AreaName": "Cave1",
 		"Name": "Gorvessa",
 		"Preferences": [
@@ -610,7 +635,7 @@
 		]
 	},
 	"NPC_Kelim": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Kelim",
 		"Preferences": [
@@ -638,7 +663,7 @@
 		]
 	},
 	"NPC_Tangle": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Tangle",
 		"Preferences": [
@@ -674,7 +699,7 @@
 		"Name": "Aven"
 	},
 	"NPC_CoreyTheCroaker": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Winter Nexus",
 		"AreaName": "Cave2",
 		"Name": "Corey The Croaker",
 		"Preferences": [
@@ -702,7 +727,7 @@
 		]
 	},
 	"NPC_Sugar": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Sugar",
 		"Preferences": [
@@ -779,7 +804,7 @@
 		]
 	},
 	"NPC_Barnaby": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Barnaby",
 		"Preferences": [
@@ -1045,7 +1070,7 @@
 		"Name": "Agrashab"
 	},
 	"NPC_Mythander": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Mythander",
 		"Preferences": [
@@ -1096,7 +1121,7 @@
 		]
 	},
 	"NPC_Gasuum": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Gasu'um",
 		"Preferences": [
@@ -1124,7 +1149,7 @@
 		]
 	},
 	"NPC_SirJohnson": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Sir Johnson",
 		"Preferences": [
@@ -1379,6 +1404,11 @@
 			}
 		]
 	},
+	"PoiBrewingWorkstation": {
+		"AreaFriendlyName": "Povus Caves",
+		"AreaName": "PovusCaves2",
+		"Name": "Brewing Workstation"
+	},
 	"NPC_AriannaFangblade": {
 		"AreaFriendlyName": "Red Wing Casino",
 		"AreaName": "Casino",
@@ -1469,13 +1499,8 @@
 		"AreaName": "Rahu",
 		"Name": "Chemist"
 	},
-	"EventNPC_SpiderMode": {
-		"AreaFriendlyName": "Serbule",
-		"AreaName": "Serbule",
-		"Name": "Akhisa's Herald"
-	},
 	"NPC_SieAntry": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Sie Antry",
 		"Preferences": [
@@ -1511,6 +1536,11 @@
 				"PreferenceMultiplier": -2
 			}
 		]
+	},
+	"EventNPC_SpiderMode": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Name": "Akhisa's Herald"
 	},
 	"NPC_Fainor": {
 		"AreaFriendlyName": "Serbule",
@@ -1562,11 +1592,6 @@
 			}
 		]
 	},
-	"NPC_SpiderPlaceholder": {
-		"AreaFriendlyName": "Serbule",
-		"AreaName": "Serbule",
-		"Name": "Temporary Spider"
-	},
 	"NPC_CleoConyer": {
 		"AreaFriendlyName": "Serbule Hills",
 		"AreaName": "Serbule2",
@@ -1588,13 +1613,18 @@
 			}
 		]
 	},
+	"NPC_SpiderPlaceholder": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Name": "Temporary Spider"
+	},
 	"NPC_StephieBlackhammer": {
 		"AreaFriendlyName": "Povus",
 		"AreaName": "Povus",
 		"Name": "Stephie Blackhammer"
 	},
 	"NPC_Yalox": {
-		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaFriendlyName": "Goblin Dungeon",
 		"AreaName": "Cave1",
 		"Name": "Yalox",
 		"Preferences": [
@@ -1672,8 +1702,13 @@
 			}
 		]
 	},
+	"LiveNpc_Orran": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "Casino",
+		"Name": "Orran"
+	},
 	"NPC_Malgath": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Wolf Cave",
 		"AreaName": "Cave2",
 		"Name": "Malgath",
 		"Preferences": [
@@ -1702,18 +1737,13 @@
 			}
 		]
 	},
-	"LiveNpc_Orran": {
-		"AreaFriendlyName": "Red Wing Casino",
-		"AreaName": "Casino",
-		"Name": "Orran"
-	},
 	"TapestryInnChest": {
 		"AreaFriendlyName": "Serbule Hills",
 		"AreaName": "Serbule2",
 		"Name": "Footlocker"
 	},
 	"NPC_Kalaba": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Kalaba",
 		"Preferences": [
@@ -1750,7 +1780,7 @@
 		]
 	},
 	"NPC_Hogan": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Hogan",
 		"Preferences": [
@@ -1780,7 +1810,7 @@
 		]
 	},
 	"NPC_Jesina": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Jesina",
 		"Preferences": [
@@ -1817,11 +1847,6 @@
 			}
 		]
 	},
-	"NPC_EnsignCricket": {
-		"AreaFriendlyName": "Fae Realm",
-		"AreaName": "FaeRealm1Caves",
-		"Name": "Ensign Cricket"
-	},
 	"NPC_Mittens": {
 		"AreaFriendlyName": "Kur Mountains",
 		"AreaName": "KurMountains",
@@ -1850,6 +1875,11 @@
 				"PreferenceMultiplier": 2
 			}
 		]
+	},
+	"NPC_EnsignCricket": {
+		"AreaFriendlyName": "The Wintertide",
+		"AreaName": "FaeRealm1Caves",
+		"Name": "Ensign Cricket"
 	},
 	"NPC_RiShin": {
 		"AreaFriendlyName": "Existential Planes",
@@ -1929,46 +1959,8 @@
 			}
 		]
 	},
-	"NPC_Landri": {
-		"AreaFriendlyName": "Kur Mountains",
-		"AreaName": "KurMountains",
-		"Name": "Landri the Cold",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"IceCore"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"FireStaff",
-					"Loot"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Loot"
-				],
-				"PreferenceMultiplier": 1.5,
-				"SkillRequirement": "FireMagic"
-			},
-			{
-				"Desire": "Hate",
-				"ItemKeywords": [
-					"ClothArmor",
-					"Loot"
-				],
-				"PreferenceMultiplier": -2
-			}
-		]
-	},
 	"NPC_Gretchen": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Gretchen Salas",
 		"Preferences": [
@@ -1999,7 +1991,7 @@
 		]
 	},
 	"NPC_Yetta": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Yetta",
 		"Preferences": [
@@ -2048,8 +2040,51 @@
 			}
 		]
 	},
+	"NPC_Landri": {
+		"AreaFriendlyName": "Kur Mountains",
+		"AreaName": "KurMountains",
+		"Name": "Landri the Cold",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"IceCore"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"FireStaff",
+					"Loot"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Loot"
+				],
+				"PreferenceMultiplier": 1.5,
+				"SkillRequirement": "FireMagic"
+			},
+			{
+				"Desire": "Hate",
+				"ItemKeywords": [
+					"ClothArmor",
+					"Loot"
+				],
+				"PreferenceMultiplier": -2
+			}
+		]
+	},
+	"NPC_Cheb": {
+		"AreaFriendlyName": "Aktaari Cave",
+		"AreaName": "PovusCaves2",
+		"Name": "Cheb"
+	},
 	"NPC_Yasinda": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Yasinda",
 		"Preferences": [
@@ -2257,6 +2292,11 @@
 			}
 		]
 	},
+	"PoiGhostOrc2": {
+		"AreaFriendlyName": "Errruka's Cave",
+		"AreaName": "PovusCaves2",
+		"Name": "Ghost Orc"
+	},
 	"NPC_DogEar": {
 		"AreaFriendlyName": "Povus",
 		"AreaName": "Povus",
@@ -2362,6 +2402,27 @@
 		"AreaName": "Tomb1",
 		"Name": "Large chest"
 	},
+	"NPC_GeorgeMadler": {
+		"AreaFriendlyName": "Eltibule",
+		"AreaName": "Eltibule",
+		"Name": "George Madler",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"CouncilCertificate"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Cloth"
+				],
+				"PreferenceMultiplier": 1.5
+			}
+		]
+	},
 	"RahuWorkOrderSign": {
 		"AreaFriendlyName": "Rahu",
 		"AreaName": "Rahu",
@@ -2388,26 +2449,10 @@
 			}
 		]
 	},
-	"NPC_GeorgeMadler": {
-		"AreaFriendlyName": "Eltibule Keep Area",
-		"AreaName": "Eltibule",
-		"Name": "George Madler",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"CouncilCertificate"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Cloth"
-				],
-				"PreferenceMultiplier": 1.5
-			}
-		]
+	"SerbuleCommunityChest": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Name": "Community Storage"
 	},
 	"NPC_Mandibles": {
 		"AreaFriendlyName": "Red Wing Casino",
@@ -2646,7 +2691,7 @@
 		]
 	},
 	"NPC_Drima": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Drima"
 	},
@@ -2754,7 +2799,7 @@
 		]
 	},
 	"NPC_Milton": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Milton",
 		"Preferences": [
@@ -2783,12 +2828,12 @@
 		]
 	},
 	"NPC_Bogaku": {
-		"AreaFriendlyName": "Rahu Sewers",
+		"AreaFriendlyName": "Rahu Sewer",
 		"AreaName": "RahuCaves",
 		"Name": "Bogaku"
 	},
 	"NPC_Makara": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Makara",
 		"Preferences": [
@@ -2845,7 +2890,7 @@
 		]
 	},
 	"NPC_Rubi": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Rubi",
 		"Preferences": [
@@ -2880,6 +2925,27 @@
 		"AreaName": "Povus",
 		"Name": "Wobbuk"
 	},
+	"NPC_Fazzi": {
+		"AreaFriendlyName": "Winter Nexus",
+		"AreaName": "Cave2",
+		"Name": "Fazzi",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"OrangeCrystal"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Flower"
+				],
+				"PreferenceMultiplier": 2
+			}
+		]
+	},
 	"NPC_Otis": {
 		"AreaFriendlyName": "Red Wing Casino",
 		"AreaName": "Casino",
@@ -2908,34 +2974,8 @@
 			}
 		]
 	},
-	"NPC_Fazzi": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
-		"AreaName": "Cave2",
-		"Name": "Fazzi",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"OrangeCrystal"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Flower"
-				],
-				"PreferenceMultiplier": 2
-			}
-		]
-	},
-	"NPC_Selphie": {
-		"AreaFriendlyName": "Serbule",
-		"AreaName": "Serbule",
-		"Name": "Selphie"
-	},
 	"NPC_SuspiciousCow": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Suspicious Cow",
 		"Preferences": [
@@ -2987,6 +3027,11 @@
 				"PreferenceMultiplier": -2
 			}
 		]
+	},
+	"NPC_Selphie": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Name": "Selphie"
 	},
 	"NPC_Elahil": {
 		"AreaFriendlyName": "Serbule",
@@ -3063,7 +3108,7 @@
 		]
 	},
 	"NPC_Firaki": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Firaki",
 		"Preferences": [
@@ -3176,11 +3221,6 @@
 			}
 		]
 	},
-	"NPC_Yoy": {
-		"AreaFriendlyName": "Myconian Caverns",
-		"AreaName": "MyconianCave",
-		"Name": "Yoy"
-	},
 	"NPC_Flia": {
 		"AreaFriendlyName": "Serbule",
 		"AreaName": "Serbule",
@@ -3217,6 +3257,11 @@
 			}
 		]
 	},
+	"NPC_Yoy": {
+		"AreaFriendlyName": "Myconian Caverns",
+		"AreaName": "MyconianCave",
+		"Name": "Yoy"
+	},
 	"NPC_Jaw": {
 		"AreaFriendlyName": "Myconian Caverns",
 		"AreaName": "MyconianCave",
@@ -3251,7 +3296,7 @@
 		"Name": "Ivyn's Chest"
 	},
 	"NPC_Helena": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Helena Veilmoor",
 		"Preferences": [
@@ -3458,7 +3503,7 @@
 		"Name": "Bahdba"
 	},
 	"NPC_Percy": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Percy Evans",
 		"Preferences": [
@@ -3508,11 +3553,6 @@
 			}
 		]
 	},
-	"NPC_Riston": {
-		"AreaFriendlyName": "Red Wing Casino",
-		"AreaName": "Casino",
-		"Name": "Riston"
-	},
 	"NPC_Echur": {
 		"AreaFriendlyName": "Serbule",
 		"AreaName": "Serbule",
@@ -3549,6 +3589,11 @@
 				"PreferenceMultiplier": 4
 			}
 		]
+	},
+	"NPC_Riston": {
+		"AreaFriendlyName": "Red Wing Casino",
+		"AreaName": "Casino",
+		"Name": "Riston"
 	},
 	"NPC_Grakelsput": {
 		"AreaFriendlyName": "Povus",
@@ -3630,7 +3675,7 @@
 		]
 	},
 	"NPC_Nissim": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Nissim",
 		"Preferences": [
@@ -3773,9 +3818,31 @@
 		]
 	},
 	"NPC_SpiritFox": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Wolf Cave",
 		"AreaName": "Cave2",
 		"Name": "Completely Normal Fox"
+	},
+	"NPC_Yavazek": {
+		"AreaFriendlyName": "Sun Vale",
+		"AreaName": "SunVale",
+		"Name": "Yavazek",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Loot"
+				],
+				"PreferenceMultiplier": 3,
+				"SlotRequirement": "Racial"
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"RestorativePotion"
+				],
+				"PreferenceMultiplier": 1.1
+			}
+		]
 	},
 	"AdminTestNpc": {
 		"AreaFriendlyName": "Existential Planes",
@@ -3822,28 +3889,6 @@
 			}
 		]
 	},
-	"NPC_Yavazek": {
-		"AreaFriendlyName": "Sun Vale",
-		"AreaName": "SunVale",
-		"Name": "Yavazek",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Loot"
-				],
-				"PreferenceMultiplier": 3,
-				"SlotRequirement": "Racial"
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"RestorativePotion"
-				],
-				"PreferenceMultiplier": 1.1
-			}
-		]
-	},
 	"NPC_NelsonBallard": {
 		"AreaFriendlyName": "Serbule",
 		"AreaName": "Serbule",
@@ -3874,7 +3919,7 @@
 		]
 	},
 	"NPC_Urzab": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Urzab",
 		"Preferences": [
@@ -3902,7 +3947,7 @@
 		]
 	},
 	"NPC_Cassie": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Cassie",
 		"Preferences": [
@@ -3933,7 +3978,7 @@
 		]
 	},
 	"NPC_Sem": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "Snowblood Shadow/Gazluk Shadow Caves",
 		"AreaName": "GazlukCaves",
 		"Name": "Sem",
 		"Preferences": [
@@ -3962,7 +4007,7 @@
 		]
 	},
 	"NPC_SirArif": {
-		"AreaFriendlyName": "Khyrulek's Crypt",
+		"AreaFriendlyName": "Serbule Crypt",
 		"AreaName": "Tomb1",
 		"Name": "Sir Arif",
 		"Preferences": [
@@ -4042,7 +4087,7 @@
 		]
 	},
 	"NPC_MoxWarcut": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Mox Warcut",
 		"Preferences": [
@@ -4288,7 +4333,7 @@
 		]
 	},
 	"NPC_Selaxi": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Selaxi",
 		"Preferences": [
@@ -4485,7 +4530,7 @@
 		]
 	},
 	"NPC_FalkrinOverstrike": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Falkrin Overstrike",
 		"Preferences": [
@@ -4515,7 +4560,7 @@
 		]
 	},
 	"NPC_Pickles": {
-		"AreaFriendlyName": "Caves Beneath Kur Mountains",
+		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
 		"Name": "Pickles",
 		"Preferences": [
@@ -5014,6 +5059,50 @@
 			}
 		]
 	},
+	"NPC_Ivyn": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Name": "Ivyn",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Seed"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Seedling"
+				],
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Like",
+				"ItemKeywords": [
+					"PreparedFood"
+				],
+				"PreferenceMultiplier": 1
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Friends",
+				"ItemKeywords": [
+					"CookingRecipe"
+				],
+				"PreferenceMultiplier": 1
+			},
+			{
+				"Desire": "Hate",
+				"Favor": "Friends",
+				"ItemKeywords": [
+					"Poetry"
+				],
+				"PreferenceMultiplier": -2
+			}
+		]
+	},
 	"NPC_Raul": {
 		"AreaFriendlyName": "Sun Vale",
 		"AreaName": "SunVale",
@@ -5109,57 +5198,13 @@
 			}
 		]
 	},
-	"NPC_Ivyn": {
-		"AreaFriendlyName": "Serbule",
-		"AreaName": "Serbule",
-		"Name": "Ivyn",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Seed"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Seedling"
-				],
-				"PreferenceMultiplier": 2
-			},
-			{
-				"Desire": "Like",
-				"ItemKeywords": [
-					"PreparedFood"
-				],
-				"PreferenceMultiplier": 1
-			},
-			{
-				"Desire": "Like",
-				"Favor": "Friends",
-				"ItemKeywords": [
-					"CookingRecipe"
-				],
-				"PreferenceMultiplier": 1
-			},
-			{
-				"Desire": "Hate",
-				"Favor": "Friends",
-				"ItemKeywords": [
-					"Poetry"
-				],
-				"PreferenceMultiplier": -2
-			}
-		]
-	},
 	"NPC_ZhiaLian": {
 		"AreaFriendlyName": "Existential Planes",
 		"AreaName": "Planes",
 		"Name": "Zhia Lian"
 	},
 	"NPC_RickSnapley": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Rick Snapley",
 		"Preferences": [
@@ -5290,7 +5335,7 @@
 		]
 	},
 	"NPC_Sona": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Sona",
 		"Preferences": [
@@ -5341,7 +5386,7 @@
 		]
 	},
 	"NPC_Jumjab": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Jumjab",
 		"Preferences": [
@@ -5451,7 +5496,7 @@
 		]
 	},
 	"NPC_Torgan": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Torgan",
 		"Preferences": [
@@ -5484,7 +5529,7 @@
 		"Name": "Work Orders"
 	},
 	"NPC_Kleave": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Kleave",
 		"Preferences": [
@@ -5539,7 +5584,7 @@
 		]
 	},
 	"NPC_Lumpfuzz": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Lumpfuzz",
 		"Preferences": [
@@ -5595,7 +5640,7 @@
 		]
 	},
 	"NPC_ThimblePete": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Thimble Pete",
 		"Preferences": [
@@ -5651,7 +5696,7 @@
 		]
 	},
 	"NPC_Zealo": {
-		"AreaFriendlyName": "Khyrulek's Crypt",
+		"AreaFriendlyName": "Carpal Tunnels",
 		"AreaName": "Tomb1",
 		"Name": "Zealo",
 		"Preferences": [
@@ -5750,12 +5795,12 @@
 		"Name": "Large chest"
 	},
 	"NPC_Oritania": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Oritania"
 	},
 	"NPC_Malvol": {
-		"AreaFriendlyName": "Dungeons Beneath Eltibule",
+		"AreaFriendlyName": "Hogan's Basement",
 		"AreaName": "Cave1",
 		"Name": "Malvol",
 		"Preferences": [
@@ -5785,7 +5830,7 @@
 		]
 	},
 	"NPC_BellemaDeftwhisper": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Bellema Deftwhisper",
 		"Preferences": [
@@ -5814,8 +5859,13 @@
 			}
 		]
 	},
+	"NPC_Tryaka": {
+		"AreaFriendlyName": "Povus",
+		"AreaName": "Povus",
+		"Name": "Tryaka"
+	},
 	"NPC_SandSeer": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "The Sand Seer",
 		"Preferences": [
@@ -5839,7 +5889,7 @@
 		]
 	},
 	"NPC_Pasha": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Pasha",
 		"Preferences": [
@@ -6023,7 +6073,7 @@
 		"Name": "Chest"
 	},
 	"NPC_Vughal": {
-		"AreaFriendlyName": "Caves Beneath Gazluk",
+		"AreaFriendlyName": "New Prestonbule",
 		"AreaName": "GazlukCaves",
 		"Name": "Vughal",
 		"Preferences": [
@@ -6087,7 +6137,7 @@
 		]
 	},
 	"NPC_Arlan": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Name": "Arlan",
 		"Preferences": [
@@ -6150,7 +6200,7 @@
 		]
 	},
 	"NPC_Braigon": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Name": "Braigon",
 		"Preferences": [

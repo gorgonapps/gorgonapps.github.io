@@ -7,6 +7,13 @@
 			}
 		]
 	},
+	"100": {
+		"Entries": [
+			{
+				"Type": "Effect"
+			}
+		]
+	},
 	"10001": {
 		"Entries": [
 			{
@@ -56,6 +63,14 @@
 		]
 	},
 	"10007": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"10008": {
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
@@ -243,6 +258,22 @@
 			}
 		]
 	},
+	"10037": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"10038": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
 	"1004": {
 		"Entries": [
 			{
@@ -307,6 +338,14 @@
 			}
 		]
 	},
+	"10048": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
 	"1005": {
 		"Entries": [
 			{
@@ -364,6 +403,14 @@
 		]
 	},
 	"10057": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"10058": {
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
@@ -495,6 +542,14 @@
 			}
 		]
 	},
+	"10208": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
 	"10211": {
 		"Entries": [
 			{
@@ -544,6 +599,14 @@
 		]
 	},
 	"10217": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"10218": {
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
@@ -620,6 +683,14 @@
 		]
 	},
 	"10237": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"10238": {
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
@@ -1344,6 +1415,78 @@
 			}
 		]
 	},
+	"10561": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10562": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10563": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10564": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10565": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10566": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10567": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10568": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10569": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
 	"1057": {
 		"Entries": [
 			{
@@ -1479,9 +1622,6 @@
 	"10702": {
 		"Entries": [
 			{
-				"Type": "Effect"
-			},
-			{
 				"Npc": "NPC_Kalaba",
 				"Type": "Training"
 			},
@@ -1555,6 +1695,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Sona",
+				"Type": "Training"
+			}
+		]
+	},
+	"10717": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
 				"Type": "Training"
 			}
 		]
@@ -1647,11 +1795,51 @@
 			}
 		]
 	},
+	"10751": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10752": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10753": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"10754": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
 	"1076": {
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
 				"Type": "Training"
+			}
+		]
+	},
+	"10761": {
+		"Entries": [
+			{
+				"ItemTypeId": 1421,
+				"Type": "Item"
 			}
 		]
 	},
@@ -2335,6 +2523,14 @@
 			}
 		]
 	},
+	"11310": {
+		"Entries": [
+			{
+				"ItemTypeId": 3644,
+				"Type": "Item"
+			}
+		]
+	},
 	"1132": {
 		"Entries": [
 			{
@@ -2495,6 +2691,14 @@
 			}
 		]
 	},
+	"11410": {
+		"Entries": [
+			{
+				"ItemTypeId": 3646,
+				"Type": "Item"
+			}
+		]
+	},
 	"1143": {
 		"Entries": [
 			{
@@ -2627,6 +2831,14 @@
 			}
 		]
 	},
+	"11510": {
+		"Entries": [
+			{
+				"ItemTypeId": 3647,
+				"Type": "Item"
+			}
+		]
+	},
 	"1152": {
 		"Entries": [
 			{
@@ -2688,6 +2900,14 @@
 			{
 				"Npc": "NPC_Moku",
 				"Type": "Training"
+			}
+		]
+	},
+	"11530": {
+		"Entries": [
+			{
+				"ItemTypeId": 3660,
+				"Type": "Item"
 			}
 		]
 	},
@@ -2823,6 +3043,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3178,
+				"Type": "Item"
+			}
+		]
+	},
+	"11610": {
+		"Entries": [
+			{
+				"ItemTypeId": 3645,
 				"Type": "Item"
 			}
 		]
@@ -3291,6 +3519,14 @@
 			}
 		]
 	},
+	"12016": {
+		"Entries": [
+			{
+				"ItemTypeId": 3244,
+				"Type": "Item"
+			}
+		]
+	},
 	"1202": {
 		"Entries": [
 			{
@@ -3355,6 +3591,14 @@
 			}
 		]
 	},
+	"12036": {
+		"Entries": [
+			{
+				"ItemTypeId": 3244,
+				"Type": "Item"
+			}
+		]
+	},
 	"12046": {
 		"Entries": [
 			{
@@ -3411,6 +3655,14 @@
 			}
 		]
 	},
+	"12053": {
+		"Entries": [
+			{
+				"ItemTypeId": 3243,
+				"Type": "Item"
+			}
+		]
+	},
 	"12064": {
 		"Entries": [
 			{
@@ -3447,6 +3699,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3242,
+				"Type": "Item"
+			}
+		]
+	},
+	"12069": {
+		"Entries": [
+			{
+				"ItemTypeId": 3243,
 				"Type": "Item"
 			}
 		]
@@ -3499,6 +3759,14 @@
 			}
 		]
 	},
+	"12077": {
+		"Entries": [
+			{
+				"ItemTypeId": 2642,
+				"Type": "Item"
+			}
+		]
+	},
 	"12088": {
 		"Entries": [
 			{
@@ -3535,6 +3803,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3550,
+				"Type": "Item"
+			}
+		]
+	},
+	"12093": {
+		"Entries": [
+			{
+				"ItemTypeId": 2642,
 				"Type": "Item"
 			}
 		]
@@ -3624,6 +3900,22 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"12131": {
+		"Entries": [
+			{
+				"ItemTypeId": 2591,
+				"Type": "Item"
+			}
+		]
+	},
+	"12132": {
+		"Entries": [
+			{
+				"ItemTypeId": 2591,
+				"Type": "Item"
 			}
 		]
 	},
@@ -3723,6 +4015,14 @@
 			}
 		]
 	},
+	"12173": {
+		"Entries": [
+			{
+				"ItemTypeId": 2666,
+				"Type": "Item"
+			}
+		]
+	},
 	"12174": {
 		"Entries": [
 			{
@@ -3760,6 +4060,14 @@
 			{
 				"QuestId": 27405,
 				"Type": "Quest"
+			}
+		]
+	},
+	"12179": {
+		"Entries": [
+			{
+				"ItemTypeId": 2666,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4007,6 +4315,22 @@
 			}
 		]
 	},
+	"12218": {
+		"Entries": [
+			{
+				"ItemTypeId": 2626,
+				"Type": "Item"
+			}
+		]
+	},
+	"12219": {
+		"Entries": [
+			{
+				"ItemTypeId": 2626,
+				"Type": "Item"
+			}
+		]
+	},
 	"12244": {
 		"Entries": [
 			{
@@ -4052,6 +4376,14 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"12250": {
+		"Entries": [
+			{
+				"ItemTypeId": 3245,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4103,6 +4435,14 @@
 			}
 		]
 	},
+	"12270": {
+		"Entries": [
+			{
+				"ItemTypeId": 3245,
+				"Type": "Item"
+			}
+		]
+	},
 	"123": {
 		"Entries": [
 			{
@@ -4143,6 +4483,30 @@
 			}
 		]
 	},
+	"1231": {
+		"Entries": [
+			{
+				"ItemTypeId": 3203,
+				"Type": "Item"
+			}
+		]
+	},
+	"12310": {
+		"Entries": [
+			{
+				"ItemTypeId": 2601,
+				"Type": "Item"
+			}
+		]
+	},
+	"1232": {
+		"Entries": [
+			{
+				"ItemTypeId": 3204,
+				"Type": "Item"
+			}
+		]
+	},
 	"12326": {
 		"Entries": [
 			{
@@ -4171,6 +4535,30 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2549,
+				"Type": "Item"
+			}
+		]
+	},
+	"1233": {
+		"Entries": [
+			{
+				"ItemTypeId": 3205,
+				"Type": "Item"
+			}
+		]
+	},
+	"12330": {
+		"Entries": [
+			{
+				"ItemTypeId": 2601,
+				"Type": "Item"
+			}
+		]
+	},
+	"1234": {
+		"Entries": [
+			{
+				"ItemTypeId": 3206,
 				"Type": "Item"
 			}
 		]
@@ -4223,6 +4611,30 @@
 			}
 		]
 	},
+	"1235": {
+		"Entries": [
+			{
+				"ItemTypeId": 3207,
+				"Type": "Item"
+			}
+		]
+	},
+	"12350": {
+		"Entries": [
+			{
+				"ItemTypeId": 2621,
+				"Type": "Item"
+			}
+		]
+	},
+	"1236": {
+		"Entries": [
+			{
+				"ItemTypeId": 3208,
+				"Type": "Item"
+			}
+		]
+	},
 	"12364": {
 		"Entries": [
 			{
@@ -4271,11 +4683,51 @@
 			}
 		]
 	},
+	"1237": {
+		"Entries": [
+			{
+				"ItemTypeId": 3209,
+				"Type": "Item"
+			}
+		]
+	},
+	"12370": {
+		"Entries": [
+			{
+				"ItemTypeId": 2621,
+				"Type": "Item"
+			}
+		]
+	},
+	"1238": {
+		"Entries": [
+			{
+				"ItemTypeId": 3210,
+				"Type": "Item"
+			}
+		]
+	},
+	"1239": {
+		"Entries": [
+			{
+				"ItemTypeId": 3211,
+				"Type": "Item"
+			}
+		]
+	},
 	"124": {
 		"Entries": [
 			{
 				"Npc": "NPC_Fainor",
 				"Type": "Training"
+			}
+		]
+	},
+	"1240": {
+		"Entries": [
+			{
+				"ItemTypeId": 3212,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4351,6 +4803,14 @@
 			}
 		]
 	},
+	"1241": {
+		"Entries": [
+			{
+				"ItemTypeId": 3213,
+				"Type": "Item"
+			}
+		]
+	},
 	"12410": {
 		"Entries": [
 			{
@@ -4364,6 +4824,22 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"12412": {
+		"Entries": [
+			{
+				"ItemTypeId": 2651,
+				"Type": "Item"
+			}
+		]
+	},
+	"1242": {
+		"Entries": [
+			{
+				"ItemTypeId": 3214,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4391,6 +4867,14 @@
 			}
 		]
 	},
+	"1243": {
+		"Entries": [
+			{
+				"ItemTypeId": 3215,
+				"Type": "Item"
+			}
+		]
+	},
 	"12430": {
 		"Entries": [
 			{
@@ -4404,6 +4888,22 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"12432": {
+		"Entries": [
+			{
+				"ItemTypeId": 2651,
+				"Type": "Item"
+			}
+		]
+	},
+	"1244": {
+		"Entries": [
+			{
+				"ItemTypeId": 3216,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4423,6 +4923,14 @@
 			}
 		]
 	},
+	"1245": {
+		"Entries": [
+			{
+				"ItemTypeId": 3217,
+				"Type": "Item"
+			}
+		]
+	},
 	"12450": {
 		"Entries": [
 			{
@@ -4436,6 +4944,22 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"12452": {
+		"Entries": [
+			{
+				"ItemTypeId": 2656,
+				"Type": "Item"
+			}
+		]
+	},
+	"1246": {
+		"Entries": [
+			{
+				"ItemTypeId": 3218,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4455,6 +4979,14 @@
 			}
 		]
 	},
+	"1247": {
+		"Entries": [
+			{
+				"ItemTypeId": 3219,
+				"Type": "Item"
+			}
+		]
+	},
 	"12470": {
 		"Entries": [
 			{
@@ -4468,6 +5000,22 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"12472": {
+		"Entries": [
+			{
+				"ItemTypeId": 2656,
+				"Type": "Item"
+			}
+		]
+	},
+	"1248": {
+		"Entries": [
+			{
+				"ItemTypeId": 3220,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4487,6 +5035,14 @@
 			}
 		]
 	},
+	"1249": {
+		"Entries": [
+			{
+				"ItemTypeId": 3221,
+				"Type": "Item"
+			}
+		]
+	},
 	"12490": {
 		"Entries": [
 			{
@@ -4503,11 +5059,27 @@
 			}
 		]
 	},
+	"12492": {
+		"Entries": [
+			{
+				"ItemTypeId": 2661,
+				"Type": "Item"
+			}
+		]
+	},
 	"125": {
 		"Entries": [
 			{
 				"Npc": "NPC_Fainor",
 				"Type": "Training"
+			}
+		]
+	},
+	"1250": {
+		"Entries": [
+			{
+				"ItemTypeId": 3222,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4527,6 +5099,14 @@
 			}
 		]
 	},
+	"1251": {
+		"Entries": [
+			{
+				"ItemTypeId": 3223,
+				"Type": "Item"
+			}
+		]
+	},
 	"12510": {
 		"Entries": [
 			{
@@ -4540,6 +5120,38 @@
 			{
 				"QuestId": 27404,
 				"Type": "Quest"
+			}
+		]
+	},
+	"12512": {
+		"Entries": [
+			{
+				"ItemTypeId": 2661,
+				"Type": "Item"
+			}
+		]
+	},
+	"1252": {
+		"Entries": [
+			{
+				"ItemTypeId": 3224,
+				"Type": "Item"
+			}
+		]
+	},
+	"1253": {
+		"Entries": [
+			{
+				"ItemTypeId": 3225,
+				"Type": "Item"
+			}
+		]
+	},
+	"1254": {
+		"Entries": [
+			{
+				"ItemTypeId": 3226,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4711,6 +5323,14 @@
 			}
 		]
 	},
+	"13016": {
+		"Entries": [
+			{
+				"ItemTypeId": 3284,
+				"Type": "Item"
+			}
+		]
+	},
 	"13041": {
 		"Entries": [
 			{
@@ -4756,6 +5376,14 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"13046": {
+		"Entries": [
+			{
+				"ItemTypeId": 3284,
+				"Type": "Item"
 			}
 		]
 	},
@@ -4943,6 +5571,14 @@
 			}
 		]
 	},
+	"13113": {
+		"Entries": [
+			{
+				"ItemTypeId": 2627,
+				"Type": "Item"
+			}
+		]
+	},
 	"13125": {
 		"Entries": [
 			{
@@ -5000,6 +5636,14 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"13130": {
+		"Entries": [
+			{
+				"ItemTypeId": 2627,
+				"Type": "Item"
 			}
 		]
 	},
@@ -5071,6 +5715,14 @@
 			}
 		]
 	},
+	"13160": {
+		"Entries": [
+			{
+				"ItemTypeId": 3309,
+				"Type": "Item"
+			}
+		]
+	},
 	"13176": {
 		"Entries": [
 			{
@@ -5123,6 +5775,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3282,
+				"Type": "Item"
+			}
+		]
+	},
+	"13183": {
+		"Entries": [
+			{
+				"ItemTypeId": 3283,
 				"Type": "Item"
 			}
 		]
@@ -5183,6 +5843,14 @@
 			}
 		]
 	},
+	"13207": {
+		"Entries": [
+			{
+				"ItemTypeId": 2643,
+				"Type": "Item"
+			}
+		]
+	},
 	"13242": {
 		"Entries": [
 			{
@@ -5219,6 +5887,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3551,
+				"Type": "Item"
+			}
+		]
+	},
+	"13247": {
+		"Entries": [
+			{
+				"ItemTypeId": 2643,
 				"Type": "Item"
 			}
 		]
@@ -5279,6 +5955,14 @@
 			}
 		]
 	},
+	"13347": {
+		"Entries": [
+			{
+				"ItemTypeId": 3309,
+				"Type": "Item"
+			}
+		]
+	},
 	"13381": {
 		"Entries": [
 			{
@@ -5315,6 +5999,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3282,
+				"Type": "Item"
+			}
+		]
+	},
+	"13386": {
+		"Entries": [
+			{
+				"ItemTypeId": 3283,
 				"Type": "Item"
 			}
 		]
@@ -5404,6 +6096,22 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"13411": {
+		"Entries": [
+			{
+				"ItemTypeId": 2592,
+				"Type": "Item"
+			}
+		]
+	},
+	"13412": {
+		"Entries": [
+			{
+				"ItemTypeId": 2592,
+				"Type": "Item"
 			}
 		]
 	},
@@ -5503,6 +6211,14 @@
 			}
 		]
 	},
+	"13453": {
+		"Entries": [
+			{
+				"ItemTypeId": 2667,
+				"Type": "Item"
+			}
+		]
+	},
 	"13454": {
 		"Entries": [
 			{
@@ -5540,6 +6256,14 @@
 			{
 				"QuestId": 27405,
 				"Type": "Quest"
+			}
+		]
+	},
+	"13459": {
+		"Entries": [
+			{
+				"ItemTypeId": 2667,
+				"Type": "Item"
 			}
 		]
 	},
@@ -5588,6 +6312,14 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"13490": {
+		"Entries": [
+			{
+				"ItemTypeId": 3285,
+				"Type": "Item"
 			}
 		]
 	},
@@ -5647,6 +6379,14 @@
 			}
 		]
 	},
+	"13510": {
+		"Entries": [
+			{
+				"ItemTypeId": 3285,
+				"Type": "Item"
+			}
+		]
+	},
 	"13526": {
 		"Entries": [
 			{
@@ -5679,6 +6419,14 @@
 			}
 		]
 	},
+	"13530": {
+		"Entries": [
+			{
+				"ItemTypeId": 2604,
+				"Type": "Item"
+			}
+		]
+	},
 	"13546": {
 		"Entries": [
 			{
@@ -5707,6 +6455,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2552,
+				"Type": "Item"
+			}
+		]
+	},
+	"13550": {
+		"Entries": [
+			{
+				"ItemTypeId": 2604,
 				"Type": "Item"
 			}
 		]
@@ -5748,6 +6504,14 @@
 			{
 				"Npc": "NPC_EvelineRastin",
 				"Type": "Training"
+			}
+		]
+	},
+	"13570": {
+		"Entries": [
+			{
+				"ItemTypeId": 2622,
+				"Type": "Item"
 			}
 		]
 	},
@@ -5795,6 +6559,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2555,
+				"Type": "Item"
+			}
+		]
+	},
+	"13590": {
+		"Entries": [
+			{
+				"ItemTypeId": 2622,
 				"Type": "Item"
 			}
 		]
@@ -5895,6 +6667,14 @@
 			}
 		]
 	},
+	"13622": {
+		"Entries": [
+			{
+				"ItemTypeId": 2652,
+				"Type": "Item"
+			}
+		]
+	},
 	"13637": {
 		"Entries": [
 			{
@@ -5935,6 +6715,14 @@
 			}
 		]
 	},
+	"13642": {
+		"Entries": [
+			{
+				"ItemTypeId": 2652,
+				"Type": "Item"
+			}
+		]
+	},
 	"13668": {
 		"Entries": [
 			{
@@ -5967,6 +6755,14 @@
 			}
 		]
 	},
+	"13672": {
+		"Entries": [
+			{
+				"ItemTypeId": 2657,
+				"Type": "Item"
+			}
+		]
+	},
 	"13688": {
 		"Entries": [
 			{
@@ -5996,6 +6792,14 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"13692": {
+		"Entries": [
+			{
+				"ItemTypeId": 2657,
+				"Type": "Item"
 			}
 		]
 	},
@@ -6043,6 +6847,14 @@
 			}
 		]
 	},
+	"13712": {
+		"Entries": [
+			{
+				"ItemTypeId": 2662,
+				"Type": "Item"
+			}
+		]
+	},
 	"13728": {
 		"Entries": [
 			{
@@ -6072,6 +6884,14 @@
 			{
 				"QuestId": 27404,
 				"Type": "Quest"
+			}
+		]
+	},
+	"13732": {
+		"Entries": [
+			{
+				"ItemTypeId": 2662,
+				"Type": "Item"
 			}
 		]
 	},
@@ -6219,6 +7039,14 @@
 			}
 		]
 	},
+	"14016": {
+		"Entries": [
+			{
+				"ItemTypeId": 2681,
+				"Type": "Item"
+			}
+		]
+	},
 	"14046": {
 		"Entries": [
 			{
@@ -6275,6 +7103,14 @@
 			}
 		]
 	},
+	"14053": {
+		"Entries": [
+			{
+				"ItemTypeId": 3328,
+				"Type": "Item"
+			}
+		]
+	},
 	"14061": {
 		"Entries": [
 			{
@@ -6323,6 +7159,14 @@
 			}
 		]
 	},
+	"14066": {
+		"Entries": [
+			{
+				"ItemTypeId": 2681,
+				"Type": "Item"
+			}
+		]
+	},
 	"14081": {
 		"Entries": [
 			{
@@ -6359,6 +7203,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3327,
+				"Type": "Item"
+			}
+		]
+	},
+	"14086": {
+		"Entries": [
+			{
+				"ItemTypeId": 3328,
 				"Type": "Item"
 			}
 		]
@@ -6411,6 +7263,14 @@
 			}
 		]
 	},
+	"14110": {
+		"Entries": [
+			{
+				"ItemTypeId": 2682,
+				"Type": "Item"
+			}
+		]
+	},
 	"14121": {
 		"Entries": [
 			{
@@ -6459,6 +7319,14 @@
 			}
 		]
 	},
+	"14127": {
+		"Entries": [
+			{
+				"ItemTypeId": 2682,
+				"Type": "Item"
+			}
+		]
+	},
 	"14146": {
 		"Entries": [
 			{
@@ -6491,6 +7359,14 @@
 			}
 		]
 	},
+	"14150": {
+		"Entries": [
+			{
+				"ItemTypeId": 2602,
+				"Type": "Item"
+			}
+		]
+	},
 	"14166": {
 		"Entries": [
 			{
@@ -6519,6 +7395,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2550,
+				"Type": "Item"
+			}
+		]
+	},
+	"14170": {
+		"Entries": [
+			{
+				"ItemTypeId": 2602,
 				"Type": "Item"
 			}
 		]
@@ -6783,6 +7667,22 @@
 			}
 		]
 	},
+	"14320": {
+		"Entries": [
+			{
+				"ItemTypeId": 2628,
+				"Type": "Item"
+			}
+		]
+	},
+	"14321": {
+		"Entries": [
+			{
+				"ItemTypeId": 3303,
+				"Type": "Item"
+			}
+		]
+	},
 	"14331": {
 		"Entries": [
 			{
@@ -6827,6 +7727,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3549,
+				"Type": "Item"
+			}
+		]
+	},
+	"14337": {
+		"Entries": [
+			{
+				"ItemTypeId": 2641,
 				"Type": "Item"
 			}
 		]
@@ -6879,6 +7787,14 @@
 			}
 		]
 	},
+	"14357": {
+		"Entries": [
+			{
+				"ItemTypeId": 2581,
+				"Type": "Item"
+			}
+		]
+	},
 	"14391": {
 		"Entries": [
 			{
@@ -6896,6 +7812,14 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"14393": {
+		"Entries": [
+			{
+				"ItemTypeId": 2628,
+				"Type": "Item"
 			}
 		]
 	},
@@ -6987,6 +7911,14 @@
 			}
 		]
 	},
+	"14416": {
+		"Entries": [
+			{
+				"ItemTypeId": 3303,
+				"Type": "Item"
+			}
+		]
+	},
 	"14432": {
 		"Entries": [
 			{
@@ -7023,6 +7955,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3549,
+				"Type": "Item"
+			}
+		]
+	},
+	"14437": {
+		"Entries": [
+			{
+				"ItemTypeId": 2641,
 				"Type": "Item"
 			}
 		]
@@ -7064,6 +8004,14 @@
 			{
 				"Npc": "NPC_LeahBowman",
 				"Type": "Training"
+			}
+		]
+	},
+	"14457": {
+		"Entries": [
+			{
+				"ItemTypeId": 2581,
+				"Type": "Item"
 			}
 		]
 	},
@@ -7144,6 +8092,22 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"14481": {
+		"Entries": [
+			{
+				"ItemTypeId": 2593,
+				"Type": "Item"
+			}
+		]
+	},
+	"14482": {
+		"Entries": [
+			{
+				"ItemTypeId": 2593,
+				"Type": "Item"
 			}
 		]
 	},
@@ -7251,6 +8215,14 @@
 			}
 		]
 	},
+	"14523": {
+		"Entries": [
+			{
+				"ItemTypeId": 2668,
+				"Type": "Item"
+			}
+		]
+	},
 	"14524": {
 		"Entries": [
 			{
@@ -7288,6 +8260,14 @@
 			{
 				"QuestId": 27405,
 				"Type": "Quest"
+			}
+		]
+	},
+	"14529": {
+		"Entries": [
+			{
+				"ItemTypeId": 2668,
+				"Type": "Item"
 			}
 		]
 	},
@@ -7387,6 +8367,14 @@
 			}
 		]
 	},
+	"14563": {
+		"Entries": [
+			{
+				"ItemTypeId": 3558,
+				"Type": "Item"
+			}
+		]
+	},
 	"14564": {
 		"Entries": [
 			{
@@ -7423,6 +8411,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3548,
+				"Type": "Item"
+			}
+		]
+	},
+	"14569": {
+		"Entries": [
+			{
+				"ItemTypeId": 3558,
 				"Type": "Item"
 			}
 		]
@@ -7471,6 +8467,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2556,
+				"Type": "Item"
+			}
+		]
+	},
+	"14590": {
+		"Entries": [
+			{
+				"ItemTypeId": 2623,
 				"Type": "Item"
 			}
 		]
@@ -7527,6 +8531,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2556,
+				"Type": "Item"
+			}
+		]
+	},
+	"14610": {
+		"Entries": [
+			{
+				"ItemTypeId": 2623,
 				"Type": "Item"
 			}
 		]
@@ -7619,6 +8631,14 @@
 			}
 		]
 	},
+	"14632": {
+		"Entries": [
+			{
+				"ItemTypeId": 2653,
+				"Type": "Item"
+			}
+		]
+	},
 	"14647": {
 		"Entries": [
 			{
@@ -7659,6 +8679,14 @@
 			}
 		]
 	},
+	"14652": {
+		"Entries": [
+			{
+				"ItemTypeId": 2653,
+				"Type": "Item"
+			}
+		]
+	},
 	"14668": {
 		"Entries": [
 			{
@@ -7691,6 +8719,14 @@
 			}
 		]
 	},
+	"14672": {
+		"Entries": [
+			{
+				"ItemTypeId": 2658,
+				"Type": "Item"
+			}
+		]
+	},
 	"14688": {
 		"Entries": [
 			{
@@ -7720,6 +8756,14 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"14692": {
+		"Entries": [
+			{
+				"ItemTypeId": 2658,
+				"Type": "Item"
 			}
 		]
 	},
@@ -7763,6 +8807,14 @@
 			}
 		]
 	},
+	"14712": {
+		"Entries": [
+			{
+				"ItemTypeId": 2663,
+				"Type": "Item"
+			}
+		]
+	},
 	"14728": {
 		"Entries": [
 			{
@@ -7792,6 +8844,14 @@
 			{
 				"QuestId": 27404,
 				"Type": "Quest"
+			}
+		]
+	},
+	"14732": {
+		"Entries": [
+			{
+				"ItemTypeId": 2663,
+				"Type": "Item"
 			}
 		]
 	},
@@ -7943,6 +9003,14 @@
 			}
 		]
 	},
+	"15016": {
+		"Entries": [
+			{
+				"ItemTypeId": 2607,
+				"Type": "Item"
+			}
+		]
+	},
 	"15041": {
 		"Entries": [
 			{
@@ -7987,6 +9055,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3553,
+				"Type": "Item"
+			}
+		]
+	},
+	"15047": {
+		"Entries": [
+			{
+				"ItemTypeId": 2645,
 				"Type": "Item"
 			}
 		]
@@ -8259,6 +9335,14 @@
 			}
 		]
 	},
+	"15086": {
+		"Entries": [
+			{
+				"ItemTypeId": 2607,
+				"Type": "Item"
+			}
+		]
+	},
 	"151": {
 		"Entries": [
 			{
@@ -8303,6 +9387,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3553,
+				"Type": "Item"
+			}
+		]
+	},
+	"15126": {
+		"Entries": [
+			{
+				"ItemTypeId": 2645,
 				"Type": "Item"
 			}
 		]
@@ -8403,6 +9495,14 @@
 			}
 		]
 	},
+	"15173": {
+		"Entries": [
+			{
+				"ItemTypeId": 2669,
+				"Type": "Item"
+			}
+		]
+	},
 	"15174": {
 		"Entries": [
 			{
@@ -8440,6 +9540,14 @@
 			{
 				"QuestId": 27405,
 				"Type": "Quest"
+			}
+		]
+	},
+	"15179": {
+		"Entries": [
+			{
+				"ItemTypeId": 2669,
+				"Type": "Item"
 			}
 		]
 	},
@@ -8499,6 +9607,14 @@
 			}
 		]
 	},
+	"15210": {
+		"Entries": [
+			{
+				"ItemTypeId": 2609,
+				"Type": "Item"
+			}
+		]
+	},
 	"15224": {
 		"Entries": [
 			{
@@ -8547,6 +9663,14 @@
 			}
 		]
 	},
+	"15230": {
+		"Entries": [
+			{
+				"ItemTypeId": 2609,
+				"Type": "Item"
+			}
+		]
+	},
 	"15246": {
 		"Entries": [
 			{
@@ -8579,6 +9703,14 @@
 			}
 		]
 	},
+	"15250": {
+		"Entries": [
+			{
+				"ItemTypeId": 2605,
+				"Type": "Item"
+			}
+		]
+	},
 	"15266": {
 		"Entries": [
 			{
@@ -8607,6 +9739,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2553,
+				"Type": "Item"
+			}
+		]
+	},
+	"15270": {
+		"Entries": [
+			{
+				"ItemTypeId": 2605,
 				"Type": "Item"
 			}
 		]
@@ -8655,6 +9795,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2557,
+				"Type": "Item"
+			}
+		]
+	},
+	"15290": {
+		"Entries": [
+			{
+				"ItemTypeId": 2624,
 				"Type": "Item"
 			}
 		]
@@ -8711,6 +9859,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2557,
+				"Type": "Item"
+			}
+		]
+	},
+	"15310": {
+		"Entries": [
+			{
+				"ItemTypeId": 2624,
 				"Type": "Item"
 			}
 		]
@@ -8803,6 +9959,14 @@
 			}
 		]
 	},
+	"15332": {
+		"Entries": [
+			{
+				"ItemTypeId": 2654,
+				"Type": "Item"
+			}
+		]
+	},
 	"15347": {
 		"Entries": [
 			{
@@ -8843,6 +10007,14 @@
 			}
 		]
 	},
+	"15352": {
+		"Entries": [
+			{
+				"ItemTypeId": 2654,
+				"Type": "Item"
+			}
+		]
+	},
 	"15368": {
 		"Entries": [
 			{
@@ -8872,6 +10044,14 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"15372": {
+		"Entries": [
+			{
+				"ItemTypeId": 2659,
+				"Type": "Item"
 			}
 		]
 	},
@@ -8907,6 +10087,14 @@
 			}
 		]
 	},
+	"15392": {
+		"Entries": [
+			{
+				"ItemTypeId": 2659,
+				"Type": "Item"
+			}
+		]
+	},
 	"154": {
 		"Entries": [
 			{
@@ -8929,6 +10117,22 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"15403": {
+		"Entries": [
+			{
+				"ItemTypeId": 2629,
+				"Type": "Item"
+			}
+		]
+	},
+	"15404": {
+		"Entries": [
+			{
+				"ItemTypeId": 2629,
+				"Type": "Item"
 			}
 		]
 	},
@@ -8964,6 +10168,14 @@
 			}
 		]
 	},
+	"15432": {
+		"Entries": [
+			{
+				"ItemTypeId": 2664,
+				"Type": "Item"
+			}
+		]
+	},
 	"15448": {
 		"Entries": [
 			{
@@ -8993,6 +10205,14 @@
 			{
 				"QuestId": 27404,
 				"Type": "Quest"
+			}
+		]
+	},
+	"15452": {
+		"Entries": [
+			{
+				"ItemTypeId": 2664,
+				"Type": "Item"
 			}
 		]
 	},
@@ -9169,6 +10389,14 @@
 			}
 		]
 	},
+	"16016": {
+		"Entries": [
+			{
+				"ItemTypeId": 2606,
+				"Type": "Item"
+			}
+		]
+	},
 	"16041": {
 		"Entries": [
 			{
@@ -9213,6 +10441,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3552,
+				"Type": "Item"
+			}
+		]
+	},
+	"16047": {
+		"Entries": [
+			{
+				"ItemTypeId": 2644,
 				"Type": "Item"
 			}
 		]
@@ -9262,6 +10498,14 @@
 			{
 				"Npc": "NPC_LeahBowman",
 				"Type": "Training"
+			}
+		]
+	},
+	"16067": {
+		"Entries": [
+			{
+				"ItemTypeId": 2582,
+				"Type": "Item"
 			}
 		]
 	},
@@ -9322,6 +10566,14 @@
 			}
 		]
 	},
+	"16106": {
+		"Entries": [
+			{
+				"ItemTypeId": 2606,
+				"Type": "Item"
+			}
+		]
+	},
 	"16142": {
 		"Entries": [
 			{
@@ -9358,6 +10610,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3552,
+				"Type": "Item"
+			}
+		]
+	},
+	"16147": {
+		"Entries": [
+			{
+				"ItemTypeId": 2644,
 				"Type": "Item"
 			}
 		]
@@ -9399,6 +10659,14 @@
 			{
 				"Npc": "NPC_LeahBowman",
 				"Type": "Training"
+			}
+		]
+	},
+	"16187": {
+		"Entries": [
+			{
+				"ItemTypeId": 2582,
+				"Type": "Item"
 			}
 		]
 	},
@@ -9507,6 +10775,14 @@
 			}
 		]
 	},
+	"16233": {
+		"Entries": [
+			{
+				"ItemTypeId": 2670,
+				"Type": "Item"
+			}
+		]
+	},
 	"16234": {
 		"Entries": [
 			{
@@ -9547,6 +10823,14 @@
 			}
 		]
 	},
+	"16239": {
+		"Entries": [
+			{
+				"ItemTypeId": 2670,
+				"Type": "Item"
+			}
+		]
+	},
 	"163": {
 		"Entries": [
 			{
@@ -9579,6 +10863,22 @@
 			}
 		]
 	},
+	"16309": {
+		"Entries": [
+			{
+				"ItemTypeId": 2583,
+				"Type": "Item"
+			}
+		]
+	},
+	"16310": {
+		"Entries": [
+			{
+				"ItemTypeId": 2586,
+				"Type": "Item"
+			}
+		]
+	},
 	"16326": {
 		"Entries": [
 			{
@@ -9599,6 +10899,22 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3545,
+				"Type": "Item"
+			}
+		]
+	},
+	"16329": {
+		"Entries": [
+			{
+				"ItemTypeId": 2583,
+				"Type": "Item"
+			}
+		]
+	},
+	"16330": {
+		"Entries": [
+			{
+				"ItemTypeId": 2586,
 				"Type": "Item"
 			}
 		]
@@ -9627,6 +10943,22 @@
 			}
 		]
 	},
+	"16349": {
+		"Entries": [
+			{
+				"ItemTypeId": 2584,
+				"Type": "Item"
+			}
+		]
+	},
+	"16350": {
+		"Entries": [
+			{
+				"ItemTypeId": 2587,
+				"Type": "Item"
+			}
+		]
+	},
 	"16366": {
 		"Entries": [
 			{
@@ -9651,6 +10983,22 @@
 			}
 		]
 	},
+	"16369": {
+		"Entries": [
+			{
+				"ItemTypeId": 2584,
+				"Type": "Item"
+			}
+		]
+	},
+	"16370": {
+		"Entries": [
+			{
+				"ItemTypeId": 2587,
+				"Type": "Item"
+			}
+		]
+	},
 	"16386": {
 		"Entries": [
 			{
@@ -9671,6 +11019,22 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3547,
+				"Type": "Item"
+			}
+		]
+	},
+	"16389": {
+		"Entries": [
+			{
+				"ItemTypeId": 2585,
+				"Type": "Item"
+			}
+		]
+	},
+	"16390": {
+		"Entries": [
+			{
+				"ItemTypeId": 2588,
 				"Type": "Item"
 			}
 		]
@@ -9703,6 +11067,22 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3547,
+				"Type": "Item"
+			}
+		]
+	},
+	"16409": {
+		"Entries": [
+			{
+				"ItemTypeId": 2585,
+				"Type": "Item"
+			}
+		]
+	},
+	"16410": {
+		"Entries": [
+			{
+				"ItemTypeId": 2588,
 				"Type": "Item"
 			}
 		]
@@ -9943,6 +11323,22 @@
 			}
 		]
 	},
+	"16438": {
+		"Entries": [
+			{
+				"ItemTypeId": 2630,
+				"Type": "Item"
+			}
+		]
+	},
+	"16439": {
+		"Entries": [
+			{
+				"ItemTypeId": 2630,
+				"Type": "Item"
+			}
+		]
+	},
 	"16464": {
 		"Entries": [
 			{
@@ -9988,6 +11384,14 @@
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "Training"
+			}
+		]
+	},
+	"16470": {
+		"Entries": [
+			{
+				"ItemTypeId": 2608,
+				"Type": "Item"
 			}
 		]
 	},
@@ -10039,6 +11443,14 @@
 			}
 		]
 	},
+	"16490": {
+		"Entries": [
+			{
+				"ItemTypeId": 2608,
+				"Type": "Item"
+			}
+		]
+	},
 	"165": {
 		"Entries": [
 			{
@@ -10083,6 +11495,14 @@
 			}
 		]
 	},
+	"16510": {
+		"Entries": [
+			{
+				"ItemTypeId": 2603,
+				"Type": "Item"
+			}
+		]
+	},
 	"16526": {
 		"Entries": [
 			{
@@ -10111,6 +11531,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2551,
+				"Type": "Item"
+			}
+		]
+	},
+	"16530": {
+		"Entries": [
+			{
+				"ItemTypeId": 2603,
 				"Type": "Item"
 			}
 		]
@@ -10163,6 +11591,14 @@
 			}
 		]
 	},
+	"16550": {
+		"Entries": [
+			{
+				"ItemTypeId": 2625,
+				"Type": "Item"
+			}
+		]
+	},
 	"16564": {
 		"Entries": [
 			{
@@ -10211,6 +11647,14 @@
 			}
 		]
 	},
+	"16570": {
+		"Entries": [
+			{
+				"ItemTypeId": 2625,
+				"Type": "Item"
+			}
+		]
+	},
 	"16574": {
 		"Entries": [
 			{
@@ -10247,6 +11691,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3345,
+				"Type": "Item"
+			}
+		]
+	},
+	"16579": {
+		"Entries": [
+			{
+				"ItemTypeId": 3346,
 				"Type": "Item"
 			}
 		]
@@ -10291,6 +11743,14 @@
 			}
 		]
 	},
+	"16589": {
+		"Entries": [
+			{
+				"ItemTypeId": 3346,
+				"Type": "Item"
+			}
+		]
+	},
 	"16594": {
 		"Entries": [
 			{
@@ -10327,6 +11787,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3355,
+				"Type": "Item"
+			}
+		]
+	},
+	"16599": {
+		"Entries": [
+			{
+				"ItemTypeId": 3356,
 				"Type": "Item"
 			}
 		]
@@ -10380,6 +11848,14 @@
 			}
 		]
 	},
+	"16609": {
+		"Entries": [
+			{
+				"ItemTypeId": 3356,
+				"Type": "Item"
+			}
+		]
+	},
 	"16614": {
 		"Entries": [
 			{
@@ -10416,6 +11892,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3365,
+				"Type": "Item"
+			}
+		]
+	},
+	"16619": {
+		"Entries": [
+			{
+				"ItemTypeId": 3366,
 				"Type": "Item"
 			}
 		]
@@ -10460,6 +11944,14 @@
 			}
 		]
 	},
+	"16629": {
+		"Entries": [
+			{
+				"ItemTypeId": 3366,
+				"Type": "Item"
+			}
+		]
+	},
 	"16634": {
 		"Entries": [
 			{
@@ -10500,6 +11992,14 @@
 			}
 		]
 	},
+	"16639": {
+		"Entries": [
+			{
+				"ItemTypeId": 3376,
+				"Type": "Item"
+			}
+		]
+	},
 	"16644": {
 		"Entries": [
 			{
@@ -10536,6 +12036,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3375,
+				"Type": "Item"
+			}
+		]
+	},
+	"16649": {
+		"Entries": [
+			{
+				"ItemTypeId": 3376,
 				"Type": "Item"
 			}
 		]
@@ -10588,6 +12096,14 @@
 			}
 		]
 	},
+	"16659": {
+		"Entries": [
+			{
+				"ItemTypeId": 2566,
+				"Type": "Item"
+			}
+		]
+	},
 	"16664": {
 		"Entries": [
 			{
@@ -10624,6 +12140,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2563,
+				"Type": "Item"
+			}
+		]
+	},
+	"16669": {
+		"Entries": [
+			{
+				"ItemTypeId": 2566,
 				"Type": "Item"
 			}
 		]
@@ -10716,6 +12240,14 @@
 			}
 		]
 	},
+	"16692": {
+		"Entries": [
+			{
+				"ItemTypeId": 2655,
+				"Type": "Item"
+			}
+		]
+	},
 	"16707": {
 		"Entries": [
 			{
@@ -10756,6 +12288,14 @@
 			}
 		]
 	},
+	"16712": {
+		"Entries": [
+			{
+				"ItemTypeId": 2655,
+				"Type": "Item"
+			}
+		]
+	},
 	"16728": {
 		"Entries": [
 			{
@@ -10785,6 +12325,14 @@
 			{
 				"Npc": "NPC_TremmondBlackhammer",
 				"Type": "Training"
+			}
+		]
+	},
+	"16732": {
+		"Entries": [
+			{
+				"ItemTypeId": 2660,
+				"Type": "Item"
 			}
 		]
 	},
@@ -10820,6 +12368,14 @@
 			}
 		]
 	},
+	"16752": {
+		"Entries": [
+			{
+				"ItemTypeId": 2660,
+				"Type": "Item"
+			}
+		]
+	},
 	"16768": {
 		"Entries": [
 			{
@@ -10852,6 +12408,14 @@
 			}
 		]
 	},
+	"16772": {
+		"Entries": [
+			{
+				"ItemTypeId": 2665,
+				"Type": "Item"
+			}
+		]
+	},
 	"16788": {
 		"Entries": [
 			{
@@ -10881,6 +12445,14 @@
 			{
 				"QuestId": 27404,
 				"Type": "Quest"
+			}
+		]
+	},
+	"16792": {
+		"Entries": [
+			{
+				"ItemTypeId": 2665,
+				"Type": "Item"
 			}
 		]
 	},
@@ -10928,6 +12500,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3464,
+				"Type": "Item"
+			}
+		]
+	},
+	"16979": {
+		"Entries": [
+			{
+				"ItemTypeId": 3465,
 				"Type": "Item"
 			}
 		]
@@ -11048,6 +12628,14 @@
 			}
 		]
 	},
+	"17013": {
+		"Entries": [
+			{
+				"ItemTypeId": 3761,
+				"Type": "Item"
+			}
+		]
+	},
 	"17021": {
 		"Entries": [
 			{
@@ -11144,6 +12732,14 @@
 			}
 		]
 	},
+	"17033": {
+		"Entries": [
+			{
+				"ItemTypeId": 3762,
+				"Type": "Item"
+			}
+		]
+	},
 	"17041": {
 		"Entries": [
 			{
@@ -11184,6 +12780,14 @@
 			}
 		]
 	},
+	"17046": {
+		"Entries": [
+			{
+				"ItemTypeId": 3761,
+				"Type": "Item"
+			}
+		]
+	},
 	"17061": {
 		"Entries": [
 			{
@@ -11221,6 +12825,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"17066": {
+		"Entries": [
+			{
+				"ItemTypeId": 3762,
+				"Type": "Item"
 			}
 		]
 	},
@@ -11320,6 +12932,14 @@
 			}
 		]
 	},
+	"17093": {
+		"Entries": [
+			{
+				"ItemTypeId": 3763,
+				"Type": "Item"
+			}
+		]
+	},
 	"171": {
 		"Entries": [
 			{
@@ -11365,6 +12985,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"17106": {
+		"Entries": [
+			{
+				"ItemTypeId": 3763,
+				"Type": "Item"
 			}
 		]
 	},
@@ -11464,6 +13092,14 @@
 			}
 		]
 	},
+	"17133": {
+		"Entries": [
+			{
+				"ItemTypeId": 3760,
+				"Type": "Item"
+			}
+		]
+	},
 	"17145": {
 		"Entries": [
 			{
@@ -11504,6 +13140,14 @@
 			}
 		]
 	},
+	"17150": {
+		"Entries": [
+			{
+				"ItemTypeId": 3760,
+				"Type": "Item"
+			}
+		]
+	},
 	"17166": {
 		"Entries": [
 			{
@@ -11536,6 +13180,14 @@
 			}
 		]
 	},
+	"17170": {
+		"Entries": [
+			{
+				"ItemTypeId": 3764,
+				"Type": "Item"
+			}
+		]
+	},
 	"17186": {
 		"Entries": [
 			{
@@ -11565,6 +13217,14 @@
 			{
 				"Npc": "NPC_Ufkar",
 				"Type": "Training"
+			}
+		]
+	},
+	"17190": {
+		"Entries": [
+			{
+				"ItemTypeId": 3764,
+				"Type": "Item"
 			}
 		]
 	},
@@ -12160,6 +13820,14 @@
 			}
 		]
 	},
+	"19110": {
+		"Entries": [
+			{
+				"ItemTypeId": 3640,
+				"Type": "Item"
+			}
+		]
+	},
 	"19111": {
 		"Entries": [
 			{
@@ -12229,6 +13897,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"19120": {
+		"Entries": [
+			{
+				"ItemTypeId": 3641,
+				"Type": "Item"
 			}
 		]
 	},
@@ -12304,6 +13980,14 @@
 			}
 		]
 	},
+	"19130": {
+		"Entries": [
+			{
+				"ItemTypeId": 3642,
+				"Type": "Item"
+			}
+		]
+	},
 	"19131": {
 		"Entries": [
 			{
@@ -12376,6 +14060,14 @@
 			}
 		]
 	},
+	"19140": {
+		"Entries": [
+			{
+				"ItemTypeId": 3643,
+				"Type": "Item"
+			}
+		]
+	},
 	"19151": {
 		"Entries": [
 			{
@@ -12412,6 +14104,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3543,
+				"Type": "Item"
+			}
+		]
+	},
+	"19156": {
+		"Entries": [
+			{
+				"ItemTypeId": 3544,
 				"Type": "Item"
 			}
 		]
@@ -12720,6 +14420,14 @@
 			}
 		]
 	},
+	"19330": {
+		"Entries": [
+			{
+				"ItemTypeId": 3230,
+				"Type": "Item"
+			}
+		]
+	},
 	"19344": {
 		"Entries": [
 			{
@@ -12765,6 +14473,14 @@
 			{
 				"Npc": "NPC_Raina",
 				"Type": "Training"
+			}
+		]
+	},
+	"19350": {
+		"Entries": [
+			{
+				"ItemTypeId": 3230,
+				"Type": "Item"
 			}
 		]
 	},
@@ -13216,6 +14932,14 @@
 			}
 		]
 	},
+	"19509": {
+		"Entries": [
+			{
+				"ItemTypeId": 3466,
+				"Type": "Item"
+			}
+		]
+	},
 	"19515": {
 		"Entries": [
 			{
@@ -13248,6 +14972,14 @@
 			}
 		]
 	},
+	"19519": {
+		"Entries": [
+			{
+				"ItemTypeId": 3466,
+				"Type": "Item"
+			}
+		]
+	},
 	"19525": {
 		"Entries": [
 			{
@@ -13276,6 +15008,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3454,
+				"Type": "Item"
+			}
+		]
+	},
+	"19529": {
+		"Entries": [
+			{
+				"ItemTypeId": 3455,
 				"Type": "Item"
 			}
 		]
@@ -13312,6 +15052,14 @@
 			}
 		]
 	},
+	"19539": {
+		"Entries": [
+			{
+				"ItemTypeId": 3455,
+				"Type": "Item"
+			}
+		]
+	},
 	"19545": {
 		"Entries": [
 			{
@@ -13341,6 +15089,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"19549": {
+		"Entries": [
+			{
+				"ItemTypeId": 3467,
+				"Type": "Item"
 			}
 		]
 	},
@@ -13376,6 +15132,14 @@
 			}
 		]
 	},
+	"19559": {
+		"Entries": [
+			{
+				"ItemTypeId": 3467,
+				"Type": "Item"
+			}
+		]
+	},
 	"19565": {
 		"Entries": [
 			{
@@ -13404,6 +15168,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3464,
+				"Type": "Item"
+			}
+		]
+	},
+	"19569": {
+		"Entries": [
+			{
+				"ItemTypeId": 3465,
 				"Type": "Item"
 			}
 		]
@@ -13440,6 +15212,14 @@
 			}
 		]
 	},
+	"19589": {
+		"Entries": [
+			{
+				"ItemTypeId": 3468,
+				"Type": "Item"
+			}
+		]
+	},
 	"19595": {
 		"Entries": [
 			{
@@ -13469,6 +15249,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"19599": {
+		"Entries": [
+			{
+				"ItemTypeId": 3468,
+				"Type": "Item"
 			}
 		]
 	},
@@ -13536,6 +15324,14 @@
 			}
 		]
 	},
+	"19619": {
+		"Entries": [
+			{
+				"ItemTypeId": 3469,
+				"Type": "Item"
+			}
+		]
+	},
 	"19625": {
 		"Entries": [
 			{
@@ -13565,6 +15361,14 @@
 			{
 				"Npc": "NPC_Backfat",
 				"Type": "Training"
+			}
+		]
+	},
+	"19629": {
+		"Entries": [
+			{
+				"ItemTypeId": 3469,
+				"Type": "Item"
 			}
 		]
 	},
@@ -13608,6 +15412,14 @@
 			}
 		]
 	},
+	"19710": {
+		"Entries": [
+			{
+				"ItemTypeId": 3771,
+				"Type": "Item"
+			}
+		]
+	},
 	"19726": {
 		"Entries": [
 			{
@@ -13637,6 +15449,14 @@
 			{
 				"Npc": "NPC_Kohan",
 				"Type": "Training"
+			}
+		]
+	},
+	"19730": {
+		"Entries": [
+			{
+				"ItemTypeId": 3771,
+				"Type": "Item"
 			}
 		]
 	},
@@ -13672,6 +15492,14 @@
 			}
 		]
 	},
+	"19750": {
+		"Entries": [
+			{
+				"ItemTypeId": 3772,
+				"Type": "Item"
+			}
+		]
+	},
 	"19766": {
 		"Entries": [
 			{
@@ -13701,6 +15529,14 @@
 			{
 				"Npc": "NPC_Yogzi",
 				"Type": "Training"
+			}
+		]
+	},
+	"19770": {
+		"Entries": [
+			{
+				"ItemTypeId": 3773,
+				"Type": "Item"
 			}
 		]
 	},
@@ -14450,6 +16286,14 @@
 			}
 		]
 	},
+	"22011": {
+		"Entries": [
+			{
+				"ItemTypeId": 2691,
+				"Type": "Item"
+			}
+		]
+	},
 	"22031": {
 		"Entries": [
 			{
@@ -14527,6 +16371,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"22041": {
+		"Entries": [
+			{
+				"ItemTypeId": 2692,
+				"Type": "Item"
 			}
 		]
 	},
@@ -14610,6 +16462,14 @@
 			}
 		]
 	},
+	"22071": {
+		"Entries": [
+			{
+				"ItemTypeId": 2693,
+				"Type": "Item"
+			}
+		]
+	},
 	"22102": {
 		"Entries": [
 			{
@@ -14663,6 +16523,14 @@
 			{
 				"Npc": "NPC_Solgribue",
 				"Type": "Training"
+			}
+		]
+	},
+	"22118": {
+		"Entries": [
+			{
+				"ItemTypeId": 2694,
+				"Type": "Item"
 			}
 		]
 	},
@@ -15532,6 +17400,22 @@
 			}
 		]
 	},
+	"23118": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23119": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
 	"23151": {
 		"Entries": [
 			{
@@ -15769,6 +17653,26 @@
 			{
 				"Npc": "NPC_Dhakmar",
 				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"23659": {
+		"Entries": [
+			{
+				"Npc": "PoiGhostOrc2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23660": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
 			}
 		]
 	},
@@ -15825,6 +17729,10 @@
 			{
 				"Npc": "NPC_Dhakmar",
 				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
 			}
 		]
 	},
@@ -15832,6 +17740,22 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Dhakmar",
+				"Type": "Training"
+			}
+		]
+	},
+	"23709": {
+		"Entries": [
+			{
+				"Npc": "PoiGhostOrc2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23710": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
 				"Type": "Training"
 			}
 		]
@@ -15902,6 +17826,18 @@
 			}
 		]
 	},
+	"23759": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			},
+			{
+				"Npc": "PoiGhostOrc2",
+				"Type": "Training"
+			}
+		]
+	},
 	"23801": {
 		"Entries": [
 			{
@@ -15949,6 +17885,10 @@
 			{
 				"Npc": "NPC_Dhakmar",
 				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
 			}
 		]
 	},
@@ -15964,6 +17904,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Dhakmar",
+				"Type": "Training"
+			}
+		]
+	},
+	"23809": {
+		"Entries": [
+			{
+				"Npc": "PoiGhostOrc2",
 				"Type": "Training"
 			}
 		]
@@ -16477,6 +18425,14 @@
 			}
 		]
 	},
+	"24274": {
+		"Entries": [
+			{
+				"ItemTypeId": 3911,
+				"Type": "Item"
+			}
+		]
+	},
 	"24275": {
 		"Entries": [
 			{
@@ -16677,6 +18633,14 @@
 			}
 		]
 	},
+	"25057": {
+		"Entries": [
+			{
+				"Npc": "NPC_Norbert",
+				"Type": "Training"
+			}
+		]
+	},
 	"251": {
 		"Entries": [
 			{
@@ -16729,6 +18693,18 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
+	"25107": {
+		"Entries": [
+			{
+				"ItemTypeId": 3559,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_TrainerSphere4",
 				"Type": "Training"
 			}
 		]
@@ -17017,6 +18993,22 @@
 			}
 		]
 	},
+	"25402": {
+		"Entries": [
+			{
+				"ItemTypeId": 3560,
+				"Type": "Item"
+			}
+		]
+	},
+	"25403": {
+		"Entries": [
+			{
+				"ItemTypeId": 3560,
+				"Type": "Item"
+			}
+		]
+	},
 	"25451": {
 		"Entries": [
 			{
@@ -17294,6 +19286,22 @@
 			{
 				"QuestId": 45402,
 				"Type": "Quest"
+			}
+		]
+	},
+	"26007": {
+		"Entries": [
+			{
+				"ItemTypeId": 3009,
+				"Type": "Item"
+			}
+		]
+	},
+	"26008": {
+		"Entries": [
+			{
+				"ItemTypeId": 3010,
+				"Type": "Item"
 			}
 		]
 	},
@@ -21558,6 +23566,22 @@
 			}
 		]
 	},
+	"619": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"620": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
 	"631": {
 		"Entries": [
 			{
@@ -21694,6 +23718,22 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"648": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"649": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
 			}
 		]
@@ -22535,6 +24575,14 @@
 			}
 		]
 	},
+	"708": {
+		"Entries": [
+			{
+				"ItemTypeId": 31951,
+				"Type": "Item"
+			}
+		]
+	},
 	"7080": {
 		"Entries": [
 			{
@@ -22763,6 +24811,46 @@
 			}
 		]
 	},
+	"726": {
+		"Entries": [
+			{
+				"ItemTypeId": 31952,
+				"Type": "Item"
+			}
+		]
+	},
+	"727": {
+		"Entries": [
+			{
+				"ItemTypeId": 31953,
+				"Type": "Item"
+			}
+		]
+	},
+	"728": {
+		"Entries": [
+			{
+				"ItemTypeId": 31954,
+				"Type": "Item"
+			}
+		]
+	},
+	"729": {
+		"Entries": [
+			{
+				"ItemTypeId": 31955,
+				"Type": "Item"
+			}
+		]
+	},
+	"730": {
+		"Entries": [
+			{
+				"ItemTypeId": 31956,
+				"Type": "Item"
+			}
+		]
+	},
 	"7301": {
 		"Entries": [
 			{
@@ -22789,6 +24877,14 @@
 	},
 	"7304": {
 		"Entries": []
+	},
+	"731": {
+		"Entries": [
+			{
+				"ItemTypeId": 31957,
+				"Type": "Item"
+			}
+		]
 	},
 	"7311": {
 		"Entries": [
@@ -22822,6 +24918,14 @@
 			}
 		]
 	},
+	"732": {
+		"Entries": [
+			{
+				"ItemTypeId": 31958,
+				"Type": "Item"
+			}
+		]
+	},
 	"7321": {
 		"Entries": [
 			{
@@ -22851,6 +24955,22 @@
 			{
 				"Npc": "NPC_Daisy",
 				"Type": "Training"
+			}
+		]
+	},
+	"733": {
+		"Entries": [
+			{
+				"ItemTypeId": 31959,
+				"Type": "Item"
+			}
+		]
+	},
+	"734": {
+		"Entries": [
+			{
+				"ItemTypeId": 31960,
+				"Type": "Item"
 			}
 		]
 	},
@@ -23515,6 +25635,38 @@
 			}
 		]
 	},
+	"7890": {
+		"Entries": [
+			{
+				"ItemTypeId": 3581,
+				"Type": "Item"
+			}
+		]
+	},
+	"7891": {
+		"Entries": [
+			{
+				"ItemTypeId": 3582,
+				"Type": "Item"
+			}
+		]
+	},
+	"7892": {
+		"Entries": [
+			{
+				"ItemTypeId": 3583,
+				"Type": "Item"
+			}
+		]
+	},
+	"7893": {
+		"Entries": [
+			{
+				"ItemTypeId": 3513,
+				"Type": "Item"
+			}
+		]
+	},
 	"800": {
 		"Entries": [
 			{
@@ -23615,6 +25767,14 @@
 			},
 			{
 				"Npc": "NPC_Velkort",
+				"Type": "Training"
+			}
+		]
+	},
+	"8010": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
 				"Type": "Training"
 			}
 		]
@@ -24338,6 +26498,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_GeorgeMadler",
+				"Type": "Training"
+			}
+		]
+	},
+	"8559": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
 				"Type": "Training"
 			}
 		]

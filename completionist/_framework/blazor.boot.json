@@ -1,7 +1,7 @@
 {
   "entryAssembly": "PgCompletionist",
   "resources": {
-    "hash": "sha256-ldmmDlVRRrtXbTVx6lYsO2VxvTDwr/BQ5eY6BUkU9kQ=",
+    "hash": "sha256-jQgzrhYl9jdy8IUNVq5r6V2pH8RWuFHegodhw++1Iq8=",
     "runtime": {
       "dotnet.6.0.25.jhl00zrphp.js": "sha256-1jUGCCSGH9JWhkqbHdQk8JBjBI8K/VC63En5zlypVps=",
       "dotnet.timezones.blat": "sha256-KsGUR9nqtXb3Hy6IrNlnc1HoSS+AFlsXTX9rq4oChtA=",
@@ -26,8 +26,8 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-QRewYnpJ6vl8gGMXBS2gN++/sQ9hKcuv+rhy586Bbxs=",
       "Microsoft.JSInterop.dll": "sha256-bqLj5cK8rXPWsfkGKVU69QLV3uZLrVqmXBZAyRjLrX8=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-SRduW60tkwlQWcHY8Mh6G5fgHYNUE9azLCO70Izo9pw=",
-      "PgCompletionist.dll": "sha256-XL3YiPBo1zB8wqF+6B70fWLyZLhrmnU00MvW29IShp8=",
-      "PgObjects.dll": "sha256-6jPkJCm9RZnAJXRWsTUkq4NYk7RM0aCknjtoXiaR++Y=",
+      "PgCompletionist.dll": "sha256-ooqrZ6ILTI3h6+oXO/8BtY0kZkL3mfBbvKIbEDCsSQA=",
+      "PgObjects.dll": "sha256-0t0v2UWrBSZDDvmFVP8iL7pwUbf6mo5zSC0TqF1Q2Kc=",
       "System.Collections.Concurrent.dll": "sha256-MI0qwF/UFPCHeZx3qDYKT+UdR1H5Yzbi3g1BcVpoqlU=",
       "System.Collections.dll": "sha256-6vrudBv0eiLofhZa06+SYSdxFzhBTodBQsUjdO7V1xU=",
       "System.ComponentModel.dll": "sha256-tGPhEYCGl9jsDFw0J75e4uxRLmLaKh5xDU9ynr4lN1E=",

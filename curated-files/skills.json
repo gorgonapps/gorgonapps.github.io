@@ -55,6 +55,10 @@
 				"Level": 45
 			},
 			{
+				"BonusToSkill": "Brewing",
+				"Level": 49
+			},
+			{
 				"Abilities": [
 					"PoisonBlade5"
 				],
@@ -127,6 +131,10 @@
 			{
 				"BonusToSkill": "Endurance",
 				"Level": 70
+			},
+			{
+				"BonusToSkill": "Brewing",
+				"Level": 80
 			},
 			{
 				"BonusToSkill": "Dying",
@@ -2785,6 +2793,20 @@
 					"NPC_Kohan",
 					"NPC_Ufkar"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Ancillary-Armor Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Ancillary-Armor Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -2980,6 +3002,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Crelpin"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Animal Handling, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -3528,6 +3557,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Floxie"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Archery, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -4112,6 +4148,20 @@
 					"NPC_Kohan",
 					"NPC_Ufkar"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Armor Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Armor Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -4192,6 +4242,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Pegast"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Armor Patching, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -4321,6 +4378,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_TremmondBlackhammer"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Armorsmithing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -4525,6 +4589,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Raina"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Bard, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -4879,6 +4950,13 @@
 				"Npcs": [
 					"NPC_BendiththeBanished"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Battle Chemistry, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -5152,6 +5230,10 @@
 			{
 				"BonusToSkill": "WeatherWitching",
 				"Level": 60
+			},
+			{
+				"BonusToSkill": "Brewing",
+				"Level": 70
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -5222,6 +5304,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Solgribue"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Blacksmithing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -5327,6 +5416,20 @@
 				"Level": 60,
 				"Npcs": [
 					"NPC_Dhakmar"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Brewing, befriend a ghostly orc in a cave beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_aghostlyorc"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Brewing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -5571,6 +5674,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Butchering, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -6097,6 +6207,13 @@
 				"Npcs": [
 					"NPC_Solgribue"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Carpentry, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -6400,6 +6517,13 @@
 				"Npcs": [
 					"NPC_Floxie"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Cooking, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "PowerPassive",
@@ -6475,6 +6599,10 @@
 			{
 				"BonusToSkill": "Knife",
 				"Level": 60
+			},
+			{
+				"BonusToSkill": "Brewing",
+				"Level": 70
 			}
 		],
 		"XpTable": "Gardening"
@@ -6513,6 +6641,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Cow, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -6775,6 +6910,13 @@
 				"Npcs": [
 					"NPC_Floxie"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Crossbow, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AuxCombat": true,
@@ -6860,6 +7002,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Deer, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -7176,6 +7325,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Raina"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Druid, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -7611,6 +7767,13 @@
 				"Npcs": [
 					"NPC_Backfat"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Endurance, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Endurance",
@@ -7708,7 +7871,7 @@
 				"Level": 75
 			}
 		],
-		"SkillLevelDisparityApplies": true,
+		"SkillLevelDisparityApplies": false,
 		"XpTable": "Endurance"
 	},
 	"FairyMagic": {
@@ -7732,6 +7895,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Raina"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Fairy Magic, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -7936,6 +8106,13 @@
 				"Npcs": [
 					"NPC_BendiththeBanished"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Fire Magic, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "FireMagic",
@@ -8105,6 +8282,13 @@
 				"Npcs": [
 					"NPC_Backfat"
 				]
+			},
+			{
+				"Hint": "To earn more XP in First Aid, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AuxCombat": true,
@@ -8221,6 +8405,20 @@
 				"Level": 60,
 				"Npcs": [
 					"NPC_Rugen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Fishing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Fishing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -8351,6 +8549,13 @@
 			{
 				"Hint": "To earn more XP in Fletching, gain favor with Floxie in the Fae Realm.",
 				"Level": 60,
+				"Npcs": [
+					"NPC_Floxie"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Fletching, gain favor with Floxie in the Fae Realm.",
+				"Level": 70,
 				"Npcs": [
 					"NPC_Floxie"
 				]
@@ -8716,6 +8921,13 @@
 				"Npcs": [
 					"NPC_JesinatheFairy"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Foraging, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Foraging",
@@ -8941,6 +9153,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Floxie"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Gardening, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -9324,6 +9543,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Giant Bat, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -9746,6 +9972,13 @@
 				"Npcs": [
 					"NPC_Solgribue"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Hammer, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -10152,6 +10385,13 @@
 				"Npcs": [
 					"NPC_BendiththeBanished"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Ice Magic, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "FireMagic",
@@ -10357,6 +10597,15 @@
 				]
 			},
 			{
+				"Abilities": [
+					"Ice_ColdProtection1"
+				],
+				"Level": 3,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
 				"BonusToSkill": "Anatomy_Plants",
 				"Level": 23
 			},
@@ -10533,15 +10782,6 @@
 					"IceArmor4"
 				],
 				"Level": 39,
-				"Races": [
-					"Fae"
-				]
-			},
-			{
-				"Abilities": [
-					"Ice_ColdProtection1"
-				],
-				"Level": 3,
 				"Races": [
 					"Fae"
 				]
@@ -11087,6 +11327,96 @@
 					"Orc",
 					"Dwarf"
 				]
+			},
+			{
+				"Abilities": [
+					"IceArmor9"
+				],
+				"Level": 86,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"TundraSpikes8"
+				],
+				"Level": 87,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"Blizzard8"
+				],
+				"Level": 88,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"Frostbite7"
+				],
+				"Level": 89,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"FreezeSolid8"
+				],
+				"Level": 90,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"Ice_ColdProtection10"
+				],
+				"Level": 91,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"Chill7"
+				],
+				"Level": 92,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"IceSpear10"
+				],
+				"Level": 93,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"IceVeins7"
+				],
+				"Level": 94,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"IceLightning9"
+				],
+				"Level": 95,
+				"Races": [
+					"Fae"
+				]
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -11125,6 +11455,13 @@
 				"Level": 60,
 				"Npcs": [
 					"NPC_Sheyna"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Industry, speak with Tryaka in Povus (note: Povus town's level must be 8+ for Tryaka to arrive)",
+				"Level": 70,
+				"Npcs": [
+					"NPC_Tryaka"
 				]
 			}
 		],
@@ -11228,6 +11565,20 @@
 					"NPC_Kohan",
 					"NPC_Ufkar"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Jewelry Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Jewelry Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -11302,6 +11653,13 @@
 				"Npcs": [
 					"NPC_Solgribue"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Jewelry Crafting, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -11365,6 +11723,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Pegast"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Knife, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -11786,6 +12151,13 @@
 				"Npcs": [
 					"NPC_Felmer"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Leatherworking, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -12171,6 +12543,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Raina"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Mentalism, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -12633,6 +13012,13 @@
 				"Npcs": [
 					"NPC_Backfat"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Mycology, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "PowerPassive",
@@ -12876,6 +13262,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_BendiththeBanished"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Necromancy, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -13280,6 +13673,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_WintriaIrasce"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Non-Fiction Writing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -15085,6 +15485,13 @@
 				"Npcs": [
 					"NPC_Backfat"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Pig, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "PlayerPig",
@@ -15441,6 +15848,13 @@
 				"Npcs": [
 					"NPC_Raina"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Priest, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -15785,6 +16199,13 @@
 				"Npcs": [
 					"NPC_Raina"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Psychology, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -16082,6 +16503,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Rabbit, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -16686,6 +17114,13 @@
 				"Npcs": [
 					"NPC_Felmer"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Saddlery, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -17052,6 +17487,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Pegast"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Shield, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -17442,6 +17884,13 @@
 				"Npcs": [
 					"NPC_Felmer"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Skinning, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -17550,6 +17999,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Spider, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -17806,6 +18262,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Spirit Fox, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -18074,6 +18537,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Pegast"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Staff, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -18419,6 +18889,13 @@
 				"Npcs": [
 					"NPC_Backfat"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Survival Instincts, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "BonusInventoryFolderAt50",
@@ -18587,6 +19064,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Pegast"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Sword, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -18833,6 +19317,13 @@
 				"Npcs": [
 					"NPC_Felmer"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Tailoring, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "BonusInventoryFolderAt50",
@@ -18922,6 +19413,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Felmer"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Tanning, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -19051,6 +19549,13 @@
 				"Npcs": [
 					"NPC_GeorgeMadler"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Textile Creation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 60,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -19136,6 +19641,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Felmer"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Toolcrafting, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -19225,6 +19737,20 @@
 				"Npcs": [
 					"NPC_Sona"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Transmutation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Transmutation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -19309,6 +19835,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Pegast"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Unarmed, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -19585,6 +20118,13 @@
 				"Npcs": [
 					"NPC_Backfat"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Warden, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AdvancementTable": "Balanced",
@@ -19675,6 +20215,20 @@
 					"NPC_Kohan",
 					"NPC_Ufkar"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Weapon Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Weapon Augmentation, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -19755,6 +20309,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Felmer"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Weather Witching, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],
@@ -19848,6 +20409,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_NoitatheGreen"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Lycanthropy, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
 				]
 			}
 		],

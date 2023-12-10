@@ -426,7 +426,7 @@ No change.
 
 ## lorebookinfo.json
 
-+ Fields are sorted by alphabetical order. Ex: `SortTitle` comes before `Title`.
+No change.
 
 ## lorebooks.json
 

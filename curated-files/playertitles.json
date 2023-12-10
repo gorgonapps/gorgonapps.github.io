@@ -2686,6 +2686,70 @@
 		"Title": "Druid of Zoar",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
+	"15491": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Disguised Dolphin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15492": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Loot Monger",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15493": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Turducken",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15494": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Bright Lord",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15495": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gravity Sage",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15496": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lone Wolf",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15497": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Slaughterer Extraordinaire",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15498": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fox Rox",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
 	"3001": {
 		"Color": "FFFFFF",
 		"Title": "Pre-Alpha 0 Survivor",
@@ -3260,12 +3324,35 @@
 	"5049": {
 		"Color": "00CC00",
 		"Title": "Ready To Be Sacrificed To Enoyos",
-		"Tooltip": "Bonus Title #X3 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Bonus Title #X4 of X5 from the Boss Gauntlet '22 event."
 	},
 	"5050": {
 		"Color": "00CC00",
 		"Title": "Lovable and Squeezable",
-		"Tooltip": "Bonus Title #X3 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Bonus Title #X5 of X5 from the Boss Gauntlet '22 event."
+	},
+	"5051": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2023",
+		"Tooltip": "Earned during the Zhia Lian event in 2023."
+	},
+	"5052": {
+		"Color": "00CC00",
+		"Title": "Bunny Love 2024",
+		"Tooltip": "Earned during the Errana Bunny event in 2024."
+	},
+	"5053": {
+		"Color": "00CC00",
+		"Title": "What Am I Doing With My Life?",
+		"Tooltip": "Earned in a pocket dimension."
+	},
+	"5054": {
+		"Color": "00CC00",
+		"Title": "Wall Hopper",
+		"Tooltip": "Earned in a pocket dimension."
 	},
 	"51": {
 		"Color": "FFFFFF",

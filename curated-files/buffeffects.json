@@ -977,6 +977,28 @@
       }
     ]
   },
+  "15895": {
+    "Description": "Your Poison attacks deal +84 direct damage and +7 indirect damage per tick.",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DamageBoost",
+        "Data": {
+          "Value": 84,
+          "IsPercent": false
+        },
+        "DamageTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "Keyword": "DealIndirectDamage",
+        "Data": {
+          "Value": 7,
+          "IsPercent": false
+        }
+      }
+    ]
+  },
   "15896": {
     "Description": "Your Poison attacks deal +12 direct damage and +1 indirect damage per tick.",
     "StaticCombatEffects": [
@@ -1423,6 +1445,17 @@
       }
     ]
   },
+  "20053": {
+    "Description": "Your Indirect Fire damage is boosted",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DealIndirectDamage",
+        "DamageTypes": [
+          "Fire"
+        ]
+      }
+    ]
+  },
   "3552": {
     "Description": "Speaking this word of power makes boosts Archery Base Damage +50% damage for 5 minutes.",
     "StaticCombatEffects": [
@@ -1488,6 +1521,17 @@
           "Value": 23,
           "IsPercent": false
         }
+      }
+    ]
+  },
+  "5551": {
+    "Description": "Raises Indirect Cold Damage Reduction by 6",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DealIndirectDamage",
+        "DamageTypes": [
+          "Cold"
+        ]
       }
     ]
   },
@@ -1672,6 +1716,17 @@
       }
     ]
   },
+  "6204": {
+    "Description": "Raises Indirect Poison Damage (Per Tick) by 3",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DealIndirectDamage",
+        "DamageTypes": [
+          "Poison"
+        ]
+      }
+    ]
+  },
   "6206": {
     "Description": "Raises Sword Base Damage by 6%",
     "StaticCombatEffects": [
@@ -1695,6 +1750,17 @@
           "IsPercent": true
         },
         "CombatSkill": "Sword"
+      }
+    ]
+  },
+  "6213": {
+    "Description": "Raises Indirect Trauma Damage (Per Tick) by 4",
+    "StaticCombatEffects": [
+      {
+        "Keyword": "DealIndirectDamage",
+        "DamageTypes": [
+          "Trauma"
+        ]
       }
     ]
   }

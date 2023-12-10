@@ -4382,7 +4382,7 @@
 		"Version": 1
 	},
 	"12503": {
-		"Description": "An animal friend has shared the secret password to the Sacred Grotto hidden in the Kur Mountains. The entrance is in the center of Kur, near a river. You were instructed to look for a huge stone arch attached to a large hill; there is a door embedded in the hillside a small distance away from the arch. As another reference point, the entrance is northwest of \"Fox Outpost\".\n\nOnce there, you need to provide the secret pass phrase, \"Horse-Rabbit-Maelstrom\".",
+		"Description": "An animal friend has shared the secret password to the Sacred Grotto hidden in the Kur Mountains. The entrance is near a ravine in central Kur. You were instructed to look for a hill to the northwest of the ravine; there is a door embedded in the hillside. As another reference point, the entrance is northeast of \"Fox Outpost\".\n\nOnce there, you need to provide the secret pass phrase, \"Horse-Rabbit-Maelstrom\".",
 		"DisplayedLocation": "KurMountains",
 		"InternalName": "WardensIntroQuest1",
 		"IsCancellable": true,
@@ -5923,7 +5923,7 @@
 	},
 	"13601": {
 		"Description": "Malvol has asked you to obtain Basic Metal Slabs. These can be acquired with the Mining skill.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Malvol",
 		"InternalName": "SlabsForMalvol",
 		"IsCancellable": true,
@@ -5966,7 +5966,7 @@
 	},
 	"13602": {
 		"Description": "Malvol has asked you to obtain Expert Volatile Ink.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Malvol",
 		"InternalName": "MalvolsCalligraphyNeeds",
 		"IsCancellable": true,
@@ -6009,7 +6009,7 @@
 	},
 	"13701": {
 		"Description": "Gorvessa hinted strongly that she would like some danablu cheese.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Gorvessa",
 		"InternalName": "GorvessasCheesyDemand",
 		"IsCancellable": true,
@@ -6051,7 +6051,7 @@
 	},
 	"13702": {
 		"Description": "Gorvessa is trying to create panther-themed lingerie and needs a Trophy Panther Skin. Or at least she thinks she does.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Gorvessa",
 		"InternalName": "TheSexyPanther",
 		"IsCancellable": true,
@@ -6093,7 +6093,7 @@
 	},
 	"13751": {
 		"Description": "Ultashk demanded animal fat before he will open the gate into the further reaches of Hogan's 'basement'.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Ultashk",
 		"InternalName": "BribeUltashk",
 		"IsCancellable": true,
@@ -9742,7 +9742,7 @@
 	},
 	"16001": {
 		"Description": "Sir Arif has asked for some venison.",
-		"DisplayedLocation": "Tomb1",
+		"DisplayedLocation": "SerbuleCrypt",
 		"FavorNpc": "AreaTomb1/NPC_SirArif",
 		"InternalName": "DeerInTheCrypt",
 		"IsCancellable": true,
@@ -9784,7 +9784,7 @@
 	},
 	"16002": {
 		"Description": "Sir Arif has asked you to kill the dinosaurs that roam the crypt.",
-		"DisplayedLocation": "Tomb1",
+		"DisplayedLocation": "SerbuleCrypt",
 		"FavorNpc": "AreaTomb1/NPC_SirArif",
 		"InternalName": "DamnedDinosaurs",
 		"IsCancellable": true,
@@ -9826,7 +9826,7 @@
 	},
 	"16003": {
 		"Description": "Sir Arif wants you to kill Ursula and bring her creepy stuffed bear as proof.",
-		"DisplayedLocation": "Tomb1",
+		"DisplayedLocation": "SerbuleCrypt",
 		"FavorNpc": "AreaTomb1/NPC_SirArif",
 		"InternalName": "UrsulasCreepyBear",
 		"IsCancellable": true,
@@ -9868,7 +9868,7 @@
 	},
 	"16101": {
 		"Description": "A monstrosity named Yalox asked you for a really good bandage.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "GoblinDungeon",
 		"FavorNpc": "AreaCave1/NPC_Yalox",
 		"InternalName": "BandageTheSoul",
 		"IsCancellable": true,
@@ -9905,7 +9905,7 @@
 	},
 	"16102": {
 		"Description": "A monstrosity named Yalox asked you to just kill some goblins as some sort of pointless revenge.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "GoblinDungeon",
 		"FavorNpc": "AreaCave1/NPC_Yalox",
 		"InternalName": "GoblinGenocide",
 		"IsCancellable": true,
@@ -9942,7 +9942,7 @@
 	},
 	"16201": {
 		"Description": "A rakshasa named Zealo asked you to collect mana sponges that she placed in jars all through the area.",
-		"DisplayedLocation": "Tomb1",
+		"DisplayedLocation": "CarpalTunnels",
 		"FavorNpc": "AreaTomb1/NPC_Zealo",
 		"InternalName": "ManaSponges",
 		"IsCancellable": true,
@@ -9983,7 +9983,7 @@
 	},
 	"16202": {
 		"Description": "A rakshasa named Zealo asked you to collect toxic sludge for her potions.",
-		"DisplayedLocation": "Tomb1",
+		"DisplayedLocation": "CarpalTunnels",
 		"FavorNpc": "AreaTomb1/NPC_Zealo",
 		"InternalName": "Sludge!",
 		"IsCancellable": true,
@@ -10228,7 +10228,7 @@
 	},
 	"16401": {
 		"Description": "Bogaku in the Rahu Sewers said, \"The ratkin are farming fish in here... freshwater fish! That's not unusual further inland, but this close to the sea, it seems odd, doesn't it? Maybe these fish are atypical somehow. Oh, you don't understand biology anyway... look, just get me a bunch of these fish, okay?\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "SewerChicken",
 		"IsCancellable": true,
@@ -10270,7 +10270,7 @@
 	},
 	"16402": {
 		"Description": "Bogaku in the Rahu Sewers said, \"Ratkin often farm snails for meat and shells, but the ones down here are huge! They must be mutants! Go stab some to death and see if they explode into glowing goo.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "RatkinSnails",
 		"IsCancellable": true,
@@ -10312,7 +10312,7 @@
 	},
 	"16403": {
 		"Description": "Bogaku in the Rahu Sewers said, \"The ratkin seem to be growing an orchard of sentient trees down here! That is FASCINATING! Right? But how old are these trees? Go and chop down some of these trees and see how many rings they have.\n\nWait, trees can be over a hundred years old. Can you count all the way to 100, monster? Well, try your best! Hurry, now.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "Bogaku_Treants",
 		"IsCancellable": true,
@@ -10354,7 +10354,7 @@
 	},
 	"16404": {
 		"Description": "Bogaku in the Rahu Sewers said, \"Ratkin love to gamble, of course, but each region's ratkin have different methods. The ones around here seem to enjoy dice games. I need samples of their dice!\n\nI suppose any ratkin could be carrying some dice, but off-duty ratkin are most likely to have 'em.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "Bogaku_GetDice",
 		"IsCancellable": true,
@@ -10396,7 +10396,7 @@
 	},
 	"16405": {
 		"Description": "Bogaku in the Rahu Sewers said, \"I wonder where these ratkin are getting their appetizers. Can you get some for me so I can check them?\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "RatkinAppetizers",
 		"IsCancellable": true,
@@ -10438,7 +10438,7 @@
 	},
 	"16406": {
 		"Description": "Bogaku in the Rahu Sewers said, \"The ratkin around here rely heavily on necromancy to help them mine faster. And I noticed the necromancers often have giant white rats with them. They don't look like good tunneling rats... I wonder what they're for?\n\nNo, stop talking. I don't care about a monster's opinions... make yourself useful and go murder some rats. See if they're living or undead. Remember, undead ones don't bleed much!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "NecroRats!",
 		"IsCancellable": true,
@@ -10480,7 +10480,7 @@
 	},
 	"16407": {
 		"Description": "Bogaku in the Rahu Sewers said, \"Rattus root is a favorite snack of these barbaric vermin. I'm sure to a mutant like you it just looks like a root, right? But to a gobthropologist, it's like an open book! A book of secrets! So go get me my secret books! I mean rattus roots!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "RattusRootTheBookOfKnowledge",
 		"IsCancellable": true,
@@ -10522,7 +10522,7 @@
 	},
 	"16408": {
 		"Description": "Bogaku in the Rahu Sewers said, \"These ratkin are unusually good at necromancy. I wonder exactly how powerful they are? Hmm...\n\nOh, hi there mutant, I have a small test for you. Go and get yourself shot by some ratkin necromancers. Try not to die, though! I need to ask you some questions after, and I can't speak with the dead! Because I'm not a necromancer!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "NecromancyTargetPractice",
 		"IsCancellable": true,
@@ -10565,7 +10565,7 @@
 	},
 	"16409": {
 		"Description": "Bogaku in the Rahu Sewers said, \"Even if these ratkin aren't growing crops here, they're surely making their own cheese! I need a sample of their aged cheese... perhaps it will tell us secrets. Now, when I say that, I don't mean cheese can talk. So don't be afraid. Just get the cheese.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "CheeseTesting",
 		"IsCancellable": true,
@@ -10607,7 +10607,7 @@
 	},
 	"16410": {
 		"Description": "Bogaku in the Rahu Sewers said, \"I had a thought: how relaxed are these ratkin? Sneak into their home areas and kick them! Now, I only need to know about the off-duty ones: do they fight, or flee, or something else? Of course, you can kick whoever you want! But for this test, it has to be the off-duty ones.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "PuntSomeLoungers",
 		"IsCancellable": true,
@@ -10650,7 +10650,7 @@
 	},
 	"16411": {
 		"Description": "Bogaku in the Rahu Sewers said, \"I just don't understand how the necromancers convince their skeletons to mine! I'm not a necromancer myself, but I thought it was difficult to get them to do anything besides attack. Maybe there's a secret in the bones. Kill some and see if there's anything special about them.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "Bogaku_KillSkeletonMiners",
 		"IsCancellable": true,
@@ -10692,7 +10692,7 @@
 	},
 	"16412": {
 		"Description": "Bogaku in the Rahu Sewers said, \"You said the skeleton miners were just like regular skeletons, right? But what about the NON-skeleton miners? Hmm? You didn't take notes on those, did you? Well go back and see if the living miners are weird in any way. Remember to search their guts for clues!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Bogaku",
 		"InternalName": "MoreMinerTests",
 		"IsCancellable": true,
@@ -10828,7 +10828,7 @@
 	},
 	"16501": {
 		"Description": "Glortok in the Rahu Sewers said, \"Strike their means of production! Kill the ratkin fishermen! They will surely starve!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok1",
 		"IsCancellable": true,
@@ -10869,7 +10869,7 @@
 	},
 	"16502": {
 		"Description": "Glortok in the Rahu Sewers said, \"The enemy lounges and relaxes as if they were not at war! Fix it! By murdering every lazy ratkin you see!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok2",
 		"IsCancellable": true,
@@ -10914,7 +10914,7 @@
 	},
 	"16503": {
 		"Description": "Glortok in the Rahu Sewers said, \"Go to the caves and destroy the living ratkin miners. With only undead miners left, their necromancers will be overwhelmed, and we can strike!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok3",
 		"IsCancellable": true,
@@ -10959,7 +10959,7 @@
 	},
 	"16504": {
 		"Description": "Glortok in the Rahu Sewers said, \"The weak point in the enemy's production is the Ratkin Necro-Shamans who control undead miners. With those shamans dead, the undead will revolt! Maybe.\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok4",
 		"IsCancellable": true,
@@ -11004,7 +11004,7 @@
 	},
 	"16505": {
 		"Description": "Glortok in the Rahu Sewers said, \"Nevermind subtlety. We want them to stop mining, so just destroy their undead miners!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok5",
 		"IsCancellable": true,
@@ -11049,7 +11049,7 @@
 	},
 	"16506": {
 		"Description": "Glortok in the Rahu Sewers said, \"Those creepy red-eyed rats must be a source of their power. Destroy them! No mercy!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok6",
 		"IsCancellable": true,
@@ -11094,7 +11094,7 @@
 	},
 	"16507": {
 		"Description": "Glortok in the Rahu Sewers said, \"The ratkin seem all too comfortable... probably because of those soldiers who wander around protecting them. Kill the soldiers, and surely their morale will falter!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok7",
 		"IsCancellable": true,
@@ -11139,7 +11139,7 @@
 	},
 	"16508": {
 		"Description": "Glortok in the Rahu Sewers said, \"There are way too many snakes in this place. I bet they have some nefarious purpose. Let's outsmart the ratkin by killing these snakes before their secret scheme comes to fruition!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok8",
 		"IsCancellable": true,
@@ -11184,7 +11184,7 @@
 	},
 	"16509": {
 		"Description": "Glortok in the Rahu Sewers said, \"These ratkin are gorging themselves on snail meat! Unacceptable! Desnailitize them immediately!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok9",
 		"IsCancellable": true,
@@ -11229,7 +11229,7 @@
 	},
 	"16510": {
 		"Description": "Glortok in the Rahu Sewers said, \"I don't understand why those trees are down here. And I hate that! The ratkin stay away from there, as if they know some secret. I hate that, too! Kill the trees!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok10",
 		"IsCancellable": true,
@@ -11274,7 +11274,7 @@
 	},
 	"16511": {
 		"Description": "Glortok in the Rahu Sewers said, \"The skeletal ratkin mages with electricity powers... those are very annoying! Kill them!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok11",
 		"IsCancellable": true,
@@ -11319,7 +11319,7 @@
 	},
 	"16512": {
 		"Description": "Glortok in the Rahu Sewers said, \"We've lost the element of surprise! Time to reclaim that surprise by killing their necromancers when they're resting. Fools! Hahahaha!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok12",
 		"IsCancellable": true,
@@ -11364,7 +11364,7 @@
 	},
 	"16513": {
 		"Description": "Glortok in the Rahu Sewers said, \"I thought goblinkind eradicated the wily cave hippo years ago, but they've been hiding here! No doubt the ratkin are breeding them in a scheme to flood our waterways. Destroy the wily water-beasts before they fill our waterways and rob good, kind-hearted goblins of crucial custom!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok13",
 		"IsCancellable": true,
@@ -11409,7 +11409,7 @@
 	},
 	"16514": {
 		"Description": "Glortok in the Rahu Sewers said, \"The ratkin just keep... surviving! How is it possible?! Perhaps we need to broaden our approach. The sewer rat may seem harmless... but it's wily and dangerous and probably somehow the secret crux of our problem!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok14",
 		"IsCancellable": true,
@@ -11454,7 +11454,7 @@
 	},
 	"16515": {
 		"Description": "Glortok in the Rahu Sewers said, \"Blast it all, how can you have killed hundreds of the enemy, and yet the path home is still full of the creeps?!\n\nI bet that they're at their breaking point. Just go and kill another hundred of 'em. Doesn't matter what kind: living or dead, just kill ratkin!\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok15",
 		"IsCancellable": true,
@@ -11499,7 +11499,7 @@
 	},
 	"16516": {
 		"Description": "Glortok in the Rahu Sewers said, \"I give up. I'm out of ideas.\n\nWell we can't have you just staying around here, can we? You should go kill a thousand more ratkin. Just keep killing until you die. Or until a thousand ratkin are dead! It's a win-win! For me, I mean.\n\nWhat? Of course I'll make it worthwhile, buddy: if you kill a thousand ratkin I'll give you 10 pieces of xedrite. Totally worth your time, right?\"",
-		"DisplayedLocation": "RahuSewers",
+		"DisplayedLocation": "RahuSewer",
 		"FavorNpc": "AreaRahuCaves/NPC_Glortok",
 		"InternalName": "Glortok16",
 		"IsCancellable": true,
@@ -11550,6 +11550,9 @@
 		"Description": "Use Blanche's awl to chip the giant crystal near a lake somewhere around Serbule. You aren't sure what will happen when you do this. You've been told to be careful.",
 		"DisplayedLocation": "Serbule",
 		"InternalName": "ChipGiantRedCrystal",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Get Crystal Samples",
 		"Objectives": [
 			{
@@ -12662,7 +12665,7 @@
 	},
 	"17310": {
 		"Description": "You've awakened in a strange place and you don't remember anything. You need to get your feet under you, get your wings flapping, and figure out what happened and where you are.",
-		"DisplayedLocation": "ANewLife",
+		"DisplayedLocation": "FaeRealm",
 		"InternalName": "FaeNewbieArc",
 		"Name": "A New Life",
 		"Objectives": [
@@ -13975,6 +13978,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 30,
 		"Version": 1
 	},
 	"17852": {
@@ -14019,6 +14023,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17853": {
@@ -14063,6 +14068,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17854": {
@@ -14137,6 +14143,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17855": {
@@ -14181,6 +14188,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17856": {
@@ -14255,6 +14263,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17857": {
@@ -14299,6 +14308,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17858": {
@@ -14343,6 +14353,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17859": {
@@ -14393,6 +14404,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17860": {
@@ -14437,6 +14449,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17861": {
@@ -14481,6 +14494,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17862": {
@@ -14525,6 +14539,7 @@
 			}
 		],
 		"SuccessText": "BzzZz! [Which you think means, 'Thanks!']",
+		"TSysLevel": 75,
 		"Version": 1
 	},
 	"17865": {
@@ -14795,7 +14810,7 @@
 	},
 	"18101": {
 		"Description": "Mox Warcut in New Prestonbule said, \"The 'cinnamon' that grows in Council Lands isn't the same plant that we have growing overtop Mt. Aufghel. I need to collect some of the stuff for a report back home. Can you help me collect it? It grows on trees in the snow out there.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_MoxWarcut",
 		"InternalName": "FakeCinnamon",
 		"IsCancellable": true,
@@ -14837,7 +14852,7 @@
 	},
 	"18104": {
 		"Description": "Mox Warcut in New Prestonbule said, \"I need a sample of the Vol's Kiss that can be found in Gazluk. Can you get it for me? It's a yellow crystal that's warm to the touch. You can find it all over the mountainside.\n\nBut listen VERY carefully: carrying it will make you sick. So get the ore and then <i>run</i> back here to me as quick as you can. Don't dally! I only need three pieces, so don't get any more than that.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_MoxWarcut",
 		"InternalName": "DeadlyYellowCrystals",
 		"IsCancellable": true,
@@ -14884,7 +14899,7 @@
 	},
 	"18105": {
 		"Description": "Mox Warcut in New Prestonbule said, \"While I was exploring Foothills Cave, I uncovered mummies. I think orcs buried an army of mummies in there after a war and forgot about them. Well, you know how we dwarves feel about mummies! So I killed a few, but there were so many other nasty undead in that cave that I had to retreat. Can you go back in there and get rid of a bunch?\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_MoxWarcut",
 		"InternalName": "CaveMummies",
 		"IsCancellable": true,
@@ -14926,7 +14941,7 @@
 	},
 	"18106": {
 		"Description": "Mox Warcut in New Prestonbule said, \"You know, I bet there's a master mummy in Foothills Cave. When a mummy remains alive for long enough, there's a chance it can regain its free will and rise up from its inherent bitterness. When that happens, it become VERY dangerous. They're usually yellowed or blackened with age. If you see one, RUN! You'd need a team of trained warriors to kill it!\n\nOf course, if you happen to have a few friends and wanted to kill the damned thing, I'd be happy to reward such heroism.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_MoxWarcut",
 		"InternalName": "MummyMastermind",
 		"IsCancellable": true,
@@ -14968,7 +14983,7 @@
 	},
 	"18201": {
 		"Description": "Bellema Deftwhisper in New Prestonbule said, \"There's a beast that lives in the caves here that I really hope I get a chance to hunt! They're sort of like dogs, but ... not dogs. Barghests! If you find any, can you try to get some patches of their flesh for me to study?\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_BellemaDeftwhisper",
 		"InternalName": "BarghestHunt",
 		"IsCancellable": true,
@@ -15010,7 +15025,7 @@
 	},
 	"18202": {
 		"Description": "Bellema Deftwhisper in New Prestonbule said, \"I'm Mox's backup when we go out on expeditions. The stuff in the caves isn't too bad, but the stuff in the snow can be pretty scary! I'm not confident my crossbow can handle those huge bears before they have time to maul one of us. Can you kill some and let me know how hard they are to kill? Just a few will do. Like... five. No! Eight. That's a more scientific number.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_BellemaDeftwhisper",
 		"InternalName": "GrislyPolarBearDeaths",
 		"IsCancellable": true,
@@ -15052,7 +15067,7 @@
 	},
 	"18203": {
 		"Description": "Bellema Deftwhisper in New Prestonbule said, \"When we were checking altitude measurements the other day, we found some very unusual creatures on top of the mountains. They're like slimes, but ice cold! A few fiery crossbow bolts can take 'em out. There's something inside, though... a sort of gunk. I'm thinking it might help make a nice kind of crossbow bolt. If you run across any ice slimes out there, check 'em for sludge!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_BellemaDeftwhisper",
 		"InternalName": "IceSludge",
 		"IsCancellable": true,
@@ -15094,7 +15109,7 @@
 	},
 	"18301": {
 		"Description": "Rick Snapley in New Prestonbule said, \"We have a lot of beer stored away here from the previous tenants. And I know how to summon Council Rations, which are just barely enough to keep us all alive. But I would kill for something else to eat! This is a cave, so you'd think you could catch cave fish in here, right? But no. No deep water, no cave fish. Can you get us some?\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_RickSnapley",
 		"InternalName": "CaveFishing",
 		"IsCancellable": true,
@@ -15136,7 +15151,7 @@
 	},
 	"18302": {
 		"Description": "Rick Snapley in New Prestonbule said, \"The settlers who lived in the houses outside were adherents of Arisetsu, the goddess of Hope and Warmth. You know what that means, right? Blankets! Arisetsu nuts always bring tons of their blankets to give to the needy. Well, they're dead, and we're needy. They brought a lot of their stuff into this cave when they fled, but when the survivors died, they were buried in... you guessed it: Arisetsu blankets. So now we're very low. I'm betting that there's more in those houses, though. Sneak past the ghosts and get us some!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_RickSnapley",
 		"InternalName": "BlanketsFromGhosts",
 		"IsCancellable": true,
@@ -15178,7 +15193,7 @@
 	},
 	"18303": {
 		"Description": "Rick Snapley in New Prestonbule said, \"Sona's recovering well after her incident. Mox helped a lot. But she's still walking with a slight limp. Mox says he can make something for that, but he needs ghost puke. So if you find some, save it.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_RickSnapley",
 		"InternalName": "GhostPuke",
 		"IsCancellable": true,
@@ -15220,7 +15235,7 @@
 	},
 	"18304": {
 		"Description": "Rick Snapley in New Prestonbule said, \"Mox is mixing that potion you helped get the stuff for. But Sona caught a whiff of it and says she won't drink it! Stupid girl would rather have a limp all her days than spend a few nights in digestive agony! Well, if she's going to be a child about it, we'll have to treat her like one. And how do you make a child take their medicine? Honey! Lots of it.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_RickSnapley",
 		"InternalName": "PukeSweetener",
 		"IsCancellable": true,
@@ -15266,7 +15281,7 @@
 	},
 	"18305": {
 		"Description": "Rick Snapley in New Prestonbule said, \"First off: you're on my shit list for keeping me in the dark about all this. I can't believe you would go off and kill that sand rat Tal-Saka without me!\n\nBut all signs do point to Rahu itself being involved. If that were true, there should be proof of it somewhere. The Onkara keep their records up on a hill in Rahu. Unfortunately, going there would be suicide. Even for me. Even for you! So for now, I guess that's where this mystery will stand.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_RickSnapley",
 		"InternalName": "ProofOfRahusInvolvement",
 		"IsCancellable": true,
@@ -15421,7 +15436,7 @@
 	},
 	"18501": {
 		"Description": "Hemmit Magmagrip in New Prestonbule said, \"I need you to go spelunking! There are caves all through the mountains, and some of them have mushrooms growing inside.\n\nThere's a kind of mushroom found only in this mountain range. Orcs call it 'Groxmax'. You'll know them by the stench of rotten meat. I'll pay well for them! Oh, and if you find other kinds of mushrooms, hold on to them too; I may need them.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_HemmitMagmagrip",
 		"InternalName": "GroxmaxMushroomsForHemmit",
 		"IsCancellable": true,
@@ -15463,7 +15478,7 @@
 	},
 	"18502": {
 		"Description": "Hemmit Magmagrip in New Prestonbule said, \"I need another kind of mushroom. These are common everywhere: black foot morels. Delicious in stews! I need to make sure the kind that grow here are alchemically identical to the kinds grown elsewhere.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_HemmitMagmagrip",
 		"InternalName": "BlackFootMorelsForHemmit",
 		"IsCancellable": true,
@@ -15509,7 +15524,7 @@
 	},
 	"18503": {
 		"Description": "Hemmit Magmagrip in New Prestonbule said, \"Mox and Bellema don't believe me, but I swear I saw another one of those mushroom men in a cave near here! It was in 'Snowblood Shadow Cave'. I can't understand his way of communicating, but I'm sure he knows the secret of these mushroom rings. If you figure out the secret, tell me!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_HemmitMagmagrip",
 		"InternalName": "TheMushroomMansSecret",
 		"IsCancellable": true,
@@ -15551,7 +15566,7 @@
 	},
 	"18601": {
 		"Description": "Sona in New Prestonbule said, \"I've been trying to convince Mox that Transmutation can revolutionize mining. But he won't listen. So I need your help. It will be dangerous... but worthwhile! I need a piece of the evil yellow crystals that can be found outside, plus some high-quality phlogiston. I believe I can make the crystal safe for transit!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Sona",
 		"InternalName": "SaferCrystalTransport",
 		"IsCancellable": true,
@@ -15600,7 +15615,7 @@
 	},
 	"18602": {
 		"Description": "Sona in New Prestonbule said, \"I would like your help on a delicate subject. I need to know if the goblin Urzab had anything to do with what happened to me in the desert. He lives in Amulna.\n\nThere is a catch, however: he only speaks goblinese. Rick has confronted him, but Rick's goblinese is poor and he is not sure he understood everything. Do you happen to be fluent? If so, could you speak to Urzab about the attempt on my life?\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Sona",
 		"InternalName": "ConfrontingUrzab",
 		"IsCancellable": true,
@@ -15647,7 +15662,7 @@
 	},
 	"18603": {
 		"Description": "Sona in New Prestonbule said, \"I have thought about what Urzab told you: that my assistants may be involved in the attempt on my life. Rick already tracked down one of them, and she knew nothing. He couldn't find the other one...\n\nBut I know where Tal-Saka would have gone. I did not tell Rick because I won't let him get hurt for me! But if <i>you</i> wanted to go and confront Tal-Saka... I would be grateful.\n\nTal-Saka often spoke of his vagabond friends that live in a ruined desert outpost. To find the outpost, start at Amulna, then head due east. It is a long journey, so bring water. And be careful! It will be dangerous.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Sona",
 		"InternalName": "ConfrontingTalSaka",
 		"IsCancellable": true,
@@ -15698,7 +15713,7 @@
 	},
 	"18701": {
 		"Description": "Gasu'um in New Prestonbule said, \"There is a necklace I wish to have returned to me. It was my mother's, and she gave it to me. To ME! Because I was her favorite! My worthless brother stole it from me... and then... I had to leave it behind.\n\nLeave this cave and venture right. You will see the camp of the feckless Aguva clan... go past them. Continue right until you find the camp on a hill.  That camp is what remains of the Uga'th clan. The necklace is in there somewhere.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Gasuum",
 		"InternalName": "SentimentalJewelry",
 		"IsCancellable": true,
@@ -15740,7 +15755,7 @@
 	},
 	"18702": {
 		"Description": "Gasu'um in New Prestonbule said, \"To repair my necklace, I need pyrite. Obtain for me the finest pyrite! I will reward you.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Gasuum",
 		"InternalName": "TheChainOfGasuumsNecklace",
 		"IsCancellable": true,
@@ -15792,7 +15807,7 @@
 	},
 	"18703": {
 		"Description": "Gasu'um in New Prestonbule said, \"The central decoration of the necklace you broke is a rare and beautiful crystal known as vervadium. It will be difficult to find. But should you find a piece, bring it to me. I will pay you ten times its value!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Gasuum",
 		"InternalName": "TheGemInGasuumsNecklace",
 		"IsCancellable": true,
@@ -15833,7 +15848,7 @@
 	},
 	"18704": {
 		"Description": "Gasu'um in New Prestonbule said, \"I have decided to replace the crystal in my mother's necklace with obsidian. Go find a piece for me! Obsidian is not as beautiful as vervadium, but I suspect you will at least be able to find a piece that does not disgust me.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Gasuum",
 		"InternalName": "TheGemInGasuumsNecklace(round2)",
 		"IsCancellable": true,
@@ -15885,7 +15900,7 @@
 	},
 	"18801": {
 		"Description": "Torgan in New Prestonbule said, \"Snapley told me the pitiful tale of the settlement outside. Here is a detail he did not know: the strike was ordered by General Naurlok himself, and was executed by his elite legion. And here is where things become interesting. For you see, ghosts often retain something of what they had when they died. And if they died with spear heads from Naurlok's Avengers still stuck in them... that metal is precious! I cannot even make it myself.\n\nYou should destroy some of those ghosts and see if you can find orcish metal. I will pay in Councils.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Torgan",
 		"InternalName": "SteelFromGhosts",
 		"IsCancellable": true,
@@ -15932,7 +15947,7 @@
 	},
 	"18802": {
 		"Description": "Torgan in New Prestonbule said, \"The metal that humans use is weak and deficient. I use it to make horseshoes and tools, but never for armor. Armor requires the astounding metal found in the mines of Gazluk! In fact, it can often be found exposed at the tops of mountains here. I will pay a bounty for a pile of it, for I must repair Vughal's helmet, and I will not use feeble metal!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Torgan",
 		"InternalName": "TrueOrcishOre",
 		"IsCancellable": true,
@@ -15974,7 +15989,7 @@
 	},
 	"18803": {
 		"Description": "Torgan in New Prestonbule said, \"My new hammer must have a handle of impeccable quality. Spruce is, of course, the ideal wood for gripping, but its strength is substandard... except for very occasional pieces of spruce. I need those perfect specimens of spruce wood!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "NewPrestonbule",
 		"FavorNpc": "AreaGazlukCaves/NPC_Torgan",
 		"InternalName": "OnlyTheBestHandles",
 		"IsCancellable": true,
@@ -16016,7 +16031,7 @@
 	},
 	"18901": {
 		"Description": "Sem the Myconian (in a cave in New Prestonbule) said, \"It is atypical for members of my species to desire the destruction of meatlings. However, the snails in this cavern are of egregious proportions and they enjoy consuming many of the same food sources that I do. They also enjoy consuming me directly. For this reason, I request their dissolution.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "SnowbloodShadowGazlukShadowCaves",
 		"FavorNpc": "AreaGazlukCaves/NPC_Sem",
 		"InternalName": "DissolutionOfCaveSnails",
 		"IsCancellable": true,
@@ -16058,7 +16073,7 @@
 	},
 	"18902": {
 		"Description": "Sem the Myconian (in a cave in New Prestonbule) said, \"Although my species is generally able to cohabit with slimes and fungi of all types, there exist herein a species that reduces the ambient temperature. This is clearly unacceptable behavior. Please extinguish these slimes before they make the environment uninhabitable!\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "SnowbloodShadowGazlukShadowCaves",
 		"FavorNpc": "AreaGazlukCaves/NPC_Sem",
 		"InternalName": "InconsiderateSlimeOrganisms",
 		"IsCancellable": true,
@@ -16104,7 +16119,7 @@
 	},
 	"18903": {
 		"Description": "Sem the Myconian (in a cave in New Prestonbule) said, \"One single meat creature that inhabits this cavern is so poisonous and foul that I am unable to filter out its toxins, and must flee if it approaches. This creature was bred for some ill purpose. I know this from spying upon the minds of green-skinned bipeds that came to feed it. They called the creature 'Murklinger'. It would please me to no longer need to fear this creature.\"",
-		"DisplayedLocation": "GazlukCaves",
+		"DisplayedLocation": "SnowbloodShadowGazlukShadowCaves",
 		"FavorNpc": "AreaGazlukCaves/NPC_Sem",
 		"InternalName": "TheWorstSlug",
 		"IsCancellable": true,
@@ -19695,7 +19710,7 @@
 	},
 	"21101": {
 		"Description": "Malgath in the werewolf den asked you to obtain some wolfsbane for him.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/NPC_Malgath",
 		"InternalName": "AntiLycanthropyPotion",
 		"IsCancellable": true,
@@ -19738,7 +19753,7 @@
 	},
 	"21102": {
 		"Description": "Malgath in the werewolf den asked you to obtain orange juice.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/NPC_Malgath",
 		"InternalName": "OrangeJuiceForMalgath",
 		"IsCancellable": true,
@@ -19780,7 +19795,7 @@
 	},
 	"21103": {
 		"Description": "Malgath in the werewolf den needs \"worm teeth\" from Tor-Uraks. It would take a skilled butcher to get the tooth out in one piece, though!",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/NPC_Malgath",
 		"InternalName": "WormTeeth",
 		"IsCancellable": true,
@@ -19822,7 +19837,7 @@
 	},
 	"21201": {
 		"Description": "Gribburn in Hogan's Keep asked you for a goblin hairpin.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Gribburn",
 		"InternalName": "GribburnsHairPin",
 		"IsCancellable": true,
@@ -19864,7 +19879,7 @@
 	},
 	"21202": {
 		"Description": "Gribburn in Hogan's Keep asked you for some eel kabobs.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Gribburn",
 		"InternalName": "GribburnWantsEelKabobs",
 		"IsCancellable": true,
@@ -19906,7 +19921,7 @@
 	},
 	"21203": {
 		"Description": "Gribburn in Hogan's Keep asked you for a bunch of long rubbery tongues from Ranalan Warriors. A tribe of them live in far-off Sun Vale, among other places.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "HogansBasement",
 		"FavorNpc": "AreaCave1/NPC_Gribburn",
 		"InternalName": "TonguesForShoes",
 		"IsCancellable": true,
@@ -21178,7 +21193,7 @@
 	},
 	"22401": {
 		"Description": "Glajur, a goblin you met under a tower in Kur Mountains, asked for humanoid skulls in order to continue his phrenological research.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "KurTower",
 		"FavorNpc": "AreaCave2/NPC_Glajur",
 		"InternalName": "LookingAtSkulls",
 		"IsCancellable": true,
@@ -21220,7 +21235,7 @@
 	},
 	"22402": {
 		"Description": "Glajur, a goblin you met under a tower in Kur Mountains, asked you to bring him some of the odd goblets lying about the dungeon.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "KurTower",
 		"FavorNpc": "AreaCave2/NPC_Glajur",
 		"InternalName": "NecromancyGoblets",
 		"IsCancellable": true,
@@ -21262,7 +21277,7 @@
 	},
 	"22403": {
 		"Description": "Glajur, a goblin you met under a tower in Kur Mountains, asked you to bring him some impressive humanoid skulls.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "KurTower",
 		"FavorNpc": "AreaCave2/NPC_Glajur",
 		"InternalName": "BetterSkullsNeeded",
 		"IsCancellable": true,
@@ -24882,7 +24897,7 @@
 	},
 	"24001": {
 		"Description": "Corey the Croaker in the Winter Nexus asked you for fairy wings.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "WinterNexus",
 		"FavorNpc": "AreaCave2/NPC_CoreyTheCroaker",
 		"InternalName": "CoreyWantsWings",
 		"IsCancellable": true,
@@ -24924,7 +24939,7 @@
 	},
 	"24002": {
 		"Description": "Corey the Croaker in the Winter Nexus asked you for ogre stomachs.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "WinterNexus",
 		"FavorNpc": "AreaCave2/NPC_CoreyTheCroaker",
 		"InternalName": "CoreyWantsOgreStomachs",
 		"IsCancellable": true,
@@ -24967,7 +24982,7 @@
 	},
 	"24101": {
 		"Description": "Fazzi in the Winter Nexus asked you to kill an Ogre named Gorgos.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "WinterNexus",
 		"FavorNpc": "AreaCave2/NPC_Fazzi",
 		"InternalName": "MurderingGorgos",
 		"IsCancellable": true,
@@ -25009,7 +25024,7 @@
 	},
 	"24102": {
 		"Description": "Fazzi in the Winter Nexus asked you for some garnets.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "WinterNexus",
 		"FavorNpc": "AreaCave2/NPC_Fazzi",
 		"InternalName": "Garnets",
 		"IsCancellable": true,
@@ -28866,7 +28881,7 @@
 	},
 	"25001": {
 		"Description": "Kill the Scion of Norala, a huge wolf deep within the wolf cave in Kur Mountains.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_KillTheScionOfNorala",
 		"IsCancellable": true,
@@ -28920,7 +28935,7 @@
 	},
 	"25002": {
 		"Description": "Prove that even mighty orcs are no match for Norala's chosen. Killing fifty of them should demonstrate this well.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "NoralaOrcishGenocide1",
 		"IsCancellable": true,
@@ -28974,7 +28989,7 @@
 	},
 	"25003": {
 		"Description": "Show that you are a top predator. Mercilessly hunt down deer.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "NoralaHuntDeer1",
 		"IsCancellable": true,
@@ -29028,7 +29043,7 @@
 	},
 	"25004": {
 		"Description": "Humans, Elves, and Rakshasa deem themselves \"civilized\", and they shun Norala. Teach them the folly of their ways.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_CivilizedRaces",
 		"IsCancellable": true,
@@ -29082,7 +29097,7 @@
 	},
 	"25005": {
 		"Description": "The fae believe they are superior to mortals. Norala rewards those who punish the unjustly arrogant.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_FaeDestruction",
 		"IsCancellable": true,
@@ -29136,7 +29151,7 @@
 	},
 	"25006": {
 		"Description": "In a dungeon beneath Eltibule there is a mighty avatar shackled into servitude. This is unacceptable. Slay Ciervos The Shadow to relieve his humiliation. ",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_CiervosMustDie",
 		"IsCancellable": true,
@@ -29190,7 +29205,7 @@
 	},
 	"25007": {
 		"Description": "Goblins are weak and deserve destruction. Make it happen.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_GoblinKilling",
 		"IsCancellable": true,
@@ -29244,7 +29259,7 @@
 	},
 	"25008": {
 		"Description": "Kill the Scion of Discord, a warrior deep within a hidden cave in the Eltibule region.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_KillTheScionOfGulagra",
 		"IsCancellable": true,
@@ -29298,7 +29313,7 @@
 	},
 	"25009": {
 		"Description": "The freakish half-dragon creatures are weak. They hide behind the might of their dragon ancestors. They should be rooted out.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_DragonKin",
 		"IsCancellable": true,
@@ -29352,7 +29367,7 @@
 	},
 	"25010": {
 		"Description": "It is poison to our kind, but we can overcome it and grow even mightier. Collect wolfsbane and bring it here as an offering.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_Wolfsbane",
 		"IsCancellable": true,
@@ -29406,7 +29421,7 @@
 	},
 	"25011": {
 		"Description": "Orcs are still too prevalent! This angers Norala! Murder them!",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_OrcishGenocide2",
 		"IsCancellable": true,
@@ -29464,7 +29479,7 @@
 	},
 	"25012": {
 		"Description": "Show that your hunger is insatiable. Hunt more deer.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "Cave2",
 		"FavorNpc": "AreaCave2/WerewolfAltar",
 		"InternalName": "Wolf_HuntDeer2",
 		"IsCancellable": true,
@@ -30742,7 +30757,7 @@
 		"Version": 1
 	},
 	"25401": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Head into the legling training area and find the area where gardeners practice their craft -- it's one of the first areas you'll come across in there. Kill everyone there.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Head into the legling training area and find the area where gardeners practice their craft -- it's one of the first areas you'll come across in there. Kill everyone there.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillLeglingGardeners",
@@ -30795,7 +30810,7 @@
 		"Version": 1
 	},
 	"25402": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Head into the legling training area. Go past the gardening practice area. When the path forks, go left to find the clubbers. They're born knowing how to fight, but they need to build up their muscle mass and train their coordination. So now is the time to strike, while they're weak!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Head into the legling training area. Go past the gardening practice area. When the path forks, go left to find the clubbers. They're born knowing how to fight, but they need to build up their muscle mass and train their coordination. So now is the time to strike, while they're weak!\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillLeglingWarriors",
@@ -30848,7 +30863,7 @@
 		"Version": 1
 	},
 	"25403": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"You need to focus on the adults that oversee the leglings! Strike them down to weaken the den. Head into the legling training area. Go past the gardening practice area. When the path forks, go left to find the clubbers. A few adults are there. Strike them down!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"You need to focus on the adults that oversee the leglings! Strike them down to weaken the den. Head into the legling training area. Go past the gardening practice area. When the path forks, go left to find the clubbers. A few adults are there. Strike them down!\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillMartialSupervisors",
@@ -30901,7 +30916,7 @@
 		"Version": 1
 	},
 	"25404": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Have you seen the emergency moisturizing shells? They're super ugly, right? That's all Gulllia's fault, she thinks they look... anyway, it doesn't matter! When a ranalon gets super dried out, they use the healing water in those shells to stay moist. And you are going to poison that water. Here's the poison. Go!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Have you seen the emergency moisturizing shells? They're super ugly, right? That's all Gulllia's fault, she thinks they look... anyway, it doesn't matter! When a ranalon gets super dried out, they use the healing water in those shells to stay moist. And you are going to poison that water. Here's the poison. Go!\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "Chirrra_PoisonTheShells",
@@ -30963,7 +30978,7 @@
 		"Version": 1
 	},
 	"25405": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Deep in the legling training area is the mage training section. Right now they're mostly doing stone-shaping, so look for the poorly-worked stones. You definitely want to take these mages out before they fully master their abilities!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Deep in the legling training area is the mage training section. Right now they're mostly doing stone-shaping, so look for the poorly-worked stones. You definitely want to take these mages out before they fully master their abilities!\"",
 		"DisplayedLocation": "RanalonDen",
 		"InternalName": "RanalonDen_KillLeglingStoneShapers",
 		"IsCancellable": true,
@@ -31010,7 +31025,7 @@
 		"Version": 1
 	},
 	"25406": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Some of the most talented stone-shapers in the whole den are back working with the leglings today. Strike now! The mage supervisors are deep in the legling wing. Go past the legling gardeners, then keep right at the fork.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Some of the most talented stone-shapers in the whole den are back working with the leglings today. Strike now! The mage supervisors are deep in the legling wing. Go past the legling gardeners, then keep right at the fork.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillMageSupervisors",
@@ -31067,7 +31082,7 @@
 		"Version": 1
 	},
 	"25407": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Why don't you assassinate the ranalon that are off duty? They'll be in the lounge and resting areas. And they definitely won't be expecting you!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Why don't you assassinate the ranalon that are off duty? They'll be in the lounge and resting areas. And they definitely won't be expecting you!\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillRelaxedRanalon",
@@ -31120,7 +31135,7 @@
 		"Version": 1
 	},
 	"25408": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Take out the scray resting in pools around the den. Those scray are precious to our front-line assault against the goblins! You can find them in any pool in the den... oh, except the pools in the legling area, I suppose.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Take out the scray resting in pools around the den. Those scray are precious to our front-line assault against the goblins! You can find them in any pool in the den... oh, except the pools in the legling area, I suppose.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillScray",
@@ -31177,7 +31192,7 @@
 		"Version": 1
 	},
 	"25409": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"There's food plants everywhere in here -- look for some watercress, and bring it to me. I need a lot of it; I have an idea.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"There's food plants everywhere in here -- look for some watercress, and bring it to me. I need a lot of it; I have an idea.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_CollectWatercress",
@@ -31195,7 +31210,7 @@
 				"Type": "Harvest"
 			},
 			{
-				"Description": "Deliver Fresh Watercress",
+				"Description": "Deliver 4 Fresh Watercress",
 				"ItemName": "Watercress",
 				"Number": 1,
 				"NumberToDeliver": 4,
@@ -31239,7 +31254,7 @@
 		"Version": 1
 	},
 	"25410": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Hmm, fetch me some of the boletus mushrooms. Oh, and can you chop them for me? I'm more of a mage than a laborer, you understand... then bring me the boletus flakes.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Hmm, fetch me some of the boletus mushrooms. Oh, and can you chop them for me? I'm more of a mage than a laborer, you understand... then bring me the boletus flakes.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_CollectBoletusMushrooms",
@@ -31257,7 +31272,7 @@
 				"Type": "Harvest"
 			},
 			{
-				"Description": "Deliver Flaked Mushrooms",
+				"Description": "Deliver 5 Flaked Mushrooms",
 				"ItemName": "BoletusMushroomFlakes",
 				"Number": 1,
 				"NumberToDeliver": 5,
@@ -31305,7 +31320,7 @@
 		"Version": 1
 	},
 	"25411": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Steal lungfish from the pools throughout the den. I have a scheme in mind for them!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Steal lungfish from the pools throughout the den. I have a scheme in mind for them!\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_CollectLungfish",
@@ -31323,7 +31338,7 @@
 				"Type": "Harvest"
 			},
 			{
-				"Description": "Deliver Lungfish",
+				"Description": "Deliver 5 Lungfish",
 				"ItemName": "Lungfish",
 				"Number": 1,
 				"NumberToDeliver": 5,
@@ -31371,7 +31386,7 @@
 		"Version": 1
 	},
 	"25412": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"The least-competent farmers are sent topside to farm the lakes up there, but farmers who can cast a few spells are kept down here in safety. They're a crucial part of the den's food supply. Which means they're precious... which means you should kill them! Go!\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"The least-competent farmers are sent topside to farm the lakes up there, but farmers who can cast a few spells are kept down here in safety. They're a crucial part of the den's food supply. Which means they're precious... which means you should kill them! Go!\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillFarmCasters",
@@ -31428,7 +31443,7 @@
 		"Version": 1
 	},
 	"25413": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Deep in the farming area are a bunch of Guardians. You know, the thuggish-looking ones? Glowball on their head? Yeah. The ones in this den are pretty dumb, but they're mean in a fight. If you kill them, it'll demoralize everyone. And that's good.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Deep in the farming area are a bunch of Guardians. You know, the thuggish-looking ones? Glowball on their head? Yeah. The ones in this den are pretty dumb, but they're mean in a fight. If you kill them, it'll demoralize everyone. And that's good.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_KillGuardians",
@@ -31485,7 +31500,7 @@
 		"Version": 1
 	},
 	"25414": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Another mission already? Um... just go kill some ranalons! Whichever. Bring me some of their tacky jewelry to prove you've done your job.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Another mission already? Um... just go kill some ranalons! Whichever. Bring me some of their tacky jewelry to prove you've done your job.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_TrophyBracelets",
@@ -31542,7 +31557,7 @@
 		"Version": 1
 	},
 	"25415": {
-		"Description": "Chirrra in  the Serbule Hills Ranalon Den said, \"Look around for some bottles of Errrgorabog. The moistening cream? Almost everyone down here uses it, so I'm sure you can find some easily enough. I need a bunch of it.\"",
+		"Description": "Chirrra in the Serbule Hills Ranalon Den said, \"Look around for some bottles of Errrgorabog. The moistening cream? Almost everyone down here uses it, so I'm sure you can find some easily enough. I need a bunch of it.\"",
 		"DisplayedLocation": "RanalonDen",
 		"FavorNpc": "AreaSerbuleCaves/NPC_Chirrra",
 		"InternalName": "RanalonDen_MoisteningCream",
@@ -33228,7 +33243,7 @@
 	},
 	"26001": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"Well if you're going to assault the ship and create mayhem, you should start with the trolls! Most of these trolls were supposed to go down to the surface already, but they're lazy oafs who just hang around down here.\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide1",
 		"IsCancellable": true,
@@ -33273,7 +33288,7 @@
 	},
 	"26002": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"Let me think. How would you assault a ship? I guess you could just attack the crew! Try attacking the ensigns! Heehee!\n\nOh, uh, be aware they have death rays. Just a heads up.\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide2",
 		"IsCancellable": true,
@@ -33322,7 +33337,7 @@
 	},
 	"26003": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"The best way to assault a ship is to kill the captain! Go kill Captain Evergloam!\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide3",
 		"IsCancellable": true,
@@ -33371,7 +33386,7 @@
 	},
 	"26004": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"While you're invading, would you mind exterminating those pesky birds on the main deck? Lieutenant Frostglimmer insists they're trained alarm birds that will prevent intruders from sneaking around. But they make so much noise that most of us just ignore them...\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide4",
 		"IsCancellable": true,
@@ -33420,7 +33435,7 @@
 	},
 	"26005": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"The loudest things aboard are definitely the hippogriffs. At first it was neat hearing them shriek all night, but it's gotten a little repetitive. I think any official invasion party would really need to kill those! Thanks!\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide5",
 		"IsCancellable": true,
@@ -33465,7 +33480,7 @@
 	},
 	"26006": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"Hippogriffs aren't immortal. Did you know that? Yeah, they hatch out of eggs! We have a hatchery on board, too. You should go kill the brood mother!\n\nYou'll know you're in the right place when the temperature drops. They keep Coldfeather's quarters very cold!\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide6",
 		"IsCancellable": true,
@@ -33518,7 +33533,7 @@
 	},
 	"26007": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"Hey, while you're assaulting the ship and all, why not kill some of the pests on the engine deck? We've got a nasty infestation of droaches down there. Apparently they get along great with the phoenixes, so everybody's afraid to get rid of 'em. But not you!\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide7",
 		"IsCancellable": true,
@@ -33571,7 +33586,7 @@
 	},
 	"26008": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"Any invasion force would be dumb not to take out the phoenixes on the engine deck. We don't use them in day-to-day operations, but if we have to cold-start an engine, we use their superheated breath.\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide8",
 		"IsCancellable": true,
@@ -33621,7 +33636,7 @@
 	},
 	"26009": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"The lowest deck is mostly empty and just used for storage. We've stored a bunch of mortal specimens down there for later analysis.\n\nThe mortal realm near here is full of really beautiful things. Beautiful flowers! Talking trees! 'Elves'! Real dragons! But what's in the hold? ... cow-men.\n\nThey're going to try to breed them into an army, so you should totally go stop them.\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide9",
 		"IsCancellable": true,
@@ -33666,7 +33681,7 @@
 	},
 	"26010": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"There's a bunch of bears on the storage deck because of... reasons. You should clear those out, if you're going that way!\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide10",
 		"IsCancellable": true,
@@ -33716,7 +33731,7 @@
 	},
 	"26011": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"Okay, I'll cut the act: I know why you're really here. You're after the wizard! Well, he isn't here. Not physically, anyway. But his creations are! Go up to the science deck and you'll see what I mean. By all means, feel free to dispose of our new 'army'!\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide11",
 		"IsCancellable": true,
@@ -33766,7 +33781,7 @@
 	},
 	"26012": {
 		"Description": "Ensign Cricket aboard the Wintertide said, \"The science deck has been given over to the mad wizard that made those... monstrosities. And he's not even here! He just astrally projects himself here from the mortal realm.\n\nSustained astral projection requires an impressive amount of magical fortitude, I'll admit. But its so gauche!\n\nYou should just pull his plug.\"",
-		"DisplayedLocation": "WNSWintertide",
+		"DisplayedLocation": "TheWintertide",
 		"FavorNpc": "AreaFaeRealm1Caves/NPC_EnsignCricket",
 		"InternalName": "Wintertide12",
 		"IsCancellable": true,
@@ -38254,11 +38269,872 @@
 		"TSysLevel": 65,
 		"Version": 0
 	},
+	"27901": {
+		"Description": "In a cave deep beneath Povus, you came across a weird magical globe that seemed to be missing some parts.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiWizardGlobe",
+		"IsAutoPreface": true,
+		"IsCancellable": true,
+		"Name": "Broken Globe Thing",
+		"Objectives": [
+			{
+				"Description": "Obtain Orrery Orienter",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_OrreryOrienter",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Obtain Lunar Aligner",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_LunarAligner",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Repair the Globe",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "This magical globe seems to be missing something. It responds to your touch, but doesn't seem to do anything useful. Perhaps if you had the missing parts.",
+		"Rewards": [
+			{
+				"Skill": "Lore",
+				"T": "SkillXp",
+				"Xp": 25
+			}
+		],
+		"SuccessText": "You are relieved to see that the globe pieces magically snap into place, revealing a console inside!",
+		"Version": 0
+	},
+	"27902": {
+		"Description": "In a cave deep beneath Povus, you came across a wizard's stargazing apparatus. The view was too muddled to make out, though, due to damaged lenses.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiStargazer",
+		"IsAutoPreface": true,
+		"IsCancellable": true,
+		"Name": "Stargazer Alignment",
+		"Objectives": [
+			{
+				"Description": "Obtain Stargazer Lens",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_StargazerLens",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Repair the Stargazer",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Looking through the viewer, you think you see a figure waving and trying to get your attention. Unfortunately, it's too fuzzy to make out -- the lenses on the stargazer have been scratched badly.",
+		"Rewards": [
+			{
+				"Skill": "Lore",
+				"T": "SkillXp",
+				"Xp": 25
+			}
+		],
+		"SuccessText": "You swap out the stargazer's lenses like an old pro. Now you should be able to get a better view.",
+		"Version": 0
+	},
+	"27903": {
+		"Description": "In a cave deep beneath Povus, you found a ship in a bottle. The bottle was locked, suggesting that there was some reason one might unlock it.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiShipInBottle",
+		"IsAutoPreface": true,
+		"IsCancellable": true,
+		"Name": "Locked Bottled Ship",
+		"Objectives": [
+			{
+				"Description": "Obtain Key",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_CorkKey",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Uncork the Bottle",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "The bottle is surprisingly heavy -- you can't even lift it! You notice a keyhole in the cork, which makes no sense at all, but it is there nonetheless. You are unable to pry the cork out -- apparently you need a key.",
+		"Rewards": [
+			{
+				"Skill": "Lore",
+				"T": "SkillXp",
+				"Xp": 25
+			}
+		],
+		"SuccessText": "You unlock the cork, and pop it out...",
+		"Version": 0
+	},
+	"27904": {
+		"Description": "In a cave deep beneath Povus, you found a giant lute-like instrument with missing enchanted strings. Looks like it'd need some pretty big ones.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiGiantLute",
+		"IsAutoPreface": true,
+		"IsCancellable": true,
+		"Name": "Stringless Lute",
+		"Objectives": [
+			{
+				"Description": "Obtain Enchanted Strings",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_EnchantedLuteStrings",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Uncork the Bottle",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "You can feel a surge of energy when you touch the instrument -- a clear sign of magical intent. The instrument makes a pitiful note and then is silent. It seems to be missing most of its strings! Enchanted strings of that length won't come cheap; perhaps there are some around here.",
+		"Rewards": [
+			{
+				"Skill": "Lore",
+				"T": "SkillXp",
+				"Xp": 25
+			},
+			{
+				"Item": "CouncilCoinpurse13",
+				"StackSize": 5,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You expertly restring the giant lute. As you finish up, you spot a huge pile of Councils hidden in the bottom of the instrument. That's going to affect the sound quality negatively, so you clean it out.",
+		"Version": 0
+	},
+	"27905": {
+		"Description": "In a cave deep beneath Povus, you found a sculpture that reminded you of a play area for dwarven children. It was missing a large piece, though.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiSkullMountain",
+		"IsAutoPreface": true,
+		"IsCancellable": true,
+		"Name": "Broken Playset",
+		"Objectives": [
+			{
+				"Description": "Obtain Missing Skull Decoration",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_PropSkull",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Reattach the Skull",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "This reminds you of a playset that dwarven youth use when playing their \"tactical war games\". A large piece has been torn off.",
+		"Rewards": [
+			{
+				"Skill": "Lore",
+				"T": "SkillXp",
+				"Xp": 25
+			},
+			{
+				"InteractionFlag": "PoiSkullMountain",
+				"T": "InteractionFlag"
+			},
+			{
+				"Item": "MacGuffin_PropSkullKey",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "As you reattach the skull to the playset, a key falls out of the skull!",
+		"Version": 0
+	},
+	"27906": {
+		"Description": "In a cave deep beneath Povus, you found a weird stuffed rabbit toy which talked to you. When you moved some dice, it seemed happy and gave you a temporary buff. It mentioned some siblings... perhaps making all the siblings happy would be a kind thing to do.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiDiceBunnies",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Dice Bunnies",
+		"Objectives": [
+			{
+				"Description": "Make Sevens Happy",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "PoiDiceBunny1",
+				"Type": "InteractionFlag"
+			},
+			{
+				"Description": "Make Tueduzen Happy",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "PoiDiceBunny2",
+				"Type": "InteractionFlag"
+			},
+			{
+				"Description": "Make Tintin Happy",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "PoiDiceBunny3",
+				"Type": "InteractionFlag"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Lore",
+				"T": "SkillXp",
+				"Xp": 25
+			},
+			{
+				"NamedLootProfile": "Gems_Stack_10",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "MacGuffin_PovusCaves2Lockbox1Key",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "After helping all three toy rabbits, you find yourself holding a bag of gems and a key. \"We stole these to pay our gambling debts. We're sorry!\" says a voice in your head. Then it's gone.",
+		"Version": 0
+	},
+	"27907": {
+		"Description": "In a cave beneath Povus, you met a ghostly orc that ranted about accidentally killing his friends with an explosive device. He swears the device was supposed to be fake!",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiGhostOrc",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"MidwayText": "I swear upon Tast's mighty throbbing cock that the bombs were fake! This can't have been my fault!",
+		"Name": "Fake Bombs",
+		"Objectives": [
+			{
+				"Description": "Obtain Prank Bombs",
+				"GroupId": 1,
+				"ItemName": "PrankBombs",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Give Bombs to the Ghost",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I was guarding the switch when it happened. I wasn't even there!\n\nI know what she said. I know! But those weren't REAL! It was a prank! I took it from a goblin. It only looked like... what? No, just to scare Frek and Jule! They were my... no, that's not true!\n\nThey had to be fake...",
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"Effect": "SpawnPremonition_Incorporeal_10sec",
+				"T": "Effect"
+			}
+		],
+		"RewardsDescription": "Incorporeal Spawn Premonition",
+		"SuccessText": "See? See! They ARE prank bombs! I didn't kill them! It was those bastard Snowbloods!\n\nWait. There are my friends! Can you see them? You can see them too, right?",
+		"Version": 0
+	},
+	"27908": {
+		"Description": "In a cave beneath Povus, you came upon a chest that had been kicked in, leaving it unopenable. But you believe that with a large spoon, you could pry the chest open.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiJammedChest",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"MidwayText": "This chest isn't locked, but it's jammed shut. If you had a spoon of some sort, you could pop it open.",
+		"Name": "Jammed Chest",
+		"Objectives": [
+			{
+				"Description": "Obtain Spoon",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "Spoon",
+				"Type": "Collect"
+			},
+			{
+				"Description": "Pry Open the Chest",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Someone has tried to open this chest by kicking it in. It's now unopenable. But it seems like you could pop it open if you had just the right leverage. A large-ish spoon should do the trick.",
+		"ReuseTime": {
+			"Hours": 3
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 125035
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You pop the chest open to reveal the contents.",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27909": {
+		"Description": "In a cave beneath Povus, you came upon a terrifying horde of aktaari seemingly bent on overtaking the continent! You only have a few minutes to find and destroy the Royal Eggs. Cheb has promised to give you a reward every time you kill three aktaari and squish three eggs.",
+		"DisplayedLocation": "Dungeons",
+		"FavorNpc": "AreaPovusCaves2/NPC_Cheb",
+		"FollowUpQuests": [
+			"AktaariRepeatingQuest"
+		],
+		"InternalName": "AktaariRepeatingQuest",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"AktaariRepeatingQuest"
+		],
+		"Name": "Stop the Aktaari! (Repeating)",
+		"Objectives": [
+			{
+				"Description": "Kill Aktaari",
+				"GroupId": 1,
+				"Number": 3,
+				"Target": "Aktaari",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Squish Royal Eggs",
+				"GroupId": 1,
+				"Number": 3,
+				"Type": "Scripted"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Attribute": "QUEST_VERSION_POVUSCAVES2_AKTAARI",
+				"ScriptAtomicInt": "Quest_Version_PovusCaves2_Aktaari",
+				"T": "AttributeMatchesScriptAtomic"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 125035
+			},
+			{
+				"Favor": 25,
+				"T": "Favor"
+			},
+			{
+				"NamedLootProfile": "L90RareRecipes",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Effect": "IncAktaariQuestCounter",
+				"T": "Effect"
+			}
+		],
+		"SuccessText": "You received a reward for your hard work in fighting back the aktaari threat.",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27910": {
+		"Description": "In a cave beneath Povus, you found a strange device that seemed like it could be activated if some grickling eyeballs were inserted into it. What do you have to lose?",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiAcidProtectionA",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"MidwayText": "It's still out of power. If you plopped some disgusting grickling eyes in, it should activate.",
+		"Name": "Insert Grickling Eyes",
+		"Objectives": [
+			{
+				"Description": "Obtain Grickling Eyes",
+				"GroupId": 1,
+				"ItemName": "GricklingEye",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Insert Into Device",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "When you touch this cold device, you see a flurry of confusing visual images. After thinking for a moment, you believe it is out of fuel. It showed many types of fuel that could be used, but the only fuel you recognized was the last one: the glowing eyes of gricklings. Apparently you could just stick them into this hollow here...",
+		"ReuseTime": {
+			"Days": 3
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 340472
+			},
+			{
+				"InteractionFlag": "PoiAcidProtectionA",
+				"T": "InteractionFlag"
+			}
+		],
+		"RewardsDescription": "Activation of Device",
+		"SuccessText": "You plop the eyeballs in, and it hums to life! It should stay powered up for a few days. Now it seems like you just stick your hand in...",
+		"Version": 0
+	},
+	"27911": {
+		"Description": "In a cave beneath Povus, you found a strange device that seemed like it could be activated if some osslar spikes were inserted into it. What do you have to lose?",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiAcidProtectionB",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"MidwayText": "It's still out of power. If you plopped some glowing osslar spikes in, it should activate.",
+		"Name": "Insert Osslar Spikes",
+		"Objectives": [
+			{
+				"Description": "Obtain Osslar Spikes",
+				"GroupId": 1,
+				"ItemName": "OsslarSpike",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Insert Into Device",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "When you touch this cold device, you see a flurry of confusing visual images. After thinking for a moment, you believe it is out of fuel. It showed many types of fuel that could be used, but most of them aren't recognizable. One of the last images seems less weird than the others, though: a glowy spike, taken from a creature. Apparently you could just stick several of them into this hollow spot...",
+		"ReuseTime": {
+			"Days": 3
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 340472
+			},
+			{
+				"InteractionFlag": "PoiAcidProtectionB",
+				"T": "InteractionFlag"
+			}
+		],
+		"RewardsDescription": "Activation of Device",
+		"SuccessText": "You plop the spikes in, and it hums to life! It should stay powered up for a few days. Now it seems like you just stick your hand in...",
+		"Version": 0
+	},
+	"27912": {
+		"Description": "In a cave beneath Povus, you found a strange device that seemed like it could be activated if some rubies were inserted into it. What do you have to lose? Besides some rubies?",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiAcidProtectionC",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"MidwayText": "It's still out of power. If you dropped in some rubies, it should activate.",
+		"Name": "Insert Rubies",
+		"Objectives": [
+			{
+				"Description": "Obtain Rubies",
+				"GroupId": 1,
+				"ItemName": "Ruby",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Insert Into Device",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "When you touch this cold device, you see a flurry of confusing visual images. After thinking for a moment, you believe it is out of fuel. It showed many types of fuel that could be used, but most of them aren't recognizable. One of the last images is clearer: it's a pile of rubies. Apparently you can insert rubies into this thing. But there aren't likely to be rubies in this cave...",
+		"ReuseTime": {
+			"Days": 3
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 340472
+			},
+			{
+				"InteractionFlag": "PoiAcidProtectionC",
+				"T": "InteractionFlag"
+			}
+		],
+		"RewardsDescription": "Activation of Device",
+		"SuccessText": "You drop the rubies in, and it hums to life! It should stay powered up for a few days. Now it seems like you just stick your hand in...",
+		"Version": 0
+	},
+	"27914": {
+		"Description": "In a cave beneath Povus, you met a Forthragarian who told you not to go too far into the caves beyond him. But if you do go in, he asked you to look for a Spike of Autonomy.",
+		"DisplayedLocation": "NightmareCaves",
+		"InternalName": "PoiYnigix",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Spike of Autonomy",
+		"Objectives": [
+			{
+				"Description": "Obtain Spike of Autonomy",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_SpikeOfAutonomy",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Give to Ynigix",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "This is it! The Spike of Autonomy! This is a toy I invented in my youth. It was lost long ago. How could it be here? This is surely a recreation, but it so perfectly matches my memory.\n\nThank you.",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27915": {
+		"Description": "In a cave beneath Povus, you came upon a strange door that could only be opened if you find all the \"lost penguins.\" Presumably they are near the door?",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiLostPenguins",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Lost Penguins",
+		"Objectives": [
+			{
+				"Description": "Find the Lost Penguins",
+				"GroupId": 1,
+				"InteractionFlags": [
+					"PovusCavesLostPenguin1",
+					"PovusCavesLostPenguin2",
+					"PovusCavesLostPenguin3",
+					"PovusCavesLostPenguin4",
+					"PovusCavesLostPenguin5",
+					"PovusCavesLostPenguin6",
+					"PovusCavesLostPenguin7",
+					"PovusCavesLostPenguin8",
+					"PovusCavesLostPenguin9",
+					"PovusCavesLostPenguin10"
+				],
+				"Number": 10,
+				"Type": "MultipleInteractionFlags"
+			},
+			{
+				"Description": "Return to the Door",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "The door doesn't budge. A cloying voice says, \"Where are my penguins?! I won't go anywhere without ALL of my penguins!\"",
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			},
+			{
+				"InteractionFlag": "PovusCavesPenguinDoor",
+				"T": "InteractionFlag"
+			}
+		],
+		"SuccessText": "The door exudes a satisfied air. \"My penguins! You saved them!\"",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27916": {
+		"CheckRequirementsToSustainOnBestow": false,
+		"Description": "In a pseudo-pocket dimension beneath Povus, you met a fairy named Rixie who asked you to collect some rings.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "RixiesChallenge1",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Rixie's Ring Challenge",
+		"Objectives": [
+			{
+				"Description": "Obtain Rings Before Time Elapses",
+				"GroupId": 1,
+				"Number": 6,
+				"Type": "Scripted"
+			}
+		],
+		"PreGiveEffects": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer1",
+				"T": "SetInteractionFlag"
+			}
+		],
+		"PrefaceText": "Well, there is one thing I could use your help with. James keeps bragging about his dumb ring game, and how nobody could catch 6 of them in under a minute. Which is obviously untrue because I myself have done it! But he says that's because I created this dimension so I have special powers here. Why don't you collect six in under a minute? Ready, set, go!",
+		"QuestFailEffects": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer1",
+				"Type": "ClearInteractionFlag"
+			},
+			{
+				"Type": "RingFailureMessage"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer1",
+				"T": "InteractionFlagSet"
+			}
+		],
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You hear Rixie shout, \"See, James? I told you it was easy! Now let's try a REAL challenge! Come on back and we'll try afresh.\"",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27917": {
+		"CheckRequirementsToSustainOnBestow": false,
+		"Description": "In a pseudo-pocket dimension beneath Povus, you met a fairy named Rixie who asked you to collect some rings.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "RixiesChallenge2",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Rixie's Ring Challenge 2",
+		"Objectives": [
+			{
+				"Description": "Obtain Rings Before Time Elapses",
+				"GroupId": 1,
+				"Number": 12,
+				"Type": "Scripted"
+			}
+		],
+		"PreGiveEffects": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer2",
+				"T": "SetInteractionFlag"
+			}
+		],
+		"PrefaceText": "You did great showing James how easy his course is. But now I'm curious if we can make the course harder just by increasing the numbers. Can you catch 12 rings in under 60 seconds? That'd be a little bit impressive.",
+		"QuestFailEffects": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer2",
+				"Type": "ClearInteractionFlag"
+			},
+			{
+				"Type": "RingFailureMessage"
+			}
+		],
+		"Requirements": [
+			{
+				"Quest": "RixiesChallenge1",
+				"T": "QuestCompleted"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer2",
+				"T": "InteractionFlagSet"
+			}
+		],
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You hear Rixie shout, \"Woo! Nice going! Now let's take it to the extreme!\"",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27918": {
+		"CheckRequirementsToSustainOnBestow": false,
+		"Description": "In a pseudo-pocket dimension beneath Povus, you met a fairy named Rixie who asked you to collect some rings.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "RixiesChallenge3",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Rixie's Ring Challenge 3",
+		"Objectives": [
+			{
+				"Description": "Obtain Rings Before Time Elapses",
+				"GroupId": 1,
+				"Number": 20,
+				"Type": "Scripted"
+			}
+		],
+		"PreGiveEffects": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer3",
+				"T": "SetInteractionFlag"
+			}
+		],
+		"PrefaceText": "Okay for real this time. Can you collect 20 rings in 60 seconds? Go go go go go go!",
+		"QuestFailEffects": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer3",
+				"Type": "ClearInteractionFlag"
+			},
+			{
+				"Type": "RingFailureMessage"
+			}
+		],
+		"Requirements": [
+			{
+				"Quest": "RixiesChallenge2",
+				"T": "QuestCompleted"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"InteractionFlag": "RixiesChallengeTimer3",
+				"T": "InteractionFlagSet"
+			}
+		],
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You hear Rixie shout, \"Incredible! Did you see, James? DID YOU SEE THAT?!\"",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27919": {
+		"Description": "In a pseudo-pocket dimension beneath Povus, you encountered a larger-than-normal butterfly which begged you to knock over some jars of nectar elsewhere.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiRancidNectarJars",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Rancid Nectar Jars",
+		"Objectives": [
+			{
+				"Description": "Dump the Nectar Pots",
+				"GroupId": 1,
+				"InteractionFlags": [
+					"PovusCaves2NectarPot1",
+					"PovusCaves2NectarPot2",
+					"PovusCaves2NectarPot3",
+					"PovusCaves2NectarPot4",
+					"PovusCaves2NectarPot5",
+					"PovusCaves2NectarPot6",
+					"PovusCaves2NectarPot7",
+					"PovusCaves2NectarPot8",
+					"PovusCaves2NectarPot9",
+					"PovusCaves2NectarPot10",
+					"PovusCaves2NectarPot11",
+					"PovusCaves2NectarPot12"
+				],
+				"Number": 12,
+				"Type": "MultipleInteractionFlags"
+			},
+			{
+				"Description": "Return to the Butterfly",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I used to get really thirsty -- and because of my size, I had to drink a TON of nectar each day. But recently I've outgrown the need for sustenance by realizing that my physical form is illusory and my existence is meaningless. Saves me a lot of hassle!\n\nBut there's a problem. I used to stash pots of fairy nectar all over the place in case I got thirsty while travelling. But since I stopped drinking the stuff, it's gone bad! And there are real insects in the caves out there. I'm afraid someone's going to drink that nectar and die!\n\nCan you find the nectar bottles and dump them out for me? Thanks, pal.",
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 625178
+			},
+			{
+				"NamedLootProfile": "ForthragarianCaveLootChest",
+				"T": "NamedLootProfile"
+			},
+			{
+				"InteractionFlag": "PovusCavesPenguinDoor",
+				"T": "InteractionFlag"
+			}
+		],
+		"SuccessText": "You dumped all the nectar out? That's a relief! I may not really exist, but that doesn't mean I'd will non-existence on others! You know? Anyway, thanks, bud!",
+		"TSysLevel": 90,
+		"Version": 0
+	},
+	"27920": {
+		"Description": "In a cave beneath Povus, you met a ghostly orc that wanted nothing but a sip of Remga's Raging Rum.",
+		"DisplayedLocation": "Dungeons",
+		"InternalName": "PoiGhostOrc2",
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"MidwayText": "I just wish I could have one more taste of Remga's Raging Rum. Then maybe I could move on.",
+		"Name": "Regma's Raging Rum",
+		"Objectives": [
+			{
+				"Description": "Obtain Remga's Raging Rum",
+				"GroupId": 1,
+				"ItemName": "RemgasRagingRum",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Give Rum to the Ghost",
+				"GroupId": 2,
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I was a brewmaster! Not a warrior! I mean, I could fight -- what brewmaster can't brawl? But I wasn't supposed to get blown up! I was drinking Remga's Raging Rum, and a toy bomb let off a spark... And then I guess my rum exploded.\n\nI just wish I could have one last taste of Remga's.",
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 340472
+			}
+		],
+		"SuccessText": "This is my rum! You found it. Thank you, freakish ghost. I'm going to drink this and then head off to new places. If you want, I could teach you something about brewing before I go.",
+		"Version": 0
+	},
 	"28": {
 		"Description": "Jesina in Eltibule asked you to save her sister Sarina. Sarina is being held captive in a goblin-infested dungeon under Eltibule Keep.",
 		"DisplayedLocation": "Eltibule",
 		"InternalName": "SaveSarinaFlagQuest",
 		"IsCancellable": true,
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Save Sarina",
 		"Objectives": [
 			{
@@ -40341,7 +41217,7 @@
 	},
 	"33": {
 		"Description": "A Summer fairy named Fazzi taught you a ritual that you can use to free some Summer fae that are being tortured in the Winter Corridors.",
-		"DisplayedLocation": "Dungeons",
+		"DisplayedLocation": "WinterNexus",
 		"FavorNpc": "AreaCave2/NPC_Fazzi",
 		"InternalName": "FreeTorturedFairies",
 		"IsCancellable": true,
@@ -40506,6 +41382,9 @@
 		"DisplayedLocation": "Serbule",
 		"InternalName": "AskBlancheAboutCrystal",
 		"IsCancellable": false,
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "The Red Crystal",
 		"Objectives": [
 			{
@@ -40550,6 +41429,9 @@
 		"DisplayedLocation": "Serbule",
 		"InternalName": "AskAzalakAboutBrainBugs",
 		"IsCancellable": false,
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Brain Bug Infestation",
 		"Objectives": [
 			{
@@ -41066,6 +41948,9 @@
 		"DisplayedLocation": "Serbule",
 		"InternalName": "FerrowsFate",
 		"IsCancellable": false,
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "The Fate of Commander Ferrows",
 		"Objectives": [
 			{
@@ -41099,6 +41984,9 @@
 		"Description": "Dalvos isn't in Serbule. You need to find him. Eltibule is the next logical place to try.",
 		"DisplayedLocation": "Eltibule",
 		"InternalName": "ChasingDalvosToEltibule",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Chasing Dalvos to Eltibule",
 		"Objectives": [
 			{
@@ -41145,6 +42033,9 @@
 	"44": {
 		"Description": "Oritania in Eltibule has information about Dalvos's whereabouts. But she won't tell you unless you help her with some errands first. Get that info!",
 		"InternalName": "LearnOritaniasSecretInfo",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Learn Oritania's Secret Info",
 		"Objectives": [
 			{
@@ -41769,6 +42660,9 @@
 		"Description": "Oritania in Eltibule told you about a device used by Dalvos to teleport to another place. The pieces of a spare machine are somewhere in the goblin dungeon below Eltibule Keep. If you find all the pieces listed below, Oritania will give you the final piece.",
 		"DisplayedLocation": "Dungeons",
 		"InternalName": "CollectTheNAMA",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Find Dalvos's Machine Parts",
 		"Objectives": [
 			{
@@ -46836,7 +47730,7 @@
 			}
 		],
 		"SuccessText": "<i>Zhia Lian:</i> That was great! You used cunning to overcome your lack of equipment! I'm pretty impressed.\n\nBut I've grown unenamored of your gross mortal body. Get dressed! We have serious work to do!",
-		"TSysLevel": 85,
+		"TSysLevel": 90,
 		"Version": 1
 	},
 	"45101": {
@@ -55573,7 +56467,7 @@
 		"Version": 1
 	},
 	"45311": {
-		"Description": "Master Lopsy said, \"Hi! Would you be interested in learning the ways of the carrot? I can help you get started!\n\nFirst off, you need to know how to seek out your carrots. I have placed several Carrots of Power across the landscape here in the Serbule and Serbule Hills areas. Seek out seven of these Carrots of Power and then return to me. Also, you must interact with the Carrots of Power as a rabbit! You cannot become a Bun-Fu Master if you're not a rabbit!\n\nIf you need to bunny up, use The Bunnyizer here next to me to transform into a rabbit to begin your training! Good hunting!\"",
+		"Description": "Master Lopsy said, \"Hi! Would you be interested in learning the ways of the carrot? I can help you get started!\n\nFirst off, you need to know how to seek out your carrots. I have placed several Carrots of Power across the landscape here in the Serbule and Serbule Hills areas. Seek out seven of these Carrots of Power and then return to me. Also, you must interact with the Carrots of Power as a rabbit! You cannot become a Bun-Fu Master if you're not a rabbit!\n\nIf you need to bunny up, just ask! Good hunting!\"",
 		"FavorNpc": "LiveNpc_Lopsy",
 		"InternalName": "LiveEvent_BunFu_Lopsy",
 		"IsAutoPreface": false,
@@ -55602,7 +56496,7 @@
 				"Type": "Scripted"
 			}
 		],
-		"PrefaceText": "Hi! Would you be interested in learning the ways of the carrot? I can help you get started!\n\nFirst off, you need to know how to seek out your carrots. I have placed several Carrots of Power across the landscape here in the Serbule and Serbule Hills areas. Seek out seven of these Carrots of Power and then return to me. Also, you must interact with the Carrots of Power as a rabbit! You cannot become a Bun-Fu Master if you're not a rabbit!\n\nIf you need to bunny up, use The Bunnyizer here next to me to transform into a rabbit to begin your training! Good hunting!\"",
+		"PrefaceText": "Hi! Would you be interested in learning the ways of the carrot? I can help you get started!\n\nFirst off, you need to know how to seek out your carrots. I have placed several Carrots of Power across the landscape here in the Serbule and Serbule Hills areas. Seek out seven of these Carrots of Power and then return to me. Also, you must interact with the Carrots of Power as a rabbit! You cannot become a Bun-Fu Master if you're not a rabbit!\n\nIf you need to bunny up, just ask! Good hunting!\"",
 		"Requirements": [
 			{
 				"Keyword": "LiveEvent_BunFu",
@@ -56550,12 +57444,16 @@
 				"T": "Currency"
 			},
 			{
+				"Recipe": "SelfDye_Rabbit_Purple",
+				"T": "Recipe"
+			},
+			{
 				"T": "Title",
 				"Title": 5209
 			},
 			{
-				"Recipe": "SelfDye_Rabbit_Purple",
-				"T": "Recipe"
+				"T": "Title",
+				"Title": 5052
 			}
 		],
 		"SuccessText": "Good job! Here's the dye recipe as promised and a little something extra!\n<i>[You can find the recipe for this in your crafting recipes under Dye Making]</i>",
@@ -56974,7 +57872,7 @@
 			}
 		],
 		"SuccessText": "<i>Zhia Lian:</i> Problem taken care of? Great! Took you long enough. Let's move on to something more amusing!",
-		"TSysLevel": 85,
+		"TSysLevel": 90,
 		"Version": 1
 	},
 	"45506": {
@@ -57032,17 +57930,18 @@
 			}
 		],
 		"SuccessText": "<i>Zhia Lian:</i> This is weird... those skeletons you killed were remnants of REALLY old creatures. Older than me, even! What could the goblins have wanted with them?!\n\nWell, I guess we won't have to find out now, thanks to you!",
-		"TSysLevel": 85,
+		"TSysLevel": 90,
 		"Version": 1
 	},
 	"45507": {
 		"Description": "<i>The Bat in the Hat:</i>  Hello again! Say, it looks like you could use a stylish hat for the season! Zhia Lian and I have been talking a lot recently and she has been teaching me some new tricks. Would you like a cool, stylish hat for the season? Then get me these items and I'll put something together for you. See you soon! Riiii!",
-		"FavorNpc": "LiveNpc_BatInTheHat",
+		"FavorNpc": "AreaCasino/Halloween_BatInTheHat",
 		"InternalName": "Event_Halloween_AHatFromaBat",
 		"IsAutoPreface": false,
 		"IsAutoWrapUp": false,
 		"Keywords": [
-			"EventQuest"
+			"EventQuest",
+			"Lint_NoTsys"
 		],
 		"Name": "Zhia Lian Event: A Hat From a Bat",
 		"Objectives": [
@@ -57096,7 +57995,7 @@
 	},
 	"45508": {
 		"Description": "<i>The Bat in the Hat:</i>  So you want something a little nicer? I can do that for you! Mind you the item list I need is a bit more demanding, but if you're up to the task, I'll make the hat for you. Take this list and come back to see me once you have everything. See you soon! Riiii!\n\n<i><b>NOTE:</b> The reward item will be a level 85 item. Make sure you have your correct skill combo active when you complete this quest! But also remember, you're dealing with Zhia Lian's magic. Results may be unpredictable!</i>",
-		"FavorNpc": "LiveNpc_BatInTheHat",
+		"FavorNpc": "AreaCasino/Halloween_BatInTheHat",
 		"InternalName": "Event_Halloween_AHatFromaBat2",
 		"IsAutoPreface": false,
 		"IsAutoWrapUp": false,
@@ -57179,7 +58078,7 @@
 			}
 		],
 		"SuccessText": "<i>The Bat in the Hat:</i>  Excellent! Here's a wonderful, festive hat to enjoy the season! While this hat is stylish, it's not very functional. If you want a version of this hat that is more functional, we'll need to talk some more.",
-		"TSysLevel": 85,
+		"TSysLevel": 90,
 		"Version": 1
 	},
 	"45509": {
@@ -58465,6 +59364,9 @@
 	"46": {
 		"Description": "Oritania wasn't able to assemble Dalvos's machine. She sent you to find a fairy in Eltibule named Jesina. She lives on Sie Antry's farm, west of Eltibule Keep. ",
 		"InternalName": "FindJesina",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Get Jesina's Help",
 		"Objectives": [
 			{
@@ -58551,6 +59453,9 @@
 		"Description": "You've rescued Jesina's sister Sarina, who is repairing your broken nexus adjunct matter aligner. It should be ready in time for dinner. (Hang Out with Jesina to advance the quest.)",
 		"DisplayedLocation": "Eltibule",
 		"InternalName": "HangoutWithJesinaTracker",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Meet with Jesina and Sarina",
 		"Objectives": [
 			{
@@ -58584,6 +59489,9 @@
 			"SunValeDalvosTalk"
 		],
 		"InternalName": "UseTheNAMA",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Chasing Dalvos Through the Nexus",
 		"Objectives": [
 			{
@@ -58663,6 +59571,9 @@
 			"ComingSoon"
 		],
 		"InternalName": "SunValeDalvosTalk",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "A Dark Surprise",
 		"Objectives": [
 			{
@@ -84182,6 +85093,9 @@
 		"Description": "You've completed the main storyline quests so far! Good work! More coming soon.",
 		"DisplayedLocation": "SunVale",
 		"InternalName": "ComingSoon",
+		"Keywords": [
+			"MainQuest"
+		],
 		"Name": "Wait Until The Next Major Update",
 		"Objectives": [
 			{
@@ -87912,7 +88826,7 @@
 		"WorkOrderSkill": "Cheesemaking"
 	},
 	"51154": {
-		"Description": "Deliver 10 Soft Tofu to Thimble Pete in Hogan's Keep, Eltibule. Reward: 27,210 councils.",
+		"Description": "Deliver 10 Soft Tofu to Thimble Pete in Hogan's Keep, Eltibule. Reward: 15,930 councils.",
 		"InternalName": "Cheesemaking_SoftTofu",
 		"IsCancellable": true,
 		"Keywords": [
@@ -87949,7 +88863,7 @@
 				"Xp": 600
 			},
 			{
-				"Amount": 27210,
+				"Amount": 15930,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -87959,7 +88873,7 @@
 		"WorkOrderSkill": "Cheesemaking"
 	},
 	"51155": {
-		"Description": "Deliver 10 Firm Tofu to Thimble Pete in Hogan's Keep, Eltibule. Reward: 26,490 councils.",
+		"Description": "Deliver 10 Firm Tofu to Thimble Pete in Hogan's Keep, Eltibule. Reward: 15,463 councils.",
 		"InternalName": "Cheesemaking_FirmTofu",
 		"IsCancellable": true,
 		"Keywords": [
@@ -87996,7 +88910,7 @@
 				"Xp": 550
 			},
 			{
-				"Amount": 26490,
+				"Amount": 15463,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -88006,7 +88920,7 @@
 		"WorkOrderSkill": "Cheesemaking"
 	},
 	"51156": {
-		"Description": "Deliver 10 Tofu to Thimble Pete in Hogan's Keep, Eltibule. Reward: 22,471 councils.",
+		"Description": "Deliver 10 Tofu to Thimble Pete in Hogan's Keep, Eltibule. Reward: 13,156 councils.",
 		"InternalName": "Cheesemaking_Tofu",
 		"IsCancellable": true,
 		"Keywords": [
@@ -88043,7 +88957,7 @@
 				"Xp": 450
 			},
 			{
-				"Amount": 22471,
+				"Amount": 13156,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -114844,7 +115758,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52820": {
-		"Description": "Deliver 10 Spicy Fried Tofu Cubes to Sheyna in Rahu. Reward: 24,270 councils.",
+		"Description": "Deliver 10 Spicy Fried Tofu Cubes to Sheyna in Rahu. Reward: 18,203 councils.",
 		"InternalName": "Cooking_SpicyFriedTofuCubes",
 		"IsCancellable": true,
 		"Keywords": [
@@ -114881,7 +115795,7 @@
 				"Xp": 630
 			},
 			{
-				"Amount": 24270,
+				"Amount": 18203,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -114891,7 +115805,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52821": {
-		"Description": "Deliver 10 Lemon-Glazed Tofurkey to Sheyna in Rahu. Reward: 23,557 councils.",
+		"Description": "Deliver 10 Lemon-Glazed Tofurkey to Sheyna in Rahu. Reward: 18,343 councils.",
 		"InternalName": "Cooking_Lemon-GlazedTofurkey",
 		"IsCancellable": true,
 		"Keywords": [
@@ -114928,7 +115842,7 @@
 				"Xp": 730
 			},
 			{
-				"Amount": 23557,
+				"Amount": 18343,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -114938,7 +115852,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52822": {
-		"Description": "Deliver 10 Tofurkey With Cranberry Sauce to Sheyna in Rahu. Reward: 24,807 councils.",
+		"Description": "Deliver 10 Tofurkey With Cranberry Sauce to Sheyna in Rahu. Reward: 19,437 councils.",
 		"InternalName": "Cooking_TofurkeyWithCranberrySauce",
 		"IsCancellable": true,
 		"Keywords": [
@@ -114975,7 +115889,7 @@
 				"Xp": 770
 			},
 			{
-				"Amount": 24807,
+				"Amount": 19437,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -114985,7 +115899,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52823": {
-		"Description": "Deliver 10 Cranberry-Glazed \"Meatballs\" to Sheyna in Rahu. Reward: 19,279 councils.",
+		"Description": "Deliver 10 Cranberry-Glazed \"Meatballs\" to Sheyna in Rahu. Reward: 18,495 councils.",
 		"InternalName": "Cooking_Cranberry-Glazed-Meatballs-",
 		"IsCancellable": true,
 		"Keywords": [
@@ -115022,7 +115936,7 @@
 				"Xp": 750
 			},
 			{
-				"Amount": 19279,
+				"Amount": 18495,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -115032,7 +115946,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52824": {
-		"Description": "Deliver 10 Tofu Pumpkin Kebab to Sheyna in Rahu. Reward: 18,719 councils.",
+		"Description": "Deliver 10 Tofu Pumpkin Kebab to Sheyna in Rahu. Reward: 18,042 councils.",
 		"InternalName": "Cooking_TofuPumpkinKebab",
 		"IsCancellable": true,
 		"Keywords": [
@@ -115069,7 +115983,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 18719,
+				"Amount": 18042,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -115079,7 +115993,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52825": {
-		"Description": "Deliver 10 Tofurkey Gravy to Sheyna in Rahu. Reward: 22,170 councils.",
+		"Description": "Deliver 10 Tofurkey Gravy to Sheyna in Rahu. Reward: 15,974 councils.",
 		"InternalName": "Cooking_TofurkeyGravy",
 		"IsCancellable": true,
 		"Keywords": [
@@ -115116,7 +116030,7 @@
 				"Xp": 650
 			},
 			{
-				"Amount": 22170,
+				"Amount": 15974,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -115126,7 +116040,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52826": {
-		"Description": "Deliver 10 Tofurkey Stir-Fry to Sheyna in Rahu. Reward: 23,386 councils.",
+		"Description": "Deliver 10 Tofurkey Stir-Fry to Sheyna in Rahu. Reward: 17,548 councils.",
 		"InternalName": "Cooking_TofurkeyStir-Fry",
 		"IsCancellable": true,
 		"Keywords": [
@@ -115163,7 +116077,7 @@
 				"Xp": 550
 			},
 			{
-				"Amount": 23386,
+				"Amount": 17548,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -115173,7 +116087,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52827": {
-		"Description": "Deliver 10 Spicy Tofurkey Stir-Fry to Sheyna in Rahu. Reward: 27,330 councils.",
+		"Description": "Deliver 10 Spicy Tofurkey Stir-Fry to Sheyna in Rahu. Reward: 21,099 councils.",
 		"InternalName": "Cooking_SpicyTofurkeyStir-Fry",
 		"IsCancellable": true,
 		"Keywords": [
@@ -115210,7 +116124,7 @@
 				"Xp": 670
 			},
 			{
-				"Amount": 27330,
+				"Amount": 21099,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -115220,7 +116134,7 @@
 		"WorkOrderSkill": "Cooking"
 	},
 	"52828": {
-		"Description": "Deliver 10 Tofurkey Veggie Loaf to Sheyna in Rahu. Reward: 30,626 councils.",
+		"Description": "Deliver 10 Tofurkey Veggie Loaf to Sheyna in Rahu. Reward: 23,871 councils.",
 		"InternalName": "Cooking_TofurkeyVeggieLoaf",
 		"IsCancellable": true,
 		"Keywords": [
@@ -115257,7 +116171,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 30626,
+				"Amount": 23871,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -117286,6 +118200,1206 @@
 		"SuccessText": "Great. Thanks. Now please get off the docks. I'm expecting a big ship to come in any minute.",
 		"Version": 1,
 		"WorkOrderSkill": "Fishing"
+	},
+	"53501": {
+		"Description": "Wanted: Kill 10 Aktaari Hall Monitors. Reward: 8500 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_AktaariHallMonitors",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Aktaari Hall Monitors",
+		"Objectives": [
+			{
+				"Description": "Kill Aktaari Hall Monitors",
+				"Number": 10,
+				"Target": "AktaariHallMonitor",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 10 Aktaari Hall Monitors. Reward: 8500 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 68094
+			},
+			{
+				"Amount": 8500,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 85,
+		"Version": 1
+	},
+	"53502": {
+		"Description": "Wanted: Kill 10 Aktaari Swarmlings. Reward: 8500 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_AktaariSwarmlings",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Aktaari Swarmlings",
+		"Objectives": [
+			{
+				"Description": "Kill Aktaari Swarmlings",
+				"Number": 10,
+				"Target": "AktaariSwarmling",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 10 Aktaari Swarmlings. Reward: 8500 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 68094
+			},
+			{
+				"Amount": 8500,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 85,
+		"Version": 1
+	},
+	"53503": {
+		"Description": "Wanted: Kill 10 Aktaari Swarmers. Reward: 9000 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_AktaariSwarmers",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Aktaari Swarmers",
+		"Objectives": [
+			{
+				"Description": "Kill Aktaari Swarmers",
+				"Number": 10,
+				"Target": "AktaariSwarmer",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 10 Aktaari Swarmers. Reward: 9000 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 125035
+			},
+			{
+				"Amount": 9000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 90,
+		"Version": 1
+	},
+	"53504": {
+		"Description": "Wanted: Kill 10 Aktaari Workers (Group). Reward: 9500 councils, 5 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_AktaariWorkersGroup",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Aktaari Workers (Group)",
+		"Objectives": [
+			{
+				"Description": "Kill Aktaari Workers (Group)",
+				"Number": 10,
+				"Target": "AktaariWorker",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 10 Aktaari Workers (Group). Reward: 9500 councils, 5 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 95,
+				"T": "CombatXp",
+				"Xp": 226862
+			},
+			{
+				"Amount": 9500,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 5,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 95,
+		"Version": 1
+	},
+	"53505": {
+		"Description": "Wanted: Kill 6 Big Gricklings. Reward: 5700 councils, 3 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_BigGricklings",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Big Gricklings",
+		"Objectives": [
+			{
+				"Description": "Kill Big Gricklings",
+				"Number": 6,
+				"Target": "GricklingBig",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Big Gricklings. Reward: 5700 councils, 3 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 95,
+				"T": "CombatXp",
+				"Xp": 136117
+			},
+			{
+				"Amount": 5700,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 3,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 95,
+		"Version": 1
+	},
+	"53506": {
+		"Description": "Wanted: Kill 4 Cave Lamia (Group). Reward: 3600 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_CaveLamiaGroup",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Cave Lamia (Group)",
+		"Objectives": [
+			{
+				"Description": "Kill Cave Lamia (Group)",
+				"Number": 4,
+				"Target": "CaveLamia",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 4 Cave Lamia (Group). Reward: 3600 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 50014
+			},
+			{
+				"Amount": 3600,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 4,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 90,
+		"Version": 1
+	},
+	"53507": {
+		"Description": "Wanted: Kill 6 Deep Sadness Gazelles. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_DeepSadnessGazelles",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Deep Sadness Gazelles",
+		"Objectives": [
+			{
+				"Description": "Kill Deep Sadness Gazelles",
+				"Number": 6,
+				"Target": "DeepSadnessGazelle",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Deep Sadness Gazelles. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53508": {
+		"Description": "Wanted: Kill 6 Frozen Cave Elementals. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_FrozenCaveElementals",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Frozen Cave Elementals",
+		"Objectives": [
+			{
+				"Description": "Kill Frozen Cave Elementals",
+				"Number": 6,
+				"Target": "DeepElementalCold",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Frozen Cave Elementals. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53509": {
+		"Description": "Wanted: Kill 6 Deep Gnashers. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_DeepGnashers",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Deep Gnashers",
+		"Objectives": [
+			{
+				"Description": "Kill Deep Gnashers",
+				"Number": 6,
+				"Target": "DeepGnasher",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Deep Gnashers. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53510": {
+		"Description": "Wanted: Kill 4 Deep Hippos. Reward: 3600 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_DeepHippos",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Deep Hippos",
+		"Objectives": [
+			{
+				"Description": "Kill Deep Hippos",
+				"Number": 4,
+				"Target": "DeepHippo",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 4 Deep Hippos. Reward: 3600 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 50014
+			},
+			{
+				"Amount": 3600,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53511": {
+		"Description": "Wanted: Kill 6 Deep Wasps or Menagerie Pollenators. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_DeepWaspsorMenageriePollenators",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Deep Wasps or Menagerie Pollenators",
+		"Objectives": [
+			{
+				"Description": "Kill Deep Wasps or Menagerie Pollenators",
+				"Number": 6,
+				"Target": "DeepWasp",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Deep Wasps or Menagerie Pollenators. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53512": {
+		"Description": "Wanted: Kill 6 Deep Cocks. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_DeepCocks",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Deep Cocks",
+		"Objectives": [
+			{
+				"Description": "Kill Deep Cocks",
+				"Number": 6,
+				"Target": "DeepCock",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Deep Cocks. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53513": {
+		"Description": "Wanted: Kill 8 Deep Vines. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_DeepVines",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Deep Vines",
+		"Objectives": [
+			{
+				"Description": "Kill Deep Vines",
+				"Number": 8,
+				"Target": "DeepVine",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Deep Vines. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 100028
+			},
+			{
+				"Amount": 7200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53514": {
+		"Description": "Wanted: Kill 5 Guardian Drakeworms. Reward: 4500 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_GuardianDrakeworms",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Guardian Drakeworms",
+		"Objectives": [
+			{
+				"Description": "Kill Guardian Drakeworms",
+				"Number": 5,
+				"Target": "GuardianDrakeworm",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 5 Guardian Drakeworms. Reward: 4500 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 62517
+			},
+			{
+				"Amount": 4500,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 4,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53515": {
+		"Description": "Wanted: Kill 6 Menagerie Donkeys. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_MenagerieDonkeys",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Menagerie Donkeys",
+		"Objectives": [
+			{
+				"Description": "Kill Menagerie Donkeys",
+				"Number": 6,
+				"Target": "MenagerieDonkey",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Menagerie Donkeys. Reward: 5400 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53516": {
+		"Description": "Wanted: Kill 8 Osslar Custodians. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_OsslarCustodians",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Osslar Custodians",
+		"Objectives": [
+			{
+				"Description": "Kill Osslar Custodians",
+				"Number": 8,
+				"Target": "OsslarCustodian",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Osslar Custodians. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 100028
+			},
+			{
+				"Amount": 7200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53517": {
+		"Description": "Wanted: Kill 8 Osslar Scouts. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_OsslarScouts",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Osslar Scouts",
+		"Objectives": [
+			{
+				"Description": "Kill Osslar Scouts",
+				"Number": 8,
+				"Target": "OsslarScout",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Osslar Scouts. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 100028
+			},
+			{
+				"Amount": 7200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53518": {
+		"Description": "Wanted: Kill 8 Mangler Scorpions. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_ManglerScorpions",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Mangler Scorpions",
+		"Objectives": [
+			{
+				"Description": "Kill Mangler Scorpions",
+				"Number": 8,
+				"Target": "PovusCaveScorpion",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Mangler Scorpions. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 100028
+			},
+			{
+				"Amount": 7200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53519": {
+		"Description": "Wanted: Kill 8 Spider Brutes (Elite). Reward: 7200 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_SpiderBrutesElite",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Spider Brutes (Elite)",
+		"Objectives": [
+			{
+				"Description": "Kill Spider Brutes (Elite)",
+				"Number": 8,
+				"Target": "SpiderBruteElite90",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Spider Brutes (Elite). Reward: 7200 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 100028
+			},
+			{
+				"Amount": 7200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 4,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53520": {
+		"Description": "Wanted: Kill 8 Tough Tigers. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_ToughTigers",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Tough Tigers",
+		"Objectives": [
+			{
+				"Description": "Kill Tough Tigers",
+				"Number": 8,
+				"Target": "ToughTiger",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Tough Tigers. Reward: 7200 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 100028
+			},
+			{
+				"Amount": 7200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53521": {
+		"Description": "Wanted: Kill 6 Incubator Spiders (Elite). Reward: 5400 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_IncubatorSpidersElite",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Incubator Spiders (Elite)",
+		"Objectives": [
+			{
+				"Description": "Kill Incubator Spiders (Elite)",
+				"Number": 6,
+				"Target": "SpiderIncubatorElite90",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 6 Incubator Spiders (Elite). Reward: 5400 councils, 4 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 75021
+			},
+			{
+				"Amount": 5400,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 4,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53522": {
+		"Description": "Wanted: Kill 8 Friendly Frogs. Reward: 6800 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_FriendlyFrogs",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Friendly Frogs",
+		"Objectives": [
+			{
+				"Description": "Kill Friendly Frogs",
+				"Number": 8,
+				"Target": "FriendlyFrog",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 8 Friendly Frogs. Reward: 6800 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 54475
+			},
+			{
+				"Amount": 6800,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53523": {
+		"Description": "Wanted: Kill 10 Forthragarian Engineers. Reward: 9500 councils, 3 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_ForthragarianEngineers",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Forthragarian Engineers",
+		"Objectives": [
+			{
+				"Description": "Kill Forthragarian Engineers",
+				"Number": 10,
+				"Target": "ForthragarianEngineer",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 10 Forthragarian Engineers. Reward: 9500 councils, 3 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 95,
+				"T": "CombatXp",
+				"Xp": 226862
+			},
+			{
+				"Amount": 9500,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 3,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53524": {
+		"Description": "Wanted: Kill 12 Young Gricklings. Reward: 10200 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_YoungGricklings",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Young Gricklings",
+		"Objectives": [
+			{
+				"Description": "Kill Young Gricklings",
+				"Number": 12,
+				"Target": "GricklingYoung",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 12 Young Gricklings. Reward: 10200 councils, 1 Xogrite chunk, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 85,
+				"T": "CombatXp",
+				"Xp": 81713
+			},
+			{
+				"Amount": 10200,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
+	},
+	"53525": {
+		"Description": "Wanted: Kill 12 Trained Gricklings. Reward: 10800 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"InternalName": "WantedPoster_TrainedGricklings",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Keywords": [
+			"WantedPoster",
+			"PovusCaves2WantedPoster"
+		],
+		"Name": "Wanted: Kill Trained Gricklings",
+		"Objectives": [
+			{
+				"Description": "Kill Trained Gricklings",
+				"Number": 12,
+				"Target": "GricklingTrained",
+				"Type": "Kill"
+			}
+		],
+		"PrefaceText": "Wanted: Kill 12 Trained Gricklings. Reward: 10800 councils, 2 Xogrite chunks, and appropriate additional compensation.",
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Level": 90,
+				"T": "CombatXp",
+				"Xp": 150042
+			},
+			{
+				"Amount": 10800,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"NamedLootProfile": "PovusCaves2WantedPosterLoot",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Good job!",
+		"TSysLevel": 93,
+		"Version": 1
 	},
 	"6": {
 		"Description": "Kill 10 deer and return to Marna.",

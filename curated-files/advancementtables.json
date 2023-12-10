@@ -4757,6 +4757,164 @@
 		],
 		"Name": "Doomstorm"
 	},
+	"1127": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_ACID",
+						"Value": -0.9
+					},
+					{
+						"Attribute": "VULN_COLD",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_ELECTRICITY",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_FIRE",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_NATURE",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_PIERCING",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_TRAUMA",
+						"Value": 0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "Aktaari"
+	},
+	"1129": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_ACID",
+						"Value": -1
+					},
+					{
+						"Attribute": "VULN_FIRE",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_NATURE",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_PIERCING",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_POISON",
+						"Value": -0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "Grickling"
+	},
+	"1130": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_ACID",
+						"Value": -1
+					},
+					{
+						"Attribute": "VULN_COLD",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_FIRE",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_NATURE",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_PSYCHIC",
+						"Value": 0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "Osslar"
+	},
+	"1131": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_ACID",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_DEMONIC",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_ELECTRICITY",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_FIRE",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_PSYCHIC",
+						"Value": 0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "Forthragarian"
+	},
+	"1132": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_ACID",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_DEMONIC",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_NATURE",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_PSYCHIC",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_TRAUMA",
+						"Value": 0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "Maggot"
+	},
 	"11": {
 		"Levels": [
 			{
@@ -6364,7 +6522,37 @@
 					},
 					{
 						"Attribute": "LOOT_BOOST_CHANCE_LEGENDARY",
-						"Value": 0.1
+						"Value": 0.15
+					},
+					{
+						"Attribute": "LOOT_BOOST_CHANCE_RARE",
+						"Value": 1
+					},
+					{
+						"Attribute": "LOOT_BOOST_CHANCE_UNCOMMON",
+						"Value": 1
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "AmazingLootChest"
+	},
+	"1214": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "LOOT_BOOST_CHANCE_EPIC",
+						"Value": 0.5
+					},
+					{
+						"Attribute": "LOOT_BOOST_CHANCE_EXCEPTIONAL",
+						"Value": 1
+					},
+					{
+						"Attribute": "LOOT_BOOST_CHANCE_LEGENDARY",
+						"Value": 0.15
 					},
 					{
 						"Attribute": "LOOT_BOOST_CHANCE_RARE",

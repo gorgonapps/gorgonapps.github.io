@@ -57,6 +57,16 @@
 		},
 		"Melee": true
 	},
+	"AktaariSoldier": {
+		"Abilities": {
+			"AktaariRage": {},
+			"AktaariSlash1": {},
+			"AktaariSlash2": {}
+		},
+		"Melee": true,
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
 	"AlienDog": {
 		"Abilities": {
 			"AlienDog_Punch": {},
@@ -68,6 +78,36 @@
 			}
 		},
 		"Melee": true
+	},
+	"AlienEgg": {
+		"Abilities": {
+			"AcidAuraBall1": {
+				"MaxLevel": 20
+			},
+			"AcidAuraBall2": {
+				"MaxLevel": 40,
+				"MinLevel": 21
+			},
+			"AcidAuraBall3": {
+				"MaxLevel": 50,
+				"MinLevel": 41
+			},
+			"AcidAuraBall4": {
+				"MinLevel": 51
+			}
+		},
+		"MobilityType": "Immobile"
+	},
+	"AlienEgg_Unused": {
+		"Abilities": {
+			"EggBlast": {
+				"Cue": "DontClose"
+			},
+			"EggBurst": {
+				"Cue": "DontClose"
+			}
+		},
+		"MobilityType": "Turret"
 	},
 	"Animal": {
 		"Abilities": {
@@ -1106,6 +1146,13 @@
 			"ClaudiaTundraSpikes": {}
 		}
 	},
+	"Boss_EyeOfHate": {
+		"Abilities": {
+			"EyeOfHateBeam": {},
+			"EyeOfHateCurse": {}
+		},
+		"Flying": true
+	},
 	"Boss_FireGolem": {
 		"Abilities": {
 			"BigGolemFlingBoss2": {},
@@ -1643,6 +1690,14 @@
 		},
 		"Melee": true
 	},
+	"EnergyBomb": {
+		"Abilities": {
+			"EnergyBombBlast": {}
+		},
+		"Description": "Self-Destructing",
+		"MinDelayBetweenAbilities": 0.5,
+		"MobilityType": "Immobile"
+	},
 	"EventBoss_Claudia": {
 		"Abilities": {
 			"EventBossClaudiaSummon": {},
@@ -1857,8 +1912,21 @@
 			"SpiderBite": {},
 			"SpiderBossFreePin": {},
 			"SpiderFireball": {},
-			"SpiderKill2": {}
+			"SpiderKill2": {
+				"MaxLevel": 89
+			},
+			"SpiderKill90": {
+				"MinLevel": 90
+			}
 		}
+	},
+	"FireTimeBomb": {
+		"Abilities": {
+			"FireBombSelfDestruct": {}
+		},
+		"Description": "Self-Destructing",
+		"MinDelayBetweenAbilities": 0.5,
+		"MobilityType": "Immobile"
 	},
 	"FireTrap1": {
 		"Abilities": {
@@ -1906,6 +1974,30 @@
 			"VanityPeck": {}
 		},
 		"Flying": true
+	},
+	"Forthragarian": {
+		"Abilities": {
+			"ForthragarianBlast": {},
+			"ForthragarianFreezeRay": {}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
+	"Forthragarian_HubrisYnigix": {
+		"Abilities": {
+			"ForthragarianBlast": {},
+			"ForthragarianFreezeRayBossB": {}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
+	"Forthragarian_Ynigix": {
+		"Abilities": {
+			"ForthragarianBlast": {},
+			"ForthragarianFreezeRayBoss": {}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
 	},
 	"FreezeWasp": {
 		"Abilities": {
@@ -2458,6 +2550,17 @@
 		},
 		"Melee": true
 	},
+	"Grickling": {
+		"Abilities": {
+			"Grickfix": {},
+			"Gricklick": {},
+			"Grickspit": {
+				"MinRange": 20
+			}
+		},
+		"Melee": true,
+		"Swimming": true
+	},
 	"Grimalkin": {
 		"Abilities": {
 			"GrimalkinBite": {},
@@ -2784,7 +2887,8 @@
 				"CueVal": 3
 			}
 		},
-		"Melee": true
+		"Melee": true,
+		"MinDelayBetweenAbilities": 1
 	},
 	"IceCock": {
 		"Abilities": {
@@ -3909,6 +4013,21 @@
 		"Melee": true,
 		"Swimming": true
 	},
+	"Osslar": {
+		"Abilities": {
+			"OsslarBite": {},
+			"OsslarSlash": {},
+			"OsslarSlashB": {},
+			"OsslarTaunt": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Melee": true,
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
 	"PetRatkinSkeletonElectricityMage": {
 		"Abilities": {
 			"PetRatkinUndeadElectricityA": {},
@@ -4220,6 +4339,22 @@
 		},
 		"Melee": false
 	},
+	"RakshasaFireMage_Gunn": {
+		"Abilities": {
+			"RakFireBreath_Gunn": {
+				"Cue": "DontClose"
+			},
+			"RakFireball_Gunn": {},
+			"RakFireball_GunnB": {},
+			"RakRingOfFire_Gunn": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Melee": false,
+		"MinDelayBetweenAbilities": 1
+	},
 	"RakshasaMentalist1": {
 		"Abilities": {
 			"RakMindreave": {},
@@ -4258,6 +4393,21 @@
 			}
 		},
 		"Melee": true
+	},
+	"RakshasaStaffFighter_Ambrosia": {
+		"Abilities": {
+			"RakStaffBlock": {},
+			"RakStaffHeavy_Ambrosia": {},
+			"RakStaffHit_Ambrosia": {},
+			"RakStaffHit_AmbrosiaB": {},
+			"RakStaffPin_Ambrosia": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Melee": true,
+		"MinDelayBetweenAbilities": 1
 	},
 	"RakshasaSwordFighter": {
 		"Abilities": {
@@ -5117,7 +5267,11 @@
 				"MaxLevel": 20
 			},
 			"SpiderIncubate2": {
+				"MaxLevel": 89,
 				"MinLevel": 21
+			},
+			"SpiderIncubate90": {
+				"MinLevel": 90
 			},
 			"SpiderInject": {}
 		},
@@ -5667,7 +5821,8 @@
 			"WatcherSlap": {
 				"Cue": "DontClose"
 			}
-		}
+		},
+		"Flying": true
 	},
 	"Watcher_Druid": {
 		"Abilities": {
@@ -5681,7 +5836,8 @@
 				"Cue": "DontClose"
 			}
 		},
-		"Comment": "Nigh-Invulnerable Until Rotskinned"
+		"Comment": "Nigh-Invulnerable Until Rotskinned",
+		"Flying": true
 	},
 	"Watcher_Elite": {
 		"Abilities": {
@@ -5695,7 +5851,8 @@
 				"Cue": "DontClose"
 			}
 		},
-		"Comment": "Half-Invulnerable Until Rotskinned"
+		"Comment": "Half-Invulnerable Until Rotskinned",
+		"Flying": true
 	},
 	"WebTrap": {
 		"Abilities": {
