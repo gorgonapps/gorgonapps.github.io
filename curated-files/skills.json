@@ -1,10 +1,48 @@
 ﻿{
 	"Alchemy": {
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Alchemy, defeat a fabled dragon of yore.",
+				"Level": 50
+			}
+		],
 		"AdvancementTable": "ModestPassive",
 		"Combat": false,
 		"Description": "The art of combining esoteric things together to make potions and poisons.",
 		"GuestLevelCap": 15,
 		"Id": 34,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Alchemy",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 50,
+				"Skill": "Alchemy",
+				"SkillCap": 60
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "Alchemy",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Alchemy",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Alchemy",
+				"SkillCap": 90
+			}
+		],
 		"MaxBonusLevels": 25,
 		"RecipeIngredientKeywords": [
 			"AlchemyIngredient"
@@ -65,7 +103,7 @@
 				"Level": 50
 			}
 		],
-		"XpTable": "TypicalNoncombatSkill_CappedAt50"
+		"XpTable": "TypicalNoncombatSkill"
 	},
 	"AlcoholTolerance": {
 		"AdvancementHints": [],
@@ -2865,21 +2903,21 @@
 	"Angling": {
 		"AdvancementHints": [
 			{
-				"Hint": "To earn more XP in Angling, gain favor with Squidlips in Sun Vale",
+				"Hint": "To earn more XP in Angling, gain favor with Squidlips in Sun Vale.",
 				"Level": 50,
 				"Npcs": [
 					"NPC_Squidlips"
 				]
 			},
 			{
-				"Hint": "To earn more XP in Angling, gain favor with Squidlips in Sun Vale",
+				"Hint": "To earn more XP in Angling, gain favor with Squidlips in Sun Vale.",
 				"Level": 60,
 				"Npcs": [
 					"NPC_Squidlips"
 				]
 			},
 			{
-				"Hint": "To earn more XP in Angling, gain favor with Moku in Povus (note: Povus town's level must be 5+ for Moku to arrive)",
+				"Hint": "To earn more XP in Angling, gain favor with Moku in Povus (note: Povus town's level must be 5+ for Moku to arrive).",
 				"Level": 70,
 				"Npcs": [
 					"NPC_Moku"
@@ -5402,6 +5440,67 @@
 		],
 		"XpTable": "TypicalNoncombatSkill"
 	},
+	"Bladesmithing": {
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Bladesmithing, defeat a fabled dragon of yore.",
+				"Level": 60
+			},
+			{
+				"Hint": "To earn more XP in Bladesmithing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Bladesmithing, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			}
+		],
+		"AuxCombat": false,
+		"Combat": false,
+		"Description": "A specialization of Blacksmithing. Although bladesmiths can craft excellent weapons, they are often more preoccupied with maintaining blades at peak performance.",
+		"GuestLevelCap": 15,
+		"Id": 174,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Bladesmithing",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "Bladesmithing",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Bladesmithing",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Bladesmithing",
+				"SkillCap": 90
+			}
+		],
+		"IsFakeCombatSkill": false,
+		"MaxBonusLevels": 25,
+		"Name": "Bladesmithing",
+		"Parents": [
+			"Blacksmithing"
+		],
+		"Rewards": [],
+		"XpTable": "TypicalNoncombatSkill_FastTo50"
+	},
 	"Brewing": {
 		"AdvancementHints": [
 			{
@@ -5684,6 +5783,7 @@
 				]
 			}
 		],
+		"AdvancementTable": "Skinning",
 		"Combat": false,
 		"Description": "Skill in the act of removing meat and useful body organs from a corpse. You need to be carrying a Butcher Knife in order to butcher a corpse. Corpses of sentient creatures, such as goblins and humans, can't be butchered.",
 		"GuestLevelCap": 15,
@@ -6475,6 +6575,10 @@
 			{
 				"BonusToSkill": "Priest",
 				"Level": 35
+			},
+			{
+				"BonusToSkill": "CivicPride",
+				"Level": 38
 			},
 			{
 				"BonusToSkill": "Psychology",
@@ -9316,7 +9420,6 @@
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Genetics": {
-		"AdvancementTable": "BonusInventoryFolderAt25",
 		"Combat": false,
 		"Description": "Knowledge of the genetics of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized genetics knowledge.",
 		"GuestLevelCap": 15,
@@ -10260,6 +10363,82 @@
 			"Unarmed"
 		],
 		"XpTable": "TypicalCombatSkill"
+	},
+	"Hardcore": {
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Hardcore Living, gain favor with Vughal in Gazluk.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_Vughal"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Hardcore Living, gain favor with Vughal in Gazluk.",
+				"Level": 60,
+				"Npcs": [
+					"NPC_Vughal"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Hardcore Living, gain favor with Vughal in Gazluk.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_Vughal"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Hardcore Living, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			}
+		],
+		"AdvancementTable": "Hardcore",
+		"AuxCombat": true,
+		"Combat": false,
+		"Description": "Skill in surviving as a Hardcore player. You earn XP in this skill by killing dangerous creatures while Hardcore. (The creatures' level must be higher than your Hardcore Living skill.)\n\nNote: if you stop being Hardcore, you will lose all levels in this skill.",
+		"GuestLevelCap": 15,
+		"Id": 172,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Hardcore",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 50,
+				"Skill": "Hardcore",
+				"SkillCap": 60
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "Hardcore",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Hardcore",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Hardcore",
+				"SkillCap": 90
+			}
+		],
+		"IsFakeCombatSkill": true,
+		"MaxBonusLevels": 25,
+		"Name": "Hardcore Living",
+		"Parents": [],
+		"Rewards": [],
+		"XpTable": "Hardcore"
 	},
 	"HolisticWellness": {
 		"AdvancementTable": "HolisticWellness",
@@ -12097,6 +12276,10 @@
 				"Level": 55
 			},
 			{
+				"BonusToSkill": "Bladesmithing",
+				"Level": 58
+			},
+			{
 				"BonusToSkill": "SushiPreparation",
 				"Level": 60
 			},
@@ -13915,6 +14098,13 @@
 				"Npcs": [
 					"NPC_NoitatheGreen"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Pathology, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"Combat": false,
@@ -14036,6 +14226,30 @@
 			{
 				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
 				"Level": 65
+			},
+			{
+				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
+				"Level": 70
+			},
+			{
+				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
+				"Level": 75
+			},
+			{
+				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
+				"Level": 80
+			},
+			{
+				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
+				"Level": 85
+			},
+			{
+				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
+				"Level": 90
+			},
+			{
+				"Hint": "To earn more XP in Interpretive Dance, learn a new dance move.",
+				"Level": 95
 			}
 		],
 		"Combat": true,
@@ -16928,6 +17142,54 @@
 		"Rewards": [],
 		"XpTable": "Lore"
 	},
+	"Racing": {
+		"AdvancementHints": [],
+		"AuxCombat": false,
+		"Combat": false,
+		"Description": "Skill in riding in races.",
+		"GuestLevelCap": 15,
+		"Id": 173,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Racing",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 50,
+				"Skill": "Racing",
+				"SkillCap": 60
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "Racing",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Racing",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Racing",
+				"SkillCap": 90
+			}
+		],
+		"IsFakeCombatSkill": false,
+		"MaxBonusLevels": 25,
+		"Name": "Racing",
+		"Parents": [
+			"Riding"
+		],
+		"Rewards": [],
+		"XpTable": "TypicalNoncombatSkill"
+	},
 	"RetailManagement": {
 		"AdvancementHints": [],
 		"AdvancementTable": "RetailManagement",
@@ -17787,6 +18049,17 @@
 				"Npcs": [
 					"NPC_Kohan"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Sigil Scripting, defeat a fabled dragon of yore.",
+				"Level": 60
+			},
+			{
+				"Hint": "To earn more XP in Sigil Scripting, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
 			}
 		],
 		"AuxCombat": true,
@@ -17893,6 +18166,7 @@
 				]
 			}
 		],
+		"AdvancementTable": "Skinning",
 		"Combat": false,
 		"Description": "Skill in the act of removing fur or skin from an animal. You need to be carrying a Skinning Knife in order to skin a corpse. Corpses of sentient creatures, such as goblins and humans, can't be skinned.",
 		"GuestLevelCap": 15,
@@ -18898,7 +19172,7 @@
 				]
 			}
 		],
-		"AdvancementTable": "BonusInventoryFolderAt50",
+		"AdvancementTable": "SurvivalInstincts",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "The ability of self-aware animals to enhance their natural instincts into finely-honed combat techniques. Only animals can use this skill.",
@@ -19039,6 +19313,10 @@
 			{
 				"BonusToSkill": "Fishing",
 				"Level": 25
+			},
+			{
+				"BonusToSkill": "Bladesmithing",
+				"Level": 30
 			}
 		],
 		"XpTable": "AuxCraftingSkill"
@@ -19277,6 +19555,10 @@
 			{
 				"BonusToSkill": "Knife",
 				"Level": 55
+			},
+			{
+				"BonusToSkill": "Bladesmithing",
+				"Level": 60
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -19603,7 +19885,8 @@
 			},
 			{
 				"BonusToSkill": "Tailoring",
-				"Level": 30
+				"Level": 30,
+				"Notes": "Can ret an extra bundle of flax (for a total of 2 at a time)"
 			},
 			{
 				"BonusToSkill": "Spider",
@@ -19616,6 +19899,14 @@
 			{
 				"BonusToSkill": "Tailoring",
 				"Level": 50
+			},
+			{
+				"Level": 60,
+				"Notes": "Can ret an extra bundle of flax (for a total of 3 at a time)"
+			},
+			{
+				"Level": 90,
+				"Notes": "Can ret an extra bundle of flax (for a total of 4 at a time)"
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"

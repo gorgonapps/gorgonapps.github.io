@@ -765,6 +765,15 @@
 		],
 		"Label": "Tsunami Power Cost %"
 	},
+	"ABILITY_CRITICAL_HIT_DAMAGE_MOD_SYSTEMSHOCK": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3070
+		],
+		"Label": "System Critical-Hit Bonus Damage %"
+	},
 	"ABILITY_DELAYLOOP_DELTA_EXHILARATE": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsDebuffDelta",
@@ -1206,6 +1215,15 @@
 			3070
 		],
 		"Label": "System Shock Rage %"
+	},
+	"ABILITY_RANGE_DELTA_AGGRESSIONDETERRENT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3778
+		],
+		"Label": "Aggression Deterrent Range"
 	},
 	"ABILITY_RANGE_DELTA_BARDBLAST": {
 		"DefaultValue": 0,
@@ -2016,6 +2034,15 @@
 		],
 		"Label": "Tough Hoof Reuse Timer"
 	},
+	"ABILITY_RESETTIME_DELTA_TRUE_ROTSKIN": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3482
+		],
+		"Label": "Rotskin (but not Rotflesh) Reset Time"
+	},
 	"ABILITY_RESETTIME_DELTA_VIRTUOSOSBALLAD": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -2601,6 +2628,14 @@
 		],
 		"Label": "Epic Attack Accuracy Boost"
 	},
+	"ACCURACY_DELTA_KNIFE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDoubleTimes100",
+		"IconIds": [
+			108
+		],
+		"Label": "Knife Ability Accuracy"
+	},
 	"ACCURACY_DELTA_NICEATTACK": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -2626,6 +2661,22 @@
 			108
 		],
 		"Label": "Signature Debuff Accuracy Boost"
+	},
+	"ACCURACY_DELTA_SWORD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDoubleTimes100",
+		"IconIds": [
+			108
+		],
+		"Label": "Sword Ability Accuracy"
+	},
+	"ACCURACY_DELTA_UNARMED": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDoubleTimes100",
+		"IconIds": [
+			108
+		],
+		"Label": "Unarmed Ability Accuracy"
 	},
 	"ACTIVE_TITLE": {
 		"DefaultValue": 0,
@@ -2737,6 +2788,16 @@
 			102
 		],
 		"Label": "Auto-Heal Health (Per Sec) %"
+	},
+	"AUTOLOOT_RADIUS": {
+		"DefaultValue": 5,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Corpse-Loot Radius",
+		"Tooltip": "When looting a corpse, other corpses within this radius will also be lootable"
 	},
 	"AVOID_DEATH_ARMOR_MOD": {
 		"DefaultValue": 0,
@@ -2897,6 +2958,24 @@
 		],
 		"Label": "Infectious Instincts Bonus Damage to Next Attack"
 	},
+	"BOOST_ABILITYBUFF_POISONERSCUT_DIRECT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3593
+		],
+		"Label": "Poisoner's Cut's Direct Poison Damage Buff"
+	},
+	"BOOST_ABILITYBUFF_POISONERSCUT_INDIRECT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3593
+		],
+		"Label": "Poisoner's Cut's Indirect Poison Damage Buff"
+	},
 	"BOOST_ABILITYDOT2_DRINKBLOOD": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -2948,6 +3027,15 @@
 			3481
 		],
 		"Label": "Heart Thorn Acid Damage Over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_ACIDARROW": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3302
+		],
+		"Label": "Acid Arrow Delayed Poison Damage"
 	},
 	"BOOST_ABILITYDOT_ACIDBOMB": {
 		"DisplayRule": "IfNotZero",
@@ -3711,6 +3799,17 @@
 		],
 		"Label": "Backstab Damage"
 	},
+	"BOOST_ABILITY_BARDBLAST": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3671,
+			3672,
+			3673
+		],
+		"Label": "Bard Blast-Ability Damage"
+	},
 	"BOOST_ABILITY_BARRAGE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4233,6 +4332,15 @@
 		],
 		"Label": "Drink Blood Damage"
 	},
+	"BOOST_ABILITY_DUELISTSSLASH": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3740
+		],
+		"Label": "Duelist's Slash Damage"
+	},
 	"BOOST_ABILITY_ELECTRIFY": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4700,6 +4808,15 @@
 			2204
 		],
 		"Label": "Knee Kick Damage"
+	},
+	"BOOST_ABILITY_KNIFE_THROWS": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Thrown Knife Damage"
 	},
 	"BOOST_ABILITY_KNOCKBACK_BOLT": {
 		"DefaultValue": 0,
@@ -5991,6 +6108,15 @@
 		],
 		"Label": "Auto-Heal Health (Per Sec)"
 	},
+	"BOOST_BACKSTAB_HEALTH_SENDER": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3600
+		],
+		"Label": "Backstab Healing (per tick)"
+	},
 	"BOOST_BACON_HEALTH_SENDER": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -6303,6 +6429,14 @@
 			107
 		],
 		"Label": "Indirect Crushing Damage (Per Tick)"
+	},
+	"BOOST_DAMAGEBUFF_VIRTUOSOSBALLAD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3668
+		],
+		"Label": "Virtuoso's Ballad Next Attack Damage Bonus"
 	},
 	"BOOST_DAMAGE_SHIELDWAX_ACID": {
 		"DefaultValue": 0,
@@ -6729,6 +6863,14 @@
 		],
 		"Label": "Grunt of Abeyance Healing"
 	},
+	"BOOST_HAMMER_ARMOR_TO_POWER_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Power Recovered when Receiving Hammer 6-Second Delayed Armor"
+	},
 	"BOOST_HEALFIREWALL_SENDER": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -6828,6 +6970,14 @@
 			3737
 		],
 		"Label": "Invigorate Healing"
+	},
+	"BOOST_LEAPINGSMASH_ARMOR_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3475
+		],
+		"Label": "Leaping Smash Delayed Armor"
 	},
 	"BOOST_LOOKATMYHAMMER_ARMOR_SENDER": {
 		"DisplayRule": "IfNotZero",
@@ -7264,7 +7414,7 @@
 		"IconIds": [
 			3575
 		],
-		"Label": "Rib Shatter Healing"
+		"Label": "Rib Shatter Delayed Armor"
 	},
 	"BOOST_SEAFOOD": {
 		"DefaultValue": 0,
@@ -7292,6 +7442,14 @@
 			107
 		],
 		"Label": "Indirect Seafood Damage (Per Tick)"
+	},
+	"BOOST_SEISMICIMPACT_ARMOR_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3573
+		],
+		"Label": "Seismic Impact Delayed Armor"
 	},
 	"BOOST_SHIELDTEAM_SENDER": {
 		"DefaultValue": 0,
@@ -7512,6 +7670,14 @@
 		],
 		"Label": "Sword Damage"
 	},
+	"BOOST_SKILL_SWORD_VS_VULNERABLE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Sword Ability Damage to Vulnerable Enemies"
+	},
 	"BOOST_SKILL_UNARMED": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -7625,6 +7791,15 @@
 		],
 		"Label": "Raise Zombie Existing-Zombie Heal"
 	},
+	"BOOST_SURGECUT_HEALTH_SENDER": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3601
+		],
+		"Label": "Surge Cut Healing"
+	},
 	"BOOST_TEMPESTFLIGHT_SPEED": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -7632,6 +7807,14 @@
 			3847
 		],
 		"Label": "Tempest Flight Speed"
+	},
+	"BOOST_THUNDERSTRIKE_ARMOR_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3638
+		],
+		"Label": "Thunderstrike Delayed Armor"
 	},
 	"BOOST_TOUGHHOOF_RECEIVER": {
 		"DisplayRule": "IfNotZero",
@@ -7751,6 +7934,22 @@
 			3451
 		],
 		"Label": "Vigorous Defense Power Restoration (obsolete)"
+	},
+	"BOOST_VIRTUOSOSBALLAD_POWER_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3668
+		],
+		"Label": "Virtuoso's Ballad Power Restoration"
+	},
+	"BOOST_VIRTUOSOSBALLAD_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3668
+		],
+		"Label": "Virtuoso's Ballad Health (or Armor if Health is Full) Restoration"
 	},
 	"BOOST_WARNINGJOLT_ARMOR_SENDER": {
 		"DisplayRule": "IfNotZero",
@@ -8216,6 +8415,16 @@
 		],
 		"Label": "Dance Appreciation Extra-Effect Chance Boost %"
 	},
+	"DEATH_NOTIFICATION_RADIUS": {
+		"DefaultValue": 60,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"IsHidden": true,
+		"Label": "Death Notification Range"
+	},
 	"DEER_COST_MOD": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -8224,6 +8433,14 @@
 			108
 		],
 		"Label": "Deer Ability Power Cost %"
+	},
+	"DELTA_ANATOMY_CRITICAL_CHANCE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Anatomy-Based Critical Hit Chance %"
 	},
 	"DELTA_TEMPESTFLIGHT_COST": {
 		"DisplayRule": "IfNotZero",
@@ -8730,6 +8947,16 @@
 			108
 		],
 		"Label": "Chance to Ignore Stuns %"
+	},
+	"IGNORE_TAGS_FOR_MONSTER_SEARCH": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBool",
+		"IconIds": [
+			108
+		],
+		"IsHidden": true,
+		"Label": "Monster Searchable?"
 	},
 	"INDEPENDENCE_BONUS": {
 		"DefaultValue": 0,
@@ -10613,6 +10840,15 @@
 		],
 		"Label": "Drink Blood Damage %"
 	},
+	"MOD_ABILITY_DUELISTSSLASH": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3740
+		],
+		"Label": "Duelist's Slash Damage %"
+	},
 	"MOD_ABILITY_ELECTRIFY": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -12290,13 +12526,31 @@
 		"Label": "Indirect Cold Damage %"
 	},
 	"MOD_CRITICAL_HIT_DAMAGE": {
-		"DefaultValue": 1.25,
+		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
 		"DisplayType": "AsPercent",
 		"IconIds": [
 			108
 		],
 		"Label": "Psychology/Mentalism Critical Hit Damage %"
+	},
+	"MOD_CRITICAL_HIT_DAMAGE_ANATOMY": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			108
+		],
+		"Label": "Anatomy-Based Critical Hit Damage %"
+	},
+	"MOD_CRITICAL_HIT_DAMAGE_NONRAGEATTACK": {
+		"DefaultValue": 1.25,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			108
+		],
+		"Label": "Monster Critical-Hit Damage %"
 	},
 	"MOD_CRITICAL_HIT_DAMAGE_RAGEATTACK": {
 		"DefaultValue": 1.25,
@@ -12504,6 +12758,22 @@
 			107
 		],
 		"Label": "Indirect Fungus Damage %"
+	},
+	"MOD_HAMMER_ARMOR_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Hammer 6-Second Delayed Armor %"
+	},
+	"MOD_HAMMER_ARMOR_TO_POWER_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Power Recovered when Receiving Hammer 6-Second Delayed Armor %"
 	},
 	"MOD_MAJORHEAL_RECEIVER": {
 		"DefaultValue": 1,
@@ -13108,7 +13378,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Jump Power"
+		"Label": "Mount Jump Power"
 	},
 	"MOUNTED_JUMP_BURST_DURATION": {
 		"DefaultValue": 0.4,
@@ -13117,7 +13387,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Jump Duration"
+		"Label": "Mount Jump Duration"
 	},
 	"MOUNTED_TOP_SPEED_LAND": {
 		"DisplayRule": "Always",
@@ -13166,6 +13436,69 @@
 			108
 		],
 		"Label": "Turning Radius (Shallow Water)"
+	},
+	"MOUNT_ANXIETY_COST_FLOATING": {
+		"DefaultValue": 5,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety Induced By Jumping (per second)"
+	},
+	"MOUNT_ANXIETY_COST_FROM_ENEMIES_MOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety From Enemies"
+	},
+	"MOUNT_ANXIETY_COST_FROM_ENVIRONMENT_MOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety From Environment"
+	},
+	"MOUNT_ANXIETY_COST_LAND": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety Induced By Being on Land (per second)"
+	},
+	"MOUNT_ANXIETY_COST_WATER_DEEP": {
+		"DefaultValue": 10,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety Induced By Deep Water (per second)"
+	},
+	"MOUNT_ANXIETY_COST_WATER_SHALLOW": {
+		"DefaultValue": 5,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety Induced By Shallow Water (per second)"
+	},
+	"MOUNT_ANXIETY_COST_WATER_SPLASHING": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Anxiety Induced By Splashing in Water (per second)"
 	},
 	"MOUNT_ANXIETY_REGEN_INACTIVE": {
 		"DisplayRule": "Always",
@@ -13511,6 +13844,60 @@
 			108
 		],
 		"Label": "Rabbit Ability Power Cost %"
+	},
+	"RACING_MAX_MOUNT_ANXIETY": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Max Mount Anxiety (Bonus While Racing)"
+	},
+	"RACING_MOUNTED_JUMP_BURST": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Jump Power (Bonus While Racing)"
+	},
+	"RACING_MOUNTED_TOP_SPEED_LAND": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Mounted Top Speed (Bonus While Racing) (Land)"
+	},
+	"RACING_MOUNT_ANXIETY_REGEN_NORACINGBOOST": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"Label": "Anxiety Reduction Per Sec While Not Speed-Boosted (While Racing)"
+	},
+	"RACING_MOUNT_RESILIENCE": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Mount Resilience to Damage (Bonus While Racing)"
+	},
+	"RACING_XP_EARNED_MOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			108
+		],
+		"Label": "Racing XP Boost from Races %"
 	},
 	"RADIATION_PROTECTION": {
 		"DefaultValue": 0,
@@ -14882,6 +15269,10 @@
 		"DisplayType": "AsBuffDelta"
 	},
 	"MENTAL_DEFENSE_RATING": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_AGGRAVATION_HEALTH_PCT": {
 		"DisplayRule": "Never",
 		"DisplayType": "AsBuffDelta"
 	}

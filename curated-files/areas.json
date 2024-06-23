@@ -1,4 +1,8 @@
 ﻿{
+	"AreaApartment1": {
+		"FriendlyName": "Player Apartment",
+		"ShortFriendlyName": "Home"
+	},
 	"AreaCasino": {
 		"FriendlyName": "Red Wing Casino",
 		"ShortFriendlyName": "Casino"

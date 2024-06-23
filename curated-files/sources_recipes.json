@@ -1883,6 +1883,42 @@
 			}
 		]
 	},
+	"10801": {
+		"Entries": [
+			{
+				"ItemTypeId": 25001,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25002,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25021,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25022,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25041,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25042,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25043,
+				"Type": "Item"
+			},
+			{
+				"ItemTypeId": 25044,
+				"Type": "Item"
+			}
+		]
+	},
 	"1081": {
 		"Entries": [
 			{
@@ -5163,6 +5199,102 @@
 			}
 		]
 	},
+	"12578": {
+		"Entries": [
+			{
+				"ItemTypeId": 2701,
+				"Type": "Item"
+			}
+		]
+	},
+	"12579": {
+		"Entries": [
+			{
+				"ItemTypeId": 2701,
+				"Type": "Item"
+			}
+		]
+	},
+	"12580": {
+		"Entries": [
+			{
+				"ItemTypeId": 2702,
+				"Type": "Item"
+			}
+		]
+	},
+	"12581": {
+		"Entries": [
+			{
+				"ItemTypeId": 2702,
+				"Type": "Item"
+			}
+		]
+	},
+	"12582": {
+		"Entries": [
+			{
+				"ItemTypeId": 2703,
+				"Type": "Item"
+			}
+		]
+	},
+	"12583": {
+		"Entries": [
+			{
+				"ItemTypeId": 2703,
+				"Type": "Item"
+			}
+		]
+	},
+	"12584": {
+		"Entries": [
+			{
+				"ItemTypeId": 2704,
+				"Type": "Item"
+			}
+		]
+	},
+	"12585": {
+		"Entries": [
+			{
+				"ItemTypeId": 2704,
+				"Type": "Item"
+			}
+		]
+	},
+	"12586": {
+		"Entries": [
+			{
+				"ItemTypeId": 2705,
+				"Type": "Item"
+			}
+		]
+	},
+	"12587": {
+		"Entries": [
+			{
+				"ItemTypeId": 2705,
+				"Type": "Item"
+			}
+		]
+	},
+	"12588": {
+		"Entries": [
+			{
+				"ItemTypeId": 2706,
+				"Type": "Item"
+			}
+		]
+	},
+	"12589": {
+		"Entries": [
+			{
+				"ItemTypeId": 2706,
+				"Type": "Item"
+			}
+		]
+	},
 	"126": {
 		"Entries": [
 			{
@@ -5959,6 +6091,30 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3309,
+				"Type": "Item"
+			}
+		]
+	},
+	"13370": {
+		"Entries": [
+			{
+				"Npc": "NPC_ThimblePete",
+				"Type": "Training"
+			}
+		]
+	},
+	"13371": {
+		"Entries": [
+			{
+				"Npc": "NPC_Gurki",
+				"Type": "Training"
+			}
+		]
+	},
+	"13372": {
+		"Entries": [
+			{
+				"ItemTypeId": 2631,
 				"Type": "Item"
 			}
 		]
@@ -6891,6 +7047,102 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2662,
+				"Type": "Item"
+			}
+		]
+	},
+	"13788": {
+		"Entries": [
+			{
+				"ItemTypeId": 2711,
+				"Type": "Item"
+			}
+		]
+	},
+	"13789": {
+		"Entries": [
+			{
+				"ItemTypeId": 2711,
+				"Type": "Item"
+			}
+		]
+	},
+	"13790": {
+		"Entries": [
+			{
+				"ItemTypeId": 2712,
+				"Type": "Item"
+			}
+		]
+	},
+	"13791": {
+		"Entries": [
+			{
+				"ItemTypeId": 2712,
+				"Type": "Item"
+			}
+		]
+	},
+	"13792": {
+		"Entries": [
+			{
+				"ItemTypeId": 2713,
+				"Type": "Item"
+			}
+		]
+	},
+	"13793": {
+		"Entries": [
+			{
+				"ItemTypeId": 2713,
+				"Type": "Item"
+			}
+		]
+	},
+	"13794": {
+		"Entries": [
+			{
+				"ItemTypeId": 2714,
+				"Type": "Item"
+			}
+		]
+	},
+	"13795": {
+		"Entries": [
+			{
+				"ItemTypeId": 2714,
+				"Type": "Item"
+			}
+		]
+	},
+	"13796": {
+		"Entries": [
+			{
+				"ItemTypeId": 2715,
+				"Type": "Item"
+			}
+		]
+	},
+	"13797": {
+		"Entries": [
+			{
+				"ItemTypeId": 2715,
+				"Type": "Item"
+			}
+		]
+	},
+	"13798": {
+		"Entries": [
+			{
+				"ItemTypeId": 2716,
+				"Type": "Item"
+			}
+		]
+	},
+	"13799": {
+		"Entries": [
+			{
+				"ItemTypeId": 2716,
 				"Type": "Item"
 			}
 		]
@@ -7919,6 +8171,30 @@
 			}
 		]
 	},
+	"14420": {
+		"Entries": [
+			{
+				"Npc": "NPC_ThimblePete",
+				"Type": "Training"
+			}
+		]
+	},
+	"14421": {
+		"Entries": [
+			{
+				"Npc": "NPC_Gurki",
+				"Type": "Training"
+			}
+		]
+	},
+	"14422": {
+		"Entries": [
+			{
+				"ItemTypeId": 2632,
+				"Type": "Item"
+			}
+		]
+	},
 	"14432": {
 		"Entries": [
 			{
@@ -8851,6 +9127,102 @@
 		"Entries": [
 			{
 				"ItemTypeId": 2663,
+				"Type": "Item"
+			}
+		]
+	},
+	"14788": {
+		"Entries": [
+			{
+				"ItemTypeId": 2721,
+				"Type": "Item"
+			}
+		]
+	},
+	"14789": {
+		"Entries": [
+			{
+				"ItemTypeId": 2721,
+				"Type": "Item"
+			}
+		]
+	},
+	"14790": {
+		"Entries": [
+			{
+				"ItemTypeId": 2722,
+				"Type": "Item"
+			}
+		]
+	},
+	"14791": {
+		"Entries": [
+			{
+				"ItemTypeId": 2722,
+				"Type": "Item"
+			}
+		]
+	},
+	"14792": {
+		"Entries": [
+			{
+				"ItemTypeId": 2723,
+				"Type": "Item"
+			}
+		]
+	},
+	"14793": {
+		"Entries": [
+			{
+				"ItemTypeId": 2723,
+				"Type": "Item"
+			}
+		]
+	},
+	"14794": {
+		"Entries": [
+			{
+				"ItemTypeId": 2724,
+				"Type": "Item"
+			}
+		]
+	},
+	"14795": {
+		"Entries": [
+			{
+				"ItemTypeId": 2724,
+				"Type": "Item"
+			}
+		]
+	},
+	"14796": {
+		"Entries": [
+			{
+				"ItemTypeId": 2725,
+				"Type": "Item"
+			}
+		]
+	},
+	"14797": {
+		"Entries": [
+			{
+				"ItemTypeId": 2725,
+				"Type": "Item"
+			}
+		]
+	},
+	"14798": {
+		"Entries": [
+			{
+				"ItemTypeId": 2726,
+				"Type": "Item"
+			}
+		]
+	},
+	"14799": {
+		"Entries": [
+			{
+				"ItemTypeId": 2726,
 				"Type": "Item"
 			}
 		]
@@ -10221,6 +10593,102 @@
 			{
 				"Npc": "NPC_LauraNeth",
 				"Type": "Training"
+			}
+		]
+	},
+	"15508": {
+		"Entries": [
+			{
+				"ItemTypeId": 2731,
+				"Type": "Item"
+			}
+		]
+	},
+	"15509": {
+		"Entries": [
+			{
+				"ItemTypeId": 2731,
+				"Type": "Item"
+			}
+		]
+	},
+	"15510": {
+		"Entries": [
+			{
+				"ItemTypeId": 2732,
+				"Type": "Item"
+			}
+		]
+	},
+	"15511": {
+		"Entries": [
+			{
+				"ItemTypeId": 2732,
+				"Type": "Item"
+			}
+		]
+	},
+	"15512": {
+		"Entries": [
+			{
+				"ItemTypeId": 2733,
+				"Type": "Item"
+			}
+		]
+	},
+	"15513": {
+		"Entries": [
+			{
+				"ItemTypeId": 2733,
+				"Type": "Item"
+			}
+		]
+	},
+	"15514": {
+		"Entries": [
+			{
+				"ItemTypeId": 2734,
+				"Type": "Item"
+			}
+		]
+	},
+	"15515": {
+		"Entries": [
+			{
+				"ItemTypeId": 2734,
+				"Type": "Item"
+			}
+		]
+	},
+	"15516": {
+		"Entries": [
+			{
+				"ItemTypeId": 2735,
+				"Type": "Item"
+			}
+		]
+	},
+	"15517": {
+		"Entries": [
+			{
+				"ItemTypeId": 2735,
+				"Type": "Item"
+			}
+		]
+	},
+	"15518": {
+		"Entries": [
+			{
+				"ItemTypeId": 2736,
+				"Type": "Item"
+			}
+		]
+	},
+	"15519": {
+		"Entries": [
+			{
+				"ItemTypeId": 2736,
+				"Type": "Item"
 			}
 		]
 	},
@@ -12464,6 +12932,102 @@
 			}
 		]
 	},
+	"16848": {
+		"Entries": [
+			{
+				"ItemTypeId": 2741,
+				"Type": "Item"
+			}
+		]
+	},
+	"16849": {
+		"Entries": [
+			{
+				"ItemTypeId": 2741,
+				"Type": "Item"
+			}
+		]
+	},
+	"16850": {
+		"Entries": [
+			{
+				"ItemTypeId": 2742,
+				"Type": "Item"
+			}
+		]
+	},
+	"16851": {
+		"Entries": [
+			{
+				"ItemTypeId": 2742,
+				"Type": "Item"
+			}
+		]
+	},
+	"16852": {
+		"Entries": [
+			{
+				"ItemTypeId": 2743,
+				"Type": "Item"
+			}
+		]
+	},
+	"16853": {
+		"Entries": [
+			{
+				"ItemTypeId": 2743,
+				"Type": "Item"
+			}
+		]
+	},
+	"16854": {
+		"Entries": [
+			{
+				"ItemTypeId": 2744,
+				"Type": "Item"
+			}
+		]
+	},
+	"16855": {
+		"Entries": [
+			{
+				"ItemTypeId": 2744,
+				"Type": "Item"
+			}
+		]
+	},
+	"16856": {
+		"Entries": [
+			{
+				"ItemTypeId": 2745,
+				"Type": "Item"
+			}
+		]
+	},
+	"16857": {
+		"Entries": [
+			{
+				"ItemTypeId": 2745,
+				"Type": "Item"
+			}
+		]
+	},
+	"16858": {
+		"Entries": [
+			{
+				"ItemTypeId": 2746,
+				"Type": "Item"
+			}
+		]
+	},
+	"16859": {
+		"Entries": [
+			{
+				"ItemTypeId": 2746,
+				"Type": "Item"
+			}
+		]
+	},
 	"169": {
 		"Entries": [
 			{
@@ -13476,11 +14040,323 @@
 			}
 		]
 	},
+	"18081": {
+		"Entries": [
+			{
+				"ItemTypeId": 3562,
+				"Type": "Item"
+			}
+		]
+	},
+	"18082": {
+		"Entries": [
+			{
+				"ItemTypeId": 3563,
+				"Type": "Item"
+			}
+		]
+	},
+	"18083": {
+		"Entries": [
+			{
+				"ItemTypeId": 3564,
+				"Type": "Item"
+			}
+		]
+	},
+	"18084": {
+		"Entries": [
+			{
+				"ItemTypeId": 3565,
+				"Type": "Item"
+			}
+		]
+	},
+	"18085": {
+		"Entries": [
+			{
+				"ItemTypeId": 3566,
+				"Type": "Item"
+			}
+		]
+	},
+	"18086": {
+		"Entries": [
+			{
+				"ItemTypeId": 2771,
+				"Type": "Item"
+			}
+		]
+	},
+	"18087": {
+		"Entries": [
+			{
+				"ItemTypeId": 2772,
+				"Type": "Item"
+			}
+		]
+	},
+	"18088": {
+		"Entries": [
+			{
+				"ItemTypeId": 2773,
+				"Type": "Item"
+			}
+		]
+	},
+	"18089": {
+		"Entries": [
+			{
+				"ItemTypeId": 2774,
+				"Type": "Item"
+			}
+		]
+	},
+	"18090": {
+		"Entries": [
+			{
+				"ItemTypeId": 2775,
+				"Type": "Item"
+			}
+		]
+	},
+	"18091": {
+		"Entries": [
+			{
+				"ItemTypeId": 2776,
+				"Type": "Item"
+			}
+		]
+	},
+	"18092": {
+		"Entries": [
+			{
+				"ItemTypeId": 2777,
+				"Type": "Item"
+			}
+		]
+	},
+	"18093": {
+		"Entries": [
+			{
+				"ItemTypeId": 2778,
+				"Type": "Item"
+			}
+		]
+	},
+	"18094": {
+		"Entries": [
+			{
+				"ItemTypeId": 2779,
+				"Type": "Item"
+			}
+		]
+	},
+	"18095": {
+		"Entries": [
+			{
+				"ItemTypeId": 2780,
+				"Type": "Item"
+			}
+		]
+	},
+	"18096": {
+		"Entries": [
+			{
+				"ItemTypeId": 2781,
+				"Type": "Item"
+			}
+		]
+	},
+	"18097": {
+		"Entries": [
+			{
+				"ItemTypeId": 2782,
+				"Type": "Item"
+			}
+		]
+	},
+	"18098": {
+		"Entries": [
+			{
+				"ItemTypeId": 2783,
+				"Type": "Item"
+			}
+		]
+	},
+	"18099": {
+		"Entries": [
+			{
+				"ItemTypeId": 2784,
+				"Type": "Item"
+			}
+		]
+	},
 	"181": {
 		"Entries": [
 			{
 				"Npc": "NPC_Hiral",
 				"Type": "Training"
+			}
+		]
+	},
+	"18100": {
+		"Entries": [
+			{
+				"ItemTypeId": 2785,
+				"Type": "Item"
+			}
+		]
+	},
+	"18101": {
+		"Entries": [
+			{
+				"ItemTypeId": 2786,
+				"Type": "Item"
+			}
+		]
+	},
+	"18102": {
+		"Entries": [
+			{
+				"ItemTypeId": 2787,
+				"Type": "Item"
+			}
+		]
+	},
+	"18111": {
+		"Entries": [
+			{
+				"ItemTypeId": 2801,
+				"Type": "Item"
+			}
+		]
+	},
+	"18112": {
+		"Entries": [
+			{
+				"ItemTypeId": 2802,
+				"Type": "Item"
+			}
+		]
+	},
+	"18113": {
+		"Entries": [
+			{
+				"ItemTypeId": 2803,
+				"Type": "Item"
+			}
+		]
+	},
+	"18114": {
+		"Entries": [
+			{
+				"ItemTypeId": 2804,
+				"Type": "Item"
+			}
+		]
+	},
+	"18115": {
+		"Entries": [
+			{
+				"ItemTypeId": 2805,
+				"Type": "Item"
+			}
+		]
+	},
+	"18116": {
+		"Entries": [
+			{
+				"ItemTypeId": 2806,
+				"Type": "Item"
+			}
+		]
+	},
+	"18117": {
+		"Entries": [
+			{
+				"ItemTypeId": 2807,
+				"Type": "Item"
+			}
+		]
+	},
+	"18118": {
+		"Entries": [
+			{
+				"ItemTypeId": 2808,
+				"Type": "Item"
+			}
+		]
+	},
+	"18119": {
+		"Entries": [
+			{
+				"ItemTypeId": 2809,
+				"Type": "Item"
+			}
+		]
+	},
+	"18120": {
+		"Entries": [
+			{
+				"ItemTypeId": 2810,
+				"Type": "Item"
+			}
+		]
+	},
+	"18121": {
+		"Entries": [
+			{
+				"ItemTypeId": 2811,
+				"Type": "Item"
+			}
+		]
+	},
+	"18122": {
+		"Entries": [
+			{
+				"ItemTypeId": 2812,
+				"Type": "Item"
+			}
+		]
+	},
+	"18123": {
+		"Entries": [
+			{
+				"ItemTypeId": 2813,
+				"Type": "Item"
+			}
+		]
+	},
+	"18124": {
+		"Entries": [
+			{
+				"ItemTypeId": 2814,
+				"Type": "Item"
+			}
+		]
+	},
+	"18125": {
+		"Entries": [
+			{
+				"ItemTypeId": 2815,
+				"Type": "Item"
+			}
+		]
+	},
+	"18126": {
+		"Entries": [
+			{
+				"ItemTypeId": 2816,
+				"Type": "Item"
+			}
+		]
+	},
+	"18127": {
+		"Entries": [
+			{
+				"ItemTypeId": 2817,
+				"Type": "Item"
 			}
 		]
 	},
@@ -15383,34 +16259,19 @@
 	"19706": {
 		"Entries": [
 			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
+				"ItemTypeId": 3775,
+				"Type": "Item"
 			}
 		]
 	},
 	"19707": {
-		"Entries": [
-			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
-			}
-		]
+		"Entries": []
 	},
 	"19708": {
-		"Entries": [
-			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
-			}
-		]
+		"Entries": []
 	},
 	"19709": {
-		"Entries": [
-			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
-			}
-		]
+		"Entries": []
 	},
 	"19710": {
 		"Entries": [
@@ -15423,34 +16284,19 @@
 	"19726": {
 		"Entries": [
 			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
+				"ItemTypeId": 3775,
+				"Type": "Item"
 			}
 		]
 	},
 	"19727": {
-		"Entries": [
-			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
-			}
-		]
+		"Entries": []
 	},
 	"19728": {
-		"Entries": [
-			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
-			}
-		]
+		"Entries": []
 	},
 	"19729": {
-		"Entries": [
-			{
-				"Npc": "NPC_Kohan",
-				"Type": "Training"
-			}
-		]
+		"Entries": []
 	},
 	"19730": {
 		"Entries": [
@@ -15548,6 +16394,156 @@
 			}
 		]
 	},
+	"19801": {
+		"Entries": [
+			{
+				"ItemTypeId": 3776,
+				"Type": "Item"
+			}
+		]
+	},
+	"19802": {
+		"Entries": []
+	},
+	"19803": {
+		"Entries": []
+	},
+	"19804": {
+		"Entries": []
+	},
+	"19805": {
+		"Entries": []
+	},
+	"19811": {
+		"Entries": [
+			{
+				"ItemTypeId": 3776,
+				"Type": "Item"
+			}
+		]
+	},
+	"19812": {
+		"Entries": []
+	},
+	"19813": {
+		"Entries": []
+	},
+	"19814": {
+		"Entries": []
+	},
+	"19815": {
+		"Entries": []
+	},
+	"19821": {
+		"Entries": [
+			{
+				"ItemTypeId": 3778,
+				"Type": "Item"
+			}
+		]
+	},
+	"19822": {
+		"Entries": []
+	},
+	"19823": {
+		"Entries": []
+	},
+	"19824": {
+		"Entries": []
+	},
+	"19825": {
+		"Entries": []
+	},
+	"19831": {
+		"Entries": [
+			{
+				"ItemTypeId": 3778,
+				"Type": "Item"
+			}
+		]
+	},
+	"19832": {
+		"Entries": []
+	},
+	"19833": {
+		"Entries": []
+	},
+	"19834": {
+		"Entries": []
+	},
+	"19835": {
+		"Entries": []
+	},
+	"19841": {
+		"Entries": []
+	},
+	"19842": {
+		"Entries": []
+	},
+	"19843": {
+		"Entries": []
+	},
+	"19844": {
+		"Entries": []
+	},
+	"19845": {
+		"Entries": []
+	},
+	"19851": {
+		"Entries": []
+	},
+	"19852": {
+		"Entries": []
+	},
+	"19853": {
+		"Entries": []
+	},
+	"19854": {
+		"Entries": []
+	},
+	"19855": {
+		"Entries": []
+	},
+	"19866": {
+		"Entries": [
+			{
+				"ItemTypeId": 3774,
+				"Type": "Item"
+			}
+		]
+	},
+	"19867": {
+		"Entries": []
+	},
+	"19868": {
+		"Entries": []
+	},
+	"19869": {
+		"Entries": []
+	},
+	"19870": {
+		"Entries": []
+	},
+	"19881": {
+		"Entries": [
+			{
+				"ItemTypeId": 3774,
+				"Type": "Item"
+			}
+		]
+	},
+	"19882": {
+		"Entries": []
+	},
+	"19883": {
+		"Entries": []
+	},
+	"19884": {
+		"Entries": []
+	},
+	"19885": {
+		"Entries": []
+	},
 	"199": {
 		"Entries": [
 			{
@@ -15586,6 +16582,10 @@
 	},
 	"201": {
 		"Entries": [
+			{
+				"Npc": "AlchemyBook",
+				"Type": "NpcGift"
+			},
 			{
 				"QuestId": 17103,
 				"Type": "Quest"
@@ -15763,16 +16763,36 @@
 		]
 	},
 	"21071": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"21072": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"21073": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"21074": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"21081": {
 		"Entries": [
@@ -16805,6 +17825,10 @@
 	"22281": {
 		"Entries": [
 			{
+				"Npc": "UkorgasWelcomeSign",
+				"Type": "NpcGift"
+			},
+			{
 				"Npc": "NPC_Ukorga",
 				"Type": "Training"
 			}
@@ -17505,7 +18529,12 @@
 		]
 	},
 	"23201": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "HoplologyBook",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"23251": {
 		"Entries": [
@@ -18393,10 +19422,42 @@
 			}
 		]
 	},
+	"24261": {
+		"Entries": [
+			{
+				"ItemTypeId": 3914,
+				"Type": "Item"
+			}
+		]
+	},
 	"24264": {
 		"Entries": [
 			{
 				"ItemTypeId": 3904,
+				"Type": "Item"
+			}
+		]
+	},
+	"24266": {
+		"Entries": [
+			{
+				"ItemTypeId": 3918,
+				"Type": "Item"
+			}
+		]
+	},
+	"24267": {
+		"Entries": [
+			{
+				"ItemTypeId": 3912,
+				"Type": "Item"
+			}
+		]
+	},
+	"24268": {
+		"Entries": [
+			{
+				"ItemTypeId": 3916,
 				"Type": "Item"
 			}
 		]
@@ -18413,6 +19474,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3906,
+				"Type": "Item"
+			}
+		]
+	},
+	"24272": {
+		"Entries": [
+			{
+				"ItemTypeId": 3923,
 				"Type": "Item"
 			}
 		]
@@ -18441,6 +19510,22 @@
 			}
 		]
 	},
+	"24277": {
+		"Entries": [
+			{
+				"ItemTypeId": 3922,
+				"Type": "Item"
+			}
+		]
+	},
+	"24279": {
+		"Entries": [
+			{
+				"ItemTypeId": 3919,
+				"Type": "Item"
+			}
+		]
+	},
 	"24281": {
 		"Entries": [
 			{
@@ -18449,10 +19534,26 @@
 			}
 		]
 	},
+	"24283": {
+		"Entries": [
+			{
+				"ItemTypeId": 3915,
+				"Type": "Item"
+			}
+		]
+	},
 	"24285": {
 		"Entries": [
 			{
 				"ItemTypeId": 3909,
+				"Type": "Item"
+			}
+		]
+	},
+	"24287": {
+		"Entries": [
+			{
+				"ItemTypeId": 3913,
 				"Type": "Item"
 			}
 		]
@@ -18465,11 +19566,40 @@
 			}
 		]
 	},
+	"24289": {
+		"Entries": [
+			{
+				"ItemTypeId": 3920,
+				"Type": "Item"
+			}
+		]
+	},
+	"24292": {
+		"Entries": [
+			{
+				"ItemTypeId": 3917,
+				"Type": "Item"
+			}
+		]
+	},
+	"24294": {
+		"Entries": [
+			{
+				"ItemTypeId": 3921,
+				"Type": "Item"
+			}
+		]
+	},
 	"24401": {
 		"Entries": []
 	},
 	"24402": {
-		"Entries": []
+		"Entries": [
+			{
+				"QuestId": 45427,
+				"Type": "Quest"
+			}
+		]
 	},
 	"25": {
 		"Entries": [
@@ -18556,10 +19686,20 @@
 		]
 	},
 	"25026": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"25027": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"25028": {
 		"Entries": [
@@ -19237,6 +20377,114 @@
 			}
 		]
 	},
+	"25631": {
+		"Entries": [
+			{
+				"ItemTypeId": 3567,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25632": {
+		"Entries": [
+			{
+				"ItemTypeId": 3568,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25633": {
+		"Entries": [
+			{
+				"ItemTypeId": 3569,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25634": {
+		"Entries": [
+			{
+				"ItemTypeId": 3570,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25635": {
+		"Entries": [
+			{
+				"ItemTypeId": 3571,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25636": {
+		"Entries": [
+			{
+				"ItemTypeId": 3572,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25637": {
+		"Entries": [
+			{
+				"ItemTypeId": 3573,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25638": {
+		"Entries": [
+			{
+				"ItemTypeId": 3574,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"25639": {
+		"Entries": [
+			{
+				"ItemTypeId": 3576,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
 	"257": {
 		"Entries": [
 			{
@@ -19289,6 +20537,14 @@
 			}
 		]
 	},
+	"26006": {
+		"Entries": [
+			{
+				"Npc": "HalloweenPartyLoot",
+				"Type": "NpcGift"
+			}
+		]
+	},
 	"26007": {
 		"Entries": [
 			{
@@ -19305,35 +20561,117 @@
 			}
 		]
 	},
+	"26009": {
+		"Entries": [
+			{
+				"ItemTypeId": 3007,
+				"Type": "Item"
+			}
+		]
+	},
+	"26010": {
+		"Entries": [
+			{
+				"ItemTypeId": 3027,
+				"Type": "Item"
+			}
+		]
+	},
+	"26011": {
+		"Entries": [
+			{
+				"ItemTypeId": 3028,
+				"Type": "Item"
+			}
+		]
+	},
+	"26012": {
+		"Entries": [
+			{
+				"ItemTypeId": 3029,
+				"Type": "Item"
+			}
+		]
+	},
 	"26101": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CorpseOfSerbule",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26102": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "BorghildLibrary",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26103": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CorpseOfSerbule",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26104": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "BorghildLibrary",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26105": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CorpseOfSerbule",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26106": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "BorghildLibrary",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26107": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CorpseOfSerbule",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26108": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "BorghildLibrary",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26109": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CorpseOfSerbule",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26110": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "BorghildLibrary",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26111": {
 		"Entries": [
@@ -19768,55 +21106,140 @@
 		]
 	},
 	"26708": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Bacon",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26710": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Bacon",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26712": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Bacon",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26723": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Ocean",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26725": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Ocean",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26727": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Ocean",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26738": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Sprint",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26740": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Sprint",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26742": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Sprint",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26753": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Cold",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26755": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Cold",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26756": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Cold",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26757": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Cold",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26768": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Precog",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26770": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Precog",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26772": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Precog",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26781": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Halloween",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"26901": {
 		"Entries": [
@@ -20794,6 +22217,209 @@
 			}
 		]
 	},
+	"28251": {
+		"Entries": [
+			{
+				"ItemTypeId": 2751,
+				"Type": "Item"
+			}
+		]
+	},
+	"28252": {
+		"Entries": []
+	},
+	"28253": {
+		"Entries": []
+	},
+	"28254": {
+		"Entries": []
+	},
+	"28255": {
+		"Entries": []
+	},
+	"28256": {
+		"Entries": []
+	},
+	"28257": {
+		"Entries": []
+	},
+	"28258": {
+		"Entries": []
+	},
+	"28276": {
+		"Entries": [
+			{
+				"ItemTypeId": 2752,
+				"Type": "Item"
+			}
+		]
+	},
+	"28277": {
+		"Entries": []
+	},
+	"28278": {
+		"Entries": []
+	},
+	"28279": {
+		"Entries": []
+	},
+	"28280": {
+		"Entries": []
+	},
+	"28281": {
+		"Entries": []
+	},
+	"28282": {
+		"Entries": []
+	},
+	"28283": {
+		"Entries": []
+	},
+	"28291": {
+		"Entries": [
+			{
+				"ItemTypeId": 2753,
+				"Type": "Item"
+			}
+		]
+	},
+	"28292": {
+		"Entries": []
+	},
+	"28293": {
+		"Entries": []
+	},
+	"28294": {
+		"Entries": []
+	},
+	"28295": {
+		"Entries": []
+	},
+	"28296": {
+		"Entries": []
+	},
+	"28297": {
+		"Entries": []
+	},
+	"28298": {
+		"Entries": []
+	},
+	"28306": {
+		"Entries": [
+			{
+				"ItemTypeId": 2754,
+				"Type": "Item"
+			}
+		]
+	},
+	"28307": {
+		"Entries": []
+	},
+	"28308": {
+		"Entries": []
+	},
+	"28309": {
+		"Entries": []
+	},
+	"28310": {
+		"Entries": []
+	},
+	"28311": {
+		"Entries": []
+	},
+	"28312": {
+		"Entries": []
+	},
+	"28313": {
+		"Entries": []
+	},
+	"28321": {
+		"Entries": [
+			{
+				"ItemTypeId": 2755,
+				"Type": "Item"
+			}
+		]
+	},
+	"28322": {
+		"Entries": []
+	},
+	"28323": {
+		"Entries": []
+	},
+	"28324": {
+		"Entries": []
+	},
+	"28325": {
+		"Entries": []
+	},
+	"28326": {
+		"Entries": []
+	},
+	"28327": {
+		"Entries": []
+	},
+	"28328": {
+		"Entries": []
+	},
+	"28336": {
+		"Entries": [
+			{
+				"ItemTypeId": 2756,
+				"Type": "Item"
+			}
+		]
+	},
+	"28337": {
+		"Entries": []
+	},
+	"28338": {
+		"Entries": []
+	},
+	"28339": {
+		"Entries": []
+	},
+	"28340": {
+		"Entries": []
+	},
+	"28341": {
+		"Entries": []
+	},
+	"28342": {
+		"Entries": []
+	},
+	"28343": {
+		"Entries": []
+	},
+	"28351": {
+		"Entries": [
+			{
+				"ItemTypeId": 2757,
+				"Type": "Item"
+			}
+		]
+	},
+	"28352": {
+		"Entries": []
+	},
+	"28353": {
+		"Entries": []
+	},
+	"28354": {
+		"Entries": []
+	},
+	"28355": {
+		"Entries": []
+	},
+	"28356": {
+		"Entries": []
+	},
+	"28357": {
+		"Entries": []
+	},
+	"28358": {
+		"Entries": []
+	},
 	"29": {
 		"Entries": [
 			{
@@ -21002,6 +22628,18 @@
 			}
 		]
 	},
+	"30025": {
+		"Entries": []
+	},
+	"30026": {
+		"Entries": []
+	},
+	"30027": {
+		"Entries": []
+	},
+	"30028": {
+		"Entries": []
+	},
 	"301": {
 		"Entries": [
 			{
@@ -21040,14 +22678,19 @@
 	"30105": {
 		"Entries": []
 	},
-	"30106": {
-		"Entries": []
-	},
 	"30107": {
 		"Entries": [
 			{
 				"Npc": "NPC_Yavazek",
 				"Type": "Training"
+			}
+		]
+	},
+	"30108": {
+		"Entries": [
+			{
+				"QuestId": 15422,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -22200,7 +23843,12 @@
 		]
 	},
 	"506": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5060": {
 		"Entries": [
@@ -22251,7 +23899,12 @@
 		]
 	},
 	"507": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"508": {
 		"Entries": [
@@ -23997,6 +25650,10 @@
 	"7001": {
 		"Entries": [
 			{
+				"Npc": "AlchemyBook",
+				"Type": "NpcGift"
+			},
+			{
 				"QuestId": 17103,
 				"Type": "Quest"
 			}
@@ -24121,19 +25778,38 @@
 				"Type": "Item"
 			},
 			{
+				"Npc": "AlchemyBook",
+				"Type": "NpcGift"
+			},
+			{
 				"QuestId": 17103,
 				"Type": "Quest"
 			}
 		]
 	},
 	"7016": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AlchemyBook2",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7017": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AlchemyBook2",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7018": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AlchemyBook2",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7019": {
 		"Entries": [
@@ -24546,10 +26222,20 @@
 		]
 	},
 	"7063": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "GolemBook",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7064": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "GolemBook",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7067": {
 		"Entries": [
@@ -24876,7 +26562,12 @@
 		]
 	},
 	"7304": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Echur",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"731": {
 		"Entries": [
@@ -24954,6 +26645,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Daisy",
+				"Type": "Training"
+			}
+		]
+	},
+	"7325": {
+		"Entries": [
+			{
+				"Npc": "NPC_Inella",
 				"Type": "Training"
 			}
 		]
@@ -25093,6 +26792,15 @@
 				"Type": "Training"
 			}
 		]
+	},
+	"7413": {
+		"Entries": []
+	},
+	"7414": {
+		"Entries": []
+	},
+	"7415": {
+		"Entries": []
 	},
 	"7501": {
 		"Entries": [
@@ -25263,13 +26971,28 @@
 		]
 	},
 	"7802": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AlchemyBook_SpiderEggs",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7803": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AlchemyBook_SpiderEggs",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7804": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AlchemyBook_SpiderEggs",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"7805": {
 		"Entries": [
@@ -25663,6 +27386,22 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3513,
+				"Type": "Item"
+			}
+		]
+	},
+	"7895": {
+		"Entries": [
+			{
+				"ItemTypeId": 3594,
+				"Type": "Item"
+			}
+		]
+	},
+	"7896": {
+		"Entries": [
+			{
+				"ItemTypeId": 3595,
 				"Type": "Item"
 			}
 		]
@@ -26510,6 +28249,54 @@
 			}
 		]
 	},
+	"8560": {
+		"Entries": [
+			{
+				"ItemTypeId": 3561,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"8561": {
+		"Entries": [
+			{
+				"ItemTypeId": 3561,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"8562": {
+		"Entries": [
+			{
+				"ItemTypeId": 3577,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
+	"8563": {
+		"Entries": [
+			{
+				"ItemTypeId": 3578,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Inella",
+				"Type": "Training"
+			}
+		]
+	},
 	"9001": {
 		"Entries": [
 			{
@@ -26595,7 +28382,12 @@
 		]
 	},
 	"9011": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "DeathPenaltyAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"9012": {
 		"Entries": [

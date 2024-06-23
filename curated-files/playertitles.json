@@ -2750,6 +2750,142 @@
 		"Title": "Fox Rox",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
+	"15499": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord of The Deep Below",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15500": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Servant of Inari",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15501": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Prince with a Thousand Enemies",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15502": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I Didn't Choose This Title",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15503": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Knight Banneret",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15504": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gold Star Family Member",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15505": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "No Regerts",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15506": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cerebral Conjurer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15507": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "of the Redwings",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15508": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "BIG HITS! BIG CRITS!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15509": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Agent of Entropy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15510": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Black Market Wish Dealer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15511": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Intangible",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15512": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Upcoming Royalty of Gorgon",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15513": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I've got a jar of dirt!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15514": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lemon-Looting Deer Dismisser",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15515": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Spider Dominatrix",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
 	"3001": {
 		"Color": "FFFFFF",
 		"Title": "Pre-Alpha 0 Survivor",
@@ -3066,6 +3202,30 @@
 		"Title": "Minor Celebrity Among Water Spirits",
 		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
 	},
+	"3236": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Bunny",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3237": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Fox",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3238": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Butterfly",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
 	"5001": {
 		"Color": "00CC00",
 		"Title": "Title Text Goes Here",
@@ -3204,138 +3364,135 @@
 	"5025": {
 		"Color": "00CC00",
 		"Title": "Battle Yak",
-		"Tooltip": "Title #1 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #1 of 20 from Boss Gauntlet 1."
 	},
 	"5026": {
 		"Color": "00CC00",
 		"Title": "Udderly Infallible",
-		"Tooltip": "Title #2 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #2 of 20 from Boss Gauntlet 1."
 	},
 	"5027": {
 		"Color": "00CC00",
 		"Title": "Earthy Flavor With Woody Notes",
-		"Tooltip": "Title #3 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #3 of 20 from Boss Gauntlet 1."
 	},
 	"5028": {
 		"Color": "00CC00",
 		"Title": "Longs For The Sea",
-		"Tooltip": "Title #4 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #4 of 20 from Boss Gauntlet 1."
 	},
 	"5029": {
 		"Color": "00CC00",
 		"Title": "Very Old and Very Strong",
-		"Tooltip": "Title #5 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #5 of 20 from Boss Gauntlet 1."
 	},
 	"5030": {
 		"Color": "00CC00",
 		"Title": "Make It Bleed!",
-		"Tooltip": "Title #6 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #6 of 20 from Boss Gauntlet 1."
 	},
 	"5031": {
 		"Color": "00CC00",
 		"Title": "Extremely Bullheaded",
-		"Tooltip": "Title #7 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #7 of 20 from Boss Gauntlet 1."
 	},
 	"5032": {
 		"Color": "00CC00",
 		"Title": "Carries Their Home On Their Back",
-		"Tooltip": "Title #8 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #8 of 20 from Boss Gauntlet 1."
 	},
 	"5033": {
 		"Color": "00CC00",
 		"Title": "Surprise Bovinity",
-		"Tooltip": "Title #9 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #9 of 20 from Boss Gauntlet 1."
 	},
 	"5034": {
 		"Color": "00CC00",
 		"Title": "Snakey",
-		"Tooltip": "Title #10 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #10 of 20 from Boss Gauntlet 1."
 	},
 	"5035": {
 		"Color": "00CC00",
 		"Title": "Extremely Venomous",
-		"Tooltip": "Title #11 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #11 of 20 from Boss Gauntlet 1."
 	},
 	"5036": {
 		"Color": "00CC00",
 		"Title": "Wet and Slimy",
-		"Tooltip": "Title #12 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #12 of 20 from Boss Gauntlet 1."
 	},
 	"5037": {
 		"Color": "00CC00",
 		"Title": "Not The Smartest In The Room",
-		"Tooltip": "Title #13 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #13 of 20 from Boss Gauntlet 1."
 	},
 	"5038": {
 		"Color": "00CC00",
 		"Title": "Intransigent",
-		"Tooltip": "Title #14 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #14 of 20 from Boss Gauntlet 1."
 	},
 	"5039": {
 		"Color": "00CC00",
 		"Title": "Smells Like The Outdoors",
-		"Tooltip": "Title #15 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #15 of 20 from Boss Gauntlet 1."
 	},
 	"5040": {
 		"Color": "00CC00",
 		"Title": "Make It So",
-		"Tooltip": "Title #16 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #16 of 20 from Boss Gauntlet 1."
 	},
 	"5041": {
 		"Color": "00CC00",
 		"Title": "Set Clubs To Stun!",
-		"Tooltip": "Title #17 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #17 of 20 from Boss Gauntlet 1."
 	},
 	"5042": {
 		"Color": "00CC00",
 		"Title": "Fascinating, Captain",
-		"Tooltip": "Title #18 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #18 of 20 from Boss Gauntlet 1."
 	},
 	"5043": {
 		"Color": "00CC00",
 		"Title": "Everything Will Be All Right",
-		"Tooltip": "Title #19 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #19 of 20 from Boss Gauntlet 1."
 	},
 	"5044": {
 		"Color": "00CC00",
 		"Title": "Won't Underestimate You Next Time",
-		"Tooltip": "Title #20 of 20 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #20 of 20 from Boss Gauntlet 1."
 	},
 	"5045": {
 		"Color": "00CC00",
 		"Title": "Am OP, Please Nerf!",
-		"Tooltip": "Earned by completing the Boss Gauntlet '22 event."
+		"Tooltip": "Earned by completing Boss Gauntlet 1."
 	},
 	"5046": {
 		"Color": "00CC00",
 		"Title": "Friend of Darkness",
-		"Tooltip": "Bonus Title #X1 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #1 of 25 from Boss Gauntlet 2."
 	},
 	"5047": {
 		"Color": "00CC00",
 		"Title": "Valiant Except When On Fire",
-		"Tooltip": "Bonus Title #X2 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #2 of 25 from Boss Gauntlet 2."
 	},
 	"5048": {
 		"Color": "00CC00",
 		"Title": "Insane Ghost",
-		"Tooltip": "Bonus Title #X3 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #3 of 25 from Boss Gauntlet 2."
 	},
 	"5049": {
 		"Color": "00CC00",
 		"Title": "Ready To Be Sacrificed To Enoyos",
-		"Tooltip": "Bonus Title #X4 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #22 of 25 from Boss Gauntlet 2."
 	},
 	"5050": {
 		"Color": "00CC00",
 		"Title": "Lovable and Squeezable",
-		"Tooltip": "Bonus Title #X5 of X5 from the Boss Gauntlet '22 event."
+		"Tooltip": "Title #21 of 25 from Boss Gauntlet 2."
 	},
 	"5051": {
 		"Color": "00CC00",
-		"Keywords": [
-			"Lint_NotObtainable"
-		],
 		"Title": "Party Cultist 2023",
 		"Tooltip": "Earned during the Zhia Lian event in 2023."
 	},
@@ -3354,7 +3511,121 @@
 		"Title": "Wall Hopper",
 		"Tooltip": "Earned in a pocket dimension."
 	},
+	"5055": {
+		"Color": "00CC00",
+		"Title": "Corpse Kisser",
+		"Tooltip": "Title #4 of 25 from Boss Gauntlet 2."
+	},
+	"5056": {
+		"Color": "00CC00",
+		"Title": "Squeaky King",
+		"Tooltip": "Title #5 of 25 from Boss Gauntlet 2."
+	},
+	"5057": {
+		"Color": "00CC00",
+		"Title": "Just So Tired",
+		"Tooltip": "Title #6 of 25 from Boss Gauntlet 2."
+	},
+	"5058": {
+		"Color": "00CC00",
+		"Title": "Haven't The Foggiest",
+		"Tooltip": "Title #7 of 25 from Boss Gauntlet 2."
+	},
+	"5059": {
+		"Color": "00CC00",
+		"Title": "The Pain Is In Your Head",
+		"Tooltip": "Title #8 of 25 from Boss Gauntlet 2."
+	},
+	"5060": {
+		"Color": "00CC00",
+		"Title": "I'll Only Slow You Down",
+		"Tooltip": "Title #9 of 25 from Boss Gauntlet 2."
+	},
+	"5061": {
+		"Color": "00CC00",
+		"Title": "Big-Headed",
+		"Tooltip": "Title #10 of 25 from Boss Gauntlet 2."
+	},
+	"5062": {
+		"Color": "00CC00",
+		"Title": "TIME FOR THUNDER!!!",
+		"Tooltip": "Title #11 of 25 from Boss Gauntlet 2."
+	},
+	"5063": {
+		"Color": "00CC00",
+		"Title": "My Hands Are Swelling Up",
+		"Tooltip": "Title #12 of 25 from Boss Gauntlet 2."
+	},
+	"5064": {
+		"Color": "00CC00",
+		"Title": "Who Should I Kill Next?",
+		"Tooltip": "Title #13 of 25 from Boss Gauntlet 2."
+	},
+	"5065": {
+		"Color": "00CC00",
+		"Title": "Let's Play A Game",
+		"Tooltip": "Title #14 of 25 from Boss Gauntlet 2."
+	},
+	"5066": {
+		"Color": "00CC00",
+		"Title": "nobody",
+		"Tooltip": "Title #15 of 25 from Boss Gauntlet 2."
+	},
+	"5067": {
+		"Color": "00CC00",
+		"Title": "Testing My Super-Suit",
+		"Tooltip": "Title #16 of 25 from Boss Gauntlet 2."
+	},
+	"5068": {
+		"Color": "00CC00",
+		"Title": "Stop Killing Me, It's Very Irritating",
+		"Tooltip": "Title #17 of 25 from Boss Gauntlet 2."
+	},
+	"5069": {
+		"Color": "00CC00",
+		"Title": "Puckish",
+		"Tooltip": "Title #18 of 25 from Boss Gauntlet 2."
+	},
+	"5070": {
+		"Color": "00CC00",
+		"Title": "Gnarled and Horny",
+		"Tooltip": "Title #19 of 25 from Boss Gauntlet 2."
+	},
+	"5071": {
+		"Color": "00CC00",
+		"Title": "Heavy Breather",
+		"Tooltip": "Title #20 of 25 from Boss Gauntlet 2."
+	},
+	"5072": {
+		"Color": "00CC00",
+		"Title": "Psst: Druids Are Evil!",
+		"Tooltip": "Title #23 of 25 from Boss Gauntlet 2."
+	},
+	"5073": {
+		"Color": "00CC00",
+		"Title": "Terror From the Deep",
+		"Tooltip": "Title #24 of 25 from Boss Gauntlet 2."
+	},
+	"5074": {
+		"Color": "00CC00",
+		"Title": "I'll Hate You Better",
+		"Tooltip": "Title #25 of 25 from Boss Gauntlet 2."
+	},
+	"5075": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Boss Gauntlet 2 Beta Tester",
+		"Tooltip": "Earned by completing Boss Gauntlet 2 very shortly after its release."
+	},
+	"5076": {
+		"Color": "00CC00",
+		"Title": "Boss Monster",
+		"Tooltip": "Earned by completing Boss Gauntlet 2."
+	},
 	"51": {
+		"AccountWide": true,
 		"Color": "FFFFFF",
 		"Keywords": [
 			"Lint_NotObtainable"
@@ -3362,6 +3633,7 @@
 		"Title": "Brown-Noser"
 	},
 	"52": {
+		"AccountWide": true,
 		"Color": "FFFFFF",
 		"Keywords": [
 			"Lint_NotObtainable"
@@ -3465,11 +3737,13 @@
 		"Tooltip": "Earned via in-game events."
 	},
 	"5213": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Patient Hero",
 		"Tooltip": "A gift from the 2019 winter holiday festival."
 	},
 	"5214": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Grizzled Geezer",
 		"Tooltip": "A gift from the 2019 winter holiday festival."
@@ -3523,6 +3797,7 @@
 		"Tooltip": "Earned via in-game events."
 	},
 	"5221": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Steamed 2021",
 		"Tooltip": "A gift to celebrate our 3rd anniversary on Steam."
@@ -3552,29 +3827,99 @@
 		"Tooltip": "Earned via in-game events."
 	},
 	"5225": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Steamed 2022",
 		"Tooltip": "A gift to celebrate our 4th anniversary on Steam."
 	},
 	"5226": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Challenge Accepted",
 		"Tooltip": "A gift for your participation in the 2022 VIP Challenge."
 	},
 	"5227": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Steamed 2023",
 		"Tooltip": "A gift to celebrate our 5th anniversary on Steam."
 	},
 	"5228": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "Summer's Fairest",
-		"Tooltip": "A reward from the Summer 2023 Add-On backer package."
+		"Tooltip": "Included in the Summer 2023 Add-On backer package."
 	},
 	"5229": {
+		"AccountWide": true,
 		"Color": "00CC00",
 		"Title": "I tried!",
 		"Tooltip": "2023 VIP Challenge participation reward."
+	},
+	"5230": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Steamed 2024",
+		"Tooltip": "A gift to celebrate our 6th anniversary on Steam."
+	},
+	"5231": {
+		"Color": "00CC00",
+		"Title": "Somebody Loves Me!",
+		"Tooltip": "A gift for our VIPs during February 2024."
+	},
+	"5232": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "No Spring Chicken",
+		"Tooltip": "A gift for our VIPs during May 2024."
+	},
+	"5233": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Chasing Rainbows",
+		"Tooltip": "Included in the Summer 2024 Add-On backer package."
+	},
+	"5234": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Soaking Up the Sun",
+		"Tooltip": "A gift for our VIPs during June 2024."
+	},
+	"5235": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Frog in a Well",
+		"Tooltip": "A gift for our VIPs during July 2024."
+	},
+	"5236": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Summer Lover",
+		"Tooltip": "A gift for our VIPs during August 2024."
+	},
+	"5237": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Making Hay",
+		"Tooltip": "A gift for our VIPs during September 2024."
+	},
+	"5238": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Bad Apple",
+		"Tooltip": "A gift for our VIPs during October 2024."
+	},
+	"5239": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Old Chestnut",
+		"Tooltip": "A gift for our VIPs during November 2024."
+	},
+	"5240": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Snug as a Bug",
+		"Tooltip": "A gift for our VIPs during December 2024."
 	},
 	"53": {
 		"Color": "FFFFFF",
@@ -3584,8 +3929,27 @@
 		"Title": "Expert Complainer"
 	},
 	"54": {
+		"AccountWide": true,
 		"Color": "FFFFFF",
 		"Title": "Animated",
 		"Tooltip": "Earned by experiencing our brand new animation system - and its brand new bugs - in March 2021."
+	},
+	"55": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "400th Time's the Charm",
+		"Tooltip": "Obtained during the 400th published build of Project: Gorgon"
+	},
+	"56": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Title Not Found",
+		"Tooltip": "Obtained by using the command /404 during the 400th published build of Project: Gorgon. (This one's just for the JSON-sniffers.)"
 	}
 }

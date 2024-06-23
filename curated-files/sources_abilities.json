@@ -2133,25 +2133,60 @@
 		]
 	},
 	"1392": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1393": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1394": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1395": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1396": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1397": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1398": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1399": {
 		"Entries": [
@@ -2282,7 +2317,12 @@
 		]
 	},
 	"1443": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1444": {
 		"Entries": [
@@ -2373,10 +2413,20 @@
 		]
 	},
 	"1461": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1462": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1501": {
 		"Entries": [
@@ -4115,7 +4165,12 @@
 		]
 	},
 	"1783": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_LeonardAllenson",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"1790": {
 		"Entries": [
@@ -4580,16 +4635,30 @@
 	"2021": {
 		"Entries": [
 			{
+				"Npc": "NPC_Gisli",
+				"Type": "NpcGift"
+			},
+			{
 				"Skill": "AnimalHandling",
 				"Type": "Skill"
 			}
 		]
 	},
 	"2022": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "CatCharmPedestal",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"2023": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "BearCharmPedestal",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"2024": {
 		"Entries": [
@@ -7785,6 +7854,14 @@
 			}
 		]
 	},
+	"2806": {
+		"Entries": [
+			{
+				"ItemTypeId": 31971,
+				"Type": "Item"
+			}
+		]
+	},
 	"2811": {
 		"Entries": [
 			{
@@ -7814,6 +7891,14 @@
 			{
 				"Npc": "NPC_Kohan",
 				"Type": "Training"
+			}
+		]
+	},
+	"2815": {
+		"Entries": [
+			{
+				"ItemTypeId": 31972,
+				"Type": "Item"
 			}
 		]
 	},
@@ -7857,6 +7942,14 @@
 			}
 		]
 	},
+	"2835": {
+		"Entries": [
+			{
+				"ItemTypeId": 31973,
+				"Type": "Item"
+			}
+		]
+	},
 	"2841": {
 		"Entries": [
 			{
@@ -7889,6 +7982,14 @@
 			}
 		]
 	},
+	"2845": {
+		"Entries": [
+			{
+				"ItemTypeId": 31974,
+				"Type": "Item"
+			}
+		]
+	},
 	"2851": {
 		"Entries": [
 			{
@@ -7902,6 +8003,14 @@
 			{
 				"Npc": "NPC_SandSeer",
 				"Type": "Training"
+			}
+		]
+	},
+	"2862": {
+		"Entries": [
+			{
+				"ItemTypeId": 31975,
+				"Type": "Item"
 			}
 		]
 	},
@@ -8742,7 +8851,12 @@
 		]
 	},
 	"3128": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "AntiBrainBugSpellBook",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3131": {
 		"Entries": [
@@ -8846,10 +8960,20 @@
 		]
 	},
 	"3148": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "TrainingStation1",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3149": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "TrainingStation2",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3150": {
 		"Entries": []
@@ -8909,19 +9033,44 @@
 		"Entries": []
 	},
 	"3181": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "ModeratorToolbox",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3182": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "ModeratorToolbox",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3183": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "ModeratorToolbox",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3184": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "ModeratorToolbox",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3185": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "ModeratorToolbox",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3201": {
 		"Entries": [
@@ -9878,7 +10027,12 @@
 		"Entries": []
 	},
 	"3743": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "GoblinFireResearchDesk1",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"3745": {
 		"Entries": []
@@ -13787,7 +13941,12 @@
 		]
 	},
 	"5206": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Rixie",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5211": {
 		"Entries": [
@@ -15094,39 +15253,122 @@
 		]
 	},
 	"5449": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Felmer",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5450": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Rita",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5451": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_LanaSongtree",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5452": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_SirArif",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5453": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Spot",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5454": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Gasuum",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5455": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sheyna",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5456": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Kalaba",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5457": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Dhakmar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5458": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_EvelineRastin",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5459": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Melandria",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5460": {
+		"Entries": [
+			{
+				"Npc": "NPC_JanetLews",
+				"Type": "NpcGift"
+			}
+		]
+	},
+	"5467": {
+		"Entries": [
+			{
+				"Npc": "NPC_Shala",
+				"Type": "NpcGift"
+			}
+		]
+	},
+	"5468": {
+		"Entries": []
+	},
+	"5469": {
+		"Entries": []
+	},
+	"5470": {
+		"Entries": []
+	},
+	"5471": {
+		"Entries": []
+	},
+	"5472": {
 		"Entries": []
 	},
 	"5601": {
@@ -15858,7 +16100,12 @@
 		]
 	},
 	"5784": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_Sphere",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"5785": {
 		"Entries": [
@@ -16449,7 +16696,12 @@
 		]
 	},
 	"6006": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"6007": {
 		"Entries": [
@@ -16508,13 +16760,28 @@
 		]
 	},
 	"6014": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"6015": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"6016": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"6017": {
 		"Entries": [
@@ -16557,10 +16824,20 @@
 		]
 	},
 	"6022": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"6023": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"6024": {
 		"Entries": [
@@ -16573,6 +16850,10 @@
 	"6025": {
 		"Entries": [
 			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			},
+			{
 				"Npc": "NPC_Sanja",
 				"Type": "Training"
 			}
@@ -16580,6 +16861,10 @@
 	},
 	"6026": {
 		"Entries": [
+			{
+				"Npc": "WerewolfAltar",
+				"Type": "NpcGift"
+			},
 			{
 				"Npc": "NPC_Sanja",
 				"Type": "Training"
@@ -24129,7 +24414,12 @@
 		]
 	},
 	"9363": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"9364": {
 		"Entries": [
@@ -24164,7 +24454,12 @@
 		]
 	},
 	"9368": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"9369": {
 		"Entries": []
@@ -24173,15 +24468,46 @@
 		"Entries": []
 	},
 	"9371": {
-		"Entries": []
+		"Entries": [
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "NpcGift"
+			}
+		]
 	},
 	"9372": {
+		"Entries": []
+	},
+	"9373": {
 		"Entries": []
 	},
 	"9374": {
 		"Entries": []
 	},
+	"9375": {
+		"Entries": []
+	},
 	"9377": {
+		"Entries": [
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "NpcGift"
+			}
+		]
+	},
+	"9380": {
+		"Entries": []
+	},
+	"9382": {
+		"Entries": []
+	},
+	"9383": {
+		"Entries": []
+	},
+	"9384": {
+		"Entries": []
+	},
+	"9388": {
 		"Entries": []
 	}
 }

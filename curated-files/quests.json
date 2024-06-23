@@ -8818,6 +8818,173 @@
 		"SuccessText": "But I do not want a different mate than Tavilak! Surely there is a resolution to this. She could simply refrain from killing me, for instance... I need to meld with Tavilak and understand her concerns. Could you cover my storefront for a few minutes while I see her? It shouldn't take too long. <i>[New Hangout available.]</i>",
 		"Version": 1
 	},
+	"15420": {
+		"Description": "Irkima in Red Wing Casino said, \"I have a pigeon with a broken wing, and I am in need of some supplies to try and heal it. There is a special realm where Phoenixes dwell that is occupied by the Fae.\nGo there and kill these creatures until you can get a good, undamaged phoenix feather. I can use the feather's regenerative abilities to help accelerate the healing process. Bring the feather back to me as soon as you can! I need it as fresh as possible.\"",
+		"DisplayedLocation": "Casino",
+		"FavorNpc": "AreaCasino/NPC_Irkima",
+		"FollowUpQuests": [
+			"DontForgetTheEgg"
+		],
+		"InternalName": "BrokenWings",
+		"IsAutoPreface": true,
+		"IsCancellable": true,
+		"Name": "Broken Wings",
+		"Objectives": [
+			{
+				"Description": "Loot a phoenix feather from a phoenix",
+				"ItemName": "PhoenixFeather",
+				"Number": 1,
+				"Type": "Loot"
+			},
+			{
+				"Description": "Keep phoenix feather for Irkima",
+				"ItemName": "PhoenixFeather",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I have a pigeon with a broken wing, and I am in need of some supplies to try and heal it. There is a special realm where Phoenixes dwell that is occupied by the Fae.\nGo there and kill these creatures until you can get a good, undamaged phoenix feather. I can use the feather's regenerative abilities to help accelerate the healing process. Bring the feather back to me as soon as you can! I need it as fresh as possible.",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaCasino/NPC_Irkima",
+				"T": "MinFavorLevel"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"Item": "RedWingToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent! I'll get her wing wrapped up right away to start the healing.",
+		"Version": 1
+	},
+	"15421": {
+		"Description": "Irkima in Red Wing Casino said, \"I'm feeling a little foolish about this, but could I trouble you to go back where you were and get me a fresh phoenix egg? I know I should have asked you before, but I completely forgot about it. I mix the egg with the feed for sickly pigeons to aid in healing.\nI have asked to speak with the Queen about your request, and will let her know of your extra effort to aid me.\"",
+		"DisplayedLocation": "Casino",
+		"FavorNpc": "AreaCasino/NPC_Irkima",
+		"InternalName": "DontForgetTheEgg",
+		"IsAutoPreface": true,
+		"Name": "Don't Forget the Egg",
+		"Objectives": [
+			{
+				"Description": "Loot a phoenix egg from a phoenix",
+				"ItemName": "PhoenixEgg",
+				"Number": 1,
+				"Type": "Loot"
+			},
+			{
+				"Description": "Keep phoenix egg for Irkima",
+				"ItemName": "PhoenixEgg",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I'm feeling a little foolish about this, but could I trouble you to go back where you were and get me a fresh phoenix egg? I know I should have asked you before, but I completely forgot about it. I mix the egg with the feed for sickly pigeons to aid in healing.\nI have asked to speak with the Queen about your request, and will let her know of your extra effort to aid me.",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaCasino/NPC_Irkima",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "BrokenWings",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"InteractionFlag": "IrkimaPigeonWait",
+				"T": "InteractionFlag"
+			},
+			{
+				"Item": "RedWingToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you for your help. I'll get some feed mixed up and complete treatment. The Queen says she will consider your request. It will be a few hours before I know anything on our patient or hear from the Queen, so check back with me a little later.\n\n<i>[You must wait at least 3 hours before continuing this conversation]</i>",
+		"Version": 1
+	},
+	"15422": {
+		"Description": "Irkima in Red Wing Casino said, \"I have given you my recipe for the bird feed we use here. Collect the ingredients and bring me 10 units of it back.\n\n<i>You can find the recipe in the Lore category of your recipe book.</i>\"",
+		"DisplayedLocation": "Casino",
+		"FavorNpc": "AreaCasino/NPC_Irkima",
+		"InternalName": "NeedForFeed",
+		"IsAutoPreface": true,
+		"Name": "Need for Feed",
+		"Objectives": [
+			{
+				"Description": "Make 10 units of bird feed",
+				"Number": 10,
+				"Target": "BirdFeed",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Keep 10 units of bird feed for Irkima",
+				"ItemName": "BirdFeed",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Irkima",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PreGiveRecipes": [
+			"BirdFeed"
+		],
+		"PrefaceText": "I have given you my recipe for the bird feed we use here. Collect the ingredients and bring me 10 units of it back.\n\n<i>You can find the recipe in the Lore category of your recipe book.</i>",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaCasino/NPC_Irkima",
+				"T": "MinFavorLevel"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"InteractionFlag": "IrkimaPigeonWait2",
+				"T": "InteractionFlag"
+			},
+			{
+				"Ability": "SummonPigeonPet",
+				"T": "Ability"
+			},
+			{
+				"Item": "RedWingToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Very nice job! I'm sure my birds will enjoy it. I am scheduled to see the Queen about your request in a couple hours. Check back with me in about 3 hours and I should have an answer for you.\n\nFor now, get acquainted with your new pet!",
+		"Version": 1
+	},
 	"15501": {
 		"Description": "Eveline Rastin in Red Wing Casino said, \"I have run out of quartz for new jewelry. I would ask Willem, but ... it's complicated. Can you get some for me?\"",
 		"DisplayedLocation": "Casino",
@@ -27763,7 +27930,7 @@
 		"Version": 1
 	},
 	"24822": {
-		"Description": "Lakrea directed you to make yarn. There are Textiles recipes for creating yarn; complete yarn recipes twelve times.",
+		"Description": "Lakrea directed you to make yarn. There are Textiles recipes for creating yarn; complete yarn recipes twelve times (for a total of 24 balls of yarn).",
 		"DisplayedLocation": "Rahu",
 		"FavorNpc": "AreaRahu/NPC_Lakrea",
 		"InternalName": "HolisticWellness_Yarn",
@@ -35083,6 +35250,642 @@
 			}
 		],
 		"SuccessText": "These are good quality. And I see you've left your mark on them. I trust you, so I trust your wares. Thank you.",
+		"Version": 1
+	},
+	"26351": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>basic hammers</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "BasicHammers",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new basic hammers from you.",
+		"Name": "Basic Hammers",
+		"Objectives": [
+			{
+				"Description": "Craft Peening Hammers",
+				"Number": 2,
+				"Target": "PeeningHammer",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Peening Hammers)",
+				"ItemName": "PeeningHammer",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft Dishing Hammers",
+				"Number": 2,
+				"Target": "DishingHammer",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Dishing Hammers)",
+				"ItemName": "DishingHammer",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft Shaping Hammers",
+				"Number": 2,
+				"Target": "ShapingHammer",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Shaping Hammers)",
+				"ItemName": "ShapingHammer",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>basic hammers</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 5,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26352": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>tack hammers</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "TackHammers",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new tack hammers from you.",
+		"Name": "Tack Hammers",
+		"Objectives": [
+			{
+				"Description": "Craft Tack Hammers",
+				"Number": 3,
+				"Target": "TackHammer",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Tack Hammers)",
+				"ItemName": "TackHammer",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft Delicate Tack Hammers",
+				"Number": 1,
+				"Target": "DelicateTackHammer",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Delicate Tack Hammers)",
+				"ItemName": "DelicateTackHammer",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>tack hammers</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 8,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26353": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>fancy hammers</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "FancyHammers",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new fancy hammers from you.",
+		"Name": "Fancy Hammers",
+		"Objectives": [
+			{
+				"Description": "Craft Grand Shaping Hammers",
+				"Number": 2,
+				"Target": "GrandShapingHammer",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Grand Shaping Hammers)",
+				"ItemName": "GrandShapingHammer",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>fancy hammers</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 12,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26354": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>primitive armor stakes</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "PrimitiveArmorStakes",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new primitive armor stakes from you.",
+		"Name": "Primitive Armor Stakes",
+		"Objectives": [
+			{
+				"Description": "Craft Simple Armor Stakes",
+				"Number": 4,
+				"Target": "ArmorStake1",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Simple Armor Stakes)",
+				"ItemName": "ArmorStake1",
+				"Number": 4,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft Basic Armor Stakes",
+				"Number": 4,
+				"Target": "ArmorStake2",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Basic Armor Stakes)",
+				"ItemName": "ArmorStake2",
+				"Number": 4,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>primitive armor stakes</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 8,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26355": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>good armor stakes</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "GoodArmorStakes",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new good armor stakes from you.",
+		"Name": "Good Armor Stakes",
+		"Objectives": [
+			{
+				"Description": "Craft Good Armor Stakes",
+				"Number": 3,
+				"Target": "ArmorStake3",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Good Armor Stakes)",
+				"ItemName": "ArmorStake3",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft Expert-Quality Armor Stakes",
+				"Number": 3,
+				"Target": "ArmorStake4",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Expert-Quality Armor Stakes)",
+				"ItemName": "ArmorStake4",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>good armor stakes</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 11,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26356": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>amazing armor stakes</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "AmazingArmorStakes",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new amazing armor stakes from you.",
+		"Name": "Amazing Armor Stakes",
+		"Objectives": [
+			{
+				"Description": "Craft Masterwork Armor Stakes",
+				"Number": 3,
+				"Target": "ArmorStake5",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Masterwork Armor Stakes)",
+				"ItemName": "ArmorStake5",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft Amazing Armor Stakes",
+				"Number": 3,
+				"Target": "ArmorStake6",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Amazing Armor Stakes)",
+				"ItemName": "ArmorStake6",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>amazing armor stakes</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 16,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26357": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>amazing armor patch kits</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "AmazingArmorPatchKits",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new amazing armor patch kits from you.",
+		"Name": "Amazing Armor Patch Kits",
+		"Objectives": [
+			{
+				"Description": "Craft Amazing Armor Patch Kits",
+				"Number": 4,
+				"Target": "ArmorPatchKit6",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Amazing Armor Patch Kits)",
+				"ItemName": "ArmorPatchKit6",
+				"Number": 4,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>amazing armor patch kits</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 11,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26358": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>astounding armor patch kits</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "AstoundingArmorPatchKits",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new astounding armor patch kits from you.",
+		"Name": "Astounding Armor Patch Kits",
+		"Objectives": [
+			{
+				"Description": "Craft Astounding Armor Patch Kits",
+				"Number": 4,
+				"Target": "ArmorPatchKit7",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Astounding Armor Patch Kits)",
+				"ItemName": "ArmorPatchKit7",
+				"Number": 4,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>astounding armor patch kits</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 13,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
+		"Version": 1
+	},
+	"26359": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>astounding metal slabs</b>. Can you mine some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept ore that you didn't mine yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "AstoundingMetalSlabs",
+		"IsCancellable": true,
+		"MidwayText": "If you're a miner, I'd love to purchase some astounding metal slabs from you.",
+		"Name": "Astounding Metal Slabs",
+		"Objectives": [
+			{
+				"Description": "Harvest Astounding Metal Slabs",
+				"Number": 2,
+				"Target": "MetalSlab7",
+				"Type": "Harvest"
+			},
+			{
+				"Description": "(Keep Astounding Metal Slabs)",
+				"ItemName": "MetalSlab7",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>astounding metal slabs</b>. Can you mine some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept ore that you didn't mine yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 6,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent quality! I'll buy these!",
+		"Version": 1
+	},
+	"26360": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>superb metal slabs</b>. Can you mine some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept ore that you didn't mine yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "SuperbMetalSlabs",
+		"IsCancellable": true,
+		"MidwayText": "If you're a miner, I'd love to purchase some superb metal slabs from you.",
+		"Name": "Superb Metal Slabs",
+		"Objectives": [
+			{
+				"Description": "Harvest Superb Metal Slabs",
+				"Number": 2,
+				"Target": "MetalSlab8",
+				"Type": "Harvest"
+			},
+			{
+				"Description": "(Keep Superb Metal Slabs)",
+				"ItemName": "MetalSlab8",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>superb metal slabs</b>. Can you mine some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept ore that you didn't mine yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 8,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent quality! I'll buy these!",
+		"Version": 1
+	},
+	"26361": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>marvelous metal slabs</b>. Can you mine some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept ore that you didn't mine yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "MarvelousMetalSlabs",
+		"IsCancellable": true,
+		"MidwayText": "If you're a miner, I'd love to purchase some marvelous metal slabs from you.",
+		"Name": "Marvelous Metal Slabs",
+		"Objectives": [
+			{
+				"Description": "Harvest Marvelous Metal Slabs",
+				"Number": 2,
+				"Target": "MetalSlab9",
+				"Type": "Harvest"
+			},
+			{
+				"Description": "(Keep Marvelous Metal Slabs)",
+				"ItemName": "MetalSlab9",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>marvelous metal slabs</b>. Can you mine some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept ore that you didn't mine yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 10,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent quality! I'll buy these!",
+		"Version": 1
+	},
+	"26362": {
+		"Description": "Stephie Blackhammer in Povus said, \"It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>bilge hoops</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!\"",
+		"DisplayedLocation": "Povus",
+		"FavorNpc": "AreaPovus/NPC_StephieBlackhammer",
+		"InternalName": "BilgeHoops",
+		"IsCancellable": true,
+		"MidwayText": "If you're a tool artisan, I'd love to purchase some new bilge hoops from you.",
+		"Name": "Bilge Hoops",
+		"Objectives": [
+			{
+				"Description": "Craft Bilge Hoops",
+				"Number": 4,
+				"Target": "BilgeHoop",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "(Keep Bilge Hoops)",
+				"ItemName": "BilgeHoop",
+				"Number": 4,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Stephie Blackhammer",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It's my job to keep uncle Tremmond working at top capacity, and he's almost out of <b>bilge hoops</b>. Can you make some for me?\n\nMy uncle follows dwarven crafting-guild rules strictly. That means I can't accept tools that you didn't make yourself!",
+		"Requirements": [
+			{
+				"EventQuest": "PovusNightly",
+				"T": "AreaEventOff"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 1
+		},
+		"Rewards": [
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 4,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent craftsmanship! I'll buy these!",
 		"Version": 1
 	},
 	"26401": {
@@ -42710,6 +43513,7 @@
 	},
 	"45001": {
 		"Description": "It's time to enjoy summer activities! Complete the check-list before this event ends to receive a few summer reward items.\n<i>[Night time activities only count after 7pm and before 5am]</i>\n<i>[Goblins hoard the secret of fireworks!]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_SummerExperience",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -42913,6 +43717,7 @@
 			"Event_Halloween_EatCandy",
 			"Event_Halloween_CarveJackOLantern"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_CandiedApple",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -42963,6 +43768,7 @@
 			"Event_Halloween_MournTombstones1",
 			"Event_Halloween_HaveTonsOfCandy"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_EatCandy",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43014,6 +43820,7 @@
 			"Event_Halloween_PumpkinSoup",
 			"Event_Halloween_GruesomeSpookyPunch"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_CarveJackOLantern",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43061,6 +43868,7 @@
 	},
 	"45014": {
 		"Description": "<i>[Note: this quest is for gourmands. Pumpkin pie requires Gourmand 35!]</i>\n\n<i>Zhia Lian:</i> Everybody loves pumpkin pie. (Yes, you do.) So eat one!\n\nYou can find the recipe on the undead, or you might be able to obtain a pumpkin pie from another hero.\n\n<i>[This quest will reward you with 1000 Councils, so even if you pay that much for a pie, you won't lose money.]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PumpkinPie",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43112,6 +43920,7 @@
 			"Event_Halloween_BuryGhouls",
 			"Event_Halloween_DieOnStage"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_MournTombstones1",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43163,6 +43972,7 @@
 			"Event_Halloween_GrowPumpkins",
 			"Event_Halloween_CraftASpookyDye"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_GruesomeSpookyPunch",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43251,6 +44061,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_PumpkinSpiceTea"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PumpkinSmoothie",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43329,6 +44140,7 @@
 			"Event_Halloween_PartyPrep1",
 			"Event_Halloween_BatKillWasps"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BecomeABat",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43389,6 +44201,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_DrinkFromCauldron2"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_DrinkFromCauldron1",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43440,6 +44253,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_PumpkinSpiceTea"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_GrowPumpkins",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43492,6 +44306,7 @@
 	},
 	"45021": {
 		"Description": "<i>Zhia Lian:</i> It takes a brave adventurer to even sip from a Cauldron of Vile Thoughts. And you're clearly brave! But the heartiest adventurers can GUZZLE from the Cauldron, yielding more dramatic results. Are you Guzzle-Level Brave?",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_DrinkFromCauldron2",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43544,6 +44359,7 @@
 			"Event_Halloween_PumpkinSalad",
 			"Event_Halloween_FancyCoffee"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PumpkinSpiceTea",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43604,6 +44420,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_PumpkinPie"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_HatForABat",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43669,6 +44486,7 @@
 			"Event_Halloween_DrinkFromCauldron1",
 			"Event_Halloween_KillPlayersInPvP"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BuryGhouls",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43716,6 +44534,7 @@
 	},
 	"45025": {
 		"Description": "<i>[This quest is just for gardeners. It requires Gardening 15 to grow an evil pumpkin!]</i>\n\n<i>Zhia Lian:</i> You can never have enough exploding pumpkins! Well, I can't. Take the seeds from the evil pumpkins and grow me some evil fruit! Pumpkin is a fruit, right? Well, whatever. Just grow them already!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_GrowEvilPumpkins",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43767,6 +44586,7 @@
 			"Event_Halloween_PumpkinSmoothie",
 			"Event_Halloween_CraftTeaLights"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PumpkinSoup",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43820,6 +44640,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_SourPumpkinSoup"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PumpkinSalad",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43873,6 +44694,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_SpiderIncubateTigers"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BecomeASpider",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43928,6 +44750,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_SpiderSpitAcidOnGoblins"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_SpiderIncubateTigers",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -43979,6 +44802,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_SpiderKillGhostSpiders"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_SpiderSpitAcidOnGoblins",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44095,6 +44919,7 @@
 			"Event_Halloween_BecomeANecromancer",
 			"Event_Halloween_KillEvilHearts1"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillGhosts",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44161,6 +44986,7 @@
 			"Event_Halloween_KillGhouls",
 			"Event_Halloween_KillFacesOfDeath"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillZombies",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44220,6 +45046,7 @@
 			"Event_Halloween_KillMortimer",
 			"Event_Halloween_KillEliteUndead"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillLordSerbule",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44271,6 +45098,7 @@
 			"Event_Halloween_KillMummies",
 			"Event_Halloween_KillMaligno"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillGhouls",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44328,6 +45156,7 @@
 			"Event_Halloween_KillWhileSubmerged",
 			"Event_Halloween_KillEvilLungs1"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillFacesOfDeath",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44380,6 +45209,7 @@
 	},
 	"45037": {
 		"Description": "<i>Zhia Lian:</i> Oh, hey, I just remembered something! There's this toady little necromancer named Mort. He's always been a favorite of Harukita. Last year, some heroes managed to trap him in a pocket dimension, then put the dimension in a magic jar and bury it in a cave! But Harukita just caused it to mysteriously reappear. It's just lying in the snow in Kur. Look for a campfire near a stream, close to an orc settlement.\n\nAnd listen: Mort's technically alive, so killing him is murder. BUT! He was dead, and UN-dead, off and on, for like fifty years before he made some kind of pact with Harukita. So don't sweat the murder thing. He's evil.\n\n<i>[Mortimer is an encounter for a group of players with level 50 combat skills.]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillMortimer",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44430,6 +45260,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillAnhinda"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillMummies",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44492,6 +45323,7 @@
 			"Event_Halloween_KillBonfirePuck",
 			"Event_Halloween_CollectRatkinTambourines"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillMaligno",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44539,6 +45371,7 @@
 	},
 	"45040": {
 		"Description": "<i>Zhia Lian:</i> I heard Ilth Hale say that one of her favorite minions, Empusa, is hiding in Rahu, waiting to strike. You should get some friends and kill Empusa before it's too late! I'm not sure where she's hiding, but I remember something Ilth Hale said: \"Quoth the Ravens, Nevermore\". Maybe it's a pass-phrase or something.\n\n<i>[Empusa is an encounter for a group of 5 players with level 60 combat skills.]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEmpusa",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44586,6 +45419,7 @@
 	},
 	"45041": {
 		"Description": "<i>Zhia Lian:</i> You know how Kajich hates Tast? Because of the... nevermind. Not important. Anyway, listen: there's a very dangerous semi-undead hag underneath an orcish city called Gazluk Keep. She's sleeping in a coffin inside a hidden room. That should be easy enough to find, right? Get a bunch of friends, and find this hag before she awakens and takes over the whole keep!\n\n<i>[Gazluk Keep is a dungeon for a group of 5 players with level 70 combat skills.]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillAnhinda",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44637,6 +45471,7 @@
 			"Event_Halloween_KillUrsula",
 			"Event_Halloween_KillPumpkinMimics"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillSkeletonMages",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44688,6 +45523,7 @@
 			"Event_Halloween_BecomeASpider",
 			"Event_Halloween_KillWerewolvesInKur"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillUrsula",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44738,6 +45574,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillFaeRealmSkeletons"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillBonfirePuck",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44789,6 +45626,7 @@
 			"Event_Halloween_PartyPrep1",
 			"Event_Halloween_GrowEvilPumpkins"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillPumpkinMimics",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44843,6 +45681,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEmpusa"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillFlapskulls",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44893,6 +45732,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEliteDinosaurSkeletons"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillFaeRealmSkeletons",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44943,6 +45783,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillRatkinNecromancersInRahuSewer"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillWerewolvesInKur",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -44998,6 +45839,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillBarghestsInGazluk"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillRatkinNecromancersInRahuSewer",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45053,6 +45895,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillRatkinSkeletonsWhileHoldingSwords"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillBarghestsInGazluk",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45105,6 +45948,7 @@
 	},
 	"45051": {
 		"Description": "<i>Zhia Lian:</i> There's lots of other dangerous undead out there. Take your little war band and go find them!\n\n<i>[Undead of any type or level will work, as long as they are Elite. Elite undead typically require a group of 3+ players.]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEliteUndead",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45155,6 +45999,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_UseFearAbility"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BecomeANecromancer",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45211,6 +46056,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillWithNecroRatPet"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_NecromancerKillElites",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45269,6 +46115,7 @@
 	},
 	"45054": {
 		"Description": "<i>Zhia Lian:</i> The ratkin necromancers underneath Rahu have been breeding high-quality necro rats. Very cute! They can act as your sidekick, helping you focus necromantic energy. Go find one and fight with it!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillWithNecroRatPet",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45327,6 +46174,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_NecromancerKillElites"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_TalkToCorpses",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45386,6 +46234,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_TalkToCorpses"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_UseFearAbility",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45441,6 +46290,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillFrogsNaked"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_CollectRatkinTambourines",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45496,6 +46346,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_CollectCreepyStarfish"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillWhileSubmerged",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45554,6 +46405,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_DanceAsASkeleton"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_CollectCreepyStarfish",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45601,6 +46453,7 @@
 	},
 	"45060": {
 		"Description": "<i>Zhia Lian:</i> You know what we don't see enough of? Dancing skeletons! If you're ever a skeleton, would you dance for me?",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_DanceAsASkeleton",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45657,6 +46510,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_PartyPrep2"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PartyPrep1",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45715,6 +46569,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_AMidnightSacrifice"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PartyPrep2",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45823,6 +46678,7 @@
 			"Event_Halloween_KillEvilHearts2",
 			"Event_Halloween_KillLordSerbule"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilHearts1",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45878,6 +46734,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEvilHearts3"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilHearts2",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45933,6 +46790,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEvilHearts4"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilHearts3",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -45988,6 +46846,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEvilHearts5"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilHearts4",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -46045,6 +46904,7 @@
 	},
 	"45068": {
 		"Description": "<i>Zhia Lian:</i> There's another envy pump in Gazluk! This one's underneath Gazluk Keep. There are orcish necromancers tending to it.\n\nRemember to bring some friends. This looks hard.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilHearts5",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -46876,6 +47736,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_BatKillPolarBears"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BatKillWasps",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -46932,6 +47793,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_BatKillStriga"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BatKillPolarBears",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -46985,6 +47847,7 @@
 	},
 	"45087": {
 		"Description": "<i>Zhia Lian:</i> I have a terrible dilemma: there are a bunch of mortals scheming to destroy your realm, and somebody needs to kill them. But I'm not an evil god, so I could never tell you to kill a mortal!\n\nHahaha just kidding. Go kill those mortals!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillPlayersInPvP",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47032,6 +47895,7 @@
 	},
 	"45088": {
 		"Description": "<i>Zhia Lian:</i> Did you know that if you're willful enough, you can speak for a moment after you die? That's what I've heard anyway. You seem pretty willful; let's test that idea!\n\nGo find a stage, kill yourself, and right after you die, speak aloud. The crowd will love it!\n\nAnd oh yeah, I'll bring you back to life. Of course! Make sure you die on stage.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_DieOnStage",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47073,6 +47937,7 @@
 	},
 	"45089": {
 		"Description": "<i>Zhia Lian:</i> You should convince people to give you more candy! Or take it! MORE! The harvest is in, and it's time for greed! Show me 20 candies!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_HaveTonsOfCandy",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47122,6 +47987,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_PlaceTealightsInEltibuleGraveyardAtNight"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_CraftTeaLights",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47169,6 +48035,7 @@
 	},
 	"45091": {
 		"Description": "<i>Zhia Lian:</i> I noticed a weird disturbance in the Eltibule graveyard. Go perform a normal cleansing ritual there and see if you can get whatever is there to come to the surface!\n\nThen kill it. Obviously.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_PlaceTealightsInEltibuleGraveyardAtNight",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47240,6 +48107,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_AppreciateWolfsbaneBouquet"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_CraftASpookyDye",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47292,6 +48160,7 @@
 	},
 	"45093": {
 		"Description": "<i>Zhia Lian:</i> I'm just a little worried that you're not prepared for the horrors you'll have to face. Some undead are VERY gross! You should practice getting sick. Try a wolfsbane bouquet. That will make you nice and sick.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_AppreciateWolfsbaneBouquet",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47342,6 +48211,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_BatDrinkWinterFaeBlood"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BatKillStriga",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47399,6 +48269,7 @@
 	},
 	"45095": {
 		"Description": "<i>Zhia Lian:</i> Pumpkin Spice Tea is a good drink for sitting around and enjoying the season. But don't just sit around - that's boring! I want a drink that makes mortal blood pump faster! The very height of fall! Just bring me these ingredients and I'll make my own drink -- and teach you the recipe.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_FancyCoffee",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47479,6 +48350,7 @@
 	},
 	"45096": {
 		"Description": "<i>Zhia Lian:</i> Hey, get this - there's supposedly a way to make pumpkin soup smell even weirder! Can you imagine? If you make a bowl, I want to see how it smells! I don't have the recipe, though; you'll have to find that first!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_SourPumpkinSoup",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47529,6 +48401,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillHexapusesNaked"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillFrogsNaked",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47598,6 +48471,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillFashnagarNaked"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillHexapusesNaked",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -47664,6 +48538,7 @@
 	},
 	"45099": {
 		"Description": "<i>Zhia Lian:</i> Wait, don't put your pants, gloves, and shirt back on yet! This is the last nude fighting I'll ask you of you, so make it entertaining!\n\nThere's this rude scion of Enoyos in Povus who's said some pretty unwise things about a certain god of whimsy. Why don't you kill him while nude! He's been magically empowered by Enoyos, so you might need some nude friends. Do you have nude friends? Look at you, of course you do!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillFashnagarNaked",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -50129,7 +51004,7 @@
 		"Version": 1
 	},
 	"45140": {
-		"Description": "Irkima in Red Wing Casino said, \"The tree is supposed to be topped with a personalized symbol of our culture. Dorimir suggested that we use a large top hat, since mantises love hats so much. He was being mirthful, but his suggestion has merit!\n\nAs the casino's official calligrapher, I am of course skilled in creating eaborate paper props. I've fashioned a suitable top hat, but its bow is not sufficiently festive: I need a better shade of red dye! I believe crushed rose petals will be suitable. Are those easy to find?\"",
+		"Description": "Irkima in Red Wing Casino said, \"The tree is supposed to be topped with a personalized symbol of our culture. Dorimir suggested that we use a large top hat, since mantises love hats so much. He was being mirthful, but his suggestion has merit!\n\nAs the casino's official calligrapher, I am of course skilled in creating elaborate paper props. I've fashioned a suitable top hat, but its bow is not sufficiently festive: I need a better shade of red dye! I believe crushed rose petals will be suitable. Are those easy to find?\"",
 		"FavorNpc": "AreaCasino/NPC_Irkima",
 		"InternalName": "Event_ChristmasTree_Casino_4",
 		"IsAutoPreface": false,
@@ -50152,7 +51027,7 @@
 				"Type": "Scripted"
 			}
 		],
-		"PrefaceText": "The tree is supposed to be topped with a personalized symbol of our culture. Dorimir suggested that we use a large top hat, since mantises love hats so much. He was being mirthful, but his suggestion has merit!\n\nAs the casino's official calligrapher, I am of course skilled in creating eaborate paper props. I've fashioned a suitable top hat, but its bow is not sufficiently festive: I need a better shade of red dye! I believe crushed rose petals will be suitable. Are those easy to find?",
+		"PrefaceText": "The tree is supposed to be topped with a personalized symbol of our culture. Dorimir suggested that we use a large top hat, since mantises love hats so much. He was being mirthful, but his suggestion has merit!\n\nAs the casino's official calligrapher, I am of course skilled in creating elaborate paper props. I've fashioned a suitable top hat, but its bow is not sufficiently festive: I need a better shade of red dye! I believe crushed rose petals will be suitable. Are those easy to find?",
 		"Requirements": [
 			{
 				"Rule": "During Christmas Quests",
@@ -50821,6 +51696,7 @@
 	},
 	"45156": {
 		"Description": "Find the Shrine of Ri-Shin along the southern coast in Kur Mountains. Speak to Snowleaf, the Scion of Ri-Shin.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Christmas_RiShinShrine_Druid",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": false,
@@ -50871,6 +51747,7 @@
 	},
 	"45157": {
 		"Description": "Find the Shrine of Ri-Shin along the southern coast in Kur Mountains. Speak to Snowleaf, the Scion of Ri-Shin.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Christmas_RiShinShrine_Favor",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": false,
@@ -51269,6 +52146,7 @@
 	},
 	"45201": {
 		"Description": "A roaming caravan of master crafters have stopped at the Red Wing Casino for a few days of rest, restocking, and a chance to study some of the local crafts. They have rented the Theater Room for their staging area. Go pay them a visit and see if they can help you advance your craft skills faster!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "LiveEvent_Crafting_Intro",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": false,
@@ -51321,7 +52199,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Rough Suit for Raim",
+		"Name": "Tailoring: A Rough Suit for Raim",
 		"Objectives": [
 			{
 				"Description": "Craft a Rough Cloth Shirt (Enchanted)",
@@ -51449,7 +52327,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Decent Suit for Raim",
+		"Name": "Tailoring: A Decent Suit for Raim",
 		"Objectives": [
 			{
 				"Description": "Craft a Decent Cloth Shirt",
@@ -51577,7 +52455,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Quality Suit for Raim",
+		"Name": "Tailoring: A Quality Suit for Raim",
 		"Objectives": [
 			{
 				"Description": "Craft a Quality Cloth Shirt",
@@ -51705,7 +52583,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: An Amazing Suit for Raim",
+		"Name": "Tailoring: An Amazing Suit for Raim",
 		"Objectives": [
 			{
 				"Description": "Craft an Amazing Cloth Shirt",
@@ -51824,6 +52702,134 @@
 		"SuccessText": "Thank you! I will study this to see if I can improve my own skills. As promised, here's a little something to help you along as well. If you want to share some more knowledge later, come see me again!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45206": {
+		"Description": "Raim said, \"Want to swap some knowledge to progress your skills? Bring me one full crafted Awesome Cloth suit and I will see what I can do to help you flourish at your craft!\"",
+		"FavorNpc": "AreaCasino/NPC_Raim",
+		"InternalName": "LiveEvent_Crafting_Raim5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Tailoring: An Awesome Suit for Raim",
+		"Objectives": [
+			{
+				"Description": "Craft an Awesome Cloth Shirt",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedClothShirt10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess an Awesome Cloth Shirt",
+				"GroupId": 1,
+				"ItemName": "CraftedClothShirt10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Cloth Pants",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedClothPants10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Cloth Pants",
+				"GroupId": 1,
+				"ItemName": "CraftedClothPants10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft an Awesome Cloth Cowl",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedClothHelm10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess an Awesome Cloth Cowl",
+				"GroupId": 1,
+				"ItemName": "CraftedClothHelm10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Cloth Gloves",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedClothGloves10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Cloth Gloves",
+				"GroupId": 1,
+				"ItemName": "CraftedClothGloves10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Cloth Slippers",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedClothShoes10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Cloth Slippers",
+				"GroupId": 1,
+				"ItemName": "CraftedClothShoes10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Raim",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Want to swap some knowledge to progress your skills? Bring me one full crafted Awesome Cloth suit and I will see what I can do to help you flourish at your craft!\n\n",
+		"Requirements": [
+			{
+				"Level": 94,
+				"Skill": "Tailoring",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Tailoring",
+				"T": "SkillXp",
+				"Xp": 7400
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you! I will study this to see if I can improve my own skills. As promised, here's a little something to help you along as well. If you want to share some more knowledge later, come see me again!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45207": {
 		"Description": "Tantai said, \"Want to swap some knowledge to progress your skills? Bring me one full crafted Rough Leather suit and I will see what I can do to help you flourish at your craft!  I only want the enchanted version of the suit... I don't deal with non-enchanted crap!\"",
 		"FavorNpc": "AreaCasino/NPC_Tantai",
@@ -51833,7 +52839,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Rough Suit for Tantai",
+		"Name": "Leatherworking: A Rough Suit for Tantai",
 		"Objectives": [
 			{
 				"Description": "Craft a Rough Leather Shirt (Enchanted)",
@@ -51961,7 +52967,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Decent Suit for Tantai",
+		"Name": "Leatherworking: A Decent Suit for Tantai",
 		"Objectives": [
 			{
 				"Description": "Craft a Decent Leather Shirt",
@@ -52089,7 +53095,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Quality Suit for Tantai",
+		"Name": "Leatherworking: A Quality Suit for Tantai",
 		"Objectives": [
 			{
 				"Description": "Craft a Quality Leather Shirt",
@@ -52217,7 +53223,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: An Amazing Suit for Tantai",
+		"Name": "Leatherworking: An Amazing Suit for Tantai",
 		"Objectives": [
 			{
 				"Description": "Craft an Amazing Leather Shirt",
@@ -52336,6 +53342,134 @@
 		"SuccessText": "Thank you! I will study this to see if I can improve my own skills. As promised, here's a little something to help you along as well. If you want to share some more knowledge later, come see me again!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45211": {
+		"Description": "Tantai said, \"Want to swap some knowledge to progress your skills? Bring me one full crafted Awesome Leather suit and I will see what I can do to help you flourish at your craft!\"",
+		"FavorNpc": "AreaCasino/NPC_Tantai",
+		"InternalName": "LiveEvent_Crafting_Tantai5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Leatherworking: An Awesome Suit for Tantai",
+		"Objectives": [
+			{
+				"Description": "Craft an Awesome Leather Shirt",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedLeatherShirt10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess an Awesome Leather Shirt",
+				"GroupId": 1,
+				"ItemName": "CraftedLeatherShirt10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Leather Leggings",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedLeatherPants10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Leather Leggings",
+				"GroupId": 1,
+				"ItemName": "CraftedLeatherPants10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft a Awesome Leather Helm",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedLeatherHelm10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess a Awesome Leather Helm",
+				"GroupId": 1,
+				"ItemName": "CraftedLeatherHelm10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Leather Gloves",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedLeatherGloves10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Leather Gloves",
+				"GroupId": 1,
+				"ItemName": "CraftedLeatherGloves10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Leather Boots",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedLeatherBoots10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Leather Boots",
+				"GroupId": 1,
+				"ItemName": "CraftedLeatherBoots10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Tantai",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Want to swap some knowledge to progress your skills? Bring me one full crafted Awesome Leather suit and I will see what I can do to help you flourish at your craft!\n\n",
+		"Requirements": [
+			{
+				"Level": 94,
+				"Skill": "Leatherworking",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Leatherworking",
+				"T": "SkillXp",
+				"Xp": 7400
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you! I will study this to see if I can improve my own skills. As promised, here's a little something to help you along as well. If you want to share some more knowledge later, come see me again!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45212": {
 		"Description": "Kimoc said, \"We are low on supplies to better our anatomy skills! Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Autopsy Kits to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble.\"",
 		"FavorNpc": "AreaCasino/NPC_Kimoc",
@@ -52345,7 +53479,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Autopsy Kits for Kimoc",
+		"Name": "Toolcrafting: Autopsy Kits for Kimoc",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Autopsy Kits",
@@ -52417,7 +53551,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Inspection Kits for Kimoc",
+		"Name": "Toolcrafting: Inspection Kits for Kimoc",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Forensic Inspection Kits",
@@ -52489,7 +53623,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Analysis Kits for Kimoc",
+		"Name": "Toolcrafting: Analysis Kits for Kimoc",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Forensic Analysis Kits",
@@ -52553,7 +53687,7 @@
 		"Version": 1
 	},
 	"45215": {
-		"Description": "Kimoc said, \"We are low on our first aid supplies and need to restock our high-end first aid kits. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Astounding First Aid Kits to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble. Also, be sure to use the proper toolcrafting method for making these kits. We don't want the cheap knockoffs!\"",
+		"Description": "Kimoc said, \"We are low on our diagnostic supplies and need to restock. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Carbon-form Scrutinizer Arrays to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble.\"",
 		"FavorNpc": "AreaCasino/NPC_Kimoc",
 		"InternalName": "LiveEvent_Crafting_Kimoc4",
 		"IsAutoPreface": false,
@@ -52561,19 +53695,19 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Astounding Kits for Kimoc",
+		"Name": "Toolcrafting: Carbon-form Scrutinizer Arrays for Kimoc",
 		"Objectives": [
 			{
-				"Description": "Craft 10 Astounding First Aid Kits",
+				"Description": "Craft 10 Carbon-form Scrutinizer Arrays",
 				"GroupId": 1,
 				"Number": 10,
-				"Target": "FirstAidKit7",
+				"Target": "AutopsyKitAmazing",
 				"Type": "UseRecipe"
 			},
 			{
-				"Description": "Possess 10 Astounding First Aid Kits",
+				"Description": "Possess 10 Carbon-form Scrutinizer Arrays",
 				"GroupId": 1,
-				"ItemName": "FirstAidKit7",
+				"ItemName": "AutopsyKitAmazing",
 				"Number": 10,
 				"Type": "Collect"
 			},
@@ -52583,10 +53717,10 @@
 				"Type": "Scripted"
 			}
 		],
-		"PrefaceText": "We are low on our first aid supplies and need to restock our high-end first aid kits. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Astounding First Aid Kits to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble. Also, be sure to use the proper toolcrafting method for making these kits. We don't want the cheap knockoffs!\n\n",
+		"PrefaceText": "We are low on our diagnostic supplies and need to restock. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Carbon-form Scrutinizer Arrays to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble.\n\n",
 		"Requirements": [
 			{
-				"Level": 60,
+				"Level": 70,
 				"Skill": "Toolcrafting",
 				"T": "MinSkillLevel"
 			},
@@ -52613,7 +53747,7 @@
 			{
 				"Skill": "Toolcrafting",
 				"T": "SkillXp",
-				"Xp": 9600
+				"Xp": 11200
 			},
 			{
 				"Item": "CaravanToken",
@@ -52622,6 +53756,78 @@
 			}
 		],
 		"SuccessText": "Thank you! This will help us along for a while. I might need your services again later on, so be sure to stop by again later!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
+	"45216": {
+		"Description": "Kimoc said, \"A lot of us like to whittle a lot, so our supply of whittling knives are running low. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Master Whittling Knives to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble.\"",
+		"FavorNpc": "AreaCasino/NPC_Kimoc",
+		"InternalName": "LiveEvent_Crafting_Kimoc5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Toolcrafting: Master Whittling Knives for Kimoc",
+		"Objectives": [
+			{
+				"Description": "Craft 10 Master Whittling Knives",
+				"GroupId": 1,
+				"Number": 10,
+				"Target": "WhittlingKnife5",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 10 Master Whittling Knives",
+				"GroupId": 1,
+				"ItemName": "WhittlingKnife5",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Kimoc",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "A lot of us like to whittle a lot, so our supply of whittling knives are running low. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 Master Whittling Knives to me, I would be forever greatful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble.\n\n",
+		"Requirements": [
+			{
+				"Level": 80,
+				"Skill": "Toolcrafting",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Toolcrafting",
+				"T": "SkillXp",
+				"Xp": 12800
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you! This will help us along for a while. I might need your services again later on, so be sure to stop by again later!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
 	"45217": {
@@ -52633,7 +53839,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Mild Cheddar Cheese for Serrold",
+		"Name": "Cheesemaking: Mild Cheddar Cheese for Serrold",
 		"Objectives": [
 			{
 				"Description": "Make 10 Mild Cheddar Cheese",
@@ -52705,7 +53911,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Raclette Cheese for Serrold",
+		"Name": "Cheesemaking: Raclette Cheese for Serrold",
 		"Objectives": [
 			{
 				"Description": "Make 10 Raclette Cheese",
@@ -52777,7 +53983,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Edam Cheese for Serrold",
+		"Name": "Cheesemaking: Edam Cheese for Serrold",
 		"Objectives": [
 			{
 				"Description": "Make 10 Edam Cheese",
@@ -52849,7 +54055,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Feta Cheese for Serrold",
+		"Name": "Cheesemaking: Feta Cheese for Serrold",
 		"Objectives": [
 			{
 				"Description": "Make 10 Feta Cheese",
@@ -52921,7 +54127,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Simple Armor Stakes for Garad",
+		"Name": "Blacksmithing: Simple Armor Stakes for Garad",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Simple Armor Stakes",
@@ -52993,7 +54199,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Vises for Garad",
+		"Name": "Blacksmithing: Vises for Garad",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Vises",
@@ -53065,7 +54271,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Master Armor Stakes for Garad",
+		"Name": "Blacksmithing: Master Armor Stakes for Garad",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Masterwork Armor Stakes",
@@ -53137,7 +54343,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Amazing Armor Stakes for Garad",
+		"Name": "Blacksmithing: Amazing Armor Stakes for Garad",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Amazing Armor Stakes",
@@ -53209,7 +54415,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Shoddy Chairs for Kalrod",
+		"Name": "Carpentry: Shoddy Chairs for Kalrod",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Shoddy Chairs",
@@ -53281,7 +54487,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Crude Crates for Kalrod",
+		"Name": "Carpentry: Crude Crates for Kalrod",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Crude Storage Crates",
@@ -53353,7 +54559,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Nice Crates for Kalrod",
+		"Name": "Carpentry: Nice Crates for Kalrod",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Nice Storage Crates",
@@ -53425,7 +54631,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Amazing Chairs for Kalrod",
+		"Name": "Carpentry: Amazing Chairs for Kalrod",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Amazing Chairs",
@@ -53488,6 +54694,78 @@
 		"SuccessText": "Thank you so much. These chairs are... amazing! No really, nice work! I'm gonna swipe one of these to use in my tent!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45231": {
+		"Description": "Kalrod said, \"Ho there! In a mood to build something? We need fresh crates to carry our fresh restock of goods. If you can provide us with 10 Astounding Storage Crates, I can show you a few tricks to help with building better ones in the future!\"",
+		"FavorNpc": "AreaCasino/NPC_Kalrod",
+		"InternalName": "LiveEvent_Crafting_Kalrod5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Carpentry: Astounding Crates for Kalrod",
+		"Objectives": [
+			{
+				"Description": "Craft 10 Astounding Storage Crates",
+				"GroupId": 1,
+				"Number": 10,
+				"Target": "StorageCrate32Items",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 10 Astounding Storage Crates",
+				"GroupId": 1,
+				"ItemName": "StorageCrate32Items",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Kalrod",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Ho there! In a mood to build something? We need fresh crates to carry our fresh restock of goods. If you can provide us with 10 Astounding Storage Crates, I can show you a few tricks to help with building better ones in the future!\n\n",
+		"Requirements": [
+			{
+				"Level": 90,
+				"Skill": "Carpentry",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Carpentry",
+				"T": "SkillXp",
+				"Xp": 14400
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you so much. Can't have everything just bouncing around loose on the wagons!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45232": {
 		"Description": "Kinira said, \"Hello! We have been on the road for quite some time, and our on-the-road rations are nearly gone.  We need some good on the go snacks! Bring me 10 Venison Jerky, and maybe I can help you out somehow.\"",
 		"FavorNpc": "AreaCasino/NPC_Kinira",
@@ -53497,7 +54775,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Venison Jerky for Kinira",
+		"Name": "Cooking: Venison Jerky for Kinira",
 		"Objectives": [
 			{
 				"Description": "Prepare 10 Venison Jerky",
@@ -53569,7 +54847,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Chicken and Broccoli for Kinira",
+		"Name": "Cooking: Chicken and Broccoli for Kinira",
 		"Objectives": [
 			{
 				"Description": "Prepare 10 Chicken and Broccoli recipes",
@@ -53641,7 +54919,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Chicken Casserole for Kinira",
+		"Name": "Cooking: Chicken Casserole for Kinira",
 		"Objectives": [
 			{
 				"Description": "Prepare 10 Chicken Casserole",
@@ -53713,7 +54991,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Vexfish Lettuce Wraps for Kinira",
+		"Name": "Cooking: Vexfish Lettuce Wraps for Kinira",
 		"Objectives": [
 			{
 				"Description": "Prepare 10 Vexfish Lettuce Wraps recipes",
@@ -53776,6 +55054,78 @@
 		"SuccessText": "Oh man! Thank you so much. I already had to feed them my apprentice, I'm sure I was going to be next!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45236": {
+		"Description": "Kinira said, \"Hello! We have been on the road for quite some time, so rations and cooking supplies got thin. If these guys have to eat beets again, they might riot! They need meat! Pork! I hear the Fae have a great recipe for vexfish! Bring me 40 Evu Mint Pork, and maybe I can help you out somehow.\"",
+		"FavorNpc": "AreaCasino/NPC_Kinira",
+		"InternalName": "LiveEvent_Crafting_Kinira5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Cooking: Evu Mint Pork for Kinira",
+		"Objectives": [
+			{
+				"Description": "Prepare 10 Evu Mint Pork recipes",
+				"GroupId": 1,
+				"Number": 10,
+				"Target": "EvuMintPork",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 40 Evu Mint Pork",
+				"GroupId": 1,
+				"ItemName": "EvuMintPork",
+				"Number": 40,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Kinira",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Hello! We have been on the road for quite some time, so rations and cooking supplies got thin. If these guys have to eat beets again, they might riot! They need meat! Pork! I hear the Fae have a great recipe for vexfish! Bring me 40 Evu Mint Pork, and maybe I can help you out somehow.\n\n",
+		"Requirements": [
+			{
+				"Level": 90,
+				"Skill": "Cooking",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Cooking",
+				"T": "SkillXp",
+				"Xp": 14400
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Oh man! Thank you so much. I already had to feed them my apprentice, I'm sure I was going to be next!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45237": {
 		"Description": "Rayar said, \"Well met! It's hard to setup and brew when you're always moving around. I would like to get a few barrels done before we get back on the road, but I need some inspiration and would like to sample some of the local flavors. Why don't you whip up 10 glasses of this Pale Ale I've heard about. Flavor it up however you like!\"",
 		"FavorNpc": "AreaCasino/NPC_Rayar",
@@ -53785,7 +55135,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Pale Ale for Rayar",
+		"Name": "Brewing: Pale Ale for Rayar",
 		"Objectives": [
 			{
 				"Description": "Brew 10 Pale Ales (One Glass)",
@@ -53857,7 +55207,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Goblin Ale for Rayar",
+		"Name": "Brewing: Goblin Ale for Rayar",
 		"Objectives": [
 			{
 				"Description": "Brew 10 Goblin Ales (One Glass)",
@@ -53929,7 +55279,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Brown Ale for Rayar",
+		"Name": "Brewing: Brown Ale for Rayar",
 		"Objectives": [
 			{
 				"Description": "Brew 10 Brown Ales (One Glass)",
@@ -54001,7 +55351,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Dwarven Stout for Rayar",
+		"Name": "Brewing: Dwarven Stout for Rayar",
 		"Objectives": [
 			{
 				"Description": "Brew 10 Dwarven Stout (One Glass)",
@@ -54064,6 +55414,78 @@
 		"SuccessText": "Excellent! I should have a good feel for it after 10 of these. If you're headed over to Serbule from here, tell my cousin Gisli I said hello! You can't miss him... he's just as handsome as I am!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45241": {
+		"Description": "Rayar said, \"Well met! It's hard to setup and brew when you're always moving around. I would like to get a few barrels done before we get back on the road, but I need some inspiration and would like to sample some of the local flavors. Why don't you whip up 10 glasses of this Porter I've heard about. Flavor it up however you like!\"",
+		"FavorNpc": "AreaCasino/NPC_Rayar",
+		"InternalName": "LiveEvent_Crafting_Rayar5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Brewing: Porter for Rayar",
+		"Objectives": [
+			{
+				"Description": "Brew 10 Porter (One Glass)",
+				"GroupId": 1,
+				"Number": 10,
+				"Target": "Porter",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 10 Porter",
+				"GroupId": 1,
+				"ItemName": "Porter",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Rayar",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Well met! It's hard to setup and brew when you're always moving around. I would like to get a few barrels done before we get back on the road, but I need some inspiration and would like to sample some of the local flavors. Why don't you whip up 10 glasses of this Porter I've heard about. Flavor it up however you like!\n\n",
+		"Requirements": [
+			{
+				"Level": 90,
+				"Skill": "Brewing",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Brewing",
+				"T": "SkillXp",
+				"Xp": 14400
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent! I should have a good feel for it after 10 of these. If you're headed over to Serbule from here, tell my cousin Gisli I said hello! You can't miss him... he's just as handsome as I am!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45242": {
 		"Description": "Aceri said, \"I could use your assistance! I hear there is a speed potion that a lot of folks craft around here to get around easier. Could you get me 10 of those Agonizing Speed Potions? I need to reverse engineer them so I can make them for the whole group.\"",
 		"FavorNpc": "AreaCasino/NPC_Aceri",
@@ -54073,7 +55495,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Speed Potions for Aceri",
+		"Name": "Alchemy: Speed Potions for Aceri",
 		"Objectives": [
 			{
 				"Description": "Make 10 Agonizing Speed Potions",
@@ -54145,7 +55567,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Gur-Horta for Aceri",
+		"Name": "Alchemy: Gur-Horta for Aceri",
 		"Objectives": [
 			{
 				"Description": "Make 10 Gur-Hortas",
@@ -54217,7 +55639,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Boletus Mushroom Smoothies for Loche",
+		"Name": "Mycology: Boletus Mushroom Smoothies for Loche",
 		"Objectives": [
 			{
 				"Description": "Make 10 Boletus Mushroom Smoothies",
@@ -54289,7 +55711,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Blood Mushroom Smoothies for Loche",
+		"Name": "Mycology: Blood Mushroom Smoothies for Loche",
 		"Objectives": [
 			{
 				"Description": "Make 10 Blood Mushroom Smoothies",
@@ -54361,7 +55783,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Disasterous Spore Bombs for Loche",
+		"Name": "Mycology: Disasterous Spore Bombs for Loche",
 		"Objectives": [
 			{
 				"Description": "Prepare 10 Disastrous Spore Bombs recipes",
@@ -54433,7 +55855,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Nightmarish Spore Bombs for Loche",
+		"Name": "Mycology: Nightmarish Spore Bombs for Loche",
 		"Objectives": [
 			{
 				"Description": "Prepare 10 Nightmarish Spore Bombs recipes",
@@ -54496,6 +55918,78 @@
 		"SuccessText": "Thank you! This will make a fine pop!\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45250": {
+		"Description": "Loche said, \"Hi there! Can you help me? I need an extra supply of spore bombs to help take care of enemies we may encounter. My melodious voice lures them in... then I blow them to pieces! Can you produce me 30 Ruinous Spore Bombs? It would be a great help!\"",
+		"FavorNpc": "AreaCasino/NPC_Loche",
+		"InternalName": "LiveEvent_Crafting_Loche5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Mycology: Ruinous Spore Bombs for Loche",
+		"Objectives": [
+			{
+				"Description": "Prepare 10 Ruinous Spore Bombs recipes",
+				"GroupId": 1,
+				"Number": 10,
+				"Target": "SporeBomb8",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 30 Ruinous Spore Bombs",
+				"GroupId": 1,
+				"ItemName": "SporeBomb8",
+				"Number": 30,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Loche",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Hi there! Can you help me? I need an extra supply of spore bombs to help take care of enemies we may encounter. My melodious voice lures them in... then I blow them to pieces! Can you produce me 30 Ruinous Spore Bombs? It would be a great help!\n\n",
+		"Requirements": [
+			{
+				"Level": 90,
+				"Skill": "Mycology",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Mycology",
+				"T": "SkillXp",
+				"Xp": 15000
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you! This will make a fine pop!\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45251": {
 		"Description": "Delia said, \"Hi! I am flat exhausted from traveling so much. The smell of violets always brings me back to life! Can you make me 10 Violet Bouquets? I will gladly give you some new ideas to expand your arrangement choices for it.\"",
 		"FavorNpc": "AreaCasino/NPC_Delia",
@@ -54505,7 +55999,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Violet Bouquets for Delia",
+		"Name": "Flower Arrangement: Violet Bouquets for Delia",
 		"Objectives": [
 			{
 				"Description": "Make 10 Violet Bouquets",
@@ -54577,7 +56071,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Lumberjack Arrangements for Delia",
+		"Name": "Flower Arrangement: Lumberjack Arrangements for Delia",
 		"Objectives": [
 			{
 				"Description": "Make 10 Lumberjack Arrangements #3",
@@ -54649,7 +56143,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Fisherman Arrangements for Delia",
+		"Name": "Flower Arrangement: Fisherman Arrangements for Delia",
 		"Objectives": [
 			{
 				"Description": "Make 10 Fisherman's Arrangement #6",
@@ -54721,7 +56215,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Dandelion Bouquets for Delia",
+		"Name": "Flower Arrangement: Dandelion Bouquets for Delia",
 		"Objectives": [
 			{
 				"Description": "Make 10 Dandelion Bouquet",
@@ -54793,7 +56287,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Nice Jewelry for Moxie",
+		"Name": "Jewelry Crafting: Nice Jewelry for Moxie",
 		"Objectives": [
 			{
 				"Description": "Make 5 Nice Magic Rings",
@@ -54879,7 +56373,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Great Jewelry for Moxie",
+		"Name": "Jewelry Crafting: Great Jewelry for Moxie",
 		"Objectives": [
 			{
 				"Description": "Make 5 Great Magic Rings",
@@ -54956,6 +56450,92 @@
 		"SuccessText": "Excellent! This will keep me distracted for a bit. Those mantises kinda creep me out. They just don't seem... natural. Anyway, here's a few tips to help you move forward in your craft! If you want to learn some more, come back and see me again later.\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45258": {
+		"Description": "Moxie said, \"Hey there! I recently joined the caravan to explore new methods of jewelry crafting. How about I get started with you? Craft me 5 Astounding Magic Rings and 5 Astounding Enchanted Necklaces. Bring them to me to study, and in return I will share some of my knowledge with you. Sound like a fair trade?\"",
+		"FavorNpc": "AreaCasino/NPC_Moxie",
+		"InternalName": "LiveEvent_Crafting_Moxie3",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Jewelry Crafting: Astounding Jewelry for Moxie",
+		"Objectives": [
+			{
+				"Description": "Make 5 Astounding Magic Rings",
+				"GroupId": 1,
+				"Number": 5,
+				"Target": "CraftedRing9",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 5 Astounding Magic Rings",
+				"GroupId": 1,
+				"ItemName": "CraftedRing9",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Make 5 Astounding Enchanted Necklaces",
+				"GroupId": 1,
+				"Number": 5,
+				"Target": "CraftedNecklace9",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess 5 Astounding Enchanted Necklaces",
+				"GroupId": 1,
+				"ItemName": "CraftedNecklace9",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Moxie",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Hey there! I recently joined the caravan to explore new methods of jewelry crafting. How about I get started with you? Craft me 5 Astounding Magic Rings and 5 Astounding Enchanted Necklaces. Bring them to me to study, and in return I will share some of my knowledge with you. Sound like a fair trade?\n\n",
+		"Requirements": [
+			{
+				"Level": 86,
+				"Skill": "JewelryCrafting",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "JewelryCrafting",
+				"T": "SkillXp",
+				"Xp": 13600
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Excellent! This will keep me distracted for a bit. Those mantises kinda creep me out. They just don't seem... natural. Anyway, here's a few tips to help you move forward in your craft! If you want to learn some more, come back and see me again later.\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45261": {
 		"Description": "Jopol said, \"Greetings! I used to be the Caravan's Master Carpenter, but we keep running out of arrows so quickly I decided to let Kalrod take over my position and I became the Caravan fletcher. I could really use some help getting caught up on things. Could you assemble and deliver 10,000 basic arrows? I would really appreciate it!\"",
 		"FavorNpc": "AreaCasino/NPC_Jopol",
@@ -54965,7 +56545,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Basic Arrows for Jopol",
+		"Name": "Fletching: Basic Arrows for Jopol",
 		"Objectives": [
 			{
 				"Description": "Make 10 sets of Basic Arrows",
@@ -55036,7 +56616,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Expert Arrows for Jopol",
+		"Name": "Fletching: Expert Arrows for Jopol",
 		"Objectives": [
 			{
 				"Description": "Make 10 sets of Expert Arrows",
@@ -55107,7 +56687,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Amazing Arrows for Jopol",
+		"Name": "Fletching: Amazing Arrows for Jopol",
 		"Objectives": [
 			{
 				"Description": "Make 10 sets of Amazing Arrows",
@@ -55170,7 +56750,7 @@
 		"Version": 1
 	},
 	"45264": {
-		"Description": "Jopol said, \"Greetings! I used to be the Caravan's Master Carpenter, but we keep running out of arrows so quickly I decided to let Kalrod take over my position and I became the Caravan fletcher. I could really use some help getting caught up on things. Could you assemble and deliver 10,000 astonishing arrows? I would really appreciate it!\"",
+		"Description": "Jopol said, \"Greetings! I used to be the Caravan's Master Carpenter, but we keep running out of arrows so quickly I decided to let Kalrod take over my position and I became the Caravan fletcher. I could really use some help getting caught up on things. Could you assemble and deliver 10,000 Awesome Arrows? I would really appreciate it!\"",
 		"FavorNpc": "AreaCasino/NPC_Jopol",
 		"InternalName": "LiveEvent_Crafting_Jopol4",
 		"IsAutoPreface": false,
@@ -55178,18 +56758,18 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Astonishing Arrows for Jopol",
+		"Name": "Fletching: Awesome Arrows for Jopol",
 		"Objectives": [
 			{
 				"Description": "Make 10 sets of Astonishing Arrows",
 				"GroupId": 1,
 				"Number": 10,
-				"Target": "Arrow7",
+				"Target": "Arrow8",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "Possess 10,000 Astonishing Arrows",
-				"ItemName": "Arrow7",
+				"ItemName": "Arrow8",
 				"Number": 10000,
 				"Type": "Collect"
 			},
@@ -55202,7 +56782,7 @@
 		"PrefaceText": "Greetings! I used to be the Caravan's Master Carpenter, but we keep running out of arrows so quickly I decided to let Kalrod take over my position and I became the Caravan fletcher. I could really use some help getting caught up on things. Could you assemble and deliver 10,000 astonishing arrows? I would really appreciate it!",
 		"Requirements": [
 			{
-				"Level": 63,
+				"Level": 73,
 				"Skill": "Fletching",
 				"T": "MinSkillLevel"
 			},
@@ -55229,7 +56809,7 @@
 			{
 				"Skill": "Fletching",
 				"T": "SkillXp",
-				"Xp": 10000
+				"Xp": 11600
 			},
 			{
 				"Item": "CaravanToken",
@@ -55249,7 +56829,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Rough Woodland Candles for Torana",
+		"Name": "Candlemaking: Rough Woodland Candles for Torana",
 		"Objectives": [
 			{
 				"Description": "Make 10 Rough Woodland Candles",
@@ -55320,7 +56900,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Decent Floral Candles for Torana",
+		"Name": "Candlemaking: Decent Floral Candles for Torana",
 		"Objectives": [
 			{
 				"Description": "Make 10 Decent Floral Candles",
@@ -55391,7 +56971,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Nice Bacon Candles for Torana",
+		"Name": "Candlemaking: Nice Bacon Candles for Torana",
 		"Objectives": [
 			{
 				"Description": "Make 10 Nice Bacon Candles",
@@ -55462,7 +57042,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Amazing Brisk Candles for Torana",
+		"Name": "Candlemaking: Amazing Brisk Candles for Torana",
 		"Objectives": [
 			{
 				"Description": "Make 10 Amazing Brisk Candles",
@@ -55533,7 +57113,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Crude Chainmail Suit for Thedar",
+		"Name": "Armorsmithing: A Crude Chainmail Suit for Thedar",
 		"Objectives": [
 			{
 				"Description": "Craft a Crude Chainmail Coat (NOT Enchanted)",
@@ -55661,7 +57241,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Decent Chainmail Suit for Thedar",
+		"Name": "Armorsmithing: A Decent Chainmail Suit for Thedar",
 		"Objectives": [
 			{
 				"Description": "Craft a Decent Chainmail Coat (Enchanted)",
@@ -55789,7 +57369,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: A Quality Dwarven Plate Suit for Thedar",
+		"Name": "Armorsmithing: A Quality Dwarven Plate Suit for Thedar",
 		"Objectives": [
 			{
 				"Description": "Craft a Quality Dwarven Plate Coat (Enchanted)",
@@ -55917,7 +57497,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: An Amazing Orcish Plate Suit for Thedar",
+		"Name": "Armorsmithing: An Amazing Orcish Plate Suit for Thedar",
 		"Objectives": [
 			{
 				"Description": "Craft a Amazing Orcish Plate Coat (Enchanted)",
@@ -56036,6 +57616,134 @@
 		"SuccessText": "Thank you! I will study this suit in more detail later on. As promised, here's a little something to help advance your craft.\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45275": {
+		"Description": "Thedar said, \"So, you want to be an Armorsmith do you? Let's get to the good stuff now! Forge and bring me one full Awesome Orcish Plate suit and I will see what I can do to help you advance your craft!  \"",
+		"FavorNpc": "AreaCasino/NPC_Thedar",
+		"InternalName": "LiveEvent_Crafting_Thedar5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Armorsmithing: An Awesome Orcish Plate Suit for Thedar",
+		"Objectives": [
+			{
+				"Description": "Craft a Awesome Orcish Plate Coat (Enchanted)",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedOrcishPlateCoat10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess a Awesome Orcish Plate Coat",
+				"GroupId": 1,
+				"ItemName": "CraftedOrcishPlateCoat10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Orcish Plate Greaves (Enchanted)",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedOrcishPlatePants10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Orcish Plate Greaves",
+				"GroupId": 1,
+				"ItemName": "CraftedOrcishPlatePants10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft a Awesome Orcish Plate Helm (Enchanted)",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedOrcishPlateHelm10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess a Awesome Orcish Plate Helm",
+				"GroupId": 1,
+				"ItemName": "CraftedOrcishPlateHelm10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Orcish Plate Gauntlets (Enchanted)",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedOrcishPlateGloves10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Orcish Plate Gauntlets",
+				"GroupId": 1,
+				"ItemName": "CraftedOrcishPlateGloves10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Craft some Awesome Orcish Plate Boots (Enchanted)",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "CraftedOrcishPlateShoes10E",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Possess some Awesome Orcish Plate Boots",
+				"GroupId": 1,
+				"ItemName": "CraftedOrcishPlateShoes10",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Thedar",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "So, you want to be an Armorsmith do you? Let's get to the good stuff now! Forge and bring me one full Awesome Orcish Plate suit and I will see what I can do to help you advance your craft!  \n\n",
+		"Requirements": [
+			{
+				"Level": 90,
+				"Skill": "Armorsmithing",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Armorsmithing",
+				"T": "SkillXp",
+				"Xp": 7200
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you! I will study this suit in more detail later on. As promised, here's a little something to help advance your craft.\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45276": {
 		"Description": "Verac said, \"Ho there! Making tack for horses is very important work! I'm in need of some extra gear while I'm waiting on Tantai to replenish my leather stock. Can you bring me 10 Rough Saddles? In exchange I'll share a couple trade secrets with you to help hone your craft.\"",
 		"FavorNpc": "AreaCasino/NPC_Verac",
@@ -56045,7 +57753,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Rough Saddles for Verac",
+		"Name": "Saddlery: Rough Saddles for Verac",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Rough Saddles",
@@ -56117,7 +57825,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Decent Reins for Verac",
+		"Name": "Saddlery: Decent Reins for Verac",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Decent Reins",
@@ -56189,7 +57897,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Quality Saddlebags for Verac",
+		"Name": "Saddlery: Quality Saddlebags for Verac",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Quality Saddlebags",
@@ -56261,7 +57969,7 @@
 		"Keywords": [
 			"EventQuest"
 		],
-		"Name": "Event: Amazing Saddles for Verac",
+		"Name": "Saddlery: Amazing Saddles for Verac",
 		"Objectives": [
 			{
 				"Description": "Craft 10 Amazing Saddles",
@@ -56324,8 +58032,81 @@
 		"SuccessText": "Perfect! These will help us get by until I can get some more made. Here's a few tips for you as promised.\n\n<i>[You earn 10 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
 		"Version": 1
 	},
+	"45280": {
+		"Description": "Verac said, \"Ho there! Making tack for horses is very important work! I'm in need of some extra gear while I'm waiting on Tantai to replenish my leather stock. Can you bring me 10 Amazing Saddles? In exchange I'll share a couple trade secrets with you to help hone your craft.\"",
+		"FavorNpc": "AreaCasino/NPC_Verac",
+		"InternalName": "LiveEvent_Crafting_Verac5",
+		"IsAutoPreface": false,
+		"IsAutoWrapUp": false,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Saddlery: Awesome Reins for Verac",
+		"Objectives": [
+			{
+				"Description": "Craft 10 Awesome Reins",
+				"GroupId": 1,
+				"Number": 10,
+				"Target": "StandardReins10",
+				"Type": "UseRecipe"
+			},
+			{
+				"Description": "Posses 10 Awesome Reins",
+				"GroupId": 1,
+				"ItemName": "StandardReins10",
+				"Number": 10,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Verac",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Ho there! Making tack for horses is very important work! I'm in need of some extra gear while I'm waiting on Tantai to replenish my leather stock. Can you bring me 10 Amazing Saddles? In exchange I'll share a couple trade secrets with you to help hone your craft.",
+		"Requirements": [
+			{
+				"Level": 91,
+				"Skill": "Saddlery",
+				"T": "MinSkillLevel"
+			},
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "LiveEvent_Crafting",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Favor": 15,
+				"Npc": "AreaCasino/LiveNpc_Orran",
+				"T": "Favor"
+			},
+			{
+				"Skill": "Saddlery",
+				"T": "SkillXp",
+				"Xp": 14500
+			},
+			{
+				"Item": "CaravanToken",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! These will help us get by until I can get some more made. Here's a few tips for you as promised.\n\n<i>[You earn 15 favor with Orran the Caravan Leader]</i>\n\n<i>[This task is repeatable every 20 hours.]</i>",
+		"Version": 1
+	},
 	"45301": {
 		"Description": "Hail citizen of Alharth!\n\nWe are looking for ambitious adventurers to join the ranks of the Civil Service! We are volunteers that go above and beyond to ensure our lands are a wonderful place to live! \n\nWe are currently looking for recruits willing to help out with our periodic dungeon and cave clearing. If left unchecked, these places slowly overfill with critters and eventually spill out to bring chaos and mayhem on the people of Alharth!\n\nJourney to these places and give them a good cleaning! It's not all for free either: we're willing to pay you for your troubles! We have installed tracking crystals in each of the areas to ensure you are showing up and doing the work. There are 2 of these crystals in each area. Once you have cleared the area, just use the crystal to check in and your work progress will be logged for payroll. After you have checked in to both crystals in that area, you will gain access to the reward cache located at the area entrance. Look through what's in there and pick out whatever looks interesting to you.\n\nIf you manage to complete all the tasks on the list, you may return to Serbule Keep and access the Grand Reward Cache located in a building across from the Inn for something much nicer! \n\nWe currently require the following areas to be serviced: \n- The Serbule Crypt \n- Borghild \n- Eltibule Keep Goblin Dungeon \n- Kur Tower \n- Ilmari Labyrinth \n- Gazluk Keep  \n- The Fungal Fortress \n\nAlso, once you have completed The Serbule Crypt or Borghild, you will gain access to the Civil Service Travel Network, which will help you get the job done faster! \n\nIf you choose to accept some or all of these tasks, thank you for your service and good hunting!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "LiveEvent_CivilService",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -56407,6 +58188,7 @@
 	},
 	"45310": {
 		"Description": "Three Bun-Fu Masters have come into the area to help train their fellow bunnies in the ways of the carrot. Visit Master Lopsy in the Serbule Keep garden, Master Flopsy outside of the Kur Mountains Inn and Master Boop outside of the New Prestonbule Cave in Gazluk to complete your training! You think you know Bun-Fu? Show me!\n\n[<i> These quests require you to be in bunny form to advance. A free bunny transformation will be available at all quest NPCs. </i>]",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "LiveEvent_BunFu_Main",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -56819,6 +58601,7 @@
 	},
 	"45320": {
 		"Description": "The suspicious lemons are back! Suspicious lemons carry several possible buffs, debuffs or items. You will find lemons spawning randomly all over Alharth. Some are hiding while others are sitting out in the open. Now get out there and touch them all!\nWARNING FOR FAE CHARACTERS: The suspicious lemons love to deal in death and punishment just as much as buffs and love! Fairy players may want to use extreme caution when touching a lemon! Not everything a lemon gives results in death, but you need to be prepared!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "LiveEvent_Lemons",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -56923,6 +58706,7 @@
 		"FollowUpQuests": [
 			"LiveEvent_MissChievous"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "LiveEvent_MissChievous_Intro",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": false,
@@ -57298,6 +59082,7 @@
 	},
 	"45425": {
 		"Description": "There are six world bosses spread out among Serbule Hills, Serbule, Eltibule, Ilmari, Gazluk and the Fae Realm. Some bosses have adds and some don't. Look for the World Boss Warning Sign near where the boss will spawn. Travel to Serbule Hills to find Empusa. Empusa will respawn seven hours after she is killed and despawns. You can check the World Boss Sign for a spawn timer.  Killing each boss will allow you access to the bonus World Boss Chests and unlocks the portal for you to continue on to the next boss! The next boss will always spawn 5 minutes after the death of the previous. Once the boss spawns, you have one hour to kill and loot it. Failing to kill a boss in time will halt the progress of the event and you will be required to start from the beginning! You can repeat the bosses as many times as you wish, even if you complete this quest. Good hunting!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "LiveEvent_WorldBosses",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -57439,13 +59224,13 @@
 		},
 		"Rewards": [
 			{
+				"Recipe": "SelfDye_Rabbit_Purple",
+				"T": "Recipe"
+			},
+			{
 				"Amount": 5,
 				"Currency": "LiveEventCredits",
 				"T": "Currency"
-			},
-			{
-				"Recipe": "SelfDye_Rabbit_Purple",
-				"T": "Recipe"
 			},
 			{
 				"T": "Title",
@@ -57457,7 +59242,7 @@
 			}
 		],
 		"SuccessText": "Good job! Here's the dye recipe as promised and a little something extra!\n<i>[You can find the recipe for this in your crafting recipes under Dye Making]</i>",
-		"Version": 1
+		"Version": 2
 	},
 	"45450": {
 		"Description": "Raim said, \"Hey could I get you to do me a personal favor? I'm really low on supplies and I'm in dire need of string. Lots of string! I promise I'll only ask this of you once - never again! If you can deliver me 50 strings, I'll show you what I use them for!\"",
@@ -57567,6 +59352,7 @@
 	},
 	"45501": {
 		"Description": "<i>Zhia Lian:</i> If I'm going to be one of those creepy gods with their own cult, I want all the perks! I demand a midnight sacrifice! Atop a mountain!\n\n<i>[To qualify as a sacrifice, you need to kill a goat in Gazluk between midnight and 1 am game-time.]</i>",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_AMidnightSacrifice",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -57631,6 +59417,7 @@
 	},
 	"45502": {
 		"Description": "<i>Zhia Lian:</i> Since you're a spider now, you should care about the fate of your kin, right? I noticed a lot of ghostly spiders pouring out of a collapsed cave in the Ilmari  desert. You should help them find peace. Through violence.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_SpiderKillGhostSpiders",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -57689,6 +59476,7 @@
 	},
 	"45503": {
 		"Description": "<i>Zhia Lian:</i> We need to show everyone that bats are terrifying predators! Let's see, what's the scariest flying thing around right now? I guess it's those Winter Court fairies. Yeah, this will work! Go and drink their blood!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_BatDrinkWinterFaeBlood",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -57748,6 +59536,7 @@
 	},
 	"45504": {
 		"Description": "<i>Zhia Lian:</i> There's a swampy place called Povus where necromancers have just let their minions go free! That's dangerous!\n\nHey, I have a special request for this one, can you kill them with swords? Strap lots of swords all over your body, too. Just stick 'em everywhere. I want you to be a horrific ball of swords and death!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillRatkinSkeletonsWhileHoldingSwords",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -57825,6 +59614,7 @@
 	},
 	"45505": {
 		"Description": "<i>Zhia Lian:</i> More powerful spirits have been leaked onto your world. There's a very strong, very sad ghost in Povus. I can hear him shouting into the aether about his bar. You should summon him and then ... unsummon him. You're gonna need assistance for this one! I have no idea how he got so powerful!",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillFangyLim",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -57880,6 +59670,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillFangyLim"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEliteDinosaurSkeletons",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -58086,6 +59877,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEvilLungs2"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilLungs1",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -58141,6 +59933,7 @@
 		"FollowUpQuests": [
 			"Event_Halloween_KillEvilLungs3"
 		],
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilLungs2",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -58208,6 +60001,7 @@
 	},
 	"45511": {
 		"Description": "<i>Zhia Lian:</i> The third pair of giant lungs are under Povus. You want to look for a mountain-sized mushroom, and then find a way to go UNDER it. Go deep underground until you hit tunnels full of goblins. The lungs are down there.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_Halloween_KillEvilLungs3",
 		"IsAutoPreface": true,
 		"IsAutoWrapUp": true,
@@ -119452,6 +121246,40 @@
 		],
 		"Version": 1
 	},
+	"61": {
+		"Description": "You did the thing!",
+		"InternalName": "TestAutoCompleteQuest",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "You Did It",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Amount": 14,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Item": "Salt",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You did the thing!",
+		"Version": 0
+	},
 	"7": {
 		"Description": "Kill 10 spiders and return to Oritania.",
 		"DisplayedLocation": "Eltibule",
@@ -119480,6 +121308,277 @@
 			}
 		],
 		"Version": 1
+	},
+	"71": {
+		"Description": "You completed the Eltibule Circuit!",
+		"InternalName": "RaceComplete_EltibuleCircuit_FirstTime",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 250
+			},
+			{
+				"Item": "ParticipationRibbonSpeed",
+				"StackSize": 1,
+				"T": "Item"
+			},
+			{
+				"Item": "RacingReins1",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You completed the Eltibule Circuit!",
+		"TSysLevel": 35,
+		"Version": 0
+	},
+	"72": {
+		"Description": "You completed the Eltibule Circuit!",
+		"InternalName": "RaceComplete_EltibuleCircuit_Repeated",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 100
+			},
+			{
+				"NamedLootProfile": "Racing_Eltibule",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Eltibule Circuit!",
+		"TSysLevel": 35,
+		"Version": 0
+	},
+	"73": {
+		"Description": "You completed the Eltibule Circuit with excellent time!",
+		"InternalName": "RaceComplete_EltibuleCircuit_ExcellentFirstTime",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 1000
+			},
+			{
+				"NamedLootProfile": "Racing_EltibuleExcellent",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Eltibule Circuit with excellent time!",
+		"TSysLevel": 40,
+		"Version": 0
+	},
+	"74": {
+		"Description": "You completed the Eltibule Circuit with excellent time!",
+		"InternalName": "RaceComplete_EltibuleCircuit_ExcellentRepeated",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 250
+			},
+			{
+				"NamedLootProfile": "Racing_EltibuleExcellent",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Eltibule Circuit with excellent time!",
+		"TSysLevel": 40,
+		"Version": 0
+	},
+	"76": {
+		"Description": "You completed the Amulna Grand Tour!",
+		"InternalName": "RaceComplete_AmulnaGrandTour_FirstTime",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 600
+			},
+			{
+				"NamedLootProfile": "Racing_Ilmari",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "RacingReins3",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You completed the Amulna Grand Tour!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
+	"77": {
+		"Description": "You completed the Amulna Grand Tour!",
+		"InternalName": "RaceComplete_AmulnaGrandTour_Repeated",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 300
+			},
+			{
+				"NamedLootProfile": "Racing_Ilmari",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Amulna Grand Tour!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
+	"78": {
+		"Description": "You completed the Amulna Grand Tour with excellent time!",
+		"InternalName": "RaceComplete_AmulnaGrandTour_ExcellentFirstTime",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 3000
+			},
+			{
+				"NamedLootProfile": "Racing_IlmariExcellent",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Amulna Grand Tour with excellent time!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
+	"79": {
+		"Description": "You completed the Amulna Grand Tour with excellent time!",
+		"InternalName": "RaceComplete_AmulnaGrandTour_ExcellentRepeated",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 600
+			},
+			{
+				"NamedLootProfile": "Racing_IlmariExcellent",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Amulna Grand Tour with excellent time!",
+		"TSysLevel": 50,
+		"Version": 0
 	},
 	"8": {
 		"Description": "Kill 30 goblins and return to Oritania.",
@@ -119526,6 +121625,141 @@
 		],
 		"Version": 1
 	},
+	"81": {
+		"Description": "You completed the Kur Mountain Derby!",
+		"InternalName": "RaceComplete_KurMountainDerby_FirstTime",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 500
+			},
+			{
+				"NamedLootProfile": "Racing_Kur",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "RacingReins2",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You completed the Kur Mountain Derby!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
+	"82": {
+		"Description": "You completed the Kur Mountain Derby!",
+		"InternalName": "RaceComplete_KurMountainDerby_Repeated",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 250
+			},
+			{
+				"NamedLootProfile": "Racing_Kur",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Kur Mountain Derby!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
+	"83": {
+		"Description": "You completed the Kur Mountain Derby with excellent time!",
+		"InternalName": "RaceComplete_KurMountainDerby_ExcellentFirstTime",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 2500
+			},
+			{
+				"NamedLootProfile": "Racing_KurExcellent",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Kur Mountain Derby with excellent time!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
+	"84": {
+		"Description": "You completed the Kur Mountain Derby with excellent time!",
+		"InternalName": "RaceComplete_KurMountainDerby_ExcellentRepeated",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Race Completed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"Skill": "Racing",
+				"T": "RacingXp",
+				"Xp": 500
+			},
+			{
+				"NamedLootProfile": "Racing_KurExcellent",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "You completed the Kur Mountain Derby with excellent time!",
+		"TSysLevel": 50,
+		"Version": 0
+	},
 	"9": {
 		"Description": "Kill 5 panthers and return to Kalaba.",
 		"DisplayedLocation": "Eltibule",
@@ -119557,5 +121791,73 @@
 			}
 		],
 		"Version": 1
+	},
+	"91": {
+		"Description": "You closed the blood portal!",
+		"InternalName": "BloodPortalActivityComplete_Eltibule",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Blood Portal Closed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"NamedLootProfile": "L35Equipment",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "ExtraplanarBlood",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You closed the blood portal!",
+		"TSysLevel": 35,
+		"Version": 0
+	},
+	"92": {
+		"Description": "You closed the blood portal!",
+		"InternalName": "BloodPortalActivityComplete_SunVale",
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"ActivityQuest",
+			"Lint_RewardOnly"
+		],
+		"Name": "Blood Portal Closed",
+		"Objectives": [
+			{
+				"Description": "-",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 0
+		},
+		"Rewards": [
+			{
+				"NamedLootProfile": "L50Equipment",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "ExtraplanarBlood",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "You closed the blood portal!",
+		"TSysLevel": 50,
+		"Version": 0
 	}
 }
