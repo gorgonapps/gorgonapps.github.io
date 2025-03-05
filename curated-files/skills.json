@@ -6,7 +6,6 @@
 				"Level": 50
 			}
 		],
-		"AdvancementTable": "ModestPassive",
 		"Combat": false,
 		"Description": "The art of combining esoteric things together to make potions and poisons.",
 		"GuestLevelCap": 15,
@@ -44,6 +43,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "ModestPassive",
 		"RecipeIngredientKeywords": [
 			"AlchemyIngredient"
 		],
@@ -107,7 +107,6 @@
 	},
 	"AlcoholTolerance": {
 		"AdvancementHints": [],
-		"AdvancementTable": "AlcoholTolerance",
 		"Combat": false,
 		"Description": "This 'skill' represents your ability to ward off the adverse effects of alcohol. Note, however, that alcohol tolerance does not prevent you from becoming an alcoholic after prolonged alcohol abuse.",
 		"GuestLevelCap": 15,
@@ -115,6 +114,7 @@
 		"InteractionFlagLevelCaps": [],
 		"MaxBonusLevels": 25,
 		"Name": "Alcohol Tolerance",
+		"PassiveAdvancementTable": "AlcoholTolerance",
 		"Rewards": [
 			{
 				"BonusToSkill": "Anatomy_Dwarves",
@@ -182,7 +182,6 @@
 		"XpTable": "AlcoholTolerance"
 	},
 	"Anatomy": {
-		"AdvancementTable": "BonusInventoryFolderAt25",
 		"Combat": false,
 		"Description": "Knowledge of the physiology of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized knowledge that applies to all creatures in the world.",
 		"GuestLevelCap": 15,
@@ -191,6 +190,7 @@
 		"MaxBonusLevels": 125,
 		"Name": "Anatomy",
 		"Parents": [],
+		"PassiveAdvancementTable": "BonusInventoryFolderAt25",
 		"Rewards": [
 			{
 				"BonusToSkill": "AnimalHandling",
@@ -203,6 +203,10 @@
 			{
 				"BonusToSkill": "AnimalHandling",
 				"Level": 25
+			},
+			{
+				"BonusToSkill": "Bowyery",
+				"Level": 30
 			},
 			{
 				"BonusToSkill": "ArmorPatching",
@@ -2114,6 +2118,10 @@
 				"Notes": "See Real-Time Effect Info"
 			},
 			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 39
+			},
+			{
 				"Level": 40,
 				"Notes": "Archery/Crossbow chance of critical hit: +1% (total 5%)"
 			},
@@ -2922,6 +2930,13 @@
 				"Npcs": [
 					"NPC_Moku"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Angling, gain favor with Engineer Crall in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_EngineerCrall"
+				]
 			}
 		],
 		"Combat": true,
@@ -3020,6 +3035,7 @@
 		"XpTable": "TypicalCombatSkill"
 	},
 	"AnimalHandling": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Animal Handling, gain favor with Gisli in Serbule.",
@@ -3050,7 +3066,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "The art of taming animals and teaching them to fight alongside you.",
 		"GuestLevelCap": 15,
@@ -3421,6 +3436,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -3451,7 +3467,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "BonusStableSlots",
 		"Combat": false,
 		"Description": "The science of breeding pets.",
 		"GuestLevelCap": 15,
@@ -3493,6 +3508,7 @@
 		"Parents": [
 			"AnimalHandling"
 		],
+		"PassiveAdvancementTable": "BonusStableSlots",
 		"Rewards": [
 			{
 				"Level": 10,
@@ -3575,6 +3591,7 @@
 		"XpTable": "AnimalHusbandry"
 	},
 	"Archery": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Archery, gain favor with Alravesa the All-Hunter in Amulna, a town in the Ilmari Desert.",
@@ -3605,7 +3622,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Expertise with using bows to hunt and kill.",
 		"GuestLevelCap": 15,
@@ -4144,6 +4160,14 @@
 			{
 				"BonusToSkill": "Crossbow",
 				"Level": 58
+			},
+			{
+				"BonusToSkill": "Bowyery",
+				"Level": 60
+			},
+			{
+				"BonusToSkill": "Bowyery",
+				"Level": 80
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -4165,6 +4189,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -4543,6 +4568,14 @@
 			{
 				"BonusToSkill": "JewelryCrafting",
 				"Level": 5
+			},
+			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 25
+			},
+			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 50
 			}
 		],
 		"SkipBonusLevelsIfSkillUnlearned": false,
@@ -4582,7 +4615,7 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Axe": {
-		"AdvancementTable": "Balanced",
+		"ActiveAdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Axing people.",
 		"GuestLevelCap": 15,
@@ -4602,11 +4635,13 @@
 			"Priest",
 			"Psychology",
 			"Shield",
-			"Unarmed"
+			"Unarmed",
+			"Vampirism"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Bard": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Bard, gain favor with Percussa in Rahu.",
@@ -4637,7 +4672,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Bardin'",
 		"GuestLevelCap": 15,
@@ -4962,11 +4996,13 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"BattleChemistry": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Battle Chemistry, gain favor with Mox Warcut in Gazluk.",
@@ -4997,7 +5033,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Using alchemical concoctions in the heat of battle. Not for the faint of heart, or the particularly sane, this combat style specializes in area-effects of all types. Advanced practitioners can also ingest their formulae directly to take on new combat personalities. Masters can even create homonculi to serve them in battle.",
 		"GuestLevelCap": 0,
@@ -5302,6 +5337,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -5352,7 +5388,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "BonusInventoryFolderAt50",
 		"Combat": false,
 		"Description": "Making and enhancing metal equipment. Blacksmiths don't create armor directly, but they can buttress metal armor's effectiveness. They also create metal parts for many other skills.",
 		"GuestLevelCap": 15,
@@ -5391,6 +5426,7 @@
 		],
 		"MaxBonusLevels": 25,
 		"Name": "Blacksmithing",
+		"PassiveAdvancementTable": "BonusInventoryFolderAt50",
 		"Rewards": [
 			{
 				"Level": 1,
@@ -5497,6 +5533,66 @@
 		"Name": "Bladesmithing",
 		"Parents": [
 			"Blacksmithing"
+		],
+		"Rewards": [
+			{
+				"BonusToSkill": "Calligraphy",
+				"Level": 60
+			},
+			{
+				"BonusToSkill": "Calligraphy",
+				"Level": 80
+			}
+		],
+		"XpTable": "TypicalNoncombatSkill_FastTo50"
+	},
+	"Bowyery": {
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Bowyery, gain favor with Denton Razor in Vidaria",
+				"Level": 70,
+				"Npcs": [
+					"NPC_DentonRazor"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Bowyery, gain favor with Denton Razor in Vidaria",
+				"Level": 80,
+				"Npcs": [
+					"NPC_DentonRazor"
+				]
+			}
+		],
+		"AuxCombat": false,
+		"Combat": false,
+		"Description": "The craft of making bows and crossbows.",
+		"GuestLevelCap": 15,
+		"Id": 177,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Bowyery",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Bowyery",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Bowyery",
+				"SkillCap": 90
+			}
+		],
+		"IsFakeCombatSkill": false,
+		"MaxBonusLevels": 25,
+		"Name": "Bowyery",
+		"Parents": [
+			"Fletching"
 		],
 		"Rewards": [],
 		"XpTable": "TypicalNoncombatSkill_FastTo50"
@@ -5783,7 +5879,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Skinning",
 		"Combat": false,
 		"Description": "Skill in the act of removing meat and useful body organs from a corpse. You need to be carrying a Butcher Knife in order to butcher a corpse. Corpses of sentient creatures, such as goblins and humans, can't be butchered.",
 		"GuestLevelCap": 15,
@@ -5821,6 +5916,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "Skinning",
 		"Rewards": [
 			{
 				"BonusToSkill": "Skinning",
@@ -5845,6 +5941,10 @@
 			{
 				"BonusToSkill": "Skinning",
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "Vampirism",
+				"Level": 65
 			}
 		],
 		"XpTable": "CorpseActionSkillExt"
@@ -5856,6 +5956,13 @@
 				"Level": 50,
 				"Npcs": [
 					"NPC_Ufkar"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Calligraphy, gain favor with Liamu in Vidaria",
+				"Level": 60,
+				"Npcs": [
+					"NPC_Liamu"
 				]
 			}
 		],
@@ -6424,6 +6531,7 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "AuxCombatSkill_FastTo50"
@@ -6534,7 +6642,6 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"CivicPride": {
-		"AdvancementTable": "CivicPride",
 		"Combat": false,
 		"Description": "Represents your willingness to tackle the small, mundane tasks in your community, and your understanding of why that's important. This skill is especially valued by humans.",
 		"GuestLevelCap": 15,
@@ -6542,6 +6649,7 @@
 		"MaxBonusLevels": 25,
 		"Name": "Civic Pride",
 		"Parents": [],
+		"PassiveAdvancementTable": "CivicPride",
 		"Rewards": [],
 		"XpTable": "CivicPride"
 	},
@@ -6630,7 +6738,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PowerPassive",
 		"Combat": false,
 		"Description": "Skill in preparing food for consumption.",
 		"GuestLevelCap": 15,
@@ -6668,6 +6775,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "PowerPassive",
 		"RecipeIngredientKeywords": [
 			"CookingIngredient"
 		],
@@ -6712,19 +6820,73 @@
 		"XpTable": "Gardening"
 	},
 	"CorpseTalking": {
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Corpse Talking, gain favor with Daniel Murderdark in Rahu.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_DanielMurderdark"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Corpse Talking, seek out a priest in Gazluk.",
+				"Level": 60,
+				"Npcs": [
+					"NPC_apriest"
+				]
+			}
+		],
 		"Combat": false,
 		"Description": "Ability to commune telepathically with nearby dead bodies. Higher skill grants higher chances of persuading recalcitrant spirits, as well as higher comprehension rates when learning from the dead.",
 		"GuestLevelCap": 15,
 		"Id": 107,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "CorpseTalking",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 50,
+				"Skill": "CorpseTalking",
+				"SkillCap": 60
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "CorpseTalking",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "CorpseTalking",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "CorpseTalking",
+				"SkillCap": 90
+			}
+		],
 		"MaxBonusLevels": 25,
 		"Name": "Corpse Talking",
 		"Parents": [
 			"Necromancy"
 		],
-		"Rewards": [],
-		"XpTable": "TypicalNoncombatSkill_CappedAt50"
+		"Rewards": [
+			{
+				"BonusToSkill": "Vampirism",
+				"Level": 25
+			}
+		],
+		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Cow": {
+		"ActiveAdvancementTable": "PlayerCow",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Cow, gain favor with Raul in Sun Vale's \"Animal Town.\"",
@@ -6755,7 +6917,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerCow",
 		"Combat": true,
 		"Description": "The art of living and fighting as a cow.",
 		"GuestLevelCap": 15,
@@ -6988,6 +7149,7 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -7086,6 +7248,7 @@
 		"XpTable": "AuxCombatSkill"
 	},
 	"Deer": {
+		"ActiveAdvancementTable": "PlayerDeer",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Deer, gain favor with Jumper in Sun Vale's \"Animal Town.\"",
@@ -7116,7 +7279,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerDeer",
 		"Combat": true,
 		"Description": "The art of living and fighting as a deer.",
 		"GuestLevelCap": 15,
@@ -7404,11 +7566,13 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Druid": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Druid, gain favor with Lady Windsong in Rahu.",
@@ -7439,7 +7603,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Druidin'",
 		"GuestLevelCap": 0,
@@ -7588,6 +7751,10 @@
 					"Brambleskin3"
 				],
 				"Level": 23
+			},
+			{
+				"BonusToSkill": "NatureAppreciation",
+				"Level": 24
 			},
 			{
 				"Abilities": [
@@ -7740,6 +7907,10 @@
 				"Level": 55
 			},
 			{
+				"BonusToSkill": "NatureAppreciation",
+				"Level": 60
+			},
+			{
 				"BonusToSkill": "Fishing",
 				"Level": 65
 			},
@@ -7769,6 +7940,7 @@
 			"Spider",
 			"Staff",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching"
 		],
@@ -7799,12 +7971,12 @@
 		"XpTable": "DyeMaking"
 	},
 	"Dying": {
-		"AdvancementTable": "Dying",
 		"Combat": false,
 		"Description": "The art of dying.",
 		"GuestLevelCap": 15,
 		"Id": 8,
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "Dying",
 		"Reports": [
 			{
 				"Level": 1,
@@ -7845,6 +8017,10 @@
 			{
 				"BonusToSkill": "HolisticWellness",
 				"Level": 35
+			},
+			{
+				"BonusToSkill": "Vampirism",
+				"Level": 50
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
@@ -7880,7 +8056,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Endurance",
 		"Combat": false,
 		"Description": "The ability to endure heavy loads and uncomfortable situations without getting tired. Your Endurance increases the speed of your armor regeneration between fights, among other things.\n\n(The most common way to raise Endurance is simply to take armor damage in combat.)",
 		"GuestLevelCap": 15,
@@ -7919,6 +8094,7 @@
 		],
 		"MaxBonusLevels": 25,
 		"Name": "Endurance",
+		"PassiveAdvancementTable": "Endurance",
 		"Rewards": [
 			{
 				"Abilities": [
@@ -8182,6 +8358,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -8189,6 +8366,7 @@
 		"XpTable": "AuxCombatSkill"
 	},
 	"FireMagic": {
+		"ActiveAdvancementTable": "FireMagic",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Fire Magic, gain favor with The Sand Seer in Amulna, a town in the Ilmari Desert.",
@@ -8219,7 +8397,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "FireMagic",
 		"Combat": true,
 		"Description": "Using Fire to destroy your enemies. This is a very potent offensive skill, including long-range and area-effect attacks, and even some Cold attacks for versatility. However, there are drawbacks: Fire Magic is extremely Power-intensive; all creatures generate extra Rage when they are burned; and many creatures have some resistance to fire.",
 		"GuestLevelCap": 15,
@@ -8360,6 +8537,7 @@
 			"Shield",
 			"Staff",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -8526,7 +8704,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "ModestPassive",
 		"Combat": false,
 		"Description": "The art of collecting fish.",
 		"GuestLevelCap": 15,
@@ -8564,6 +8741,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "ModestPassive",
 		"RecipeIngredientKeywords": [
 			"CookingIngredient"
 		],
@@ -8665,7 +8843,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "ModestPassive",
 		"Combat": false,
 		"Description": "The craft of arrow-making. Most fletching recipes require elements obtained from Carpentry, so it's often handy to know both skills well. At higher level, fletchers also need various Alchemy components.",
 		"GuestLevelCap": 15,
@@ -8703,6 +8880,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "ModestPassive",
 		"Rewards": [
 			{
 				"Level": 1,
@@ -8756,6 +8934,10 @@
 			{
 				"Level": 16,
 				"Recipe": "LongArrow2"
+			},
+			{
+				"BonusToSkill": "Bowyery",
+				"Level": 17
 			},
 			{
 				"Level": 18,
@@ -8863,6 +9045,10 @@
 			{
 				"BonusToSkill": "Crossbow",
 				"Level": 53
+			},
+			{
+				"BonusToSkill": "Bowyery",
+				"Level": 60
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"
@@ -8888,6 +9074,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Floxie"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Flower Arrangement, gain favor with The Floriculturist in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_TheFloriculturist"
 				]
 			}
 		],
@@ -9006,6 +9199,10 @@
 			{
 				"BonusToSkill": "NatureAppreciation",
 				"Level": 60
+			},
+			{
+				"BonusToSkill": "NatureAppreciation",
+				"Level": 90
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"
@@ -9032,9 +9229,15 @@
 				"Npcs": [
 					"NPC_amysteriousentity"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Foraging, gain favor with Drummond Stonecurl in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_DrummondStonecurl"
+				]
 			}
 		],
-		"AdvancementTable": "Foraging",
 		"Combat": false,
 		"Description": "The art of picking things up. Except mushrooms, those are special for some reason. Experts at Foraging are also experts at tracking down stationary items and locations (such as many Quest Objectives).",
 		"GuestLevelCap": 15,
@@ -9072,6 +9275,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "Foraging",
 		"Rewards": [
 			{
 				"Abilities": [
@@ -9145,10 +9349,51 @@
 		"XpTable": "GatheringSkill"
 	},
 	"Gadgeteering": {
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Gadgeteering, gain favor with Engineer Crall in Vidaria.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_EngineerCrall"
+				]
+			}
+		],
 		"Combat": false,
 		"Description": "The ability to create elaborate contraptions that automate complex tasks.",
 		"GuestLevelCap": 0,
 		"Id": 128,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Gadgeteering",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 50,
+				"Skill": "Gadgeteering",
+				"SkillCap": 60
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "Gadgeteering",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Gadgeteering",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Gadgeteering",
+				"SkillCap": 90
+			}
+		],
 		"MaxBonusLevels": 25,
 		"Name": "Gadgeteering",
 		"Parents": [],
@@ -9160,9 +9405,13 @@
 			{
 				"BonusToSkill": "Crossbow",
 				"Level": 45
+			},
+			{
+				"BonusToSkill": "Toolcrafting",
+				"Level": 55
 			}
 		],
-		"XpTable": "TypicalNoncombatSkill_CappedAt50"
+		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Gaming": {
 		"Combat": false,
@@ -9363,6 +9612,10 @@
 			{
 				"BonusToSkill": "Cooking",
 				"Level": 70
+			},
+			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 75
 			}
 		],
 		"XpTable": "Gardening"
@@ -9558,8 +9811,114 @@
 		"Rewards": [],
 		"XpTable": "CorpseActionSkillExt"
 	},
+	"Genetics_Ungulates": {
+		"Combat": false,
+		"Description": "Knowledge of the genetics of large herbivores that do NOT chew cud, such as pigs, rhinos, and horses. Also covers hippos, which are not ungulates, but which are close enough.",
+		"GuestLevelCap": 15,
+		"Id": 176,
+		"MaxBonusLevels": 25,
+		"Name": "Non-Ruminant Ungulate Genetics",
+		"Parents": [
+			"Genetics"
+		],
+		"Rewards": [
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 1
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 5
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 10
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 15
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 20
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 25
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 30
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 35
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 40
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 45
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 50
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 55
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 60
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 65
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 70
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 75
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 80
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 85
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 90
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 95
+			},
+			{
+				"BonusToSkill": "Genetics",
+				"Level": 100
+			}
+		],
+		"XpTable": "CorpseActionSkillExt"
+	},
 	"Geology": {
-		"AdvancementHints": [],
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Geology, gain favor with X in Vidaria.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_X"
+				]
+			}
+		],
 		"Combat": false,
 		"Description": "Digging crystals out of the ground, and knowing what they do.",
 		"GuestLevelCap": 15,
@@ -9626,6 +9985,7 @@
 		"XpTable": "Surveying"
 	},
 	"GiantBat": {
+		"ActiveAdvancementTable": "PlayerBat",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Giant Bat, gain favor with Yavazek in Sun Vale's Animal Town.",
@@ -9656,7 +10016,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerBat",
 		"Combat": true,
 		"Description": "Skill in living and fighting as a bat.",
 		"GuestLevelCap": 15,
@@ -9850,6 +10209,7 @@
 				"Abilities": [
 					"Tear4"
 				],
+				"BonusToSkill": "Vampirism",
 				"Level": 35
 			},
 			{
@@ -9915,6 +10275,10 @@
 					"VirulentBite5"
 				],
 				"Level": 48
+			},
+			{
+				"BonusToSkill": "Vampirism",
+				"Level": 50
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -9927,6 +10291,7 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -10025,12 +10390,12 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Gourmand": {
-		"AdvancementTable": "Gourmand",
 		"Combat": false,
 		"Description": "The art of appreciating what you eat. Every level of the Gourmand skill increases the duration of meal bonuses by 30 seconds. The main way to earn Gourmand XP is by eating foods you've never eaten before.",
 		"GuestLevelCap": 15,
 		"Id": 13,
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "Gourmand",
 		"Reports": [
 			{
 				"Level": 1,
@@ -10054,6 +10419,7 @@
 		"XpTable": "Gourmand"
 	},
 	"Hammer": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Hammer, gain favor with Falkrin Overstrike in Amulna.",
@@ -10084,7 +10450,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Mastery of the use of hammers and clubs in combat. Power consumption is higher than average, but so is damage. Hammers excel at rapidly murdering enemies, no more and no less.",
 		"GuestLevelCap": 15,
@@ -10360,7 +10725,8 @@
 			"Priest",
 			"Psychology",
 			"Shield",
-			"Unarmed"
+			"Unarmed",
+			"Vampirism"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -10395,7 +10761,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Hardcore",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "Skill in surviving as a Hardcore player. You earn XP in this skill by killing dangerous creatures while Hardcore. (The creatures' level must be higher than your Hardcore Living skill.)\n\nNote: if you stop being Hardcore, you will lose all levels in this skill.",
@@ -10437,11 +10802,11 @@
 		"MaxBonusLevels": 25,
 		"Name": "Hardcore Living",
 		"Parents": [],
+		"PassiveAdvancementTable": "Hardcore",
 		"Rewards": [],
 		"XpTable": "Hardcore"
 	},
 	"HolisticWellness": {
-		"AdvancementTable": "HolisticWellness",
 		"Combat": false,
 		"Description": "An approach to health that involves taking into account factors beyond the obvious. Some critics claim that any benefits are due to the placebo effect, and they may be right. But if it works, who cares?",
 		"GuestLevelCap": 15,
@@ -10449,6 +10814,7 @@
 		"MaxBonusLevels": 25,
 		"Name": "Holistic Wellness",
 		"Parents": [],
+		"PassiveAdvancementTable": "HolisticWellness",
 		"Rewards": [
 			{
 				"BonusToSkill": "Endurance",
@@ -10474,7 +10840,6 @@
 		"XpTable": "Lore"
 	},
 	"Hoplology": {
-		"AdvancementTable": "Hoplology",
 		"Combat": false,
 		"Description": "The study of weapons and armor, with a focus on the benefits and weaknesses of different kinds of equipment.\n\nAs the skill increases, Staff users will find that their combat abilities also restore Armor.",
 		"GuestLevelCap": 15,
@@ -10482,6 +10847,7 @@
 		"MaxBonusLevels": 25,
 		"Name": "Hoplology",
 		"Parents": [],
+		"PassiveAdvancementTable": "Hoplology",
 		"Reports": [
 			{
 				"Level": 1,
@@ -10543,6 +10909,7 @@
 		"XpTable": "AuxCraftingSkill"
 	},
 	"IceMagic": {
+		"ActiveAdvancementTable": "FireMagic",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Ice Magic, gain favor with Ichin the Ice Master in Rahu.",
@@ -10573,7 +10940,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "FireMagic",
 		"Combat": true,
 		"Description": "A specialization of Fire Magic that focuses entirely upon lowering temperature instead of raising it. It has protective and controlling abilities as well as offensive abilities.",
 		"GuestLevelCap": 0,
@@ -11615,6 +11981,7 @@
 			"Shield",
 			"Staff",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching"
 		],
@@ -11642,9 +12009,15 @@
 				"Npcs": [
 					"NPC_Tryaka"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Industry, speak with Korbok in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_Korbok"
+				]
 			}
 		],
-		"AdvancementTable": "Industry",
 		"Combat": false,
 		"Description": "Competence in completing tasks to specification. Highly industrious workers can juggle more tasks at once, and earn slightly higher rewards for their hard work.",
 		"GuestLevelCap": 15,
@@ -11684,6 +12057,7 @@
 		"MaxBonusLevels": 25,
 		"Name": "Industry",
 		"Parents": [],
+		"PassiveAdvancementTable": "Industry",
 		"Rewards": [
 			{
 				"BonusToSkill": "Carpentry",
@@ -11877,11 +12251,16 @@
 			{
 				"Level": 45,
 				"Recipe": "CraftedNecklace5"
+			},
+			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 60
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill_FastTo50"
 	},
 	"Knife": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Knife, gain favor with Rick Snapley in Gazluk.",
@@ -11912,7 +12291,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Using daggers and thrown knives in combat. Knife combat is extremely damaging, relying on traumatic injuries, poison, and subterfuge.",
 		"GuestLevelCap": 15,
@@ -12308,6 +12686,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -12405,12 +12784,12 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Lore": {
-		"AdvancementTable": "Lore",
 		"Combat": false,
 		"Description": "Mastery of ancient knowledge.",
 		"GuestLevelCap": 15,
 		"Id": 4,
 		"MaxBonusLevels": 5,
+		"PassiveAdvancementTable": "Lore",
 		"Reports": [
 			{
 				"Level": 1,
@@ -12706,6 +13085,7 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Mentalism": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Mentalism, gain favor with Rohina in Sun Vale.",
@@ -12736,7 +13116,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "The power of mind over matter: psychic powers! This combat skill focuses on recovery and restoration, but it also has multiple damaging abilities.",
 		"GuestLevelCap": 15,
@@ -12977,6 +13356,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -13004,6 +13384,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_Dachak"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Mining, gain favor with Engineer Crall in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_EngineerCrall"
 				]
 			}
 		],
@@ -13204,7 +13591,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PowerPassive",
 		"Combat": false,
 		"Description": "Mastery of fungus in all its forms.",
 		"GuestLevelCap": 15,
@@ -13242,6 +13628,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "PowerPassive",
 		"RecipeIngredientKeywords": [
 			"AlchemyIngredient"
 		],
@@ -13332,6 +13719,13 @@
 				"Npcs": [
 					"NPC_Crelpin"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Nature Appreciation, gain favor with The Floriculturist in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_TheFloriculturist"
+				]
 			}
 		],
 		"Combat": false,
@@ -13420,11 +13814,20 @@
 			{
 				"BonusToSkill": "Druid",
 				"Level": 65
+			},
+			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 70
+			},
+			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 90
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Necromancy": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Necromancy, gain favor with Daniel Murderdark in Rahu.",
@@ -13455,7 +13858,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Necromancy is control over the undead, along with other powers that trifle with mortality. To use necromantic abilities, you must be wielding or wearing a necromancy gem. You can often find these on weapons, and less often on pieces of armor. (If you are in a beast form, necromancy gems in weapons won't work, but ones in armor will.) You must NOT be wearing a symbol of Arisetsu, as it will negate your powers.",
 		"GuestLevelCap": 15,
@@ -13673,6 +14075,7 @@
 				"Abilities": [
 					"CreateZombie3"
 				],
+				"BonusToSkill": "Vampirism",
 				"Level": 30
 			},
 			{
@@ -13795,11 +14198,16 @@
 				"Abilities": [
 					"CreateZombie5"
 				],
+				"BonusToSkill": "Vampirism",
 				"Level": 50
 			},
 			{
 				"BonusToSkill": "GiantBat",
 				"Level": 55
+			},
+			{
+				"BonusToSkill": "Vampirism",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -13829,6 +14237,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -13859,10 +14268,10 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Non-Fiction Writing, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Non-Fiction Writing, gain favor with Ferris Blueheart in Vidaria, or a mysterious orb beneath Povus.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_FerrisBlueheart"
 				]
 			}
 		],
@@ -13920,12 +14329,12 @@
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Notoriety": {
-		"AdvancementTable": "Notoriety",
 		"Combat": false,
 		"Description": "A measure of your renown. You earn Notoriety the first time you defeat certain enemies (typically any monster with a proper name), and for completing particularly difficult quests.",
 		"GuestLevelCap": 15,
 		"Id": 72,
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "Notoriety",
 		"Reports": [
 			{
 				"Level": 1,
@@ -15678,6 +16087,7 @@
 		"XpTable": "Phrenology"
 	},
 	"Pig": {
+		"ActiveAdvancementTable": "PlayerPig",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Pig, gain favor with Norbert in Sun Vale's \"Animal Town\".",
@@ -15708,7 +16118,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerPig",
 		"Combat": true,
 		"Description": "The art of living and fighting as a pig.",
 		"GuestLevelCap": 15,
@@ -15988,6 +16397,7 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -16041,6 +16451,7 @@
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Priest": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Priest, gain favor with Aralorn in Gazluk.",
@@ -16071,7 +16482,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Officially the 'Priest of Arisetsu' skill, this represents your attunement with Arisetsu, the goddess of Warmth and Hope. When fighting alongside allies, you can bring hope to even the most impossible battles... but you cannot do it alone.\n\nYou must be wearing a holy symbol -- and NOT wearing a Necromancy Gem -- to use Priest abilities. Holy symbols are most often found as jewelry, but can also be found on armor and weapons.",
 		"GuestLevelCap": 0,
@@ -16373,6 +16783,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf",
@@ -16422,7 +16833,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Understanding the mind of sentient creatures. Also, using that knowledge in combat and other stressful situations.",
 		"GuestLevelCap": 15,
@@ -16462,6 +16872,7 @@
 		"MaxBonusLevels": 25,
 		"Name": "Psychology",
 		"Parents": [],
+		"PassiveAdvancementTable": "Balanced",
 		"Rewards": [
 			{
 				"Abilities": [
@@ -16658,6 +17069,14 @@
 				"Level": 52
 			},
 			{
+				"BonusToSkill": "FlowerArrangement",
+				"Level": 55
+			},
+			{
+				"BonusToSkill": "Vampirism",
+				"Level": 65
+			},
+			{
 				"BonusToSkill": "ShamanicInfusion",
 				"Level": 70
 			}
@@ -16690,6 +17109,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -16697,6 +17117,7 @@
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Rabbit": {
+		"ActiveAdvancementTable": "PlayerPig",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Rabbit, gain favor with Cinnamon in Sun Vale's \"Animal Town\".",
@@ -16727,7 +17148,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerPig",
 		"Combat": true,
 		"Description": "The art of living and fighting as a rabbit or hare. Note: rabbits are not known for their ferocity, so sentient rabbits should carefully consider their choice of secondary skill.",
 		"GuestLevelCap": 15,
@@ -16953,6 +17373,7 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -17187,12 +17608,20 @@
 		"Parents": [
 			"Riding"
 		],
+		"PassiveAdvancementTable": "Racing",
 		"Rewards": [],
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"RetailManagement": {
-		"AdvancementHints": [],
-		"AdvancementTable": "RetailManagement",
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Retail Management, gain favor with Korbok in Vidaria.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_Korbok"
+				]
+			}
+		],
 		"Combat": false,
 		"Description": "Skill in managing a shop, boutique, or restaurant.",
 		"GuestLevelCap": 0,
@@ -17231,11 +17660,8 @@
 		],
 		"MaxBonusLevels": 25,
 		"Name": "Retail Management",
+		"PassiveAdvancementTable": "RetailManagement",
 		"Rewards": [
-			{
-				"Level": 10,
-				"Notes": "+1 Max Active Player Orders"
-			},
 			{
 				"BonusToSkill": "Industry",
 				"Level": 15
@@ -17252,6 +17678,7 @@
 		"XpTable": "RetailManagement"
 	},
 	"Riding": {
+		"ActiveAdvancementTable": "Riding",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Riding, gain favor with Mythander in Eltibule.",
@@ -17275,10 +17702,9 @@
 				]
 			}
 		],
-		"AdvancementTable": "Riding",
 		"Combat": true,
-		"Description": "Skill in riding terrestrial mounts. Higher skill allows you to keep your mount calm even in terrifying situations.\n\nEarn XP by riding in many different and dangerous locations.",
-		"GuestLevelCap": 0,
+		"Description": "Skill in riding terrestrial mounts. Higher skill allows you to keep your mount calm even in terrifying situations. Riding skill is also used when trying to tame wild horses.\n\nEarn XP by riding in many different and dangerous locations.",
+		"GuestLevelCap": 15,
 		"Id": 167,
 		"InteractionFlagLevelCaps": [
 			{
@@ -17499,7 +17925,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "BonusInventoryFolderAt25",
 		"Combat": false,
 		"Description": "Knowledge and skill in the magical art of enhancing items with the spirit of deceased animals.",
 		"GuestLevelCap": 15,
@@ -17539,6 +17964,7 @@
 		"MaxBonusLevels": 25,
 		"Name": "Shamanic Infusion",
 		"Parents": [],
+		"PassiveAdvancementTable": "BonusInventoryFolderAt25",
 		"Rewards": [
 			{
 				"Level": 1,
@@ -17729,6 +18155,7 @@
 		"XpTable": "ShamanicInfusion"
 	},
 	"Shield": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Shield, gain favor with Sir Johnson in Amulna.",
@@ -17759,7 +18186,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Expertise in the use of a shield, both as a weapon and as a defensive tool.",
 		"GuestLevelCap": 15,
@@ -18037,6 +18463,7 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -18166,7 +18593,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Skinning",
 		"Combat": false,
 		"Description": "Skill in the act of removing fur or skin from an animal. You need to be carrying a Skinning Knife in order to skin a corpse. Corpses of sentient creatures, such as goblins and humans, can't be skinned.",
 		"GuestLevelCap": 15,
@@ -18204,6 +18630,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "Skinning",
 		"Rewards": [
 			{
 				"BonusToSkill": "Tanning",
@@ -18253,6 +18680,7 @@
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Spider": {
+		"ActiveAdvancementTable": "PlayerSpider",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Spider, gain favor with Legs in Sun Vale's \"Animal Town.\"",
@@ -18283,7 +18711,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerSpider",
 		"Combat": true,
 		"Description": "The art of living and fighting as a spider.",
 		"GuestLevelCap": 15,
@@ -18511,11 +18938,13 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"SpiritFox": {
+		"ActiveAdvancementTable": "PlayerPig",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Spirit Fox, gain favor with Mittens in Kur.",
@@ -18546,7 +18975,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerPig",
 		"Combat": true,
 		"Description": "Mastery of the techniques of the spirit fox: an awakened fox with supernatural powers.",
 		"GuestLevelCap": 15,
@@ -18786,11 +19214,13 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Staff": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Staff, gain favor with Roshun The Traitor outside of Serbule.",
@@ -18821,7 +19251,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Mastery of the staff as a martial weapon. Staff fighting has a mix of both offensive and defensive abilities.",
 		"GuestLevelCap": 0,
@@ -19024,6 +19453,7 @@
 			"Psychology",
 			"Shield",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching"
 		],
 		"XpTable": "TypicalCombatSkill"
@@ -19062,7 +19492,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Surveying",
 		"Combat": false,
 		"Description": "Analyzing the land to locate valuable resources or important locations. Surveying has many uses, but is most commonly used to make resource maps for Geology and Mining.",
 		"GuestLevelCap": 15,
@@ -19101,6 +19530,7 @@
 		],
 		"MaxBonusLevels": 25,
 		"Name": "Surveying",
+		"PassiveAdvancementTable": "Surveying",
 		"Rewards": [
 			{
 				"BonusToSkill": "Geology",
@@ -19137,6 +19567,10 @@
 			{
 				"BonusToSkill": "WeatherWitching",
 				"Level": 65
+			},
+			{
+				"BonusToSkill": "NatureAppreciation",
+				"Level": 70
 			}
 		],
 		"XpTable": "Surveying"
@@ -19172,7 +19606,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "SurvivalInstincts",
 		"AuxCombat": true,
 		"Combat": false,
 		"Description": "The ability of self-aware animals to enhance their natural instincts into finely-honed combat techniques. Only animals can use this skill.",
@@ -19212,6 +19645,7 @@
 		],
 		"MaxBonusLevels": 25,
 		"Name": "Survival Instincts",
+		"PassiveAdvancementTable": "SurvivalInstincts",
 		"Rewards": [
 			{
 				"Abilities": [
@@ -19322,6 +19756,7 @@
 		"XpTable": "AuxCraftingSkill"
 	},
 	"Sword": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Sword, gain favor with Janet Lews in Kur Mountains.",
@@ -19352,7 +19787,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Expertise with swords, rapiers, and the like. Swords are very damaging, and can reduce an opponent's Rage.",
 		"GuestLevelCap": 15,
@@ -19573,7 +20007,8 @@
 			"Priest",
 			"Psychology",
 			"Shield",
-			"Unarmed"
+			"Unarmed",
+			"Vampirism"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -19608,7 +20043,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "BonusInventoryFolderAt50",
 		"Combat": false,
 		"Description": "Tailoring has two aspects: first, you use it to turn textiles into clothing. Second, you can use tailoring to make clothing and leather armor more comfortable, more useful, or more stylish.",
 		"GuestLevelCap": 15,
@@ -19646,6 +20080,7 @@
 			}
 		],
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "BonusInventoryFolderAt50",
 		"Rewards": [
 			{
 				"BonusToSkill": "Textiles",
@@ -19775,12 +20210,12 @@
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Teleportation": {
-		"AdvancementTable": "ModestPassive",
 		"Combat": false,
 		"Description": "The magical art of suddenly being somewhere else.",
 		"GuestLevelCap": 15,
 		"Id": 62,
 		"MaxBonusLevels": 25,
+		"PassiveAdvancementTable": "ModestPassive",
 		"Reports": [
 			{
 				"Level": 1,
@@ -20094,7 +20529,6 @@
 		"XpTable": "Transmutation"
 	},
 	"TreasureCartography": {
-		"AdvancementTable": "TreasureHunting",
 		"Combat": false,
 		"Description": "Experience creating maps from old clues. The maps can lead to treasure... or tragedy.",
 		"GuestLevelCap": 15,
@@ -20102,10 +20536,12 @@
 		"MaxBonusLevels": 25,
 		"Name": "Treasure Cartography",
 		"Parents": [],
+		"PassiveAdvancementTable": "TreasureHunting",
 		"Rewards": [],
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Unarmed": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Unarmed, gain favor with Furlak in Rahu.",
@@ -20136,7 +20572,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Mastery of the martial arts. Not especially damaging, but with great controlling and stunning abilities. Generally requires one or both hands to be empty, although you can use kicks even with other items wielded.",
 		"GuestLevelCap": 15,
@@ -20370,6 +20805,367 @@
 			"Staff",
 			"Sword",
 			"Unarmed",
+			"Vampirism",
+			"Warden",
+			"WeatherWitching",
+			"Werewolf"
+		],
+		"XpTable": "TypicalCombatSkill"
+	},
+	"Vampirism": {
+		"ActiveAdvancementTable": "Vampirism",
+		"AdvancementHints": [
+			{
+				"Hint": "To earn more XP in Vampirism, gain favor with Truxartis in Vidaria.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_Truxartis"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Vampirism, gain favor with Truxartis in Vidaria.",
+				"Level": 60,
+				"Npcs": [
+					"NPC_Truxartis"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Vampirism, gain favor with Bendith the Banished in the Fae Realm.",
+				"Level": 70,
+				"Npcs": [
+					"NPC_BendiththeBanished"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Vampirism, gain favor with a mysterious entity deep beneath Povus.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentity"
+				]
+			}
+		],
+		"Combat": true,
+		"Description": "Vampin'",
+		"GuestLevelCap": 15,
+		"Id": 175,
+		"InteractionFlagLevelCaps": [
+			{
+				"IsPerformanceSkill": false,
+				"Level": 90,
+				"Skill": "Vampirism",
+				"SkillCap": 100
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 50,
+				"Skill": "Vampirism",
+				"SkillCap": 60
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 60,
+				"Skill": "Vampirism",
+				"SkillCap": 70
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 70,
+				"Skill": "Vampirism",
+				"SkillCap": 80
+			},
+			{
+				"IsPerformanceSkill": false,
+				"Level": 80,
+				"Skill": "Vampirism",
+				"SkillCap": 90
+			}
+		],
+		"MaxBonusLevels": 25,
+		"Name": "Vampirism",
+		"Parents": [],
+		"PassiveAdvancementTable": "VampirismPassive",
+		"Rewards": [
+			{
+				"Abilities": [
+					"OverwhelmingBite1"
+				],
+				"Level": 1
+			},
+			{
+				"Abilities": [
+					"WitheringShroud1"
+				],
+				"Level": 2
+			},
+			{
+				"Abilities": [
+					"Dominate1"
+				],
+				"Level": 4
+			},
+			{
+				"Abilities": [
+					"EmbraceOfDespair1"
+				],
+				"Level": 5
+			},
+			{
+				"Abilities": [
+					"NecroticGrasp1"
+				],
+				"Level": 6
+			},
+			{
+				"Abilities": [
+					"Lifedrain1"
+				],
+				"Level": 7
+			},
+			{
+				"Abilities": [
+					"EclipseOfShadows1"
+				],
+				"Level": 8
+			},
+			{
+				"Abilities": [
+					"Exsanguinate1"
+				],
+				"Level": 9
+			},
+			{
+				"Abilities": [
+					"Enthrall1"
+				],
+				"Level": 10
+			},
+			{
+				"Abilities": [
+					"OverwhelmingBite2"
+				],
+				"Level": 11
+			},
+			{
+				"Abilities": [
+					"WitheringShroud2"
+				],
+				"Level": 12
+			},
+			{
+				"Abilities": [
+					"EmbraceOfDespair2"
+				],
+				"Level": 15
+			},
+			{
+				"Abilities": [
+					"NecroticGrasp2"
+				],
+				"Level": 16
+			},
+			{
+				"Abilities": [
+					"Lifedrain2"
+				],
+				"Level": 17
+			},
+			{
+				"Abilities": [
+					"EclipseOfShadows2"
+				],
+				"Level": 18
+			},
+			{
+				"Abilities": [
+					"Exsanguinate2"
+				],
+				"Level": 19
+			},
+			{
+				"Abilities": [
+					"Enthrall2"
+				],
+				"Level": 20
+			},
+			{
+				"Abilities": [
+					"OverwhelmingBite3"
+				],
+				"Level": 21
+			},
+			{
+				"Abilities": [
+					"WitheringShroud3"
+				],
+				"Level": 22
+			},
+			{
+				"Abilities": [
+					"Dominate2"
+				],
+				"Level": 24
+			},
+			{
+				"Abilities": [
+					"EmbraceOfDespair3"
+				],
+				"Level": 25
+			},
+			{
+				"Abilities": [
+					"NecroticGrasp3"
+				],
+				"Level": 26
+			},
+			{
+				"Abilities": [
+					"Lifedrain3"
+				],
+				"Level": 27
+			},
+			{
+				"Abilities": [
+					"EclipseOfShadows3"
+				],
+				"Level": 28
+			},
+			{
+				"Abilities": [
+					"Exsanguinate3"
+				],
+				"Level": 29
+			},
+			{
+				"Abilities": [
+					"OverwhelmingBite4"
+				],
+				"Level": 31
+			},
+			{
+				"Abilities": [
+					"WitheringShroud4"
+				],
+				"Level": 32
+			},
+			{
+				"Abilities": [
+					"EmbraceOfDespair4"
+				],
+				"Level": 35
+			},
+			{
+				"Abilities": [
+					"NecroticGrasp4"
+				],
+				"Level": 36
+			},
+			{
+				"Abilities": [
+					"Lifedrain4"
+				],
+				"Level": 37
+			},
+			{
+				"Abilities": [
+					"EclipseOfShadows4"
+				],
+				"Level": 38
+			},
+			{
+				"Abilities": [
+					"Exsanguinate4"
+				],
+				"Level": 39
+			},
+			{
+				"Abilities": [
+					"Enthrall3"
+				],
+				"Level": 40
+			},
+			{
+				"Abilities": [
+					"OverwhelmingBite5"
+				],
+				"Level": 41
+			},
+			{
+				"Abilities": [
+					"WitheringShroud5"
+				],
+				"Level": 42
+			},
+			{
+				"Abilities": [
+					"Dominate3"
+				],
+				"Level": 44
+			},
+			{
+				"Abilities": [
+					"EmbraceOfDespair5"
+				],
+				"Level": 45
+			},
+			{
+				"Abilities": [
+					"NecroticGrasp5"
+				],
+				"Level": 46
+			},
+			{
+				"Abilities": [
+					"Lifedrain5"
+				],
+				"Level": 47
+			},
+			{
+				"Abilities": [
+					"EclipseOfShadows5"
+				],
+				"Level": 48
+			},
+			{
+				"Abilities": [
+					"Exsanguinate5"
+				],
+				"Level": 49
+			},
+			{
+				"Abilities": [
+					"OverwhelmingBite6"
+				],
+				"Level": 51
+			}
+		],
+		"TSysCompatibleCombatSkills": [
+			"AnimalHandling",
+			"Archery",
+			"Axe",
+			"Bard",
+			"BattleChemistry",
+			"ChargedPig",
+			"Cow",
+			"Deer",
+			"Druid",
+			"FairyMagic",
+			"FireMagic",
+			"GiantBat",
+			"Hammer",
+			"IceMagic",
+			"Knife",
+			"Mentalism",
+			"Necromancy",
+			"Pig",
+			"Priest",
+			"Psychology",
+			"Rabbit",
+			"Shield",
+			"Spider",
+			"SpiritFox",
+			"Staff",
+			"Sword",
+			"Unarmed",
 			"Warden",
 			"WeatherWitching",
 			"Werewolf"
@@ -20388,6 +21184,7 @@
 		"XpTable": "Vocabulary"
 	},
 	"Warden": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Warden, gain favor with Barnaby in the Sacred Grotto.",
@@ -20418,7 +21215,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "Skill in using the secret powers of the Wardens.",
 		"GuestLevelCap": 15,
@@ -20484,6 +21280,7 @@
 			"Spider",
 			"SpiritFox",
 			"Unarmed",
+			"Vampirism",
 			"WeatherWitching",
 			"Werewolf"
 		],
@@ -20580,6 +21377,7 @@
 		"XpTable": "AugmentBrewingSkill"
 	},
 	"WeatherWitching": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Weather Witching, gain favor with Merriana in Serbule Hills.",
@@ -20610,7 +21408,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "Balanced",
 		"Combat": true,
 		"Description": "A rigorous magical discipline focusing on manipulating and engaging with the environment around you. Elves are the undisputed experts of the field, which causes some races to view it negatively. It is also sometimes mistaken for (illegal) Chaos Magic due to its chaotic and dangerous nature.",
 		"GuestLevelCap": 15,
@@ -20654,6 +21451,14 @@
 				"Level": 1,
 				"Notes": "Access to new research recipe",
 				"Recipe": "WeatherWitching1"
+			},
+			{
+				"BonusToSkill": "NatureAppreciation",
+				"Level": 25
+			},
+			{
+				"BonusToSkill": "NatureAppreciation",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -20673,11 +21478,13 @@
 			"Shield",
 			"Staff",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"Werewolf": {
+		"ActiveAdvancementTable": "PlayerWerewolf",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Lycanthropy, seek out the Altar of Norala during a full moon, or Sanja in Kur Mountains.",
@@ -20710,7 +21517,6 @@
 				]
 			}
 		],
-		"AdvancementTable": "PlayerWerewolf",
 		"Combat": true,
 		"Description": "Skill in fighting as a wolf beast. Also indicates your ability to control and suppress the beast mode.",
 		"GuestLevelCap": 15,
@@ -20866,12 +21672,12 @@
 			"Priest",
 			"Psychology",
 			"Unarmed",
+			"Vampirism",
 			"Warden"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
 	"WerewolfMetabolism": {
-		"AdvancementTable": "WerewolfMetabolism",
 		"Combat": false,
 		"Description": "Represents your metabolic efficiency when consuming the corpses of fallen foes. When you eat a corpse, you receive a buff that recovers Health, Armor, and Power every few seconds. The duration of the buff is based on your Beast Metabolism skill. The potency of the buff is based on the corpse you've eaten (higher-level monsters are better!), and potency can be further augmented through buffs and treasure.",
 		"GuestLevelCap": 15,
@@ -20881,6 +21687,7 @@
 		"Parents": [
 			"Werewolf"
 		],
+		"PassiveAdvancementTable": "WerewolfMetabolism",
 		"Rewards": [],
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
@@ -20905,6 +21712,13 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_BrugotheWise"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Whittling, gain favor with Engineer Crall in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_EngineerCrall"
 				]
 			}
 		],

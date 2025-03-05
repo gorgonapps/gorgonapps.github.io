@@ -878,10 +878,50 @@
 			}
 		]
 	},
+	"10406": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"10407": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"10408": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"10409": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
 	"1041": {
 		"Entries": [
 			{
 				"Npc": "NPC_Mandibles",
+				"Type": "Training"
+			}
+		]
+	},
+	"10410": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
 				"Type": "Training"
 			}
 		]
@@ -1955,6 +1995,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"10851": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
 				"Type": "Training"
 			}
 		]
@@ -5191,11 +5239,37 @@
 			}
 		]
 	},
+	"1255": {
+		"Entries": [
+			{
+				"HangOutId": 24302,
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "HangOut"
+			}
+		]
+	},
+	"1256": {
+		"Entries": [
+			{
+				"HangOutId": 24303,
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "HangOut"
+			}
+		]
+	},
 	"12569": {
 		"Entries": [
 			{
 				"ItemTypeId": 2555,
 				"Type": "Item"
+			}
+		]
+	},
+	"1257": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
 			}
 		]
 	},
@@ -5212,6 +5286,15 @@
 			{
 				"ItemTypeId": 2701,
 				"Type": "Item"
+			}
+		]
+	},
+	"1258": {
+		"Entries": [
+			{
+				"HangOutId": 24301,
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "HangOut"
 			}
 		]
 	},
@@ -5351,6 +5434,14 @@
 			}
 		]
 	},
+	"1300": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
+			}
+		]
+	},
 	"13001": {
 		"Entries": [
 			{
@@ -5463,6 +5554,30 @@
 			}
 		]
 	},
+	"1302": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
+			}
+		]
+	},
+	"1303": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
+			}
+		]
+	},
+	"1304": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
+			}
+		]
+	},
 	"13041": {
 		"Entries": [
 			{
@@ -5516,6 +5631,14 @@
 			{
 				"ItemTypeId": 3284,
 				"Type": "Item"
+			}
+		]
+	},
+	"1305": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
 			}
 		]
 	},
@@ -14616,6 +14739,14 @@
 			}
 		]
 	},
+	"19027": {
+		"Entries": [
+			{
+				"Npc": "NPC_Tadion",
+				"Type": "Training"
+			}
+		]
+	},
 	"191": {
 		"Entries": [
 			{
@@ -16544,10 +16675,216 @@
 	"19885": {
 		"Entries": []
 	},
+	"19891": {
+		"Entries": []
+	},
+	"19892": {
+		"Entries": []
+	},
+	"19893": {
+		"Entries": []
+	},
+	"19894": {
+		"Entries": []
+	},
+	"19895": {
+		"Entries": []
+	},
 	"199": {
 		"Entries": [
 			{
 				"Npc": "NPC_Selaxi",
+				"Type": "Training"
+			}
+		]
+	},
+	"19901": {
+		"Entries": []
+	},
+	"19902": {
+		"Entries": []
+	},
+	"19903": {
+		"Entries": []
+	},
+	"19904": {
+		"Entries": []
+	},
+	"19905": {
+		"Entries": []
+	},
+	"19911": {
+		"Entries": [
+			{
+				"Npc": "NPC_DentonRazor",
+				"Type": "Training"
+			}
+		]
+	},
+	"19912": {
+		"Entries": []
+	},
+	"19913": {
+		"Entries": []
+	},
+	"19914": {
+		"Entries": []
+	},
+	"19915": {
+		"Entries": []
+	},
+	"19921": {
+		"Entries": [
+			{
+				"Npc": "NPC_DentonRazor",
+				"Type": "Training"
+			}
+		]
+	},
+	"19922": {
+		"Entries": []
+	},
+	"19923": {
+		"Entries": []
+	},
+	"19924": {
+		"Entries": []
+	},
+	"19925": {
+		"Entries": []
+	},
+	"19931": {
+		"Entries": [
+			{
+				"Npc": "NPC_DentonRazor",
+				"Type": "Training"
+			}
+		]
+	},
+	"19932": {
+		"Entries": [
+			{
+				"Npc": "NPC_DentonRazor",
+				"Type": "Training"
+			}
+		]
+	},
+	"19941": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19942": {
+		"Entries": []
+	},
+	"19943": {
+		"Entries": []
+	},
+	"19944": {
+		"Entries": []
+	},
+	"19945": {
+		"Entries": []
+	},
+	"19951": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19952": {
+		"Entries": []
+	},
+	"19953": {
+		"Entries": []
+	},
+	"19954": {
+		"Entries": []
+	},
+	"19955": {
+		"Entries": []
+	},
+	"19961": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19962": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19963": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19964": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19965": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19971": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19972": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19973": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19974": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"19975": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
 				"Type": "Training"
 			}
 		]
@@ -17714,6 +18051,14 @@
 			}
 		]
 	},
+	"22205": {
+		"Entries": [
+			{
+				"Npc": "NPC_DentonRazor",
+				"Type": "Training"
+			}
+		]
+	},
 	"22221": {
 		"Entries": [
 			{
@@ -17978,6 +18323,30 @@
 			}
 		]
 	},
+	"22410": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"22451": {
+		"Entries": [
+			{
+				"Npc": "NPC_Amutasa",
+				"Type": "Training"
+			}
+		]
+	},
+	"22452": {
+		"Entries": [
+			{
+				"Npc": "NPC_Amutasa",
+				"Type": "Training"
+			}
+		]
+	},
 	"22501": {
 		"Entries": [
 			{
@@ -18143,6 +18512,46 @@
 			{
 				"ItemTypeId": 3580,
 				"Type": "Item"
+			}
+		]
+	},
+	"22611": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"22612": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"22621": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"22631": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
+			}
+		]
+	},
+	"22632": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
 			}
 		]
 	},
@@ -18590,6 +18999,30 @@
 				"HangOutId": 23401,
 				"Npc": "NPC_DanielMurderdark",
 				"Type": "HangOut"
+			}
+		]
+	},
+	"23301": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23302": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23303": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
 			}
 		]
 	},
@@ -19422,6 +19855,22 @@
 			}
 		]
 	},
+	"24256": {
+		"Entries": [
+			{
+				"ItemTypeId": 3924,
+				"Type": "Item"
+			}
+		]
+	},
+	"24260": {
+		"Entries": [
+			{
+				"ItemTypeId": 3925,
+				"Type": "Item"
+			}
+		]
+	},
 	"24261": {
 		"Entries": [
 			{
@@ -19929,6 +20378,30 @@
 			}
 		]
 	},
+	"25205": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
+				"Type": "Training"
+			}
+		]
+	},
+	"25211": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"25212": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
 	"25251": {
 		"Entries": [
 			{
@@ -20249,6 +20722,14 @@
 			}
 		]
 	},
+	"25512": {
+		"Entries": [
+			{
+				"Npc": "NPC_DanielMurderdark",
+				"Type": "Training"
+			}
+		]
+	},
 	"25521": {
 		"Entries": [
 			{
@@ -20258,6 +20739,14 @@
 		]
 	},
 	"25522": {
+		"Entries": [
+			{
+				"Npc": "NPC_LeahBowman",
+				"Type": "Training"
+			}
+		]
+	},
+	"25523": {
 		"Entries": [
 			{
 				"Npc": "NPC_LeahBowman",
@@ -20830,6 +21319,14 @@
 			{
 				"ItemTypeId": 3714,
 				"Type": "Item"
+			}
+		]
+	},
+	"26201": {
+		"Entries": [
+			{
+				"Npc": "NPC_Amutasa",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22420,6 +22917,64 @@
 	"28358": {
 		"Entries": []
 	},
+	"28501": {
+		"Entries": [
+			{
+				"ItemTypeId": 2841,
+				"Type": "Item"
+			}
+		]
+	},
+	"28502": {
+		"Entries": []
+	},
+	"28503": {
+		"Entries": []
+	},
+	"28504": {
+		"Entries": []
+	},
+	"28505": {
+		"Entries": []
+	},
+	"28506": {
+		"Entries": []
+	},
+	"28507": {
+		"Entries": []
+	},
+	"28508": {
+		"Entries": []
+	},
+	"28521": {
+		"Entries": [
+			{
+				"ItemTypeId": 2842,
+				"Type": "Item"
+			}
+		]
+	},
+	"28522": {
+		"Entries": []
+	},
+	"28523": {
+		"Entries": []
+	},
+	"28524": {
+		"Entries": []
+	},
+	"28525": {
+		"Entries": []
+	},
+	"28526": {
+		"Entries": []
+	},
+	"28527": {
+		"Entries": []
+	},
+	"28528": {
+		"Entries": []
+	},
 	"29": {
 		"Entries": [
 			{
@@ -22638,6 +23193,9 @@
 		"Entries": []
 	},
 	"30028": {
+		"Entries": []
+	},
+	"30029": {
 		"Entries": []
 	},
 	"301": {
@@ -24068,6 +24626,22 @@
 			}
 		]
 	},
+	"5246": {
+		"Entries": [
+			{
+				"ItemTypeId": 2567,
+				"Type": "Item"
+			}
+		]
+	},
+	"5247": {
+		"Entries": [
+			{
+				"ItemTypeId": 2568,
+				"Type": "Item"
+			}
+		]
+	},
 	"53": {
 		"Entries": [
 			{
@@ -24293,6 +24867,14 @@
 			}
 		]
 	},
+	"56": {
+		"Entries": [
+			{
+				"QuestId": 44143,
+				"Type": "Quest"
+			}
+		]
+	},
 	"560": {
 		"Entries": [
 			{
@@ -24349,6 +24931,14 @@
 			}
 		]
 	},
+	"57": {
+		"Entries": [
+			{
+				"QuestId": 44144,
+				"Type": "Quest"
+			}
+		]
+	},
 	"573": {
 		"Entries": [
 			{
@@ -24361,6 +24951,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Hiral",
+				"Type": "Training"
+			}
+		]
+	},
+	"58": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
 				"Type": "Training"
 			}
 		]
@@ -24424,6 +25022,14 @@
 				"HangOutId": 22802,
 				"Npc": "NPC_HemmitMagmagrip",
 				"Type": "HangOut"
+			}
+		]
+	},
+	"59": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
+				"Type": "Training"
 			}
 		]
 	},
@@ -24512,6 +25118,14 @@
 			{
 				"ItemTypeId": 3101,
 				"Type": "Item"
+			}
+		]
+	},
+	"60": {
+		"Entries": [
+			{
+				"QuestId": 44141,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -25099,6 +25713,46 @@
 			}
 		]
 	},
+	"6065": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6066": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6067": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6068": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6069": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
 	"607": {
 		"Entries": [
 			{
@@ -25107,6 +25761,78 @@
 			},
 			{
 				"Npc": "NPC_Velkort_Halloween",
+				"Type": "Training"
+			}
+		]
+	},
+	"6070": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6071": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6072": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6073": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6074": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6075": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6076": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6077": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6078": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
 				"Type": "Training"
 			}
 		]
@@ -25131,6 +25857,14 @@
 			},
 			{
 				"Npc": "NPC_Velkort_Halloween",
+				"Type": "Training"
+			}
+		]
+	},
+	"61": {
+		"Entries": [
+			{
+				"Npc": "NPC_Crall",
 				"Type": "Training"
 			}
 		]
@@ -25224,6 +25958,14 @@
 			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
+			}
+		]
+	},
+	"62": {
+		"Entries": [
+			{
+				"QuestId": 44142,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -25567,6 +26309,22 @@
 			}
 		]
 	},
+	"6537": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
+	"6538": {
+		"Entries": [
+			{
+				"Npc": "NPC_Liamu",
+				"Type": "Training"
+			}
+		]
+	},
 	"6651": {
 		"Entries": [
 			{
@@ -25643,6 +26401,14 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Preta",
+				"Type": "Training"
+			}
+		]
+	},
+	"6661": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
 				"Type": "Training"
 			}
 		]
@@ -26962,6 +27728,54 @@
 			}
 		]
 	},
+	"7652": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
+				"Type": "Training"
+			}
+		]
+	},
+	"7653": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
+				"Type": "Training"
+			}
+		]
+	},
+	"7654": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
+				"Type": "Training"
+			}
+		]
+	},
+	"7655": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
+				"Type": "Training"
+			}
+		]
+	},
+	"7656": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
+				"Type": "Training"
+			}
+		]
+	},
+	"7657": {
+		"Entries": [
+			{
+				"Npc": "NPC_FerrisBlueheart",
+				"Type": "Training"
+			}
+		]
+	},
 	"7801": {
 		"Entries": [
 			{
@@ -27194,6 +28008,22 @@
 			}
 		]
 	},
+	"7831": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ragabir",
+				"Type": "Training"
+			}
+		]
+	},
+	"7832": {
+		"Entries": [
+			{
+				"Npc": "NPC_Ragabir",
+				"Type": "Training"
+			}
+		]
+	},
 	"7841": {
 		"Entries": [
 			{
@@ -27402,6 +28232,22 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3595,
+				"Type": "Item"
+			}
+		]
+	},
+	"7897": {
+		"Entries": [
+			{
+				"ItemTypeId": 3596,
+				"Type": "Item"
+			}
+		]
+	},
+	"7898": {
+		"Entries": [
+			{
+				"ItemTypeId": 3597,
 				"Type": "Item"
 			}
 		]
@@ -28297,6 +29143,54 @@
 			}
 		]
 	},
+	"8571": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"8572": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"8573": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"8574": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"8575": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
+	"8576": {
+		"Entries": [
+			{
+				"Npc": "NPC_TrainerSphere4",
+				"Type": "Training"
+			}
+		]
+	},
 	"9001": {
 		"Entries": [
 			{
@@ -28967,6 +29861,38 @@
 			}
 		]
 	},
+	"9516": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9517": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9518": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9519": {
+		"Entries": [
+			{
+				"ItemTypeId": 3050,
+				"Type": "Item"
+			}
+		]
+	},
 	"952": {
 		"Entries": [
 			{
@@ -29275,6 +30201,22 @@
 			}
 		]
 	},
+	"9638": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9639": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
 	"9651": {
 		"Entries": [
 			{
@@ -29327,6 +30269,22 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"9658": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9659": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
 				"Type": "Training"
 			}
 		]
@@ -29395,6 +30353,22 @@
 			}
 		]
 	},
+	"9679": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9680": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
 	"9691": {
 		"Entries": [
 			{
@@ -29455,6 +30429,22 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"9699": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9700": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
 				"Type": "Training"
 			}
 		]
@@ -29523,6 +30513,22 @@
 			}
 		]
 	},
+	"9719": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9720": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
 	"9731": {
 		"Entries": [
 			{
@@ -29587,6 +30593,22 @@
 			}
 		]
 	},
+	"9739": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9740": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
 	"9772": {
 		"Entries": [
 			{
@@ -29615,6 +30637,14 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3025,
+				"Type": "Item"
+			}
+		]
+	},
+	"9779": {
+		"Entries": [
+			{
+				"ItemTypeId": 3046,
 				"Type": "Item"
 			}
 		]
@@ -29648,6 +30678,62 @@
 			{
 				"ItemTypeId": 3026,
 				"Type": "Item"
+			}
+		]
+	},
+	"9819": {
+		"Entries": [
+			{
+				"ItemTypeId": 3047,
+				"Type": "Item"
+			}
+		]
+	},
+	"9891": {
+		"Entries": [
+			{
+				"Npc": "NPC_Zhao",
+				"Type": "Training"
+			}
+		]
+	},
+	"9892": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"9893": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
+			}
+		]
+	},
+	"9901": {
+		"Entries": [
+			{
+				"Npc": "NPC_Zhao",
+				"Type": "Training"
+			}
+		]
+	},
+	"9902": {
+		"Entries": [
+			{
+				"Npc": "NPC_Floxie",
+				"Type": "Training"
+			}
+		]
+	},
+	"9903": {
+		"Entries": [
+			{
+				"Npc": "NPC_TheFloriculturist",
+				"Type": "Training"
 			}
 		]
 	},
@@ -29715,6 +30801,22 @@
 			}
 		]
 	},
+	"9919": {
+		"Entries": [
+			{
+				"ItemTypeId": 3048,
+				"Type": "Item"
+			}
+		]
+	},
+	"9920": {
+		"Entries": [
+			{
+				"ItemTypeId": 3049,
+				"Type": "Item"
+			}
+		]
+	},
 	"9931": {
 		"Entries": [
 			{
@@ -29775,6 +30877,22 @@
 		"Entries": [
 			{
 				"ItemTypeId": 3024,
+				"Type": "Item"
+			}
+		]
+	},
+	"9939": {
+		"Entries": [
+			{
+				"ItemTypeId": 3048,
+				"Type": "Item"
+			}
+		]
+	},
+	"9940": {
+		"Entries": [
+			{
+				"ItemTypeId": 3049,
 				"Type": "Item"
 			}
 		]

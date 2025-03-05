@@ -47,6 +47,10 @@
 		"FriendlyName": "Gazluk Keep",
 		"ShortFriendlyName": "Gazluk Keep"
 	},
+	"AreaGuildHall1": {
+		"FriendlyName": "Guild Hall",
+		"ShortFriendlyName": "Guild Hall"
+	},
 	"AreaKurCaves": {
 		"FriendlyName": "Caves Beneath Kur Mountains",
 		"ShortFriendlyName": "Beneath Kur"
@@ -106,6 +110,10 @@
 		"FriendlyName": "Statehelm",
 		"ShortFriendlyName": "Statehelm"
 	},
+	"AreaStatehelmCaves": {
+		"FriendlyName": "Statehelm Undercity",
+		"ShortFriendlyName": "Under Statehelm"
+	},
 	"AreaSunVale": {
 		"FriendlyName": "Sun Vale"
 	},
@@ -115,5 +123,13 @@
 	},
 	"AreaTomb1": {
 		"FriendlyName": "Khyrulek's Crypt"
+	},
+	"AreaVidaria": {
+		"FriendlyName": "Vidaria",
+		"ShortFriendlyName": "Vidaria"
+	},
+	"AreaVidariaCaves": {
+		"FriendlyName": "Beneath Vidaria",
+		"ShortFriendlyName": "Under Vidaria"
 	}
 }

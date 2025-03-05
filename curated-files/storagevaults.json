@@ -1,41 +1,73 @@
 ﻿{
 	"*AccountStorage_AnimalTown": {
-		"AreaName": "SunVale",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 110,
 		"NpcFriendlyName": "Animal Town Transfer Chest",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		}
 	},
 	"*AccountStorage_Casino": {
-		"AreaName": "Casino",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 111,
 		"NpcFriendlyName": "Red Wing Casino Transfer Chest",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"*AccountStorage_Rahu": {
-		"AreaName": "Rahu",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 109,
 		"NpcFriendlyName": "Rahu Transfer Chest",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		}
 	},
 	"*AccountStorage_Serbule": {
-		"AreaName": "Serbule",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 105,
 		"NpcFriendlyName": "Serbule Transfer Chest",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"*AdminStorage": {
-		"AreaName": "Planes",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 107,
 		"NpcFriendlyName": "Admin Storage Area",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "Planes",
+			"AreaType": 1
+		}
 	},
 	"AdminTestNpc": {
-		"AreaName": "Planes",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 108,
 		"NpcFriendlyName": "Admin Test NPC",
 		"NumberOfSlots": 24,
@@ -46,29 +78,64 @@
 			"Potion",
 			"BottledItem"
 		],
-		"RequirementDescription": "Potions and Alchemy Ingredients"
+		"RequirementDescription": "Potions and Alchemy Ingredients",
+		"StorageArea": {
+			"AreaName": "Planes",
+			"AreaType": 1
+		}
 	},
 	"BoxOfSpace": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 113,
 		"NpcFriendlyName": "Small Box of Space",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"CouncilVault": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 101,
 		"NpcFriendlyName": "Council Storage Machine",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"DalvosChest": {
-		"AreaName": "SerbuleCaves",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 501,
 		"NpcFriendlyName": "Dalvos's Chest",
-		"NumberOfSlots": 16
+		"NumberOfSlots": 16,
+		"StorageArea": {
+			"AreaName": "SerbuleCaves",
+			"AreaType": 1
+		}
+	},
+	"InstalledHomeVaultChest": {
+		"Grouping": {
+			"AreaType": 3
+		},
+		"ID": 115,
+		"NpcFriendlyName": "Home Storage",
+		"SlotAttribute": "MAX_PRIMARY_HOME_VAULT_SIZE",
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"IvynsChest": {
-		"AreaName": "Serbule",
-		"Grouping": "Serbule",
+		"Grouping": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		},
 		"ID": 303,
 		"NpcFriendlyName": "Ivyn's Chest",
 		"NumberOfSlots": 32,
@@ -77,10 +144,16 @@
 				"InteractionFlag": "Ivyn_Gave_Passcode",
 				"T": "InteractionFlagSet"
 			}
-		]
+		],
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"KhyrulekMementoChest": {
-		"AreaName": "Tomb1",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 402,
 		"NpcFriendlyName": "Khyrulek's Memento Chest",
 		"NumberOfSlots": 16,
@@ -89,11 +162,17 @@
 				"InteractionFlag": "Tomb1_StoryPuzzleComplete_Looted",
 				"T": "InteractionFlagSet"
 			}
-		]
+		],
+		"StorageArea": {
+			"AreaName": "Tomb1",
+			"AreaType": 1
+		}
 	},
 	"NPC_Agrashab": {
-		"AreaName": "SunVale",
-		"Grouping": "SunVale",
+		"Grouping": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		},
 		"ID": 905,
 		"Levels": {
 			"BestFriends": 28,
@@ -104,11 +183,17 @@
 			"LikeFamily": 32,
 			"SoulMates": 36
 		},
-		"NpcFriendlyName": "Agrashab"
+		"NpcFriendlyName": "Agrashab",
+		"StorageArea": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		}
 	},
 	"NPC_Ashk": {
-		"AreaName": "Rahu",
-		"Grouping": "Rahu",
+		"Grouping": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		},
 		"ID": 1002,
 		"Levels": {
 			"BestFriends": 32,
@@ -119,11 +204,17 @@
 			"LikeFamily": 40,
 			"SoulMates": 48
 		},
-		"NpcFriendlyName": "Ashk"
+		"NpcFriendlyName": "Ashk",
+		"StorageArea": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		}
 	},
 	"NPC_Bendith": {
-		"AreaName": "FaeRealm1",
-		"Grouping": "FaeRealm1",
+		"Grouping": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		},
 		"ID": 1601,
 		"Levels": {
 			"BestFriends": 40,
@@ -144,11 +235,17 @@
 			"Cheese",
 			"Butter"
 		],
-		"RequirementDescription": "Potions, Alchemy, and Cheesemaking"
+		"RequirementDescription": "Potions, Alchemy, and Cheesemaking",
+		"StorageArea": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		}
 	},
 	"NPC_CharlesThompson": {
-		"AreaName": "Serbule",
-		"Grouping": "Serbule",
+		"Grouping": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		},
 		"ID": 305,
 		"Levels": {
 			"BestFriends": 48,
@@ -167,11 +264,38 @@
 			"Potion",
 			"BottledItem"
 		],
-		"RequirementDescription": "Potions and Alchemy Ingredients"
+		"RequirementDescription": "Potions and Alchemy Ingredients",
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
+	},
+	"NPC_Crall": {
+		"Grouping": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		},
+		"ID": 1902,
+		"Levels": {
+			"BestFriends": 30,
+			"CloseFriends": 20,
+			"Comfortable": 0,
+			"Despised": 0,
+			"Friends": 10,
+			"LikeFamily": 40,
+			"SoulMates": 50
+		},
+		"NpcFriendlyName": "Engineer Crall",
+		"StorageArea": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		}
 	},
 	"NPC_DanielMurderdark": {
-		"AreaName": "Rahu",
-		"Grouping": "Rahu",
+		"Grouping": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		},
 		"ID": 1004,
 		"Levels": {
 			"BestFriends": 28,
@@ -182,11 +306,65 @@
 			"LikeFamily": 36,
 			"SoulMates": 44
 		},
-		"NpcFriendlyName": "Daniel Murderdark"
+		"NpcFriendlyName": "Daniel Murderdark",
+		"StorageArea": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		}
+	},
+	"NPC_DentonRazor": {
+		"Grouping": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		},
+		"ID": 1904,
+		"Levels": {
+			"BestFriends": 30,
+			"CloseFriends": 20,
+			"Comfortable": 0,
+			"Despised": 0,
+			"Friends": 10,
+			"LikeFamily": 40,
+			"SoulMates": 50
+		},
+		"NpcFriendlyName": "Denton Razor",
+		"RequiredItemKeywords": [
+			"Equipment",
+			"AbilityIngredient",
+			"Fletching"
+		],
+		"RequirementDescription": "Equipment and Ammunition",
+		"StorageArea": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		}
+	},
+	"NPC_FerrisBlueheart": {
+		"Grouping": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		},
+		"ID": 1901,
+		"Levels": {
+			"BestFriends": 40,
+			"CloseFriends": 30,
+			"Comfortable": 0,
+			"Despised": 0,
+			"Friends": 0,
+			"LikeFamily": 50,
+			"SoulMates": 60
+		},
+		"NpcFriendlyName": "Ferris Blueheart",
+		"StorageArea": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		}
 	},
 	"NPC_Gurki": {
-		"AreaName": "KurMountains",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1101,
 		"Levels": {
 			"BestFriends": 25,
@@ -196,17 +374,29 @@
 			"LikeFamily": 30,
 			"SoulMates": 35
 		},
-		"NpcFriendlyName": "Gurki"
+		"NpcFriendlyName": "Gurki",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"NPC_HiredVendor": {
-		"AreaName": "Serbule",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 306,
 		"NpcFriendlyName": "Hired Vendor",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"NPC_Ichin": {
-		"AreaName": "Rahu",
-		"Grouping": "Rahu",
+		"Grouping": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		},
 		"ID": 1003,
 		"Levels": {
 			"BestFriends": 28,
@@ -217,11 +407,17 @@
 			"LikeFamily": 36,
 			"SoulMates": 44
 		},
-		"NpcFriendlyName": "Ichin the Ice Master"
+		"NpcFriendlyName": "Ichin the Ice Master",
+		"StorageArea": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		}
 	},
 	"NPC_JaceSoral": {
-		"AreaName": "KurMountains",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1102,
 		"Levels": {
 			"BestFriends": 25,
@@ -231,11 +427,17 @@
 			"LikeFamily": 30,
 			"SoulMates": 35
 		},
-		"NpcFriendlyName": "Jace Soral"
+		"NpcFriendlyName": "Jace Soral",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"NPC_Joe": {
-		"AreaName": "Serbule",
-		"Grouping": "Serbule",
+		"Grouping": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		},
 		"ID": 301,
 		"Levels": {
 			"BestFriends": 34,
@@ -246,11 +448,17 @@
 			"LikeFamily": 40,
 			"SoulMates": 46
 		},
-		"NpcFriendlyName": "Joeh"
+		"NpcFriendlyName": "Joeh",
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"NPC_JuliusPatton": {
-		"AreaName": "Serbule2",
-		"Grouping": "Serbule2",
+		"Grouping": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		},
 		"ID": 701,
 		"Levels": {
 			"BestFriends": 28,
@@ -269,11 +477,17 @@
 			"BrewingIngredient",
 			"BrewingRelated"
 		],
-		"RequirementDescription": "Food, Cooking, or Brewing Ingredients"
+		"RequirementDescription": "Food, Cooking, or Brewing Ingredients",
+		"StorageArea": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		}
 	},
 	"NPC_Jumper": {
-		"AreaName": "SunVale",
-		"Grouping": "SunVale",
+		"Grouping": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		},
 		"ID": 901,
 		"Levels": {
 			"BestFriends": 40,
@@ -289,11 +503,17 @@
 			{
 				"T": "IsLongtimeAnimal"
 			}
-		]
+		],
+		"StorageArea": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		}
 	},
 	"NPC_Kib": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1503,
 		"Levels": {
 			"BestFriends": 48,
@@ -309,11 +529,38 @@
 			"AbilityIngredient",
 			"Fletching"
 		],
-		"RequirementDescription": "Equipment and Ammunition"
+		"RequirementDescription": "Equipment and Ammunition",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
+	},
+	"NPC_Korbok": {
+		"Grouping": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		},
+		"ID": 1903,
+		"Levels": {
+			"BestFriends": 0,
+			"CloseFriends": 0,
+			"Comfortable": 0,
+			"Despised": 0,
+			"Friends": 0,
+			"LikeFamily": 50,
+			"SoulMates": 65
+		},
+		"NpcFriendlyName": "Korbok",
+		"StorageArea": {
+			"AreaName": "Vidaria",
+			"AreaType": 1
+		}
 	},
 	"NPC_Lamashu": {
-		"AreaName": "KurMountains",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1103,
 		"Levels": {
 			"BestFriends": 25,
@@ -323,11 +570,17 @@
 			"LikeFamily": 30,
 			"SoulMates": 35
 		},
-		"NpcFriendlyName": "Lamashu"
+		"NpcFriendlyName": "Lamashu",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"NPC_LauraNeth": {
-		"AreaName": "KurMountains",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1105,
 		"Levels": {
 			"BestFriends": 40,
@@ -343,10 +596,16 @@
 			"CookingIngredient",
 			"CookingRelated"
 		],
-		"RequirementDescription": "Food or Cooking Ingredients"
+		"RequirementDescription": "Food or Cooking Ingredients",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"NPC_Lawara": {
-		"AreaName": "NewbieIsland",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 203,
 		"Levels": {
 			"BestFriends": 18,
@@ -357,11 +616,17 @@
 			"LikeFamily": 20,
 			"SoulMates": 24
 		},
-		"NpcFriendlyName": "Lawara"
+		"NpcFriendlyName": "Lawara",
+		"StorageArea": {
+			"AreaName": "NewbieIsland",
+			"AreaType": 1
+		}
 	},
 	"NPC_Mandibles": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1502,
 		"Levels": {
 			"BestFriends": 40,
@@ -377,11 +642,17 @@
 			"CookingIngredient",
 			"CookingRelated"
 		],
-		"RequirementDescription": "Food and Cooking Ingredients"
+		"RequirementDescription": "Food and Cooking Ingredients",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"NPC_MarithFelgard": {
-		"AreaName": "Serbule2",
-		"Grouping": "Serbule2",
+		"Grouping": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		},
 		"ID": 704,
 		"Levels": {
 			"BestFriends": 30,
@@ -392,11 +663,17 @@
 			"LikeFamily": 40,
 			"SoulMates": 50
 		},
-		"NpcFriendlyName": "Marith Felgard"
+		"NpcFriendlyName": "Marith Felgard",
+		"StorageArea": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		}
 	},
 	"NPC_Marna": {
-		"AreaName": "Serbule",
-		"Grouping": "Serbule",
+		"Grouping": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		},
 		"ID": 302,
 		"Levels": {
 			"BestFriends": 40,
@@ -407,10 +684,16 @@
 			"LikeFamily": 48,
 			"SoulMates": 56
 		},
-		"NpcFriendlyName": "Marna"
+		"NpcFriendlyName": "Marna",
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"NPC_Melandria": {
-		"AreaName": "GazlukKeep",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 1301,
 		"Levels": {
 			"BestFriends": 30,
@@ -421,11 +704,17 @@
 			"LikeFamily": 35,
 			"SoulMates": 40
 		},
-		"NpcFriendlyName": "Melandria"
+		"NpcFriendlyName": "Melandria",
+		"StorageArea": {
+			"AreaName": "GazlukKeep",
+			"AreaType": 1
+		}
 	},
 	"NPC_MidgeTheApothecary": {
-		"AreaName": "FaeRealm1",
-		"Grouping": "FaeRealm1",
+		"Grouping": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		},
 		"ID": 1603,
 		"Levels": {
 			"BestFriends": 32,
@@ -435,11 +724,17 @@
 			"LikeFamily": 40,
 			"SoulMates": 48
 		},
-		"NpcFriendlyName": "Midge the Apothecary"
+		"NpcFriendlyName": "Midge the Apothecary",
+		"StorageArea": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		}
 	},
 	"NPC_Mope": {
-		"AreaName": "Povus",
-		"Grouping": "Povus",
+		"Grouping": {
+			"AreaName": "Povus",
+			"AreaType": 1
+		},
 		"ID": 1801,
 		"Levels": {
 			"BestFriends": 40,
@@ -450,11 +745,17 @@
 			"LikeFamily": 50,
 			"SoulMates": 60
 		},
-		"NpcFriendlyName": "Mope"
+		"NpcFriendlyName": "Mope",
+		"StorageArea": {
+			"AreaName": "Povus",
+			"AreaType": 1
+		}
 	},
 	"NPC_Nishika": {
-		"AreaName": "Rahu",
-		"Grouping": "Rahu",
+		"Grouping": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		},
 		"ID": 1001,
 		"Levels": {
 			"BestFriends": 40,
@@ -470,11 +771,17 @@
 			"CookingIngredient",
 			"CookingRelated"
 		],
-		"RequirementDescription": "Food or Cooking Ingredients"
+		"RequirementDescription": "Food or Cooking Ingredients",
+		"StorageArea": {
+			"AreaName": "Rahu",
+			"AreaType": 1
+		}
 	},
 	"NPC_NoitaTheGreen": {
-		"AreaName": "FaeRealm1",
-		"Grouping": "FaeRealm1",
+		"Grouping": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		},
 		"ID": 1604,
 		"Levels": {
 			"BestFriends": 40,
@@ -484,11 +791,17 @@
 			"LikeFamily": 50,
 			"SoulMates": 60
 		},
-		"NpcFriendlyName": "Noita the Green"
+		"NpcFriendlyName": "Noita the Green",
+		"StorageArea": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		}
 	},
 	"NPC_Norbert": {
-		"AreaName": "SunVale",
-		"Grouping": "SunVale",
+		"Grouping": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		},
 		"ID": 902,
 		"Levels": {
 			"BestFriends": 40,
@@ -504,11 +817,17 @@
 			{
 				"T": "IsLongtimeAnimal"
 			}
-		]
+		],
+		"StorageArea": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		}
 	},
 	"NPC_Otis": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1506,
 		"Levels": {
 			"BestFriends": 32,
@@ -518,18 +837,30 @@
 			"LikeFamily": 40,
 			"SoulMates": 48
 		},
-		"NpcFriendlyName": "Otis"
+		"NpcFriendlyName": "Otis",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"NPC_Qatik": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1507,
 		"NpcFriendlyName": "Qatik",
-		"SlotAttribute": "MAX_CASINO_VAULT_SIZE"
+		"SlotAttribute": "MAX_CASINO_VAULT_SIZE",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"NPC_Ragabir": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1505,
 		"Levels": {
 			"BestFriends": 40,
@@ -547,11 +878,17 @@
 			"AlchemyRelated",
 			"BottledItem"
 		],
-		"RequirementDescription": "Potions and Alchemy Ingredients"
+		"RequirementDescription": "Potions and Alchemy Ingredients",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"NPC_Raina": {
-		"AreaName": "FaeRealm1",
-		"Grouping": "FaeRealm1",
+		"Grouping": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		},
 		"ID": 1602,
 		"Levels": {
 			"BestFriends": 32,
@@ -561,11 +898,17 @@
 			"LikeFamily": 40,
 			"SoulMates": 48
 		},
-		"NpcFriendlyName": "Raina"
+		"NpcFriendlyName": "Raina",
+		"StorageArea": {
+			"AreaName": "FaeRealm1",
+			"AreaType": 1
+		}
 	},
 	"NPC_Raul": {
-		"AreaName": "SunVale",
-		"Grouping": "SunVale",
+		"Grouping": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		},
 		"ID": 903,
 		"Levels": {
 			"BestFriends": 40,
@@ -581,11 +924,17 @@
 			{
 				"T": "IsLongtimeAnimal"
 			}
-		]
+		],
+		"StorageArea": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		}
 	},
 	"NPC_Red": {
-		"AreaName": "KurMountains",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1106,
 		"Levels": {
 			"BestFriends": 20,
@@ -595,11 +944,17 @@
 			"LikeFamily": 25,
 			"SoulMates": 30
 		},
-		"NpcFriendlyName": "Red"
+		"NpcFriendlyName": "Red",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"NPC_SammieGrimspine": {
-		"AreaName": "Serbule2",
-		"Grouping": "Serbule2",
+		"Grouping": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		},
 		"ID": 705,
 		"Levels": {
 			"BestFriends": 30,
@@ -610,10 +965,16 @@
 			"LikeFamily": 40,
 			"SoulMates": 50
 		},
-		"NpcFriendlyName": "Sammie Grimspine"
+		"NpcFriendlyName": "Sammie Grimspine",
+		"StorageArea": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		}
 	},
 	"NPC_Selaxi": {
-		"AreaName": "Desert1",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 1201,
 		"Levels": {
 			"BestFriends": 40,
@@ -629,10 +990,16 @@
 			"CookingIngredient",
 			"CookingRelated"
 		],
-		"RequirementDescription": "Food or Cooking Ingredients"
+		"RequirementDescription": "Food or Cooking Ingredients",
+		"StorageArea": {
+			"AreaName": "Desert1",
+			"AreaType": 1
+		}
 	},
 	"NPC_SieAntry": {
-		"AreaName": "Eltibule",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 801,
 		"Levels": {
 			"BestFriends": 40,
@@ -643,11 +1010,17 @@
 			"LikeFamily": 48,
 			"SoulMates": 56
 		},
-		"NpcFriendlyName": "Sie Antry"
+		"NpcFriendlyName": "Sie Antry",
+		"StorageArea": {
+			"AreaName": "Eltibule",
+			"AreaType": 1
+		}
 	},
 	"NPC_Silvia": {
-		"AreaName": "SunVale",
-		"Grouping": "SunVale",
+		"Grouping": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		},
 		"ID": 904,
 		"Levels": {
 			"BestFriends": 28,
@@ -658,17 +1031,29 @@
 			"LikeFamily": 32,
 			"SoulMates": 36
 		},
-		"NpcFriendlyName": "Silvia"
+		"NpcFriendlyName": "Silvia",
+		"StorageArea": {
+			"AreaName": "SunVale",
+			"AreaType": 1
+		}
 	},
 	"NPC_SirArif": {
-		"AreaName": "Tomb1",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 401,
 		"NpcFriendlyName": "Sir Arif",
-		"NumberOfSlots": 8
+		"NumberOfSlots": 8,
+		"StorageArea": {
+			"AreaName": "Tomb1",
+			"AreaType": 1
+		}
 	},
 	"NPC_Sona": {
-		"AreaName": "GazlukCaves",
-		"Grouping": "GazlukCaves",
+		"Grouping": {
+			"AreaName": "GazlukCaves",
+			"AreaType": 1
+		},
 		"ID": 1401,
 		"Levels": {
 			"BestFriends": 40,
@@ -678,11 +1063,17 @@
 			"LikeFamily": 50,
 			"SoulMates": 60
 		},
-		"NpcFriendlyName": "Sona"
+		"NpcFriendlyName": "Sona",
+		"StorageArea": {
+			"AreaName": "GazlukCaves",
+			"AreaType": 1
+		}
 	},
 	"NPC_Tadion": {
-		"AreaName": "Serbule",
-		"Grouping": "Serbule",
+		"Grouping": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		},
 		"ID": 304,
 		"Levels": {
 			"BestFriends": 0,
@@ -693,11 +1084,17 @@
 			"LikeFamily": 36,
 			"SoulMates": 42
 		},
-		"NpcFriendlyName": "Tadion"
+		"NpcFriendlyName": "Tadion",
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"NPC_Tavilak": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1504,
 		"Levels": {
 			"BestFriends": 36,
@@ -718,11 +1115,17 @@
 			"Bone",
 			"Plant"
 		],
-		"RequirementDescription": "Gardening and Tools"
+		"RequirementDescription": "Gardening and Tools",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"NPC_Torgan": {
-		"AreaName": "GazlukCaves",
-		"Grouping": "GazlukCaves",
+		"Grouping": {
+			"AreaName": "GazlukCaves",
+			"AreaType": 1
+		},
 		"ID": 1402,
 		"Levels": {
 			"BestFriends": 32,
@@ -731,11 +1134,17 @@
 			"LikeFamily": 40,
 			"SoulMates": 50
 		},
-		"NpcFriendlyName": "Torgan"
+		"NpcFriendlyName": "Torgan",
+		"StorageArea": {
+			"AreaName": "GazlukCaves",
+			"AreaType": 1
+		}
 	},
 	"NPC_TylerGreen": {
-		"AreaName": "Serbule2",
-		"Grouping": "Serbule2",
+		"Grouping": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		},
 		"ID": 702,
 		"Levels": {
 			"BestFriends": 28,
@@ -752,11 +1161,17 @@
 			"AbilityIngredient",
 			"Fletching"
 		],
-		"RequirementDescription": "Equipment and Ammunition"
+		"RequirementDescription": "Equipment and Ammunition",
+		"StorageArea": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		}
 	},
 	"NPC_Ukorga": {
-		"AreaName": "KurMountains",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1104,
 		"Levels": {
 			"BestFriends": 40,
@@ -767,11 +1182,17 @@
 			"LikeFamily": 48,
 			"SoulMates": 56
 		},
-		"NpcFriendlyName": "Ukorga"
+		"NpcFriendlyName": "Ukorga",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"NPC_WillemFangblade": {
-		"AreaName": "Casino",
-		"Grouping": "Casino",
+		"Grouping": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		},
 		"ID": 1501,
 		"Levels": {
 			"BestFriends": 48,
@@ -787,67 +1208,121 @@
 			"Ore",
 			"Crystal"
 		],
-		"RequirementDescription": "Gems, Crystals, and Ores"
+		"RequirementDescription": "Gems, Crystals, and Ores",
+		"StorageArea": {
+			"AreaName": "Casino",
+			"AreaType": 1
+		}
 	},
 	"PovusStorageChest": {
-		"AreaName": "Povus",
-		"Grouping": "Povus",
+		"Grouping": {
+			"AreaName": "Povus",
+			"AreaType": 1
+		},
 		"ID": 1703,
 		"NpcFriendlyName": "Povus Town Vault",
-		"SlotAttribute": "MAX_POVUS_VAULT_SIZE"
+		"SlotAttribute": "MAX_POVUS_VAULT_SIZE",
+		"StorageArea": {
+			"AreaName": "Povus",
+			"AreaType": 1
+		}
 	},
 	"RiShinStorageChest": {
-		"AreaName": "KurMountains",
 		"EventLevels": {
 			"RiShinShrine_Storage1On": 25,
 			"RiShinShrine_Storage2On": 50
 		},
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1702,
-		"NpcFriendlyName": "Ri-Shin Shrine Storage Chest"
+		"NpcFriendlyName": "Ri-Shin Shrine Storage Chest",
+		"StorageArea": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		}
 	},
 	"RigersChest": {
-		"AreaName": "NewbieIsland",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 202,
 		"NpcFriendlyName": "Chest Near Riger",
-		"NumberOfSlots": 4
+		"NumberOfSlots": 4,
+		"StorageArea": {
+			"AreaName": "NewbieIsland",
+			"AreaType": 1
+		}
 	},
 	"Saddlebag": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 114,
 		"NpcFriendlyName": "Saddlebag",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"SerbuleCommunityChest": {
-		"AreaName": "Serbule",
-		"Grouping": "Serbule",
+		"Grouping": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		},
 		"ID": 307,
 		"NpcFriendlyName": "Serbule Community Chest",
 		"NumberOfSlotsScriptAtomic": "SerbuleCommunityChestSize",
 		"NumberOfSlotsScriptAtomicMaxValue": 150,
-		"NumberOfSlotsScriptAtomicMinValue": 0
+		"NumberOfSlotsScriptAtomicMinValue": 1,
+		"StorageArea": {
+			"AreaName": "Serbule",
+			"AreaType": 1
+		}
 	},
 	"StorageCrate": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 103,
 		"NpcFriendlyName": "Player-Made Storage Crate",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"StorageCrateDruid": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 104,
 		"NpcFriendlyName": "Druid Storage Crate",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"StoragePortal": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"HasAssociatedNpc": false,
 		"ID": 112,
 		"NpcFriendlyName": "Fae Pocket Dimension",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"TapestryInnChest": {
-		"AreaName": "Serbule2",
-		"Grouping": "Serbule2",
+		"Grouping": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		},
 		"ID": 703,
 		"NpcFriendlyName": "Tapestry Inn Footlocker",
 		"NumberOfSlots": 32,
@@ -856,22 +1331,40 @@
 				"InteractionFlag": "Serbule2_TapestryInnChest",
 				"T": "InteractionFlagSet"
 			}
-		]
+		],
+		"StorageArea": {
+			"AreaName": "Serbule2",
+			"AreaType": 1
+		}
 	},
 	"TutorialChest": {
-		"AreaName": "NewbieIsland",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 201,
 		"NpcFriendlyName": "Chest Near Lawara",
-		"NumberOfSlots": 16
+		"NumberOfSlots": 16,
+		"StorageArea": {
+			"AreaName": "NewbieIsland",
+			"AreaType": 1
+		}
 	},
 	"UrsulaHauntingStorage": {
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 102,
 		"NpcFriendlyName": "Ursula",
-		"NumberOfSlots": 16
+		"NumberOfSlots": 16,
+		"StorageArea": {
+			"AreaType": 2
+		}
 	},
 	"WardenStorageChest": {
-		"AreaName": "KurCaves",
-		"Grouping": "KurMountains",
+		"Grouping": {
+			"AreaName": "KurMountains",
+			"AreaType": 1
+		},
 		"ID": 1701,
 		"NpcFriendlyName": "Warden Storage Chest",
 		"Requirements": [
@@ -879,18 +1372,34 @@
 				"T": "IsWarden"
 			}
 		],
-		"SlotAttribute": "MAX_WARDEN_VAULT_SIZE"
+		"SlotAttribute": "MAX_WARDEN_VAULT_SIZE",
+		"StorageArea": {
+			"AreaName": "KurCaves",
+			"AreaType": 1
+		}
 	},
 	"WerewolfAltar": {
-		"AreaName": "Cave2",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 106,
 		"NpcFriendlyName": "Altar of Norala",
-		"NumberOfSlots": 0
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaName": "Cave2",
+			"AreaType": 1
+		}
 	},
 	"WinterCourtEntranceChest": {
-		"AreaName": "Cave2",
+		"Grouping": {
+			"AreaType": 0
+		},
 		"ID": 601,
 		"NpcFriendlyName": "Chest in Winter Nexus",
-		"NumberOfSlots": 16
+		"NumberOfSlots": 16,
+		"StorageArea": {
+			"AreaName": "Cave2",
+			"AreaType": 1
+		}
 	}
 }

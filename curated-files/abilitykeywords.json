@@ -1,0 +1,272 @@
+﻿[
+	{
+		"AttributesThatDeltaCritChance": [
+			"DELTA_ANATOMY_CRITICAL_CHANCE"
+		],
+		"AttributesThatModCritDamage": [
+			"MOD_CRITICAL_HIT_DAMAGE_ANATOMY"
+		],
+		"MustHaveKeywords": [
+			"AnatomyCriticals"
+		]
+	},
+	{
+		"AttributesThatModCritDamage": [
+			"MOD_CRITICAL_HIT_DAMAGE"
+		],
+		"MustHaveKeywords": [
+			"PhrenologyCriticals"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_DELTA_BASICATTACK"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_BASICATTACK"
+		],
+		"AttributesThatDeltaPowerCost": [
+			"BASICATTACK_COST_DELTA"
+		],
+		"AttributesThatDeltaResetTime": [
+			"ABILITY_RESETTIME_BASICATTACK_DELTA"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_BASICATTACK"
+		],
+		"MustHaveKeywords": [
+			"BasicAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_BITE"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_BITE"
+		],
+		"MustHaveKeywords": [
+			"Bite"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_BOOST_BURST"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_BURST"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_BURST"
+		],
+		"MustHaveKeywords": [
+			"Burst"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_DELTA_COREATTACK"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_COREATTACK"
+		],
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_COREATTACK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_COREATTACK"
+		],
+		"MustHaveKeywords": [
+			"CoreAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_DELTA_EPICATTACK"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_EPICATTACK"
+		],
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_EPICATTACK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_EPICATTACK"
+		],
+		"MustHaveKeywords": [
+			"EpicAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_KICK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_KICK"
+		],
+		"MustHaveKeywords": [
+			"Kick"
+		]
+	},
+	{
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_MAJORHEAL"
+		],
+		"MustHaveKeywords": [
+			"MajorHeal"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_BOOST_MELEE"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_MELEE"
+		],
+		"AttributesThatDeltaPowerCost": [
+			"MELEEATTACK_COST_DELTA"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_MELEE"
+		],
+		"MustHaveKeywords": [
+			"Melee"
+		]
+	},
+	{
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_MINORHEAL"
+		],
+		"MustHaveKeywords": [
+			"MinorHeal"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_DELTA_NICEATTACK"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_NICEATTACK"
+		],
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_NICEATTACK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_NICEATTACK"
+		],
+		"MustHaveKeywords": [
+			"NiceAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_BOOST_RANGED"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_RANGED"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_RANGED"
+		],
+		"MustHaveKeywords": [
+			"Ranged"
+		]
+	},
+	{
+		"AttributesThatDeltaAccuracy": [
+			"ACCURACY_DELTA_SIGNATUREDEBUFF"
+		],
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_SIGNATUREDEBUFF"
+		],
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_SIGNATUREDEBUFF"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_SIGNATUREDEBUFF"
+		],
+		"MustHaveKeywords": [
+			"SignatureDebuff"
+		]
+	},
+	{
+		"AttributesThatDeltaPowerCost": [
+			"ABILITY_COST_DELTA_SIGNATURESUPPORT"
+		],
+		"MustHaveKeywords": [
+			"SignatureSupport"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_KEYWORD_SONIC"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_KEYWORD_SONIC"
+		],
+		"MustHaveKeywords": [
+			"Sonic"
+		]
+	},
+	{
+		"AttributesThatDeltaPowerCost": [
+			"NON_PSYCHIC_ABILITY_COST_DELTA"
+		],
+		"MustHaveKeywords": [
+			"Attack"
+		],
+		"MustNotHaveKeywords": [
+			"PsychicAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_NICEPOISONATTACK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_NICEPOISONATTACK"
+		],
+		"MustHaveKeywords": [
+			"NiceAttack",
+			"PoisonAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_NICEACIDATTACK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_NICEACIDATTACK"
+		],
+		"MustHaveKeywords": [
+			"NiceAttack",
+			"AcidAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_COREPOISONATTACK"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_COREPOISONATTACK"
+		],
+		"MustHaveKeywords": [
+			"CoreAttack",
+			"PoisonAttack"
+		]
+	},
+	{
+		"AttributesThatDeltaDamage": [
+			"BOOST_ABILITY_BARDBLAST"
+		],
+		"AttributesThatDeltaRange": [
+			"ABILITY_RANGE_DELTA_BARDBLAST"
+		],
+		"AttributesThatModDamage": [
+			"MOD_ABILITY_BARDBLAST"
+		],
+		"MustHaveKeywords": [
+			"BardBlast"
+		]
+	}
+]

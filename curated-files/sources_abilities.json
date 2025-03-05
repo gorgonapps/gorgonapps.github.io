@@ -7814,6 +7814,12 @@
 	"2702": {
 		"Entries": []
 	},
+	"2703": {
+		"Entries": []
+	},
+	"2704": {
+		"Entries": []
+	},
 	"2801": {
 		"Entries": [
 			{
@@ -10035,6 +10041,33 @@
 		]
 	},
 	"3745": {
+		"Entries": []
+	},
+	"3751": {
+		"Entries": []
+	},
+	"3752": {
+		"Entries": []
+	},
+	"3753": {
+		"Entries": []
+	},
+	"3758": {
+		"Entries": []
+	},
+	"3759": {
+		"Entries": []
+	},
+	"3760": {
+		"Entries": []
+	},
+	"3765": {
+		"Entries": []
+	},
+	"3766": {
+		"Entries": []
+	},
+	"3767": {
 		"Entries": []
 	},
 	"3801": {
@@ -13064,6 +13097,778 @@
 	"4784": {
 		"Entries": []
 	},
+	"4800": {
+		"Entries": [
+			{
+				"QuestId": 28011,
+				"Type": "Quest"
+			},
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4801": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4802": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4803": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4804": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4805": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4806": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4807": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4808": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4809": {
+		"Entries": [
+			{
+				"ItemTypeId": 31981,
+				"Type": "Item"
+			}
+		]
+	},
+	"4816": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4817": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4818": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4819": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4820": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4821": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4822": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4823": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4824": {
+		"Entries": [
+			{
+				"ItemTypeId": 31984,
+				"Type": "Item"
+			}
+		]
+	},
+	"4831": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4832": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4833": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4834": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4835": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4836": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4837": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4838": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4839": {
+		"Entries": [
+			{
+				"ItemTypeId": 31986,
+				"Type": "Item"
+			}
+		]
+	},
+	"4846": {
+		"Entries": [
+			{
+				"QuestId": 28006,
+				"Type": "Quest"
+			},
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4847": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4848": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4849": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4850": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4856": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4857": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4858": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4859": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4860": {
+		"Entries": [
+			{
+				"ItemTypeId": 31983,
+				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4866": {
+		"Entries": [
+			{
+				"QuestId": 28013,
+				"Type": "Quest"
+			},
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4867": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4868": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4869": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4870": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4871": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4876": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4877": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4878": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4879": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4880": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4881": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4882": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4883": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4884": {
+		"Entries": [
+			{
+				"ItemTypeId": 31988,
+				"Type": "Item"
+			}
+		]
+	},
+	"4891": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4892": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4893": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4894": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4895": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4896": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4897": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4898": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4899": {
+		"Entries": [
+			{
+				"ItemTypeId": 31985,
+				"Type": "Item"
+			}
+		]
+	},
+	"4911": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4912": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4913": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4914": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4915": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4916": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4917": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4918": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4919": {
+		"Entries": [
+			{
+				"ItemTypeId": 31987,
+				"Type": "Item"
+			}
+		]
+	},
+	"4926": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4927": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4928": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4929": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4930": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4931": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4932": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4933": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"4934": {
+		"Entries": [
+			{
+				"ItemTypeId": 31982,
+				"Type": "Item"
+			}
+		]
+	},
+	"4941": {
+		"Entries": [
+			{
+				"QuestId": 28016,
+				"Type": "Quest"
+			},
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4942": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4943": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4944": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4945": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4946": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4947": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4948": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4949": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4956": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4957": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4958": {
+		"Entries": [
+			{
+				"Skill": "Vampirism",
+				"Type": "Skill"
+			}
+		]
+	},
+	"4959": {
+		"Entries": [
+			{
+				"Npc": "NPC_Truxartis",
+				"Type": "Training"
+			}
+		]
+	},
+	"4960": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
 	"5001": {
 		"Entries": [
 			{
@@ -15254,6 +16059,10 @@
 	},
 	"5449": {
 		"Entries": [
+			{
+				"Npc": "AdminTestNpc",
+				"Type": "NpcGift"
+			},
 			{
 				"Npc": "NPC_Felmer",
 				"Type": "NpcGift"
@@ -20866,6 +21675,70 @@
 			}
 		]
 	},
+	"8027": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yoy",
+				"Type": "Training"
+			}
+		]
+	},
+	"8028": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yoy",
+				"Type": "Training"
+			}
+		]
+	},
+	"8029": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yoy",
+				"Type": "Training"
+			}
+		]
+	},
+	"8030": {
+		"Entries": [
+			{
+				"Npc": "NPC_Sem",
+				"Type": "Training"
+			}
+		]
+	},
+	"8031": {
+		"Entries": [
+			{
+				"Npc": "NPC_Sem",
+				"Type": "Training"
+			}
+		]
+	},
+	"8032": {
+		"Entries": [
+			{
+				"Npc": "NPC_Sem",
+				"Type": "Training"
+			}
+		]
+	},
+	"8033": {
+		"Entries": [
+			{
+				"Npc": "NPC_Mope",
+				"Type": "Training"
+			}
+		]
+	},
+	"8034": {
+		"Entries": [
+			{
+				"Npc": "NPC_Mope",
+				"Type": "Training"
+			}
+		]
+	},
 	"8101": {
 		"Entries": [
 			{
@@ -24418,6 +25291,10 @@
 			{
 				"Npc": "NPC_RiShinSpirit",
 				"Type": "NpcGift"
+			},
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "Training"
 			}
 		]
 	},
@@ -24458,6 +25335,10 @@
 			{
 				"Npc": "NPC_RiShinSpirit",
 				"Type": "NpcGift"
+			},
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "Training"
 			}
 		]
 	},
@@ -24472,6 +25353,10 @@
 			{
 				"Npc": "NPC_RiShinSpirit",
 				"Type": "NpcGift"
+			},
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "Training"
 			}
 		]
 	},
@@ -24487,11 +25372,18 @@
 	"9375": {
 		"Entries": []
 	},
+	"9376": {
+		"Entries": []
+	},
 	"9377": {
 		"Entries": [
 			{
 				"Npc": "NPC_RiShinSpirit",
 				"Type": "NpcGift"
+			},
+			{
+				"Npc": "NPC_RiShinSpirit",
+				"Type": "Training"
 			}
 		]
 	},
@@ -24507,7 +25399,19 @@
 	"9384": {
 		"Entries": []
 	},
+	"9387": {
+		"Entries": []
+	},
 	"9388": {
+		"Entries": []
+	},
+	"9390": {
+		"Entries": []
+	},
+	"9396": {
+		"Entries": []
+	},
+	"9397": {
 		"Entries": []
 	}
 }

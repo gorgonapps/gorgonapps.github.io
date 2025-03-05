@@ -8,6 +8,38 @@
 		],
 		"Label": "Chance for Thrown Knives to Stick in Corpse"
 	},
+	"ABILITY_AOE_DELTA_ECLIPSEOFSHADOWS": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3913
+		],
+		"Label": "Eclipse of Shadows Range"
+	},
+	"ABILITY_AOE_DELTA_RIPPLEOFAMNESIA": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3906
+		],
+		"Label": "Ripple of Amnesia Burst Area"
+	},
+	"ABILITY_AOE_DELTA_STORMSHIELD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3853
+		],
+		"Label": "Storm Shield Burst Area"
+	},
+	"ABILITY_BUFF_DELTA_SONGOFBRAVERY": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			3664
+		],
+		"Label": "Song of Bravery Bonus Power Cost Reduction"
+	},
 	"ABILITY_CONSUMECHANCE_MOD_CARROTPOWER": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -774,6 +806,32 @@
 		],
 		"Label": "System Critical-Hit Bonus Damage %"
 	},
+	"ABILITY_CRIT_CHANCE_DELTA_AIMEDSHOT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			3315
+		],
+		"Label": "Aimed Shot Crit Chance Bonus %"
+	},
+	"ABILITY_CRIT_CHANCE_DELTA_BLITZSHOT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsPercent",
+		"IconIds": [
+			3310
+		],
+		"Label": "Blitz Shot Crit Chance Bonus %"
+	},
+	"ABILITY_DEBUFF_DELTA_PLAYDEAD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3694
+		],
+		"Label": "Play Dead Debuff Potency"
+	},
 	"ABILITY_DELAYLOOP_DELTA_EXHILARATE": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsDebuffDelta",
@@ -814,6 +872,14 @@
 			108
 		],
 		"Label": "Weather Witching Channeling Time"
+	},
+	"ABILITY_DELAYLOOP_IS_ABORTED_BY_ATTACKS_WEATHERWITCHING": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Weather Witching Channeling Aborted by Attacks?"
 	},
 	"ABILITY_RAGE_DELTA_ACIDARROW": {
 		"DefaultValue": 0,
@@ -1245,6 +1311,30 @@
 		],
 		"Label": "Deathscream Range"
 	},
+	"ABILITY_RANGE_DELTA_ECLIPSEOFSHADOWS": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3913
+		],
+		"Label": "Eclipse of Shadows Range"
+	},
+	"ABILITY_RANGE_DELTA_EMBRACEOFDESPAIR": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3918
+		],
+		"Label": "Embrace of Despair Range"
+	},
+	"ABILITY_RANGE_DELTA_ENTHRALL": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3916
+		],
+		"Label": "Enthrall Range"
+	},
 	"ABILITY_RANGE_DELTA_FAIRYFIRE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -1262,6 +1352,23 @@
 		],
 		"Label": "Lightning Bolt Range"
 	},
+	"ABILITY_RANGE_DELTA_LONGSHOT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3305
+		],
+		"Label": "Long Shot Range"
+	},
+	"ABILITY_RANGE_DELTA_NECROTICGRASP": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3912
+		],
+		"Label": "Necrotic Grasp Range"
+	},
 	"ABILITY_RANGE_DELTA_PIXIEFLARE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -1270,6 +1377,14 @@
 			3784
 		],
 		"Label": "Pixie Flare Range"
+	},
+	"ABILITY_RANGE_DELTA_PLAYDEAD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3694
+		],
+		"Label": "Play Dead Debuff Potency"
 	},
 	"ABILITY_RANGE_DELTA_PSYCHOANALYZE": {
 		"DefaultValue": 0,
@@ -1350,6 +1465,15 @@
 			108
 		],
 		"Label": "Basic Attack Reuse Timer"
+	},
+	"ABILITY_RESETTIME_BLASTOFDEFIANCE_DELTA": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3673
+		],
+		"Label": "Blast of Defiance Reuse Timer"
 	},
 	"ABILITY_RESETTIME_BLASTOFFURY_DELTA": {
 		"DefaultValue": 0,
@@ -1611,6 +1735,14 @@
 		],
 		"Label": "Doe Eyes Reuse Timer"
 	},
+	"ABILITY_RESETTIME_DELTA_DOMINATE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			3905
+		],
+		"Label": "Dominate Reuse Time"
+	},
 	"ABILITY_RESETTIME_DELTA_DOUBLECLAW": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsDebuffDelta",
@@ -1618,6 +1750,14 @@
 			2132
 		],
 		"Label": "Double Claw Reuse Timer"
+	},
+	"ABILITY_RESETTIME_DELTA_EMBRACEOFDESPAIR": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			3918
+		],
+		"Label": "Embrace of Despair Reuse Time"
 	},
 	"ABILITY_RESETTIME_DELTA_FAECONDUIT": {
 		"DisplayRule": "IfNotZero",
@@ -1653,6 +1793,15 @@
 			3434
 		],
 		"Label": "Fire Breath Reuse Timer"
+	},
+	"ABILITY_RESETTIME_DELTA_FIREWALL": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2127
+		],
+		"Label": "Firewall Reuse Timer"
 	},
 	"ABILITY_RESETTIME_DELTA_FLASHINGSTRIKE": {
 		"DefaultValue": 0,
@@ -1919,6 +2068,15 @@
 		],
 		"Label": "Precision Pierce Reuse Timer"
 	},
+	"ABILITY_RESETTIME_DELTA_PROVOKEUNDEAD": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			2237
+		],
+		"Label": "Provoke Undead Reuse Timer"
+	},
 	"ABILITY_RESETTIME_DELTA_PULSEOFLIFE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -1971,6 +2129,15 @@
 			2221
 		],
 		"Label": "Soothe Reuse Timer"
+	},
+	"ABILITY_RESETTIME_DELTA_STORMSHIELD": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			3853
+		],
+		"Label": "Storm Shield Reuse Time"
 	},
 	"ABILITY_RESETTIME_DELTA_STRATEGICTHRUST": {
 		"DefaultValue": 0,
@@ -2546,6 +2713,14 @@
 		],
 		"Label": "Feign Injury Temp-Taunt"
 	},
+	"ABILITY_WORKSWHILESTUNNED_DELTA_MOMENTOFRESOLVE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBool",
+		"IconIds": [
+			3670
+		],
+		"Label": "Moment of Resolve works while stunned?"
+	},
 	"ABILITY_WORKSWHILESTUNNED_DELTA_UNARMEDSTRIKE": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBool",
@@ -2600,6 +2775,14 @@
 			108
 		],
 		"Label": "Ranged Accuracy Boost %"
+	},
+	"ACCURACY_DELTA_ARCHERY": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDoubleTimes100",
+		"IconIds": [
+			108
+		],
+		"Label": "Archery Ability Accuracy"
 	},
 	"ACCURACY_DELTA_BASICATTACK": {
 		"DefaultValue": 0,
@@ -3071,6 +3254,15 @@
 		],
 		"Label": "Aimed Shot Damage Over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_ARCHERYPOISONCRIT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Archery Crit Poison Damage over Time (Per Tick)"
+	},
 	"BOOST_ABILITYDOT_ASTRALSTRIKE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -3089,6 +3281,16 @@
 		],
 		"Label": "Backstab Damage-over-Time Per Tick"
 	},
+	"BOOST_ABILITYDOT_BARDBLAST": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3671,
+			3673,
+			3672
+		],
+		"Label": "Bard Blast-Ability Damage over Time (per tick)"
+	},
 	"BOOST_ABILITYDOT_BARRAGE": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -3096,6 +3298,14 @@
 			2102
 		],
 		"Label": "Barrage/Headbutt Damage over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_BLOODMISTBURST": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3907
+		],
+		"Label": "Blood Mist Damage (per tick)"
 	},
 	"BOOST_ABILITYDOT_BLURCUT": {
 		"DefaultValue": 0,
@@ -3248,6 +3458,14 @@
 			3549
 		],
 		"Label": "Drink Blood Health-Steal"
+	},
+	"BOOST_ABILITYDOT_EXSANGUINATE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3911
+		],
+		"Label": "Exsanguinate Damage (per tick)"
 	},
 	"BOOST_ABILITYDOT_FAIRYFIRE": {
 		"DisplayRule": "IfNotZero",
@@ -3410,6 +3628,14 @@
 		],
 		"Label": "Lethal Force Damage over Time (per tick)"
 	},
+	"BOOST_ABILITYDOT_LIFEDRAIN": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3919
+		],
+		"Label": "Lifedrain Bleed Damage (per tick)"
+	},
 	"BOOST_ABILITYDOT_LIFESTEAL": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -3435,6 +3661,15 @@
 		],
 		"Label": "Many Cuts Damage over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_MINDWORM": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3920
+		],
+		"Label": "Mindworm Damage over Time (Per Tick)"
+	},
 	"BOOST_ABILITYDOT_MOLTENVEINS": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -3452,6 +3687,14 @@
 		],
 		"Label": "Mycotoxin Formula Damage over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_OVERWHELMINGBITE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3917
+		],
+		"Label": "Overwhelming Bite Damage (per tick)"
+	},
 	"BOOST_ABILITYDOT_PIGREND": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -3459,6 +3702,14 @@
 			2227
 		],
 		"Label": "Pig Rend Damage over Time (Per Tick)"
+	},
+	"BOOST_ABILITYDOT_PLAYDEAD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3694
+		],
+		"Label": "Play Dead Delayed Damage"
 	},
 	"BOOST_ABILITYDOT_POISONARROW": {
 		"DefaultValue": 0,
@@ -3700,6 +3951,22 @@
 		],
 		"Label": "Werewolf Ability Damage over Time (Per Tick)"
 	},
+	"BOOST_ABILITYDOT_WILLBREAKER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3915
+		],
+		"Label": "Willbreaker Psychic Damage (per tick)"
+	},
+	"BOOST_ABILITYDOT_WITHERINGSHROUD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3914
+		],
+		"Label": "Withering Shroud Psychic Damage (per tick)"
+	},
 	"BOOST_ABILITY_ACIDARROW": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -3805,8 +4072,8 @@
 		"DisplayType": "AsBuffDelta",
 		"IconIds": [
 			3671,
-			3672,
-			3673
+			3673,
+			3672
 		],
 		"Label": "Bard Blast-Ability Damage"
 	},
@@ -3890,6 +4157,14 @@
 			3525
 		],
 		"Label": "Blizzard Damage"
+	},
+	"BOOST_ABILITY_BLOODMISTBURST": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3907
+		],
+		"Label": "Blood Mist Damage per Burst"
 	},
 	"BOOST_ABILITY_BLURCUT": {
 		"DefaultValue": 0,
@@ -4292,7 +4567,7 @@
 		"DisplayRule": "IfNotDefault",
 		"DisplayType": "AsBuffDelta",
 		"IconIds": [
-			3675
+			3676
 		],
 		"Label": "Disharmony Damage"
 	},
@@ -4341,6 +4616,14 @@
 		],
 		"Label": "Duelist's Slash Damage"
 	},
+	"BOOST_ABILITY_ECLIPSEOFSHADOWS": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3913
+		],
+		"Label": "Eclipse of Shadows Damage"
+	},
 	"BOOST_ABILITY_ELECTRIFY": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4349,6 +4632,22 @@
 			3430
 		],
 		"Label": "Electrify Damage"
+	},
+	"BOOST_ABILITY_EMBRACEOFDESPAIR": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3918
+		],
+		"Label": "Embrace of Despair Damage"
+	},
+	"BOOST_ABILITY_ENTHRALL": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3916
+		],
+		"Label": "Enthrall Damage"
 	},
 	"BOOST_ABILITY_ENTRANCINGLULLABY": {
 		"DefaultValue": 0,
@@ -4367,6 +4666,14 @@
 			108
 		],
 		"Label": "Epic Attack Damage"
+	},
+	"BOOST_ABILITY_EXSANGUINATE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3911
+		],
+		"Label": "Exsanguinate Damage"
 	},
 	"BOOST_ABILITY_FAIRYFIRE": {
 		"DefaultValue": 0,
@@ -4781,6 +5088,24 @@
 		],
 		"Label": "Jab Damage"
 	},
+	"BOOST_ABILITY_KEYWORD_BITE": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Bite Attack Damage"
+	},
+	"BOOST_ABILITY_KEYWORD_SONIC": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Sonic Attack Damage"
+	},
 	"BOOST_ABILITY_KICK": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4862,6 +5187,14 @@
 			3043
 		],
 		"Label": "Life Crush Damage"
+	},
+	"BOOST_ABILITY_LIFEDRAIN": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3919
+		],
+		"Label": "Lifedrain Damage"
 	},
 	"BOOST_ABILITY_LIFESTEAL": {
 		"DefaultValue": 0,
@@ -4961,6 +5294,15 @@
 		],
 		"Label": "Mindreave Damage"
 	},
+	"BOOST_ABILITY_MINDWORM": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3920
+		],
+		"Label": "Mindworm Damage"
+	},
 	"BOOST_ABILITY_MOCK": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -4987,6 +5329,14 @@
 			2178
 		],
 		"Label": "Mycotoxin Bomb Damage"
+	},
+	"BOOST_ABILITY_NECROTICGRASP": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3912
+		],
+		"Label": "Necrotic Grasp Damage"
 	},
 	"BOOST_ABILITY_NICEACIDATTACK": {
 		"DefaultValue": 0,
@@ -5041,6 +5391,14 @@
 			3590
 		],
 		"Label": "Opening Thrust Damage"
+	},
+	"BOOST_ABILITY_OVERWHELMINGBITE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3917
+		],
+		"Label": "Overwelming Bite Damage"
 	},
 	"BOOST_ABILITY_PACKATTACK": {
 		"DefaultValue": 0,
@@ -5846,6 +6204,15 @@
 		],
 		"Label": "Tell Me About Your Mother Damage"
 	},
+	"BOOST_ABILITY_TELLMEABOUTYOURMOTHER_REDUCE_TSYS": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			2123
+		],
+		"Label": "Tell Me About Your Mother Target Damage Decrease"
+	},
 	"BOOST_ABILITY_TERRIFYINGBITE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -5998,6 +6365,14 @@
 		],
 		"Label": "Werewolf Claw Damage"
 	},
+	"BOOST_ABILITY_WILLBREAKER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3915
+		],
+		"Label": "Willbreaker Damage"
+	},
 	"BOOST_ABILITY_WINDSTRIKE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -6015,6 +6390,14 @@
 			3550
 		],
 		"Label": "Wing Vortex Damage"
+	},
+	"BOOST_ABILITY_WITHERINGSHROUD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3914
+		],
+		"Label": "Withering Shroud Damage"
 	},
 	"BOOST_ABILITY_YOUWEREADOPTED": {
 		"DefaultValue": 0,
@@ -6912,6 +7295,15 @@
 		],
 		"Label": "Psi Health Wave Healing"
 	},
+	"BOOST_HEALUNDEAD_HOT_SENDER": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			2196
+		],
+		"Label": "Heal Undead Healing Over Time (Per Tick)"
+	},
 	"BOOST_ICEARMOR_ELITEMITIGATION": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffDelta",
@@ -6978,6 +7370,30 @@
 			3475
 		],
 		"Label": "Leaping Smash Delayed Armor"
+	},
+	"BOOST_LIFEDRAIN_DOT_POWER_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3919
+		],
+		"Label": "Lifedrain Bleed Power Recovery (per tick)"
+	},
+	"BOOST_LIFEDRAIN_DOT_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3919
+		],
+		"Label": "Lifedrain Bleed Healing (per tick)"
+	},
+	"BOOST_LIFEDRAIN_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3919
+		],
+		"Label": "Lifedrain Healing"
 	},
 	"BOOST_LOOKATMYHAMMER_ARMOR_SENDER": {
 		"DisplayRule": "IfNotZero",
@@ -7069,7 +7485,7 @@
 		"IconIds": [
 			3670
 		],
-		"Label": "Moment of Resolve Armor Restoration"
+		"Label": "Moment of Resolve Health/Armor Restoration"
 	},
 	"BOOST_NATURE": {
 		"DefaultValue": 0,
@@ -7097,6 +7513,14 @@
 			107
 		],
 		"Label": "Indirect Nature Damage (Per Tick)"
+	},
+	"BOOST_OVERWHELMINGBITE_HEALTH_SENDER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3917
+		],
+		"Label": "Overwhelming Bite Healing"
 	},
 	"BOOST_PARADOXTROT_SPRINTSPEED": {
 		"DefaultValue": 0,
@@ -7686,6 +8110,14 @@
 		],
 		"Label": "Unarmed Damage"
 	},
+	"BOOST_SKILL_VAMPIRISM": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Vampirism Damage"
+	},
 	"BOOST_SKILL_WARDEN": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -7738,6 +8170,15 @@
 		],
 		"Label": "Indirect Slashing Damage (Per Tick)"
 	},
+	"BOOST_SONGOFRESURGENCE_POWER_SENDER": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			3663
+		],
+		"Label": "Song Of Resurgence Power Restoration"
+	},
 	"BOOST_SONGOFRESURGENCE_SENDER": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -7782,6 +8223,14 @@
 			2138
 		],
 		"Label": "Animal Handling Healing"
+	},
+	"BOOST_SUN_DAMAGE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsDebuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Current Sun Damage"
 	},
 	"BOOST_SUPERZOMBIE_RECEIVER": {
 		"DisplayRule": "IfNotZero",
@@ -8266,6 +8715,15 @@
 		],
 		"Label": "Current Armor"
 	},
+	"CUR_BLOOD": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Current Blood Satiation"
+	},
 	"CUR_BODYHEAT": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -8422,7 +8880,6 @@
 		"IconIds": [
 			108
 		],
-		"IsHidden": true,
 		"Label": "Death Notification Range"
 	},
 	"DEER_COST_MOD": {
@@ -8436,7 +8893,7 @@
 	},
 	"DELTA_ANATOMY_CRITICAL_CHANCE": {
 		"DisplayRule": "IfNotZero",
-		"DisplayType": "AsBuffDelta",
+		"DisplayType": "AsPercent",
 		"IconIds": [
 			108
 		],
@@ -8650,6 +9107,26 @@
 			108
 		],
 		"Label": "Hammer Ability Power Cost %"
+	},
+	"HELLFIRE_COST_MOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"IsHidden": true,
+		"Label": "Demonic Hellfire Ability Cost Mod"
+	},
+	"HELLFIRE_PROTECTION": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsDouble",
+		"IconIds": [
+			108
+		],
+		"IsHidden": true,
+		"Label": "Demonic Hellfire Protection"
 	},
 	"HIGH_CLEANLINESS_XP_EARNED_MOD": {
 		"DefaultValue": 1,
@@ -9026,6 +9503,14 @@
 		"DisplayType": "AsBool",
 		"Label": "Is Undead?"
 	},
+	"IS_VAMPIRE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBool",
+		"IconIds": [
+			108
+		],
+		"Label": "Is Vampire?"
+	},
 	"IS_VULNERABLE": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -9185,6 +9670,16 @@
 		],
 		"Label": "Chance for Extra Minerals from Surveys %"
 	},
+	"LOOT_CHANCE_EXTRA_MINING_MANUAL": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Chance for Extra Minerals when Mining %",
+		"Tooltip": "When mining by hand (not from surveys), this is the chance you find extra minerals."
+	},
 	"LOOT_CHANCE_EXTRA_MUSHROOMS": {
 		"DefaultValue": 0,
 		"DisplayRule": "IfNotDefault",
@@ -9279,6 +9774,15 @@
 			101
 		],
 		"Label": "Max Armor"
+	},
+	"MAX_BLOOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Max Blood Satiation"
 	},
 	"MAX_BODYHEAT": {
 		"DefaultValue": 60,
@@ -9437,6 +9941,15 @@
 			103
 		],
 		"Label": "Max Power"
+	},
+	"MAX_PRIMARY_HOME_VAULT_SIZE": {
+		"DisplayRule": "Always",
+		"DisplayType": "AsInt",
+		"IconIds": [
+			108
+		],
+		"IsHidden": true,
+		"Label": "Home Vault Size"
 	},
 	"MAX_RAGE": {
 		"DisplayRule": "Never",
@@ -10336,6 +10849,17 @@
 		],
 		"Label": "Backstab Damage %"
 	},
+	"MOD_ABILITY_BARDBLAST": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3671,
+			3673,
+			3672
+		],
+		"Label": "Bard Blast-Ability Damage %"
+	},
 	"MOD_ABILITY_BARRAGE": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -10416,6 +10940,14 @@
 			3525
 		],
 		"Label": "Blizzard Damage %"
+	},
+	"MOD_ABILITY_BLOODMISTBURST": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3907
+		],
+		"Label": "Blood Mist Damage per Burst %"
 	},
 	"MOD_ABILITY_BLURCUT": {
 		"DefaultValue": 1,
@@ -10607,6 +11139,15 @@
 			108
 		],
 		"Label": "Core Attack Damage %"
+	},
+	"MOD_ABILITY_COREPOISONATTACK": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Core Attack Damage (Poison Only) %"
 	},
 	"MOD_ABILITY_CORRUPTHATE": {
 		"DefaultValue": 1,
@@ -10800,7 +11341,7 @@
 		"DisplayRule": "IfNotDefault",
 		"DisplayType": "AsBuffMod",
 		"IconIds": [
-			3675
+			3676
 		],
 		"Label": "Disharmony Damage %"
 	},
@@ -10849,6 +11390,14 @@
 		],
 		"Label": "Duelist's Slash Damage %"
 	},
+	"MOD_ABILITY_ECLIPSEOFSHADOWS": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3913
+		],
+		"Label": "Eclipse of Shadows Damage %"
+	},
 	"MOD_ABILITY_ELECTRIFY": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -10857,6 +11406,22 @@
 			3430
 		],
 		"Label": "Electrify Damage %"
+	},
+	"MOD_ABILITY_EMBRACEOFDESPAIR": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3918
+		],
+		"Label": "Embrace of Despair Damage %"
+	},
+	"MOD_ABILITY_ENTHRALL": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3916
+		],
+		"Label": "Enthrall Damage %"
 	},
 	"MOD_ABILITY_ENTRANCINGLULLABY": {
 		"DefaultValue": 1,
@@ -10875,6 +11440,14 @@
 			108
 		],
 		"Label": "Epic Attack Damage %"
+	},
+	"MOD_ABILITY_EXSANGUINATE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3911
+		],
+		"Label": "Exsanguinate Damage %"
 	},
 	"MOD_ABILITY_FAIRYFIRE": {
 		"DefaultValue": 1,
@@ -11280,6 +11853,24 @@
 		],
 		"Label": "Jab Damage %"
 	},
+	"MOD_ABILITY_KEYWORD_BITE": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Bite Attack Damage %"
+	},
+	"MOD_ABILITY_KEYWORD_SONIC": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Sonic Attack Damage %"
+	},
 	"MOD_ABILITY_KICK": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -11362,6 +11953,14 @@
 		],
 		"Label": "Life Crush Damage %"
 	},
+	"MOD_ABILITY_LIFEDRAIN": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3919
+		],
+		"Label": "Lifedrain Damage %"
+	},
 	"MOD_ABILITY_LIGHTNINGBOLT": {
 		"DisplayRule": "IfNotZero",
 		"DisplayType": "AsBuffMod",
@@ -11442,6 +12041,15 @@
 		],
 		"Label": "Mindreave Damage %"
 	},
+	"MOD_ABILITY_MINDWORM": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3920
+		],
+		"Label": "Mindworm Damage %"
+	},
 	"MOD_ABILITY_MOCK": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -11469,6 +12077,23 @@
 		],
 		"Label": "Mycotoxin Formula Damage %"
 	},
+	"MOD_ABILITY_NECROTICGRASP": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3912
+		],
+		"Label": "Necrotic Grasp Damage %"
+	},
+	"MOD_ABILITY_NICEACIDATTACK": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Nice Attack Damage (Acid Only) %"
+	},
 	"MOD_ABILITY_NICEATTACK": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -11477,6 +12102,15 @@
 			108
 		],
 		"Label": "Nice Attack Damage %"
+	},
+	"MOD_ABILITY_NICEPOISONATTACK": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Nice Attack Damage (Poison Only) %"
 	},
 	"MOD_ABILITY_NIP": {
 		"DefaultValue": 1,
@@ -11504,6 +12138,14 @@
 			3590
 		],
 		"Label": "Opening Thrust Damage %"
+	},
+	"MOD_ABILITY_OVERWHELMINGBITE": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3917
+		],
+		"Label": "Overwelming Bite Damage %"
 	},
 	"MOD_ABILITY_PACKATTACK": {
 		"DefaultValue": 1,
@@ -12435,6 +13077,14 @@
 		],
 		"Label": "Werewolf Claw Damage %"
 	},
+	"MOD_ABILITY_WILLBREAKER": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3915
+		],
+		"Label": "Willbreaker Damage %"
+	},
 	"MOD_ABILITY_WINDSTRIKE": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -12452,6 +13102,14 @@
 			3550
 		],
 		"Label": "Wing Vortex Damage %"
+	},
+	"MOD_ABILITY_WITHERINGSHROUD": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			3914
+		],
+		"Label": "Withering Shroud Damage %"
 	},
 	"MOD_ABILITY_YOUWEREADOPTED": {
 		"DefaultValue": 1,
@@ -12524,6 +13182,11 @@
 			107
 		],
 		"Label": "Indirect Cold Damage %"
+	},
+	"MOD_COMFORT": {
+		"DisplayRule": "IfNotOne",
+		"DisplayType": "AsPercent",
+		"Label": "Comfort Effects %"
 	},
 	"MOD_CRITICAL_HIT_DAMAGE": {
 		"DefaultValue": 1,
@@ -12963,6 +13626,24 @@
 		],
 		"Label": "Indirect Seafood Damage %"
 	},
+	"MOD_SKILL_ALL_ARCHERY": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Archery Damage %"
+	},
+	"MOD_SKILL_ALL_BARD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Bard Damage %"
+	},
 	"MOD_SKILL_ALL_KNIFE": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -13206,6 +13887,14 @@
 		],
 		"Label": "Unarmed Base Damage %"
 	},
+	"MOD_SKILL_VAMPIRISM": {
+		"DisplayRule": "IfNotZero",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Vampirism Base Damage %"
+	},
 	"MOD_SKILL_WARDEN": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -13437,6 +14126,24 @@
 		],
 		"Label": "Turning Radius (Shallow Water)"
 	},
+	"MOUNT_ABILITY_COST_MOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Mounted Ability Power Cost %"
+	},
+	"MOUNT_ABILITY_RESETTIME_DELTA": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Mounted Ability Reuse Timer"
+	},
 	"MOUNT_ANXIETY_COST_FLOATING": {
 		"DefaultValue": 5,
 		"DisplayRule": "IfNotDefault",
@@ -13444,7 +14151,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Mount Anxiety Induced By Jumping (per second)"
+		"Label": "Anxiety Induced By Jumping (/sec)"
 	},
 	"MOUNT_ANXIETY_COST_FROM_ENEMIES_MOD": {
 		"DefaultValue": 1,
@@ -13471,7 +14178,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Mount Anxiety Induced By Being on Land (per second)"
+		"Label": "Anxiety Induced By Being on Land (/sec)"
 	},
 	"MOUNT_ANXIETY_COST_WATER_DEEP": {
 		"DefaultValue": 10,
@@ -13480,7 +14187,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Mount Anxiety Induced By Deep Water (per second)"
+		"Label": "Anxiety Induced By Deep Water (/sec)"
 	},
 	"MOUNT_ANXIETY_COST_WATER_SHALLOW": {
 		"DefaultValue": 5,
@@ -13489,7 +14196,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Mount Anxiety Induced By Shallow Water (per second)"
+		"Label": "Anxiety Induced By Shallow Water (/sec)"
 	},
 	"MOUNT_ANXIETY_COST_WATER_SPLASHING": {
 		"DefaultValue": 1,
@@ -13498,7 +14205,7 @@
 		"IconIds": [
 			108
 		],
-		"Label": "Mount Anxiety Induced By Splashing in Water (per second)"
+		"Label": "Anxiety Induced By Splashing in Water (/sec)"
 	},
 	"MOUNT_ANXIETY_REGEN_INACTIVE": {
 		"DisplayRule": "Always",
@@ -13641,6 +14348,15 @@
 		],
 		"Label": "Sprint-Swimming Speed Boost (Out of Combat)"
 	},
+	"NON_PSYCHIC_ABILITY_COST_DELTA": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffDelta",
+		"IconIds": [
+			108
+		],
+		"Label": "Non-Psychic Ability Power Cost"
+	},
 	"NPC_MOD_FAVORFROMGIFTS": {
 		"DefaultValue": 1,
 		"DisplayRule": "IfNotDefault",
@@ -13771,6 +14487,12 @@
 		],
 		"IsHidden": true,
 		"Label": "Pet's \"Special Trick\" Power Cost"
+	},
+	"PET_TEMPERAMENT": {
+		"DefaultValue": 0,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsInt",
+		"Label": "Temperament"
 	},
 	"PET_TOUGHNESS": {
 		"DefaultValue": 50,
@@ -14412,6 +15134,15 @@
 			108
 		],
 		"Label": "Stringed Instrument Skill"
+	},
+	"SUN_DAMAGE_RECOVERY_MOD": {
+		"DefaultValue": 1,
+		"DisplayRule": "IfNotDefault",
+		"DisplayType": "AsBuffMod",
+		"IconIds": [
+			108
+		],
+		"Label": "Sun Damage Post-Exposure Recovery Rate %"
 	},
 	"SWIM_FASTSPEED_BOOST": {
 		"DefaultValue": 3,
@@ -15273,6 +16004,18 @@
 		"DisplayType": "AsBuffDelta"
 	},
 	"MONSTER_AGGRAVATION_HEALTH_PCT": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_CHASE_RADIUS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_DETECTION_RADIUS": {
+		"DisplayRule": "Never",
+		"DisplayType": "AsBuffDelta"
+	},
+	"MONSTER_HELP_SHOUT_RADIUS": {
 		"DisplayRule": "Never",
 		"DisplayType": "AsBuffDelta"
 	}
