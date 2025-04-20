@@ -8435,7 +8435,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.06
 					}
 				],
 				"Level": 1
@@ -8465,7 +8465,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.06
 					}
 				],
 				"Level": 1
@@ -8495,7 +8495,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.06
 					}
 				],
 				"Level": 1
@@ -8525,7 +8525,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.07
 					}
 				],
 				"Level": 1
@@ -8555,7 +8555,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.07
 					}
 				],
 				"Level": 1
@@ -8585,7 +8585,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.08
 					}
 				],
 				"Level": 1
@@ -8615,7 +8615,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.08
 					}
 				],
 				"Level": 1
@@ -8645,7 +8645,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.08
 					}
 				],
 				"Level": 1
@@ -8675,7 +8675,7 @@
 					},
 					{
 						"Attribute": "MONSTER_CRIT_CHANCE",
-						"Value": 0.05
+						"Value": 0.08
 					}
 				],
 				"Level": 1
@@ -9911,7 +9911,12 @@
 	"1403": {
 		"Levels": [
 			{
-				"Attributes": [],
+				"Attributes": [
+					{
+						"Attribute": "MOD_CRITICAL_HIT_DAMAGE_RAGEATTACK",
+						"Value": 0.15
+					}
+				],
 				"Level": 1
 			}
 		],

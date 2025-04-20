@@ -187,7 +187,7 @@
 			}
 		},
 		"Comment": "Slow reload time",
-		"MinDelayBetweenAbilities": 20,
+		"MinDelayBetweenAbilities": 10,
 		"MobilityType": "Turret"
 	},
 	"BallistaGiant": {
@@ -197,7 +197,7 @@
 			}
 		},
 		"Comment": "Slow reload time",
-		"MinDelayBetweenAbilities": 20,
+		"MinDelayBetweenAbilities": 10,
 		"MobilityType": "Turret"
 	},
 	"Barghest": {
@@ -276,7 +276,12 @@
 			},
 			"BearSelfHeal_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearSelfHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BearStun_Pet1": {
 				"Cue": "ServerRequested",
@@ -304,7 +309,12 @@
 			},
 			"BearStun_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearStun_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -339,7 +349,12 @@
 			},
 			"BearTaunt_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearTaunt_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BearUltra_Pet1": {
 				"Cue": "ServerRequested",
@@ -367,7 +382,12 @@
 			},
 			"BearUltra_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearUltra_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -402,7 +422,12 @@
 			},
 			"BearSelfHeal_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearSelfHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BearUltra_Pet1": {
 				"Cue": "ServerRequested",
@@ -430,7 +455,12 @@
 			},
 			"BearUltra_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearUltra_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -465,7 +495,12 @@
 			},
 			"BearTaunt_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearTaunt_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BearWarmth_Pet1": {
 				"Cue": "ServerRequested",
@@ -493,7 +528,12 @@
 			},
 			"BearWarmth_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearWarmth_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -535,7 +575,12 @@
 			},
 			"BearStun_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearStun_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BearTaunt_Pet1": {
 				"Cue": "ServerRequested",
@@ -563,7 +608,12 @@
 			},
 			"BearTaunt_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BearTaunt_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -630,9 +680,51 @@
 			},
 			"BeeInject_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
 			},
-			"BeeStab_Pet": {},
+			"BeeInject_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BeeStab_Pet1": {
+				"MaxLevel": 9
+			},
+			"BeeStab_Pet10": {
+				"MinLevel": 90
+			},
+			"BeeStab_Pet2": {
+				"MaxLevel": 19,
+				"MinLevel": 10
+			},
+			"BeeStab_Pet3": {
+				"MaxLevel": 29,
+				"MinLevel": 20
+			},
+			"BeeStab_Pet4": {
+				"MaxLevel": 39,
+				"MinLevel": 30
+			},
+			"BeeStab_Pet5": {
+				"MaxLevel": 49,
+				"MinLevel": 40
+			},
+			"BeeStab_Pet6": {
+				"MaxLevel": 59,
+				"MinLevel": 50
+			},
+			"BeeStab_Pet7": {
+				"MaxLevel": 69,
+				"MinLevel": 60
+			},
+			"BeeStab_Pet8": {
+				"MaxLevel": 79,
+				"MinLevel": 70
+			},
+			"BeeStab_Pet9": {
+				"MaxLevel": 89,
+				"MinLevel": 80
+			},
 			"BeeVuln_Pet1": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 29
@@ -649,7 +741,12 @@
 			},
 			"BeeVuln_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"BeeVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Description": "Poison and Poison Debuff",
@@ -709,7 +806,12 @@
 			},
 			"BigCatKill_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BigCatPounce_Pet": {},
 			"BigCatRoot_Pet1": {
@@ -738,7 +840,12 @@
 			},
 			"BigCatRoot_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatRoot_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -772,7 +879,12 @@
 			},
 			"BigCatKill_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BigCatPounce_Pet": {},
 			"BigCatUltraKill_Pet1": {
@@ -801,7 +913,12 @@
 			},
 			"BigCatUltraKill_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatUltraKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -866,7 +983,12 @@
 			},
 			"BigCatRoot_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatRoot_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BigCatVuln_Pet1": {
 				"Cue": "ServerRequested",
@@ -884,7 +1006,12 @@
 			},
 			"BigCatVuln_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"BigCatVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -956,7 +1083,12 @@
 			},
 			"BigCatHeal_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BigCatKill_Pet1": {
 				"Cue": "ServerRequested",
@@ -984,7 +1116,12 @@
 			},
 			"BigCatKill_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BigCatPounce_Pet": {}
 		},
@@ -1020,7 +1157,12 @@
 			},
 			"BigCatUltraKill_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatUltraKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"BigCatVuln_Pet1": {
 				"Cue": "ServerRequested",
@@ -1038,7 +1180,12 @@
 			},
 			"BigCatVuln_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"BigCatVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -1151,7 +1298,12 @@
 			},
 			"WaspBurst_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"WaspBurst_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"WaspDebuff_Pet1": {
 				"Cue": "ServerRequested",
@@ -1179,9 +1331,14 @@
 			},
 			"WaspDebuff_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
 			},
-			"WaspStab_Pet": {}
+			"WaspDebuff_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"WaspShoot_Pet": {}
 		},
 		"Description": "Ranged Piercing Debuff and Burst Piercing",
 		"Flying": true,
@@ -1800,7 +1957,12 @@
 			},
 			"RatBurstDemon_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatBurstDemon_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"RatDeRage_Pet1": {
 				"Cue": "ServerRequested",
@@ -1828,7 +1990,12 @@
 			},
 			"RatDeRage_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -2438,7 +2605,12 @@
 			},
 			"RatBurn_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatBurn_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"RatDeRage_Pet1": {
 				"Cue": "ServerRequested",
@@ -2466,7 +2638,12 @@
 			},
 			"RatDeRage_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -2629,34 +2806,40 @@
 	},
 	"FreezeWasp_Pet": {
 		"Abilities": {
-			"BeeInject_Pet1": {
+			"WaspFreeze_Pet1": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 14
 			},
-			"BeeInject_Pet2": {
+			"WaspFreeze_Pet2": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 29,
 				"MinLevel": 15
 			},
-			"BeeInject_Pet3": {
+			"WaspFreeze_Pet3": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 44,
 				"MinLevel": 30
 			},
-			"BeeInject_Pet4": {
+			"WaspFreeze_Pet4": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 59,
 				"MinLevel": 45
 			},
-			"BeeInject_Pet5": {
+			"WaspFreeze_Pet5": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 74,
 				"MinLevel": 60
 			},
-			"BeeInject_Pet6": {
+			"WaspFreeze_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
 			},
+			"WaspFreeze_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"WaspIceShoot_Pet": {},
 			"WaspIceSlow_Pet1": {
 				"Cue": "ServerRequested",
 				"MaxLevel": 29
@@ -2673,9 +2856,13 @@
 			},
 			"WaspIceSlow_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
 			},
-			"WaspIceStab_Pet": {}
+			"WaspIceSlow_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
 		},
 		"Description": "Ranged Ice Slow and Poison Injection",
 		"Flying": true,
@@ -2949,7 +3136,12 @@
 			},
 			"RatDeRage_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"RatVuln_Pet1": {
 				"Cue": "ServerRequested",
@@ -2967,7 +3159,12 @@
 			},
 			"RatVuln_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"RatVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -3244,7 +3441,12 @@
 			},
 			"GrimalkinFlee_Pet3": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"GrimalkinFlee_Pet4": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"GrimalkinPuncture_Pet1": {
 				"Cue": "ServerRequested",
@@ -3272,7 +3474,12 @@
 			},
 			"GrimalkinPuncture_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"GrimalkinPuncture_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -3305,7 +3512,12 @@
 			},
 			"BigCatRoot_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"BigCatRoot_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"GrimalkinBite": {},
 			"GrimalkinClaw": {},
@@ -3335,7 +3547,12 @@
 			},
 			"GrimalkinPuncture_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"GrimalkinPuncture_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -4508,7 +4725,12 @@
 			},
 			"RatBuffDarkness_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatBuffDarkness_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"RatClaw_Pet": {},
 			"RatDeRage_Pet1": {
@@ -4537,7 +4759,12 @@
 			},
 			"RatDeRage_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -5630,7 +5857,12 @@
 			},
 			"RatDeRage_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"RatHeal_Pet1": {
 				"Cue": "ServerRequested",
@@ -5658,7 +5890,12 @@
 			},
 			"RatHeal_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"RatHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Strategy": "Melee"
@@ -6880,7 +7117,12 @@
 			},
 			"WaspBlast_Pet6": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 75
+			},
+			"WaspBlast_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			},
 			"WaspShoot_Pet": {},
 			"WaspSlow_Pet1": {
@@ -6899,7 +7141,12 @@
 			},
 			"WaspSlow_Pet4": {
 				"Cue": "ServerRequested",
+				"MaxLevel": 89,
 				"MinLevel": 70
+			},
+			"WaspSlow_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
 			}
 		},
 		"Description": "Ranged Piercing and Ranged Slow",

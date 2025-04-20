@@ -25835,7 +25835,7 @@
 		"Version": 1
 	},
 	"23801": {
-		"Description": "Tavilak in Red Wing Casino said, \"Very few guests are participating in the Natural Food Experience. Many claim that it is boring or too similar to manual labor to be entertaining. I must increase guest satisfaction before this attraction is closed! Perhaps you would like to participate? Simply grow some onions in the garden and exclaim the you are enjoying yourself.\"",
+		"Description": "Tavilak in Red Wing Casino said, \"Very few guests are participating in the Natural Food Experience. Many claim that it is boring or too similar to manual labor to be entertaining. I must increase guest satisfaction before this attraction is closed! Perhaps you would like to participate? Simply grow some onions in the garden and exclaim that you are enjoying yourself.\"",
 		"DisplayedLocation": "Casino",
 		"FavorNpc": "AreaCasino/NPC_Tavilak",
 		"InternalName": "TheNaturalFoodExperiencePt1",
@@ -25862,7 +25862,7 @@
 				"Type": "Scripted"
 			}
 		],
-		"PrefaceText": "Very few guests are participating in the Natural Food Experience. Many claim that it is boring or too similar to manual labor to be entertaining. I must increase guest satisfaction before this attraction is closed! Perhaps you would like to participate? Simply grow some onions in the garden and exclaim the you are enjoying yourself.",
+		"PrefaceText": "Very few guests are participating in the Natural Food Experience. Many claim that it is boring or too similar to manual labor to be entertaining. I must increase guest satisfaction before this attraction is closed! Perhaps you would like to participate? Simply grow some onions in the garden and exclaim that you are enjoying yourself.",
 		"Requirements": [
 			{
 				"FavorLevel": "Neutral",
@@ -43423,6 +43423,109 @@
 			}
 		],
 		"SuccessText": "You actually did it? Hahahaha! I wish I could have seen the faces of the guardians when you did that.\n\nOh, you wanted something for that? Well, here, take this I guess. ",
+		"Version": 0
+	},
+	"28504": {
+		"Description": "Orrrilund in the Ranalon Den said, \"It looks like another Doctrine-Keeper took the last one's place. If you take care of that one, too, I'll give you something for your troubles.\"",
+		"DisplayedLocation": "RanalonDen",
+		"FavorNpc": "AreaSerbuleCaves/NPC_Orrrilund",
+		"InternalName": "KilltheDoctrineKeeperRepeat",
+		"IsCancellable": true,
+		"Name": "Kill the Doctrine-Keeper",
+		"Objectives": [
+			{
+				"Description": "Kill the Doctrine-Keeper",
+				"Number": 1,
+				"Target": "RanalonDoctrineKeeper",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Orrrilund",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "It looks like another Doctrine-Keeper took the last one's place. If you take care of that one, too, I'll give you something for your troubles.",
+		"Requirements": [
+			{
+				"Quest": "KilltheDenMother",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Amount": 2000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"NamedLootProfile": "Custom_Orrrilund_1",
+				"T": "NamedLootProfile"
+			}
+		],
+		"SuccessText": "Thanks. Come see me again tomorrow, by then another should have taken their place.",
+		"TSysLevel": 20,
+		"Version": 0
+	},
+	"28505": {
+		"Description": "Orrrilund in the Ranalon Den said, \"As expected, a new Den Mother was born or burrowed in from somewhere. If you take care of this one, I'll give you some of these scrolls I found laying around. \"",
+		"DisplayedLocation": "RanalonDen",
+		"FavorNpc": "AreaSerbuleCaves/NPC_Orrrilund",
+		"InternalName": "KilltheDenMotherRepeat",
+		"IsCancellable": true,
+		"Name": "Kill the Ranalon Den Mother",
+		"Objectives": [
+			{
+				"Description": "Kill the Den Mother",
+				"Number": 1,
+				"Target": "RanalonDenMother",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Orrrilund",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "As expected, a new Den Mother was born or burrowed in from somewhere. If you take care of this one, I'll give you some of these scrolls I found laying around. ",
+		"Requirements": [
+			{
+				"Quest": "KilltheDoctrineKeeperRepeat",
+				"T": "QuestCompletedRecently"
+			}
+		],
+		"ReuseTime": {
+			"Hours": 20
+		},
+		"Rewards": [
+			{
+				"Amount": 3000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Favor": 200,
+				"T": "Favor"
+			},
+			{
+				"NamedLootProfile": "Custom_Orrrilund_2",
+				"T": "NamedLootProfile"
+			},
+			{
+				"Item": "Amethyst",
+				"StackSize": 5,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Hahaha! You did it again! You're always full of surprises. Here, take this.\n\n<i>[She moves some loose rocks aside to reveal a pile of scrolls, grabs some and hands them to you. Some of them seem useful.]</i>",
+		"TSysLevel": 20,
 		"Version": 0
 	},
 	"28601": {
@@ -63423,7 +63526,7 @@
 			},
 			{
 				"T": "Title",
-				"Title": 5052
+				"Title": 5078
 			}
 		],
 		"SuccessText": "Good job! Here's the dye recipe as promised and a little something extra!\n<i>[You can find the recipe for this in your crafting recipes under Dye Making]</i>",
@@ -119187,7 +119290,7 @@
 		"WorkOrderSkill": "FlowerArrangement"
 	},
 	"52157": {
-		"Description": "Deliver 10 Lumberjack's Arrangement #7 to Korbok in Vidaria. Reward: 18,452 councils.",
+		"Description": "Deliver 10 Lumberjack's Arrangement #7 to Korbok in Vidaria. Reward: 15,688 councils.",
 		"InternalName": "FlowerArrangement_LumberjacksArrangement7",
 		"IsCancellable": true,
 		"Keywords": [
@@ -119197,7 +119300,7 @@
 		"Objectives": [
 			{
 				"Description": "Obtain Lumberjack's Arrangement #7",
-				"ItemName": "FlowerArrangementForagingLuck7",
+				"ItemName": "FlowerArrangementWoodLuck7",
 				"Number": 10,
 				"Type": "Collect"
 			},
@@ -119224,7 +119327,7 @@
 				"Xp": 650
 			},
 			{
-				"Amount": 18452,
+				"Amount": 15688,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -119234,7 +119337,7 @@
 		"WorkOrderSkill": "FlowerArrangement"
 	},
 	"52158": {
-		"Description": "Deliver 10 Lumberjack's Arrangement #8 to Korbok in Vidaria. Reward: 24,760 councils.",
+		"Description": "Deliver 10 Lumberjack's Arrangement #8 to Korbok in Vidaria. Reward: 23,770 councils.",
 		"InternalName": "FlowerArrangement_LumberjacksArrangement8",
 		"IsCancellable": true,
 		"Keywords": [
@@ -119244,7 +119347,7 @@
 		"Objectives": [
 			{
 				"Description": "Obtain Lumberjack's Arrangement #8",
-				"ItemName": "FlowerArrangementForagingLuck8",
+				"ItemName": "FlowerArrangementWoodLuck8",
 				"Number": 10,
 				"Type": "Collect"
 			},
@@ -119271,7 +119374,7 @@
 				"Xp": 700
 			},
 			{
-				"Amount": 24760,
+				"Amount": 23770,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -119281,7 +119384,7 @@
 		"WorkOrderSkill": "FlowerArrangement"
 	},
 	"52159": {
-		"Description": "Deliver 10 Lumberjack's Arrangement #9 to Korbok in Vidaria. Reward: 33,342 councils.",
+		"Description": "Deliver 10 Lumberjack's Arrangement #9 to Korbok in Vidaria. Reward: 32,240 councils.",
 		"InternalName": "FlowerArrangement_LumberjacksArrangement9",
 		"IsCancellable": true,
 		"Keywords": [
@@ -119291,7 +119394,7 @@
 		"Objectives": [
 			{
 				"Description": "Obtain Lumberjack's Arrangement #9",
-				"ItemName": "FlowerArrangementForagingLuck9",
+				"ItemName": "FlowerArrangementWoodLuck9",
 				"Number": 10,
 				"Type": "Collect"
 			},
@@ -119318,7 +119421,7 @@
 				"Xp": 750
 			},
 			{
-				"Amount": 33342,
+				"Amount": 32240,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -128998,11 +129101,6 @@
 				"T": "NamedLootProfile"
 			},
 			{
-				"Amount": 1,
-				"InteractionFlag": "SerbuleCommunityChestPoints",
-				"T": "DeltaScriptAtomicInt"
-			},
-			{
 				"Item": "AcurBlood",
 				"StackSize": 1,
 				"T": "Item"
@@ -129035,11 +129133,6 @@
 			{
 				"NamedLootProfile": "L50Equipment",
 				"T": "NamedLootProfile"
-			},
-			{
-				"Amount": 1,
-				"InteractionFlag": "SerbuleCommunityChestPoints",
-				"T": "DeltaScriptAtomicInt"
 			},
 			{
 				"Item": "AcurBlood",

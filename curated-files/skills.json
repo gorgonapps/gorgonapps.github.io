@@ -3119,9 +3119,15 @@
 			},
 			{
 				"Abilities": [
-					"FeedPet1"
+					"SicEm1"
 				],
 				"Level": 3
+			},
+			{
+				"Abilities": [
+					"FeedPet1"
+				],
+				"Level": 4
 			},
 			{
 				"Abilities": [
@@ -3147,12 +3153,6 @@
 					"ShrillCommand1"
 				],
 				"Level": 8
-			},
-			{
-				"Abilities": [
-					"SicEm1"
-				],
-				"Level": 9
 			},
 			{
 				"Abilities": [
@@ -3750,6 +3750,10 @@
 				]
 			},
 			{
+				"BonusToSkill": "Fletching",
+				"Level": 19
+			},
+			{
 				"Abilities": [
 					"BlitzShot1"
 				],
@@ -3770,10 +3774,6 @@
 				"Races": [
 					"Orc"
 				]
-			},
-			{
-				"BonusToSkill": "Fletching",
-				"Level": 19
 			},
 			{
 				"Abilities": [
@@ -4044,6 +4044,10 @@
 				]
 			},
 			{
+				"BonusToSkill": "Fletching",
+				"Level": 46
+			},
+			{
 				"Abilities": [
 					"BowBash4"
 				],
@@ -4055,19 +4059,6 @@
 					"Fae",
 					"Dwarf"
 				]
-			},
-			{
-				"Abilities": [
-					"OrcAimedShot1"
-				],
-				"Level": 4,
-				"Races": [
-					"Orc"
-				]
-			},
-			{
-				"BonusToSkill": "Fletching",
-				"Level": 46
 			},
 			{
 				"Abilities": [
@@ -4093,6 +4084,15 @@
 			},
 			{
 				"Abilities": [
+					"OrcAimedShot1"
+				],
+				"Level": 4,
+				"Races": [
+					"Orc"
+				]
+			},
+			{
+				"Abilities": [
 					"AimedShot4"
 				],
 				"Level": 50,
@@ -4112,6 +4112,14 @@
 				"Races": [
 					"Orc"
 				]
+			},
+			{
+				"BonusToSkill": "Crossbow",
+				"Level": 58
+			},
+			{
+				"BonusToSkill": "Bowyery",
+				"Level": 60
 			},
 			{
 				"Abilities": [
@@ -4136,6 +4144,10 @@
 				]
 			},
 			{
+				"BonusToSkill": "Bowyery",
+				"Level": 80
+			},
+			{
 				"Abilities": [
 					"MultiShot1"
 				],
@@ -4156,18 +4168,6 @@
 				"Races": [
 					"Orc"
 				]
-			},
-			{
-				"BonusToSkill": "Crossbow",
-				"Level": 58
-			},
-			{
-				"BonusToSkill": "Bowyery",
-				"Level": 60
-			},
-			{
-				"BonusToSkill": "Bowyery",
-				"Level": 80
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -8441,10 +8441,6 @@
 				"Notes": "Access to new research recipe"
 			},
 			{
-				"Level": 5,
-				"Notes": "Access to new research recipe"
-			},
-			{
 				"Level": 10,
 				"Notes": "Access to new research recipe"
 			},
@@ -8482,6 +8478,10 @@
 				"Races": [
 					"Fae"
 				]
+			},
+			{
+				"Level": 5,
+				"Notes": "Access to new research recipe"
 			},
 			{
 				"BonusToSkill": "IceMagic",
@@ -9912,10 +9912,10 @@
 	"Geology": {
 		"AdvancementHints": [
 			{
-				"Hint": "To earn more XP in Geology, gain favor with X in Vidaria.",
+				"Hint": "To earn more XP in Geology, gain favor with Drummond Stonecurl in Vidaria.",
 				"Level": 50,
 				"Npcs": [
-					"NPC_X"
+					"NPC_DrummondStonecurl"
 				]
 			}
 		],
@@ -11133,24 +11133,6 @@
 				]
 			},
 			{
-				"Abilities": [
-					"IceSpear1"
-				],
-				"Level": 2,
-				"Races": [
-					"Fae"
-				]
-			},
-			{
-				"Abilities": [
-					"Ice_ColdProtection1"
-				],
-				"Level": 3,
-				"Races": [
-					"Fae"
-				]
-			},
-			{
 				"BonusToSkill": "Anatomy_Plants",
 				"Level": 23
 			},
@@ -11215,6 +11197,15 @@
 					"TundraSpikes2"
 				],
 				"Level": 29,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"IceSpear1"
+				],
+				"Level": 2,
 				"Races": [
 					"Fae"
 				]
@@ -11333,6 +11324,15 @@
 			},
 			{
 				"Abilities": [
+					"Ice_ColdProtection1"
+				],
+				"Level": 3,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
 					"IceSpear5"
 				],
 				"Level": 40,
@@ -11368,6 +11368,10 @@
 				"Races": [
 					"Fae"
 				]
+			},
+			{
+				"BonusToSkill": "FireMagic",
+				"Level": 43
 			},
 			{
 				"Abilities": [
@@ -11679,10 +11683,6 @@
 				"Races": [
 					"Fae"
 				]
-			},
-			{
-				"BonusToSkill": "FireMagic",
-				"Level": 43
 			},
 			{
 				"Abilities": [
@@ -12338,36 +12338,6 @@
 			},
 			{
 				"Abilities": [
-					"FendingBlade1"
-				],
-				"Level": 2
-			},
-			{
-				"Abilities": [
-					"BlurCut1"
-				],
-				"Level": 4
-			},
-			{
-				"Abilities": [
-					"Gut1"
-				],
-				"Level": 5
-			},
-			{
-				"Abilities": [
-					"Venomstrike1"
-				],
-				"Level": 7
-			},
-			{
-				"Abilities": [
-					"MarkingCut1"
-				],
-				"Level": 8
-			},
-			{
-				"Abilities": [
 					"SurgeCut1"
 				],
 				"BonusToSkill": "Butchering",
@@ -12407,25 +12377,33 @@
 			},
 			{
 				"Abilities": [
-					"RangedSlice1"
+					"FendingBlade1"
 				],
-				"Level": 3,
-				"Races": [
-					"Fae"
-				]
+				"Level": 2
 			},
 			{
 				"Abilities": [
-					"Slice1"
+					"BlurCut1"
 				],
-				"Level": 3,
-				"Races": [
-					"Human",
-					"Elf",
-					"Rakshasa",
-					"Orc",
-					"Dwarf"
-				]
+				"Level": 4
+			},
+			{
+				"Abilities": [
+					"Gut1"
+				],
+				"Level": 5
+			},
+			{
+				"Abilities": [
+					"Venomstrike1"
+				],
+				"Level": 7
+			},
+			{
+				"Abilities": [
+					"MarkingCut1"
+				],
+				"Level": 8
 			},
 			{
 				"Abilities": [
@@ -12570,6 +12548,28 @@
 					"Venomstrike4"
 				],
 				"Level": 37
+			},
+			{
+				"Abilities": [
+					"RangedSlice1"
+				],
+				"Level": 3,
+				"Races": [
+					"Fae"
+				]
+			},
+			{
+				"Abilities": [
+					"Slice1"
+				],
+				"Level": 3,
+				"Races": [
+					"Human",
+					"Elf",
+					"Rakshasa",
+					"Orc",
+					"Dwarf"
+				]
 			},
 			{
 				"Abilities": [
@@ -16803,6 +16803,7 @@
 		"XpTable": "CivicPride"
 	},
 	"Psychology": {
+		"ActiveAdvancementTable": "Balanced",
 		"AdvancementHints": [
 			{
 				"Hint": "To earn more XP in Psychology, gain favor with Nissim in Amulna, a town in the Ilmari Desert.",
@@ -16872,7 +16873,6 @@
 		"MaxBonusLevels": 25,
 		"Name": "Psychology",
 		"Parents": [],
-		"PassiveAdvancementTable": "Balanced",
 		"Rewards": [
 			{
 				"Abilities": [
@@ -21455,6 +21455,11 @@
 			{
 				"BonusToSkill": "NatureAppreciation",
 				"Level": 25
+			},
+			{
+				"Level": 50,
+				"Notes": "Ability to forecast today's weather",
+				"Recipe": "WeatherReport"
 			},
 			{
 				"BonusToSkill": "NatureAppreciation",

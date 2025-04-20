@@ -1273,7 +1273,7 @@
 			"AreaType": 1
 		},
 		"ID": 307,
-		"NpcFriendlyName": "Serbule Community Chest",
+		"NpcFriendlyName": "Serbule Dynamic Safebox",
 		"NumberOfSlotsScriptAtomic": "SerbuleCommunityChestSize",
 		"NumberOfSlotsScriptAtomicMaxValue": 150,
 		"NumberOfSlotsScriptAtomicMinValue": 1,

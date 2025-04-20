@@ -18,6 +18,10 @@
 		"Title": "MEGA Master",
 		"Tooltip": "Earned by winning both prize packs from the MEGA Raffles."
 	},
+	"103": {
+		"Color": "00FFFF",
+		"Title": "World Boss"
+	},
 	"11": {
 		"Color": "00FFFF",
 		"Title": "Volunteer Guide"
@@ -3078,6 +3082,86 @@
 		"Title": "Dragonsong",
 		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
 	},
+	"15540": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Child of Chaos",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15541": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Echo of Hope",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15542": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Broken",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15543": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Knight of the Elder",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15544": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Quick Silver",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15545": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lover of Faeries",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15546": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Queer Creature",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15547": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Eltibule Nightlife",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15548": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Non-Zero",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15549": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Alharth Traveler",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
 	"3001": {
 		"Color": "FFFFFF",
 		"Title": "Pre-Alpha 0 Survivor",
@@ -3701,6 +3785,9 @@
 	},
 	"5052": {
 		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
 		"Title": "Bunny Love 2024",
 		"Tooltip": "Earned during the Errana Bunny event in 2024."
 	},
@@ -3831,6 +3918,11 @@
 		"Color": "00CC00",
 		"Title": "Party Cultist 2024",
 		"Tooltip": "Earned during the Zhia Lian event in 2024."
+	},
+	"5078": {
+		"Color": "00CC00",
+		"Title": "Bunny Love 2025",
+		"Tooltip": "Earned during the Errana Bunny event in 2025."
 	},
 	"51": {
 		"AccountWide": true,

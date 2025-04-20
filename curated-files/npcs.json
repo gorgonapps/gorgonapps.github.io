@@ -38,13 +38,13 @@
 		]
 	},
 	"CatCharmPedestal": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Description": "It's inscribed with little etchings of cats.",
 		"Name": "Sacrificial Bowl"
 	},
 	"Desert1WorkOrderSign": {
-		"AreaFriendlyName": "The Ilmari Desert",
+		"AreaFriendlyName": "Ilmari Desert",
 		"AreaName": "Desert1",
 		"Description": "Gremix has posted some work orders here.",
 		"Name": "Work Orders",
@@ -56,7 +56,7 @@
 		]
 	},
 	"EltibuleWorkOrderSign": {
-		"AreaFriendlyName": "Eltibule Keep Area",
+		"AreaFriendlyName": "Eltibule",
 		"AreaName": "Eltibule",
 		"Description": "Thimble Pete transcribes orders onto papers and sticks them on this board.",
 		"Name": "Work Orders",
@@ -1073,7 +1073,7 @@
 		],
 		"Name": "Barnaby",
 		"PositionX": 5103.25,
-		"PositionY": 5110.28,
+		"PositionY": 5110.279785,
 		"PositionZ": 5.67,
 		"Preferences": [
 			{
@@ -1398,8 +1398,8 @@
 		"AreaName": "RahuCaves",
 		"Description": "Looking at some unusual garbage.",
 		"Name": "Bogaku",
-		"PositionX": -84.6156,
-		"PositionY": 142.2456,
+		"PositionX": -84.615601,
+		"PositionY": 142.245605,
 		"PositionZ": -48.0,
 		"Services": [
 			{
@@ -1638,8 +1638,8 @@
 		"AreaName": "KurCaves",
 		"Description": "Young and eager for knowledge",
 		"Name": "Cassie",
-		"PositionX": 5098.464,
-		"PositionY": 5110.171,
+		"PositionX": 5098.463867,
+		"PositionY": 5110.170898,
 		"PositionZ": 6.579,
 		"Preferences": [
 			{
@@ -2494,7 +2494,7 @@
 				"ItemKeywords": [
 					"ElvishJewelry"
 				],
-				"Name": "Jewelry",
+				"Name": "Elvish Jewelry",
 				"PreferenceMultiplier": 3
 			},
 			{
@@ -3280,9 +3280,9 @@
 		"AreaName": "NewbieIsland",
 		"Description": "An old elf.",
 		"Name": "Elmetaph",
-		"PositionX": 156.769,
-		"PositionY": 329.151,
-		"PositionZ": 54.828
+		"PositionX": 156.768997,
+		"PositionY": 329.151001,
+		"PositionZ": 54.827999
 	},
 	"NPC_EnsignCricket": {
 		"AreaFriendlyName": "The Wintertide",
@@ -3290,7 +3290,7 @@
 		"Description": "Tugging at his uniform",
 		"Name": "Ensign Cricket",
 		"PositionX": 58.1675,
-		"PositionY": 147.2412,
+		"PositionY": 147.241241,
 		"PositionZ": -56.25
 	},
 	"NPC_Errruka": {
@@ -4883,8 +4883,8 @@
 		"AreaName": "Planes",
 		"Description": "A cerebral goblin.",
 		"Name": "Gonchakal",
-		"PositionX": 2001.97,
-		"PositionY": 132.47,
+		"PositionX": 2001.969971,
+		"PositionY": 132.470001,
 		"PositionZ": 102.07
 	},
 	"NPC_Gorvessa": {
@@ -5076,6 +5076,30 @@
 					"AncillaryArmorAugmentBrewing"
 				],
 				"Type": "Training"
+			}
+		]
+	},
+	"NPC_Grumthar": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "A gruff and irritable troll bard, who begrudgingly shares his music.",
+		"Name": "Grumthar",
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Gem"
+				],
+				"Name": "Rare Gems",
+				"PreferenceMultiplier": 3
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Instrument"
+				],
+				"Name": "Heavy Instruments",
+				"PreferenceMultiplier": 2
 			}
 		]
 	},
@@ -6336,9 +6360,9 @@
 		"AreaName": "MyconianCave",
 		"Description": "It's a mushroom with hands.",
 		"Name": "Jaw",
-		"PositionX": -663.4698,
-		"PositionY": 795.4316,
-		"PositionZ": 339.3109,
+		"PositionX": -663.469849,
+		"PositionY": 795.431641,
+		"PositionZ": 339.310913,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -8079,8 +8103,8 @@
 		"AreaName": "NewbieIsland",
 		"Description": "She seems tired, bored, and dirty.",
 		"Name": "Lawara",
-		"PositionX": 299.043,
-		"PositionY": 388.356,
+		"PositionX": 299.042999,
+		"PositionY": 388.355988,
 		"PositionZ": 17.195,
 		"Preferences": [
 			{
@@ -8256,9 +8280,9 @@
 		"AreaName": "Statehelm",
 		"Description": "The busy and skeptical head of Tennenbrandt University, dismissive at first but respectful once introduced properly.",
 		"Name": "Leon Dasterre",
-		"PositionX": 996.623,
-		"PositionY": 908.1672,
-		"PositionZ": 44.65999,
+		"PositionX": 996.622986,
+		"PositionY": 908.167175,
+		"PositionZ": 44.659992,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -9153,8 +9177,8 @@
 		"AreaName": "KurCaves",
 		"Description": "A harried sheep",
 		"Name": "Milton",
-		"PositionX": 5090.65,
-		"PositionY": 5095.2,
+		"PositionX": 5090.649902,
+		"PositionY": 5095.200195,
 		"PositionZ": 9.11,
 		"Preferences": [
 			{
@@ -9385,9 +9409,9 @@
 		"AreaName": "MyconianCave",
 		"Description": "It's a mushroom with hands.",
 		"Name": "Mu",
-		"PositionX": -659.7711,
-		"PositionY": 704.9884,
-		"PositionZ": 341.938,
+		"PositionX": -659.771057,
+		"PositionY": 704.988403,
+		"PositionZ": 341.938049,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -10694,8 +10718,8 @@
 		"AreaName": "KurCaves",
 		"Description": "A tired panther",
 		"Name": "Pickles",
-		"PositionX": 5003.34,
-		"PositionY": 5171.93,
+		"PositionX": 5003.339844,
+		"PositionY": 5171.930176,
 		"PositionZ": 8.64,
 		"Preferences": [
 			{
@@ -10765,9 +10789,9 @@
 		"AreaName": "MyconianCave",
 		"Description": "A myconian.",
 		"Name": "Poe",
-		"PositionX": -640.2088,
-		"PositionY": 29.36799,
-		"PositionZ": 330.2908,
+		"PositionX": -640.208801,
+		"PositionY": 29.367992,
+		"PositionZ": 330.290771,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -11578,9 +11602,9 @@
 		"AreaName": "Planes",
 		"Description": "He's reading something from a notebook.",
 		"Name": "Richter",
-		"PositionX": -973.909,
-		"PositionY": 14.027,
-		"PositionZ": -1.495,
+		"PositionX": -966.675781,
+		"PositionY": 9.308,
+		"PositionZ": -3.5152,
 		"Services": [
 			{
 				"Favor": "Despised",
@@ -11914,8 +11938,8 @@
 		"AreaName": "KurCaves",
 		"Description": "A bored young fox",
 		"Name": "Rubi",
-		"PositionX": 5097.54,
-		"PositionY": 5114.01,
+		"PositionX": 5097.540039,
+		"PositionY": 5114.009766,
 		"PositionZ": 6.68,
 		"Preferences": [
 			{
@@ -13628,8 +13652,8 @@
 		"AreaName": "KurCaves",
 		"Description": "A suspicious deer",
 		"Name": "Sugar",
-		"PositionX": 5157.11,
-		"PositionY": 5086.98,
+		"PositionX": 5157.109863,
+		"PositionY": 5086.97998,
 		"PositionZ": 7.94,
 		"Preferences": [
 			{
@@ -13998,8 +14022,8 @@
 		"AreaName": "KurCaves",
 		"Description": "A sneaky-looking fox",
 		"Name": "Tangle",
-		"PositionX": 5109.059,
-		"PositionY": 5082.385,
+		"PositionX": 5109.059082,
+		"PositionY": 5082.384766,
 		"PositionZ": 10.002,
 		"Preferences": [
 			{
@@ -14166,7 +14190,7 @@
 				"ItemKeywords": [
 					"ElvishJewelry"
 				],
-				"Name": "Jewelry",
+				"Name": "Elvish Jewelry",
 				"PreferenceMultiplier": 3
 			},
 			{
@@ -14858,7 +14882,8 @@
 				"Favor": "Despised",
 				"Skills": [
 					"Vampirism",
-					"Geology"
+					"Geology",
+					"Unknown"
 				],
 				"Type": "Training"
 			}
@@ -15408,9 +15433,9 @@
 		"AreaName": "MyconianCave",
 		"Description": "A myconian.",
 		"Name": "Voo",
-		"PositionX": -671.9033,
-		"PositionY": 792.2596,
-		"PositionZ": 339.446,
+		"PositionX": -671.90332,
+		"PositionY": 792.259644,
+		"PositionZ": 339.445984,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -15493,9 +15518,9 @@
 		"AreaName": "MyconianCave",
 		"Description": "A sentient mushroom.",
 		"Name": "Way",
-		"PositionX": -668.3887,
-		"PositionY": 687.5149,
-		"PositionZ": 343.3217,
+		"PositionX": -668.388733,
+		"PositionY": 687.514893,
+		"PositionZ": 343.321655,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -16291,9 +16316,9 @@
 		"AreaName": "MyconianCave",
 		"Description": "A myconian.",
 		"Name": "Yoy",
-		"PositionX": -560.9161,
-		"PositionY": 242.6251,
-		"PositionZ": 343.4585,
+		"PositionX": -560.916077,
+		"PositionY": 242.625137,
+		"PositionZ": 343.458527,
 		"Services": [
 			{
 				"Favor": "Despised",

@@ -16596,6 +16596,10 @@
 			{
 				"QuestId": 28503,
 				"Type": "Quest"
+			},
+			{
+				"QuestId": 28505,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -57847,7 +57851,13 @@
 		"Entries": []
 	},
 	"4726": {
-		"Entries": []
+		"Entries": [
+			{
+				"HangOutId": 20801,
+				"Npc": "NPC_CoreyTheCroaker",
+				"Type": "HangOut"
+			}
+		]
 	},
 	"47401": {
 		"Entries": []
@@ -65490,6 +65500,9 @@
 	"56511": {
 		"Entries": []
 	},
+	"56512": {
+		"Entries": []
+	},
 	"59": {
 		"Entries": [
 			{
@@ -66479,6 +66492,10 @@
 			},
 			{
 				"Npc": "NPC_Gonchakal",
+				"Type": "NpcGift"
+			},
+			{
+				"Npc": "NPC_Grumthar",
 				"Type": "NpcGift"
 			},
 			{

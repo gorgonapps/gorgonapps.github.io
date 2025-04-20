@@ -16,7 +16,7 @@
 		"ShortFriendlyName": "Kur Caves"
 	},
 	"AreaDesert1": {
-		"FriendlyName": "The Ilmari Desert",
+		"FriendlyName": "Ilmari Desert",
 		"ShortFriendlyName": "Ilmari Desert"
 	},
 	"AreaDesert1Caves": {
@@ -24,8 +24,7 @@
 		"ShortFriendlyName": "Beneath Ilmari"
 	},
 	"AreaEltibule": {
-		"FriendlyName": "Eltibule Keep Area",
-		"ShortFriendlyName": "Eltibule"
+		"FriendlyName": "Eltibule"
 	},
 	"AreaFaeRealm1": {
 		"FriendlyName": "Fae Realm",
