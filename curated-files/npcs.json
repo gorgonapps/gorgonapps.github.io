@@ -95,6 +95,12 @@
 			}
 		]
 	},
+	"Grainmill": {
+		"AreaFriendlyName": "Serbule",
+		"AreaName": "Serbule",
+		"Description": "For millin'",
+		"Name": "Grindstone"
+	},
 	"GuildAltar": {
 		"AreaFriendlyName": "Serbule",
 		"AreaName": "Serbule",
@@ -340,8 +346,20 @@
 	"NPC_Alzaneth": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "An elven mage with a quiet intensity, wearing robes adorned with protective sigils. His gaze is focused and contemplative.",
-		"Name": "Alzaneth"
+		"Description": "An elven mage with intensity.",
+		"Name": "Alzaneth",
+		"PositionX": 732.799988,
+		"PositionY": 830.179993,
+		"PositionZ": 52.080002,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"WeatherWitching"
+				],
+				"Type": "Training"
+			}
+		]
 	},
 	"NPC_Amutasa": {
 		"AreaFriendlyName": "Rahu",
@@ -471,8 +489,11 @@
 	"NPC_Anaberyl": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A quiet but immensely talented fairy bard, often lost in her music.",
+		"Description": "Distractedly humming a lovely tune.",
 		"Name": "Anaberyl",
+		"PositionX": 781.75,
+		"PositionY": 830.984009,
+		"PositionZ": 45.275967,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -480,7 +501,7 @@
 					"Flower"
 				],
 				"Name": "Rare Flowers",
-				"PreferenceMultiplier": 3
+				"PreferenceMultiplier": 2
 			},
 			{
 				"Desire": "Love",
@@ -806,6 +827,15 @@
 				]
 			}
 		]
+	},
+	"NPC_Asparagus": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Definitely green-tinted",
+		"Name": "Asparagus",
+		"PositionX": 745.73999,
+		"PositionY": 928.47998,
+		"PositionZ": 44.700001
 	},
 	"NPC_AuShin": {
 		"AreaFriendlyName": "Existential Planes",
@@ -1633,6 +1663,24 @@
 			}
 		]
 	},
+	"NPC_Burl": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Looks strong.",
+		"Name": "Burl",
+		"PositionX": 883.235535,
+		"PositionY": 1085.456421,
+		"PositionZ": 38.074509
+	},
+	"NPC_CaptainGregory": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Disciplined and intense",
+		"Name": "Captain Gregory",
+		"PositionX": 898.770386,
+		"PositionY": 845.859009,
+		"PositionZ": 44.361153
+	},
 	"NPC_Cassie": {
 		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
@@ -1793,32 +1841,32 @@
 					{
 						"Favor": "Despised",
 						"Purchase": "Document,Augment",
-						"Value": 100000
+						"Value": 25000
 					},
 					{
 						"Favor": "Friends",
 						"Purchase": "Document,Augment",
-						"Value": 125000
+						"Value": 40000
 					},
 					{
 						"Favor": "CloseFriends",
 						"Purchase": "Document,Augment",
-						"Value": 150000
+						"Value": 60000
 					},
 					{
 						"Favor": "BestFriends",
 						"Purchase": "Document,Augment",
-						"Value": 175000
+						"Value": 80000
 					},
 					{
 						"Favor": "LikeFamily",
 						"Purchase": "Document,Augment",
-						"Value": 200000
+						"Value": 100000
 					},
 					{
 						"Favor": "SoulMates",
 						"Purchase": "Document,Augment",
-						"Value": 225000
+						"Value": 125000
 					}
 				],
 				"Favor": "Despised",
@@ -2087,6 +2135,9 @@
 		"AreaName": "Statehelm",
 		"Description": "An enigmatic figure devoted to the ancient art of augmentation, particularly in empowering musical instruments with mystical properties.",
 		"Name": "Corinth",
+		"PositionX": 781.047974,
+		"PositionY": 821.880005,
+		"PositionZ": 45.275967,
 		"Preferences": [
 			{
 				"Desire": "Like",
@@ -2248,17 +2299,22 @@
 	"NPC_CynthiaRolfe": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A scruffy, no-nonsense woman with a piercing glare, managing the bar with a sharp wit.",
+		"Description": "A scruffy, no-nonsense woman with a piercing glare.",
 		"Name": "Cynthia Rolfe",
-		"Preferences": [
+		"PositionX": 833.724915,
+		"PositionY": 1075.629028,
+		"PositionZ": 48.069012,
+		"Services": [
 			{
-				"Desire": "Hate",
-				"Favor": "Hated",
-				"ItemKeywords": [
-					"Jewelry"
+				"Favor": "Despised",
+				"Type": "Store"
+			},
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Psychology"
 				],
-				"Name": "Fine Jewelry",
-				"PreferenceMultiplier": -2
+				"Type": "Training"
 			}
 		]
 	},
@@ -2534,6 +2590,24 @@
 			}
 		]
 	},
+	"NPC_DevilleNeth": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Baker",
+		"Name": "Deville Neth",
+		"PositionX": 628.179993,
+		"PositionY": 1007.400024,
+		"PositionZ": 45.095989,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Cooking"
+				],
+				"Type": "Training"
+			}
+		]
+	},
 	"NPC_Dhakmar": {
 		"AreaFriendlyName": "Rahu",
 		"AreaName": "Rahu",
@@ -2560,7 +2634,7 @@
 			{
 				"Desire": "Love",
 				"ItemKeywords": [
-					"WineCask"
+					"WineBottle"
 				],
 				"Name": "Casks of Wine (Aged or Not)",
 				"PreferenceMultiplier": 2.5
@@ -2826,6 +2900,9 @@
 		"AreaName": "Statehelm",
 		"Description": "A Giant Bat with a reduction talisman, pretending to be no more than a friendly, dog-like pet.",
 		"Name": "Duke of Flapbule",
+		"PositionX": 777.091125,
+		"PositionY": 943.312927,
+		"PositionZ": 52.098984,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -3193,6 +3270,24 @@
 			}
 		]
 	},
+	"NPC_ElectraBreakdawn": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Sunken-eyed and grim",
+		"Name": "Electra Breakdawn",
+		"PositionX": 303.644012,
+		"PositionY": 1542.567993,
+		"PositionZ": 45.387001,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"CandleMaking"
+				],
+				"Type": "Training"
+			}
+		]
+	},
 	"NPC_Eleme": {
 		"AreaFriendlyName": "Sun Vale",
 		"AreaName": "SunVale",
@@ -3284,6 +3379,69 @@
 		"PositionY": 329.151001,
 		"PositionZ": 54.827999
 	},
+	"NPC_Elune": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Thin but regal",
+		"Name": "Elune",
+		"PositionX": 667.213562,
+		"PositionY": 971.970703,
+		"PositionZ": 45.251999,
+		"Services": [
+			{
+				"CapIncreases": [
+					{
+						"Favor": "Despised",
+						"Purchase": "Ring,Jewelry,Racial,Amulet",
+						"Value": 5000
+					},
+					{
+						"Favor": "Friends",
+						"Purchase": "Ring,Jewelry,Racial,Amulet",
+						"Value": 15000
+					},
+					{
+						"Favor": "CloseFriends",
+						"Purchase": "Ring,Jewelry,Racial,Amulet",
+						"Value": 25000
+					},
+					{
+						"Favor": "BestFriends",
+						"Purchase": "Ring,Jewelry,Racial,Amulet",
+						"Value": 50000
+					},
+					{
+						"Favor": "LikeFamily",
+						"Purchase": "Ring,Jewelry,Racial,Amulet",
+						"Value": 75000
+					},
+					{
+						"Favor": "SoulMates",
+						"Purchase": "Ring,Jewelry,Racial,Amulet",
+						"Value": 100000
+					}
+				],
+				"Favor": "Despised",
+				"Type": "Store"
+			},
+			{
+				"Favor": "Friends",
+				"ItemTypes": [
+					"Ring",
+					"Jewelry",
+					"Racial",
+					"Amulet"
+				],
+				"Type": "Consignment",
+				"Unlocks": [
+					"CloseFriends",
+					"BestFriends",
+					"LikeFamily",
+					"SoulMates"
+				]
+			}
+		]
+	},
 	"NPC_EnsignCricket": {
 		"AreaFriendlyName": "The Wintertide",
 		"AreaName": "FaeRealm1Caves",
@@ -3298,9 +3456,9 @@
 		"AreaName": "Povus",
 		"Description": "A peaceful-ish ranalon",
 		"Name": "Errruka the Benefactor",
-		"PositionX": 1493.678833,
-		"PositionY": 1463.279785,
-		"PositionZ": -9.001534,
+		"PositionX": 1562.319946,
+		"PositionY": 2465.040039,
+		"PositionZ": 6.1,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -3463,13 +3621,28 @@
 			}
 		]
 	},
+	"NPC_EverSteak": {
+		"AreaFriendlyName": "Vidaria",
+		"AreaName": "Vidaria",
+		"Description": "An otherworldly cow",
+		"Name": "Lucinnea",
+		"PositionX": 720.486145,
+		"PositionY": 2064.112305,
+		"PositionZ": 25.01416,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Type": "Training"
+			}
+		]
+	},
 	"NPC_Fainor": {
 		"AreaFriendlyName": "Serbule",
 		"AreaName": "Serbule",
 		"Description": "He's sweating profusely from the fire, but intensely focused on some sort of potato dish.",
 		"Name": "Fainor",
-		"PositionX": 1383.61377,
-		"PositionY": 1604.960815,
+		"PositionX": 1384.567017,
+		"PositionY": 1604.437988,
 		"PositionZ": 48.328949,
 		"Preferences": [
 			{
@@ -3628,6 +3801,76 @@
 					"BestFriends",
 					"LikeFamily"
 				]
+			}
+		]
+	},
+	"NPC_FarsightFlemmings": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Grim Body Parts Vendor",
+		"Name": "Farsight Flemmings",
+		"PositionX": 690.288391,
+		"PositionY": 1195.644653,
+		"PositionZ": 59.605206,
+		"Services": [
+			{
+				"CapIncreases": [
+					{
+						"Favor": "Despised",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 2500
+					},
+					{
+						"Favor": "Comfortable",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 5000
+					},
+					{
+						"Favor": "Friends",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 10000
+					},
+					{
+						"Favor": "CloseFriends",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 20000
+					},
+					{
+						"Favor": "BestFriends",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 35000
+					},
+					{
+						"Favor": "LikeFamily",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 50000
+					},
+					{
+						"Favor": "SoulMates",
+						"Purchase": "BodyOrgan,CorpseTrophy",
+						"Value": 70000
+					}
+				],
+				"Favor": "Despised",
+				"Type": "Store"
+			},
+			{
+				"Favor": "Friends",
+				"ItemTypes": [
+					"BodyOrgan",
+					"CorpseTrophy"
+				],
+				"Type": "Consignment",
+				"Unlocks": [
+					"CloseFriends",
+					"BestFriends",
+					"LikeFamily",
+					"SoulMates"
+				]
+			},
+			{
+				"Favor": "Despised",
+				"Type": "Training"
 			}
 		]
 	},
@@ -3826,6 +4069,15 @@
 			}
 		]
 	},
+	"NPC_Fenna": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Objectively beautiful",
+		"Name": "Fenna",
+		"PositionX": 684.820007,
+		"PositionY": 1027.560059,
+		"PositionZ": 44.714001
+	},
 	"NPC_FerandDeftwhisper": {
 		"AreaFriendlyName": "Povus",
 		"AreaName": "Povus",
@@ -3964,6 +4216,10 @@
 			}
 		],
 		"Services": [
+			{
+				"Favor": "Despised",
+				"Type": "Barter"
+			},
 			{
 				"Favor": "Despised",
 				"Type": "Store"
@@ -4355,7 +4611,19 @@
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
 		"Description": "A solemn woman with a haunted look in her eyes, wearing the dark garb of a former necromancer.",
-		"Name": "Fransesca Muradrake"
+		"Name": "Fransesca Muradrake",
+		"PositionX": 730.817993,
+		"PositionY": 841.812012,
+		"PositionZ": 45.273998,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Necromancy"
+				],
+				"Type": "Training"
+			}
+		]
 	},
 	"NPC_Furlak": {
 		"AreaFriendlyName": "Rahu",
@@ -4480,8 +4748,11 @@
 	"NPC_GeneralTassadar": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A stern, battle-worn man with a sharp gaze. His uniform is immaculate, reflecting his discipline.",
-		"Name": "General Tassadar"
+		"Description": "Battleworn and a bit haggard, but his uniform is immaculate",
+		"Name": "General Tassadar",
+		"PositionX": 898.849976,
+		"PositionY": 840.369995,
+		"PositionZ": 44.380432
 	},
 	"NPC_GeorgeMadler": {
 		"AreaFriendlyName": "Eltibule",
@@ -4947,6 +5218,15 @@
 			}
 		]
 	},
+	"NPC_Gossamyr": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Studying some cards",
+		"Name": "Gossamyr the Great",
+		"PositionX": 698.238953,
+		"PositionY": 1195.241455,
+		"PositionZ": 59.801991
+	},
 	"NPC_Grakelsput": {
 		"AreaFriendlyName": "Povus",
 		"AreaName": "Povus",
@@ -5079,30 +5359,6 @@
 			}
 		]
 	},
-	"NPC_Grumthar": {
-		"AreaFriendlyName": "Statehelm",
-		"AreaName": "Statehelm",
-		"Description": "A gruff and irritable troll bard, who begrudgingly shares his music.",
-		"Name": "Grumthar",
-		"Preferences": [
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Gem"
-				],
-				"Name": "Rare Gems",
-				"PreferenceMultiplier": 3
-			},
-			{
-				"Desire": "Love",
-				"ItemKeywords": [
-					"Instrument"
-				],
-				"Name": "Heavy Instruments",
-				"PreferenceMultiplier": 2
-			}
-		]
-	},
 	"NPC_Gurki": {
 		"AreaFriendlyName": "Kur Mountains",
 		"AreaName": "KurMountains",
@@ -5167,8 +5423,29 @@
 	"NPC_GuzorHarrison": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A seasoned Fire Mage with a no-nonsense attitude, always seeking practical applications for his magic.",
-		"Name": "Guzor Harrison"
+		"Description": "His flameproof robe is covered in scorches.",
+		"Name": "Guzor Harrison",
+		"PositionX": 727.140015,
+		"PositionY": 865.570007,
+		"PositionZ": 52.080002,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"FireMagic"
+				],
+				"Type": "Training"
+			}
+		]
+	},
+	"NPC_Hammerlock": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "A sleek black cat with a fiery gaze.",
+		"Name": "Hammerlock",
+		"PositionX": 730.218567,
+		"PositionY": 854.782288,
+		"PositionZ": 52.080612
 	},
 	"NPC_Harry": {
 		"AreaFriendlyName": "Serbule",
@@ -5875,8 +6152,11 @@
 	"NPC_IlvadeleIrasce": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A dignified and insightful elder Council member known for her extensive knowledge of humanity's history and relationship with the arcane.",
-		"Name": "Ilvadele Irasce"
+		"Description": "Older woman with a dignified walk",
+		"Name": "Ilvadele Irasce",
+		"PositionX": 602.539978,
+		"PositionY": 831.340027,
+		"PositionZ": 56.834
 	},
 	"NPC_Inella": {
 		"AreaFriendlyName": "Elven Judgement",
@@ -5897,6 +6177,15 @@
 				"Type": "Training"
 			}
 		]
+	},
+	"NPC_Irhetsu": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Emanates an ancient confidence",
+		"Name": "Irhetsu",
+		"PositionX": 691.75,
+		"PositionY": 1022.799988,
+		"PositionZ": 44.389999
 	},
 	"NPC_Irkima": {
 		"AreaFriendlyName": "Red Wing Casino",
@@ -6352,8 +6641,11 @@
 	"NPC_Jarmanger": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "The shrewd and enigmatic leader of the Council, deeply involved in arcane machinations to thwart interdimensional threats.",
-		"Name": "Jarmanger"
+		"Description": "Pretending that he hasn't noticed you.",
+		"Name": "Jarmanger",
+		"PositionX": 596.669983,
+		"PositionY": 846.664001,
+		"PositionZ": 75.260719
 	},
 	"NPC_Jaw": {
 		"AreaFriendlyName": "Myconian Caverns",
@@ -6412,6 +6704,9 @@
 		"AreaName": "Statehelm",
 		"Description": "A friendly and quick-witted server at the Vicious Bat cafe, always ready with a smile and a bit of gossip.",
 		"Name": "Jenny Foster",
+		"PositionX": 773.550049,
+		"PositionY": 943.228821,
+		"PositionZ": 45.263985,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -6885,6 +7180,25 @@
 			{
 				"Favor": "Despised",
 				"Type": "Barter"
+			}
+		]
+	},
+	"NPC_JustinSmoot": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Smells like bait",
+		"Name": "Justin Smoot",
+		"PositionX": 1042.092896,
+		"PositionY": 1070.019897,
+		"PositionZ": 29.659931,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Fishing",
+					"Cooking"
+				],
+				"Type": "Training"
 			}
 		]
 	},
@@ -7543,11 +7857,15 @@
 			},
 			{
 				"Favor": "Despised",
-				"Type": "Training"
-			},
-			{
-				"Favor": "Despised",
-				"Type": "Stables"
+				"Skills": [
+					"Cooking",
+					"Mycology"
+				],
+				"Type": "Training",
+				"Unlocks": [
+					"CloseFriends",
+					"LikeFamily"
+				]
 			}
 		]
 	},
@@ -8278,11 +8596,11 @@
 	"NPC_LeonDasterre": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "The busy and skeptical head of Tennenbrandt University, dismissive at first but respectful once introduced properly.",
+		"Description": "The somewhat-dismissive head of Tennenbrandt University.",
 		"Name": "Leon Dasterre",
-		"PositionX": 996.622986,
-		"PositionY": 908.167175,
-		"PositionZ": 44.659992,
+		"PositionX": 774.25,
+		"PositionY": 857.219971,
+		"PositionZ": 45.275967,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -8424,12 +8742,6 @@
 				"Type": "Training"
 			}
 		]
-	},
-	"NPC_LieutenantGregory": {
-		"AreaFriendlyName": "Statehelm",
-		"AreaName": "Statehelm",
-		"Description": "A disciplined lieutenant with a no-nonsense attitude, tasked with coordinating missions around the capital of Statehelm.",
-		"Name": "Lieutenant Gregory"
 	},
 	"NPC_Lisi": {
 		"AreaFriendlyName": "Sun Vale",
@@ -9297,8 +9609,8 @@
 		"AreaName": "Povus",
 		"Description": "A myconian.",
 		"Name": "Mope",
-		"PositionX": 2362.72998,
-		"PositionY": 619.119995,
+		"PositionX": 2361.169922,
+		"PositionY": 618.390015,
 		"PositionZ": 130.67308,
 		"Preferences": [
 			{
@@ -10153,6 +10465,9 @@
 		"AreaName": "Statehelm",
 		"Description": "A passionate bard, caught between music and magic.",
 		"Name": "Ormond Neth",
+		"PositionX": 776.810974,
+		"PositionY": 819.647827,
+		"PositionZ": 52.080711,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -10470,6 +10785,21 @@
 			}
 		]
 	},
+	"NPC_Paullus": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Drunk, but handling it well",
+		"Name": "Paullus",
+		"PositionX": 680.77002,
+		"PositionY": 1031.130005,
+		"PositionZ": 44.749001,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Type": "Training"
+			}
+		]
+	},
 	"NPC_Pegast": {
 		"AreaFriendlyName": "Fae Realm",
 		"AreaName": "FaeRealm1",
@@ -10713,6 +11043,15 @@
 			}
 		]
 	},
+	"NPC_Phineas": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Intelligent, amused eyes watch you.",
+		"Name": "Phineas",
+		"PositionX": 730.916992,
+		"PositionY": 860.822021,
+		"PositionZ": 46.289001
+	},
 	"NPC_Pickles": {
 		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
@@ -10745,6 +11084,127 @@
 				],
 				"Name": "Figurines",
 				"PreferenceMultiplier": 2
+			}
+		]
+	},
+	"NPC_PitreFerrence": {
+		"AreaFriendlyName": "Vidaria",
+		"AreaName": "Vidaria",
+		"Description": "Plucking lint off his shirt",
+		"ItemGifts": [
+			"Friends",
+			"LikeFamily",
+			"SoulMates"
+		],
+		"Name": "Pitre Ferrence",
+		"PositionX": 375.911102,
+		"PositionY": 1308.191528,
+		"PositionZ": 4.135,
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"Favor": "Neutral",
+				"ItemKeywords": [
+					"Food"
+				],
+				"Name": "Food (for the War Effort)",
+				"PreferenceMultiplier": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Neutral",
+				"ItemKeywords": [
+					"CookingIngredient"
+				],
+				"Name": "Cooking Ingredients (for the War Effort)",
+				"PreferenceMultiplier": 1.5
+			},
+			{
+				"Desire": "Love",
+				"Favor": "Comfortable",
+				"ItemKeywords": [
+					"Hellfreeze"
+				],
+				"Name": "Hellfreeze",
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "CloseFriends",
+				"ItemKeywords": [
+					"GoblinCallingCard"
+				],
+				"Name": "Goblin Calling Cards",
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Love",
+				"Favor": "LikeFamily",
+				"ItemKeywords": [
+					"WordOfPower"
+				],
+				"Name": "Word of Power Scrolls",
+				"PreferenceMultiplier": 4
+			},
+			{
+				"Desire": "Like",
+				"Favor": "Friends",
+				"ItemKeywords": [
+					"GoblinTrash"
+				],
+				"Name": "Goblin Trash",
+				"PreferenceMultiplier": 1
+			}
+		],
+		"Services": [
+			{
+				"CapIncreases": [
+					{
+						"Favor": "Despised",
+						"Purchase": "Food,CookingIngredient",
+						"Value": 5000
+					},
+					{
+						"Favor": "Comfortable",
+						"Purchase": "Food,CookingIngredient,Hellfreeze",
+						"Value": 5000
+					},
+					{
+						"Favor": "Friends",
+						"Purchase": "Food,CookingIngredient,Hellfreeze",
+						"Value": 6000
+					},
+					{
+						"Favor": "CloseFriends",
+						"Purchase": "Food,CookingIngredient,Hellfreeze,GoblinCallingCard",
+						"Value": 7000
+					},
+					{
+						"Favor": "BestFriends",
+						"Purchase": "Food,CookingIngredient,Hellfreeze,GoblinCallingCard",
+						"Value": 8000
+					},
+					{
+						"Favor": "LikeFamily",
+						"Purchase": "Food,CookingIngredient,Hellfreeze,GoblinCallingCard,TextbookSkill_FireMagic,TextbookSkill_IceMagic",
+						"Value": 9000
+					},
+					{
+						"Favor": "SoulMates",
+						"Purchase": "Food,CookingIngredient,Hellfreeze,GoblinCallingCard,TextbookSkill_FireMagic,TextbookSkill_IceMagic",
+						"Value": 10000
+					}
+				],
+				"Favor": "Despised",
+				"Type": "Store"
+			},
+			{
+				"Favor": "Despised",
+				"Type": "Training"
+			},
+			{
+				"Favor": "Despised",
+				"Type": "Stables"
 			}
 		]
 	},
@@ -10781,8 +11241,11 @@
 	"NPC_Plaudius": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A figure of cold precision, his eyes study you with a depth that feels more scientific than human, as though he's assessing every muscle twitch and flicker of emotion.",
-		"Name": "Plaudius"
+		"Description": "He stares into the distance even as his hand takes notes.",
+		"Name": "Plaudius",
+		"PositionX": 657.532227,
+		"PositionY": 831.438416,
+		"PositionZ": 49.721718
 	},
 	"NPC_Poe": {
 		"AreaFriendlyName": "Myconian Caverns",
@@ -11298,7 +11761,7 @@
 		"Name": "Ratuk the Thinker",
 		"PositionX": 3492.01001,
 		"PositionY": 1327.403564,
-		"PositionZ": 215.551956,
+		"PositionZ": 215.742996,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -11454,11 +11917,14 @@
 			}
 		]
 	},
-	"NPC_Rebeccah": {
+	"NPC_RebeccahTheWhisperer": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
 		"Description": "A mysterious figure at Tennenbrandt University, she communicates through instruments since losing her voice.",
 		"Name": "Rebeccah the Whisperer",
+		"PositionX": 776.502014,
+		"PositionY": 842.494019,
+		"PositionZ": 45.275967,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -11476,6 +11942,15 @@
 				],
 				"Name": "Rare Gems",
 				"PreferenceMultiplier": -1
+			}
+		],
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Artistry"
+				],
+				"Type": "Training"
 			}
 		]
 	},
@@ -12064,6 +12539,15 @@
 			}
 		]
 	},
+	"NPC_SageFestoon": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Snide",
+		"Name": "Sage Festoon",
+		"PositionX": 775.607971,
+		"PositionY": 945.664001,
+		"PositionZ": 52.098999
+	},
 	"NPC_SammieGrimspine": {
 		"AreaFriendlyName": "Serbule Hills",
 		"AreaName": "Serbule2",
@@ -12487,6 +12971,24 @@
 			}
 		]
 	},
+	"NPC_SerHackley": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Soured on life",
+		"Name": "Ser Hackley",
+		"PositionX": 657.390015,
+		"PositionY": 846.869995,
+		"PositionZ": 49.720001,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Gadgeteering"
+				],
+				"Type": "Training"
+			}
+		]
+	},
 	"NPC_SerLorentz": {
 		"AreaFriendlyName": "Vidaria",
 		"AreaName": "Vidaria",
@@ -12505,31 +13007,31 @@
 				"Name": "Candles",
 				"PreferenceMultiplier": 1.25
 			}
+		],
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Type": "GuildQuests"
+			}
 		]
 	},
-	"NPC_SergeantBrooker": {
+	"NPC_SerPalmer": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A grizzled veteran tasked with training recruits in the art of close combat, specializing in Hammer and Staff techniques.",
-		"Name": "Sergeant Brooker"
+		"Description": "With an unreadable expression",
+		"Name": "Ser Palmer",
+		"PositionX": 890.148987,
+		"PositionY": 830.815918,
+		"PositionZ": 44.400322
 	},
-	"NPC_SergeantFisk": {
+	"NPC_Sereel": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A sharp-eyed sergeant known for his mastery of ranged weapons, specifically Archery and Crossbow combat.",
-		"Name": "Sergeant Fisk"
-	},
-	"NPC_SergeantHughes": {
-		"AreaFriendlyName": "Statehelm",
-		"AreaName": "Statehelm",
-		"Description": "A seasoned sergeant with a solid understanding of close combat, specializing in Sword, Shield, and Unarmed techniques.",
-		"Name": "Sergeant Hughes"
-	},
-	"NPC_Serreel": {
-		"AreaFriendlyName": "Statehelm",
-		"AreaName": "Statehelm",
-		"Description": "A gaunt figure draped in dark robes, his eyes hollow yet piercing, as if he sees more than he should???and wishes to see even more.",
-		"Name": "Serreel"
+		"Description": "A gaunt figure draped in dark robes.",
+		"Name": "Serreel",
+		"PositionX": 657.18219,
+		"PositionY": 834.508057,
+		"PositionZ": 49.721714
 	},
 	"NPC_Shala": {
 		"AreaFriendlyName": "Povus",
@@ -12941,6 +13443,24 @@
 			}
 		]
 	},
+	"NPC_SirBrooker": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "A grizzled weapons specialist",
+		"Name": "Sir Brooker",
+		"PositionX": 888.405212,
+		"PositionY": 830.305908,
+		"PositionZ": 44.279186,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Sword"
+				],
+				"Type": "Training"
+			}
+		]
+	},
 	"NPC_SirCoth": {
 		"AreaFriendlyName": "Serbule",
 		"AreaName": "Serbule",
@@ -13021,6 +13541,34 @@
 				],
 				"Favor": "Despised",
 				"Type": "Store"
+			}
+		]
+	},
+	"NPC_SirFisk": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "A sharp-eyed archer",
+		"Name": "Sir Fisk",
+		"PositionX": 889.306274,
+		"PositionY": 830.779846,
+		"PositionZ": 44.327724
+	},
+	"NPC_SirHughes": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "A seasoned soldier",
+		"Name": "Sir Hughes",
+		"PositionX": 890.001892,
+		"PositionY": 830.315918,
+		"PositionZ": 44.279194,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Unarmed",
+					"FirstAid"
+				],
+				"Type": "Training"
 			}
 		]
 	},
@@ -13206,6 +13754,9 @@
 		"AreaName": "Statehelm",
 		"Description": "A jovial man with a mischievous grin, holding a battered horn that he's quick to play during musical gatherings.",
 		"Name": "Slim Ostren",
+		"PositionX": 778.254883,
+		"PositionY": 950.748108,
+		"PositionZ": 45.263985,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -13438,6 +13989,15 @@
 			}
 		]
 	},
+	"NPC_Sourgum": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Looks sour.",
+		"Name": "Sourgum",
+		"PositionX": 891.230164,
+		"PositionY": 1082.944092,
+		"PositionZ": 38.046734
+	},
 	"NPC_Sphere": {
 		"AreaFriendlyName": "Caves Beneath Kur Mountains",
 		"AreaName": "KurCaves",
@@ -13449,9 +14009,6 @@
 		"AreaName": "Serbule",
 		"Description": "A temporary NPC! He sells spider-related stuff.",
 		"Name": "Temporary Spider",
-		"PositionX": -192.84906,
-		"PositionY": -269.050446,
-		"PositionZ": 39.57991,
 		"Services": [
 			{
 				"Favor": "Despised",
@@ -13644,6 +14201,72 @@
 			{
 				"Favor": "Despised",
 				"Type": "Stables"
+			}
+		]
+	},
+	"NPC_StevenPoplar": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Smiling calmly",
+		"ItemGifts": [
+			"Friends",
+			"CloseFriends"
+		],
+		"Name": "Steven Poplar",
+		"PositionX": 530.952026,
+		"PositionY": 1004.981018,
+		"PositionZ": 45.610001,
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"HolySymbol"
+				],
+				"Name": "Equipment with Holy Symbols",
+				"PreferenceMultiplier": 2.5
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"LapisLazuli"
+				],
+				"Name": "Lapis Lazuli",
+				"PreferenceMultiplier": 3
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"MummyWrapping"
+				],
+				"Name": "Mummy Wrappings",
+				"PreferenceMultiplier": 3
+			},
+			{
+				"Desire": "Hate",
+				"ItemKeywords": [
+					"BarteredHolySymbol"
+				],
+				"PreferenceMultiplier": -3
+			}
+		]
+	},
+	"NPC_StromFarblood": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "With careful, practiced movements",
+		"Name": "Strom Farblood",
+		"PositionX": 724.722168,
+		"PositionY": 837.746155,
+		"PositionZ": 52.080616,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"Alchemy",
+					"Mycology",
+					"BattleChemistry"
+				],
+				"Type": "Training"
 			}
 		]
 	},
@@ -14017,6 +14640,15 @@
 			}
 		]
 	},
+	"NPC_Tamilla": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "A nervous smile",
+		"Name": "Tamilla",
+		"PositionX": 757.653992,
+		"PositionY": 1007.661987,
+		"PositionZ": 51.944
+	},
 	"NPC_Tangle": {
 		"AreaFriendlyName": "Sacred Grotto",
 		"AreaName": "KurCaves",
@@ -14183,6 +14815,9 @@
 		"AreaName": "Statehelm",
 		"Description": "A refined elf with a solemn expression, meticulously arranging jewelry behind the counter.",
 		"Name": "Terry Collier",
+		"PositionX": 770.875977,
+		"PositionY": 938.193542,
+		"PositionZ": 52.098984,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -14204,6 +14839,15 @@
 			}
 		]
 	},
+	"NPC_Tessa": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Looks pissed.",
+		"Name": "Tessa Starlight",
+		"PositionX": 848.599915,
+		"PositionY": 1041.084106,
+		"PositionZ": 42.754402
+	},
 	"NPC_TheFloriculturist": {
 		"AreaFriendlyName": "Vidaria",
 		"AreaName": "Vidaria",
@@ -14216,7 +14860,7 @@
 		"Name": "The Floriculturist",
 		"PositionX": 864.01001,
 		"PositionY": 1134.709961,
-		"PositionZ": 227.919998,
+		"PositionZ": 227.878128,
 		"Preferences": [
 			{
 				"Desire": "Love",
@@ -15186,7 +15830,19 @@
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
 		"Description": "A quiet, bookish Ice Mage, with a haunted look in her eyes.",
-		"Name": "Unora Veilmoor"
+		"Name": "Unora Veilmoor",
+		"PositionX": 729.835022,
+		"PositionY": 864.642029,
+		"PositionZ": 45.279999,
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Skills": [
+					"IceMagic"
+				],
+				"Type": "Training"
+			}
+		]
 	},
 	"NPC_Urglemarg": {
 		"AreaFriendlyName": "Sun Vale",
@@ -15319,6 +15975,15 @@
 				"Type": "InstallAugments"
 			}
 		]
+	},
+	"NPC_Valeria": {
+		"AreaFriendlyName": "Statehelm",
+		"AreaName": "Statehelm",
+		"Description": "Suspiciously young for a scribe",
+		"Name": "Valeria",
+		"PositionX": 723.950012,
+		"PositionY": 839.18103,
+		"PositionZ": 59.067001
 	},
 	"NPC_Velkort": {
 		"AreaFriendlyName": "Serbule",
@@ -15775,8 +16440,11 @@
 	"NPC_WynDovaran": {
 		"AreaFriendlyName": "Statehelm",
 		"AreaName": "Statehelm",
-		"Description": "A figure cloaked in shades of twilight, Wyn Dovaran???s gaze seems to pierce through realities. His eyes shift, reflecting strange colors from worlds unseen.",
-		"Name": "Wyn Dovaran"
+		"Description": "The apparition seems not to see you.",
+		"Name": "Wyn Dovaran",
+		"PositionX": 656.984924,
+		"PositionY": 838.037842,
+		"PositionZ": 49.721714
 	},
 	"NPC_Yagreet": {
 		"AreaFriendlyName": "Sun Vale",
@@ -16326,6 +16994,54 @@
 					"Mentalism"
 				],
 				"Type": "Training"
+			}
+		]
+	},
+	"NPC_Zazzamath": {
+		"AreaFriendlyName": "Beneath Vidaria",
+		"AreaName": "VidariaCaves",
+		"Description": "Suspended in mid-air",
+		"ItemGifts": [
+			"Friends",
+			"CloseFriends",
+			"BestFriends",
+			"LikeFamily",
+			"SoulMates"
+		],
+		"Name": "Zazzamath",
+		"PositionX": 1015.375,
+		"PositionY": -2.55,
+		"PositionZ": -5.214045,
+		"Preferences": [
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Demonic"
+				],
+				"Name": "Demonic Items",
+				"PreferenceMultiplier": 1.2
+			},
+			{
+				"Desire": "Love",
+				"ItemKeywords": [
+					"Hellfreeze"
+				],
+				"Name": "Hellfreeze (to destroy it)",
+				"PreferenceMultiplier": 2
+			},
+			{
+				"Desire": "Like",
+				"ItemKeywords": [
+					"CorpseTrophy"
+				],
+				"Name": "Corpse Parts",
+				"PreferenceMultiplier": 1
+			}
+		],
+		"Services": [
+			{
+				"Favor": "Despised",
+				"Type": "Barter"
 			}
 		]
 	},

@@ -508,6 +508,18 @@
 			{
 				"ItemTypeId": 31951,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1059": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -588,6 +600,18 @@
 			{
 				"ItemTypeId": 31960,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1085": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1475,14 +1499,6 @@
 			}
 		]
 	},
-	"1256": {
-		"Entries": [
-			{
-				"ItemTypeId": 31641,
-				"Type": "Item"
-			}
-		]
-	},
 	"1260": {
 		"Entries": [
 			{
@@ -1640,6 +1656,10 @@
 			{
 				"ItemTypeId": 31451,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1656,6 +1676,10 @@
 			{
 				"ItemTypeId": 31453,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1664,6 +1688,10 @@
 			{
 				"ItemTypeId": 31454,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1680,6 +1708,10 @@
 			{
 				"ItemTypeId": 31456,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1688,6 +1720,10 @@
 			{
 				"ItemTypeId": 31457,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1696,6 +1732,10 @@
 			{
 				"ItemTypeId": 31458,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1704,6 +1744,10 @@
 			{
 				"ItemTypeId": 31459,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1712,6 +1756,10 @@
 			{
 				"ItemTypeId": 31460,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1720,6 +1768,10 @@
 			{
 				"ItemTypeId": 31461,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1728,6 +1780,66 @@
 			{
 				"ItemTypeId": 31462,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1291": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1292": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1294": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1295": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1296": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1298": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"1299": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -1776,6 +1888,26 @@
 			{
 				"ItemTypeId": 31436,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_JustinSmoot",
+				"Type": "Training"
+			}
+		]
+	},
+	"1307": {
+		"Entries": [
+			{
+				"Npc": "NPC_JustinSmoot",
+				"Type": "Training"
+			}
+		]
+	},
+	"1308": {
+		"Entries": [
+			{
+				"Npc": "NPC_JustinSmoot",
+				"Type": "Training"
 			}
 		]
 	},
@@ -2297,6 +2429,10 @@
 			{
 				"ItemTypeId": 31616,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4369,6 +4505,10 @@
 			{
 				"ItemTypeId": 31701,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4377,6 +4517,10 @@
 			{
 				"ItemTypeId": 31702,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4385,6 +4529,10 @@
 			{
 				"ItemTypeId": 31703,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4393,6 +4541,10 @@
 			{
 				"ItemTypeId": 31704,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4409,6 +4561,10 @@
 			{
 				"ItemTypeId": 31706,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4425,6 +4581,10 @@
 			{
 				"ItemTypeId": 31708,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4433,6 +4593,10 @@
 			{
 				"ItemTypeId": 31709,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4441,6 +4605,10 @@
 			{
 				"ItemTypeId": 31710,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4449,6 +4617,10 @@
 			{
 				"ItemTypeId": 31711,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4457,6 +4629,10 @@
 			{
 				"ItemTypeId": 31712,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4465,6 +4641,10 @@
 			{
 				"ItemTypeId": 31713,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -4481,6 +4661,138 @@
 			{
 				"ItemTypeId": 31715,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1834": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1835": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1837": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1840": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1843": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1845": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1848": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1851": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1852": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1854": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1855": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1857": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1858": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1860": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1863": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"1866": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -5724,6 +6036,14 @@
 			}
 		]
 	},
+	"2208": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
 	"2209": {
 		"Entries": [
 			{
@@ -5780,6 +6100,14 @@
 			}
 		]
 	},
+	"2216": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
 	"2217": {
 		"Entries": [
 			{
@@ -5825,6 +6153,22 @@
 			{
 				"ItemTypeId": 31356,
 				"Type": "Item"
+			}
+		]
+	},
+	"2223": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2224": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
 			}
 		]
 	},
@@ -5996,6 +6340,22 @@
 			}
 		]
 	},
+	"2247": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2248": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
 	"2249": {
 		"Entries": [
 			{
@@ -6032,6 +6392,30 @@
 		"Entries": [
 			{
 				"Npc": "NPC_DanielMurderdark",
+				"Type": "Training"
+			}
+		]
+	},
+	"2254": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2255": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2256": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
 				"Type": "Training"
 			}
 		]
@@ -6084,6 +6468,22 @@
 			}
 		]
 	},
+	"2263": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2264": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
 	"2265": {
 		"Entries": [
 			{
@@ -6096,6 +6496,54 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Jumjab",
+				"Type": "Training"
+			}
+		]
+	},
+	"2267": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2268": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2269": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2270": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2271": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2272": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
 				"Type": "Training"
 			}
 		]
@@ -6113,6 +6561,38 @@
 			{
 				"ItemTypeId": 31353,
 				"Type": "Item"
+			}
+		]
+	},
+	"2275": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2276": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2277": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
+			}
+		]
+	},
+	"2280": {
+		"Entries": [
+			{
+				"Npc": "NPC_FransescaMuradrake",
+				"Type": "Training"
 			}
 		]
 	},
@@ -9078,6 +9558,14 @@
 			}
 		]
 	},
+	"3186": {
+		"Entries": [
+			{
+				"Npc": "ModeratorToolbox",
+				"Type": "NpcGift"
+			}
+		]
+	},
 	"3201": {
 		"Entries": [
 			{
@@ -9627,6 +10115,12 @@
 			}
 		]
 	},
+	"3464": {
+		"Entries": []
+	},
+	"3465": {
+		"Entries": []
+	},
 	"3501": {
 		"Entries": []
 	},
@@ -9654,6 +10148,9 @@
 	"3509": {
 		"Entries": []
 	},
+	"3510": {
+		"Entries": []
+	},
 	"3516": {
 		"Entries": []
 	},
@@ -9674,6 +10171,17 @@
 	},
 	"3522": {
 		"Entries": []
+	},
+	"3523": {
+		"Entries": []
+	},
+	"3527": {
+		"Entries": [
+			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			}
+		]
 	},
 	"3531": {
 		"Entries": []
@@ -9696,6 +10204,9 @@
 	"3537": {
 		"Entries": []
 	},
+	"3538": {
+		"Entries": []
+	},
 	"3546": {
 		"Entries": []
 	},
@@ -9714,6 +10225,12 @@
 	"3551": {
 		"Entries": []
 	},
+	"3552": {
+		"Entries": []
+	},
+	"3553": {
+		"Entries": []
+	},
 	"3561": {
 		"Entries": []
 	},
@@ -9724,6 +10241,9 @@
 		"Entries": []
 	},
 	"3567": {
+		"Entries": []
+	},
+	"3568": {
 		"Entries": []
 	},
 	"3576": {
@@ -9747,6 +10267,9 @@
 	"3582": {
 		"Entries": []
 	},
+	"3583": {
+		"Entries": []
+	},
 	"3591": {
 		"Entries": []
 	},
@@ -9766,6 +10289,9 @@
 		"Entries": []
 	},
 	"3597": {
+		"Entries": []
+	},
+	"3598": {
 		"Entries": []
 	},
 	"3606": {
@@ -9793,6 +10319,9 @@
 		"Entries": []
 	},
 	"3614": {
+		"Entries": []
+	},
+	"3615": {
 		"Entries": []
 	},
 	"3621": {
@@ -9832,6 +10361,9 @@
 		"Entries": []
 	},
 	"3642": {
+		"Entries": []
+	},
+	"3643": {
 		"Entries": []
 	},
 	"3644": {
@@ -9877,6 +10409,9 @@
 	"3659": {
 		"Entries": []
 	},
+	"3660": {
+		"Entries": []
+	},
 	"3666": {
 		"Entries": []
 	},
@@ -9896,6 +10431,9 @@
 		"Entries": []
 	},
 	"3672": {
+		"Entries": []
+	},
+	"3673": {
 		"Entries": []
 	},
 	"3681": {
@@ -10008,6 +10546,9 @@
 	"3718": {
 		"Entries": []
 	},
+	"3719": {
+		"Entries": []
+	},
 	"3726": {
 		"Entries": []
 	},
@@ -10032,6 +10573,9 @@
 	"3733": {
 		"Entries": []
 	},
+	"3734": {
+		"Entries": []
+	},
 	"3743": {
 		"Entries": [
 			{
@@ -10052,6 +10596,9 @@
 	"3753": {
 		"Entries": []
 	},
+	"3754": {
+		"Entries": []
+	},
 	"3758": {
 		"Entries": []
 	},
@@ -10061,6 +10608,9 @@
 	"3760": {
 		"Entries": []
 	},
+	"3761": {
+		"Entries": []
+	},
 	"3765": {
 		"Entries": []
 	},
@@ -10068,6 +10618,9 @@
 		"Entries": []
 	},
 	"3767": {
+		"Entries": []
+	},
+	"3768": {
 		"Entries": []
 	},
 	"3801": {
@@ -16300,6 +16853,9 @@
 			}
 		]
 	},
+	"5609": {
+		"Entries": []
+	},
 	"5616": {
 		"Entries": [
 			{
@@ -16372,6 +16928,9 @@
 			}
 		]
 	},
+	"5625": {
+		"Entries": []
+	},
 	"5631": {
 		"Entries": [
 			{
@@ -16435,6 +16994,9 @@
 				"Type": "Skill"
 			}
 		]
+	},
+	"5639": {
+		"Entries": []
 	},
 	"5645": {
 		"Entries": [
@@ -16516,6 +17078,9 @@
 			}
 		]
 	},
+	"5655": {
+		"Entries": []
+	},
 	"5661": {
 		"Entries": [
 			{
@@ -16571,6 +17136,9 @@
 				"Type": "Skill"
 			}
 		]
+	},
+	"5668": {
+		"Entries": []
 	},
 	"5676": {
 		"Entries": [
@@ -16644,6 +17212,9 @@
 			}
 		]
 	},
+	"5685": {
+		"Entries": []
+	},
 	"5691": {
 		"Entries": [
 			{
@@ -16708,6 +17279,9 @@
 			}
 		]
 	},
+	"5699": {
+		"Entries": []
+	},
 	"5711": {
 		"Entries": [
 			{
@@ -16771,6 +17345,9 @@
 				"Type": "Skill"
 			}
 		]
+	},
+	"5719": {
+		"Entries": []
 	},
 	"5726": {
 		"Entries": [
@@ -16844,6 +17421,9 @@
 			}
 		]
 	},
+	"5735": {
+		"Entries": []
+	},
 	"5741": {
 		"Entries": [
 			{
@@ -16867,6 +17447,9 @@
 				"Type": "Skill"
 			}
 		]
+	},
+	"5744": {
+		"Entries": []
 	},
 	"5766": {
 		"Entries": [
@@ -16940,6 +17523,9 @@
 			}
 		]
 	},
+	"5775": {
+		"Entries": []
+	},
 	"5781": {
 		"Entries": [
 			{
@@ -17003,6 +17589,9 @@
 				"Type": "Skill"
 			}
 		]
+	},
+	"5789": {
+		"Entries": []
 	},
 	"5796": {
 		"Entries": [
@@ -17084,6 +17673,9 @@
 			}
 		]
 	},
+	"5806": {
+		"Entries": []
+	},
 	"5811": {
 		"Entries": [
 			{
@@ -17139,6 +17731,9 @@
 				"Type": "Skill"
 			}
 		]
+	},
+	"5818": {
+		"Entries": []
 	},
 	"5901": {
 		"Entries": [
@@ -17237,6 +17832,10 @@
 			{
 				"ItemTypeId": 31071,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17261,6 +17860,10 @@
 			{
 				"ItemTypeId": 31072,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17285,6 +17888,10 @@
 			{
 				"ItemTypeId": 31073,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17309,6 +17916,10 @@
 			{
 				"ItemTypeId": 31074,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17329,6 +17940,10 @@
 			{
 				"ItemTypeId": 31075,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17353,6 +17968,10 @@
 			{
 				"ItemTypeId": 31076,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17377,6 +17996,10 @@
 			{
 				"ItemTypeId": 31077,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17401,6 +18024,10 @@
 			{
 				"ItemTypeId": 31078,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17417,6 +18044,10 @@
 			{
 				"ItemTypeId": 31079,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17445,6 +18076,10 @@
 			{
 				"ItemTypeId": 31080,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17477,6 +18112,10 @@
 			{
 				"ItemTypeId": 31081,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17501,6 +18140,10 @@
 			{
 				"ItemTypeId": 31082,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -17525,6 +18168,154 @@
 			{
 				"ItemTypeId": 31083,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5962": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5964": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5967": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5969": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5970": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5972": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5973": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5975": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5978": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5979": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5981": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5983": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5985": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5988": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5989": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5991": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5993": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
+			}
+		]
+	},
+	"5994": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirBrooker",
+				"Type": "Training"
 			}
 		]
 	},
@@ -18341,6 +19132,10 @@
 			{
 				"ItemTypeId": 31611,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -18381,6 +19176,34 @@
 			{
 				"ItemTypeId": 31617,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6225": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6226": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6234": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -18840,6 +19663,158 @@
 			{
 				"ItemTypeId": 31650,
 				"Type": "Item"
+			}
+		]
+	},
+	"6432": {
+		"Entries": [
+			{
+				"ItemTypeId": 31641,
+				"Type": "Item"
+			}
+		]
+	},
+	"6503": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6504": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6506": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6507": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"6532": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6534": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6535": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6537": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6539": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6541": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6542": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6544": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6546": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6548": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6549": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6551": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6553": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
+			}
+		]
+	},
+	"6554": {
+		"Entries": [
+			{
+				"Npc": "NPC_CynthiaRolfe",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21443,6 +22418,14 @@
 			}
 		]
 	},
+	"7541": {
+		"Entries": [
+			{
+				"Npc": "NPC_SpiritFox",
+				"Type": "Training"
+			}
+		]
+	},
 	"7551": {
 		"Entries": [
 			{
@@ -21920,6 +22903,10 @@
 			{
 				"ItemTypeId": 31025,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21936,6 +22923,10 @@
 			{
 				"ItemTypeId": 31026,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21951,6 +22942,10 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Pegast",
+				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_SirHughes",
 				"Type": "Training"
 			}
 		]
@@ -21976,6 +22971,10 @@
 			{
 				"ItemTypeId": 31027,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21992,6 +22991,10 @@
 			{
 				"ItemTypeId": 31028,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22016,6 +23019,10 @@
 			{
 				"ItemTypeId": 31024,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22040,6 +23047,10 @@
 			{
 				"ItemTypeId": 31029,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22056,6 +23067,10 @@
 			{
 				"ItemTypeId": 31030,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22080,6 +23095,10 @@
 			{
 				"ItemTypeId": 31031,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22104,6 +23123,10 @@
 			{
 				"ItemTypeId": 31032,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22128,6 +23151,10 @@
 			{
 				"ItemTypeId": 31033,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22164,6 +23191,10 @@
 			{
 				"ItemTypeId": 31034,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22188,6 +23219,10 @@
 			{
 				"ItemTypeId": 31035,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -22212,6 +23247,162 @@
 			{
 				"ItemTypeId": 31036,
 				"Type": "Item"
+			},
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8166": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8169": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8172": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8173": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8175": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8176": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8178": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8179": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8181": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8182": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8184": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8185": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8187": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8190": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8191": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8193": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8196": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8197": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
+			}
+		]
+	},
+	"8199": {
+		"Entries": [
+			{
+				"Npc": "NPC_SirHughes",
+				"Type": "Training"
 			}
 		]
 	},
@@ -25455,6 +26646,9 @@
 	"9384": {
 		"Entries": []
 	},
+	"9386": {
+		"Entries": []
+	},
 	"9387": {
 		"Entries": []
 	},
@@ -25464,10 +26658,30 @@
 	"9390": {
 		"Entries": []
 	},
+	"9391": {
+		"Entries": []
+	},
+	"9392": {
+		"Entries": []
+	},
 	"9396": {
 		"Entries": []
 	},
 	"9397": {
+		"Entries": []
+	},
+	"9401": {
+		"Entries": []
+	},
+	"9403": {
+		"Entries": [
+			{
+				"ItemTypeId": 31588,
+				"Type": "Item"
+			}
+		]
+	},
+	"9482": {
 		"Entries": []
 	}
 }

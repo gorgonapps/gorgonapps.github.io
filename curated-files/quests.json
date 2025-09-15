@@ -8896,7 +8896,7 @@
 		"FavorNpc": "AreaEltibule/NPC_Kalaba",
 		"InternalName": "KalabaPhlogistonRepeatable",
 		"IsCancellable": true,
-		"Name": "More Study Phlogiston",
+		"Name": "More Sturdy Phlogiston",
 		"Objectives": [
 			{
 				"Description": "Collect Crude Phlogiston",
@@ -19311,6 +19311,9 @@
 		"Description": "Find all 6 gravestones in the little graveyard nearby.",
 		"DisplayedLocation": "Serbule",
 		"InternalName": "VisitGravestones",
+		"Keywords": [
+			"Lint_CannotComplete"
+		],
 		"Name": "Find Gravestones",
 		"Objectives": [
 			{
@@ -26550,6 +26553,106 @@
 		"SuccessText": "Ah, smell that? Yes. Yes! How <i>dare</i> that General Tremal think she can make me obsolete? I will show them! All of them! Let them tremble at my claws!\n\n... Hmm, this is much more potent than I remembered. I'll have to dilute it down a bit or I might make an ass of myself. But I will make it work. Thank you.",
 		"Version": 1
 	},
+	"24204": {
+		"Description": "Furlak in Rahu asked you to kill a large rhino in the desert named The Perforator.",
+		"DisplayedLocation": "Rahu",
+		"FavorNpc": "AreaRahu/NPC_Furlak",
+		"InternalName": "FurlaksFury",
+		"IsCancellable": true,
+		"Name": "Furlak's Fury",
+		"Objectives": [
+			{
+				"Description": "Kill The Perforator",
+				"Number": 1,
+				"Target": "RhinoThePerforator",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Furlak",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "One thing I was known for before being ousted from the army was my ability to seek out and destroy creatures that should not be here. I may no longer possess the ability to destroy them, but I can still seek them out...\n\nThat's why you must believe me when I say there is a non-native abomination within our midst. I've heard some folks calling it 'The Perforator', but whatever its name is it must be destroyed lest it open the way for more of its kind to infiltrate the desert.",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaRahu/NPC_Furlak",
+				"T": "MinFavorLevel"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 5000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Favor": 150,
+				"T": "Favor"
+			},
+			{
+				"Item": "SandWarClaw",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "<i>[Furlak sniffs the air]</i>\n\nWonderful! The stench of that foul creature is already lessened. You have done well today. I hope this will be a lesson to other potential invaders that we will not tolerate their kind here.",
+		"TSysLevel": 60,
+		"Version": 1
+	},
+	"24205": {
+		"Description": "Furlak in Rahu asked you to kill a rhino in the Fae Realm named The Puncturer.",
+		"DisplayedLocation": "Rahu",
+		"FavorNpc": "AreaRahu/NPC_Furlak",
+		"InternalName": "FurlaksFollowup",
+		"IsCancellable": true,
+		"Name": "Furlak's Follow-up",
+		"Objectives": [
+			{
+				"Description": "Kill The Puncturer",
+				"Number": 1,
+				"Target": "RhinoThePuncturer",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Furlak",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Come to think of it, the area that The Perforator inhabited used to belong to a native rhino that folks affectionately called The Puncturer. It is possible that The Puncturer and The Perforator switched places, and by slaying both of them it will un-transpose them.\n\nThere is only one way to find out for sure. You must journey to the Fae Realm, locate The Puncturer, and kill it. Only then will we know if it returns to this realm.",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaRahu/NPC_Furlak",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "FurlaksFury",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Favor": 200,
+				"T": "Favor"
+			},
+			{
+				"Item": "SandWarClaw",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Hm, so the two rhinos did not switch places, and now both of them are simply dead? <i>[Furlak shrugs.]</i> At least we tried.",
+		"TSysLevel": 70,
+		"Version": 1
+	},
 	"24301": {
 		"Description": "Selaxi in Amulna asked for some carrots. She mentioned that there's a small garden lot in Amulna where you could grow them.",
 		"DisplayedLocation": "Desert1",
@@ -28137,6 +28240,7 @@
 		"Name": "Entertain Me: Boss Fights",
 		"Objectives": [
 			{
+				"AbilityKeyword": "Empty",
 				"Description": "Kill Elite or Boss Creatures",
 				"Number": 3,
 				"Target": "Any",
@@ -36455,36 +36559,42 @@
 		"Objectives": [
 			{
 				"Description": "Craft Peening Hammers",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "PeeningHammer",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Peening Hammers)",
+				"GroupId": 1,
 				"ItemName": "PeeningHammer",
 				"Number": 2,
 				"Type": "Collect"
 			},
 			{
 				"Description": "Craft Dishing Hammers",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "DishingHammer",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Dishing Hammers)",
+				"GroupId": 1,
 				"ItemName": "DishingHammer",
 				"Number": 2,
 				"Type": "Collect"
 			},
 			{
 				"Description": "Craft Shaping Hammers",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "ShapingHammer",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Shaping Hammers)",
+				"GroupId": 1,
 				"ItemName": "ShapingHammer",
 				"Number": 2,
 				"Type": "Collect"
@@ -36526,24 +36636,28 @@
 		"Objectives": [
 			{
 				"Description": "Craft Tack Hammers",
+				"GroupId": 1,
 				"Number": 3,
 				"Target": "TackHammer",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Tack Hammers)",
+				"GroupId": 1,
 				"ItemName": "TackHammer",
 				"Number": 3,
 				"Type": "Collect"
 			},
 			{
 				"Description": "Craft Delicate Tack Hammers",
+				"GroupId": 1,
 				"Number": 1,
 				"Target": "DelicateTackHammer",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Delicate Tack Hammers)",
+				"GroupId": 1,
 				"ItemName": "DelicateTackHammer",
 				"Number": 1,
 				"Type": "Collect"
@@ -36585,12 +36699,14 @@
 		"Objectives": [
 			{
 				"Description": "Craft Grand Shaping Hammers",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "GrandShapingHammer",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Grand Shaping Hammers)",
+				"GroupId": 1,
 				"ItemName": "GrandShapingHammer",
 				"Number": 2,
 				"Type": "Collect"
@@ -36632,24 +36748,28 @@
 		"Objectives": [
 			{
 				"Description": "Craft Simple Armor Stakes",
+				"GroupId": 1,
 				"Number": 4,
 				"Target": "ArmorStake1",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Simple Armor Stakes)",
+				"GroupId": 1,
 				"ItemName": "ArmorStake1",
 				"Number": 4,
 				"Type": "Collect"
 			},
 			{
 				"Description": "Craft Basic Armor Stakes",
+				"GroupId": 1,
 				"Number": 4,
 				"Target": "ArmorStake2",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Basic Armor Stakes)",
+				"GroupId": 1,
 				"ItemName": "ArmorStake2",
 				"Number": 4,
 				"Type": "Collect"
@@ -36691,24 +36811,28 @@
 		"Objectives": [
 			{
 				"Description": "Craft Good Armor Stakes",
+				"GroupId": 1,
 				"Number": 3,
 				"Target": "ArmorStake3",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Good Armor Stakes)",
+				"GroupId": 1,
 				"ItemName": "ArmorStake3",
 				"Number": 3,
 				"Type": "Collect"
 			},
 			{
 				"Description": "Craft Expert-Quality Armor Stakes",
+				"GroupId": 1,
 				"Number": 3,
 				"Target": "ArmorStake4",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Expert-Quality Armor Stakes)",
+				"GroupId": 1,
 				"ItemName": "ArmorStake4",
 				"Number": 3,
 				"Type": "Collect"
@@ -36750,24 +36874,28 @@
 		"Objectives": [
 			{
 				"Description": "Craft Masterwork Armor Stakes",
+				"GroupId": 1,
 				"Number": 3,
 				"Target": "ArmorStake5",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Masterwork Armor Stakes)",
+				"GroupId": 1,
 				"ItemName": "ArmorStake5",
 				"Number": 3,
 				"Type": "Collect"
 			},
 			{
 				"Description": "Craft Amazing Armor Stakes",
+				"GroupId": 1,
 				"Number": 3,
 				"Target": "ArmorStake6",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Amazing Armor Stakes)",
+				"GroupId": 1,
 				"ItemName": "ArmorStake6",
 				"Number": 3,
 				"Type": "Collect"
@@ -36809,12 +36937,14 @@
 		"Objectives": [
 			{
 				"Description": "Craft Amazing Armor Patch Kits",
+				"GroupId": 1,
 				"Number": 4,
 				"Target": "ArmorPatchKit6",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Amazing Armor Patch Kits)",
+				"GroupId": 1,
 				"ItemName": "ArmorPatchKit6",
 				"Number": 8,
 				"Type": "Collect"
@@ -36856,12 +36986,14 @@
 		"Objectives": [
 			{
 				"Description": "Craft Astounding Armor Patch Kits",
+				"GroupId": 1,
 				"Number": 4,
 				"Target": "ArmorPatchKit7",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Astounding Armor Patch Kits)",
+				"GroupId": 1,
 				"ItemName": "ArmorPatchKit7",
 				"Number": 8,
 				"Type": "Collect"
@@ -36903,12 +37035,14 @@
 		"Objectives": [
 			{
 				"Description": "Harvest Astounding Metal Slabs",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "MetalSlab7",
 				"Type": "Harvest"
 			},
 			{
 				"Description": "(Keep Astounding Metal Slabs)",
+				"GroupId": 1,
 				"ItemName": "MetalSlab7",
 				"Number": 2,
 				"Type": "Collect"
@@ -36950,12 +37084,14 @@
 		"Objectives": [
 			{
 				"Description": "Harvest Superb Metal Slabs",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "MetalSlab8",
 				"Type": "Harvest"
 			},
 			{
 				"Description": "(Keep Superb Metal Slabs)",
+				"GroupId": 1,
 				"ItemName": "MetalSlab8",
 				"Number": 2,
 				"Type": "Collect"
@@ -36997,12 +37133,14 @@
 		"Objectives": [
 			{
 				"Description": "Harvest Marvelous Metal Slabs",
+				"GroupId": 1,
 				"Number": 2,
 				"Target": "MetalSlab9",
 				"Type": "Harvest"
 			},
 			{
 				"Description": "(Keep Marvelous Metal Slabs)",
+				"GroupId": 1,
 				"ItemName": "MetalSlab9",
 				"Number": 2,
 				"Type": "Collect"
@@ -37044,12 +37182,14 @@
 		"Objectives": [
 			{
 				"Description": "Craft Bilge Hoops",
+				"GroupId": 1,
 				"Number": 4,
 				"Target": "BilgeHoop",
 				"Type": "UseRecipe"
 			},
 			{
 				"Description": "(Keep Bilge Hoops)",
+				"GroupId": 1,
 				"ItemName": "BilgeHoop",
 				"Number": 4,
 				"Type": "Collect"
@@ -40608,6 +40748,12 @@
 				"Type": "Scripted"
 			}
 		],
+		"Requirements": [
+			{
+				"Level": 70,
+				"T": "MinCombatSkillLevel"
+			}
+		],
 		"RequirementsToSustain": [
 			{
 				"Attribute": "QUEST_VERSION_POVUSCAVES2_AKTAARI",
@@ -43289,6 +43435,796 @@
 		"SuccessText": "Hah! I don't even need to study these further to know the truth: these soldier brains are from the same species as the swarmer brains. Swarmers somehow evolve into Soldiers! I knew it, but I couldn't prove it.\n\nYou've done well. I need to make some observations and record my findings. I will have more requests of you soon.",
 		"Version": 0
 	},
+	"28404": {
+		"Description": "Ferris Blueheart in Vidaria said, \"You've been incredibly helpful in my research thus far, but we've only been dealing with the minions. I still have many questions about the higher ranks of the demons.\n\nWe should start by examining the large ones. I've noticed that one of them seems more in-charge than the other, despite no obvious physical differences. The brains have been so helpful in the past, and you've proven that you're clearly capable of extracting them, so bring me some from each, if you don't mind.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "LesserOfTwoEvils",
+		"IsCancellable": true,
+		"Name": "Lesser of Two Evils",
+		"Objectives": [
+			{
+				"Description": "Obtain Lesser Behemoth Brains",
+				"ItemName": "MacGuffin_LesserBehemothBrain",
+				"Number": 4,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Obtain Behemoth Brains",
+				"ItemName": "MacGuffin_DemonBehemothBrain",
+				"Number": 2,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "You've been incredibly helpful in my research thus far, but we've only been dealing with the minions. I still have many questions about the higher ranks of the demons.\n\nWe should start by examining the large ones. I've noticed that one of them seems more in-charge than the other, despite no obvious physical differences. The brains have been so helpful in the past, and you've proven that you're clearly capable of extracting them, so bring me some from each, if you don't mind.",
+		"Requirements": [
+			{
+				"Quest": "TheSwarmerHypothesis",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 5,
+				"T": "Item"
+			},
+			{
+				"Item": "DemonicResearchScroll",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "I knew it! One type of Behemoth evolves into the other, much the same as the Swarmers evolve into Soldiers. What could this mean? Why are there so many evolutions happening among their ranks, and what causes them? Like any good experiment, this seems to have provided more questions than answers. But at least it's something for us to ponder.",
+		"Version": 0
+	},
+	"28405": {
+		"Description": "Ferris Blueheart in Vidaria said, \"We've studied the minions and the Behemoths pretty exhaustively, but there's still a lot we don't know about the highest ranks: the Overseers and the Justiciars. I would love to observe their inner workings and see how they stack up to the others. You know what to do.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "LonelyAtTheTop",
+		"IsCancellable": true,
+		"Name": "Lonely at the Top",
+		"Objectives": [
+			{
+				"Description": "Obtain Overseer Brain",
+				"ItemName": "MacGuffin_DemonOverseerBrain",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Obtain Justiciar Brain",
+				"ItemName": "MacGuffin_DemonJusticiarBrain",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We've studied the minions and the Behemoths pretty exhaustively, but there's still a lot we don't know about the highest ranks: the Overseers and the Justiciars. I would love to observe their inner workings and see how they stack up to the others. You know what to do.",
+		"Requirements": [
+			{
+				"Quest": "LesserOfTwoEvils",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 200,
+				"T": "Favor"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 5,
+				"T": "Item"
+			},
+			{
+				"Item": "DemonicResearchScroll",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Now this is unexpected. Not only are the highest ranks completely different from the lower ranks, but they're also completely different from each other! Considering their similar appearances, I would have assumed their brains would be identical.\n\nI must ponder what to do with all of this information. In the meantime, I may have other research you can assist with.\n\n<i>[You've unlocked daily quests with Ferris]</i>",
+		"Version": 0
+	},
+	"28406": {
+		"Description": "Ferris Blueheart in Vidaria said, \"Have you seen the frostbelches in the area? Little blue frogs, very adorable, very deadly. Of course you have, but it seems the demons have as well. They've developed a particular interest in the little creature, and I don't have to know why to know that it's troubling.\n\nBring me back a few samples of frostbelch skin, and please let me remain ignorant of how you get them.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "FancyingTheFrostbelches",
+		"IsCancellable": true,
+		"Name": "Fancying the Frostbelches",
+		"Objectives": [
+			{
+				"Description": "Obtain Icy Frog Skins",
+				"ItemName": "IcyFrogSkin",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Have you seen the frostbelches in the area? Little blue frogs, very adorable, very deadly. Of course you have, but it seems the demons have as well. They've developed a particular interest in the little creature, and I don't have to know why to know that it's troubling.\n\nBring me back a few samples of frostbelch skin, and please let me remain ignorant of how you get them.",
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"Item": "ColdResistPotion25",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Great! I hope you convinced the Frostbelches to simply give you a sliver of skin peacefully. <i>[Ferris swallows nervously.]</i>\n\nLet me perform some research on these to determine what our next step is.",
+		"Version": 0
+	},
+	"28407": {
+		"Description": "Ferris Blueheart in Vidaria said, \"Unfortunately, my tests on these Frostbelch skins were inconclusive. There's nothing out of the ordinary with them. Fortunately for us, however, an animal expert was recently stationed near here. Seek out Pitre Ferrence, he should be somewhere south of this area. Ask him, nay, tell him that we'd like his assistance in this matter. Take the skins with you as well, he may need them.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "FancyingTheFrostbelches2",
+		"IsCancellable": true,
+		"MidwayText": "What is that? Oh, Ferris needs assistance is it? Well, let me see the samples that you have, then.\n\n[Pitre takes the skins from you, but then quickly returns them.]\n\nOn second thought, a genetic scan is quite unnecessary. The demons' plan is obvious. You see, frogs have permeable skin through which they absorb all manner of particulates. And if you look around this area, you are likely to see many ordinary animals overcome with demonic influence. If the passive presence of the demons has such an effect on these animals, I can only imagine the level of influence they could have on an animal that is designed to be influenced by its environment. Easy, deep influence, is the answer I would give to Ferris.",
+		"Name": "Fancying the Frostbelches, part 2",
+		"Objectives": [
+			{
+				"Description": "Speak with Pitre Ferrence",
+				"Number": 1,
+				"Type": "Scripted"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PreGiveItems": [
+			{
+				"Item": "IcyFrogSkin",
+				"StackSize": 5
+			}
+		],
+		"PrefaceText": "Unfortunately, my tests on these Frostbelch skins were inconclusive. There's nothing out of the ordinary with them. Fortunately for us, however, an animal expert was recently stationed near here. Seek out Pitre Ferrence, he should be somewhere south of this area. Ask him, nay, tell him that we'd like his assistance in this matter. Take the skins with you as well, he may need them.",
+		"Requirements": [
+			{
+				"Quest": "FancyingTheFrostbelches",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			}
+		],
+		"SuccessText": "\"Easy, deep influence\"? Well, I suppose that makes sense, but it still doesn't tell the full story. The demons can influence the frogs easily, but to what end? <i>Why</i> do they want to influence them in the first place is the main question. I will stew on Pitre's words. That is all for now, thank you.",
+		"Version": 0
+	},
+	"28408": {
+		"Description": "Ferris Blueheart in Vidaria said, \"I have a theory. I suspect that the demons specifically value some combination of the Frostbelches' protective properties with their own. But I don't know what combination, exactly. Do you still have those frog skins from before? I'll need those, and I'll need some demonic essences. Bring me both, so I can compare.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"FollowUpQuests": [
+			"FancyingTheFrostbelches4"
+		],
+		"InternalName": "FancyingTheFrostbelches3",
+		"IsCancellable": true,
+		"Name": "Fancying the Frostbelches, part 3",
+		"Objectives": [
+			{
+				"Description": "Obtain Icy Frog Skins",
+				"ItemName": "IcyFrogSkin",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Obtain Demonic Essences",
+				"ItemName": "DemonEssence",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I have a theory. I suspect that the demons specifically value some combination of the Frostbelches' protective properties with their own. But I don't know what combination, exactly. Do you still have those frog skins from before? I'll need those, and I'll need some demonic essences. Bring me both, so I can compare.",
+		"Requirements": [
+			{
+				"Quest": "FancyingTheFrostbelches2",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 200,
+				"T": "Favor"
+			},
+			{
+				"Item": "ColdResistPotion25",
+				"StackSize": 1,
+				"T": "Item"
+			},
+			{
+				"Item": "DemonicResearchScroll",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "No, not the Hellfire... No, the frost doesn't seem to affect the demonic energies, so it's not that either. There must be someth- <i>[Ferris' eyes widen]</i> No. No no no. This is very not good.\n\nIt seems that when the demonic essence fuses with the Frostbelch skin, their defenses perfectly align to create an entity which is immune to all of the elements. All of them.",
+		"Version": 0
+	},
+	"28409": {
+		"Description": "Ferris Blueheart in Vidaria said, \"We cannot let that happen. We cannot let the demons fuse with the Frostbelches. [Ferris looks around, clearly panicked.] I'm afraid we have no choice. We have to destroy the Frostbelches before it's too late. My heart goes out to the cute little creatures, but there really is no other way.\n\nI hate to ask you to do this, but I need you to deal with as many Frostbelches as you can.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "FancyingTheFrostbelches4",
+		"IsCancellable": true,
+		"Name": "Fancying the Frostbelches, part 4",
+		"Objectives": [
+			{
+				"Description": "Kill Frostbelches",
+				"Number": 50,
+				"Target": "FrogCold90",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We cannot let that happen. We cannot let the demons fuse with the Frostbelches. [Ferris looks around, clearly panicked.] I'm afraid we have no choice. We have to destroy the Frostbelches before it's too late. My heart goes out to the cute little creatures, but there really is no other way.\n\nI hate to ask you to do this, but I need you to deal with as many Frostbelches as you can.",
+		"Requirements": [
+			{
+				"Quest": "FancyingTheFrostbelches3",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 25,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 200,
+				"T": "Favor"
+			},
+			{
+				"Item": "BeltOfTheFrostbelches",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Thank you. Thank you, thank you, thank you. I don't know how I can ever repay you for that. You prevented a disaster, of that we can be sure. Take this, in memory of the many fallen frogs.",
+		"TSysLevel": 80,
+		"Version": 0
+	},
+	"28451": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Swarmers. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Swarmer",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Swarmer",
+		"Objectives": [
+			{
+				"Description": "Obtain Swarmer Claws",
+				"ItemName": "MacGuffin_DemonResearch_Swarmer",
+				"Number": 100,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Swarmers. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 5,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28452": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Soldiers. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Soldier",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Soldier",
+		"Objectives": [
+			{
+				"Description": "Obtain Soldier Horns",
+				"ItemName": "MacGuffin_DemonResearch_Soldier",
+				"Number": 15,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Soldiers. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 5,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28453": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Scouts. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Scout",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Scout",
+		"Objectives": [
+			{
+				"Description": "Obtain Scout Eyeballs",
+				"ItemName": "MacGuffin_DemonResearch_Scout",
+				"Number": 25,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Scouts. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 5,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28454": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Lesser Behemoths. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_LesserBehemoth",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Lesser Behemoth",
+		"Objectives": [
+			{
+				"Description": "Obtain Lesser Behemoth Wings",
+				"ItemName": "MacGuffin_DemonResearch_LesserBehemoth",
+				"Number": 15,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Lesser Behemoths. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 5,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 1,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28455": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Behemoths. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Behemoth",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Behemoth",
+		"Objectives": [
+			{
+				"Description": "Obtain Behemoth Ulnar Spikes",
+				"ItemName": "MacGuffin_DemonResearch_Behemoth",
+				"Number": 8,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Behemoths. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28456": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Overseers. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Overseer",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Overseer",
+		"Objectives": [
+			{
+				"Description": "Obtain Overseer Eyeballs",
+				"ItemName": "MacGuffin_DemonResearch_Overseer",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Overseers. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 3,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28457": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Justiciars. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Justiciar",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Justiciar",
+		"Objectives": [
+			{
+				"Description": "Obtain Justiciar Spinal Fluid",
+				"ItemName": "MacGuffin_DemonResearch_Justiciar",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Justiciars. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 3,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
+	"28458": {
+		"Description": "Ferris Blueheart in Vidaria said, \"My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Animals. Can you help me out?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_FerrisBlueheart",
+		"InternalName": "DemonResearch_Animal",
+		"IsCancellable": true,
+		"Name": "Demonic Field Research: Animal",
+		"Objectives": [
+			{
+				"Description": "Obtain Infernal Animal Brains",
+				"ItemName": "MacGuffin_DemonResearch_Animal",
+				"Number": 20,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Ferris Blueheart",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "My current research on the demonic threat is stalled. To continue it, I need to perform some biological sampling of the infernal Animals. Can you help me out?",
+		"Requirements": [
+			{
+				"FavorLevel": "Neutral",
+				"Npc": "AreaVidaria/NPC_FerrisBlueheart",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "LonelyAtTheTop",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 1
+		},
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 10,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 2,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Perfect! This is exactly what I needed. Let me share some of my findings with you.",
+		"Version": 0
+	},
 	"28501": {
 		"Description": "Orrrilund in the Ranalon Den said, \"If you're set on getting past this door, you'll have to prove to me you won't die the moment you do. Go kill the Doctrine-Keeper, and when you've done that we'll talk.\"",
 		"DisplayedLocation": "RanalonDen",
@@ -43789,6 +44725,298 @@
 		"SuccessText": "Add a be- of course! Wow, is his knowledge innate or is he classically trained? No matter. With his suggestion, I think I've finally figured it out! I can show you, if you'd like.\n\n<i>[You've unlocked new training options with Engineer Crall.]</i>",
 		"Version": 0
 	},
+	"28641": {
+		"Description": "Korbok in Vidaria said, \"De Cancel haz mi heer tahelp at, bit dey din sey eye hafta only tek wakordas. Im gunna kollect alde poyzens ye ken git ta... keepit offa de streetz. Yeh, dats it. Help me cleen up te streetz, wontcha?\n\n(You're pretty sure Korbok wants you to collect poison, to \"Clean up the streets\")\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_Korbok",
+		"InternalName": "CleenUpTeStreetz",
+		"IsCancellable": true,
+		"Name": "Cleen Up Te Streetz",
+		"Objectives": [
+			{
+				"Description": "Collect Potent Acidic Cleanser",
+				"GroupId": 1,
+				"ItemName": "CleaningAcid2",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Toxic Sludge",
+				"GroupId": 1,
+				"ItemName": "ToxicSludge",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Iocaine Powder",
+				"GroupId": 1,
+				"ItemName": "IocainePowder",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Snapley's Venom Mk. 4",
+				"GroupId": 1,
+				"ItemName": "SnapleysVenom4",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Grizlark",
+				"GroupId": 1,
+				"ItemName": "Grizlark",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Korbok",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "De Cancel haz mi heer tahelp at, bit dey din sey eye hafta only tek wakordas. Im gunna kollect alde poyzens ye ken git ta... keepit offa de streetz. Yeh, dats it. Help me cleen up te streetz, wontcha?\n\n(You're pretty sure Korbok wants you to collect poison, to \"Clean up the streets\")",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaVidaria/NPC_Korbok",
+				"T": "MinFavorLevel"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 25,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 10,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Amazen! Disiz de gud stuff... I meen, itsa shame it hazta bee destroyed. <i>[Korbok winks at you]</i>",
+		"Version": 0
+	},
+	"28642": {
+		"Description": "Korbok in Vidaria said, \"Well, ifyer offerin den acurse immasai yiss. Gogit de tuffest poisonz yecan find.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_Korbok",
+		"InternalName": "UndercoverPoisonCollection",
+		"IsCancellable": true,
+		"Name": "Undercover Poison Collection",
+		"Objectives": [
+			{
+				"Description": "Collect Ultimate Acidic Cleanser",
+				"GroupId": 1,
+				"ItemName": "CleaningAcid3",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Toxic Ice Sludge",
+				"GroupId": 1,
+				"ItemName": "ToxicIceSludge",
+				"Number": 5,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Frozen Grizlark",
+				"GroupId": 1,
+				"ItemName": "GrizlarkIce",
+				"Number": 3,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Return to Korbok",
+				"GroupId": 2,
+				"InternalName": "TurnIn",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "Well, ifyer offerin den acurse immasai yiss. Gogit de tuffest poisonz yecan find.",
+		"Requirements": [
+			{
+				"Item": "MacGuffin_KorbokInvestigationJournal",
+				"T": "InventoryItem"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 25,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 10,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Yedun gud. Yedun reel gud. Leevittoo me ta git dis stuff takin carov.",
+		"Version": 0
+	},
+	"28671": {
+		"Description": "Pitre Ferrence in Vidaria said, \"I was stationed here to keep an eye on Korbok, so to hear that you collected various poisons for him is troubling. Doubly so, that he winked at you when you gave them to him. Bring me a sampling of all of the poisons that you gave him, so I can try to suss out what he's working on without confronting him directly.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_PitreFerrence",
+		"InternalName": "InvestigateKorboksPoisons",
+		"IsCancellable": true,
+		"Name": "Investigate Korbok's Poisons",
+		"Objectives": [
+			{
+				"Description": "Collect Potent Acidic Cleanser",
+				"GroupId": 1,
+				"ItemName": "CleaningAcid2",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Toxic Sludge",
+				"GroupId": 1,
+				"ItemName": "ToxicSludge",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Iocaine Powder",
+				"GroupId": 1,
+				"ItemName": "IocainePowder",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Snapley's Venom Mk. 4",
+				"GroupId": 1,
+				"ItemName": "SnapleysVenom4",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Collect Grizlark",
+				"GroupId": 1,
+				"ItemName": "Grizlark",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Talk to Pitre Ferrence",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I was stationed here to keep an eye on Korbok, so to hear that you collected various poisons for him is troubling. Doubly so, that he winked at you when you gave them to him. Bring me a sampling of all of the poisons that you gave him, so I can try to suss out what he's working on without confronting him directly.",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaVidaria/NPC_PitreFerrence",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "CleenUpTeStreetz",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Amount": 10000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"Amount": 25,
+				"Currency": "VidariaRenown",
+				"T": "Currency"
+			},
+			{
+				"Favor": 100,
+				"T": "Favor"
+			},
+			{
+				"Item": "XogriteChunk",
+				"StackSize": 10,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "So far as I can tell, these are all standard and unrelated poisons. I am by no means an alchemical expert, so I will send these back to Statehelm for further analysis. Thank you for your assistance in this investigation.",
+		"Version": 0
+	},
+	"28672": {
+		"Description": "Pitre Ferrence in Vidaria said, \"My alchemist contact in Statehelm insists there are no commonalities in the poisons that Korbok had you retrieve. Mr. Farblood himself even took a look, to no avail. There must be something deeper going on here.\n\nTake this journal, and keep as detailed notes in it as you can. Get in close with Korbok, see if there's any more poison-related missions he can send you on, and just try to gather more info in general. While I do find him and his kind fascinating, I cannot let that get in the way of my primary assignment.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_PitreFerrence",
+		"InternalName": "TheKorbokInvestigation",
+		"IsCancellable": true,
+		"Name": "The Korbok Investigation",
+		"Objectives": [
+			{
+				"Description": "(Keep your journal for note-taking)",
+				"GroupId": 1,
+				"ItemName": "MacGuffin_KorbokInvestigationJournal",
+				"Number": 1,
+				"Type": "Collect"
+			},
+			{
+				"Description": "Get to know Korbok better",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "KorbokInvestigation_Talk",
+				"Type": "InteractionFlag"
+			},
+			{
+				"Description": "Perform more poison-related tasks for Korbok",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "KorbokInvestigation_Quest",
+				"Type": "InteractionFlag"
+			},
+			{
+				"Description": "Hang out with Korbok for deeper investigation",
+				"GroupId": 1,
+				"Number": 1,
+				"Target": "KorbokInvestigation_Hangout",
+				"Type": "InteractionFlag"
+			},
+			{
+				"Description": "Talk to Pitre Ferrence",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PreGiveItems": [
+			{
+				"Item": "MacGuffin_KorbokInvestigationJournal",
+				"StackSize": 1
+			}
+		],
+		"PrefaceText": "My alchemist contact in Statehelm insists there are no commonalities in the poisons that Korbok had you retrieve. Mr. Farblood himself even took a look, to no avail. There must be something deeper going on here.\n\nTake this journal, and keep as detailed notes in it as you can. Get in close with Korbok, see if there's any more poison-related missions he can send you on, and just try to gather more info in general. While I do find him and his kind fascinating, I cannot let that get in the way of my primary assignment.",
+		"Requirements": [
+			{
+				"Quest": "InvestigateKorboksPoisons",
+				"T": "QuestCompleted"
+			}
+		],
+		"SuccessText": "<i>[Pitre flips through the pages in your notebook]</i>\n\nI can hardly believe it. Nothing incriminating, and clearly not for lack of trying. I have learned a lot about goblin culture these last few weeks, but covering their trail <i>this</i> well is something I did not expect.\n\nI've an idea to put this to bed once and for all. We shall set up a stake-out and keep an eye on Korbok together. With both of us working simultaneously, are sure to catch him in the act of whatever he is performing.\n\n[New hangout with Pitre unlocked]",
+		"Version": 0
+	},
 	"28701": {
 		"Description": "In Vidaria, you stumbled upon an Undead creature that's been dead for so long, it doesn't even remember its own name. Perhaps you can find some items to jog its memory.",
 		"DisplayedLocation": "Vidaria",
@@ -43966,7 +45194,7 @@
 				"T": "Currency"
 			},
 			{
-				"Favor": 25,
+				"Favor": 100,
 				"T": "Favor"
 			},
 			{
@@ -44032,6 +45260,223 @@
 		],
 		"SuccessText": "Hmph. The past is the past, eh? That doesn't sound like Gloria, but maybe she's changed since I last saw her. I'll consider her words. Thank you for delivering the message, please take this as a token of my appreciation. And please <i>also</i> don't ask how I got it.",
 		"TSysLevel": 100,
+		"Version": 0
+	},
+	"28901": {
+		"Description": "Zazzamath in The Rubywall in Vidaria said, \"I am <i>so</i> bored here, stuck in this giant red ice cube. I was sent here for one purpose and one purpose only, to destroy as much life as possible on this stupid rock. But there's no chance that's happening now. But maybe the outcome can still be achieved... I tell you what. Go out and end lives in my name, and I will tell you whatever you want to know about the invading demon force. Deal?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidariaCaves/NPC_Zazzamath",
+		"InternalName": "PainAndSuffering",
+		"IsCancellable": true,
+		"Name": "Pain and Suffering",
+		"Objectives": [
+			{
+				"Description": "Kill Anything",
+				"GroupId": 1,
+				"Number": 100,
+				"Target": "Any",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Zazzamath",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "I am <i>so</i> bored here, stuck in this giant red ice cube. I was sent here for one purpose and one purpose only, to destroy as much life as possible on this stupid rock. But there's no chance that's happening now. But maybe the outcome can still be achieved... I tell you what. Go out and end lives in my name, and I will tell you whatever you want to know about the invading demon force. Deal?",
+		"Requirements": [
+			{
+				"FavorLevel": "Comfortable",
+				"Npc": "AreaVidariaCaves/NPC_Zazzamath",
+				"T": "MinFavorLevel"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 25,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 4,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "Yes. Yes! YES! So much death, so much suffering. It makes me feel alive!",
+		"Version": 0
+	},
+	"28902": {
+		"Description": "Zazzamath in The Rubywall in Vidaria said, \"You got a little taste of destroying life, and now you're back for more, are you? Maybe you have some demon in you, have you ever considered that? Heh heh heh heh... Well then go! Kill more things! MANY more things! When we're through, this whole rock will be barren!\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidariaCaves/NPC_Zazzamath",
+		"InternalName": "DeathAndDestruction",
+		"IsCancellable": true,
+		"Name": "Death and Destruction",
+		"Objectives": [
+			{
+				"Description": "Kill Anything",
+				"GroupId": 1,
+				"Number": 500,
+				"Target": "Any",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Zazzamath",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "You got a little taste of destroying life, and now you're back for more, are you? Maybe you have some demon in you, have you ever considered that? Heh heh heh heh... Well then go! Kill more things! MANY more things! When we're through, this whole rock will be barren!",
+		"Requirements": [
+			{
+				"Quest": "PainAndSuffering",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 10,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "<i>[Zazzamath licks his lips]</i>\n\nBeautiful. BEAUTIFUL! I'm starting to think getting stuck here was a GOOD thing. I didn't have the kind of free reign that you have... You can go anywhere! You can kill anything! It's wonderful!",
+		"Version": 0
+	},
+	"28903": {
+		"Description": "Zazzamath in The Rubywall in Vidaria said, \"You've already drained SO MUCH life from this world, it's glorious. But now let's get more targeted... sentient creatures feel more suffering than the others, so focus on them!\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidariaCaves/NPC_Zazzamath",
+		"InternalName": "SentienceSlaughter",
+		"IsCancellable": true,
+		"Name": "Sentience Slaughter",
+		"Objectives": [
+			{
+				"Description": "Kill Sentient Creatures",
+				"GroupId": 1,
+				"Number": 100,
+				"Target": "Sentient",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Zazzamath",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "You've already drained SO MUCH life from this world, it's glorious. But now let's get more targeted... sentient creatures feel more suffering than the others, so focus on them!",
+		"Requirements": [
+			{
+				"Quest": "DeathAndDestruction",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 5,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "I wish I got to hear their pained cries and see the life drain from their eyes... you're so lucky!",
+		"Version": 0
+	},
+	"28904": {
+		"Description": "Zazzamath in The Rubywall in Vidaria said, \"You are positively itching to snuff more lifes, aren't you?! I knew it. And I <i>love</i> it! Get out there and do what you do best, fleshbag!\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidariaCaves/NPC_Zazzamath",
+		"InternalName": "MindfulMassacre",
+		"IsCancellable": true,
+		"Name": "Mindful Massacre",
+		"Objectives": [
+			{
+				"Description": "Kill Sentient Creatures",
+				"GroupId": 1,
+				"Number": 500,
+				"Target": "Sentient",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Zazzamath",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "You are positively itching to snuff more lifes, aren't you?! I knew it. And I <i>love</i> it! Get out there and do what you do best, fleshbag!",
+		"Requirements": [
+			{
+				"Quest": "SentienceSlaughter",
+				"T": "QuestCompleted"
+			}
+		],
+		"Rewards": [
+			{
+				"Favor": 75,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 10,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "When I first saw you, I thought you were only a worthless fleshbag. But now I see that you're truly a RUTHLESS KILLER. Hahahaha!",
+		"Version": 0
+	},
+	"28905": {
+		"Description": "Zazzamath in The Rubywall in Vidaria said, \"The thing about life is, it somehow keeps coming back! But now while you're around to say anything about it! Go out, end as many lives as you can, then come back. Then do it again next week!\"",
+		"FavorNpc": "AreaVidariaCaves/NPC_Zazzamath",
+		"InternalName": "ContinuousCulling",
+		"Name": "Continuous Culling",
+		"Objectives": [
+			{
+				"Description": "Kill Anything",
+				"GroupId": 1,
+				"Number": 250,
+				"Target": "Any",
+				"Type": "Kill"
+			},
+			{
+				"Description": "Talk to Zazzamath",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "The thing about life is, it somehow keeps coming back! But now while you're around to say anything about it! Go out, end as many lives as you can, then come back. Then do it again next week!",
+		"Requirements": [
+			{
+				"FavorLevel": "Friends",
+				"Npc": "AreaVidariaCaves/NPC_Zazzamath",
+				"T": "MinFavorLevel"
+			},
+			{
+				"Quest": "MindfulMassacre",
+				"T": "QuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Days": 7
+		},
+		"Rewards": [
+			{
+				"Favor": 50,
+				"T": "Favor"
+			},
+			{
+				"Item": "DemonicStatement",
+				"StackSize": 3,
+				"T": "Item"
+			}
+		],
+		"SuccessText": "I knew I could count on you. I KNEW I could count on you! Hahahaha! See you next week!",
 		"Version": 0
 	},
 	"29": {
@@ -45356,7 +46801,7 @@
 				"T": "GuildCredits"
 			}
 		],
-		"SuccessText": "So your skirmish was successful? Very good. They may still rise up, but I have confidence that you and your allies will be able to handle them if they do.",
+		"SuccessText": "So your skirmish was successful? Very good. They may still rise up, but I have confidence that you and your allies will be able to handle them if they do. It seems your services might be appreciated in the Vidaria demon efforts as well. You should seek out one of the army's leaders there.",
 		"Version": 1
 	},
 	"30202": {
@@ -45430,7 +46875,7 @@
 				"T": "GuildCredits"
 			}
 		],
-		"SuccessText": "So your skirmish was successful? Very good. They may still rise up, but I have confidence that you and your allies will be able to handle them if they do.",
+		"SuccessText": "So your skirmish was successful? Very good. They may still rise up, but I have confidence that you and your allies will be able to handle them if they do. It seems your services might be appreciated in the Vidaria demon efforts as well. You should seek out one of the army's leaders there.",
 		"Version": 1
 	},
 	"30203": {
@@ -45519,7 +46964,7 @@
 				"T": "GuildCredits"
 			}
 		],
-		"SuccessText": "So your skirmish was successful? Very good. They may still rise up, but I have confidence that you and your allies will be able to handle them if they do.",
+		"SuccessText": "So your skirmish was successful? Very good. They may still rise up, but I have confidence that you and your allies will be able to handle them if they do. It seems your services might be appreciated in the Vidaria demon efforts as well. You should seek out one of the army's leaders there.",
 		"Version": 1
 	},
 	"30221": {
@@ -46028,6 +47473,532 @@
 			}
 		],
 		"SuccessText": "Good. That's all of the ingredients. Now I have some deals to make. I'll complete the ritual when the moon is right. Come visit me later and I'll let you know how it went. You should be proud: you and your friends are lifesavers, literally! Hopefully...",
+		"Version": 1
+	},
+	"30261": {
+		"Description": "Ser Lorentz in Vidaria said, \"We need all the help we can get. The demons seem to be never-ending, and our supplies are ever-dwindling. Armor, weapons, rations - you name it, we need it! Statehelm is providing as many as they can, but it's simply not enough. Can we count on you and your people to aid us?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_SerLorentz",
+		"GroupingName": "SupportTheWarEffort",
+		"InternalName": "SupportTheWarEffort_10",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsGuildQuest": true,
+		"Keywords": [
+			"GuildGroup",
+			"BroadcastCompletion"
+		],
+		"Name": "Guild: Support the War Effort (10-person)",
+		"NumberOfExpectedParticipants": 10,
+		"Objectives": [
+			{
+				"Description": "Give Swords to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "Sword",
+				"Number": 30,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Shields to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "Shield",
+				"Number": 30,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Decent Chainmail Coats to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "CraftedChainCoat4",
+				"Number": 30,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Talk to Ser Lorentz",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We need all the help we can get. The demons seem to be never-ending, and our supplies are ever-dwindling. Armor, weapons, rations - you name it, we need it! Statehelm is providing as many as they can, but it's simply not enough. Can we count on you and your people to aid us?",
+		"Requirements": [
+			{
+				"Quest": "MenaceBeneathTheSand_10",
+				"T": "GuildQuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 5
+		},
+		"Rewards": [
+			{
+				"T": "GuildXp",
+				"Xp": 100
+			},
+			{
+				"Credits": 10,
+				"T": "GuildCredits"
+			}
+		],
+		"SuccessText": "Excellent work. Excellent work! With these supplies, we have a fighting chance after all. Your assistance will not soon be forgotten, not by me nor any of my troops.",
+		"Version": 1
+	},
+	"30262": {
+		"Description": "Ser Lorentz in Vidaria said, \"We need all the help we can get. The demons seem to be never-ending, and our supplies are ever-dwindling. Armor, weapons, rations - you name it, we need it! Statehelm is providing as many as they can, but it's simply not enough. Can we count on you and your people to aid us?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_SerLorentz",
+		"GroupingName": "SupportTheWarEffort",
+		"InternalName": "SupportTheWarEffort_25",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsGuildQuest": true,
+		"Keywords": [
+			"GuildGroup",
+			"BroadcastCompletion"
+		],
+		"Name": "Guild: Support the War Effort (25-person)",
+		"NumberOfExpectedParticipants": 25,
+		"Objectives": [
+			{
+				"Description": "Give Swords to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "Sword",
+				"Number": 75,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Shields to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "Shield",
+				"Number": 75,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Decent Chainmail Coats to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "CraftedChainCoat4",
+				"Number": 75,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Great Venison Jerky to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "GreatVenisonJerky",
+				"Number": 125,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Healing Potion Omegas to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "HealthPotion3",
+				"Number": 50,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Talk to Ser Lorentz",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We need all the help we can get. The demons seem to be never-ending, and our supplies are ever-dwindling. Armor, weapons, rations - you name it, we need it! Statehelm is providing as many as they can, but it's simply not enough. Can we count on you and your people to aid us?",
+		"Requirements": [
+			{
+				"Quest": "MenaceBeneathTheSand_25",
+				"T": "GuildQuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 5
+		},
+		"Rewards": [
+			{
+				"T": "GuildXp",
+				"Xp": 200
+			},
+			{
+				"Credits": 15,
+				"T": "GuildCredits"
+			}
+		],
+		"SuccessText": "Excellent work. Excellent work! With these supplies, we have a fighting chance after all. Your assistance will not soon be forgotten, not by me nor any of my troops.",
+		"Version": 1
+	},
+	"30263": {
+		"Description": "Ser Lorentz in Vidaria said, \"We need all the help we can get. The demons seem to be never-ending, and our supplies are ever-dwindling. Armor, weapons, rations - you name it, we need it! Statehelm is providing as many as they can, but it's simply not enough. Can we count on you and your people to aid us?\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_SerLorentz",
+		"GroupingName": "SupportTheWarEffort",
+		"InternalName": "SupportTheWarEffort_50",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsGuildQuest": true,
+		"Keywords": [
+			"GuildGroup",
+			"BroadcastCompletion"
+		],
+		"Name": "Guild: Support the War Effort (50-person)",
+		"NumberOfExpectedParticipants": 50,
+		"Objectives": [
+			{
+				"Description": "Give Swords to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "Sword",
+				"Number": 150,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Shields to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "Shield",
+				"Number": 150,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Decent Chainmail Coats to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "CraftedChainCoat4",
+				"Number": 150,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Great Venison Jerky to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "GreatVenisonJerky",
+				"Number": 250,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Healing Potion Omegas to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "HealthPotion3",
+				"Number": 100,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Sword Tuneup Kits to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "SwordTuneupKit",
+				"Number": 100,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Hellfreeze to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "HellfreezeAll",
+				"Number": 10,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Talk to Ser Lorentz",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We need all the help we can get. The demons seem to be never-ending, and our supplies are ever-dwindling. Armor, weapons, rations - you name it, we need it! Statehelm is providing as many as they can, but it's simply not enough. Can we count on you and your people to aid us?",
+		"Requirements": [
+			{
+				"Quest": "MenaceBeneathTheSand_50",
+				"T": "GuildQuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 5
+		},
+		"Rewards": [
+			{
+				"T": "GuildXp",
+				"Xp": 300
+			},
+			{
+				"Credits": 20,
+				"T": "GuildCredits"
+			}
+		],
+		"SuccessText": "Excellent work. Excellent work! With these supplies, we have a fighting chance after all. Your assistance will not soon be forgotten, not by me nor any of my troops.",
+		"Version": 1
+	},
+	"30281": {
+		"Description": "Ser Lorentz in Vidaria said, \"We are fully stocked up on supplies now, and it's time to take the fight to the demons! Gather your own troops, and help us cull these endless hordes.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_SerLorentz",
+		"GroupingName": "JoinTheWarEffort",
+		"InternalName": "JoinTheWarEffort_10",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsGuildQuest": true,
+		"Keywords": [
+			"GuildGroup",
+			"BroadcastCompletion"
+		],
+		"Name": "Guild: Join the War Effort (10-person)",
+		"NumberOfExpectedParticipants": 10,
+		"Objectives": [
+			{
+				"Description": "Kill Demon Swarmers",
+				"GroupId": 1,
+				"Number": 250,
+				"Target": "DemonSwarmer",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Soldiers",
+				"GroupId": 1,
+				"Number": 100,
+				"Target": "DemonSoldier",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Scouts",
+				"GroupId": 1,
+				"Number": 100,
+				"Target": "DemonScout",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demonic Animals",
+				"GroupId": 1,
+				"Number": 50,
+				"Target": "DemonicAnimal",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Talk to Ser Lorentz",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We are fully stocked up on supplies now, and it's time to take the fight to the demons! Gather your own troops, and help us cull these endless hordes.",
+		"Requirements": [
+			{
+				"Quest": "SupportTheWarEffort_10",
+				"T": "GuildQuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 5
+		},
+		"Rewards": [
+			{
+				"T": "GuildXp",
+				"Xp": 100
+			},
+			{
+				"Credits": 10,
+				"T": "GuildCredits"
+			}
+		],
+		"SuccessText": "On behalf of my troops, Statehelm itself, and indeed all of Alharth, you have our heartfelt thanks. You did amazing work out there.\n\nI'll instruct Ferris to share as much knowledge about the demons with you as we can.",
+		"Version": 1
+	},
+	"30282": {
+		"Description": "Ser Lorentz in Vidaria said, \"We are fully stocked up on supplies now, and it's time to take the fight to the demons! Gather your own troops, and help us cull these endless hordes.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_SerLorentz",
+		"GroupingName": "JoinTheWarEffort",
+		"InternalName": "JoinTheWarEffort_25",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsGuildQuest": true,
+		"Keywords": [
+			"GuildGroup",
+			"BroadcastCompletion"
+		],
+		"Name": "Guild: Join the War Effort (25-person)",
+		"NumberOfExpectedParticipants": 25,
+		"Objectives": [
+			{
+				"Description": "Kill Demon Swarmers",
+				"GroupId": 1,
+				"Number": 625,
+				"Target": "DemonSwarmer",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Soldiers",
+				"GroupId": 1,
+				"Number": 250,
+				"Target": "DemonSoldier",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Scouts",
+				"GroupId": 1,
+				"Number": 250,
+				"Target": "DemonScout",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demonic Animals",
+				"GroupId": 1,
+				"Number": 125,
+				"Target": "DemonicAnimal",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Lesser Behemoths",
+				"GroupId": 1,
+				"Number": 125,
+				"Target": "DemonLesserBehemoth",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Behemoths",
+				"GroupId": 1,
+				"Number": 50,
+				"Target": "DemonBehemoth",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Give Demon Wisps to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "DemonWisp",
+				"Number": 250,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Talk to Ser Lorentz",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We are fully stocked up on supplies now, and it's time to take the fight to the demons! Gather your own troops, and help us cull these endless hordes.",
+		"Requirements": [
+			{
+				"Quest": "SupportTheWarEffort_25",
+				"T": "GuildQuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 5
+		},
+		"Rewards": [
+			{
+				"T": "GuildXp",
+				"Xp": 200
+			},
+			{
+				"Credits": 15,
+				"T": "GuildCredits"
+			}
+		],
+		"SuccessText": "On behalf of my troops, Statehelm itself, and indeed all of Alharth, you have our heartfelt thanks. You did amazing work out there.\n\nI'll instruct Ferris to share as much knowledge about the demons with you as we can.",
+		"Version": 1
+	},
+	"30283": {
+		"Description": "Ser Lorentz in Vidaria said, \"We are fully stocked up on supplies now, and it's time to take the fight to the demons! Gather your own troops, and help us cull these endless hordes.\"",
+		"DisplayedLocation": "Vidaria",
+		"FavorNpc": "AreaVidaria/NPC_SerLorentz",
+		"GroupingName": "JoinTheWarEffort",
+		"InternalName": "JoinTheWarEffort_50",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsGuildQuest": true,
+		"Keywords": [
+			"GuildGroup",
+			"BroadcastCompletion"
+		],
+		"Name": "Guild: Join the War Effort (50-person)",
+		"NumberOfExpectedParticipants": 50,
+		"Objectives": [
+			{
+				"Description": "Kill Demon Swarmers",
+				"GroupId": 1,
+				"Number": 1250,
+				"Target": "DemonSwarmer",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Soldiers",
+				"GroupId": 1,
+				"Number": 500,
+				"Target": "DemonSoldier",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Scouts",
+				"GroupId": 1,
+				"Number": 500,
+				"Target": "DemonScout",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demonic Animals",
+				"GroupId": 1,
+				"Number": 250,
+				"Target": "DemonicAnimal",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Behemoths",
+				"GroupId": 1,
+				"Number": 100,
+				"Target": "DemonBehemoth",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Kill Demon Overseers and Justiciars",
+				"GroupId": 1,
+				"Number": 50,
+				"Target": "DemonOverseer",
+				"Type": "GuildKill"
+			},
+			{
+				"Description": "Give Demon Essences to Ser Lorentz",
+				"GroupId": 1,
+				"ItemName": "DemonEssence",
+				"Number": 100,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Give Demonic Ores to Ser Lorentz",
+				"GroupId": 1,
+				"ItemKeyword": "DemonicOre",
+				"Number": 100,
+				"Target": "NPC_SerLorentz",
+				"Type": "GuildGiveItem"
+			},
+			{
+				"Description": "Talk to Ser Lorentz",
+				"Number": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "We are fully stocked up on supplies now, and it's time to take the fight to the demons! Gather your own troops, and help us cull these endless hordes.",
+		"Requirements": [
+			{
+				"Quest": "SupportTheWarEffort_50",
+				"T": "GuildQuestCompleted"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 5
+		},
+		"Rewards": [
+			{
+				"T": "GuildXp",
+				"Xp": 300
+			},
+			{
+				"Credits": 20,
+				"T": "GuildCredits"
+			}
+		],
+		"SuccessText": "On behalf of my troops, Statehelm itself, and indeed all of Alharth, you have our heartfelt thanks. You did amazing work out there.\n\nI'll instruct Ferris to share as much knowledge about the demons with you as we can.",
 		"Version": 1
 	},
 	"31": {
@@ -47653,6 +49624,358 @@
 			}
 		],
 		"SuccessText": "You've got the hang of catching and cleaning Vidarian Pickerel now!",
+		"Version": 1
+	},
+	"44145": {
+		"Description": "You caught a sorubim and aren't sure which parts are edible. But catching a few more should give you the knowledge to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_Sorubim",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Sorubim",
+		"Objectives": [
+			{
+				"Description": "Angle Sorubim",
+				"GroupId": 1,
+				"ItemName": "Sorubim",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Sorubim is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "SorubimFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 504650
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Sorubim now!",
+		"Version": 1
+	},
+	"44146": {
+		"Description": "You caught a grouper and you're not quite sure what to do with it. You'll need to catch a few more to figure out how to prepare it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_Grouper",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Grouper",
+		"Objectives": [
+			{
+				"Description": "Angle Grouper",
+				"GroupId": 1,
+				"ItemName": "Grouper",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Grouper is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "GrouperFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 888800
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Grouper now!",
+		"Version": 1
+	},
+	"44147": {
+		"Description": "You caught a bonefish, which isn't as boney as you'd come to expect, but is still boney. Catching a few more should give you the knowledge to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_Bonefish",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Bonefish",
+		"Objectives": [
+			{
+				"Description": "Angle Bonefish",
+				"GroupId": 1,
+				"ItemName": "Bonefish",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Bonefish is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "BonefishFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 888800
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Bonefish now!",
+		"Version": 1
+	},
+	"44148": {
+		"Description": "You caught a triple-tail, which seems to not actually have three tails. Beyond this disappointing revelation, you have no idea how to prepare it, but you'll get the hang of it if you catch some more.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_TripleTail",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Triple Tail",
+		"Objectives": [
+			{
+				"Description": "Angle Triple Tail",
+				"GroupId": 1,
+				"ItemName": "TripleTail",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Triple Tail is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "TripleTailFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 1549700
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Triple Tail now!",
+		"Version": 1
+	},
+	"44149": {
+		"Description": "You caught a non-Drevan (a/k/a salt-water) snook. Are snooks poisonous? You aren't sure. Catching a few more will give you the info to safely prepare it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_NonDrevanSnook",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Non-Drevan Snook",
+		"Objectives": [
+			{
+				"Description": "Angle Non-Drevan Snook",
+				"GroupId": 1,
+				"ItemName": "NonDrevanSnook",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Non-Drevan Snook is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "NonDrevanSnookFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 1549700
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Non-Drevan Snook now!",
+		"Version": 1
+	},
+	"44150": {
+		"Description": "You caught a tarpon. Pretty big but not huge. Catching a few more should give you the knowledge to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_Tarpon",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Tarpon",
+		"Objectives": [
+			{
+				"Description": "Angle Tarpon",
+				"GroupId": 1,
+				"ItemName": "Tarpon",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Tarpon is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "TarponFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 1549700
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Tarpon now!",
+		"Version": 1
+	},
+	"44151": {
+		"Description": "You caught a wahoo. This is a massive fish! Catching a few more should give you the knowledge to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_Wahoo",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Wahoo",
+		"Objectives": [
+			{
+				"Description": "Angle Wahoo",
+				"GroupId": 1,
+				"ItemName": "Wahoo",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Wahoo is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "WahooFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 2677600
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Wahoo now!",
+		"Version": 1
+	},
+	"44152": {
+		"Description": "You caught a Vertan tuna. This is the smaller cousin of the famous Ormalan Tuna. Catching a few more should give you the knowledge to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_VertanTuna",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Vertan Tuna",
+		"Objectives": [
+			{
+				"Description": "Angle Vertan Tuna",
+				"GroupId": 1,
+				"ItemName": "VertanTuna",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Vertan Tuna is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "VertanTunaFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 2677600
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Vertan Tuna now!",
+		"Version": 1
+	},
+	"44153": {
+		"Description": "You caught a striped bass. Huh. The stripes are pretty subtle, all things considered. Catching a few more should give you the knowledge to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_StripedBass",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Striped Bass",
+		"Objectives": [
+			{
+				"Description": "Angle Striped Bass",
+				"GroupId": 1,
+				"ItemName": "StripedBass",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Striped Bass is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "StripedBassFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 4589800
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Striped Bass now!",
+		"Version": 1
+	},
+	"44154": {
+		"Description": "You caught an eagle ray. This is one freaky fish! Is it even edible? You'll need to catch some more to figure it out.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_EagleRay",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Eagle Ray",
+		"Objectives": [
+			{
+				"Description": "Angle Eagle Ray",
+				"GroupId": 1,
+				"ItemName": "EagleRay",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Eagle Ray is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "EagleRayFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 4589800
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Eagle Ray now!",
+		"Version": 1
+	},
+	"44155": {
+		"Description": "You caught a marlin! It's massive and quite difficult to catch, but you did it. Catch some more to learn how to fillet it.",
+		"DisplayedLocation": "Statehelm",
+		"InternalName": "Angling_Vidaria_Marlin",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"IsCancellable": true,
+		"Name": "Angling: Marlin",
+		"Objectives": [
+			{
+				"Description": "Angle Marlin",
+				"GroupId": 1,
+				"ItemName": "Marlin",
+				"Number": 10,
+				"Type": "Angling"
+			}
+		],
+		"PrefaceText": "The Marlin is a tricky fish to fillet; you need some practice catching more of them to figure it out.",
+		"Rewards": [
+			{
+				"Recipe": "MarlinFillet",
+				"T": "Recipe"
+			},
+			{
+				"Skill": "Angling",
+				"T": "SkillXp",
+				"Xp": 4589800
+			}
+		],
+		"SuccessText": "You've got the hang of catching and cleaning Marlin now!",
 		"Version": 1
 	},
 	"45": {
@@ -63439,6 +65762,11 @@
 				"T": "Currency"
 			},
 			{
+				"Amount": 2,
+				"InteractionFlag": "SerbuleCommunityChestPoints",
+				"T": "DeltaScriptAtomicInt"
+			},
+			{
 				"T": "Title",
 				"Title": 5222
 			},
@@ -63705,22 +66033,24 @@
 		"Version": 1
 	},
 	"45455": {
-		"Description": "Welcome to the Writ Challenge!\nThis one is really pretty easy, just go out and kill stuff like you normally would! You will find special items in loot called a Writ of Unlock or Golden Writ of Unlock. Just collect these items and take them to the Writ Master in the town of Serbule. The Writ Master will keep tally of the community score. The higher the score, the more prizes that get unlocked!\nVIPs can contribute extra points to the score just for being here! Visit the Writ Master to see how.",
+		"Description": "Welcome to the Writ Challenge!\nThis one is really pretty easy, just go out and kill stuff like you normally would! You will find special items in loot called a Writ of Unlock or Golden Writ of Unlock. Use the writs to advance your quests and the Community Score. The Writ Master in Serbule will keep tally of the Community Score. The higher the score, the more prizes that get unlocked!\nVIPs can contribute extra points to the score just for being here! Visit the Writ Master to see how.",
+		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_WritChallenge_Intro",
 		"IsAutoPreface": true,
-		"IsAutoWrapUp": false,
+		"IsAutoWrapUp": true,
 		"Keywords": [
 			"EventQuest"
 		],
 		"Name": "Writ Challenge",
 		"Objectives": [
 			{
-				"Description": "Survive the event!",
+				"Description": "Complete the event quest series!",
 				"GroupId": 1,
+				"Number": 7,
 				"Type": "Scripted"
 			}
 		],
-		"PrefaceText": "Welcome to the Writ Challenge!\nThis one is really pretty easy, just go out and kill stuff like you normally would! You will find special items in loot called a Writ of Unlock or Golden Writ of Unlock. Just collect these items and take them to the Writ Master in the town of Serbule. The Writ Master will keep tally of the community score. The higher the score, the more prizes that get unlocked!\nVIPs can contribute extra points to the score just for being here! Visit the Writ Master to see how.",
+		"PrefaceText": "Welcome to the Writ Challenge!\nThis one is really pretty easy, just go out and kill stuff like you normally would! You will find special items in loot called a Writ of Unlock or Golden Writ of Unlock. Use the writs to advance your quests and the Community Score. The Writ Master in Serbule will keep tally of the Community Score. The higher the score, the more prizes that get unlocked!\nVIPs can contribute extra points to the score just for being here! Visit the Writ Master to see how.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -63733,10 +66063,25 @@
 				"T": "HasEffectKeyword"
 			}
 		],
-		"Version": 1
+		"ReuseTime": {
+			"Days": 30
+		},
+		"Rewards": [
+			{
+				"Amount": 100000,
+				"Currency": "Gold",
+				"T": "Currency"
+			},
+			{
+				"T": "Title",
+				"Title": 5242
+			}
+		],
+		"SuccessText": "WOW! You finished all 7 of them? That's pretty impressive! Thank you for your massive contribution!!!\n\nThe quests are done, but you can still continue to use normal and Golden Writs to help advance the Community Score.",
+		"Version": 2
 	},
 	"45456": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"FollowUpQuests": [
 			"Event_WritChallenge_DoYourPart2"
 		],
@@ -63752,18 +66097,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -63786,15 +66132,23 @@
 				"T": "Currency"
 			},
 			{
+				"AccountFlag": "WritChallenge_2025",
+				"T": "SetAccountFlag"
+			},
+			{
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
+			},
+			{
 				"T": "Title",
 				"Title": 5241
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
 	},
 	"45457": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"FollowUpQuests": [
 			"Event_WritChallenge_DoYourPart3"
 		],
@@ -63810,18 +66164,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -63842,13 +66197,17 @@
 				"Amount": 2,
 				"Currency": "LiveEventCredits",
 				"T": "Currency"
+			},
+			{
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
 	},
 	"45458": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"FollowUpQuests": [
 			"Event_WritChallenge_DoYourPart4"
 		],
@@ -63864,18 +66223,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -63896,13 +66256,17 @@
 				"Amount": 3,
 				"Currency": "LiveEventCredits",
 				"T": "Currency"
+			},
+			{
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
 	},
 	"45459": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"FollowUpQuests": [
 			"Event_WritChallenge_DoYourPart5"
 		],
@@ -63918,18 +66282,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -63950,13 +66315,17 @@
 				"Amount": 4,
 				"Currency": "LiveEventCredits",
 				"T": "Currency"
+			},
+			{
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
 	},
 	"45460": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"FollowUpQuests": [
 			"Event_WritChallenge_DoYourPart6"
 		],
@@ -63972,18 +66341,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -64004,13 +66374,17 @@
 				"Amount": 5,
 				"Currency": "LiveEventCredits",
 				"T": "Currency"
+			},
+			{
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
 	},
 	"45461": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"FollowUpQuests": [
 			"Event_WritChallenge_DoYourPart7"
 		],
@@ -64026,18 +66400,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -64058,13 +66433,17 @@
 				"Amount": 6,
 				"Currency": "LiveEventCredits",
 				"T": "Currency"
+			},
+			{
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
 	},
 	"45462": {
-		"Description": "Do your part for the community score! Collect some writs and turn them in.",
+		"Description": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"ForceBookOnWrapUp": true,
 		"InternalName": "Event_WritChallenge_DoYourPart7",
 		"IsAutoPreface": true,
@@ -64077,18 +66456,19 @@
 			{
 				"Description": "Loot 5 Writs of Unlock",
 				"GroupId": 1,
-				"ItemName": "WritOfUnlock",
 				"Number": 5,
+				"Target": "WritOfUnlock",
 				"Type": "Loot"
 			},
 			{
-				"Description": "Turn in 5 Writs of Unlock at the Writ Master",
+				"Description": "Use 5 Writs of Unlock",
 				"GroupId": 1,
+				"ItemName": "WritOfUnlock",
 				"Number": 5,
-				"Type": "Scripted"
+				"Type": "UseItem"
 			}
 		],
-		"PrefaceText": "Do your part for the community score! Collect some writs and turn them in.",
+		"PrefaceText": "Do your part for the community score! Collect some writs and use them.\n<b>IMPORTANT:</b> You will only get loot credit for writs that are looted from the corpse of a defeated enemy. Writs obtained by any other means will not count, but you can still use them to add points to the Community Score.",
 		"Requirements": [
 			{
 				"Keyword": "Event_WritChallenge",
@@ -64111,12 +66491,51 @@
 				"T": "Currency"
 			},
 			{
-				"T": "Title",
-				"Title": 5242
+				"Npc": "WritQuest",
+				"T": "ScriptedQuestObjective"
 			}
 		],
 		"SuccessText": "Well done! Enjoy your reward and be proud of your contribution!",
-		"Version": 1
+		"Version": 2
+	},
+	"45463": {
+		"DeleteFromHistoryIfVersionChanged": true,
+		"Description": "VERY NICE! A fine score indeed! Visit the Writ Master in Serbule near the town well to collect your very nice prize!",
+		"InternalName": "Event_WritChallenge_IGotAGoldenWrit",
+		"IsAutoPreface": true,
+		"IsAutoWrapUp": true,
+		"Keywords": [
+			"EventQuest"
+		],
+		"Name": "Writ Challenge: I Got a Golden Writ!",
+		"Objectives": [
+			{
+				"Description": "Talk to the Writ Master",
+				"GroupId": 1,
+				"Type": "Scripted"
+			}
+		],
+		"PrefaceText": "VERY NICE! A fine score indeed! Visit the Writ Master in Serbule near the town well to collect your very nice prize!",
+		"Requirements": [
+			{
+				"Keyword": "Event_WritChallenge",
+				"T": "HasEffectKeyword"
+			}
+		],
+		"RequirementsToSustain": [
+			{
+				"Keyword": "Event_WritChallenge",
+				"T": "HasEffectKeyword"
+			},
+			{
+				"InteractionFlag": "GoldenWrit_Pending",
+				"T": "InteractionFlagSet"
+			}
+		],
+		"ReuseTime": {
+			"Minutes": 1
+		},
+		"Version": 3
 	},
 	"45501": {
 		"Description": "<i>Zhia Lian:</i> If I'm going to be one of those creepy gods with their own cult, I want all the perks! I demand a midnight sacrifice! Atop a mountain!\n\n<i>[To qualify as a sacrifice, you need to kill a goat in Gazluk between midnight and 1 am game-time.]</i>",
@@ -71974,7 +74393,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50124": {
-		"Description": "Deliver 99 Ice Cores to Korbok in Vidaria. Reward: 37,108 councils.",
+		"Description": "Deliver 99 Ice Cores to Korbok in Vidaria. Reward: 24,815 councils.",
 		"InternalName": "Unknown_IceCoresB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72011,7 +74430,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 37108,
+				"Amount": 24815,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72021,7 +74440,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50125": {
-		"Description": "Deliver 99 Saltpeter to Korbok in Vidaria. Reward: 221,495 councils.",
+		"Description": "Deliver 99 Saltpeter to Korbok in Vidaria. Reward: 147,740 councils.",
 		"InternalName": "Unknown_SaltpeterB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72058,7 +74477,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 221495,
+				"Amount": 147740,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72068,7 +74487,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50126": {
-		"Description": "Deliver 99 Lac to Korbok in Vidaria. Reward: 7,606 councils.",
+		"Description": "Deliver 99 Lac to Korbok in Vidaria. Reward: 5,147 councils.",
 		"InternalName": "Unknown_LacB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72105,7 +74524,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 7606,
+				"Amount": 5147,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72115,7 +74534,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50127": {
-		"Description": "Deliver 99 Sulfur to Korbok in Vidaria. Reward: 147,740 councils.",
+		"Description": "Deliver 99 Sulfur to Korbok in Vidaria. Reward: 98,570 councils.",
 		"InternalName": "Unknown_SulfurB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72152,7 +74571,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 147740,
+				"Amount": 98570,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72162,7 +74581,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50128": {
-		"Description": "Deliver 99 Ultra Lac to Korbok in Vidaria. Reward: 74,986 councils.",
+		"Description": "Deliver 99 Ultra Lac to Korbok in Vidaria. Reward: 50,071 councils.",
 		"InternalName": "Unknown_UltraLacB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72199,7 +74618,7 @@
 				"Xp": 850
 			},
 			{
-				"Amount": 74986,
+				"Amount": 50071,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72209,7 +74628,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50129": {
-		"Description": "Deliver 99 Shock Nibs to Korbok in Vidaria. Reward: 74,986 councils.",
+		"Description": "Deliver 99 Shock Nibs to Korbok in Vidaria. Reward: 50,071 councils.",
 		"InternalName": "Unknown_ShockNibsB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72246,7 +74665,7 @@
 				"Xp": 850
 			},
 			{
-				"Amount": 74986,
+				"Amount": 50071,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72256,7 +74675,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50130": {
-		"Description": "Deliver 99 Pixie Dust to Korbok in Vidaria. Reward: 112,359 councils.",
+		"Description": "Deliver 99 Pixie Dust to Korbok in Vidaria. Reward: 74,986 councils.",
 		"InternalName": "Unknown_PixieDustB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72293,7 +74712,7 @@
 				"Xp": 850
 			},
 			{
-				"Amount": 112359,
+				"Amount": 74986,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72303,7 +74722,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50131": {
-		"Description": "Deliver 50 Royal Jellies to Korbok in Vidaria. Reward: 377,741 councils.",
+		"Description": "Deliver 50 Royal Jellies to Korbok in Vidaria. Reward: 314,824 councils.",
 		"InternalName": "Unknown_RoyalJelliesB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72340,7 +74759,7 @@
 				"Xp": 850
 			},
 			{
-				"Amount": 377741,
+				"Amount": 314824,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72350,7 +74769,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50132": {
-		"Description": "Deliver 50 Xogrite Chunks to Korbok in Vidaria. Reward: 159,627 councils.",
+		"Description": "Deliver 50 Xogrite Chunks to Korbok in Vidaria. Reward: 127,752 councils.",
 		"InternalName": "Unknown_XogriteChunksB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72387,7 +74806,7 @@
 				"Xp": 900
 			},
 			{
-				"Amount": 159627,
+				"Amount": 127752,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72491,7 +74910,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50135": {
-		"Description": "Deliver 99 Spruce Wood to Korbok in Vidaria. Reward: 52,531 councils.",
+		"Description": "Deliver 99 Spruce Wood to Korbok in Vidaria. Reward: 35,083 councils.",
 		"InternalName": "Unknown_SpruceWoodB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72528,7 +74947,7 @@
 				"Xp": 600
 			},
 			{
-				"Amount": 52531,
+				"Amount": 35083,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -72538,7 +74957,7 @@
 		"WorkOrderSkill": "Unknown"
 	},
 	"50136": {
-		"Description": "Deliver 99 Yew Wood to Korbok in Vidaria. Reward: 73,985 councils.",
+		"Description": "Deliver 99 Yew Wood to Korbok in Vidaria. Reward: 49,400 councils.",
 		"InternalName": "Unknown_YewWoodB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -72575,7 +74994,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 73985,
+				"Amount": 49400,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -74889,7 +77308,7 @@
 		"WorkOrderSkill": "Fishing"
 	},
 	"50250": {
-		"Description": "Deliver 10 Lake Sturgeon Fillets to Viedesi in Sun Vale. Reward: 5,259 councils.",
+		"Description": "Deliver 10 Lake Sturgeon Fillets to Viedesi in Sun Vale. Reward: 5,073 councils.",
 		"InternalName": "Fishing_LakeSturgeonFillets",
 		"IsCancellable": true,
 		"Keywords": [
@@ -74926,7 +77345,7 @@
 				"Xp": 800
 			},
 			{
-				"Amount": 5259,
+				"Amount": 5073,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -83116,7 +85535,7 @@
 		"WorkOrderSkill": "Alchemy"
 	},
 	"50670": {
-		"Description": "Deliver 10 Memory Inhibitor Potions to Viedesi in Sun Vale. Reward: 2,089 councils.",
+		"Description": "Deliver 10 Memory Inhibitor Potions to Viedesi in Sun Vale. Reward: 1,464 councils.",
 		"InternalName": "Alchemy_MemoryInhibitorPotions",
 		"IsCancellable": true,
 		"Keywords": [
@@ -83153,7 +85572,7 @@
 				"Xp": 100
 			},
 			{
-				"Amount": 2089,
+				"Amount": 1464,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -83915,7 +86334,7 @@
 		"WorkOrderSkill": "Alchemy"
 	},
 	"50687": {
-		"Description": "Deliver 10 Perfect Memory Inhibitors to Fitz the Boatman on the Serbule docks. Reward: 2,432 councils.",
+		"Description": "Deliver 10 Perfect Memory Inhibitors to Fitz the Boatman on the Serbule docks. Reward: 2,089 councils.",
 		"InternalName": "Alchemy_PerfectMemoryInhibitors",
 		"IsCancellable": true,
 		"Keywords": [
@@ -83952,7 +86371,7 @@
 				"Xp": 100
 			},
 			{
-				"Amount": 2432,
+				"Amount": 2089,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}
@@ -92946,16 +95365,16 @@
 		"WorkOrderSkill": "Blacksmithing"
 	},
 	"50936": {
-		"Description": "Deliver 100 Awesome Throwing Knives to Ogamboe in the Fae Realm. Reward: 8,281 councils.",
-		"InternalName": "Blacksmithing_AwesomeThrowingKnives",
+		"Description": "Deliver 100 Superb Throwing Knives to Ogamboe in the Fae Realm. Reward: 8,281 councils.",
+		"InternalName": "Blacksmithing_SuperbThrowingKnives",
 		"IsCancellable": true,
 		"Keywords": [
 			"WorkOrder"
 		],
-		"Name": "Awesome Throwing Knives",
+		"Name": "Superb Throwing Knives",
 		"Objectives": [
 			{
-				"Description": "Obtain Awesome Throwing Knives",
+				"Description": "Obtain Superb Throwing Knives",
 				"ItemName": "ThrowingKnife8",
 				"Number": 100,
 				"Type": "Collect"
@@ -127233,7 +129652,7 @@
 		"WorkOrderSkill": "Fishing"
 	},
 	"52963": {
-		"Description": "Deliver 99 Lake Sturgeon Fillets to Sheyna in Rahu. Reward: 99,799 councils.",
+		"Description": "Deliver 99 Lake Sturgeon Fillets to Sheyna in Rahu. Reward: 96,112 councils.",
 		"InternalName": "Fishing_LakeSturgeonFilletsB",
 		"IsCancellable": true,
 		"Keywords": [
@@ -127270,7 +129689,7 @@
 				"Xp": 7920
 			},
 			{
-				"Amount": 99799,
+				"Amount": 96112,
 				"Currency": "Gold",
 				"T": "WorkOrderCurrency"
 			}

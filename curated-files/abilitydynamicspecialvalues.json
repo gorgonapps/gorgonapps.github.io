@@ -1,0 +1,29 @@
+﻿[
+	{
+		"Label": "Restores",
+		"RequiredAbilityKeywords": [
+			"Attack"
+		],
+		"RequiredEffectKeywords": [
+			"TestEffect"
+		],
+		"SkipIfZero": true,
+		"Suffix": "Body Heat in cold environments",
+		"Value": 5
+	},
+	{
+		"AttributesThatDelta": [
+			"BOOST_MAJORHEAL_HOT_SENDER"
+		],
+		"Label": "Restores",
+		"RequiredAbilityKeywords": [
+			"MajorHeal"
+		],
+		"RequiredEffectKeywords": [
+			"ArisBloom"
+		],
+		"SkipIfZero": true,
+		"Suffix": "Health every 3 seconds for 15 seconds",
+		"Value": 0
+	}
+]

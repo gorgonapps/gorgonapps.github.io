@@ -273,7 +273,9 @@
 		"Category": "GuideProgram",
 		"InternalName": "GuideCommands",
 		"IsClientLocal": false,
-		"Keywords": [],
+		"Keywords": [
+			"Lint_Hardcoded"
+		],
 		"Title": "Volunteer Guide Commands",
 		"Visibility": "HiddenUntilFound"
 	},
@@ -281,7 +283,9 @@
 		"Category": "GuideProgram",
 		"InternalName": "GuideGuide",
 		"IsClientLocal": false,
-		"Keywords": [],
+		"Keywords": [
+			"Lint_Hardcoded"
+		],
 		"Title": "Moderation Guidebook for Volunteer Guides",
 		"Visibility": "HiddenUntilFound"
 	},
@@ -450,7 +454,9 @@
 		"Category": "Gods",
 		"InternalName": "NecromancyIntro",
 		"IsClientLocal": true,
-		"Keywords": [],
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
 		"LocationHint": "Placed directly into Necromancers' minds",
 		"Text": "<h1>Commandments from Harukita</h1>\n\nThose who betray you.\n\nThose who defy you.\n\nThose who disappoint you.\n\nThose who belittle you.\n\nThey are your enemy, and I am your ally! If your hate is pure and strong, I will help you crush your enemies! You need simply make an offering to me.\n\nWith hate in your heart, strike someone down. \n\nWith a knife of pure ivory, cut them open and inscribe my symbols into their flesh. I will guide your blade. You will know what to do.\n\nTake their bodily fluids. Seek a graveyard at night.\n\nBathe in their blood and recite my words. I will guide your tongue. You will know what to say.\n\nMake offerings to me and you will be rewarded with power over the dead!\n\nWield my medallion, the gem of necromancy, to turn your hatred into raw destruction! Use this power to kill the living and destroy your foes!\n\nFail me in life, and you will serve me in death.",
 		"Title": "Commandments from Harukita",
@@ -582,5 +588,65 @@
 		"Text": "<h1>Horse Breeds: A Primer</h1> There are currently 10 known breeds of horses on Alharth, each with their own quirks and distinct appearances. While each breed excels at particular physical attributes, the world's leading geneticists speculate that any breed can be used for any purpose if bred correctly.\n\n<h1>The Breeds</h1>\n\n<b>Standardbred</b>: Hot-Blooded Riding horse. Standardbreds are from the Serbule region of Alharth, and are known for their solid coats and manes. They are quick with high Temperament, making them sometimes difficult to control. They are some of the most common horses.\n\n<b>Kurbone</b>: Cold-Blooded Draught horse. Hailing from the coldest reaches of the Kur Mountains, Kurbones are an exceptionally hardy horse that excels at carrying heavy loads unwaveringly across the land. They are known to have solid coats, though sometimes are patterned as well, and their lower legs always feature feathering.\n\n<b>Ilmarian</b>: Hot-Blooded Endurance-Riding horse. These pale horses are as quick as they are beautiful. They hail from the desert of Ilmari, where denizens use them to traverse the wide empty terrain. Their coats are most often gray to white, with manes to match.\n\n<b>Plateau Pony</b>: Cold-Blooded Pack-Riding horse. Small of stature but big of heart, these are some of the friendliest horses on Alharth. They are native to the Gazluk Plateau, where their small size helps them to traverse the rocky terrain with ease. They are often seen with patterned coats, but can be solid as well.\n\n<b>Satincoat</b>: Hot-Blooded Riding horse. It's unclear whether this horse originated on the Ranalon homeworld or in Sun Vale, but it's a mighty fine horse regardless. It is known for the distinctive sheen of its coat, which is always completely solid.\n\n<b>Statehelm</b>: Warm-Blooded Light-Draught horse. A jack of all trades, master of none, this horse is widely regarded and used across the land, and many speculate that it originates in Statehelm, hence the name. Its coat is sheer black, with markings of any kind being rare. Like the Kurbone, their legs always sport feathering.\n\n<b>Blanketed</b>: Warm-Blooded Riding horse. An even-keeled horse fit for riding. It is known for the distinct \"blanket\" coat pattern that drapes over its hind quarters.\n\n<b>Leopard</b>: Warm-Blooded Light-Draught horse. The rarer version of its blanketed cousin, this horse is covered head-to-toe in leopard-like spots.\n\n<b>Paint</b>: Warm-Blooded Endurance-Riding horse. A well-rounded horse that's great for beginners. This horse, known for its large white-spotted coat pattern and frequent face and leg markings, hails from the Eltibule region originally. Now, it can be found all across the land, as it's one of the most common horses.\n\n<b>???</b>: Scholars have reported a mysterious 10th breed of horse, but the best geneticists in the land are currently incapable of identifying it.",
 		"Title": "Horse Breeds: A Primer",
 		"Visibility": "HiddenUntilFound"
+	},
+	"155": {
+		"Category": "Gods",
+		"InternalName": "OnDealingWithRakshasaShips",
+		"IsClientLocal": false,
+		"Keywords": [
+			"AreaStatehelm",
+			"Lint_NotObtainable"
+		],
+		"LocationHint": "In Statehelm",
+		"Title": "On Dealing With Rakshasa Ships",
+		"Visibility": "GhostedUntilFound"
+	},
+	"156": {
+		"Category": "Gods",
+		"InternalName": "DiaryOfAFailedMaid",
+		"IsClientLocal": false,
+		"Keywords": [
+			"AreaStatehelm",
+			"Lint_NotObtainable"
+		],
+		"LocationHint": "In Statehelm",
+		"Title": "Diary of a Failed Maid",
+		"Visibility": "GhostedUntilFound"
+	},
+	"157": {
+		"Category": "History",
+		"InternalName": "TheDespairingPriest",
+		"IsClientLocal": false,
+		"Keywords": [
+			"AreaStatehelm",
+			"Lint_NotObtainable"
+		],
+		"LocationHint": "A dusty tome in Irasce's library",
+		"Title": "The Despairing Priest",
+		"Visibility": "GhostedUntilFound"
+	},
+	"158": {
+		"Category": "Gods",
+		"InternalName": "JacovinsPenis",
+		"IsClientLocal": false,
+		"Keywords": [
+			"AreaStatehelm",
+			"Lint_NotObtainable"
+		],
+		"LocationHint": "In Statehelm",
+		"Title": "Jacovin's Penis",
+		"Visibility": "GhostedUntilFound"
+	},
+	"159": {
+		"Category": "History",
+		"InternalName": "CommentaryOnTheAutumnFelling",
+		"IsClientLocal": false,
+		"Keywords": [
+			"AreaStatehelm",
+			"Lint_NotObtainable"
+		],
+		"LocationHint": "A dusty tome in Irasce's library",
+		"Title": "Commentary on the Autumn Felling",
+		"Visibility": "GhostedUntilFound"
 	}
 }

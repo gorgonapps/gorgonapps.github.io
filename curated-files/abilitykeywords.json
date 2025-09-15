@@ -6,7 +6,7 @@
 		"AttributesThatModCritDamage": [
 			"MOD_CRITICAL_HIT_DAMAGE_ANATOMY"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"AnatomyCriticals"
 		]
 	},
@@ -14,7 +14,7 @@
 		"AttributesThatModCritDamage": [
 			"MOD_CRITICAL_HIT_DAMAGE"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"PhrenologyCriticals"
 		]
 	},
@@ -34,7 +34,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_BASICATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"BasicAttack"
 		]
 	},
@@ -45,7 +45,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_BITE"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Bite"
 		]
 	},
@@ -59,7 +59,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_BURST"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Burst"
 		]
 	},
@@ -76,7 +76,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_COREATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"CoreAttack"
 		]
 	},
@@ -93,7 +93,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_EPICATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"EpicAttack"
 		]
 	},
@@ -104,7 +104,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_KICK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Kick"
 		]
 	},
@@ -112,7 +112,7 @@
 		"AttributesThatDeltaPowerCost": [
 			"ABILITY_COST_DELTA_MAJORHEAL"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"MajorHeal"
 		]
 	},
@@ -129,7 +129,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_MELEE"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Melee"
 		]
 	},
@@ -137,7 +137,7 @@
 		"AttributesThatDeltaPowerCost": [
 			"ABILITY_COST_DELTA_MINORHEAL"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"MinorHeal"
 		]
 	},
@@ -154,7 +154,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_NICEATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"NiceAttack"
 		]
 	},
@@ -168,7 +168,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_RANGED"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Ranged"
 		]
 	},
@@ -185,7 +185,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_SIGNATUREDEBUFF"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"SignatureDebuff"
 		]
 	},
@@ -193,7 +193,7 @@
 		"AttributesThatDeltaPowerCost": [
 			"ABILITY_COST_DELTA_SIGNATURESUPPORT"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"SignatureSupport"
 		]
 	},
@@ -204,7 +204,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_KEYWORD_SONIC"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Sonic"
 		]
 	},
@@ -212,10 +212,10 @@
 		"AttributesThatDeltaPowerCost": [
 			"NON_PSYCHIC_ABILITY_COST_DELTA"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"Attack"
 		],
-		"MustNotHaveKeywords": [
+		"MustNotHaveAbilityKeywords": [
 			"PsychicAttack"
 		]
 	},
@@ -226,7 +226,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_NICEPOISONATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"NiceAttack",
 			"PoisonAttack"
 		]
@@ -238,7 +238,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_NICEACIDATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"NiceAttack",
 			"AcidAttack"
 		]
@@ -250,7 +250,7 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_COREPOISONATTACK"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"CoreAttack",
 			"PoisonAttack"
 		]
@@ -265,8 +265,36 @@
 		"AttributesThatModDamage": [
 			"MOD_ABILITY_BARDBLAST"
 		],
-		"MustHaveKeywords": [
+		"MustHaveAbilityKeywords": [
 			"BardBlast"
+		]
+	},
+	{
+		"MustHaveAbilityKeywords": [
+			"Projectile",
+			"Attack"
+		],
+		"MustHaveActiveSkill": "Druid",
+		"MustHaveEffectKeywords": [
+			"TSysProjectilesDealPoisonDoT"
+		]
+	},
+	{
+		"MustHaveAbilityKeywords": [
+			"Burst",
+			"Attack"
+		],
+		"MustHaveActiveSkill": "Druid",
+		"MustHaveEffectKeywords": [
+			"TSysBurstsDealNatureDoT"
+		]
+	},
+	{
+		"MustHaveAbilityKeywords": [
+			"MajorHeal"
+		],
+		"MustHaveEffectKeywords": [
+			"ArisBloom"
 		]
 	}
 ]

@@ -3683,6 +3683,14 @@
 			}
 		]
 	},
+	"1204": {
+		"Entries": [
+			{
+				"Npc": "NPC_JustinSmoot",
+				"Type": "Training"
+			}
+		]
+	},
 	"12046": {
 		"Entries": [
 			{
@@ -5386,10 +5394,130 @@
 			}
 		]
 	},
+	"1260": {
+		"Entries": [
+			{
+				"QuestId": 29192,
+				"Type": "Quest"
+			}
+		]
+	},
+	"1261": {
+		"Entries": [
+			{
+				"Npc": "NPC_Korbok",
+				"Type": "Training"
+			}
+		]
+	},
+	"1262": {
+		"Entries": [
+			{
+				"Npc": "NPC_Korbok",
+				"Type": "Training"
+			}
+		]
+	},
+	"1263": {
+		"Entries": [
+			{
+				"Npc": "NPC_Korbok",
+				"Type": "Training"
+			}
+		]
+	},
+	"1264": {
+		"Entries": [
+			{
+				"ItemTypeId": 3227,
+				"Type": "Item"
+			}
+		]
+	},
+	"1265": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bogaku",
+				"Type": "Training"
+			}
+		]
+	},
+	"1266": {
+		"Entries": [
+			{
+				"Npc": "NPC_Bogaku",
+				"Type": "Training"
+			}
+		]
+	},
+	"1267": {
+		"Entries": [
+			{
+				"Npc": "NPC_JustinSmoot",
+				"Type": "Training"
+			}
+		]
+	},
+	"1268": {
+		"Entries": [
+			{
+				"Npc": "NPC_DevilleNeth",
+				"Type": "Training"
+			}
+		]
+	},
+	"1269": {
+		"Entries": [
+			{
+				"Npc": "NPC_DevilleNeth",
+				"Type": "Training"
+			}
+		]
+	},
 	"127": {
 		"Entries": [
 			{
 				"Npc": "NPC_Fainor",
+				"Type": "Training"
+			}
+		]
+	},
+	"1270": {
+		"Entries": [
+			{
+				"Npc": "NPC_DevilleNeth",
+				"Type": "Training"
+			}
+		]
+	},
+	"1271": {
+		"Entries": [
+			{
+				"Npc": "NPC_DevilleNeth",
+				"Type": "Training"
+			}
+		]
+	},
+	"1272": {
+		"Entries": [
+			{
+				"Npc": "NPC_DevilleNeth",
+				"Type": "Training"
+			}
+		]
+	},
+	"1273": {
+		"Entries": [
+			{
+				"Npc": "NPC_Selaxi",
+				"Type": "Training"
+			}
+		]
+	},
+	"1274": {
+		"Entries": [
+			{
+				"Npc": "NPC_DrummondStonecurl",
 				"Type": "Training"
 			}
 		]
@@ -15291,6 +15419,14 @@
 			}
 		]
 	},
+	"19182": {
+		"Entries": [
+			{
+				"Npc": "NPC_Yogzi",
+				"Type": "Training"
+			}
+		]
+	},
 	"192": {
 		"Entries": [
 			{
@@ -15368,6 +15504,38 @@
 			{
 				"Npc": "NPC_Yogzi",
 				"Type": "Training"
+			}
+		]
+	},
+	"19281": {
+		"Entries": [
+			{
+				"ItemTypeId": 3481,
+				"Type": "Item"
+			}
+		]
+	},
+	"19282": {
+		"Entries": [
+			{
+				"ItemTypeId": 3482,
+				"Type": "Item"
+			}
+		]
+	},
+	"19283": {
+		"Entries": [
+			{
+				"ItemTypeId": 3483,
+				"Type": "Item"
+			}
+		]
+	},
+	"19284": {
+		"Entries": [
+			{
+				"ItemTypeId": 3484,
+				"Type": "Item"
 			}
 		]
 	},
@@ -17395,6 +17563,22 @@
 			}
 		]
 	},
+	"214": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"215": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
 	"21501": {
 		"Entries": [
 			{
@@ -17560,6 +17744,22 @@
 			{
 				"Skill": "Race_Fae",
 				"Type": "Skill"
+			}
+		]
+	},
+	"216": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"217": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
 			}
 		]
 	},
@@ -18555,6 +18755,14 @@
 			}
 		]
 	},
+	"22641": {
+		"Entries": [
+			{
+				"Npc": "NPC_SerHackley",
+				"Type": "Training"
+			}
+		]
+	},
 	"23001": {
 		"Entries": []
 	},
@@ -18836,6 +19044,10 @@
 	"23118": {
 		"Entries": [
 			{
+				"Npc": "NPC_Alzaneth",
+				"Type": "Training"
+			},
+			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
 			}
@@ -18844,7 +19056,27 @@
 	"23119": {
 		"Entries": [
 			{
+				"Npc": "NPC_Alzaneth",
+				"Type": "Training"
+			},
+			{
 				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23120": {
+		"Entries": [
+			{
+				"Npc": "NPC_Alzaneth",
+				"Type": "Training"
+			}
+		]
+	},
+	"23121": {
+		"Entries": [
+			{
+				"Npc": "NPC_Alzaneth",
 				"Type": "Training"
 			}
 		]
@@ -19005,6 +19237,10 @@
 	"23301": {
 		"Entries": [
 			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			},
+			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
 			}
@@ -19012,6 +19248,10 @@
 	},
 	"23302": {
 		"Entries": [
+			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			},
 			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
@@ -19021,7 +19261,19 @@
 	"23303": {
 		"Entries": [
 			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			},
+			{
 				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			}
+		]
+	},
+	"23304": {
+		"Entries": [
+			{
+				"Npc": "NPC_GuzorHarrison",
 				"Type": "Training"
 			}
 		]
@@ -19375,6 +19627,94 @@
 			{
 				"Npc": "PoiGhostOrc2",
 				"Type": "Training"
+			}
+		]
+	},
+	"23851": {
+		"Entries": [
+			{
+				"QuestId": 29201,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23852": {
+		"Entries": [
+			{
+				"QuestId": 29201,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23853": {
+		"Entries": [
+			{
+				"QuestId": 29202,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23854": {
+		"Entries": [
+			{
+				"QuestId": 29203,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23855": {
+		"Entries": [
+			{
+				"QuestId": 29204,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23856": {
+		"Entries": [
+			{
+				"QuestId": 29205,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23857": {
+		"Entries": [
+			{
+				"QuestId": 29206,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23858": {
+		"Entries": [
+			{
+				"QuestId": 29207,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23859": {
+		"Entries": [
+			{
+				"QuestId": 29208,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23860": {
+		"Entries": [
+			{
+				"QuestId": 29209,
+				"Type": "Quest"
+			}
+		]
+	},
+	"23861": {
+		"Entries": [
+			{
+				"QuestId": 29210,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -20982,6 +21322,14 @@
 			}
 		]
 	},
+	"258": {
+		"Entries": [
+			{
+				"Npc": "NPC_Korbok",
+				"Type": "Training"
+			}
+		]
+	},
 	"26": {
 		"Entries": [
 			{
@@ -21079,6 +21427,30 @@
 			{
 				"ItemTypeId": 3029,
 				"Type": "Item"
+			}
+		]
+	},
+	"26013": {
+		"Entries": [
+			{
+				"Npc": "NPC_RebeccahTheWhisperer",
+				"Type": "Training"
+			}
+		]
+	},
+	"26014": {
+		"Entries": [
+			{
+				"Npc": "NPC_RebeccahTheWhisperer",
+				"Type": "Training"
+			}
+		]
+	},
+	"26015": {
+		"Entries": [
+			{
+				"Npc": "NPC_RebeccahTheWhisperer",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21362,6 +21734,22 @@
 			}
 		]
 	},
+	"26525": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26526": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
 	"26541": {
 		"Entries": [
 			{
@@ -21390,6 +21778,22 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Gorvessa",
+				"Type": "Training"
+			}
+		]
+	},
+	"26545": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26546": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
 				"Type": "Training"
 			}
 		]
@@ -21474,6 +21878,30 @@
 			}
 		]
 	},
+	"26669": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26670": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26671": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
 	"26676": {
 		"Entries": [
 			{
@@ -21534,6 +21962,30 @@
 		"Entries": [
 			{
 				"Npc": "NPC_Bendith",
+				"Type": "Training"
+			}
+		]
+	},
+	"26684": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26685": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26686": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
 				"Type": "Training"
 			}
 		]
@@ -21602,6 +22054,30 @@
 			}
 		]
 	},
+	"26699": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26700": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26701": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
 	"26708": {
 		"Entries": [
 			{
@@ -21623,6 +22099,14 @@
 			{
 				"Npc": "CandleMakingBook_Bacon",
 				"Type": "NpcGift"
+			}
+		]
+	},
+	"26714": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21650,6 +22134,14 @@
 			}
 		]
 	},
+	"26729": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
 	"26738": {
 		"Entries": [
 			{
@@ -21671,6 +22163,14 @@
 			{
 				"Npc": "CandleMakingBook_Sprint",
 				"Type": "NpcGift"
+			}
+		]
+	},
+	"26744": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
 			}
 		]
 	},
@@ -21706,6 +22206,14 @@
 			}
 		]
 	},
+	"26759": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
 	"26768": {
 		"Entries": [
 			{
@@ -21730,11 +22238,51 @@
 			}
 		]
 	},
+	"26774": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
+			}
+		]
+	},
+	"26777": {
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Fire",
+				"Type": "NpcGift"
+			}
+		]
+	},
+	"26779": {
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Fire",
+				"Type": "NpcGift"
+			}
+		]
+	},
 	"26781": {
 		"Entries": [
 			{
 				"Npc": "CandleMakingBook_Halloween",
 				"Type": "NpcGift"
+			}
+		]
+	},
+	"26783": {
+		"Entries": [
+			{
+				"Npc": "CandleMakingBook_Fire",
+				"Type": "NpcGift"
+			}
+		]
+	},
+	"26787": {
+		"Entries": [
+			{
+				"Npc": "NPC_ElectraBreakdawn",
+				"Type": "Training"
 			}
 		]
 	},
@@ -25956,6 +26504,10 @@
 	"619": {
 		"Entries": [
 			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			},
+			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
 			}
@@ -25972,8 +26524,36 @@
 	"620": {
 		"Entries": [
 			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			},
+			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
+			}
+		]
+	},
+	"621": {
+		"Entries": [
+			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			}
+		]
+	},
+	"622": {
+		"Entries": [
+			{
+				"Npc": "NPC_GuzorHarrison",
+				"Type": "Training"
+			}
+		]
+	},
+	"63": {
+		"Entries": [
+			{
+				"QuestId": 44145,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -26053,6 +26633,14 @@
 			}
 		]
 	},
+	"64": {
+		"Entries": [
+			{
+				"QuestId": 44146,
+				"Type": "Quest"
+			}
+		]
+	},
 	"640": {
 		"Entries": [
 			{
@@ -26122,6 +26710,10 @@
 			{
 				"Npc": "NPC_TrainerSphere2",
 				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_UnoraVeilmoor",
+				"Type": "Training"
 			}
 		]
 	},
@@ -26129,6 +26721,26 @@
 		"Entries": [
 			{
 				"Npc": "NPC_TrainerSphere2",
+				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_UnoraVeilmoor",
+				"Type": "Training"
+			}
+		]
+	},
+	"65": {
+		"Entries": [
+			{
+				"QuestId": 44147,
+				"Type": "Quest"
+			}
+		]
+	},
+	"650": {
+		"Entries": [
+			{
+				"Npc": "NPC_UnoraVeilmoor",
 				"Type": "Training"
 			}
 		]
@@ -26202,6 +26814,14 @@
 			{
 				"ItemTypeId": 3253,
 				"Type": "Item"
+			}
+		]
+	},
+	"651": {
+		"Entries": [
+			{
+				"Npc": "NPC_UnoraVeilmoor",
+				"Type": "Training"
 			}
 		]
 	},
@@ -26325,6 +26945,14 @@
 			}
 		]
 	},
+	"66": {
+		"Entries": [
+			{
+				"QuestId": 44148,
+				"Type": "Quest"
+			}
+		]
+	},
 	"6651": {
 		"Entries": [
 			{
@@ -26410,6 +27038,38 @@
 			{
 				"Npc": "NPC_Truxartis",
 				"Type": "Training"
+			}
+		]
+	},
+	"67": {
+		"Entries": [
+			{
+				"QuestId": 44149,
+				"Type": "Quest"
+			}
+		]
+	},
+	"68": {
+		"Entries": [
+			{
+				"QuestId": 44150,
+				"Type": "Quest"
+			}
+		]
+	},
+	"69": {
+		"Entries": [
+			{
+				"QuestId": 44151,
+				"Type": "Quest"
+			}
+		]
+	},
+	"70": {
+		"Entries": [
+			{
+				"QuestId": 44152,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -27099,6 +27759,14 @@
 			}
 		]
 	},
+	"71": {
+		"Entries": [
+			{
+				"QuestId": 44153,
+				"Type": "Quest"
+			}
+		]
+	},
 	"7101": {
 		"Entries": [
 			{
@@ -27192,6 +27860,30 @@
 			{
 				"Npc": "NPC_Yagreet",
 				"Type": "Training"
+			}
+		]
+	},
+	"7113": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"7114": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"72": {
+		"Entries": [
+			{
+				"QuestId": 44154,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -27292,6 +27984,14 @@
 			{
 				"ItemTypeId": 31955,
 				"Type": "Item"
+			}
+		]
+	},
+	"73": {
+		"Entries": [
+			{
+				"QuestId": 44155,
+				"Type": "Quest"
 			}
 		]
 	},
@@ -28252,6 +28952,54 @@
 			}
 		]
 	},
+	"7899": {
+		"Entries": [
+			{
+				"QuestId": 29161,
+				"Type": "Quest"
+			}
+		]
+	},
+	"7900": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"7901": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"7902": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"7903": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
+	"7904": {
+		"Entries": [
+			{
+				"Npc": "NPC_StromFarblood",
+				"Type": "Training"
+			}
+		]
+	},
 	"800": {
 		"Entries": [
 			{
@@ -28775,6 +29523,14 @@
 		]
 	},
 	"841": {
+		"Entries": [
+			{
+				"Skill": "Lore",
+				"Type": "Skill"
+			}
+		]
+	},
+	"846": {
 		"Entries": [
 			{
 				"Skill": "Lore",
@@ -29371,6 +30127,18 @@
 		"Entries": [
 			{
 				"Npc": "NPC_SuspiciousCow",
+				"Type": "Training"
+			}
+		]
+	},
+	"905": {
+		"Entries": [
+			{
+				"Npc": "NPC_JuliusPatton",
+				"Type": "Training"
+			},
+			{
+				"Npc": "NPC_Kelim",
 				"Type": "Training"
 			}
 		]

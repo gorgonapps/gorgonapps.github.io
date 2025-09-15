@@ -96,6 +96,18 @@
 			"AreaType": 2
 		}
 	},
+	"BoxOfSpace2": {
+		"Grouping": {
+			"AreaType": 0
+		},
+		"HasAssociatedNpc": false,
+		"ID": 116,
+		"NpcFriendlyName": "Large Box of Space",
+		"NumberOfSlots": 0,
+		"StorageArea": {
+			"AreaType": 2
+		}
+	},
 	"CouncilVault": {
 		"Grouping": {
 			"AreaType": 0

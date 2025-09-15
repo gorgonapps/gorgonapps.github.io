@@ -2,8 +2,18 @@
 	"Alchemy": {
 		"AdvancementHints": [
 			{
-				"Hint": "To earn more XP in Alchemy, defeat a fabled dragon of yore.",
-				"Level": 50
+				"Hint": "To earn more XP in Alchemy, defeat a fabled dragon of yore, or gain favor with Strom Farblood in Statehelm.",
+				"Level": 50,
+				"Npcs": [
+					"NPC_StromFarblood"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Alchemy, gain favor with Strom Farblood in Statehelm.",
+				"Level": 60,
+				"Npcs": [
+					"NPC_StromFarblood"
+				]
 			}
 		],
 		"Combat": false,
@@ -101,6 +111,14 @@
 					"PoisonBlade5"
 				],
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "FireMagic",
+				"Level": 60
+			},
+			{
+				"BonusToSkill": "BattleChemistry",
+				"Level": 70
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"
@@ -209,12 +227,24 @@
 				"Level": 30
 			},
 			{
+				"BonusToSkill": "FirstAid",
+				"Level": 35
+			},
+			{
 				"BonusToSkill": "ArmorPatching",
 				"Level": 40
 			},
 			{
 				"BonusToSkill": "ShamanicInfusion",
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "FirstAid",
+				"Level": 65
+			},
+			{
+				"BonusToSkill": "FirstAid",
+				"Level": 95
 			}
 		],
 		"XpTable": "None"
@@ -288,6 +318,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -426,6 +459,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Bears": {
@@ -558,6 +594,9 @@
 				"Level": 50,
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -701,6 +740,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Cats": {
@@ -834,6 +876,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Constructs": {
@@ -905,6 +950,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -978,6 +1026,9 @@
 				"Notes": "See Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Demons": {
@@ -1049,6 +1100,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1179,6 +1233,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Dwarves": {
@@ -1250,6 +1307,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1324,6 +1384,9 @@
 				"Notes": "See Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Elves": {
@@ -1395,6 +1458,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1475,6 +1541,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1609,9 +1678,13 @@
 				"Notes": "Skinning yields exotic items: +2% (total 14%)"
 			},
 			{
+				"BonusToSkill": "Angling",
 				"Level": 50,
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1685,6 +1758,9 @@
 				"Notes": "See Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Giants": {
@@ -1757,6 +1833,9 @@
 				"Notes": "See Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Goblins": {
@@ -1828,6 +1907,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1904,6 +1986,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -1985,6 +2070,9 @@
 				"Notes": "See Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Orcs": {
@@ -2056,6 +2144,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -2139,6 +2230,9 @@
 				"Notes": "See Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Rakshasa": {
@@ -2210,6 +2304,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -2339,6 +2436,9 @@
 				"Level": 50,
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -2477,6 +2577,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Ruminants": {
@@ -2610,6 +2713,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"Anatomy_Undead": {
@@ -2689,6 +2795,9 @@
 				"Level": 50,
 				"Notes": "See Advanced Combat Info"
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkill"
 	},
@@ -2820,6 +2929,9 @@
 				"Notes": "Skinning yields a trophy skin: +1% (total 5%)\nSee Advanced Combat Info"
 			}
 		],
+		"XpEarnedAttributes": [
+			"ANATOMY_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkill"
 	},
 	"AncillaryArmorAugmentBrewing": {
@@ -2937,6 +3049,13 @@
 				"Npcs": [
 					"NPC_EngineerCrall"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Angling, gain favor with Justin Smoot in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_JustinSmoot"
+				]
 			}
 		],
 		"Combat": true,
@@ -3031,6 +3150,9 @@
 				"BonusToSkill": "Fishing",
 				"Level": 75
 			}
+		],
+		"XpEarnedAttributes": [
+			"ANGLING_XP_EARNED_MOD"
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
@@ -3465,6 +3587,13 @@
 				"Npcs": [
 					"NPC_Crelpin"
 				]
+			},
+			{
+				"Hint": "To earn more XP in Animal Husbandry, gain favor with Pitre Ferrence in Vidaria.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_PitreFerrence"
+				]
 			}
 		],
 		"Combat": false,
@@ -3511,8 +3640,12 @@
 		"PassiveAdvancementTable": "BonusStableSlots",
 		"Rewards": [
 			{
+				"Level": 5,
+				"Notes": "+1 Simultaneous Breeding Attempt"
+			},
+			{
 				"Level": 10,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"Level": 12,
@@ -3528,7 +3661,7 @@
 			},
 			{
 				"Level": 20,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"Level": 23,
@@ -3544,7 +3677,7 @@
 			},
 			{
 				"Level": 30,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"Level": 35,
@@ -3556,7 +3689,7 @@
 			},
 			{
 				"Level": 40,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"Level": 45,
@@ -3565,11 +3698,11 @@
 			{
 				"BonusToSkill": "AnimalHandling",
 				"Level": 50,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"Level": 60,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"Level": 65,
@@ -3577,7 +3710,7 @@
 			},
 			{
 				"Level": 70,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
 			},
 			{
 				"BonusToSkill": "AnimalHandling",
@@ -3585,7 +3718,11 @@
 			},
 			{
 				"Level": 80,
-				"Notes": "+1 Stable Slot"
+				"Notes": "-5% Animal Registration Fee\n+1% to Mating Success"
+			},
+			{
+				"Level": 90,
+				"Notes": "+1 Simultaneous Breeding Attempt\n-5% Animal Registration Fee\n+1% to Mating Success"
 			}
 		],
 		"XpTable": "AnimalHusbandry"
@@ -5026,10 +5163,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Battle Chemistry, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Battle Chemistry, gain favor with a mysterious entity deep beneath Povus, or Strom Farblood in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_StromFarblood"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Battle Chemistry, gain favor with Strom Farblood in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_StromFarblood"
 				]
 			}
 		],
@@ -5536,8 +5681,20 @@
 		],
 		"Rewards": [
 			{
+				"BonusToSkill": "Sword",
+				"Level": 25
+			},
+			{
+				"BonusToSkill": "Sword",
+				"Level": 50
+			},
+			{
 				"BonusToSkill": "Calligraphy",
 				"Level": 60
+			},
+			{
+				"BonusToSkill": "Sword",
+				"Level": 75
 			},
 			{
 				"BonusToSkill": "Calligraphy",
@@ -5625,6 +5782,13 @@
 				"Level": 80,
 				"Npcs": [
 					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Brewing, gain favor with Paullus, who is sometimes in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_Paullus,whoissometimes"
 				]
 			}
 		],
@@ -5872,10 +6036,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Butchering, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Butchering, gain favor with a mysterious entity deep beneath Povus, or Farsight Flemmings in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_FarsightFlemmings"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Butchering, gain favor with Farsight Flemmings in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_FarsightFlemmings"
 				]
 			}
 		],
@@ -5946,6 +6118,9 @@
 				"BonusToSkill": "Vampirism",
 				"Level": 65
 			}
+		],
+		"XpEarnedAttributes": [
+			"BUTCHERING_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkillExt"
 	},
@@ -6219,6 +6394,10 @@
 			{
 				"BonusToSkill": "SigilScripting",
 				"Level": 60
+			},
+			{
+				"BonusToSkill": "Sword",
+				"Level": 75
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"
@@ -6244,6 +6423,20 @@
 				"Level": 70,
 				"Npcs": [
 					"NPC_BendiththeBanished"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Candle Making, gain favor with Electra Breakdwon in Statehelm.",
+				"Level": 80,
+				"Npcs": [
+					"NPC_ElectraBreakdwon"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Candle Making, gain favor with Electra Breakdwon in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_ElectraBreakdwon"
 				]
 			}
 		],
@@ -6388,6 +6581,10 @@
 			{
 				"BonusToSkill": "FireMagic",
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "BattleChemistry",
+				"Level": 60
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill"
@@ -6651,7 +6848,21 @@
 		"Parents": [],
 		"PassiveAdvancementTable": "CivicPride",
 		"Rewards": [],
+		"XpEarnedAttributes": [
+			"CIVICPRIDE_XP_EARNED_MOD"
+		],
 		"XpTable": "CivicPride"
+	},
+	"CivilEngineering": {
+		"Combat": false,
+		"Description": "Covers many types of engineering used in city maintenance and construction. It also covers park management.",
+		"GuestLevelCap": 15,
+		"Id": 180,
+		"MaxBonusLevels": 25,
+		"Name": "Civil Engineering",
+		"Parents": [],
+		"Rewards": [],
+		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Compassion": {
 		"Combat": false,
@@ -6705,6 +6916,9 @@
 				"Level": 50
 			}
 		],
+		"XpEarnedAttributes": [
+			"COMPASSION_XP_EARNED_MOD"
+		],
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Cooking": {
@@ -6731,10 +6945,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Cooking, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Cooking, gain favor with a mysterious entity deep beneath Povus, or Deville Neth in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_DevilleNeth"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Cooking, gain favor with Deville Neth in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_DevilleNeth"
 				]
 			}
 		],
@@ -6829,7 +7051,7 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Corpse Talking, seek out a priest in Gazluk.",
+				"Hint": "To earn more XP in Corpse Talking, seek out a priest in Gazluk, or a paleontologist in Povus.",
 				"Level": 60,
 				"Npcs": [
 					"NPC_apriest"
@@ -6883,6 +7105,9 @@
 				"Level": 25
 			}
 		],
+		"XpEarnedAttributes": [
+			"CORPSETALKING_XP_EARNED_MOD"
+		],
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"Cow": {
@@ -6910,8 +7135,16 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Cow, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Cow, gain favor with a mysterious entity deep beneath Povus or a mysterious entity in Vidaria.",
 				"Level": 80,
+				"Npcs": [
+					"NPC_amysteriousentitydeepbeneathPovus",
+					"NPC_amysteriousentity"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Cow, gain favor with a mysterious entity in Vidaria.",
+				"Level": 90,
 				"Npcs": [
 					"NPC_amysteriousentity"
 				]
@@ -7137,6 +7370,10 @@
 					"CollectMilk3"
 				],
 				"Level": 52
+			},
+			{
+				"BonusToSkill": "Unarmed",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -7554,6 +7791,10 @@
 			{
 				"BonusToSkill": "Druid",
 				"Level": 61
+			},
+			{
+				"BonusToSkill": "Unarmed",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -8147,6 +8388,10 @@
 				"Level": 55
 			},
 			{
+				"BonusToSkill": "Unarmed",
+				"Level": 60
+			},
+			{
 				"BonusToSkill": "Riding",
 				"Level": 75
 			}
@@ -8390,10 +8635,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Fire Magic, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Fire Magic, gain favor with a mysterious entity deep beneath Povus, or Guzor Harrison in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_GuzorHarrison"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Fire Magic, gain favor with Guzor Harrison in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_GuzorHarrison"
 				]
 			}
 		],
@@ -8441,6 +8694,10 @@
 				"Notes": "Access to new research recipe"
 			},
 			{
+				"Level": 5,
+				"Notes": "Access to new research recipe"
+			},
+			{
 				"Level": 10,
 				"Notes": "Access to new research recipe"
 			},
@@ -8480,10 +8737,6 @@
 				]
 			},
 			{
-				"Level": 5,
-				"Notes": "Access to new research recipe"
-			},
-			{
 				"BonusToSkill": "IceMagic",
 				"Level": 39
 			},
@@ -8517,7 +8770,36 @@
 			},
 			{
 				"BonusToSkill": "IceMagic",
-				"Level": 65
+				"Level": 65,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 70,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 75,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 80,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 85,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 90,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 95,
+				"Notes": "Access to new research recipe"
+			},
+			{
+				"Level": 100,
+				"Notes": "Access to new research recipe"
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -8566,10 +8848,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in First Aid, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in First Aid, gain favor with a mysterious entity deep beneath Povus, or Sir Hughes in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_SirHughes"
+				]
+			},
+			{
+				"Hint": "To earn more XP in First Aid, gain favor with Sir Hughes in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_SirHughes"
 				]
 			}
 		],
@@ -8697,10 +8987,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Fishing, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Fishing, gain favor with a mysterious entity deep beneath Povus, or Justin Smoot in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_JustinSmoot"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Fishing, gain favor with Justin Smoot in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_JustinSmoot"
 				]
 			}
 		],
@@ -8815,6 +9113,14 @@
 			{
 				"BonusToSkill": "Knife",
 				"Level": 65
+			},
+			{
+				"BonusToSkill": "Angling",
+				"Level": 70
+			},
+			{
+				"BonusToSkill": "Angling",
+				"Level": 100
 			}
 		],
 		"XpTable": "GatheringSkill"
@@ -9330,6 +9636,10 @@
 				"Level": 50
 			},
 			{
+				"BonusToSkill": "Angling",
+				"Level": 53
+			},
+			{
 				"BonusToSkill": "Mycology",
 				"Level": 55
 			},
@@ -9344,6 +9654,10 @@
 			{
 				"BonusToSkill": "WeatherWitching",
 				"Level": 70
+			},
+			{
+				"BonusToSkill": "Angling",
+				"Level": 80
 			}
 		],
 		"XpTable": "GatheringSkill"
@@ -9405,6 +9719,10 @@
 			{
 				"BonusToSkill": "Crossbow",
 				"Level": 45
+			},
+			{
+				"BonusToSkill": "BattleChemistry",
+				"Level": 50
 			},
 			{
 				"BonusToSkill": "Toolcrafting",
@@ -9482,6 +9800,9 @@
 				"Level": 49,
 				"Notes": "Improved Gaming Intuition (Monsters and Mantids)"
 			}
+		],
+		"XpEarnedAttributes": [
+			"GAMING_XP_EARNED_MOD"
 		],
 		"XpTable": "Gaming"
 	},
@@ -9681,7 +10002,20 @@
 		"MaxBonusLevels": 125,
 		"Name": "Genetics",
 		"Parents": [],
-		"Rewards": [],
+		"Rewards": [
+			{
+				"Level": 5,
+				"Notes": "+1 Simultaneous Breeding Attempt"
+			},
+			{
+				"Level": 20,
+				"Notes": "+1 Simultaneous Breeding Attempt"
+			},
+			{
+				"Level": 40,
+				"Notes": "+1 Simultaneous Breeding Attempt"
+			}
+		],
 		"XpTable": "None"
 	},
 	"Genetics_Arthropods": {
@@ -9698,10 +10032,6 @@
 			{
 				"BonusToSkill": "Genetics",
 				"Level": 1
-			},
-			{
-				"BonusToSkill": "Genetics",
-				"Level": 5
 			},
 			{
 				"BonusToSkill": "Genetics",
@@ -9783,6 +10113,9 @@
 				"Level": 100
 			}
 		],
+		"XpEarnedAttributes": [
+			"GENETICS_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Genetics_Cats": {
@@ -9796,6 +10129,9 @@
 			"Genetics"
 		],
 		"Rewards": [],
+		"XpEarnedAttributes": [
+			"GENETICS_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Genetics_Ruminants": {
@@ -9809,6 +10145,9 @@
 			"Genetics"
 		],
 		"Rewards": [],
+		"XpEarnedAttributes": [
+			"GENETICS_XP_EARNED_MOD"
+		],
 		"XpTable": "CorpseActionSkillExt"
 	},
 	"Genetics_Ungulates": {
@@ -9825,10 +10164,6 @@
 			{
 				"BonusToSkill": "Genetics",
 				"Level": 1
-			},
-			{
-				"BonusToSkill": "Genetics",
-				"Level": 5
 			},
 			{
 				"BonusToSkill": "Genetics",
@@ -9906,6 +10241,9 @@
 				"BonusToSkill": "Genetics",
 				"Level": 100
 			}
+		],
+		"XpEarnedAttributes": [
+			"GENETICS_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkillExt"
 	},
@@ -10279,6 +10617,10 @@
 			{
 				"BonusToSkill": "Vampirism",
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "Unarmed",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -10891,6 +11233,10 @@
 			{
 				"BonusToSkill": "Werewolf",
 				"Level": 25
+			},
+			{
+				"BonusToSkill": "Werewolf",
+				"Level": 50
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill_CappedAt50"
@@ -10905,7 +11251,12 @@
 		"Parents": [
 			"IceMagic"
 		],
-		"Rewards": [],
+		"Rewards": [
+			{
+				"BonusToSkill": "IceMagic",
+				"Level": 25
+			}
+		],
 		"XpTable": "AuxCraftingSkill"
 	},
 	"IceMagic": {
@@ -10933,10 +11284,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Ice Magic, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Ice Magic, gain favor with a mysterious entity deep beneath Povus, or Unora Veilmoor in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_UnoraVeilmoor"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Ice Magic, gain favor with Unora Veilmoor in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_UnoraVeilmoor"
 				]
 			}
 		],
@@ -10979,6 +11338,17 @@
 		"MaxBonusLevels": 25,
 		"Name": "Ice Magic",
 		"Rewards": [
+			{
+				"Level": 100,
+				"Notes": "Access to new research recipe",
+				"Races": [
+					"Human",
+					"Elf",
+					"Rakshasa",
+					"Orc",
+					"Dwarf"
+				]
+			},
 			{
 				"Abilities": [
 					"Ice_ColdProtection2"
@@ -11800,12 +12170,14 @@
 				"Abilities": [
 					"Ice_ColdProtection9"
 				],
+				"BonusToSkill": "FireMagic",
 				"Level": 80,
 				"Races": [
 					"Fae"
 				]
 			},
 			{
+				"BonusToSkill": "FireMagic",
 				"Level": 80,
 				"Notes": "Access to new research recipe",
 				"Races": [
@@ -11919,6 +12291,17 @@
 				]
 			},
 			{
+				"Level": 90,
+				"Notes": "Access to new research recipe",
+				"Races": [
+					"Human",
+					"Elf",
+					"Rakshasa",
+					"Orc",
+					"Dwarf"
+				]
+			},
+			{
 				"Abilities": [
 					"Ice_ColdProtection10"
 				],
@@ -11961,6 +12344,17 @@
 				"Level": 95,
 				"Races": [
 					"Fae"
+				]
+			},
+			{
+				"Level": 95,
+				"Notes": "Access to new research recipe",
+				"Races": [
+					"Human",
+					"Elf",
+					"Rakshasa",
+					"Orc",
+					"Dwarf"
 				]
 			}
 		],
@@ -12255,6 +12649,10 @@
 			{
 				"BonusToSkill": "FlowerArrangement",
 				"Level": 60
+			},
+			{
+				"BonusToSkill": "FireMagic",
+				"Level": 70
 			}
 		],
 		"XpTable": "TypicalNoncombatSkill_FastTo50"
@@ -12819,6 +13217,10 @@
 			{
 				"Level": 9,
 				"Recipe": "WordOfPower5"
+			},
+			{
+				"Level": 19,
+				"Recipe": "WordOfPower6"
 			}
 		],
 		"XpTable": "Lore"
@@ -13363,6 +13765,17 @@
 		],
 		"XpTable": "TypicalCombatSkill"
 	},
+	"Milling": {
+		"Combat": false,
+		"Description": "Skill in properly operating a grainmill.",
+		"GuestLevelCap": 15,
+		"Id": 178,
+		"MaxBonusLevels": 25,
+		"Name": "Milling",
+		"Parents": [],
+		"Rewards": [],
+		"XpTable": "TypicalNoncombatSkill_CappedAt50"
+	},
 	"Mining": {
 		"AdvancementHints": [
 			{
@@ -13584,10 +13997,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Mycology, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Mycology, gain favor with a mysterious entity deep beneath Povus or Strom Farblood in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus",
+					"NPC_StromFarblood"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Mycology, gain favor with Strom Farblood in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_StromFarblood"
 				]
 			}
 		],
@@ -13664,6 +14085,10 @@
 			{
 				"BonusToSkill": "Pig",
 				"Level": 65
+			},
+			{
+				"BonusToSkill": "BattleChemistry",
+				"Level": 80
 			}
 		],
 		"XpTable": "GatheringSkill"
@@ -13851,10 +14276,17 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Necromancy, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Necromancy, gain favor with Fransesca Muradrake in Statehelm, or a mysterious entity deep beneath Povus.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_FransescaMuradrake"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Necromancy, gain favor with Fransesca Muradrake in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_FransescaMuradrake"
 				]
 			}
 		],
@@ -14419,6 +14851,10 @@
 				"Level": 35
 			},
 			{
+				"BonusToSkill": "Angling",
+				"Level": 38
+			},
+			{
 				"BonusToSkill": "Phrenology_Orcs",
 				"Level": 40
 			},
@@ -14509,10 +14945,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Pathology, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Pathology, gain favor with a mysterious entity deep beneath Povus, or Farsight Flemmings in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_FarsightFlemmings"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Pathology, gain favor with Farsight Flemmings in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_FarsightFlemmings"
 				]
 			}
 		],
@@ -14572,6 +15016,9 @@
 				"BonusToSkill": "Priest",
 				"Level": 55
 			}
+		],
+		"XpEarnedAttributes": [
+			"PATHOLOGY_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkillExt"
 	},
@@ -16386,6 +16833,14 @@
 			{
 				"BonusToSkill": "Priest",
 				"Level": 55
+			},
+			{
+				"BonusToSkill": "Werewolf",
+				"Level": 70
+			},
+			{
+				"BonusToSkill": "Unarmed",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -16827,10 +17282,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Psychology, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Psychology, gain favor with a mysterious entity deep beneath Povus, or Cynthia Rolfe in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_CynthiaRolfe"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Psychology, gain favor with Cynthia Rolfe in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_CynthiaRolfe"
 				]
 			}
 		],
@@ -17361,6 +17824,14 @@
 					"RabbitScratch6"
 				],
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "Werewolf",
+				"Level": 70
+			},
+			{
+				"BonusToSkill": "Unarmed",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [
@@ -17610,6 +18081,9 @@
 		],
 		"PassiveAdvancementTable": "Racing",
 		"Rewards": [],
+		"XpEarnedAttributes": [
+			"RACING_XP_EARNED_MOD"
+		],
 		"XpTable": "TypicalNoncombatSkill"
 	},
 	"RetailManagement": {
@@ -17778,6 +18252,9 @@
 				"Level": 70
 			}
 		],
+		"XpEarnedAttributes": [
+			"RIDING_XP_EARNED_MOD"
+		],
 		"XpTable": "Riding"
 	},
 	"Saddlery": {
@@ -17912,6 +18389,9 @@
 				"BonusToSkill": "Psychology",
 				"Level": 50
 			}
+		],
+		"XpEarnedAttributes": [
+			"SAFECRACKING_XP_EARNED_MOD"
 		],
 		"XpTable": "Lore"
 	},
@@ -18676,6 +19156,9 @@
 				"BonusToSkill": "ShamanicInfusion",
 				"Level": 70
 			}
+		],
+		"XpEarnedAttributes": [
+			"SKINNING_XP_EARNED_MOD"
 		],
 		"XpTable": "CorpseActionSkillExt"
 	},
@@ -19722,6 +20205,10 @@
 					"ToughenUp6"
 				],
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "Rabbit",
+				"Level": 60
 			}
 		],
 		"XpTable": "AuxCombatSkill"
@@ -19751,6 +20238,10 @@
 			{
 				"BonusToSkill": "Bladesmithing",
 				"Level": 30
+			},
+			{
+				"BonusToSkill": "Angling",
+				"Level": 40
 			}
 		],
 		"XpTable": "AuxCraftingSkill"
@@ -19780,10 +20271,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Sword, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Sword, gain favor with a mysterious entity deep beneath Povus, or Sir Brooker in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_SirBrooker"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Sword, gain favor with Sir Brooker in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_SirBrooker"
 				]
 			}
 		],
@@ -20565,10 +21064,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Unarmed, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Unarmed, gain favor with a mysterious entity deep beneath Povus or Sir Hughes in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus",
+					"NPC_SirHughes"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Unarmed, gain favor with Sir Hughes in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_SirHughes"
 				]
 			}
 		],
@@ -20811,6 +21318,17 @@
 			"Werewolf"
 		],
 		"XpTable": "TypicalCombatSkill"
+	},
+	"UrbanExpression": {
+		"Combat": false,
+		"Description": "Skill in creating urban art, such as graffiti and street art.",
+		"GuestLevelCap": 15,
+		"Id": 179,
+		"MaxBonusLevels": 25,
+		"Name": "Urban Expression",
+		"Parents": [],
+		"Rewards": [],
+		"XpTable": "TypicalNoncombatSkill_CappedAt50"
 	},
 	"Vampirism": {
 		"ActiveAdvancementTable": "Vampirism",
@@ -21132,6 +21650,10 @@
 				"Level": 49
 			},
 			{
+				"BonusToSkill": "Necromancy",
+				"Level": 50
+			},
+			{
 				"Abilities": [
 					"OverwhelmingBite6"
 				],
@@ -21401,10 +21923,18 @@
 				]
 			},
 			{
-				"Hint": "To earn more XP in Weather Witching, gain favor with a mysterious entity deep beneath Povus.",
+				"Hint": "To earn more XP in Weather Witching, gain favor with a mysterious entity deep beneath Povus, or Alzaneth in Statehelm.",
 				"Level": 80,
 				"Npcs": [
-					"NPC_amysteriousentity"
+					"NPC_amysteriousentitydeepbeneathPovus,",
+					"NPC_Alzaneth"
+				]
+			},
+			{
+				"Hint": "To earn more XP in Weather Witching, gain favor with Alzaneth in Statehelm.",
+				"Level": 90,
+				"Npcs": [
+					"NPC_Alzaneth"
 				]
 			}
 		],
@@ -21666,6 +22196,10 @@
 					"ShadowFeint3"
 				],
 				"Level": 50
+			},
+			{
+				"BonusToSkill": "Unarmed",
+				"Level": 75
 			}
 		],
 		"TSysCompatibleCombatSkills": [

@@ -5517,6 +5517,74 @@
 		],
 		"Name": "MushroomTurretCold"
 	},
+	"1152": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_COLD",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_FIRE",
+						"Value": -1
+					},
+					{
+						"Attribute": "VULN_NATURE",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_POISON",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_PSYCHIC",
+						"Value": -0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "Steak"
+	},
+	"1153": {
+		"Levels": [
+			{
+				"Attributes": [
+					{
+						"Attribute": "VULN_COLD",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_CRUSHING",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_FIRE",
+						"Value": -0.25
+					},
+					{
+						"Attribute": "VULN_NATURE",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_PIERCING",
+						"Value": 0.25
+					},
+					{
+						"Attribute": "VULN_POISON",
+						"Value": -0.5
+					},
+					{
+						"Attribute": "VULN_SLASHING",
+						"Value": 0.25
+					}
+				],
+				"Level": 1
+			}
+		],
+		"Name": "FaeDragon"
+	},
 	"11": {
 		"Levels": [
 			{
