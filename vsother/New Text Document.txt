@@ -1,1 +1,1 @@
-c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional
+C:\VSOffline\vs_Professional.exe --config C:\path\to\your.vsconfig --noWeb
