@@ -1,0 +1,560 @@
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/CustomUIEditMenuInteractionDelegate.cs b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/CustomUIEditMenuInteractionDelegate.cs
+new file mode 100644
+index 00000000..b77574c5
+--- /dev/null
++++ b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/CustomUIEditMenuInteractionDelegate.cs
+@@ -0,0 +1,81 @@
++﻿namespace Viewer.Shared.MauiHybridWebView
++{
++    using System.Diagnostics;
++    using System.Drawing;
++    using System.Globalization;
++    using System.Net;
++    using System.Runtime.Versioning;
++    using System.Text;
++    using CoreGraphics;
++    using Foundation;
++    using Microsoft.Maui.Handlers;
++    using Microsoft.Maui.Platform;
++    using ObjCRuntime;
++    using UIKit;
++    using Viewer.Common;
++    using Viewer.Common.Dependencies;
++    using Viewer.Common.Interfaces;
++    using Viewer.Common.Tools;
++    using Viewer.DataAccess.Interfaces;
++    using Viewer.Model;
++    using Viewer.Model.ApiClient;
++    using Viewer.Platforms.Helpers;
++    using Viewer.ServerAPI;
++    using Viewer.Services;
++    using WebKit;
++    using OperatingSystem = System.OperatingSystem;
++
++    /// <summary>
++    /// Represents a custom UI interaction delegate.
++    /// </summary>
++    public class CustomUIEditMenuInteractionDelegate : UIEditMenuInteractionDelegate
++    {
++        private Stopwatch _stopwatch = Stopwatch.StartNew();
++        private TimeSpan _lastPresentationTime;
++
++        /// <summary>
++        /// Gets or sets the custom menu items.
++        /// </summary>
++        public List<(string Title, EventHandler<string> Handler)> ContextMenuItems { get; set; } = [];
++
++        /// <summary>
++        /// Gets or sets the selected text.
++        /// </summary>
++        public string SelectedText { get; set; } = string.Empty;
++
++        /// <summary>
++        /// Checks whether the custom UI interaction (custom menu) was presented recently.
++        /// </summary>
++        public bool IsRecentlyPresented()
++        {
++            return _lastPresentationTime != default && _stopwatch.Elapsed < _lastPresentationTime + TimeSpan.FromSeconds(1);
++        }
++
++        /// <inheritdoc />
++        public override UIMenu? GetMenu(UIEditMenuInteraction interaction,
++                                        UIEditMenuConfiguration configuration,
++                                        UIMenuElement[] suggestedActions)
++        {
++            try
++            {
++                _lastPresentationTime = _stopwatch.Elapsed;
++
++                List<UIMenuElement> actions = new(suggestedActions);
++                foreach (var menuItem in ContextMenuItems)
++                {
++                    actions.Add(UIAction.Create(menuItem.Title, null, null, (action) => { menuItem.Handler.Invoke(this, SelectedText); }));
++                }
++
++                UIMenu contextMenu = UIMenu.Create("ContextMenu", null, UIMenuIdentifier.Document, UIMenuOptions.DisplayInline, actions.ToArray());
++                UIMenu menu = UIMenu.Create(children: [contextMenu]);
++
++                return menu;
++            }
++            catch (System.Exception exc)
++            {
++                Console.WriteLine(exc.Message);
++                throw;
++            }
++        }
++    }
++}
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/CustomWebView.cs b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/CustomWebView.cs
+new file mode 100644
+index 00000000..bf91f725
+--- /dev/null
++++ b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/CustomWebView.cs
+@@ -0,0 +1,61 @@
++﻿namespace Viewer.Shared.MauiHybridWebView
++{
++    using System.Diagnostics;
++    using System.Drawing;
++    using System.Globalization;
++    using System.Net;
++    using System.Runtime.Versioning;
++    using System.Text;
++    using CoreGraphics;
++    using Foundation;
++    using Microsoft.Maui.Handlers;
++    using Microsoft.Maui.Platform;
++    using ObjCRuntime;
++    using UIKit;
++    using Viewer.Common;
++    using Viewer.Common.Dependencies;
++    using Viewer.Common.Interfaces;
++    using Viewer.Common.Tools;
++    using Viewer.DataAccess.Interfaces;
++    using Viewer.Model;
++    using Viewer.Model.ApiClient;
++    using Viewer.Platforms.Helpers;
++    using Viewer.ServerAPI;
++    using Viewer.Services;
++    using WebKit;
++    using OperatingSystem = System.OperatingSystem;
++
++    /// <summary>
++    /// Represents a custom Maui Web View.
++    /// </summary>
++    public class CustomWebView : MauiWKWebView
++    {
++        private CustomUIEditMenuInteractionDelegate _interactionDelegate;
++
++        /// <summary>
++        /// Initializes a new instance of the <see cref="CustomWebView"/> class.
++        /// </summary>
++        /// <param name="interactionDelegate">The interaction delegate.</param>
++        /// <param name="frame">The frame.</param>
++        /// <param name="handler">The handler.</param>
++        /// <param name="configuration">The configuration.</param>
++        public CustomWebView(CustomUIEditMenuInteractionDelegate interactionDelegate,
++                             CGRect frame,
++                             WebViewHandler handler,
++                             WKWebViewConfiguration configuration)
++            : base(frame, handler, configuration)
++        {
++            _interactionDelegate = interactionDelegate;
++        }
++
++        /// <inheritdoc />
++        public override bool CanPerform(Selector action, NSObject? withSender)
++        {
++            // If we recently presented a different menu, do not allow the default menu to ovrwrite it.
++            if (_interactionDelegate.IsRecentlyPresented())
++                return false;
++
++            return base.CanPerform(action, withSender);
++        }
++    }
++}
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebView.iOS.cs b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebView.iOS.cs
+index b43a494c..1a1f7c00 100644
+--- a/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebView.iOS.cs
++++ b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebView.iOS.cs
+@@ -1,11 +1,14 @@
+-﻿using Foundation;
+-using Viewer.Common.Interfaces;
+-using Viewer.Platforms.Helpers;
+-using WebKit;
+-
+-namespace Viewer.Shared.MauiHybridWebView
++﻿namespace Viewer.Shared.MauiHybridWebView
+ {
+-    partial class HybridWebView
++    using Foundation;
++    using Viewer.Common.Interfaces;
++    using Viewer.Platforms.Helpers;
++    using WebKit;
++
++    /// <summary>
++    /// Represents an hybrid web view.
++    /// </summary>
++    public partial class HybridWebView
+     {
+         private readonly IFieldAssetsUriService _fieldAssetsUriService = ServiceHelper.GetService<IFieldAssetsUriService>();
+ 
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebViewHandler.iOS.cs b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebViewHandler.iOS.cs
+index 4e18ae69..b71249ce 100644
+--- a/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebViewHandler.iOS.cs
++++ b/viewer.v0.1/Viewer.MAUI.Shared.HybridWebView/Platforms/iOS/HybridWebViewHandler.iOS.cs
+@@ -1,36 +1,42 @@
+-﻿using CoreGraphics;
+-using Foundation;
+-using Microsoft.Maui.Handlers;
+-using Microsoft.Maui.Platform;
+-using ObjCRuntime;
+-using System.Diagnostics;
+-using System.Drawing;
+-using System.Globalization;
+-using System.Net;
+-using System.Runtime.Versioning;
+-using System.Text;
+-using UIKit;
+-using Viewer.Common;
+-using Viewer.Common.Dependencies;
+-using Viewer.Common.Interfaces;
+-using Viewer.Common.Tools;
+-using Viewer.DataAccess.Interfaces;
+-using Viewer.Model;
+-using Viewer.Model.ApiClient;
+-using Viewer.Platforms.Helpers;
+-using Viewer.ServerAPI;
+-using Viewer.Services;
+-using WebKit;
+-using OperatingSystem = System.OperatingSystem;
+-
+-namespace Viewer.Shared.MauiHybridWebView
++﻿namespace Viewer.Shared.MauiHybridWebView
+ {
+-    partial class HybridWebViewHandler
++    using System.Diagnostics;
++    using System.Drawing;
++    using System.Globalization;
++    using System.Net;
++    using System.Runtime.Versioning;
++    using System.Text;
++    using CoreGraphics;
++    using Foundation;
++    using Microsoft.Maui.Handlers;
++    using Microsoft.Maui.Platform;
++    using ObjCRuntime;
++    using UIKit;
++    using Viewer.Common;
++    using Viewer.Common.Dependencies;
++    using Viewer.Common.Interfaces;
++    using Viewer.Common.Tools;
++    using Viewer.DataAccess.Interfaces;
++    using Viewer.Model;
++    using Viewer.Model.ApiClient;
++    using Viewer.Platforms.Helpers;
++    using Viewer.ServerAPI;
++    using Viewer.Services;
++    using WebKit;
++    using OperatingSystem = System.OperatingSystem;
++
++    /// <summary>
++    /// Represents a hybrid webview handler.
++    /// </summary>
++    public partial class HybridWebViewHandler
+     {
+         private readonly IFieldAssetsUriService _fieldAssetsUriService = ServiceHelper.GetService<IFieldAssetsUriService>();
+         private static CustomUIEditMenuInteractionDelegate _delegate = new CustomUIEditMenuInteractionDelegate();
+         private UIEditMenuInteraction _editMenuInteraction = new UIEditMenuInteraction(_delegate);
+ 
++        /// <summary>
++        /// Creates the plaform view.
++        /// </summary>
+         protected override WKWebView CreatePlatformView()
+         {
+             WKWebViewConfiguration config = new WKWebViewConfiguration();
+@@ -67,11 +73,17 @@ namespace Viewer.Shared.MauiHybridWebView
+             ((HybridWebView)VirtualView).RaiseGetSelectedTextHandler();
+ 
+             _delegate.ContextMenuItems = ((HybridWebView)VirtualView).ContextMenuItems;
+-            var location = sender.LocationInView(sender.View); //if there is a page in MAUI, this view should be page.handler.platformview (UIView)
++
++             // if there is a page in MAUI, this view should be page.handler.platformview (UIView)
++            var location = sender.LocationInView(sender.View);
+             var configuration = UIEditMenuConfiguration.Create(null, location);
+             _editMenuInteraction.PresentEditMenu(configuration);
+         }
+ 
++        /// <summary>
++        /// Sets the selected text.
++        /// </summary>
++        /// <param name="text">The text.</param>
+         public void SetSelectedText(string text)
+         {
+             _delegate.SelectedText = text;
+@@ -140,6 +152,7 @@ namespace Viewer.Shared.MauiHybridWebView
+                 {
+                     throw new ArgumentNullException(nameof(message));
+                 }
++
+                 _messageReceivedAction(AppOriginUri, ((NSString)message.Body).ToString());
+             }
+         }
+@@ -176,17 +189,19 @@ namespace Viewer.Shared.MauiHybridWebView
+             {
+                 Task.Run(async () =>
+                 {
+-                    ResponseFromUrl responseUrl = await GetResponseBytes(urlSchemeTask.Request.Url?.AbsoluteString ?? "");
+-                    String? contentType = responseUrl.ContentType;
+-                    Int32 statusCode = responseUrl.StatusCode;
++                    ResponseFromUrl responseUrl = await GetResponseBytes(urlSchemeTask.Request.Url?.AbsoluteString ?? string.Empty);
++                    string? contentType = responseUrl.ContentType;
++                    int statusCode = responseUrl.StatusCode;
+                     Stream? responseStream = responseUrl.Stream;
+                     using (var dic = new NSMutableDictionary<NSString, NSString>())
+                     {
+                         if (responseStream != Stream.Null && responseStream != null)
+                         {
+-                            dic.Add((NSString)"Content-Length", (NSString)(responseStream.Length.ToString(CultureInfo.InvariantCulture))!);
++                            dic.Add((NSString)"Content-Length", (NSString)responseStream.Length.ToString(CultureInfo.InvariantCulture)!);
+                         }
++
+                         dic.Add((NSString)"Content-Type", (NSString)contentType);
++
+                         // Disable local caching. This will prevent user scripts from executing correctly.
+                         // dic.Add((NSString)"Cache-Control", (NSString)"no-cache, max-age=0, must-revalidate, no-store");
+                         if (urlSchemeTask.Request.Url != null)
+@@ -194,25 +209,29 @@ namespace Viewer.Shared.MauiHybridWebView
+                             using NSHttpUrlResponse response = new NSHttpUrlResponse(urlSchemeTask.Request.Url, statusCode, "HTTP/1.1", dic);
+                             urlSchemeTask.DidReceiveResponse(response);
+                         }
+-
+                     }
++
+                     if (statusCode == 200 && responseStream != Stream.Null)
+                     {
+                         urlSchemeTask.DidReceiveData(NSData.FromStream(responseStream!)!);
+                     }
++
+                     urlSchemeTask.DidFinish();
+                 });
+             }
+ 
+-            class ResponseFromUrl
++            private class ResponseFromUrl
+             {
+                 public required string? ContentType { get; set; }
++
+                 public required int StatusCode { get; set; }
++
+                 public required Stream? Stream { get; set; }
+             }
++
+             private async Task<ResponseFromUrl> GetResponseBytes(string? url)
+             {
+-                string? contentType = "";
++                string? contentType = string.Empty;
+                 int statusCode = 0;
+                 Stream? stream = null;
+ 
+@@ -235,7 +254,7 @@ namespace Viewer.Shared.MauiHybridWebView
+                     {
+                         statusCode = 500;
+                         contentType = string.Empty;
+-                        stream = new MemoryStream(Encoding.UTF8.GetBytes(ex.Message ?? ""));
++                        stream = new MemoryStream(Encoding.UTF8.GetBytes(ex.Message ?? string.Empty));
+                     }
+                 }
+                 else
+@@ -249,7 +268,7 @@ namespace Viewer.Shared.MauiHybridWebView
+                 {
+                     ContentType = contentType,
+                     StatusCode = statusCode,
+-                    Stream = stream
++                    Stream = stream,
+                 };
+ 
+                 return result;
+@@ -272,8 +291,7 @@ namespace Viewer.Shared.MauiHybridWebView
+             /// résolus par la WebView car elle ne dispose pas des jetons nécessaires pour
+             /// réaliser les appels serveur.
+             /// </summary>
+-            /// <param name="uri"></param>
+-            /// <returns></returns>
++            /// <param name="uri">The uri.</param>
+             private async Task<HttpWebResponse?> ResolveUri(Uri uri)
+             {
+                 HttpWebResponse? result = null;
+@@ -289,102 +307,14 @@ namespace Viewer.Shared.MauiHybridWebView
+                         SessionToken? token = _sessionTokenService?.GetSessionToken();
+                         _webRequestHelper.SetAuthorization(webRequestImage, context, token, null, false);
+                         result = await webRequestImage.GetAsync() as HttpWebResponse;
+-
+                     }
+                     catch (Exception exc)
+                     {
+                         Console.Error.Write(exc);
+                     }
+                 }
+-                return result;
+-            }
+-        }
+-    }
+-
+-    /// <summary>
+-    /// Represents a custom Maui Web View.
+-    /// </summary>
+-    class CustomWebView : MauiWKWebView
+-    {
+-        CustomUIEditMenuInteractionDelegate _interactionDelegate;
+-
+-        /// <summary>
+-        /// Initializes a new instance of the <see cref="CustomWebView"/> class.
+-        /// </summary>
+-        /// <param name="interactionDelegate">The interaction delegate.</param>
+-        /// <param name="frame">The frame.</param>
+-        /// <param name="handler">The handler.</param>
+-        /// <param name="configuration">The configuration.</param>
+-        public CustomWebView(CustomUIEditMenuInteractionDelegate interactionDelegate,
+-                             CGRect frame,
+-                             WebViewHandler handler,
+-                             WKWebViewConfiguration configuration)
+-            : base(frame, handler, configuration)
+-        {
+-            _interactionDelegate = interactionDelegate;
+-        }
+ 
+-        /// <inheritdoc />
+-        public override bool CanPerform(Selector action, NSObject? withSender)
+-        {
+-            // If we recently presented a different menu, do not allow the default menu to ovrwrite it.
+-            if (_interactionDelegate.IsRecentlyPresented())
+-                return false;
+-
+-            return base.CanPerform(action, withSender);
+-        }
+-    }
+-
+-    /// <summary>
+-    /// Represents a custom UI interaction delegate.
+-    /// </summary>
+-    class CustomUIEditMenuInteractionDelegate : UIEditMenuInteractionDelegate
+-    {
+-        private Stopwatch _stopwatch = Stopwatch.StartNew();
+-        private TimeSpan _lastPresentationTime;
+-
+-        /// <summary>
+-        /// Gets or sets the custom menu items.
+-        /// </summary>
+-        public List<(string, EventHandler<string>)> ContextMenuItems { get; set; } = [];
+-
+-        /// <summary>
+-        /// Gets or sets the selected text.
+-        /// </summary>
+-        public string SelectedText { get; set; } = string.Empty;
+-
+-        /// <summary>
+-        /// Checks whether the custom UI interaction (custom menu) was presented recently.
+-        /// </summary>
+-        public bool IsRecentlyPresented()
+-        {
+-            return _lastPresentationTime != default && _stopwatch.Elapsed < _lastPresentationTime + TimeSpan.FromSeconds(1);
+-        }
+-
+-        /// <inheritdoc />
+-        public override UIMenu? GetMenu(UIEditMenuInteraction interaction,
+-                                        UIEditMenuConfiguration configuration,
+-                                        UIMenuElement[] suggestedActions)
+-        {
+-            try
+-            {
+-                _lastPresentationTime = _stopwatch.Elapsed;
+-
+-                List<UIMenuElement> actions = new(suggestedActions);
+-                foreach (var menuItem in ContextMenuItems)
+-                {
+-                    actions.Add(UIAction.Create(menuItem.Item1, null, null, (action) => { menuItem.Item2.Invoke(this, SelectedText); }));
+-                }
+-
+-                UIMenu contextMenu = UIMenu.Create("ContextMenu", null, UIMenuIdentifier.Document, UIMenuOptions.DisplayInline, actions.ToArray());
+-                UIMenu menu = UIMenu.Create(children: [contextMenu]);
+-
+-                return menu;
+-            }
+-            catch (System.Exception exc)
+-            {
+-                Console.WriteLine(exc.Message);
+-                throw;
++                return result;
+             }
+         }
+     }
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/BackgroundImageViewHandler.iOS.cs b/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/BackgroundImageViewHandler.iOS.cs
+index 29f36762..d25ad43d 100644
+--- a/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/BackgroundImageViewHandler.iOS.cs
++++ b/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/BackgroundImageViewHandler.iOS.cs
+@@ -1,11 +1,11 @@
+-﻿#if IOS || MACCATALYST
++﻿namespace Viewer.Handlers;
++
++#if IOS || MACCATALYST
+ using PlatformView = UIKit.UIImageView;
+ #endif
+-using Viewer.Controls;
+ using Microsoft.Maui.Handlers;
+ using UIKit;
+-
+-namespace Viewer.Handlers;
++using Viewer.Controls;
+ 
+ /// <summary>
+ /// Represents a background image view handler.
+@@ -30,7 +30,6 @@ public partial class BackgroundImageViewHandler : ViewHandler<BackgroundImageVie
+     protected override void DisconnectHandler(PlatformView platformView)
+     {
+         // Perform any native view cleanup here
+-
+         platformView.Dispose();
+         base.DisconnectHandler(platformView);
+     }
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ContentPageHandler.iOS.cs b/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ContentPageHandler.iOS.cs
+index 50ab5076..07784d5f 100644
+--- a/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ContentPageHandler.iOS.cs
++++ b/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ContentPageHandler.iOS.cs
+@@ -1,9 +1,9 @@
+ ﻿namespace Viewer.Handlers;
+ 
++using System;
++using Microsoft.Maui;
+ using Microsoft.Maui.Controls;
+ using Microsoft.Maui.Handlers;
+-using Microsoft.Maui;
+-using System;
+ using UIKit;
+ 
+ /// <summary>
+@@ -57,7 +57,6 @@ public abstract class ContentPageHandler : PageHandler
+         // TODO get notified of rotation
+     }
+ 
+-
+     private void ConfigureInteractivePopGesture()
+     {
+         if (this is IPlatformViewHandler handler && handler.ViewController?.ParentViewController?.NavigationController is UIKit.UINavigationController navControler)
+diff --git a/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ViewExtensions.iOS.cs b/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ViewExtensions.iOS.cs
+index bc9b99f2..4b1de15e 100644
+--- a/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ViewExtensions.iOS.cs
++++ b/viewer.v0.1/Viewer.MAUI.Shared.Navigation.Views/Platforms/iOS/ViewExtensions.iOS.cs
+@@ -1,8 +1,8 @@
+ ﻿namespace Viewer.Handlers;
+ 
+ using System;
+-using UIKit;
+ using CoreGraphics;
++using UIKit;
+ 
+ /// <summary>
+ /// Represents a view extension.
+@@ -13,7 +13,6 @@ public static class ViewExtensions
+     /// Finds the first responder.
+     /// </summary>
+     /// <param name="view">The view.</param>
+-    /// <returns></returns>
+     public static UIView? FindFirstResponder(this UIView view)
+     {
+         if (view.IsFirstResponder)
+@@ -34,7 +33,6 @@ public static class ViewExtensions
+     /// </summary>
+     /// <param name="view">The view.</param>
+     /// <param name="rootView">The root view.</param>
+-    /// <returns></returns>
+     public static double GetViewRelativeBottom(this UIView view, UIView rootView)
+     {
+         var viewRelativeCoordinates = rootView.ConvertPointFromView(view.Frame.Location, view);
+@@ -49,7 +47,6 @@ public static class ViewExtensions
+     /// <param name="activeView">The active view.</param>
+     /// <param name="rootView">The root view.</param>
+     /// <param name="keyboardFrame">The border frame.</param>
+-    /// <returns></returns>
+     public static bool IsKeyboardOverlapping(this UIView activeView, UIView rootView, CGRect keyboardFrame)
+     {
+         var activeViewBottom = activeView.GetViewRelativeBottom(rootView);
