@@ -1,0 +1,4586 @@
+﻿{
+	"1": {
+		"Color": "00FFFF",
+		"Title": "Game Admin"
+	},
+	"101": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Content Creator"
+	},
+	"102": {
+		"Color": "00FFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "MEGA Master",
+		"Tooltip": "Earned by winning both prize packs from the MEGA Raffles."
+	},
+	"103": {
+		"Color": "00FFFF",
+		"Title": "World Boss"
+	},
+	"11": {
+		"Color": "00FFFF",
+		"Title": "Volunteer Guide"
+	},
+	"15001": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Insane",
+		"Tooltip": "Bestowed directly by a Grand Duke (a Kickstarter backer), or via a title-scroll created by the Grand Duke."
+	},
+	"15002": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Magister",
+		"Tooltip": "Bestowed directly by a Grand Duke (a Kickstarter backer), or via a title-scroll created by the Grand Duke."
+	},
+	"15003": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Legend",
+		"Tooltip": "Bestowed directly by a Grand Duke (a Kickstarter backer), or via a title-scroll created by the Grand Duke."
+	},
+	"15004": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Rabid",
+		"Tooltip": "Bestowed directly by a Grand Duke (a Kickstarter backer), or via a title-scroll created by the Grand Duke."
+	},
+	"15005": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Showman",
+		"Tooltip": "Bestowed directly by a Grand Duke (a Kickstarter backer), or via a title-scroll created by the Grand Duke."
+	},
+	"15007": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Spider Hater",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15008": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master Assassin of Dwyndarre",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15009": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Watchman",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15011": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Great Hart",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15012": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Curmudgeon",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15013": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dreadnaught",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15014": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hermit",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15015": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Reality Sculptor",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15016": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Tribune",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15017": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Elder Goat",
+		"Tooltip": "Bestowed directly by a Duke (a Kickstarter backer), or via a title-scroll created by the Duke."
+	},
+	"15018": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "First Lord Commander",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15019": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "SPIDERLORD",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15020": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Accomplished Hobo",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15021": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Executive Cheesemonger",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15022": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Endlessly confused",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15023": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "God Slayer",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15024": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Disciple of The Fist",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15025": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Crab-bearer",
+		"Tooltip": "Bestowed directly by a Lord Commander (a Kickstarter backer), or via a title-scroll created by the Lord Commander."
+	},
+	"15026": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Magnifico",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15027": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Foehammer",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15028": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Concubine",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15029": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Deathstalker",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15031": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Unhinged",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15032": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Scotsman",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15033": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Unseen",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15034": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Geomancer",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15035": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "High Librarian",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15036": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Imperator",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15037": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Angry Skeleton",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15038": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Legendary",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15039": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Marquis",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15040": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "LEATH-RI",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15041": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "War Crow",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15042": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Renegade Angel",
+		"Tooltip": "Bestowed directly by a Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15060": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Great Deceiver",
+		"Tooltip": "Bestowed directly by an Omegaduke (a Kickstarter backer), or via a title-scroll created by the Omegaduke."
+	},
+	"15061": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Hive Queen",
+		"Tooltip": "Bestowed directly by an Omegaduke (a Kickstarter backer), or via a title-scroll created by the Omegaduke."
+	},
+	"15062": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dirty Old Man",
+		"Tooltip": "Bestowed directly by an Lord (a Kickstarter backer), or via a title-scroll created by the Lord."
+	},
+	"15101": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Meowx Fanclub",
+		"Tooltip": "Bestowed directly by a Duke (an Indiegogo backer), or via a title-scroll created by the Duke."
+	},
+	"15106": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "World Traveler",
+		"Tooltip": "Bestowed directly by a Duke (an Indiegogo backer), or via a title-scroll created by the Duke."
+	},
+	"15109": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ye Olde Magic User",
+		"Tooltip": "Bestowed directly by a Duke (an Indiegogo backer), or via a title-scroll created by the Duke."
+	},
+	"15201": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ranger of Gorgon",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15202": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lamplighter",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15203": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Drowsy",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15205": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Oktariot",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15206": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Wordspinner",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15207": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Royal Companion",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15208": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Knight of the Woeful  Countenance",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15209": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Queenmaker",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15210": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Slayer of Chickens",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15211": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Artifex",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15212": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Doesn't Want A Title",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15213": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Og",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15214": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dirt Farmer",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15215": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Servant's Accountant",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15216": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord Wallet Warrior",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15217": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Necromonger",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15218": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Yarn Bomber",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15219": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Expert Cave Explorer",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15220": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Grind Master",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15221": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "MARQUIS DE SADE",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15222": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Moon Prayer",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15223": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cheese Hoarder",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15224": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Immortal Invincible Grand Master of Unstoppable Bushido",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15225": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hero Extraordinaire",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15226": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Geeky Bugbear",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15227": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ebonysouled",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15228": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fun Fact: i'm a taco!!!!!",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15229": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Last of the Fallen",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15230": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Warbound",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15231": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Tom Fool",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15232": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Elemental Goddess",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15233": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dragonmaster",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15234": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Greatest Toy Maker",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15235": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lady of Candor",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15236": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Longshot",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15237": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dame Ingenuity",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15238": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Dark Huntress",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15239": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Foxfyre",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15240": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Wolfen Prince",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15241": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "God of War",
+		"Tooltip": "Bestowed directly by a Grand Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Grand Duke."
+	},
+	"15242": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ember Mage",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15243": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master Miner",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15244": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I have the Ursula Curse",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15245": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Patient",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15246": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "NO MA'AM",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15247": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Johnny Appleseed",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15248": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Blade Runner",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15249": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Order of the White Lotus",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15250": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ubiquitous Spider",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15251": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Property Circle of Mystics",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15252": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Highlander",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15253": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master of the Drunk Druid Style",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15254": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master of All Trades",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15255": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Completionist",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15256": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Seeker of Curiosity",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15257": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Oracle Of Arisetsu",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15258": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Bearer of Hope",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15259": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Grand Huntress of Eltibule",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15260": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ranalon Apologist",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15261": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Originator of the Longsword",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15262": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Big Bad Wolf",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15263": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Needs More Pockets",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15264": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Suicidal Ranger",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15265": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "World Turtle",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15266": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Duck Prophet",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15267": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Unwanted Child of Ormorek",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15268": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "One Rein To Rule Them",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15269": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master Baiter",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15270": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Q of the Continuum",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15271": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Wanderer from Exandria",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15272": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hot Hands",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15273": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Sorcerer Supreme",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15274": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord Fantasm",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15275": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Redeemed",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15276": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Goonies",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15277": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "God of Chaos",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15278": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Silencer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15279": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Keeper of Vitae",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15280": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Accident Prone",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15281": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Project Gorgon Benefactor",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15282": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fairy Fish",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15283": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Crazy Cat Lady",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15284": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Lightning",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15285": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Protector of Rahu",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15286": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Servant of N'zoth",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15287": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ghostbuster",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15288": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Force of Nature",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15289": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Clapper of Cheeks",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15290": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "A God Walking Amongst Mere Mortals",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15291": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Eater of Tasty Stuff",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15292": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Baconator",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15293": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Alharth Rebel",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15294": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord of the Trubreed",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15295": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Meow",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15296": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "BIPED OUTREACH PROGRAM!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15297": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Try It All",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15298": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Conqueror of Alharth",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15299": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Insane",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15300": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Leader of the Elves",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15301": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Resident of Animal Town",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15302": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Tip of the Spear",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15303": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "That random person standing over there",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15304": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Drunken Champion",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15305": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Friend of the Manatees",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15306": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Free Folk",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15307": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Harbinger of the End",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15308": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "This isn't even my Final Form",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15309": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "My common sense is tingling",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15310": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Sir",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15311": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hyperborean",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15312": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Sneak",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15313": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Private Detective",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15314": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Chomp Chomp",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15315": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Crazy Bird Lady",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15316": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Rouva",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15317": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Enemy of Enoyos",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15318": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Devil Who Shoots Across the Sky",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15319": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Trickster",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15320": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Turtle",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15321": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Extra Medium",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15322": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Old Timer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15323": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Rodwyne's Rangers",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15324": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Elf in Human form",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15325": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Elven Orgy Lube Dispenser",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15326": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Jynx",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15327": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fox on the Run",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15328": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Chooser of the Slain",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15329": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Fool On The Hill",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15330": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Emo Makeout Party Finalist",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15331": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Burmese Assassin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15332": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Glorious Red Leader",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15333": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Moulder of Death",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15334": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Pleb",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15335": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dwarven King",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15336": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Adherent of the Patient Mistress",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15337": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Forsaken by the RNGeezus",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15338": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Prince of the Alharth Rebels",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15339": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Packrats R Us",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15340": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Alharth's Beastmaster",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15341": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Arcane Enthusiast",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15342": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fae Pride",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15343": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Smells of Rich Mahogany",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15344": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Domesticated Animal",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15345": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lazy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15346": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dwarf",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15347": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord Love Muffin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15348": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dazed N Confused",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15349": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Magistri Universum",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15350": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Right Hand of Vecna",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15351": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dragonspire Merchants",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15352": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "NO CARRIER",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15353": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Warlord",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15354": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Business Bovine",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15355": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Notorious P-I-G",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15356": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lady",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15357": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Son of Aoidh The Spirited",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15358": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gorgon's Omen",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15359": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Medical Doctor",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15360": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Therk",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15361": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fur Brained Idiot",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15362": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cannon Fodder",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15363": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Mount and Do",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15364": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "A Cleverly Disguised Lemon",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15365": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "My Name is Legion",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15366": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Funk master",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15367": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Suspicious",
+		"Tooltip": "Bestowed directly by a Duke (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Duke."
+	},
+	"15368": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Mistakes Were Made",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15369": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Party Animal",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15370": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lemming",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15371": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Celestial Soul",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15372": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "King of the Alharth Rebels",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15373": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Bourbonite",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15374": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Jack of All Trades",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15375": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gorgon minion",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15376": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "A Little Floofy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15377": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Anomaly",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15378": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Cat's Meow",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15379": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lady Nyaa",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15380": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Easily amused",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15381": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fallen Angel",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15382": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "It's all in the Reflexes",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15383": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Undomesticated Equines",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15384": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Grinding & Hoarding",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15385": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Queen of Alternative Ideas",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15386": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "of the Dragon's Nest",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15387": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "player",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15388": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Shadow of Alharth",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15389": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Smiling, Proud Wanderer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15390": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Friend of the Forest",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15391": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "rellepS sdrawkcaB",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15392": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Mommy's Special Boy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15393": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Daddy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15394": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master of Carnal Knowledge",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15395": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Secret Order of the Dead Vole",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15396": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Metamage",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15397": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Blue Pack",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15398": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Zhia Lian is my Co-Pilot",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15399": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Here and Queer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15400": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Boop",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15401": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Fury of Gorgon",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15402": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Queen Of Rats",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15403": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Living the dream within a dream.",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15404": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "PG for Life",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15405": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Moon-Faced Assassin of Joy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15406": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fuzzy Fluffball",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15407": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ember of Dwyndarre",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15408": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hippocratic",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15409": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Agent of the Black Council",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15410": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master of Mimes",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15411": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Rabbit Avenger",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15412": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "XIII",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15413": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "War Monger",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15414": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Polymath",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15415": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Coherent",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15416": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Ardent",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15417": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Pyro Local 819 Union Loyalist",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15418": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fancy Beast",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15419": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Chapter of the Crown Knights",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15420": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Demon Lord",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15421": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Kudos",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15422": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Moonlit",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15423": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Weltenwanderer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15424": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Heartstopper",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15425": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hero of Ravencroft",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15426": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master Magician",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15427": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dominus Umbra",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15428": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "God of Dread",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15429": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gabapentin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15430": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Of House Tiermont",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15431": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dankbuds",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15432": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Skeleton Knight",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15433": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Keeper of Forbidden Knowledge",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15434": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dirty Animal",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15435": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Wolf King",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15436": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Doomsayer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15437": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dreams of popping gems into existence",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15438": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Painfully Average",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15439": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Athennna!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15440": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Killer of Green Jello",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15441": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Boogeyman",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15442": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Murderhobo",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15443": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Doctor of War",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15444": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Permanently Exhausted Pigeon",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15445": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "No Taco Left Behind",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15446": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Prospective Artificer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15447": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Janky Leg",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15448": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Voivode",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15449": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Bane of the Dark",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15450": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cabbage Knight",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15451": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Wolf of Insight",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15452": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "They call me....Tim?",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15453": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Flesh Wound Giver",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15454": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Firestarter",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15455": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Tank in Training",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15456": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Season's End",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15457": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Knight Of Fell",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15458": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Shadow of Eminence",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15459": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Maker of Mischief",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15460": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Master of Coin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15461": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Deer God",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15462": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Full Coffee Alchemist",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15463": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Elder Lich",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15464": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The First",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15465": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Okami",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15466": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Roaming Serbule Knight",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15467": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Guiding Light",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15468": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Anima Lunaris",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15469": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Worldbreaker",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15470": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Olofin Adimula",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15471": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gwynbleidd",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15472": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "GODKING",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15473": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Holy Warrior",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15474": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Keeper of the Black Dog",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15475": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "If sleep is for the weak then I am weak",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15476": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Child of Winter",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15477": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Crosser of Roads",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15478": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dastardly Dazzling Devil",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15479": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Poor",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15480": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Legend Killer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15481": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "War Bringer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15482": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Faerly Fabulous",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15483": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Good Witch",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15484": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cautionary Tale in Progress",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15485": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Slayer of Old Snouty",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15487": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ooh, shiny!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15488": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Mushroom Jill",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15489": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Circumspectus",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15490": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Druid of Zoar",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15491": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Disguised Dolphin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15492": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Loot Monger",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15493": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Turducken",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15494": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Bright Lord",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15495": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gravity Sage",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15496": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lone Wolf",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15497": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Slaughterer Extraordinaire",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15498": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fox Rox",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15499": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord of The Deep Below",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15500": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Servant of Inari",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15501": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Prince with a Thousand Enemies",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15502": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I Didn't Choose This Title",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15503": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Knight Banneret",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15504": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Gold Star Family Member",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15505": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "No Regerts",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15506": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cerebral Conjurer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15507": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "of the Redwings",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15508": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "BIG HITS! BIG CRITS!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15509": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Agent of Entropy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15510": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Black Market Wish Dealer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15511": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Intangible",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15512": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Upcoming Royalty of Gorgon",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15513": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I've got a jar of dirt!",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15514": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lemon-Looting Deer Dismisser",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15515": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Spider Dominatrix",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15516": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Necromancy Forever",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15517": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Eruvant",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15518": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Death Knight",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15519": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Service Bottom",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15520": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Corvid",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15521": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Soul of Alharth",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15522": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Enigmatic",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15523": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Drunken Menace",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15524": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "virgin",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15525": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fluffy Fluffer",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15526": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Slayer of Monsters",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15527": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Deer of Purity",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15528": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Einherjar",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15529": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Fate Weaver",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15530": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Keep on Keeping on",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15531": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Live Long and Prosper",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15532": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lesbian Vampire",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15533": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Totally not a Furry",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15534": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Saved By Grace",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15535": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Jollyberry",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15536": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "It's Me",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15537": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Prolific Yapper",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15538": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I Will Eat Your Face",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15539": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dragonsong",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15540": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Child of Chaos",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15541": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Echo of Hope",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15542": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Broken",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15543": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Knight of the Elder",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15544": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Quick Silver",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15545": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lover of Faeries",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15546": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Queer Creature",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15547": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Eltibule Nightlife",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15548": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Non-Zero",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15549": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Alharth Traveler",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15550": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Strategos",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15551": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Beacon of Light",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15552": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Elite Cascade",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15553": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Cool Kids Club",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15554": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Archmagus",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15555": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Ability to do anything, only when I want",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15556": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Hippies Emporium",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15557": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Shadow Knight",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15558": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Tombstone Generator",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15559": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Saa Regaanal Fluff n' Stuff",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15560": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "WISE Spy x Spy",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15561": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Monk of White Lotus Monastery",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15562": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Beastbinder of the Veil",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15563": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Smelly Cat",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15564": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Floofies army",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15565": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Court Jester",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15566": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Dai's KB Patrol",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15567": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "the Uninspiring",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15568": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "I Have No Idea Where I'm At",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15569": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "His Royal Gayness",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15570": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Having an Identity Crisis",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15571": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Idol",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15572": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "The Insatiable",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15573": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Moon Called",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15574": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Lord on the Hill",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15575": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Queen",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15576": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Keeper of Secrets",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15577": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Keeper of the Tides",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15578": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Milkmaid",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15579": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Quitter Extraordinaire",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"15580": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"PlayerBestowedTitle"
+		],
+		"Title": "Immortal Forest King",
+		"Tooltip": "Bestowed directly by a Horse Lord (a player who purchased a special package from the Gorgon Shop), or via a title-scroll created by the Horse Lord."
+	},
+	"3001": {
+		"Color": "FFFFFF",
+		"Title": "Pre-Alpha 0 Survivor",
+		"Tooltip": "Earned by having an account that was made before the beginning of 2014."
+	},
+	"3002": {
+		"Color": "FFFFFF",
+		"Title": "Pre-Alpha Survivor",
+		"Tooltip": "Earned by having an account that was made before the beginning of 2016."
+	},
+	"3003": {
+		"Color": "FFFFFF",
+		"Title": "Alpha Tester",
+		"Tooltip": "Earned by having an account that was made before the game was available on Steam early access."
+	},
+	"3004": {
+		"Color": "00FFFF",
+		"Title": "VIP",
+		"Tooltip": "Granted while you have a VIP membership. It will be lost if you stop being a VIP!"
+	},
+	"3021": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Proto-Wolf",
+		"Tooltip": "Earned by being a werewolf during alpha or early beta development."
+	},
+	"3022": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Proto-Druid",
+		"Tooltip": "Earned by being a druid during alpha or early beta development."
+	},
+	"3201": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Pacifist",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3202": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Cannibal",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3203": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Vegetarian",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3204": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Vegan",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3205": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Hunger Artist",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3206": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Teleportation Denier",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3207": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Hardcore",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3208": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Lycanthrope",
+		"Tooltip": "Earned by becoming a lycanthrope."
+	},
+	"3209": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Druid",
+		"Tooltip": "Earned by becoming a druid."
+	},
+	"3210": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Undead",
+		"Tooltip": "Earned by becoming undead."
+	},
+	"3211": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Nudist",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3212": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Jewelry Refuser",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3213": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Hatless",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3214": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Shirtless",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3215": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Pantsless",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3216": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Shoeless",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3217": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Beltless",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3218": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Career Bovine",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3219": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Permanent Ham",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3220": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Lifelong Stag",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3221": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Lifelong Doe",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3222": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Adherent of Akhisa",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3223": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Ever-Bat",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3224": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Wolf",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3225": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Killer of Foes",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3226": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Slaughterer of Many Foes",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3227": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Slaughterer of Countless Foes",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3228": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Slaughterer of Goblins",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3229": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Slaughterer of Orcs",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3230": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Slaughterer of Spiders",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3231": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Slaughterer of Countless Animals",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3232": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Angler",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3233": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Expert Angler",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3234": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Master Angler",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3235": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Minor Celebrity Among Water Spirits",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3236": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Bunny",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3237": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Fox",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3238": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Eternal Butterfly",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"3239": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"BehaviorBadge"
+		],
+		"Title": "Master Rancher",
+		"Tooltip": "Earned when you achieve this behavior badge. It will be lost if you lose the behavior badge!"
+	},
+	"5001": {
+		"Color": "00CC00",
+		"Title": "Title Text Goes Here",
+		"Tooltip": "Earned during alpha-testing events."
+	},
+	"5002": {
+		"Color": "00CC00",
+		"Title": "Ambassador of Ri-Shin",
+		"Tooltip": "Found as a reward during the winter holiday festival."
+	},
+	"5003": {
+		"Color": "00CC00",
+		"Title": "Dark Priest of Volmue",
+		"Tooltip": "Found as a reward during the winter holiday festival."
+	},
+	"5004": {
+		"Color": "00CC00",
+		"Title": "Terrible Gamer",
+		"Tooltip": "Purchased with game tokens from the Red Wing Casino"
+	},
+	"5005": {
+		"Color": "00CC00",
+		"Title": "Mediocre Gamer",
+		"Tooltip": "Purchased with game tokens from the Red Wing Casino"
+	},
+	"5006": {
+		"Color": "00CC00",
+		"Title": "Adequate Gamer",
+		"Tooltip": "Purchased with game tokens from the Red Wing Casino"
+	},
+	"5007": {
+		"Color": "00CC00",
+		"Title": "Impressive Gamer",
+		"Tooltip": "Purchased with game tokens from the Red Wing Casino"
+	},
+	"5008": {
+		"Color": "00CC00",
+		"Title": "Master Gamer",
+		"Tooltip": "Purchased with game tokens from the Red Wing Casino"
+	},
+	"5009": {
+		"Color": "00CC00",
+		"Title": "Cultist of Zhia Lian",
+		"Tooltip": "Earned during the Zhia Lian event."
+	},
+	"5010": {
+		"Color": "00CC00",
+		"Title": "Senior Cultist of Zhia Lian",
+		"Tooltip": "Earned during the Zhia Lian event."
+	},
+	"5011": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2018",
+		"Tooltip": "Earned during the Zhia Lian event in 2018."
+	},
+	"5012": {
+		"Color": "00CC00",
+		"Title": "Incredible Goblin Kiss-Ass",
+		"Tooltip": "Earned by completing a quest."
+	},
+	"5013": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2019",
+		"Tooltip": "Earned during the Zhia Lian event in 2019."
+	},
+	"5014": {
+		"Color": "00CC00",
+		"Title": "Elf Helper",
+		"Tooltip": "Earned during the Zhia Lian event."
+	},
+	"5015": {
+		"Color": "00CC00",
+		"Title": "Heart Beater",
+		"Tooltip": "Earned during the Zhia Lian event."
+	},
+	"5016": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2020",
+		"Tooltip": "Earned during the Zhia Lian event in 2020."
+	},
+	"5017": {
+		"Color": "00CC00",
+		"Title": "Riiiiiiiiiii",
+		"Tooltip": "Earned during the Zhia Lian event."
+	},
+	"5018": {
+		"Color": "00CC00",
+		"Title": "Warsmith",
+		"Tooltip": "Earned by completing a quest."
+	},
+	"5019": {
+		"Color": "00CC00",
+		"Title": "Frog Saver",
+		"Tooltip": "Earned by performing deeds."
+	},
+	"5020": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2021",
+		"Tooltip": "Earned during the Zhia Lian event in 2021."
+	},
+	"5021": {
+		"Color": "00CC00",
+		"Title": "Povus Armorsmith",
+		"Tooltip": "Earned by performing deeds."
+	},
+	"5022": {
+		"Color": "00CC00",
+		"Title": "Future Duke of Eltibule",
+		"Tooltip": "Earned by completing a quest."
+	},
+	"5023": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2022",
+		"Tooltip": "Earned during the Zhia Lian event in 2022."
+	},
+	"5024": {
+		"Color": "00CC00",
+		"Title": "Not Afraid of Lungs",
+		"Tooltip": "Earned during the Zhia Lian event."
+	},
+	"5025": {
+		"Color": "00CC00",
+		"Title": "Battle Yak",
+		"Tooltip": "Title #1 of 20 from Boss Gauntlet 1."
+	},
+	"5026": {
+		"Color": "00CC00",
+		"Title": "Udderly Infallible",
+		"Tooltip": "Title #2 of 20 from Boss Gauntlet 1."
+	},
+	"5027": {
+		"Color": "00CC00",
+		"Title": "Earthy Flavor With Woody Notes",
+		"Tooltip": "Title #3 of 20 from Boss Gauntlet 1."
+	},
+	"5028": {
+		"Color": "00CC00",
+		"Title": "Longs For The Sea",
+		"Tooltip": "Title #4 of 20 from Boss Gauntlet 1."
+	},
+	"5029": {
+		"Color": "00CC00",
+		"Title": "Very Old and Very Strong",
+		"Tooltip": "Title #5 of 20 from Boss Gauntlet 1."
+	},
+	"5030": {
+		"Color": "00CC00",
+		"Title": "Make It Bleed!",
+		"Tooltip": "Title #6 of 20 from Boss Gauntlet 1."
+	},
+	"5031": {
+		"Color": "00CC00",
+		"Title": "Extremely Bullheaded",
+		"Tooltip": "Title #7 of 20 from Boss Gauntlet 1."
+	},
+	"5032": {
+		"Color": "00CC00",
+		"Title": "Carries Their Home On Their Back",
+		"Tooltip": "Title #8 of 20 from Boss Gauntlet 1."
+	},
+	"5033": {
+		"Color": "00CC00",
+		"Title": "Surprise Bovinity",
+		"Tooltip": "Title #9 of 20 from Boss Gauntlet 1."
+	},
+	"5034": {
+		"Color": "00CC00",
+		"Title": "Snakey",
+		"Tooltip": "Title #10 of 20 from Boss Gauntlet 1."
+	},
+	"5035": {
+		"Color": "00CC00",
+		"Title": "Extremely Venomous",
+		"Tooltip": "Title #11 of 20 from Boss Gauntlet 1."
+	},
+	"5036": {
+		"Color": "00CC00",
+		"Title": "Wet and Slimy",
+		"Tooltip": "Title #12 of 20 from Boss Gauntlet 1."
+	},
+	"5037": {
+		"Color": "00CC00",
+		"Title": "Not The Smartest In The Room",
+		"Tooltip": "Title #13 of 20 from Boss Gauntlet 1."
+	},
+	"5038": {
+		"Color": "00CC00",
+		"Title": "Intransigent",
+		"Tooltip": "Title #14 of 20 from Boss Gauntlet 1."
+	},
+	"5039": {
+		"Color": "00CC00",
+		"Title": "Smells Like The Outdoors",
+		"Tooltip": "Title #15 of 20 from Boss Gauntlet 1."
+	},
+	"5040": {
+		"Color": "00CC00",
+		"Title": "Make It So",
+		"Tooltip": "Title #16 of 20 from Boss Gauntlet 1."
+	},
+	"5041": {
+		"Color": "00CC00",
+		"Title": "Set Clubs To Stun!",
+		"Tooltip": "Title #17 of 20 from Boss Gauntlet 1."
+	},
+	"5042": {
+		"Color": "00CC00",
+		"Title": "Fascinating, Captain",
+		"Tooltip": "Title #18 of 20 from Boss Gauntlet 1."
+	},
+	"5043": {
+		"Color": "00CC00",
+		"Title": "Everything Will Be All Right",
+		"Tooltip": "Title #19 of 20 from Boss Gauntlet 1."
+	},
+	"5044": {
+		"Color": "00CC00",
+		"Title": "Won't Underestimate You Next Time",
+		"Tooltip": "Title #20 of 20 from Boss Gauntlet 1."
+	},
+	"5045": {
+		"Color": "00CC00",
+		"Title": "Am OP, Please Nerf!",
+		"Tooltip": "Earned by completing Boss Gauntlet 1."
+	},
+	"5046": {
+		"Color": "00CC00",
+		"Title": "Friend of Darkness",
+		"Tooltip": "Title #1 of 25 from Boss Gauntlet 2."
+	},
+	"5047": {
+		"Color": "00CC00",
+		"Title": "Valiant Except When On Fire",
+		"Tooltip": "Title #2 of 25 from Boss Gauntlet 2."
+	},
+	"5048": {
+		"Color": "00CC00",
+		"Title": "Insane Ghost",
+		"Tooltip": "Title #3 of 25 from Boss Gauntlet 2."
+	},
+	"5049": {
+		"Color": "00CC00",
+		"Title": "Ready To Be Sacrificed To Enoyos",
+		"Tooltip": "Title #22 of 25 from Boss Gauntlet 2."
+	},
+	"5050": {
+		"Color": "00CC00",
+		"Title": "Lovable and Squeezable",
+		"Tooltip": "Title #21 of 25 from Boss Gauntlet 2."
+	},
+	"5051": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Party Cultist 2023",
+		"Tooltip": "Earned during the Zhia Lian event in 2023."
+	},
+	"5052": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Bunny Love 2024",
+		"Tooltip": "Earned during the Errana Bunny event in 2024."
+	},
+	"5053": {
+		"Color": "00CC00",
+		"Title": "What Am I Doing With My Life?",
+		"Tooltip": "Earned in a pocket dimension."
+	},
+	"5054": {
+		"Color": "00CC00",
+		"Title": "Wall Hopper",
+		"Tooltip": "Earned in a pocket dimension."
+	},
+	"5055": {
+		"Color": "00CC00",
+		"Title": "Corpse Kisser",
+		"Tooltip": "Title #4 of 25 from Boss Gauntlet 2."
+	},
+	"5056": {
+		"Color": "00CC00",
+		"Title": "Squeaky King",
+		"Tooltip": "Title #5 of 25 from Boss Gauntlet 2."
+	},
+	"5057": {
+		"Color": "00CC00",
+		"Title": "Just So Tired",
+		"Tooltip": "Title #6 of 25 from Boss Gauntlet 2."
+	},
+	"5058": {
+		"Color": "00CC00",
+		"Title": "Haven't The Foggiest",
+		"Tooltip": "Title #7 of 25 from Boss Gauntlet 2."
+	},
+	"5059": {
+		"Color": "00CC00",
+		"Title": "The Pain Is In Your Head",
+		"Tooltip": "Title #8 of 25 from Boss Gauntlet 2."
+	},
+	"5060": {
+		"Color": "00CC00",
+		"Title": "I'll Only Slow You Down",
+		"Tooltip": "Title #9 of 25 from Boss Gauntlet 2."
+	},
+	"5061": {
+		"Color": "00CC00",
+		"Title": "Big-Headed",
+		"Tooltip": "Title #10 of 25 from Boss Gauntlet 2."
+	},
+	"5062": {
+		"Color": "00CC00",
+		"Title": "TIME FOR THUNDER!!!",
+		"Tooltip": "Title #11 of 25 from Boss Gauntlet 2."
+	},
+	"5063": {
+		"Color": "00CC00",
+		"Title": "My Hands Are Swelling Up",
+		"Tooltip": "Title #12 of 25 from Boss Gauntlet 2."
+	},
+	"5064": {
+		"Color": "00CC00",
+		"Title": "Who Should I Kill Next?",
+		"Tooltip": "Title #13 of 25 from Boss Gauntlet 2."
+	},
+	"5065": {
+		"Color": "00CC00",
+		"Title": "Let's Play A Game",
+		"Tooltip": "Title #14 of 25 from Boss Gauntlet 2."
+	},
+	"5066": {
+		"Color": "00CC00",
+		"Title": "nobody",
+		"Tooltip": "Title #15 of 25 from Boss Gauntlet 2."
+	},
+	"5067": {
+		"Color": "00CC00",
+		"Title": "Testing My Super-Suit",
+		"Tooltip": "Title #16 of 25 from Boss Gauntlet 2."
+	},
+	"5068": {
+		"Color": "00CC00",
+		"Title": "Stop Killing Me, It's Very Irritating",
+		"Tooltip": "Title #17 of 25 from Boss Gauntlet 2."
+	},
+	"5069": {
+		"Color": "00CC00",
+		"Title": "Puckish",
+		"Tooltip": "Title #18 of 25 from Boss Gauntlet 2."
+	},
+	"5070": {
+		"Color": "00CC00",
+		"Title": "Gnarled and Horny",
+		"Tooltip": "Title #19 of 25 from Boss Gauntlet 2."
+	},
+	"5071": {
+		"Color": "00CC00",
+		"Title": "Heavy Breather",
+		"Tooltip": "Title #20 of 25 from Boss Gauntlet 2."
+	},
+	"5072": {
+		"Color": "00CC00",
+		"Title": "Psst: Druids Are Evil!",
+		"Tooltip": "Title #23 of 25 from Boss Gauntlet 2."
+	},
+	"5073": {
+		"Color": "00CC00",
+		"Title": "Terror From the Deep",
+		"Tooltip": "Title #24 of 25 from Boss Gauntlet 2."
+	},
+	"5074": {
+		"Color": "00CC00",
+		"Title": "I'll Hate You Better",
+		"Tooltip": "Title #25 of 25 from Boss Gauntlet 2."
+	},
+	"5075": {
+		"Color": "00CC00",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Boss Gauntlet 2 Beta Tester",
+		"Tooltip": "Earned by completing Boss Gauntlet 2 very shortly after its release."
+	},
+	"5076": {
+		"Color": "00CC00",
+		"Title": "Boss Monster",
+		"Tooltip": "Earned by completing Boss Gauntlet 2."
+	},
+	"5077": {
+		"Color": "00CC00",
+		"Title": "Party Cultist 2024",
+		"Tooltip": "Earned during the Zhia Lian event in 2024."
+	},
+	"5078": {
+		"Color": "00CC00",
+		"Title": "Bunny Love 2025",
+		"Tooltip": "Earned during the Errana Bunny event in 2025."
+	},
+	"5079": {
+		"Color": "00CC00",
+		"Title": "Scion of Paullus",
+		"Tooltip": "Earned by brewing beverages for Paullus, the God of Alcohol."
+	},
+	"51": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Brown-Noser"
+	},
+	"52": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Great Bug Reporter"
+	},
+	"5201": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Raffle Racer",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5202": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Lucky Ducky",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5203": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Jam Master",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5204": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Tough Guy",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5205": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Tough Gal",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5206": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "The Seeker",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5207": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Goatbuster",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5208": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Savior of the Goats",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5209": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Eggsellent Hunter",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5210": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Civil Servant",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5211": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "I Know Bun-Fu",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5212": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Turkey Wrangler",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5213": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Patient Hero",
+		"Tooltip": "A gift from the 2019 winter holiday festival."
+	},
+	"5214": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Grizzled Geezer",
+		"Tooltip": "A gift from the 2019 winter holiday festival."
+	},
+	"5215": {
+		"Color": "FFFF00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Lemony</color> <color=#00cc00>Fresh",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5216": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Anti-Savior of the Goats",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5217": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Crafty",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5218": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Master Hoarder",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5219": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "A Little Fruity",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5220": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Pennoc's Penitent",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5221": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Steamed 2021",
+		"Tooltip": "A gift to celebrate our 3rd anniversary on Steam."
+	},
+	"5222": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Like A Boss",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5223": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Turkey Killer",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5224": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Tofurkey",
+		"Tooltip": "Earned via in-game events."
+	},
+	"5225": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Steamed 2022",
+		"Tooltip": "A gift to celebrate our 4th anniversary on Steam."
+	},
+	"5226": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Challenge Accepted",
+		"Tooltip": "A gift for your participation in the 2022 VIP Challenge."
+	},
+	"5227": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Steamed 2023",
+		"Tooltip": "A gift to celebrate our 5th anniversary on Steam."
+	},
+	"5228": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Summer's Fairest",
+		"Tooltip": "Included in the Summer 2023 Add-On backer package."
+	},
+	"5229": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "I tried!",
+		"Tooltip": "2023 VIP Challenge participation reward."
+	},
+	"5230": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Steamed 2024",
+		"Tooltip": "A gift to celebrate our 6th anniversary on Steam."
+	},
+	"5231": {
+		"Color": "00CC00",
+		"Title": "Somebody Loves Me!",
+		"Tooltip": "A gift for our VIPs during February 2024."
+	},
+	"5232": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "No Spring Chicken",
+		"Tooltip": "A gift for our VIPs during May 2024."
+	},
+	"5233": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Chasing Rainbows",
+		"Tooltip": "A gift for our VIPs during June 2024."
+	},
+	"5234": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Soaking Up the Sun",
+		"Tooltip": "A gift for our VIPs during August 2024."
+	},
+	"5235": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Frog in a Well",
+		"Tooltip": "A gift for our VIPs during July 2024."
+	},
+	"5236": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Summer Lover",
+		"Tooltip": "Included in the Summer 2024 Add-On backer package."
+	},
+	"5237": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Making Hay",
+		"Tooltip": "A gift for our VIPs during September 2024."
+	},
+	"5238": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Bad Apple",
+		"Tooltip": "A gift for our VIPs during October 2024."
+	},
+	"5239": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Old Chestnut",
+		"Tooltip": "A gift for our VIPs during November 2024."
+	},
+	"5240": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Snug as a Bug",
+		"Tooltip": "A gift for our VIPs during December 2024."
+	},
+	"5241": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "I Helped!",
+		"Tooltip": "Writ Challenge Reward"
+	},
+	"5242": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "Did My Part",
+		"Tooltip": "Writ Challenge Reward"
+	},
+	"5243": {
+		"Color": "00CC00",
+		"Keywords": [
+			"EventTitle"
+		],
+		"Title": "I REALLY HELPED!",
+		"Tooltip": "Writ Challenge Reward"
+	},
+	"5244": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Spring Into Action",
+		"Tooltip": "Included in the Spring 2025 Add-On backer package."
+	},
+	"5245": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Steamed 2025",
+		"Tooltip": "A gift to celebrate our 7th anniversary on Steam."
+	},
+	"5246": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Rock Solid",
+		"Tooltip": "A gift for our VIPs during March 2025."
+	},
+	"5247": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Easily Eggscited",
+		"Tooltip": "A gift for our VIPs during April 2025."
+	},
+	"5248": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "May Contain Trouble",
+		"Tooltip": "A gift for our VIPs during May 2025."
+	},
+	"5249": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "In the Weeds",
+		"Tooltip": "A gift for our VIPs during June 2025."
+	},
+	"5250": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Big Pond Small Frog",
+		"Tooltip": "A gift for our VIPs during July 2025."
+	},
+	"5251": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Sweating Buckets",
+		"Tooltip": "A gift for our VIPs during August 2025."
+	},
+	"5252": {
+		"AccountWide": true,
+		"Color": "00CC00",
+		"Title": "Where's My Pants?",
+		"Tooltip": "A gift for our VIPs during October 2025."
+	},
+	"53": {
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Expert Complainer"
+	},
+	"54": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Title": "Animated",
+		"Tooltip": "Earned by experiencing our brand new animation system - and its brand new bugs - in March 2021."
+	},
+	"55": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "400th Time's the Charm",
+		"Tooltip": "Obtained during the 400th published build of Project: Gorgon"
+	},
+	"56": {
+		"AccountWide": true,
+		"Color": "FFFFFF",
+		"Keywords": [
+			"Lint_NotObtainable"
+		],
+		"Title": "Title Not Found",
+		"Tooltip": "Obtained by using the command /404 during the 400th published build of Project: Gorgon. (This one's just for the JSON-sniffers.)"
+	}
+}

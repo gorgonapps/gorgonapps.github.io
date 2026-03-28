@@ -1,0 +1,7650 @@
+﻿{
+	"AcidAura": {
+		"Abilities": {
+			"AcidAuraBall1": {
+				"MaxLevel": 20
+			},
+			"AcidAuraBall2": {
+				"MaxLevel": 40,
+				"MinLevel": 21
+			},
+			"AcidAuraBall3": {
+				"MaxLevel": 50,
+				"MinLevel": 41
+			},
+			"AcidAuraBall4": {
+				"MinLevel": 51
+			}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"AcidFrog": {
+		"Abilities": {
+			"FrogBelch": {},
+			"FrogLick": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"AcidMantis": {
+		"Abilities": {
+			"MantisAcidBurst": {},
+			"MantisClaw": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"AcidMantis_Sherzat": {
+		"Abilities": {
+			"SherzatAcidSpit": {},
+			"SherzatClaw": {
+				"Cue": "DontClose"
+			},
+			"SherzatDisintegrate": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"AcidSigilPet": {
+		"Abilities": {
+			"AcidAuraBallPet": {}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"AktaariSoldier": {
+		"Abilities": {
+			"AktaariRage": {},
+			"AktaariSlash1": {},
+			"AktaariSlash2": {},
+			"AktaariSlow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"AlienDog": {
+		"Abilities": {
+			"AlienDog_Punch": {},
+			"AlienDog_Punch2": {},
+			"AlienDog_RagePunch": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"AlienEgg": {
+		"Abilities": {
+			"AcidAuraBall1": {
+				"MaxLevel": 20
+			},
+			"AcidAuraBall2": {
+				"MaxLevel": 40,
+				"MinLevel": 21
+			},
+			"AcidAuraBall3": {
+				"MaxLevel": 50,
+				"MinLevel": 41
+			},
+			"AcidAuraBall4": {
+				"MinLevel": 51
+			}
+		},
+		"MobilityType": "Immobile"
+	},
+	"AlienEgg_Unused": {
+		"Abilities": {
+			"EggBlast": {
+				"Cue": "DontClose"
+			},
+			"EggBurst": {
+				"Cue": "DontClose"
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"Animal": {
+		"Abilities": {
+			"AnimalBite": {},
+			"AnimalClaw": {},
+			"AnimalOmegaBite": {
+				"MaxLevel": 25
+			},
+			"AnimalOmegaBite2": {
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Automadrone": {
+		"Abilities": {
+			"Oilspray": {},
+			"Robozap": {},
+			"SoundAlarm": {},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"Automaton": {
+		"Abilities": {
+			"Electroshock": {},
+			"Overheat": {},
+			"RobotSlash": {},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Ballista": {
+		"Abilities": {
+			"BallistaFire": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Slow reload time",
+		"MinDelayBetweenAbilities": 10,
+		"MobilityType": "Turret"
+	},
+	"BallistaGiant": {
+		"Abilities": {
+			"BallistaFire_Long": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Slow reload time",
+		"MinDelayBetweenAbilities": 10,
+		"MobilityType": "Turret"
+	},
+	"Barghest": {
+		"Abilities": {
+			"BarghestBiteA": {},
+			"BarghestBiteB": {},
+			"BarghestDebuff": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BasiliskController": {
+		"Abilities": {
+			"BasiliskCastPerching": {
+				"Cue": "Perching"
+			},
+			"BasiliskClawA": {},
+			"BasiliskClawB": {},
+			"BasiliskDebuff": {
+				"Cue": "Opener"
+			},
+			"BasiliskToxicBite": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BatIllusion": {
+		"Abilities": {
+			"BatIllusionBite": {},
+			"BatIllusionSlashA": {},
+			"BatIllusionSlashB": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Bear": {
+		"Abilities": {
+			"AnimalClaw": {},
+			"BearBite": {},
+			"BearCrush": {}
+		},
+		"Strategy": "Melee"
+	},
+	"BearBoss_Pet": {
+		"Abilities": {
+			"BearBite_Pet": {},
+			"BearClaw_Pet": {},
+			"BearSelfHeal_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearSelfHeal_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearSelfHeal_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearSelfHeal_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearSelfHeal_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearSelfHeal_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearSelfHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BearStun_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearStun_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearStun_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearStun_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearStun_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearStun_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearStun_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BearFey_Pet": {
+		"Abilities": {
+			"BearBite_Pet": {},
+			"BearClaw_Pet": {},
+			"BearTaunt_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearTaunt_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearTaunt_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearTaunt_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearTaunt_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearTaunt_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearTaunt_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BearUltra_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearUltra_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearUltra_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearUltra_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearUltra_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearUltra_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearUltra_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BearGrizzly_Pet": {
+		"Abilities": {
+			"BearBite_Pet": {},
+			"BearClaw_Pet": {},
+			"BearSelfHeal_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearSelfHeal_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearSelfHeal_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearSelfHeal_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearSelfHeal_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearSelfHeal_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearSelfHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BearUltra_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearUltra_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearUltra_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearUltra_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearUltra_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearUltra_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearUltra_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BearPolar_Pet": {
+		"Abilities": {
+			"BearBite_Pet": {},
+			"BearClaw_Pet": {},
+			"BearTaunt_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearTaunt_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearTaunt_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearTaunt_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearTaunt_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearTaunt_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearTaunt_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BearWarmth_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearWarmth_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearWarmth_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearWarmth_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearWarmth_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearWarmth_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearWarmth_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BearTrap": {
+		"Abilities": {
+			"BearTrapAttack": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"Bear_Pet": {
+		"Abilities": {
+			"BearBite_Pet": {},
+			"BearClaw_Pet": {},
+			"BearStun_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearStun_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearStun_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearStun_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearStun_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearStun_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearStun_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BearTaunt_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BearTaunt_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BearTaunt_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BearTaunt_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BearTaunt_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BearTaunt_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BearTaunt_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Bee": {
+		"Abilities": {
+			"BeeInject": {},
+			"BeeShoot": {},
+			"BeeShootB": {
+				"Cue": "Perching"
+			},
+			"BeeStab": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Bee_Pet": {
+		"Abilities": {
+			"BeeInject_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BeeInject_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BeeInject_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BeeInject_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BeeInject_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BeeInject_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BeeInject_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BeeStab_Pet1": {
+				"MaxLevel": 9
+			},
+			"BeeStab_Pet10": {
+				"MinLevel": 90
+			},
+			"BeeStab_Pet2": {
+				"MaxLevel": 19,
+				"MinLevel": 10
+			},
+			"BeeStab_Pet3": {
+				"MaxLevel": 29,
+				"MinLevel": 20
+			},
+			"BeeStab_Pet4": {
+				"MaxLevel": 39,
+				"MinLevel": 30
+			},
+			"BeeStab_Pet5": {
+				"MaxLevel": 49,
+				"MinLevel": 40
+			},
+			"BeeStab_Pet6": {
+				"MaxLevel": 59,
+				"MinLevel": 50
+			},
+			"BeeStab_Pet7": {
+				"MaxLevel": 69,
+				"MinLevel": 60
+			},
+			"BeeStab_Pet8": {
+				"MaxLevel": 79,
+				"MinLevel": 70
+			},
+			"BeeStab_Pet9": {
+				"MaxLevel": 89,
+				"MinLevel": 80
+			},
+			"BeeVuln_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"BeeVuln_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"BeeVuln_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"BeeVuln_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"BeeVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Description": "Poison and Poison Debuff",
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Bewildebeest": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WildebeestBash": {},
+			"WildebeestRage": {},
+			"WildebeestTrample": {}
+		},
+		"Strategy": "Melee"
+	},
+	"BigCat": {
+		"Abilities": {
+			"BigCatClaw": {},
+			"BigCatPounce": {},
+			"BigCatRagePounce": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigCatBoss_Pet": {
+		"Abilities": {
+			"BigCatClaw_Pet": {},
+			"BigCatKill_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatKill_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatKill_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatKill_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatKill_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatKill_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BigCatPounce_Pet": {},
+			"BigCatRoot_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatRoot_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatRoot_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatRoot_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatRoot_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatRoot_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatRoot_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigCat_Pet": {
+		"Abilities": {
+			"BigCatClaw_Pet": {},
+			"BigCatKill_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatKill_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatKill_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatKill_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatKill_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatKill_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BigCatPounce_Pet": {},
+			"BigCatUltraKill_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatUltraKill_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatUltraKill_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatUltraKill_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatUltraKill_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatUltraKill_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatUltraKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigDebuffingCat": {
+		"Abilities": {
+			"BigCatClaw": {},
+			"BigCatDebuff": {},
+			"BigCatPounce": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigDebuffingCat_Pet": {
+		"Abilities": {
+			"BigCatClaw_Pet": {},
+			"BigCatPounce_Pet": {},
+			"BigCatRoot_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatRoot_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatRoot_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatRoot_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatRoot_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatRoot_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatRoot_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BigCatVuln_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"BigCatVuln_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"BigCatVuln_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"BigCatVuln_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"BigCatVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigGolem": {
+		"Abilities": {
+			"BigGolemFling": {},
+			"BigGolemHitA": {},
+			"BigGolemHitA-NoDisable": {},
+			"BigGolemHitB-NoDisable": {}
+		},
+		"Comment": "Highly Resistant to Stun and Knockback",
+		"MinDelayBetweenAbilities": 2.5,
+		"Strategy": "Melee"
+	},
+	"BigGolemCold": {
+		"Abilities": {
+			"BigGolemChill": {},
+			"BigGolemHitA": {},
+			"BigGolemHitA-NoDisable": {},
+			"BigGolemHitB-NoDisable": {}
+		},
+		"Comment": "Highly Resistant to Stun and Knockback",
+		"MinDelayBetweenAbilities": 2.5,
+		"Strategy": "Melee"
+	},
+	"BigGolemNoStun": {
+		"Abilities": {
+			"BigGolemFling": {},
+			"BigGolemHitA-NoDisable": {},
+			"BigGolemHitB-NoDisable": {}
+		},
+		"Comment": "Highly Resistant to Stun and Knockback",
+		"MinDelayBetweenAbilities": 2.5,
+		"Strategy": "Melee"
+	},
+	"BigNightmareCat": {
+		"Abilities": {
+			"AnimalHeal": {
+				"Cue": "Heal",
+				"CueVal": 35
+			},
+			"BigCatClaw": {},
+			"BigCatPounce": {},
+			"BigCatRagePounce": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigNightmareCat_Pet": {
+		"Abilities": {
+			"BigCatClaw_Pet": {},
+			"BigCatHeal_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatHeal_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatHeal_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatHeal_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatHeal_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatHeal_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BigCatKill_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatKill_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatKill_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatKill_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatKill_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatKill_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BigCatPounce_Pet": {}
+		},
+		"Strategy": "Melee"
+	},
+	"BigPanther_Pet": {
+		"Abilities": {
+			"BigCatClaw_Pet": {},
+			"BigCatPounce_Pet": {},
+			"BigCatUltraKill_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatUltraKill_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatUltraKill_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatUltraKill_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatUltraKill_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatUltraKill_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatUltraKill_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"BigCatVuln_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"BigCatVuln_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"BigCatVuln_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"BigCatVuln_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"BigCatVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BigSlime": {
+		"Abilities": {
+			"BossSlimeKick": {},
+			"BossSlimeKickB": {},
+			"BossSlime_SummonSlime1": {
+				"MaxLevel": 70
+			},
+			"BossSlime_SummonSlime9Elite": {
+				"MinLevel": 71
+			}
+		},
+		"Comment": "Self-Replicating",
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"BitingVine": {
+		"Abilities": {
+			"BitingVineAppear": {
+				"Cue": "Opener"
+			},
+			"BitingVineBite": {
+				"Cue": "DontClose"
+			},
+			"BitingVineCast": {
+				"Cue": "DontClose"
+			},
+			"BitingVineDisappear": {
+				"Cue": "ServerRequested"
+			},
+			"BitingVineSpit": {
+				"Cue": "DontClose"
+			},
+			"BitingVineSpitB": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"BlastcapMushroom": {
+		"Abilities": {
+			"BlastCapBurst": {},
+			"BlastCapRageBurst": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BlindingWasp": {
+		"Abilities": {
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			},
+			"WaspRageStab": {},
+			"WaspRangedDebuff": {},
+			"WaspRangedDebuffB": {
+				"Cue": "Opener"
+			},
+			"WaspRangedDebuffC": {
+				"Cue": "Perching"
+			},
+			"WaspStab": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"BlindingWasp_Pet": {
+		"Abilities": {
+			"WaspBurst_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"WaspBurst_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"WaspBurst_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"WaspBurst_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"WaspBurst_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"WaspDebuff_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"WaspDebuff_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"WaspDebuff_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"WaspDebuff_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"WaspDebuff_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"WaspDebuff_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"WaspDebuff_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"WaspShoot_Pet": {}
+		},
+		"Description": "Ranged Piercing Debuff and Burst Piercing",
+		"Flying": true,
+		"Strategy": "Ranged"
+	},
+	"BloodBeak": {
+		"Abilities": {
+			"BeakMultipierce": {},
+			"BeakPierce": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BloodCultistBlaster": {
+		"Abilities": {
+			"CultistBloodBlast": {},
+			"CultistBloodSphere": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"Bloodstorm": {
+		"Abilities": {
+			"BloodstormBash": {},
+			"BloodstormSmash": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"BossGhost": {
+		"Abilities": {
+			"GhostlyBossBurst": {},
+			"GhostlyBossPunchA": {},
+			"GhostlyBossPunchB": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh-Invulnerable Until Stunned",
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Boss_BigGolem": {
+		"Abilities": {
+			"BigGolemFlingBoss": {},
+			"BigGolemHitA": {},
+			"BigGolemHitB": {},
+			"BigGolemPerchFix": {
+				"Cue": "Perching"
+			}
+		},
+		"MinDelayBetweenAbilities": 2,
+		"Strategy": "Melee"
+	},
+	"Boss_Ciervos": {
+		"Abilities": {
+			"CiervosDarknessBomb": {},
+			"CiervosNightmareHoof": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Boss_Claudia": {
+		"Abilities": {
+			"ClaudiaBlizzard": {},
+			"ClaudiaIceSpear": {},
+			"ClaudiaTundraSpikes": {}
+		}
+	},
+	"Boss_EyeOfHate": {
+		"Abilities": {
+			"EyeOfHateBeam": {},
+			"EyeOfHateCurse": {}
+		},
+		"Flying": true
+	},
+	"Boss_FireGolem": {
+		"Abilities": {
+			"BigGolemFlingBoss2": {},
+			"BigGolemHitA": {},
+			"BigGolemHitB": {},
+			"BigGolemPerchFix": {
+				"Cue": "Perching"
+			},
+			"BigGolemSummonFireSnake": {
+				"MaxRange": 80,
+				"MinRange": 10
+			}
+		},
+		"MinDelayBetweenAbilities": 2,
+		"Strategy": "Melee"
+	},
+	"Boss_Maronesa": {
+		"Abilities": {
+			"MaronesaInfect": {},
+			"MaronesaStomp": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Boss_RanalonDoctrineKeeper": {
+		"Abilities": {
+			"RanalonDoctrineKeeperBlind": {},
+			"RanalonDoctrineKeeperStab": {},
+			"RanalonGuardianBite": {
+				"Cue": "DontClose"
+			},
+			"RanalonGuardianStabB": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Boss_ScionOfDiscord": {
+		"Abilities": {
+			"BossMegaHammer": {},
+			"BossMegaHammer2": {},
+			"BossMegaRageHammer": {},
+			"UndeadLightningSmite": {
+				"Cue": "Perching"
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Boss_Sedgewick": {
+		"Abilities": {
+			"BossMegaSword1": {},
+			"BossMegaSword2": {},
+			"SedgewickMegaSwordAngry": {},
+			"UndeadLightningSmite": {
+				"Cue": "Perching"
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Boss_Tidal": {
+		"Abilities": {
+			"Myconian_BossBash": {
+				"Cue": "DontClose"
+			},
+			"Myconian_Shock": {},
+			"Myconian_TidalCurse": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Boss_Torrri": {
+		"Abilities": {
+			"RanalonGuardianBite": {
+				"Cue": "DontClose"
+			},
+			"RanalonGuardianStab": {},
+			"RanalonGuardianStabB": {},
+			"RanalonTorrriBlind": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Boss_Tremor": {
+		"Abilities": {
+			"Myconian_BossBash": {},
+			"Myconian_Drain": {},
+			"Myconian_Mindspores_Curse": {}
+		},
+		"Strategy": "Melee"
+	},
+	"BrainBug": {
+		"Abilities": {
+			"BrainBite": {},
+			"BrainDrain": {
+				"MaxLevel": 25
+			},
+			"BrainDrain2": {
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BraveDemonicHoofedAnimal": {
+		"Abilities": {
+			"AnimalHoofDemonicFrontKick": {},
+			"AnimalHoofFrontKick": {},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BraveFieryHoofedAnimal": {
+		"Abilities": {
+			"AnimalHoofFieryFrontKick": {
+				"MaxLevel": 25
+			},
+			"AnimalHoofFieryFrontKick2": {
+				"MinLevel": 26
+			},
+			"AnimalHoofFrontKick": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BraveHoofedAnimal": {
+		"Abilities": {
+			"AnimalHoofFrontKick": {},
+			"AnimalHoofRageKick": {
+				"MaxLevel": 25
+			},
+			"AnimalHoofRageKick2": {
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BraveHoofedAnimal_Neddie": {
+		"Abilities": {
+			"AnimalBossSelfBuffDamage": {},
+			"AnimalHoofFrontKick": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"BridgeTurretCrystal": {
+		"Abilities": {
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TurretCrystalZapMediumRange2": {
+				"Cue": "DontClose"
+			},
+			"TurretCrystalZapMediumRangeSlow": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Turret"
+	},
+	"Cerberus": {
+		"Abilities": {
+			"CerberusBite": {},
+			"CerberusBlast": {},
+			"CerberusRage": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Chicken": {
+		"Abilities": {
+			"Peck": {},
+			"Peck2": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ChickenDemonic": {
+		"Abilities": {
+			"Peck2": {},
+			"PeckDemonic": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Cockatrice": {
+		"Abilities": {
+			"CockatriceParalyze": {
+				"MaxLevel": 75
+			},
+			"CockatriceParalyze2": {
+				"MinLevel": 76
+			},
+			"CockatricePeck": {},
+			"CockatriceTailWhip": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ColdAura": {
+		"Abilities": {
+			"ColdAuraBurst": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"ColdFireWall": {
+		"Abilities": {
+			"ColdFireWallAttack": {},
+			"ColdFireWallRage": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"ColdFrog": {
+		"Abilities": {
+			"FrogBelchCold": {},
+			"FrogLickCold": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"ColdSphere": {
+		"Abilities": {
+			"ColdSphereBurst": {},
+			"ColdSphereFreezeBurst": {}
+		},
+		"Strategy": "Melee",
+		"UncontrolledPet": true
+	},
+	"CrazedThrallThrower": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"ThrallThrow": {
+				"MinRange": 5
+			},
+			"ThrallThrowRage": {
+				"MinRange": 5
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"CultistArcher": {
+		"Abilities": {
+			"CultistArrow1": {},
+			"CultistArrow2": {},
+			"CultistOmegaArrow": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"CultistSwordsman": {
+		"Abilities": {
+			"CultistSword1": {},
+			"CultistSword2": {},
+			"CultistSwordStun": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DalvosGhostBoss": {
+		"Abilities": {
+			"DalvosBlastWall": {},
+			"DalvosDarknessBolt": {},
+			"DalvosElectricBolt": {},
+			"DalvosPainBubble": {}
+		}
+	},
+	"DarknessDroach": {
+		"Abilities": {
+			"DroachBiteA": {
+				"Cue": "DontClose"
+			},
+			"DroachBiteB": {
+				"Cue": "DontClose"
+			},
+			"DroachDarknessBall": {},
+			"DroachDarknessBreath": {},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Extra Damage After Armor Depleted",
+		"Strategy": "Ranged"
+	},
+	"DeathRay": {
+		"Abilities": {
+			"DeathRay": {
+				"Cue": "DontClose",
+				"MaxLevel": 79
+			},
+			"DeathRay2": {
+				"Cue": "DontClose",
+				"MinLevel": 80
+			},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Slow reload time",
+		"MobilityType": "Turret"
+	},
+	"Deinonychus": {
+		"Abilities": {
+			"Dinobite": {
+				"MaxLevel": 25
+			},
+			"Dinobite2": {
+				"MinLevel": 26
+			},
+			"Dinoslash": {
+				"MaxLevel": 25
+			},
+			"Dinoslash2": {
+				"MinLevel": 26
+			},
+			"Dinowhap": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DementiaPuck": {
+		"Abilities": {
+			"DementiaPuckCurse": {},
+			"FaeLightningSmiteHidden": {
+				"Cue": "Perching"
+			},
+			"FaeSwordA": {},
+			"FaeSwordB": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"DemonBehemoth": {
+		"Abilities": {
+			"BehemothBreather": {},
+			"BehemothPound": {},
+			"InfernalSlam": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 1
+			}
+		},
+		"MinDelayBetweenAbilities": 3,
+		"Strategy": "Melee"
+	},
+	"DemonExploder": {
+		"Abilities": {
+			"HellfireEruptionLesser": {}
+		},
+		"Strategy": "Melee"
+	},
+	"DemonFrog": {
+		"Abilities": {
+			"FrogBelchDemon": {},
+			"FrogLickDemon": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"DemonJusticiar": {
+		"Abilities": {
+			"DemonBolt": {},
+			"DemonPull": {},
+			"InfernalSwordSlash": {},
+			"MartialCorrection": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 1
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DemonOverseer": {
+		"Abilities": {
+			"DemonBolt": {},
+			"InfernalSwordSlash": {},
+			"Oversee": {},
+			"OverseerSummon": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 1
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DemonRat": {
+		"Abilities": {
+			"DemonRatBite": {},
+			"DemonRatClaw": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		}
+	},
+	"DemonRat_Pet": {
+		"Abilities": {
+			"DemonRatBite_Pet": {},
+			"DemonRatClaw_Pet": {},
+			"RatBurstDemon_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatBurstDemon_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatBurstDemon_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatBurstDemon_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatBurstDemon_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatBurstDemon_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatBurstDemon_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"RatDeRage_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatDeRage_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatDeRage_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatDeRage_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatDeRage_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatDeRage_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DemonScout": {
+		"Abilities": {
+			"AbyssalSnare": {},
+			"DemonBolt": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TrackingStare": {}
+		},
+		"Strategy": "Ranged"
+	},
+	"DemonSoldier": {
+		"Abilities": {
+			"DevilishSlash": {},
+			"Hellfire": {},
+			"InfernalGaze": {},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DemonSwarmer": {
+		"Abilities": {
+			"ClawSlash": {},
+			"DemonGnaw": {},
+			"DevilishSlash": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"DocileRabbit": {
+		"Abilities": {
+			"AnimalFlee": {
+				"Cue": "DontClose"
+			}
+		}
+	},
+	"DoomstormPet": {
+		"Abilities": {
+			"DoomstormPetBash1": {},
+			"DoomstormPetSmash1": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"DragonWormElectricity": {
+		"Abilities": {
+			"DragonWormBite": {
+				"Cue": "DontClose"
+			},
+			"DragonWormEscape": {
+				"Cue": "ServerRequested"
+			},
+			"DragonWormRage": {
+				"Cue": "DontClose"
+			},
+			"DragonWormSmack": {
+				"Cue": "DontClose"
+			},
+			"DragonWormSpitElectricity": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"DragonWormFire": {
+		"Abilities": {
+			"DragonWormBite": {
+				"Cue": "DontClose"
+			},
+			"DragonWormEscape": {
+				"Cue": "ServerRequested"
+			},
+			"DragonWormRage": {
+				"Cue": "DontClose"
+			},
+			"DragonWormSmack": {
+				"Cue": "DontClose"
+			},
+			"DragonWormSpitFire": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"DulaBeadle": {
+		"Abilities": {
+			"ArmShrivel": {},
+			"LimbWrench": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"DwarfHammerer": {
+		"Abilities": {
+			"DwarfHammererLeapingSmash": {},
+			"DwarfHammererPound": {},
+			"DwarfHammererZap": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"ElectricityAura1": {
+		"Abilities": {
+			"ElectricityAura1": {}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Turret",
+		"UncontrolledPet": true
+	},
+	"ElectricityDroach": {
+		"Abilities": {
+			"DroachBiteA": {
+				"Cue": "DontClose"
+			},
+			"DroachBiteB": {
+				"Cue": "DontClose"
+			},
+			"DroachLightning": {},
+			"DroachLightningPerching": {
+				"Cue": "Perching"
+			},
+			"DroachShockingKnockback": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Extra Damage After Armor Depleted",
+		"Strategy": "Ranged"
+	},
+	"ElectricityPig": {
+		"Abilities": {
+			"ElectricPigAoEStun": {
+				"MinLevel": 40
+			},
+			"ElectricPigHitAndRun": {},
+			"ElectricPigStun": {
+				"MaxLevel": 39
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Hit And Run",
+		"Strategy": "Melee"
+	},
+	"ElementalCold": {
+		"Abilities": {
+			"IcyCocoon": {
+				"MaxLevel": 35
+			},
+			"IcyCocoon2": {
+				"MinLevel": 36
+			},
+			"IcySlam": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadIceBall1": {
+				"Cue": "Perching"
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ElementalColdAcid": {
+		"Abilities": {
+			"AcidOpener": {
+				"Cue": "Opener"
+			},
+			"IcySlam": {},
+			"IcyStun": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadIceBall1": {
+				"Cue": "Perching"
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ElementalElectricity": {
+		"Abilities": {
+			"ElementalSlam": {},
+			"FaeLightningSmite": {
+				"Cue": "Perching"
+			},
+			"GoblinHateZapBall": {
+				"MaxLevel": 30
+			},
+			"GoblinHateZapBall2": {
+				"MinLevel": 31
+			},
+			"GoblinZapBall": {},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ElementalFire": {
+		"Abilities": {
+			"ElementalFireSlam": {},
+			"ElementalFireball": {},
+			"ElementalFireballB": {
+				"Cue": "Perching"
+			},
+			"ElementalHateFireball": {
+				"MaxLevel": 30
+			},
+			"ElementalHateFireball2": {
+				"MaxLevel": 60,
+				"MinLevel": 31
+			},
+			"ElementalHateFireball3": {
+				"MinLevel": 61
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ElementalNature": {
+		"Abilities": {
+			"ElementalBees": {
+				"MaxLevel": 35
+			},
+			"ElementalBees2": {
+				"MinLevel": 36
+			},
+			"ElementalSlam": {},
+			"GoblinZapBall": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WormSpit1": {
+				"Cue": "Perching"
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ElfAssaultDruid": {
+		"Abilities": {
+			"ElfCloudSight": {},
+			"ElfRotskin": {
+				"Cue": "Opener"
+			},
+			"ElfToxinball": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"ElfCourtPriest": {
+		"Abilities": {
+			"ElfCastigate": {},
+			"ElfFlamestrike": {},
+			"ElfMendFlesh": {
+				"Cue": "Heal",
+				"CueVal": 500
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"ElfExecutioner": {
+		"Abilities": {
+			"ElfDecapitate": {},
+			"ElfHackingBlade": {},
+			"ElfSpeedPotion": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"ElfKnifeThrower": {
+		"Abilities": {
+			"ElfFanOfBlades": {},
+			"ElfHamstringThrow": {
+				"Favorite": true
+			},
+			"ElfMarkingCut": {
+				"Cue": "DontClose"
+			},
+			"ElfSurpriseThrow": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"ElfStudent": {
+		"Abilities": {
+			"ElfLifesap": {},
+			"ElfLightningBolt": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"ElfSwordsman": {
+		"Abilities": {
+			"ElfFinishingBlow": {},
+			"ElfFlashingStrike": {},
+			"ElfSpeedPotion": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"ElfThorianBerserker": {
+		"Abilities": {
+			"ElfHeadbutt": {},
+			"ElfInvincibleAura": {},
+			"ElfPunch": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"ElfThorianWarrior": {
+		"Abilities": {
+			"ElfBarrage": {
+				"Cue": "DontClose"
+			},
+			"ElfCrushingBall": {},
+			"ElfElementalWard": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"EnemyMinigolem_Puncher": {
+		"Abilities": {
+			"EnemyMinigolemHeal": {
+				"Cue": "Heal",
+				"CueVal": 5
+			},
+			"EnemyMinigolemPunch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"EnemyMinigolem_SelfDestructor": {
+		"Abilities": {
+			"EnemyMinigolemExplode": {},
+			"EnemyMinigolemPunch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"EnergyBomb": {
+		"Abilities": {
+			"EnergyBombBlast": {}
+		},
+		"Description": "Self-Destructing",
+		"MinDelayBetweenAbilities": 0.5,
+		"MobilityType": "Immobile"
+	},
+	"EventBoss_Claudia": {
+		"Abilities": {
+			"EventBossClaudiaSummon": {},
+			"WorldBossClaudiaBlizzard": {},
+			"WorldBossClaudiaIceSpear": {},
+			"WorldBossClaudiaTundraSpikes": {}
+		}
+	},
+	"ExplodingSheep": {
+		"Abilities": {
+			"SheepBomb1": {
+				"MaxLevel": 30
+			},
+			"SheepBomb2": {
+				"MinLevel": 31
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"FaceOfDeath": {
+		"Abilities": {
+			"FaceOfDeathKill": {}
+		},
+		"Comment": "Death Touch",
+		"Strategy": "Melee"
+	},
+	"FaceOfDeathGuard": {
+		"Abilities": {
+			"FaceOfDeathKill": {}
+		},
+		"Comment": "Death Touch",
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"FaeConduit": {
+		"Abilities": {
+			"FaeConduitHeal": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true,
+		"UseAbilitiesWithoutEnemyTarget": true
+	},
+	"FaeDarkcaster": {
+		"Abilities": {
+			"FaeDarkcasterA": {},
+			"FaeDarkcasterB": {},
+			"FaeDarkcasterStun": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"FaeSwampDragon": {
+		"Abilities": {
+			"FaeDragonBite": {},
+			"FaeDragonSpit": {},
+			"FaeDragonSwoop": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"FairyHealer": {
+		"Abilities": {
+			"AnimalHeal": {
+				"Cue": "Heal",
+				"CueVal": 35,
+				"Favorite": true
+			},
+			"GoblinArmorBuff": {
+				"Cue": "Heal",
+				"CueVal": 15
+			},
+			"GoblinPunch": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"FairyLight_Pet": {
+		"Abilities": {},
+		"Flying": true
+	},
+	"FireDroach": {
+		"Abilities": {
+			"DroachBiteA": {},
+			"DroachBiteB": {},
+			"DroachBreatheFire": {},
+			"DroachFireball": {},
+			"DroachFireballPerching": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Extra Damage After Armor Depleted",
+		"Strategy": "Melee"
+	},
+	"FireRat": {
+		"Abilities": {
+			"FireRatBite": {},
+			"FireRatClaw": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"FireRat_Pet": {
+		"Abilities": {
+			"FireRatBite_Pet": {},
+			"FireRatClaw_Pet": {},
+			"RatBurn_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatBurn_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatBurn_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatBurn_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatBurn_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatBurn_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatBurn_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"RatDeRage_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatDeRage_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatDeRage_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatDeRage_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatDeRage_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatDeRage_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"FireSnake": {
+		"Abilities": {
+			"FireSnakeExplosion1": {}
+		},
+		"Strategy": "Melee",
+		"UncontrolledPet": true
+	},
+	"FireSpider": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderFireball": {},
+			"SpiderKill": {}
+		}
+	},
+	"FireSpider_Boss0": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderBossFreePin": {},
+			"SpiderFireball": {},
+			"SpiderKill2": {
+				"MaxLevel": 89
+			},
+			"SpiderKill90": {
+				"MinLevel": 90
+			}
+		}
+	},
+	"FireTimeBomb": {
+		"Abilities": {
+			"FireBombSelfDestruct": {}
+		},
+		"Description": "Self-Destructing",
+		"MinDelayBetweenAbilities": 0.5,
+		"MobilityType": "Immobile"
+	},
+	"FireTrap1": {
+		"Abilities": {
+			"FireTrapAttack1": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"FireWall1": {
+		"Abilities": {
+			"FireWallAttack1": {},
+			"FireWallDotAttack1": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"FlapSkull": {
+		"Abilities": {
+			"FlapSkullBigBite": {},
+			"FlapSkullBite": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"FlapSkull_Pet": {
+		"Abilities": {
+			"FlapSkullBite": {},
+			"FlapSkullPetVomit": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true,
+		"UncontrolledPet": true
+	},
+	"FlapSkull_Povus": {
+		"Abilities": {
+			"FlapSkullBite": {},
+			"FlapSkullPovusVomit": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"FlyingVanityPet": {
+		"Abilities": {
+			"VanityPeck": {}
+		},
+		"Flying": true
+	},
+	"ForestDragon": {
+		"Abilities": {
+			"GreenDragonBite": {
+				"Cue": "DontClose"
+			},
+			"GreenDragonBreathe": {},
+			"GreenDragonRage": {}
+		},
+		"FlyOffset": 5,
+		"Flying": true,
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"ForestDragon_Kunax": {
+		"Abilities": {
+			"GreenDragonBite": {
+				"Cue": "DontClose"
+			},
+			"GreenDragonRage": {},
+			"KunaxBreathe": {}
+		},
+		"FlyOffset": 5,
+		"Flying": true,
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"Forthragarian": {
+		"Abilities": {
+			"ForthragarianBlast": {},
+			"ForthragarianFreezeRay": {}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
+	"Forthragarian_HubrisYnigix": {
+		"Abilities": {
+			"ForthragarianBlast": {},
+			"ForthragarianFreezeRayBossB": {}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
+	"Forthragarian_Ynigix": {
+		"Abilities": {
+			"ForthragarianBlast": {},
+			"ForthragarianFreezeRayBoss": {}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Swimming": true
+	},
+	"FreezeWasp": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WaspIceRageStab": {},
+			"WaspIceSlowA": {},
+			"WaspIceSlowB": {
+				"Cue": "Opener"
+			},
+			"WaspIceStab": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"FreezeWasp_Pet": {
+		"Abilities": {
+			"WaspFreeze_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"WaspFreeze_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"WaspFreeze_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"WaspFreeze_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"WaspFreeze_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"WaspFreeze_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"WaspFreeze_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"WaspIceShoot_Pet": {},
+			"WaspIceSlow_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"WaspIceSlow_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"WaspIceSlow_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"WaspIceSlow_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"WaspIceSlow_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Description": "Ranged Ice Slow and Poison Injection",
+		"Flying": true,
+		"Strategy": "Ranged"
+	},
+	"FrostHippogriff": {
+		"Abilities": {
+			"HippogriffFrostClaws": {},
+			"HippogriffFrostPeck": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"FrostHippogriffBoss": {
+		"Abilities": {
+			"HippogriffBossFrostClaws": {},
+			"HippogriffFrostPeck": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"FungoidMelee": {
+		"Abilities": {
+			"FungoidBash": {},
+			"FungoidRageBash": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"FungoidMeleeUnfunGuy": {
+		"Abilities": {
+			"FungoidBash": {},
+			"FungoidRageBashBoss": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Gargoyle": {
+		"Abilities": {
+			"GargoyleSlamA": {},
+			"GargoyleSlamB": {},
+			"GargoyleStun": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GargoyleBoss1": {
+		"Abilities": {
+			"GargoyleBossStun": {},
+			"GargoyleSlamA": {},
+			"GargoyleSlamB": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GargoyleWorldBoss": {
+		"Abilities": {
+			"GargoyleBossStun": {},
+			"GargoyleSlamA": {},
+			"GargoyleSlamB": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"GeneralPask": {
+		"Abilities": {
+			"RakBossPerchSlow": {
+				"Cue": "Perching"
+			},
+			"RakBossSlow": {
+				"Cue": "DontClose",
+				"MinRange": 10
+			},
+			"RakDecapitate": {},
+			"RakHackingBlade": {},
+			"RakSwordSlash": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Ghost": {
+		"Abilities": {
+			"GhostlyBurst": {},
+			"GhostlyPunchA": {},
+			"GhostlyPunchB": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh-Invulnerable Until Stunned",
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"GhostMage": {
+		"Abilities": {
+			"GhostlyBolt": {},
+			"GhostlyBurst": {},
+			"GhostlyPunchA": {
+				"Cue": "DontClose"
+			},
+			"GhostlyPunchB": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh-Invulnerable Until Stunned",
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Ghoul": {
+		"Abilities": {
+			"GhoulClawA": {},
+			"GhoulClawB": {},
+			"GhoulSelfBuff": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GhoulWithHammer": {
+		"Abilities": {
+			"GhoulHammerA": {},
+			"GhoulHammerB": {},
+			"GhoulSelfBuff": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GiantBat": {
+		"Abilities": {
+			"GiantBatBite": {},
+			"GiantBatSlashA": {},
+			"GiantBatSlashB": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GiantBeetle": {
+		"Abilities": {
+			"GiantBeetleBite": {},
+			"GiantBeetleBoulderSpit": {
+				"Cue": "Perching"
+			},
+			"GiantBeetleInject": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"GiantLungs": {
+		"Abilities": {
+			"GiantLungsRageHeal": {
+				"MinLevel": 60
+			},
+			"GiantLungsSummon1": {
+				"MaxLevel": 59
+			},
+			"GiantLungsSummon2": {
+				"MaxLevel": 79,
+				"MinLevel": 60
+			},
+			"GiantLungsSummon3": {
+				"MinLevel": 80
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"GiantLungsDemonic": {
+		"Abilities": {
+			"GiantLungsDemonicBlast": {},
+			"GiantLungsRageHeal": {},
+			"GiantLungsSummonDemonic": {}
+		},
+		"Flying": true,
+		"Strategy": "Ranged"
+	},
+	"GiantRat": {
+		"Abilities": {
+			"RatBite": {},
+			"RatClaw": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GiantRat_Pet": {
+		"Abilities": {
+			"RatBite_Pet": {},
+			"RatClaw_Pet": {},
+			"RatDeRage_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatDeRage_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatDeRage_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatDeRage_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatDeRage_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatDeRage_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"RatVuln_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"RatVuln_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"RatVuln_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"RatVuln_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"RatVuln_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GiantScorpion": {
+		"Abilities": {
+			"GiantScorpionClawA": {},
+			"GiantScorpionClawB": {},
+			"GiantScorpionSting": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh Invulnerable Until Knocked Back",
+		"Strategy": "Melee"
+	},
+	"Gnasher": {
+		"Abilities": {
+			"GnasherBite": {},
+			"GnasherRend": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GnasherBloodSpewer": {
+		"Abilities": {
+			"GnasherBite": {
+				"Cue": "DontClose"
+			},
+			"GnasherBloodPull": {},
+			"GnasherBloodSpew": {},
+			"GnasherRend": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"Goat": {
+		"Abilities": {
+			"GoatBite": {},
+			"GoatRageRam": {},
+			"GoatRam": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GoatBoss": {
+		"Abilities": {
+			"GoatBite": {},
+			"GoatKick": {},
+			"GoatSmite": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GoblinBoss": {
+		"Abilities": {
+			"GoblinBossLightning": {},
+			"GoblinSpear1": {},
+			"GoblinSpear2": {}
+		},
+		"Strategy": "Melee"
+	},
+	"GoblinBossGuztok": {
+		"Abilities": {
+			"GoblinRageGuztok": {},
+			"GoblinSwordSlashGuztok": {}
+		},
+		"Strategy": "Melee"
+	},
+	"GoblinDeathMage": {
+		"Abilities": {
+			"GoblinHateZapBall": {
+				"MaxLevel": 25,
+				"MinRange": 10
+			},
+			"GoblinHateZapBall2": {
+				"MinLevel": 26,
+				"MinRange": 10
+			},
+			"GoblinPunch": {
+				"Cue": "DontClose"
+			},
+			"GoblinZapBall": {
+				"MinRange": 10
+			}
+		}
+	},
+	"GoblinDeathMage2": {
+		"Abilities": {
+			"GoblinHateZapBall": {
+				"MaxLevel": 25,
+				"MinRange": 10
+			},
+			"GoblinHateZapBall2": {
+				"MinLevel": 26,
+				"MinRange": 10
+			},
+			"GoblinPunch": {
+				"Cue": "DontClose"
+			},
+			"GoblinSpreadZapBall": {},
+			"GoblinZapBall": {
+				"MinRange": 10
+			}
+		}
+	},
+	"GoblinDeathMageBoss": {
+		"Abilities": {
+			"GoblinHateZapBall": {
+				"MaxLevel": 25
+			},
+			"GoblinHateZapBall2": {
+				"MinLevel": 26
+			},
+			"GoblinPunch": {
+				"Cue": "DontClose"
+			},
+			"GoblinSpreadZapBall": {},
+			"GoblinZapBall": {}
+		}
+	},
+	"GoblinLifeMage": {
+		"Abilities": {
+			"GoblinHeal": {
+				"Cue": "Heal",
+				"CueVal": 35,
+				"Favorite": true
+			},
+			"GoblinPunch": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GoblinPoisonArcher": {
+		"Abilities": {
+			"GoblinArrow1": {},
+			"GoblinArrow2": {},
+			"GoblinRageArrow1": {
+				"MaxLevel": 25
+			},
+			"GoblinRageArrow2": {
+				"MinLevel": 26
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"GoblinPoisonArcher_Stationary": {
+		"Abilities": {
+			"GoblinArrow1": {
+				"Cue": "DontClose"
+			},
+			"GoblinArrow2": {
+				"Cue": "DontClose"
+			},
+			"GoblinRageArrow1": {
+				"Cue": "DontClose",
+				"MaxLevel": 25
+			},
+			"GoblinRageArrow2": {
+				"Cue": "DontClose",
+				"MinLevel": 26
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"GoblinRangerSpear": {
+		"Abilities": {
+			"GoblinRageSpear1": {
+				"MaxLevel": 25
+			},
+			"GoblinRageSpear2": {
+				"MinLevel": 26
+			},
+			"GoblinSpear1": {},
+			"GoblinSpear2": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"GoblinWarrior": {
+		"Abilities": {
+			"GoblinRageSpear1": {
+				"MaxLevel": 25
+			},
+			"GoblinRageSpear2": {
+				"MinLevel": 26
+			},
+			"GoblinSpear1": {},
+			"GoblinSpear2": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Grickling": {
+		"Abilities": {
+			"Grickfix": {},
+			"Gricklick": {},
+			"Grickspit": {
+				"MinRange": 20
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Grimalkin": {
+		"Abilities": {
+			"GrimalkinBite": {},
+			"GrimalkinClaw": {},
+			"GrimalkinPuncture": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Grimalkin_Pet": {
+		"Abilities": {
+			"GrimalkinBite": {},
+			"GrimalkinClaw": {},
+			"GrimalkinFlee_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59
+			},
+			"GrimalkinFlee_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 60
+			},
+			"GrimalkinFlee_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"GrimalkinFlee_Pet4": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"GrimalkinPuncture_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"GrimalkinPuncture_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"GrimalkinPuncture_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"GrimalkinPuncture_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"GrimalkinPuncture_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"GrimalkinPuncture_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"GrimalkinPuncture_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Grimalkin_PetHissy": {
+		"Abilities": {
+			"BigCatRoot_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"BigCatRoot_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"BigCatRoot_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"BigCatRoot_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"BigCatRoot_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"BigCatRoot_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"BigCatRoot_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"GrimalkinBite": {},
+			"GrimalkinClaw": {},
+			"GrimalkinPuncture_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"GrimalkinPuncture_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"GrimalkinPuncture_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"GrimalkinPuncture_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"GrimalkinPuncture_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"GrimalkinPuncture_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"GrimalkinPuncture_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Hag": {
+		"Abilities": {
+			"HagAgingScream": {},
+			"HagAgingTouch": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Harmless": {
+		"Abilities": {}
+	},
+	"Harmless_Static": {
+		"Abilities": {},
+		"MobilityType": "Static"
+	},
+	"Harmless_Stationary": {
+		"Abilities": {},
+		"MobilityType": "Immobile"
+	},
+	"Harmless_Stationary_TrollStyle": {
+		"Abilities": {},
+		"Comment": "Auto-Heals Unless On Fire",
+		"MobilityType": "Turret"
+	},
+	"HealingAnimal": {
+		"Abilities": {
+			"AnimalBite": {},
+			"AnimalClaw": {},
+			"AnimalHeal": {
+				"Cue": "Heal",
+				"CueVal": 10
+			},
+			"AnimalOmegaBite": {
+				"MaxLevel": 25
+			},
+			"AnimalOmegaBite2": {
+				"MinLevel": 26
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 4
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"HealingAura": {
+		"Abilities": {
+			"HealingAura": {
+				"Cue": "Heal",
+				"CueVal": 1
+			}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true,
+		"UseAbilitiesWithoutEnemyTarget": true
+	},
+	"HealingFireWall": {
+		"Abilities": {
+			"HealingFireWallAttack1": {
+				"MaxLevel": 74
+			},
+			"HealingFireWallAttack2": {
+				"MaxLevel": 84,
+				"MinLevel": 75
+			},
+			"HealingFireWallAttack3": {
+				"MinLevel": 85
+			},
+			"HealingFireWallRageAttack1": {
+				"MaxLevel": 74
+			},
+			"HealingFireWallRageAttack2": {
+				"MaxLevel": 84,
+				"MinLevel": 75
+			},
+			"HealingFireWallRageAttack3": {
+				"MinLevel": 85
+			}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"HealingSanctuary": {
+		"Abilities": {
+			"DruidHealingSanctuaryHeal": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true,
+		"UseAbilitiesWithoutEnemyTarget": true
+	},
+	"Hexapus": {
+		"Abilities": {
+			"HexapusBite": {
+				"Cue": "DontClose"
+			},
+			"HexapusMegaSpit": {},
+			"HexapusPull": {
+				"Cue": "DontClose",
+				"MinRange": 10
+			},
+			"HexapusSpit": {},
+			"HexapusStun": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"HexapusElite": {
+		"Abilities": {
+			"HexapusBite": {
+				"Cue": "DontClose"
+			},
+			"HexapusBulkSpit": {
+				"Cue": "DontClose"
+			},
+			"HexapusPull": {
+				"Cue": "DontClose",
+				"MinRange": 10
+			},
+			"HexapusSpit": {},
+			"HexapusStun": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"Hexapus_Lusca": {
+		"Abilities": {
+			"HexapusBite": {
+				"Cue": "DontClose"
+			},
+			"HexapusBossSpit": {},
+			"HexapusPull": {
+				"Cue": "DontClose",
+				"MinRange": 10
+			},
+			"HexapusSpit": {},
+			"HexapusStun": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"Hippo": {
+		"Abilities": {
+			"HippoBite": {},
+			"HippoBiteAndHeal": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Hippogriff": {
+		"Abilities": {
+			"HippogriffPeck": {},
+			"HippogriffSlashes": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"HippogriffBoss": {
+		"Abilities": {
+			"HippogriffBossSlashes": {},
+			"HippogriffPeck": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"HoofedAnimal": {
+		"Abilities": {
+			"AnimalHoofFrontKick": {},
+			"AnimalHoofRageKick": {
+				"MaxLevel": 25
+			},
+			"AnimalHoofRageKick2": {
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"HookHorror": {
+		"Abilities": {
+			"HookAcid": {},
+			"HookClaw": {},
+			"HookRage": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Strategy": "Melee"
+	},
+	"HumanGuardSword": {
+		"Abilities": {
+			"HumanGuardHackingBlade": {},
+			"HumanGuardSword": {},
+			"HumanGuardSwordAngry": {},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"IceCock": {
+		"Abilities": {
+			"IceCockFreeze": {},
+			"IceCockPeck": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"IceDroach": {
+		"Abilities": {
+			"DroachBiteA": {
+				"Cue": "DontClose"
+			},
+			"DroachBiteB": {
+				"Cue": "DontClose"
+			},
+			"DroachIce": {},
+			"DroachIceKnockback": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Extra Damage After Armor Depleted",
+		"Strategy": "Ranged"
+	},
+	"IceSlime": {
+		"Abilities": {
+			"IceSlimeBite": {
+				"MaxLevel": 25
+			},
+			"IceSlimeBiteB": {
+				"MinLevel": 26
+			},
+			"IceSlimeKick": {},
+			"IceSlimeKickB": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"IceZombie": {
+		"Abilities": {
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"ZombieBite": {},
+			"ZombiePunch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"IllusoryFox_Pet": {
+		"Abilities": {
+			"IllusoryFoxBite1": {
+				"MaxLevel": 25
+			},
+			"IllusoryFoxBite2": {
+				"MaxLevel": 41,
+				"MinLevel": 26
+			},
+			"IllusoryFoxBite3": {
+				"MaxLevel": 55,
+				"MinLevel": 42
+			},
+			"IllusoryFoxBite4": {
+				"MaxLevel": 71,
+				"MinLevel": 56
+			},
+			"IllusoryFoxBite5": {
+				"MinLevel": 72
+			},
+			"IllusoryFoxRage1": {
+				"MaxLevel": 25
+			},
+			"IllusoryFoxRage2": {
+				"MaxLevel": 41,
+				"MinLevel": 26
+			},
+			"IllusoryFoxRage3": {
+				"MaxLevel": 55,
+				"MinLevel": 42
+			},
+			"IllusoryFoxRage4": {
+				"MaxLevel": 71,
+				"MinLevel": 56
+			},
+			"IllusoryFoxRage5": {
+				"MinLevel": 72
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"InjectorBug": {
+		"Abilities": {
+			"InjectorBugBite": {},
+			"InjectorBugInject": {
+				"MaxLevel": 39
+			},
+			"InjectorBugInject2": {
+				"MinLevel": 40
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Khyrulek": {
+		"Abilities": {
+			"KhyrulekCurseBall": {},
+			"UndeadFireballLongA": {}
+		},
+		"MobilityType": "Turret"
+	},
+	"Kraken": {
+		"Abilities": {
+			"KrakenBeak": {},
+			"KrakenRage": {},
+			"KrakenSlam": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"KrakenBaby": {
+		"Abilities": {
+			"KrakenBabyBeak": {},
+			"KrakenBabyRage": {},
+			"KrakenBabySlam": {}
+		},
+		"Strategy": "Melee"
+	},
+	"KrakenBoss": {
+		"Abilities": {
+			"KrakenBeak": {},
+			"KrakenBossRageCurse": {},
+			"KrakenSlam": {}
+		},
+		"Strategy": "Melee"
+	},
+	"KrakenImplanter": {
+		"Abilities": {
+			"KrakenBeak": {},
+			"KrakenRageImplant": {},
+			"KrakenSlam": {}
+		},
+		"Strategy": "Melee"
+	},
+	"KrakenWorldBoss": {
+		"Abilities": {
+			"KrakenBeak": {},
+			"KrakenSlam": {},
+			"KrakenWorldBossRageCurse": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Kuvou": {
+		"Abilities": {
+			"KuvouAttack1": {},
+			"KuvouAttack2": {},
+			"KuvouRageAttack": {},
+			"KuvouSpit": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"KuvouCold": {
+		"Abilities": {
+			"KuvouAttack1": {},
+			"KuvouAttack2": {},
+			"KuvouRageAttackCold": {},
+			"KuvouSpit": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Lamia": {
+		"Abilities": {
+			"LamiaMindControl": {},
+			"LamiaRage": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"LamiaBoss": {
+		"Abilities": {
+			"LamiaBossMindControl": {},
+			"LamiaMindControl": {},
+			"LamiaRage": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"LethargyPuck": {
+		"Abilities": {
+			"FaeLightningSmite": {
+				"Cue": "Perching"
+			},
+			"LethargyPuckFrostbite": {},
+			"LethargyPuckRage": {}
+		},
+		"MobilityType": "Turret"
+	},
+	"LightningBoltAura": {
+		"Abilities": {
+			"ElectricityAuraBolt1": {}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Turret",
+		"UncontrolledPet": true
+	},
+	"LongRangeTurretCrystal": {
+		"Abilities": {
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TurretCrystalZapLongRange": {
+				"Cue": "DontClose"
+			},
+			"TurretCrystalZapLongRange2": {
+				"Cue": "DontClose"
+			}
+		},
+		"MinDelayBetweenAbilities": 1.2,
+		"MobilityType": "Turret"
+	},
+	"LongRangeTurretCrystalFragile": {
+		"Abilities": {
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TurretCrystalZapLongRange": {
+				"Cue": "DontClose"
+			},
+			"TurretCrystalZapLongRange2": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MinDelayBetweenAbilities": 1.2,
+		"MobilityType": "Turret"
+	},
+	"Manticore": {
+		"Abilities": {
+			"ManticoreBite": {},
+			"ManticoreClaw": {},
+			"ManticoreSting1": {
+				"MaxLevel": 60
+			},
+			"ManticoreSting2": {
+				"MinLevel": 61
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ManticoreCold": {
+		"Abilities": {
+			"ManticoreBite": {},
+			"ManticoreClaw": {},
+			"ManticoreStingCold": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Mantis": {
+		"Abilities": {
+			"MantisClaw": {},
+			"MantisRage": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"MentalistNecromancer": {
+		"Abilities": {
+			"NecroDarknessWave": {},
+			"NecroPainBubble": {},
+			"NecroSpark": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Mindworm": {
+		"Abilities": {
+			"DragonWormBite": {
+				"Cue": "DontClose"
+			},
+			"DragonWormEscape": {
+				"Cue": "ServerRequested"
+			},
+			"DragonWormMindworm": {},
+			"DragonWormPsychicRage": {
+				"Cue": "DontClose"
+			},
+			"DragonWormSmack": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"Minigolem_Beginner": {
+		"Abilities": {
+			"MinigolemAoEHeal": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEHeal9": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemAoEPower8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemBombToss9": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemDoomAdmixture8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm1": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemFireBalm8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHasteConcoction1": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHasteConcoction2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHasteConcoction3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHasteConcoction4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemHeal9": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemPunch8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss1": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAcidToss8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal1": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemRageAoEHeal8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct8": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfDestruct9": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice2": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice3": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice4": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice5": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice6": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice7": {
+				"Cue": "ServerRequested"
+			},
+			"MinigolemSelfSacrifice8": {
+				"Cue": "ServerRequested"
+			}
+		},
+		"ServerDriven": true,
+		"Strategy": "Ranged"
+	},
+	"Minotaur": {
+		"Abilities": {
+			"MinotaurBoulder": {
+				"Cue": "DontClose"
+			},
+			"MinotaurClub": {},
+			"MinotaurRageClub": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"MinotaurBoss": {
+		"Abilities": {
+			"MinotaurBossRageClub": {},
+			"MinotaurBoulder": {
+				"Cue": "DontClose"
+			},
+			"MinotaurClub": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"MinotaurBossB": {
+		"Abilities": {
+			"MinotaurBossRageClubB": {},
+			"MinotaurBoulder": {
+				"Cue": "DontClose"
+			},
+			"MinotaurClub": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"MinotaurBossHapis": {
+		"Abilities": {
+			"MinotaurBossRageBoulder": {},
+			"MinotaurBoulder": {
+				"Cue": "DontClose"
+			},
+			"MinotaurClub": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"MinotaurSage": {
+		"Abilities": {
+			"MinotaurGore": {
+				"Cue": "DontClose"
+			},
+			"MinotaurLightning": {},
+			"MinotaurStun": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"MobileFireWall": {
+		"Abilities": {
+			"FireWallAttack1": {},
+			"FireWallDotAttack1": {}
+		},
+		"Strategy": "Melee"
+	},
+	"MummyDiseaser": {
+		"Abilities": {
+			"MummySlamA": {},
+			"MummySlamB": {},
+			"MummySlamCombo": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"MummyWrapper": {
+		"Abilities": {
+			"MummyWrapA": {},
+			"MummyWrapB": {},
+			"MummyWrapRage": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"Mummy_Baruti": {
+		"Abilities": {
+			"BarutiWrapA": {},
+			"BarutiWrapB": {},
+			"BarutiWrapRage": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"MushroomMonster": {
+		"Abilities": {
+			"MushroomMonster_Bite": {},
+			"MushroomMonster_Spit1": {
+				"MaxLevel": 25
+			},
+			"MushroomMonster_Spit2": {
+				"MinLevel": 26
+			},
+			"MushroomMonster_SummonMushroomSpawn1": {
+				"MaxLevel": 25
+			},
+			"MushroomMonster_SummonMushroomSpawn2": {
+				"MaxLevel": 59,
+				"MinLevel": 26
+			},
+			"MushroomMonster_SummonMushroomSpawn3": {
+				"MaxLevel": 79,
+				"MinLevel": 60
+			},
+			"MushroomMonster_SummonMushroomSpawn8": {
+				"MaxLevel": 89,
+				"MinLevel": 80
+			},
+			"MushroomMonster_SummonMushroomSpawn9": {
+				"MinLevel": 90
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"MushroomMonsterCold": {
+		"Abilities": {
+			"MushroomMonster_Bite": {},
+			"MushroomMonster_SpitCold1": {},
+			"MushroomMonster_SummonMushroomSpawnCold1": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"MushroomMonsterSpawn": {
+		"Abilities": {
+			"MushroomMonster_Bite": {},
+			"MushroomMonster_SpawnSpit1": {
+				"MaxLevel": 25
+			},
+			"MushroomMonster_SpawnSpit2": {
+				"MinLevel": 26
+			},
+			"MushroomMonster_SpawnSuperSpit1": {
+				"MaxLevel": 25
+			},
+			"MushroomMonster_SpawnSuperSpit2": {
+				"MaxLevel": 59,
+				"MinLevel": 26
+			},
+			"MushroomMonster_SpawnSuperSpit3": {
+				"MinLevel": 60
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"MushroomMonsterSpawnCold": {
+		"Abilities": {
+			"MushroomMonster_Bite": {},
+			"MushroomMonster_SpitCold1": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"Myconian": {
+		"Abilities": {
+			"Myconian_Bash": {},
+			"Myconian_Drain": {
+				"MaxLevel": 30
+			},
+			"Myconian_Drain2": {
+				"MinLevel": 31
+			},
+			"Myconian_Mindspores": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"MyconianCrystalTrapA": {
+		"Abilities": {
+			"CrystalTrapA": {
+				"Cue": "DontClose"
+			},
+			"CrystalTrapARage": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"MyconianMindslapper": {
+		"Abilities": {
+			"Myconian_Mindslap": {},
+			"Myconian_Mindspores2": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"NecroRat_Pet": {
+		"Abilities": {
+			"RatBite_Pet": {},
+			"RatBuffDarkness_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatBuffDarkness_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatBuffDarkness_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatBuffDarkness_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatBuffDarkness_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatBuffDarkness_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatBuffDarkness_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"RatClaw_Pet": {},
+			"RatDeRage_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatDeRage_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatDeRage_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatDeRage_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatDeRage_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatDeRage_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Necromancer": {
+		"Abilities": {
+			"NecroDarknessWave": {},
+			"NecroDeathsHold": {},
+			"NecroSpark": {},
+			"NecroSparkPerching": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"NightmareDeer": {
+		"Abilities": {
+			"NightmareDarknessBomb": {},
+			"NightmareHoof": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"OceanDroach": {
+		"Abilities": {
+			"DroachBiteA": {
+				"Cue": "DontClose"
+			},
+			"DroachBiteB": {
+				"Cue": "DontClose"
+			},
+			"DroachBreatheWater": {},
+			"DroachShockingKnockback": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Extra Damage After Armor Depleted",
+		"Strategy": "Ranged"
+	},
+	"OgreThunderer": {
+		"Abilities": {
+			"OgreClubA": {},
+			"OgreClubB": {},
+			"OgreCripplingThrow": {},
+			"OgreRageBolt": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 3,
+		"Strategy": "Melee"
+	},
+	"OgreWarrior": {
+		"Abilities": {
+			"OgreClubA": {},
+			"OgreClubB": {},
+			"OgreStun": {},
+			"OgreThrow": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 4,
+		"Strategy": "Melee"
+	},
+	"OrcArcher": {
+		"Abilities": {
+			"OrcArrow1": {},
+			"OrcArrow2": {},
+			"OrcSwordSlash": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"OrcElementalMage": {
+		"Abilities": {
+			"OrcElectricStun": {},
+			"OrcFireBolts": {},
+			"OrcFireball": {},
+			"OrcStaffSmash": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"OrcEliteRanger": {
+		"Abilities": {
+			"OrcArrow1": {
+				"Cue": "DontClose",
+				"MinRange": 6
+			},
+			"OrcArrow2": {
+				"Cue": "DontClose",
+				"MinRange": 6
+			},
+			"OrcDebuffArrow": {
+				"Cue": "Opener"
+			},
+			"OrcSlice": {},
+			"OrcVenomstrike1": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcEngineer": {
+		"Abilities": {
+			"OrcCrossbowBolt": {},
+			"OrcFieryBolt": {},
+			"OrcShrapnelBolt": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"OrcFireSwordsman": {
+		"Abilities": {
+			"OrcFinishingBlowFire": {},
+			"OrcParryFire": {},
+			"OrcSwordSlashFire": {},
+			"OrcThrow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcGazlukCryptBoss1": {
+		"Abilities": {
+			"GazlukPriest1Special": {},
+			"OrcDeathsHold": {
+				"MinRange": 10
+			},
+			"OrcFireball": {}
+		},
+		"Swimming": true
+	},
+	"OrcGazlukCryptBoss2": {
+		"Abilities": {
+			"GazlukPriest2Special": {},
+			"OrcElectricStun": {},
+			"OrcFireball": {}
+		},
+		"Swimming": true
+	},
+	"OrcGazlukCryptBoss3": {
+		"Abilities": {
+			"GazlukPriest3Special": {},
+			"OrcDeathsHold": {
+				"MinRange": 10
+			},
+			"OrcFireball": {}
+		},
+		"Swimming": true
+	},
+	"OrcGazlukHealingSuitBoss": {
+		"Abilities": {
+			"OrcAreaHalberdBoss": {},
+			"OrcHalberdAttack": {},
+			"OrcSpearAttack": {},
+			"OrcSummonSigil1": {
+				"MaxLevel": 80
+			},
+			"OrcSummonSigil2": {
+				"MinLevel": 81
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcKnifer": {
+		"Abilities": {
+			"OrcSlice": {},
+			"OrcThrow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"OrcVenomstrike0": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcLieutenant": {
+		"Abilities": {
+			"OrcFinishingBlow": {},
+			"OrcLieutenantDebuffTaunt": {},
+			"OrcSwordSlash": {},
+			"OrcThrow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcMageElite": {
+		"Abilities": {
+			"OrcFireball": {},
+			"OrcKnockbackBolt": {},
+			"OrcStaffSmash": {
+				"Cue": "DontClose"
+			},
+			"OrcSummonUrak2": {},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"OrcMiner": {
+		"Abilities": {
+			"OrcDrill": {},
+			"OrcFoulMouth": {},
+			"OrcPickPound": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"OrcMinerBoss": {
+		"Abilities": {
+			"OrcDrill": {},
+			"OrcFoulMouthBoss": {},
+			"OrcPickPound": {}
+		},
+		"Strategy": "Melee"
+	},
+	"OrcMuttererNecromancer": {
+		"Abilities": {
+			"OrcDarknessBall": {},
+			"OrcDeathsHold": {},
+			"OrcWaveOfDarkness": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"OrcMuttererShocker": {
+		"Abilities": {
+			"OrcElectricStun": {},
+			"OrcExtinguishLife": {},
+			"OrcFireball": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"OrcSigilTactician": {
+		"Abilities": {
+			"OrcAreaHalberdAttack": {},
+			"OrcHalberdAttack": {},
+			"OrcSpearAttack": {},
+			"OrcSummonSigil1": {
+				"MaxLevel": 80
+			},
+			"OrcSummonSigil2": {
+				"MinLevel": 81
+			},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcSupportMage": {
+		"Abilities": {
+			"OrcEvasionBubble": {},
+			"OrcFireball": {},
+			"OrcHeal": {
+				"Cue": "Heal",
+				"CueVal": 50
+			},
+			"OrcStaffSmash": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"OrcSwordsman": {
+		"Abilities": {
+			"OrcFinishingBlow": {},
+			"OrcParry": {},
+			"OrcSwordSlash": {},
+			"OrcThrow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"OrcSwordsmanTwoHanded": {
+		"Abilities": {
+			"OrcThrow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"OrcTwoHandOverhead": {},
+			"OrcTwoHandParry": {},
+			"OrcTwoHandSwing": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"OrcWrestler": {
+		"Abilities": {
+			"OrcHipThrow": {},
+			"OrcKneeKick": {},
+			"OrcPunch": {},
+			"OrcThrow": {
+				"Cue": "Slowed",
+				"CueVal": 8
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Osslar": {
+		"Abilities": {
+			"OsslarBite": {},
+			"OsslarSlash": {},
+			"OsslarSlashB": {},
+			"OsslarTaunt": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"PetRatkinSkeletonElectricityMage": {
+		"Abilities": {
+			"PetRatkinUndeadElectricityA": {},
+			"PetRatkinUndeadElectricityB": {},
+			"PetRatkinUndeadElectricityBurst": {
+				"Cue": "DontClose"
+			}
+		}
+	},
+	"PetShamblingCorpse": {
+		"Abilities": {
+			"PetUndeadRageReap": {},
+			"PetUndeadReapPunch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"PetSkeletonDistanceArcher": {
+		"Abilities": {
+			"PetUndeadArrow1": {
+				"MinRange": 5
+			},
+			"PetUndeadArrow2": {
+				"MinRange": 5
+			},
+			"PetUndeadOmegaArrow": {
+				"MinRange": 5
+			}
+		}
+	},
+	"PetSkeletonMage": {
+		"Abilities": {
+			"PetUndeadDefensiveBurst": {
+				"Cue": "DontClose"
+			},
+			"PetUndeadFireballA": {},
+			"PetUndeadFireballB": {}
+		}
+	},
+	"PetSkeletonWarrior": {
+		"Abilities": {
+			"PetUndeadSword1": {},
+			"PetUndeadSword2": {},
+			"PetUndeadSwordAngry": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Phoenix": {
+		"Abilities": {
+			"PhoenixBlast": {},
+			"PhoenixClaw": {},
+			"PhoenixFireball": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"PhoenixBlaster": {
+		"Abilities": {
+			"PhoenixBlast": {},
+			"PhoenixClaw": {
+				"Cue": "DontClose"
+			},
+			"PhoenixFireball": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"PhoenixBoss1": {
+		"Abilities": {
+			"PhoenixClaw": {},
+			"PhoenixFireball": {},
+			"PhoenixFlash": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"Pixie": {
+		"Abilities": {
+			"PixieRageSlash": {},
+			"PixieSlash": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"PoisonSlug": {
+		"Abilities": {
+			"SlugPoisonBite": {
+				"MaxLevel": 30
+			},
+			"SlugPoisonBite2": {
+				"MaxLevel": 50,
+				"MinLevel": 31
+			},
+			"SlugPoisonBite3": {
+				"MinLevel": 51
+			},
+			"SlugPoisonRage": {
+				"MaxLevel": 30
+			},
+			"SlugPoisonRage2": {
+				"MaxLevel": 50,
+				"MinLevel": 31
+			},
+			"SlugPoisonRage3": {
+				"MinLevel": 51
+			},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"PsiMantis": {
+		"Abilities": {
+			"MantisBlast": {},
+			"MantisSwipe": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"PsiMantisDebuffer": {
+		"Abilities": {
+			"MantisBlast": {},
+			"MantisPainBubbleMelee": {
+				"Cue": "Opener"
+			},
+			"MantisSwipe": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"PsiMantisImarak": {
+		"Abilities": {
+			"MantisBeam": {},
+			"MantisClaw": {
+				"Cue": "DontClose"
+			},
+			"MantisPainBubbleRanged": {
+				"Cue": "Opener"
+			},
+			"MantisRageBeamImarak": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"PsiMantisImarakBossGauntlet": {
+		"Abilities": {
+			"MantisBeamLongRanged": {},
+			"MantisClaw": {
+				"Cue": "DontClose"
+			},
+			"MantisPainBubbleLongRanged": {
+				"Cue": "Opener"
+			},
+			"MantisPortal": {
+				"Favorite": true
+			},
+			"MantisRageBeamImarak": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"PsiMantisVemuta": {
+		"Abilities": {
+			"MantisBossBlast": {},
+			"MantisPainBubbleMelee": {
+				"Cue": "Opener"
+			},
+			"MantisSwipe": {},
+			"SpecialBuffBodilyResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"PsiRat": {
+		"Abilities": {
+			"GoblinHateZapBall": {
+				"MaxLevel": 25
+			},
+			"GoblinHateZapBall2": {
+				"MinLevel": 26
+			},
+			"GoblinZapBall": {},
+			"RatBite": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		}
+	},
+	"PumpkinBomb": {
+		"Abilities": {
+			"PumpkinBomb": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"PumpkinMimic": {
+		"Abilities": {
+			"PumpkinMimicBite": {},
+			"PumpkinMimicRage": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"PumpkinTurret": {
+		"Abilities": {
+			"PumpkinFire": {}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Turret",
+		"UncontrolledPet": true
+	},
+	"RakshasaArcher1": {
+		"Abilities": {
+			"RakAimedShot": {},
+			"RakBasicShot": {},
+			"RakBowBash": {
+				"Cue": "DontClose"
+			},
+			"RakHookShot": {
+				"Cue": "Opener"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaArcher2": {
+		"Abilities": {
+			"RakAimedShot": {},
+			"RakBasicShot": {},
+			"RakBowBash": {
+				"Cue": "DontClose"
+			},
+			"RakPoisonArrow": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaBattleChemist": {
+		"Abilities": {
+			"RakAcidBomb": {},
+			"RakHealingMist": {},
+			"RakToxinBomb": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaBattleChemist_Tolmar": {
+		"Abilities": {
+			"RakAcidBomb": {},
+			"RakHealingMist": {},
+			"RakToxinBomb_Tolmar": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaFireMage": {
+		"Abilities": {
+			"RakBreatheFire": {
+				"Cue": "DontClose"
+			},
+			"RakFireball": {},
+			"RakRingOfFire": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaFireMage_Gunn": {
+		"Abilities": {
+			"RakFireBreath_Gunn": {
+				"Cue": "DontClose"
+			},
+			"RakFireball_Gunn": {},
+			"RakFireball_GunnB": {},
+			"RakRingOfFire_Gunn": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Strategy": "Ranged"
+	},
+	"RakshasaMentalist1": {
+		"Abilities": {
+			"RakMindreave": {},
+			"RakPainBubble": {
+				"Cue": "Opener"
+			},
+			"RakPanicCharge": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaMentalist2": {
+		"Abilities": {
+			"RakMindreave": {},
+			"RakReconstruct": {},
+			"RakRevitalize": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Ranged"
+	},
+	"RakshasaStaffFighter": {
+		"Abilities": {
+			"RakStaffBlock": {},
+			"RakStaffHeavy": {},
+			"RakStaffHit": {},
+			"RakStaffPin": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RakshasaStaffFighter_Ambrosia": {
+		"Abilities": {
+			"RakStaffBlock": {},
+			"RakStaffHeavy_Ambrosia": {},
+			"RakStaffHit_Ambrosia": {},
+			"RakStaffHit_AmbrosiaB": {},
+			"RakStaffPin_Ambrosia": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 1,
+		"Strategy": "Melee"
+	},
+	"RakshasaSwordFighter": {
+		"Abilities": {
+			"RakBossPerchSlow": {
+				"Cue": "Perching"
+			},
+			"RakDecapitate": {},
+			"RakHackingBlade": {},
+			"RakSwordSlash": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RakshasaUnarmedFighter": {
+		"Abilities": {
+			"RakBarrage": {},
+			"RakKick": {},
+			"RakKnee": {},
+			"RakSlash": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RanalonEvoker": {
+		"Abilities": {
+			"RanalonRoot": {},
+			"RanalonSelfBuffElite": {},
+			"RanalonZap": {},
+			"RanalonZapB": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"RanalonGuardianPuller": {
+		"Abilities": {
+			"RanalonGuardianBite": {
+				"Cue": "DontClose"
+			},
+			"RanalonGuardianBlind": {},
+			"RanalonGuardianPull": {
+				"Cue": "Opener"
+			},
+			"RanalonGuardianStab": {},
+			"RanalonGuardianStabB": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"RanalonGuardianWarrior": {
+		"Abilities": {
+			"RanalonGuardianBite": {
+				"Cue": "DontClose"
+			},
+			"RanalonGuardianBlind": {},
+			"RanalonGuardianStab": {},
+			"RanalonGuardianStabB": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"RanalonHealer": {
+		"Abilities": {
+			"RanalonHeal": {
+				"Cue": "Heal",
+				"CueVal": 15,
+				"Favorite": true
+			},
+			"RanalonZap": {},
+			"RanalonZapB": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"RanalonStoneMage": {
+		"Abilities": {
+			"RanalonRoot": {
+				"Cue": "Opener"
+			},
+			"RanalonSelfBuff1": {
+				"MaxLevel": 20
+			},
+			"RanalonSelfBuff2": {
+				"MinLevel": 21
+			},
+			"RanalonZap": {},
+			"RanalonZapB": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"RanalonWarrior": {
+		"Abilities": {
+			"RanalonHit": {},
+			"RanalonHitB": {},
+			"RanalonKick": {
+				"Cue": "DontClose"
+			},
+			"RanalonTongue": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"RanalonZapper": {
+		"Abilities": {
+			"RanalonKick": {
+				"Cue": "DontClose"
+			},
+			"RanalonTongue": {},
+			"RanalonZap": {},
+			"RanalonZapB": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Swimming": true
+	},
+	"Rat": {
+		"Abilities": {
+			"RatBite": {},
+			"RatClaw": {},
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RatTrap": {
+		"Abilities": {
+			"RatTrapAttack": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"Rat_Pet": {
+		"Abilities": {
+			"RatBite_Pet": {},
+			"RatClaw_Pet": {},
+			"RatDeRage_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatDeRage_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatDeRage_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatDeRage_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatDeRage_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatDeRage_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatDeRage_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"RatHeal_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"RatHeal_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"RatHeal_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"RatHeal_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"RatHeal_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"RatHeal_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"RatHeal_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RatkinHammerer": {
+		"Abilities": {
+			"RatkinHammer": {},
+			"RatkinHammerStun": {},
+			"RatkinReverberatingStrike70": {
+				"Cue": "Opener"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RatkinNecromancer": {
+		"Abilities": {
+			"RatkinDarknessBolt": {},
+			"RatkinDeathsHold": {
+				"Cue": "Opener"
+			},
+			"RatkinLifeSteal": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"RatkinNecromancer_Boss_RatkinKing": {
+		"Abilities": {
+			"RatkinBossWaveOfDarkness": {},
+			"RatkinDarknessBolt": {},
+			"RatkinDeathsHold": {
+				"Cue": "Opener"
+			},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"RatkinPoisoner": {
+		"Abilities": {
+			"RatkinBurstPoison": {},
+			"RatkinToxinBlast": {
+				"Cue": "DontClose",
+				"MinRange": 6.01
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"RatkinSkeletonElectricityMage": {
+		"Abilities": {
+			"RatkinUndeadElectricityA": {},
+			"RatkinUndeadElectricityB": {},
+			"RatkinUndeadElectricityBurst": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"RatkinSwordsman": {
+		"Abilities": {
+			"RatkinSwordFinisher": {},
+			"RatkinSwordPierce": {},
+			"RatkinSwordSlash": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"ReboundAura1": {
+		"Abilities": {
+			"ReboundAura1": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"RedGuardianCrystal": {
+		"Abilities": {
+			"RedCrystalBlast": {
+				"Cue": "DontClose"
+			},
+			"RedCrystalBurst": {
+				"Cue": "DontClose"
+			},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"MinDelayBetweenAbilities": 1.2,
+		"MobilityType": "Turret"
+	},
+	"Rhino": {
+		"Abilities": {
+			"RhinoHorn": {},
+			"RhinoRage": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"RhinoGuardian": {
+		"Abilities": {
+			"RhinoBossRage": {},
+			"RhinoFireball": {},
+			"RhinoHorn": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"SandWorm": {
+		"Abilities": {
+			"SlugBite": {},
+			"SlugWebDebuff": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"SandstormPet": {
+		"Abilities": {
+			"SandstormPetBash1": {
+				"MaxLevel": 24
+			},
+			"SandstormPetBash2": {
+				"MaxLevel": 39,
+				"MinLevel": 25
+			},
+			"SandstormPetBash3": {
+				"MaxLevel": 54,
+				"MinLevel": 40
+			},
+			"SandstormPetBash4": {
+				"MaxLevel": 69,
+				"MinLevel": 55
+			},
+			"SandstormPetBash5": {
+				"MaxLevel": 84,
+				"MinLevel": 70
+			},
+			"SandstormPetBash6": {
+				"MaxLevel": 99,
+				"MinLevel": 85
+			},
+			"SandstormPetBash7": {
+				"MinLevel": 100
+			},
+			"SandstormPetSmash1": {
+				"MaxLevel": 24
+			},
+			"SandstormPetSmash2": {
+				"MaxLevel": 39,
+				"MinLevel": 25
+			},
+			"SandstormPetSmash3": {
+				"MaxLevel": 54,
+				"MinLevel": 40
+			},
+			"SandstormPetSmash4": {
+				"MaxLevel": 69,
+				"MinLevel": 55
+			},
+			"SandstormPetSmash5": {
+				"MaxLevel": 84,
+				"MinLevel": 70
+			},
+			"SandstormPetSmash6": {
+				"MaxLevel": 99,
+				"MinLevel": 85
+			},
+			"SandstormPetSmash7": {
+				"MinLevel": 100
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"ScorpionDefender": {
+		"Abilities": {
+			"ScorpionRoot": {
+				"Cue": "Opener"
+			},
+			"SmallishScorpionClawA": {},
+			"SmallishScorpionClawB": {},
+			"SmallishScorpionSting": {},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh Invulnerable Until Knocked Back",
+		"Strategy": "Melee"
+	},
+	"Scray": {
+		"Abilities": {
+			"ScrayBite": {},
+			"ScrayStab1": {
+				"MaxLevel": 34
+			},
+			"ScrayStab2": {
+				"MaxLevel": 49,
+				"MinLevel": 35
+			},
+			"ScrayStab3": {
+				"MaxLevel": 59,
+				"MinLevel": 50
+			},
+			"ScrayStab4": {
+				"MaxLevel": 69,
+				"MinLevel": 60
+			},
+			"ScrayStab5": {
+				"MaxLevel": 79,
+				"MinLevel": 70
+			},
+			"ScrayStab6": {
+				"MinLevel": 80
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"SecurityGolem": {
+		"Abilities": {
+			"MonsterGolemBombToss": {},
+			"MonsterGolemPunch": {
+				"Cue": "DontClose"
+			},
+			"MonsterGolemRageAcidToss": {}
+		},
+		"MinDelayBetweenAbilities": 2,
+		"Strategy": "Melee"
+	},
+	"SentientRubywallCrystal": {
+		"Abilities": {
+			"CrystalBolt": {},
+			"CrystalHeal": {}
+		},
+		"Strategy": "Ranged"
+	},
+	"Shark": {
+		"Abilities": {
+			"SharkBite": {},
+			"SharkMegaBite": {},
+			"SharkOpener": {
+				"Cue": "Opener"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"ShowerSlime": {
+		"Abilities": {
+			"BossSlimeKick2": {},
+			"BossSlimeKick2B": {},
+			"BossSlime_SummonSlime7Elite": {}
+		},
+		"Comment": "Self-Replicating",
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"SkeletonArcher": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadArrow1": {},
+			"UndeadArrow2": {},
+			"UndeadOmegaArrow": {}
+		}
+	},
+	"SkeletonArcherStationary": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadArrow1": {
+				"Cue": "DontClose"
+			},
+			"UndeadArrow2": {
+				"Cue": "DontClose"
+			},
+			"UndeadOmegaArrow": {
+				"Cue": "DontClose"
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"SkeletonDarknessMage": {
+		"Abilities": {
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadBoneWhirlwind": {},
+			"UndeadDarknessBall": {}
+		}
+	},
+	"SkeletonDistanceArcher": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadArrow1": {
+				"MinRange": 5
+			},
+			"UndeadArrow2": {
+				"MinRange": 5
+			},
+			"UndeadOmegaArrow": {
+				"MinRange": 5
+			}
+		}
+	},
+	"SkeletonGrappleArcher": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadArrow2": {},
+			"UndeadGrappleArrow1": {
+				"Cue": "Opener"
+			},
+			"UndeadOmegaArrow": {}
+		}
+	},
+	"SkeletonIceMage": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadFreezeBall": {
+				"MinRange": 10
+			},
+			"UndeadIceBall1": {
+				"MinRange": 10
+			}
+		}
+	},
+	"SkeletonLunger": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadLunge": {},
+			"UndeadPin": {
+				"Cue": "Opener"
+			},
+			"UndeadRedirect": {}
+		}
+	},
+	"SkeletonMage": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadFireballA": {
+				"MinRange": 10
+			},
+			"UndeadFireballB": {
+				"MaxLevel": 25,
+				"MinRange": 10
+			},
+			"UndeadFireballB2": {
+				"MinLevel": 26,
+				"MinRange": 10
+			}
+		}
+	},
+	"SkeletonMageBigHeadBoss": {
+		"Abilities": {
+			"BigHeadCurseball": {},
+			"UndeadFireballA": {},
+			"UndeadFireballA2": {}
+		}
+	},
+	"SkeletonMageStationaryBoss": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadFireballLongA": {},
+			"UndeadFireballLongB": {
+				"MaxLevel": 25
+			},
+			"UndeadFireballLongB2": {
+				"MinLevel": 26
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"SkeletonMageUrsula": {
+		"Abilities": {
+			"UrsulaRage": {},
+			"UrsulaSummon": {}
+		}
+	},
+	"SkeletonMageUrsulaDecoy": {
+		"Abilities": {
+			"UrsulaFireball1": {},
+			"UrsulaFireball1B": {},
+			"UrsulaFireball2": {}
+		}
+	},
+	"SkeletonMageUrsulaIceDecoy": {
+		"Abilities": {
+			"UrsulaIceball1": {},
+			"UrsulaIceball1B": {},
+			"UrsulaIceball2": {}
+		}
+	},
+	"SkeletonSuicideArcher": {
+		"Abilities": {
+			"UndeadArrow1": {},
+			"UndeadSelfDestruct": {}
+		}
+	},
+	"SkeletonTank": {
+		"Abilities": {
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadPhysicalShield": {},
+			"UndeadSword1": {},
+			"UndeadSword2": {}
+		},
+		"Strategy": "Melee"
+	},
+	"SkeletonThug": {
+		"Abilities": {
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadSword1B": {},
+			"UndeadSword2": {},
+			"UndeadSwordAngry": {}
+		},
+		"Strategy": "Melee"
+	},
+	"SkeletonWarrior": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"UndeadSword1": {},
+			"UndeadSword2": {},
+			"UndeadSwordAngry": {}
+		},
+		"Strategy": "Melee"
+	},
+	"SkeletonWarriorNamelessGuardian": {
+		"Abilities": {
+			"UndeadLightningSmite": {
+				"Cue": "Perching"
+			},
+			"UndeadMegaSword1": {},
+			"UndeadMegaSword2": {},
+			"UndeadMegaSwordAngry": {}
+		},
+		"Strategy": "Melee"
+	},
+	"SkeletonWarriorNamelessGuardian_BossGauntlet": {
+		"Abilities": {
+			"UndeadMegaSword1": {},
+			"UndeadMegaSword2": {},
+			"UndeadMegaSwordAngry": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Slime": {
+		"Abilities": {
+			"SlimeBite": {
+				"MaxLevel": 25
+			},
+			"SlimeBiteB": {
+				"MinLevel": 26
+			},
+			"SlimeKick": {},
+			"SlimeKickB": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"SlimeSpawner": {
+		"Abilities": {
+			"SlimeKick": {},
+			"SlimeKickB": {},
+			"Slime_SummonSlime": {
+				"MaxLevel": 49
+			},
+			"Slime_SummonSlime6": {
+				"MaxLevel": 89,
+				"MinLevel": 50
+			},
+			"Slime_SummonSlime9": {
+				"MinLevel": 90
+			}
+		},
+		"Comment": "Self-Replicating",
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"SlimeSpitter": {
+		"Abilities": {
+			"SlimeSpit": {},
+			"SlimeSuperSpit": {}
+		}
+	},
+	"SmallishScorpion": {
+		"Abilities": {
+			"SmallishScorpionClawA": {},
+			"SmallishScorpionClawB": {},
+			"SmallishScorpionSting": {},
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh Invulnerable Until Knocked Back",
+		"Strategy": "Melee"
+	},
+	"SmallishScorpionDemonic": {
+		"Abilities": {
+			"SmallishScorpionClawA": {},
+			"SmallishScorpionClawB": {},
+			"SmallishScorpionFireSting": {},
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Comment": "Nigh Invulnerable Until Knocked Back",
+		"Strategy": "Melee"
+	},
+	"Snail": {
+		"Abilities": {
+			"SnailRage": {
+				"MaxLevel": 30,
+				"MinLevel": 1
+			},
+			"SnailRageB": {
+				"MaxLevel": 40,
+				"MinLevel": 31
+			},
+			"SnailRageC": {
+				"MaxLevel": 500,
+				"MinLevel": 41
+			},
+			"SnailStrike": {},
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Spider": {
+		"Abilities": {
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			},
+			"SpiderBite": {},
+			"SpiderInject": {},
+			"SpiderKill": {
+				"MaxLevel": 20,
+				"MinLevel": 1
+			},
+			"SpiderKill2": {
+				"MaxLevel": 40,
+				"MinLevel": 21
+			},
+			"SpiderKill3": {
+				"MaxLevel": 500,
+				"MinLevel": 41
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"SpiderIncubator": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderIncubate1": {
+				"MaxLevel": 20
+			},
+			"SpiderIncubate2": {
+				"MaxLevel": 89,
+				"MinLevel": 21
+			},
+			"SpiderIncubate90": {
+				"MinLevel": 90
+			},
+			"SpiderInject": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Spider_Acid": {
+		"Abilities": {
+			"AcidBall1": {
+				"MaxLevel": 25,
+				"MinRange": 10
+			},
+			"AcidBall2": {
+				"MinLevel": 26,
+				"MinRange": 10
+			},
+			"AcidExplosion1": {
+				"MaxLevel": 25
+			},
+			"AcidExplosion2": {
+				"MinLevel": 26
+			},
+			"AcidSpew1": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		}
+	},
+	"Spider_Boss0": {
+		"Abilities": {
+			"AcidBall1": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderBossFreePin": {},
+			"SpiderInject": {},
+			"SpiderKill2": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Spider_Boss1": {
+		"Abilities": {
+			"AcidBall1": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderBossFreePin": {},
+			"SpiderInject": {},
+			"SpiderKill3": {}
+		},
+		"Comment": "Damage-Reflecting",
+		"Strategy": "Melee"
+	},
+	"Spider_Boss_StormSpider": {
+		"Abilities": {
+			"AcidBall1": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderBossFreePin": {},
+			"SpiderInject": {},
+			"SpiderKill2": {}
+		},
+		"Comment": "Auto-Heals Unless On Fire",
+		"Strategy": "Melee"
+	},
+	"Spider_Boss_TheProblemSpider": {
+		"Abilities": {
+			"AcidBall1": {
+				"Cue": "Perching"
+			},
+			"SpiderBite_ProblemSpider": {},
+			"SpiderBossFreePin": {},
+			"SpiderInject": {},
+			"SpiderKill3": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Spider_Stunner": {
+		"Abilities": {
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			},
+			"SpiderBite": {},
+			"SpiderPin": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Spider_Tornado": {
+		"Abilities": {
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			},
+			"SpiderBite": {},
+			"SpiderPin": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Spider_Venom0": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SpiderBite": {},
+			"SpiderInject": {},
+			"SpiderKill": {}
+		},
+		"Strategy": "Melee"
+	},
+	"SpikeTrap": {
+		"Abilities": {
+			"SpikeTrapReusable": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"SprigganWeed": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SprigganRageBurst": {},
+			"SprigganWeedBite": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"SpyPortal": {
+		"Abilities": {
+			"SpyPortalZap": {},
+			"SpyPortalZap2": {}
+		}
+	},
+	"Steak": {
+		"Abilities": {
+			"SteakBite": {},
+			"SteakBurn": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"StrigaDrainer": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"StrigaClawA": {},
+			"StrigaClawB": {},
+			"StrigaReap": {
+				"MaxLevel": 64
+			},
+			"StrigaReap2": {
+				"MinLevel": 65
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"StrigaMage": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"StrigaBuff": {
+				"Cue": "Heal",
+				"CueVal": 1
+			},
+			"StrigaClawA": {
+				"Cue": "DontClose"
+			},
+			"StrigaClawB": {
+				"Cue": "DontClose"
+			},
+			"StrigaFireBreath": {}
+		}
+	},
+	"StunTrap": {
+		"Abilities": {
+			"StunTrapExplode": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"SummonedDeer_Pet": {
+		"Abilities": {
+			"DeerAntlerSlash": {},
+			"DeerFrontKick": {},
+			"DeerRageKick": {}
+		},
+		"Strategy": "Melee"
+	},
+	"SunStatue": {
+		"Abilities": {
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"SunStatueBolt": {},
+			"SunStatueBurst": {}
+		},
+		"Strategy": "Ranged",
+		"Swimming": true
+	},
+	"TauntyFireWall": {
+		"Abilities": {
+			"FireWallAttackTaunty1": {},
+			"FireWallDotAttackTaunty1": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"Tentakiller": {
+		"Abilities": {
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TentakillerBite": {
+				"Cue": "DontClose"
+			},
+			"TentakillerRage": {},
+			"TentakillerSpit": {
+				"Cue": "Perching"
+			},
+			"TentakillerTouch": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"TimothyElerimon": {
+		"Abilities": {
+			"NpcBlockingStance": {},
+			"NpcDoubleHitCurse": {},
+			"NpcHeadcracker": {},
+			"NpcSmash": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Tornado": {
+		"Abilities": {
+			"FaeLightningSmite": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TornadoFling": {},
+			"TornadoJolt1": {},
+			"TornadoToss": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"TornadoPet": {
+		"Abilities": {
+			"TornadoPetFling": {},
+			"TornadoPetSmash1": {},
+			"TornadoPetToss": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Tornado_TheFog": {
+		"Abilities": {
+			"FaeLightningSmite": {
+				"Cue": "Perching"
+			},
+			"TheFogCurse": {},
+			"TornadoFling": {},
+			"TornadoJolt1": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"Tornado_Zephyron": {
+		"Abilities": {
+			"FaeLightningSmite": {
+				"Cue": "Perching"
+			},
+			"SpecialBuffIndirectProtection": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TornadoBurstFling": {},
+			"TornadoJolt2": {},
+			"TornadoToss": {}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"TotalHorror": {
+		"Abilities": {
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TotalHorrorAttack": {},
+			"TotalHorrorHeal": {},
+			"TotalHorrorStretch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TrainingGolemBasic": {
+		"Abilities": {
+			"TrainingGolemPunch": {},
+			"TrainingGolemStun": {}
+		}
+	},
+	"TrainingGolemFire": {
+		"Abilities": {
+			"TrainingGolemFireBreath": {},
+			"TrainingGolemFireBurst": {},
+			"TrainingGolemPunch": {}
+		}
+	},
+	"TrainingGolemHealer": {
+		"Abilities": {
+			"TrainingGolemHeal": {
+				"Cue": "Heal",
+				"CueVal": 15
+			},
+			"TrainingGolemPunch": {}
+		}
+	},
+	"TrapRoot": {
+		"Abilities": {
+			"RootTrap": {}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MobilityType": "Immobile"
+	},
+	"Treant": {
+		"Abilities": {
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TreantDoT1": {
+				"Favorite": true,
+				"MinLevel": 40
+			},
+			"TreantSlashA": {},
+			"TreantSlashB": {},
+			"TreantStomp": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TreantBlesser": {
+		"Abilities": {
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TreantBlessings": {},
+			"TreantDoT1": {
+				"Favorite": true,
+				"MinLevel": 40
+			},
+			"TreantSlashA": {},
+			"TreantSlashB": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Triffid": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TriffidClawA": {},
+			"TriffidClawB": {},
+			"TriffidShot": {
+				"Cue": "Perching"
+			},
+			"TriffidSpore": {},
+			"TriffidTongue": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TriffidElite": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TriffidClawA": {},
+			"TriffidClawB": {},
+			"TriffidShot": {
+				"Cue": "Perching"
+			},
+			"TriffidSpore": {},
+			"TriffidTongueElite": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TrollPaladin": {
+		"Abilities": {
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TrollHeal": {
+				"MaxLevel": 50
+			},
+			"TrollHeal2": {
+				"MinLevel": 51
+			},
+			"TrollSwordA": {},
+			"TrollSwordB": {}
+		},
+		"Comment": "Auto-Heals Unless On Fire",
+		"Strategy": "Melee"
+	},
+	"TrollWarrior": {
+		"Abilities": {
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TrollClubA": {},
+			"TrollClubB": {},
+			"TrollKnockdown": {}
+		},
+		"Comment": "Auto-Heals Unless On Fire",
+		"Strategy": "Melee"
+	},
+	"TurkeyBombDarkness": {
+		"Abilities": {
+			"TurkeyBombDarkness": {},
+			"TurkeyBombPeck": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TurkeyBombFire": {
+		"Abilities": {
+			"TurkeyBombFire": {},
+			"TurkeyBombPeck": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TurkeyBombPoison": {
+		"Abilities": {
+			"TurkeyBombPeck": {},
+			"TurkeyBombPoison": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TurkeyBoss": {
+		"Abilities": {
+			"GobblejacksRebuke": {},
+			"TraumaticGobble": {
+				"MinRange": 10
+			},
+			"TurkeyBombPeck": {},
+			"TurkeyBombSummon": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TurkeyGuard": {
+		"Abilities": {
+			"TraumaticGobble": {},
+			"TurkeyBombPeck": {}
+		},
+		"Strategy": "Melee"
+	},
+	"TurretCrystal": {
+		"Abilities": {
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TurretCrystalZap": {
+				"Cue": "DontClose"
+			},
+			"TurretCrystalZap2": {
+				"Cue": "DontClose"
+			}
+		},
+		"MinDelayBetweenAbilities": 1.2,
+		"MobilityType": "Turret"
+	},
+	"TurretCrystalFragile": {
+		"Abilities": {
+			"SpecialBuffElementalResistance": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"TurretCrystalZap": {
+				"Cue": "DontClose"
+			},
+			"TurretCrystalZap2": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Destroyed By Knockback",
+		"MinDelayBetweenAbilities": 1.2,
+		"MobilityType": "Turret"
+	},
+	"TurretWasp": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WaspRageBurst": {},
+			"WaspShoot": {},
+			"WaspSlowA": {},
+			"WaspSlowB": {
+				"Cue": "Opener"
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"TurretWasp_Pet": {
+		"Abilities": {
+			"WaspBlast_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 14
+			},
+			"WaspBlast_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29,
+				"MinLevel": 15
+			},
+			"WaspBlast_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 44,
+				"MinLevel": 30
+			},
+			"WaspBlast_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 59,
+				"MinLevel": 45
+			},
+			"WaspBlast_Pet5": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 74,
+				"MinLevel": 60
+			},
+			"WaspBlast_Pet6": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 75
+			},
+			"WaspBlast_Pet7": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			},
+			"WaspShoot_Pet": {},
+			"WaspSlow_Pet1": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 29
+			},
+			"WaspSlow_Pet2": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 49,
+				"MinLevel": 30
+			},
+			"WaspSlow_Pet3": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 69,
+				"MinLevel": 50
+			},
+			"WaspSlow_Pet4": {
+				"Cue": "ServerRequested",
+				"MaxLevel": 89,
+				"MinLevel": 70
+			},
+			"WaspSlow_Pet5": {
+				"Cue": "ServerRequested",
+				"MinLevel": 90
+			}
+		},
+		"Description": "Ranged Piercing and Ranged Slow",
+		"Flying": true
+	},
+	"VampireDenSpikeTrap": {
+		"Abilities": {
+			"VampireDenSpikeTrap": {}
+		},
+		"MobilityType": "Immobile"
+	},
+	"VampiricThrall": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"ThrallKick": {},
+			"ThrallSuckerPunch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"VanityPet": {
+		"Abilities": {
+			"VanityPeck": {}
+		}
+	},
+	"Viper": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"ViperBite": {},
+			"ViperRageBite": {},
+			"ViperSpitPoison": {
+				"MinRange": 4
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"Watcher": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WatcherAcidball": {},
+			"WatcherFireball": {},
+			"WatcherSlap": {
+				"Cue": "DontClose"
+			}
+		},
+		"Flying": true
+	},
+	"Watcher_Druid": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WatcherAcidball": {},
+			"WatcherFireball": {},
+			"WatcherSlap": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Nigh-Invulnerable Until Rotskinned",
+		"Flying": true
+	},
+	"Watcher_Elite": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WatcherAcidball": {},
+			"WatcherFireball": {},
+			"WatcherSlap": {
+				"Cue": "DontClose"
+			}
+		},
+		"Comment": "Half-Invulnerable Until Rotskinned",
+		"Flying": true
+	},
+	"WebTrap": {
+		"Abilities": {
+			"WebStick": {}
+		},
+		"MobilityType": "Immobile",
+		"UncontrolledPet": true
+	},
+	"Werewolf": {
+		"Abilities": {
+			"AnimalBite": {},
+			"MonsterWerewolfHowl": {},
+			"MonsterWerewolfPackAttack": {
+				"MaxLevel": 60
+			},
+			"MonsterWerewolfPackAttack2": {
+				"MinLevel": 61
+			},
+			"MonsterWerewolfPouncingRake": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"WerewolfArcher": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WerewolfArrow1": {
+				"MaxRange": 30
+			},
+			"WerewolfArrow2": {
+				"MaxRange": 30
+			},
+			"WerewolfOmegaArrow": {
+				"MaxRange": 40
+			}
+		}
+	},
+	"WerewolfArcherStationary": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WerewolfArrow1": {
+				"Cue": "DontClose"
+			},
+			"WerewolfArrow2": {
+				"Cue": "DontClose"
+			},
+			"WerewolfOmegaArrow": {
+				"Cue": "DontClose"
+			}
+		},
+		"MobilityType": "Turret"
+	},
+	"WerewolfBoss": {
+		"Abilities": {
+			"AnimalBite": {},
+			"BleddynHowl": {},
+			"MonsterWerewolfPackAttack": {
+				"MaxLevel": 60
+			},
+			"MonsterWerewolfPackAttack2": {
+				"MinLevel": 61
+			},
+			"MonsterWerewolfPouncingRake": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"WerewolfIllusionist": {
+		"Abilities": {
+			"AnimalBite": {},
+			"MonsterWerewolfPackAttack": {
+				"MaxLevel": 60
+			},
+			"MonsterWerewolfPackAttack2": {
+				"MinLevel": 61
+			},
+			"MonsterWerewolfPouncingRake": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"Werewolf_Summon_Opener": {
+				"Cue": "Opener"
+			},
+			"Werewolf_Summon_Rage": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"WerewolfSwordsman": {
+		"Abilities": {
+			"SpecialBuffWariness1": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 25
+			},
+			"SpecialBuffWariness2": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 50,
+				"MinLevel": 26
+			},
+			"SpecialBuffWariness3": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MaxLevel": 75,
+				"MinLevel": 51
+			},
+			"SpecialBuffWariness4": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3,
+				"MinLevel": 76
+			},
+			"WerewolfSword1": {},
+			"WerewolfSword2": {},
+			"WerewolfSwordStun": {}
+		},
+		"Strategy": "Melee",
+		"Swimming": true
+	},
+	"WinterCourtFey": {
+		"Abilities": {
+			"FaeLightningSmite": {
+				"Cue": "Perching"
+			},
+			"FaeSwordA": {},
+			"FaeSwordB": {},
+			"FaeSwordKill": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true,
+		"Strategy": "Melee"
+	},
+	"WinterCourtIceMage": {
+		"Abilities": {
+			"FaeColdSphere": {},
+			"FaeIceSpearA": {},
+			"FaeIceSpearB": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"WinterCourtIceWitch": {
+		"Abilities": {
+			"FaeIceSpearA": {},
+			"FaeIceSpearB": {},
+			"FaeTornadoOpener": {},
+			"FaeTornadoRage": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"WinterCourtIceWitchBoss": {
+		"Abilities": {
+			"FaeIceSpearA": {},
+			"FaeIceSpearB": {},
+			"FaeTornadoOpenerBoss": {},
+			"FaeTornadoRageBoss": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			}
+		},
+		"Flying": true
+	},
+	"Worg": {
+		"Abilities": {
+			"AnimalClaw": {},
+			"WorgBite": {},
+			"WorgOmegaBite": {}
+		},
+		"Strategy": "Melee"
+	},
+	"Worghest": {
+		"Abilities": {
+			"BarghestBiteA": {},
+			"BarghestBiteB": {},
+			"SpecialBuffUnstoppable": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WorghestDebuff": {}
+		},
+		"Strategy": "Melee"
+	},
+	"WorldBoss_Ciervos": {
+		"Abilities": {
+			"CiervosDarknessBomb": {},
+			"WorldBossCiervosNightmareHoof": {}
+		},
+		"Strategy": "Melee"
+	},
+	"WorldBoss_Claudia": {
+		"Abilities": {
+			"WorldBossClaudiaBlizzard": {},
+			"WorldBossClaudiaIceSpear": {},
+			"WorldBossClaudiaTundraSpikes": {}
+		}
+	},
+	"WorldBoss_Karnag": {
+		"Abilities": {
+			"AnimalBite": {},
+			"MonsterWerewolfPackAttack": {
+				"MaxLevel": 60
+			},
+			"MonsterWerewolfPackAttack2": {
+				"MinLevel": 61
+			},
+			"MonsterWerewolfPouncingRake": {},
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WorldBossKarnag_Opener": {},
+			"WorldBossKarnag_Rage": {
+				"Cue": "Opener"
+			}
+		},
+		"Strategy": "Melee"
+	},
+	"Worm": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WormBite1": {},
+			"WormInfect1": {},
+			"WormShove1": {},
+			"WormSpit1": {}
+		}
+	},
+	"WormQueen": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"WormBite1": {
+				"Cue": "DontClose"
+			},
+			"WormBossAcidBurst": {
+				"Cue": "DontClose"
+			},
+			"WormBossSpit": {},
+			"WormSpit2": {}
+		},
+		"MobilityType": "Turret"
+	},
+	"YetiScreamer": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"YetiBarrage": {},
+			"YetiBoulderThrow": {
+				"Cue": "Perching"
+			},
+			"YetiPunch": {},
+			"YetiRoarStun": {}
+		},
+		"Strategy": "Melee"
+	},
+	"YetiShaman": {
+		"Abilities": {
+			"SpecialBuffRegeneration": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"YetiColdOrb": {},
+			"YetiFrostRing": {},
+			"YetiIceSpear": {}
+		}
+	},
+	"YetiTank": {
+		"Abilities": {
+			"SpecialBuffArmor": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"YetiBoulderThrow": {
+				"Cue": "Perching"
+			},
+			"YetiDebuff": {},
+			"YetiEncase": {
+				"Cue": "Heal",
+				"CueVal": 50
+			},
+			"YetiPunch": {}
+		},
+		"Strategy": "Melee"
+	},
+	"YetiThrower": {
+		"Abilities": {
+			"SpecialBuffNextAttacks": {
+				"Cue": "SpecialBuff",
+				"CueVal": 3
+			},
+			"YetiBoulderThrow": {},
+			"YetiFlingAway": {
+				"Cue": "DontClose"
+			},
+			"YetiIceBallThrow": {}
+		}
+	}
+}

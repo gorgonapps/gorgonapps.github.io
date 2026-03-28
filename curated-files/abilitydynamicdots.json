@@ -1,0 +1,42 @@
+﻿[
+	{
+		"AttributesThatDelta": [
+			"BOOST_ABILITYDOT_PROJECTILE_POISON"
+		],
+		"DamagePerTick": 0,
+		"DamageType": "Poison",
+		"Duration": 8,
+		"NumTicks": 4,
+		"RequiredAbilityKeywords": [
+			"Projectile",
+			"Attack"
+		],
+		"RequiredActiveSkill": "Druid",
+		"RequiredEffectKeywords": [
+			"TSysProjectilesDealPoisonDoT"
+		],
+		"SpecialRules": [
+			"BuffActivated"
+		]
+	},
+	{
+		"AttributesThatDelta": [
+			"BOOST_ABILITYDOT_BURST_NATURE"
+		],
+		"DamagePerTick": 0,
+		"DamageType": "Nature",
+		"Duration": 8,
+		"NumTicks": 4,
+		"RequiredAbilityKeywords": [
+			"Burst",
+			"Attack"
+		],
+		"RequiredActiveSkill": "Druid",
+		"RequiredEffectKeywords": [
+			"TSysBurstsDealNatureDoT"
+		],
+		"SpecialRules": [
+			"BuffActivated"
+		]
+	}
+]
